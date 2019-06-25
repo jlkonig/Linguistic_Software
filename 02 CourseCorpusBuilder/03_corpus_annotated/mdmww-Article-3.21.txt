@@ -1,0 +1,75 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Breast-cancer/NN/breast-cancer/0 
+3.8/CD/3.8/0 ,/,/,/0 3.19/CD/3.19/0 
+Contact-lenses/NNS/contact-lenses/0 
+3.5/CD/3.5/0 
+Credit-g/NN/credit-g/0 
+3.8/CD/3.8/0 ,/,/,/0 3.19/CD/3.19/0 
+Diabetes/NNS/diabetes/4 
+3.7/CD/3.7/0 ,/,/,/0 3.8/CD/3.8/0 ,/,/,/0 3.19/CD/3.19/0 
+Glass/NN/glass/1 
+3.8/CD/3.8/0 
+Ionosphere/RB/ionosphere/16 
+3.8/CD/3.8/0 ,/,/,/0 3.19/CD/3.19/0 
+Iris/NN/iris/8 
+3.8/CD/3.8/0 ,/,/,/0 3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 ,/,/,/0 3.18/CD/3.18/0 
+Segment-challenge/NN/segment-challenge/0 
+3.8/CD/3.8/0 
+Schizo/NN/schizo/23 
+3.19/CD/3.19/0 
+Supermarket/NN/supermarket/0 
+3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 ,/,/,/0 3.14/CD/3.14/0 
+Vote/NN/vote/2 
+3.11/CD/3.11/0 ,/,/,/0 3.19/CD/3.19/0 
+Weather/NN/weather/1 
+3.2/CD/3.2/0 ,/,/,/0 3.5/CD/3.5/0 ,/,/,/0 3.10/CD/3.10/0 ,/,/,/0 3.12/CD/3.12/0 
+Classifiers/NNS/classifier/0 
+J48/NN/j48/0 
+3.5/CD/3.5/0 ,/,/,/0 3.8/CD/3.8/0 
+JRip/NN/jrip/0 
+3.7/CD/3.7/0 ,/,/,/0 3.8/CD/3.8/0 
+OneR/NN/oner/0 
+3.8/CD/3.8/0 ,/,/,/0 3.11/CD/3.11/0 
+PART/NN/part/1 
+3.7/CD/3.7/0 ,/,/,/0 3.8/CD/3.8/0 
+PRISM/NN/prism/9 
+3.2/CD/3.2/0 ,/,/,/0 3.5/CD/3.5/0 
+ZeroR/NN/zeror/0 
+3.8/CD/3.8/0 
+Metalearners/NNS/metalearners/0 
+ClassificationViaClustering/VBG/classificationviaclustering/0 
+3.18/CD/3.18/0 
+Other/JJ/other/1 learning/VBG/learn/1 schemes/NNS/scheme/3 
+Apriori/NNP/apriori/0 
+3.10/CD/3.10/0 ,/,/,/0 3.11/CD/3.11/0 ,/,/,/0 3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 ,/,/,/0 3.14/CD/3.14/0 
+Cobweb/NN/cobweb/10 
+3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 
+EM/NN/they/1 
+3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 ,/,/,/0 3.19/CD/3.19/0 
+SimpleKMeans/NNS/simplekmeans/0 
+3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 ,/,/,/0 3.18/CD/3.18/0 ,/,/,/0 3.19/CD/3.19/0 
+XMeans/NNS/xmeans/0 
+3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 ,/,/,/0 3.19/CD/3.19/0 
+Filters/NNS/filter/3 
+AddCluster/NN/addcluster/0 
+3.18/CD/3.18/0 
+Packages/NNS/pack/1 
+ClassificationViaClustering/VBG/classificationviaclustering/0 
+3.19/CD/3.19/0 
+SimpleEducationalLearningSchemes/NNS/simpleeducationallearningschemes/0 
+3.3/CD/3.3/0 
+XMeans/NNS/xmeans/0 
+3.17/CD/3.17/0 
+Plus/CC/plus/1 …/VB/…/0 
+Decision/NNP/decision/2 list/NN/list/1 
+3.5/CD/3.5/0 
+Experimenter/NNP/experiment/3 interface/NN/interface/4 
+3.8/CD/3.8/0 ,/,/,/0 3.19/CD/3.19/0 
+Missing/VBG/miss/1 values/NNS/value/2 
+3.13/CD/3.13/0 
+
+

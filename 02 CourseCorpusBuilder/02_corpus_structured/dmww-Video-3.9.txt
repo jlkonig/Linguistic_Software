@@ -1,0 +1,3 @@
+Decision trees
+Another simple method is to build a decision tree from the training data. Start at the top, with the whole training dataset. Select which attribute to split on first; then create a branch for each of its values. This splits the training data into subsets. Repeat the procedure for each branch, selecting an attribute at each node based on just the instances that reach it. This top-down, recursive, divide-and-conquer strategy is adopted by J48 (aka C4.5), which uses a measure called “information gain” to choose the attribute at each stage.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

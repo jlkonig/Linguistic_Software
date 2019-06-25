@@ -1,0 +1,196 @@
+More benefits of cheating
+Question 1
+Use the Experimenter to evaluate J48 on this reduced data file, with ten 10-fold cross-validations (the default). Note that this is cheating. What classification accuracy is obtained?
+71%
+73%
+75%
+77%
+79%
+---
+Correct answer(s):
+75%
+
+Question 2
+The proper (non-cheating) way is to use the original glass dataset and configure the AttributeSelectedClassifier to use J48 as a classifier and WrapperSubsetEval, configured with J48, as the evaluator.
+Set this up with the Experimenter. It’s a fairly complex process: keep it as simple as possible by using default options for everything else (including BestFirst as the search method).
+What classification accuracy is obtained?
+70%
+72%
+74%
+76%
+78%
+---
+Correct answer(s):
+70%
+
+Question 3
+Does crime pay in this case?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+Too right! Criminals get 75%; honest people get only 70%.
+
+Question 4
+Repeat the whole performance using Naive Bayes instead of J48.
+First use the Explorer’s Select attributes panel to determine the subset of attributes of the glass dataset that WrapperSubsetEval selects using Naive Bayes as the classifier and default parameters for everything else (including BestFirst as the search method).
+What are the attributes that Naive Bayes selects?
+Select all the answers you think are correct.
+RI
+Na
+Mg
+Al
+Si
+K
+Ca
+Ba
+Fe
+---
+Correct answer(s):
+RI
+Al
+
+Question 5
+Create a reduced data file with just these attributes, along with Type, and use the Experimenter to evaluate Naive Bayes on it, with ten 10-fold cross-validations (the default). What classification accuracy is obtained?
+50%
+55%
+58%
+59%
+---
+Correct answer(s):
+59%
+
+Question 6
+That’s cheating, of course.
+The proper way is to configure the AttributeSelectedClassifier to use Naive Bayes as the classifier and WrapperSubsetEval, again with Naive Bayes, as the evaluator (use default options for everything else).
+Set this up with the Experimenter, using the original glass dataset. What classification accuracy is obtained?
+50%
+55%
+58%
+59%
+---
+Correct answer(s):
+58%
+
+Question 7
+Does crime pay in this case?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+Though it doesn’t pay much: criminals get 59% whereas the rest of us get 58%.
+
+Question 8
+Repeat the whole performance with IBk instead of Naive Bayes. Using the Explorer’s Select attributes panel as before, what are the attributes that IBk selects?
+Select all the answers you think are correct.
+RI
+Na
+Mg
+Al
+Si
+K
+Ca
+Ba
+Fe
+---
+Correct answer(s):
+RI
+Mg
+Al
+K
+Ca
+Ba
+
+Question 9
+Use the Experimenter to evaluate IBk on a reduced data file with just these attributes, with ten 10-fold cross-validations (the default). What classification accuracy is obtained?
+Error
+63%
+78%
+81%
+---
+Correct answer(s):
+78%
+---
+Feedback incorrect:
+Make sure that you include the attribute “type”.
+
+Question 10
+Use the Experimenter to do it the proper way, configuring the AttributeSelectedClassifier to use IBk as the classifier and WrapperSubsetEval, again with IBk, as the evaluator (use default options for everything else).
+Set this up with the Experimenter, using the original glass dataset.
+What classification accuracy is obtained?
+36%
+69%
+75%
+81%
+---
+Correct answer(s):
+75%
+
+Question 11
+Does crime pay in this case?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+You bet! 78% vs 75%.
+
+Question 12
+Using a classifier on a reduced dataset whose attributes were selected by a different classifier is also cheating, because again the data in the test set is used to determine the attribute set. However, in this case the crime is far less likely to pay off.
+Use the Experimenter to determine the accuracy of J48 on the version of the dataset reduced to include just the attributes selected by Naive Bayes, that is, {RI, Al}. What is it?
+60%
+62%
+64%
+66%
+---
+Correct answer(s):
+62%
+
+Question 13
+Is this greater than the accuracy of J48 on the original dataset?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+J48 yields 68% on the original dataset, evaluated using the Experimenter with default parameters. The cheaters lose!
+
+Question 14
+Use the Experimenter to determine the accuracy of Naive Bayes on the version of the dataset reduced to include just the attributes selected by J48, that is, {RI, Na, Mg, Ca, Ba}. What is it?
+45%
+59%
+62%
+63%
+---
+Correct answer(s):
+45%
+
+Question 14
+Use the Experimenter to determine the accuracy of Naive Bayes on the version of the dataset reduced to include just the attributes selected by J48, that is, {RI, Na, Mg, Ca, Ba}. What is it?
+45%
+59%
+62%
+63%
+---
+Correct answer(s):
+
+Question 15
+Is this greater than the accuracy of Naive Bayes on the original dataset?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+Naive Bayes yields 49% on the original dataset, evaluated using the Experimenter with default parameters. The cheaters lose again!

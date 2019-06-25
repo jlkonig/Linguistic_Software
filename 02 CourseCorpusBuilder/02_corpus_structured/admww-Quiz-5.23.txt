@@ -1,0 +1,268 @@
+Post-course assessment 
+Question 1
+The Hoeffding tree classifier works well for larger datasets, but for very small datasets you’d expect it to be outperformed by J48.
+Use the Explorer to compare bagged J48 and bagged Hoeffding trees on datasets with 200, 400, 600, 800, 1000 instances from the LED24 data generator, evaluated by 10-fold cross-validation. (For the Hoeffding tree algorithm, use Weka’s trees.HoeffdingTree.) The reason for the bagging is to smooth the small-data result for these essentially unstable classifiers.
+At what point do Hoeffding trees begin to outperform J48, in terms of the percentage of correctly classified instances?
+200 instances
+400 instances
+600 instances
+800 instances
+1000 instances
+---
+Correct answer(s):
+600 instances
+
+Question 2
+In MOA, set up Prequential evaluation and the BasicClassificationPerformanceEvaluator, with a WaveformGenerator stream of 1,000,000 instances, and evaluate:
+A: Naive Bayes
+B: Hoeffding Tree
+C: Hoeffding Option Tree
+D: Hoeffding Adaptive Tree
+How does their performance compare, in terms of final mean accuracy? (Note: “Mean” accuracy, not “Current” accuracy.)
+A < C < D < B
+A < D < B < C
+B < D < C < A
+C < B < A < D
+D < A < B < C
+---
+Correct answer(s):
+A < D < B < C
+
+Question 3
+The breast-cancer.arff dataset  is unusual in that it’s very hard to rival the performance of J48, which gets 75.5% accuracy, evaluated using 10-fold cross-validation. For example, SMO gets 69.6%; LibSVM gets 70.6%.
+Use Weka’s GridSearch meta-classifier (in package gridSearch) to optimize the Accuracy (N.B. this is not the default evaluation measure) of LibSVM by varying the cost (X property) and gamma (Y property) parameters over the range , , , , , , , , , . You should get an accuracy of 74.5%.
+What are the values of the cost and gamma parameters that GridSearch outputs?
+Select all the answers you think are correct.
+cost = –2
+cost = 0.25
+cost = 1
+cost = 2
+gamma = –2
+gamma = 0.25
+gamma = 1
+gamma = 2
+---
+Correct answer(s):
+cost = 2
+gamma = 0.25
+
+Question 4
+Load the glass.arff dataset into the Weka Explorer and use R to find which attribute (excluding Type) has the largest inter-quartile range.
+(Hint: R was used to find inter-quartile ranges in the Week 3 Quiz Using the Explorer’s R console.)
+What is the attribute?
+RI
+Na
+Mg
+Al
+Si
+K
+Ca
+Ba
+Fe
+---
+Correct answer(s):
+Mg
+
+Question 5
+From the Weka R console, use ggplot2 to plot kernel density estimates for the attribute K in the glass dataset, simultaneously for all the class values, by giving each type of glass a different color. (Hint: include color=Type as one of the arguments of the aesthetics function.)
+Increase the width of the kernels by setting the adjust parameter to 5 in the call to geom_density().
+Which class exhibits the highest peak in density?
+build wind float
+build wind non-float
+vehic wind float
+vehic wind non-float
+containers
+tableware
+headlamps
+---
+Correct answer(s):
+build wind non-float
+
+Question 6
+Perform a 10-fold cross-validation with R’s implementation of the nearest-neighbor classifier, which is in Weka’s MLRClassifier and called classif.knn, on the iris.arff data.
+Set the number of nearest neighbors to 5 by entering k=5 into the learnerParams field.
+How many instances are incorrectly classified?
+1
+2
+3
+4
+5
+6
+7
+---
+Correct answer(s):
+7
+
+Question 7
+Recall that the best cross-validated accuracy we obtained for the functional MRI neuro-imaging problem in the Quiz at the end of Week 3 was 65.9% (with SMO).
+This is for an 8-class dataset. However, Haxby et al. (2001) evaluated the accuracy of eight 2-class datasets, bottle vs non-bottle, cat vs non-cat, chair vs non-chair, etc.
+In the Weka Explorer, open the Haxby_Subj1_Training.arff dataset (use this version rather than the one you created in the Quiz, because it may differ slightly depending on your operating system).
+Use the MakeIndicator filter to perform Haxby’s evaluation, setting numeric to False to ensure a nominal class. Use SMO for classification, with the usual 10-fold cross-validation. Do this eight times, once for each class value.
+Which classes give the largest percentage accuracies? (There is a tie; check both correct answers.)
+Select all the answers you think are correct.
+bottle
+cat
+chair
+face
+house
+scissors
+scrambledpix
+shoe
+---
+Correct answer(s):
+house
+scrambledpix
+
+Question 8
+Using the Map-Reduce structure, Distributed Weka uses a Voted ensemble as the “Reduce” component for all of the following classifiers except for one. Which one?
+AdaBoostM1
+AttributeSelectedClassifier
+Naive Bayes
+J48
+PART
+SMO
+---
+Correct answer(s):
+Naive Bayes
+
+Question 9
+In the KnowledgeFlow interface, load the “Spark: create an ARFF header” template and create an ARFF header for the glass dataset.
+But first use the Explorer to generate a CSV version of the dataset, and delete the header row.
+Then, in the KnowledgeFlow interface, load the “Spark: create an ARFF header” template and configure the ArffHeaderSparkJob as follows:
+    on the Spark Configuration tab, enter the pathname for the CSV file into the inputFile property;
+    on the ArffHeaderSparkJob tab, set the attributeNames property to a list of the attribute names, clear the attributeNamesFile property, and set the outputHeaderFileName to glass.arff.
+Execute the flow and look at the result in the TextViewer. The mean value of RI is 1.52. What is the mean of Na?
+0.50
+1.44
+2.68
+8.96
+13.41
+72.65
+---
+Correct answer(s):
+13.41
+
+Question 10
+In the KnowledgeFlow interface, load the “Spark: cross-validate two classifiers” template, and simplify it as follows:
+    delete the WekaClassifierEvaluationSparkJob2 and the RandomlyShuffleDataSparkJob
+    make  a “success” connection from the ArffHeaderSparkJob to the WekaClassifierEvaluationSparkJob.
+Run, and check that the percentage of correctly classified instances is 95.6%.
+Configure the ArffHeaderSparkJob to have 1 input slice. What is the percentage of correctly classified instances now?
+95.4%
+95.5%
+95.6%
+98.8%
+99.2%
+99.8%
+---
+Correct answer(s):
+95.4%
+
+Question 11
+In the Explorer, open the vehicles dataset that comes with the imageFilters package that you downloaded when learning to classify images. The problem is to build a car detector and identify which images are misclassified.
+In order to build a car detector, convert from a 3-class to a 2-class problem by using Weka’s MergeTwoValues filter to replace the PLANE and TRAIN classes with a single class.
+Apply the EdgeHistogramFilter to the dataset.
+The goal is to identify misclassified images, so do not remove the filename attribute from the dataset. Instead, use the FilteredClassifier with filter RemoveType and the default type of string (since filename is the only string attribute). Set the classifier to Naive Bayes.
+Under More Options, change Output Predictions from Null to PlainText; then click PlainText and set the attributes field to 1. This prints the filename of the image alongside each prediction.
+Which of these PLANE_TRAIN images are misclassified as CAR?
+Select all the answers you think are correct.
+train1
+train15
+train17
+plane1
+plane15
+plane17
+---
+Correct answer(s):
+train1
+train17
+plane15
+
+Question 12
+The dataset is unbalanced, because there are 40 PLANE_TRAIN images but only 20 CAR images, so it is appropriate to look at the F-Measure instead of the accuracy.
+Repeat the experiment of the previous question with different filters, still using Naive Bayes.
+Which filter achieves the greatest weighted-average F-Measure?
+AutoColorCorrelogramFilter
+BinaryPatternsPyramidFilter
+ColorLayoutFilter
+EdgeHistogramFilter
+FCTHFilter
+FuzzyOpponentHistogramFilter
+GaborFilter
+JpegCoefficientFilter
+PHOGFilter
+SimpleColorHistogramFilter
+---
+Correct answer(s):
+PHOGFilter
+
+Question 13
+When this Python program is run in the Weka Jython console window, it outputs cross-validation statistics for the iris dataset.
+What classifier does it use?
+Bagged classifier with the Discretize filter
+Bagged J48 classifier with the Discretize filter
+Bagged Naive Bayes classifier with the Discretize filter
+Filtered classifier with the Discretize filter and Bagged J48 classifier
+Filtered classifier with the Discretize filter and Bagged Naive Bayes classifier
+J48 classifier
+J48 classifier with the Discretize filter
+Naive Bayes classifier
+Naive Bayes classifier with the Discretize filter
+---
+Correct answer(s):
+Filtered classifier with the Discretize filter and Bagged Naive Bayes classifier
+
+Question 14
+How many code lines (including import lines, but not including blank lines) of the Python program in the previous question can be deleted without affecting the outcome?
+1
+2
+3
+4
+5
+6
+---
+Correct answer(s):
+3
+
+Question 15
+When this Groovy program is run in the Weka Groovy console window, it outputs the percentage accuracy of J48 on the glass.arff dataset, evaluated using 10-fold cross-validation.
+Change the program to evaluate the IBk classifier on the breast-cancer.arff dataset; and use this Groovy “for” loop
+for (i in 1..10) {
+ ...
+}
+to increase the number of nearest neighbors (the K parameter) from 1 to 10, printing the accuracy each time.
+What value of K achieves the greatest accuracy?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+---
+Correct answer(s):
+4
+
+Question 15
+When this Groovy program is run in the Weka Groovy console window, it outputs the percentage accuracy of J48 on the glass.arff dataset, evaluated using 10-fold cross-validation.
+Change the program to evaluate the IBk classifier on the breast-cancer.arff dataset; and use this Groovy “for” loop
+for (i in 1..10) {
+ ...
+}
+to increase the number of nearest neighbors (the K parameter) from 1 to 10, printing the accuracy each time.
+What value of K achieves the greatest accuracy?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+---
+Correct answer(s):

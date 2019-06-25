@@ -1,0 +1,3 @@
+Pruning decision trees
+Decision trees run the risk of overfitting the training data. One simple counter-measure is to stop splitting when the nodes get small. Another is to construct a tree and then prune it back, starting at the leaves. For this, J48 uses a statistical test which is rather unprincipled but works well. For example, on the breast-cancer dataset it generates a tree with 4 leaves (6 nodes in total) that gets an accuracy of 75.5%. With pruning switched off, the tree has 152 leaves (179 nodes) whose accuracy is only 69.6%.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

@@ -1,0 +1,8 @@
+Farewell
+Thanks for taking this course. We hope you’ve enjoyed it.
+This course has extended your knowledge and experience of practical data mining, following on from Data Mining with Weka.
+We’ve shown you how to run experiments in Weka’s Experimenter; how to set up knowledge flows; how to deal with datasets of unlimited size in the command line interface. You’ve learned about mining text, filtering using supervised and unsupervised filters, discretization and sampling, attribute selection, classification rules, rules vs. trees, association rules, clustering, cost-sensitive evaluation and classification.
+We claimed that after completing the course you’d be able to mine your own data using even more more powerful methods, in more subtle and sophisticated ways – and understand what it is that you are doing!
+What do you think? How did you get on? What did you learn? What did you struggle with? Have your views on data mining changed? What do you want to learn next? Please let us know by filling in the post-course survey. We welcome your suggestions on what could be improved!
+This course will run again soon. Please tell anyone you think might benefit from it.
+No matter where you go, there you are. (Sometimes attributed to Confucius)

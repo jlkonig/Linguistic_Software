@@ -1,0 +1,49 @@
+Index/NN/index/3 
+At/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 each/DT/each/1 week/NN/week/1 is/VBZ/be/1 an/DT/a/1 index/NN/index/3 of/IN/of/1 topics/NNS/topic/2 covered/VBD/cover/1 that/IN/that/1 week/NN/week/1 ./././0 
+A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 under/IN/under/1 DOWNLOADS/NNP/downloads/0 ,/,/,/0 below/IN/below/1 ./././0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Anneal/NN/anneal/13 
+1.20/CD/1.20/0 
+Contact/NN/contact/2 lens/NNS/lens/4 
+1.11/CD/1.11/0 
+Glass/NN/glass/1 
+1.15/CD/1.15/0 ,/,/,/0 1.18/CD/1.18/0 ,/,/,/0 1.19/CD/1.19/0 ,/,/,/0 1.20/CD/1.20/0 
+Iris/NN/iris/8 
+1.14/CD/1.14/0 ,/,/,/0 1.16/CD/1.16/0 ,/,/,/0 1.21/CD/1.21/0 ,/,/,/0 1.22/CD/1.22/0 
+Weather/NN/weather/1 
+1.10/CD/1.10/0 ,/,/,/0 1.13/CD/1.13/0 
+Classifiers/NNS/classifier/0 
+J48/NN/j48/0 
+1.17/CD/1.17/0 ,/,/,/0 1.18/CD/1.18/0 ,/,/,/0 1.20/CD/1.20/0 ,/,/,/0 1.22/CD/1.22/0 
+SimpleLogistic/JJ/simplelogistic/0 
+1.22/CD/1.22/0 
+Filters/NNS/filter/3 
+AddClassification/NN/addclassification/0 
+1.21/CD/1.21/0 
+Normalize/VB/normal/1 
+1.20/CD/1.20/0 
+Remove/VB/remove/2 
+1.19/CD/1.19/0 
+RemoveUseless/NN/removeuseless/0 
+1.20/CD/1.20/0 
+RemoveWithValues/NNS/removewithvalues/0 
+1.19/CD/1.19/0 
+Standardize/VB/standard/2 
+1.20/CD/1.20/0 
+Plus/CC/plus/1 …/VB/…/0 
+Classify/NNP/classify/4 panel/NN/panel/3 
+1.17/CD/1.17/0 ,/,/,/0 1.18/CD/1.18/0 
+Preprocess/NNP/preprocess/0 panel/NN/panel/3 
+1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.13/CD/1.13/0 ,/,/,/0 1.14/CD/1.14/0 ,/,/,/0 1.15/CD/1.15/0 ,/,/,/0 1.16/CD/1.16/0 ,/,/,/0 1.19/CD/1.19/0 
+Reading/VBG/read/1 CSV/NNP/csv/0 files/NNS/file/2 
+1.16/CD/1.16/0 
+Visualize/NNP/visual/3 panel/NN/panel/3 
+1.21/CD/1.21/0 
+Visualize/NNP/visual/3 predictions/NNS/predict/3 
+1.22/CD/1.22/0 
+Weka/NNP/weka/23 installation/NN/install/3 
+1.7/CD/1.7/0 ,/,/,/0 1.8/CD/1.8/0 ,/,/,/0 1.9/CD/1.9/0 
+
+

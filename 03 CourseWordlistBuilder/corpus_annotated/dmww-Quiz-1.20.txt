@@ -1,0 +1,111 @@
+Using/VBG/use/1 filters/NNS/filter/3 
+Question/NN/question/1 1/CD/1/0 
+How/WRB/how/1 many/JJ/many/1 attributes/VBZ/attribute/3 does/VBZ/do/1 the/DT/the/1 anneal/NN/anneal/13 dataset/NN/dataset/0 have/VB/have/1 ?/./?/0 
+17/CD/17/0 
+39/CD/39/0 
+772/CD/772/0 
+898/CD/898/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+39/CD/39/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 shown/VBN/show/1 in/IN/in/1 the/DT/the/1 “/NNP/“/0 Current/NNP/current/2 relation/NN/relate/1 ”/NNP/”/0 box/NN/box/1 on/IN/on/1 the/DT/the/1 “/NNP/“/0 Preprocess/NNP/preprocess/0 ”/NNP/”/0 panel/NN/panel/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 was/VBD/be/1 for/IN/for/1 the/DT/the/1 labor/NN/labour/2 dataset/NN/dataset/0 ./././0 You/PRP/you/1 should/MD/should/1 have/VB/have/1 loaded/VBN/load/1 the/DT/the/1 anneal/NN/anneal/13 dataset/NN/dataset/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 ,/,/,/0 not/RB/not/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 attributes/NNS/attribute/3 ,/,/,/0 as/IN/as/1 shown/VBN/show/1 in/IN/in/1 the/DT/the/1 “/NNP/“/0 Current/NNP/current/2 relation/NN/relate/1 ”/NNP/”/0 box/NN/box/1 on/IN/on/1 the/DT/the/1 “/NNP/“/0 Preprocess/NNP/preprocess/0 ”/NNP/”/0 panel/NN/panel/3 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Apply/VB/apply/2 the/DT/the/1 unsupervised/JJ/supervise/3 attribute/NN/attribute/3 filter/NN/filter/3 RemoveUseless/NNP/removeuseless/0 ./././0 How/NNP/how/1 many/JJ/many/1 attributes/NNS/attribute/3 does/VBZ/do/1 the/DT/the/1 anneal/NN/anneal/13 dataset/NN/dataset/0 have/VBP/have/1 now/RB/now/1 ?/./?/0 
+30/CD/30/0 
+32/CD/32/0 
+36/CD/36/0 
+39/CD/39/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+32/CD/32/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Select/VB/select/2 the/DT/the/1 filter/NN/filter/3 by/IN/by/1 choosing/VBG/choose/1 unsupervised/JJ/supervise/3 ,/,/,/0 attribute/JJ/attribute/3 ,/,/,/0 and/CC/and/1 then/RB/then/1 RemoveUseless/NNP/removeuseless/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Select/VB/select/2 the/DT/the/1 filter/NN/filter/3 by/IN/by/1 choosing/VBG/choose/1 unsupervised/JJ/supervise/3 ,/,/,/0 attribute/JJ/attribute/3 ,/,/,/0 and/CC/and/1 then/RB/then/1 RemoveUseless/NNP/removeuseless/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Select/VB/select/2 the/DT/the/1 filter/NN/filter/3 by/IN/by/1 choosing/VBG/choose/1 unsupervised/JJ/supervise/3 ,/,/,/0 attribute/JJ/attribute/3 ,/,/,/0 and/CC/and/1 then/RB/then/1 RemoveUseless/NNP/removeuseless/0 ./././0 
+Don/NNP/do/1 ’/NNP/’/0 t/NN/not/1 forget/NN/forget/1 to/TO/to/1 APPLY/VB/apply/2 the/DT/the/1 filter/NN/filter/3 once/RB/once/1 you/PRP/you/1 have/VBP/have/1 selected/VBN/select/2 it/PRP/it/1 (/(/(/0 Apply/NNP/apply/2 button/NN/button/2 )/)/)/0 !/./!/0 
+
+Question/NN/question/1 3/CD/3/0 
+Identify/NNP/identify/2 one/CD/one/1 of/IN/of/1 the/DT/the/1 attributes/NNS/attribute/3 that/WDT/that/1 was/VBD/be/1 removed/VBN/remove/2 by/IN/by/1 clicking/VBG/click/4 Undo/NNP/do/1 and/CC/and/1 then/RB/then/1 Apply/NNP/apply/2 ./././0 Now/RB/now/1 figure/VBP/figure/1 out/RP/out/1 why/WRB/why/1 it/PRP/it/1 was/VBD/be/1 removed/VBN/remove/2 ./././0 
+The/DT/the/1 attribute/NN/attribute/3 name/NN/name/1 was/VBD/be/1 too/RB/too/1 short/JJ/short/1 
+Only/RB/only/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 attribute/NN/attribute/3 ’/NNP/’/0 s/NN/be/1 values/NNS/value/2 actually/RB/actual/1 appears/VBZ/appear/1 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 
+The/DT/the/1 attribute/NN/attribute/3 only/RB/only/1 had/VBD/have/1 two/CD/two/1 possible/JJ/possible/1 values/NNS/value/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Only/RB/only/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 attribute/NN/attribute/3 ’/NNP/’/0 s/NN/be/1 values/NNS/value/2 actually/RB/actual/1 appears/VBZ/appear/1 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+An/DT/a/1 attribute/NN/attribute/3 that/WDT/that/1 has/VBZ/have/1 the/DT/the/1 same/JJ/same/1 value/NN/value/2 for/IN/for/1 all/DT/all/1 instances/NNS/instance/2 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 doesn/NN/do/1 ’/NNP/’/0 t/JJ/not/1 yield/NN/yield/3 any/DT/any/1 additional/JJ/add/1 information/NN/inform/1 ,/,/,/0 and/CC/and/1 Weka/NNP/weka/23 therefore/RB/therefore/2 deems/VBZ/deem/4 it/PRP/it/1 to/TO/to/1 be/VB/be/1 useless/JJ/use/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 attribute/NN/attribute/3 ’/NNP/’/0 s/NN/be/1 name/NN/name/1 has/VBZ/have/1 no/DT/no/1 influence/NN/influence/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 number/NN/number/1 of/IN/of/1 possible/JJ/possible/1 values/NNS/value/2 has/VBZ/have/1 no/DT/no/1 influence/NN/influence/2 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Open/VB/open/1 the/DT/the/1 glass.arff/NN/glass.arff/0 dataset/NN/dataset/0 (/(/(/0 which/WDT/which/1 was/VBD/be/1 downloaded/VBN/downloaded/0 when/WRB/when/1 you/PRP/you/1 installed/VBD/install/3 Weka/NNP/weka/23 )/)/)/0 ./././0 Apply/VB/apply/2 the/DT/the/1 unsupervised/JJ/supervise/3 attribute/NN/attribute/3 filter/NN/filter/3 Normalize/NNP/normal/1 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 new/JJ/new/1 range/NN/range/2 (/(/(/0 i.e/NN/i.e/0 ./././0 minimum/NN/minimum/3 and/CC/and/1 maximum/NN/maximum/2 )/)/)/0 of/IN/of/1 the/DT/the/1 Na/NNP/na/0 attribute/NN/attribute/3 ?/./?/0 
+[/NN/[/0 –1/NN/–1/0 ,/,/,/0 1/CD/1/0 ]/NN/]/0 
+[/RB/[/0 0/CD/0/0 ,/,/,/0 1/CD/1/0 ]/NN/]/0 
+[/NN/[/0 –∞/NN/–∞/0 ,/,/,/0 ∞/NNP/∞/0 ]/NNP/]/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+[/RB/[/0 0/CD/0/0 ,/,/,/0 1/CD/1/0 ]/NN/]/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 Normalize/NNP/normal/1 filter/NN/filter/3 scales/NNS/scale/2 attributes/VBZ/attribute/3 into/IN/into/1 the/DT/the/1 range/NN/range/2 [/VBD/[/0 0/CD/0/0 ,/,/,/0 1/CD/1/0 ]/NN/]/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Undo/IN/do/1 the/DT/the/1 effect/NN/effect/2 of/IN/of/1 the/DT/the/1 Normalize/NNP/normal/1 filter/NN/filter/3 and/CC/and/1 bring/VB/bring/1 up/RP/up/1 its/PRP$/it/1 configuration/NN/configure/4 panel/NN/panel/3 ./././0 Set/VB/set/1 the/DT/the/1 scale/NN/scale/2 to/TO/to/1 3/CD/3/0 and/CC/and/1 the/DT/the/1 translation/NN/translate/3 option/NN/option/2 to/TO/to/1 1/CD/1/0 ./././0 Apply/VB/apply/2 the/DT/the/1 filter/NN/filter/3 again/RB/again/1 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 Na/NNP/na/0 attribute/NN/attribute/3 ’/NNP/’/0 s/VBZ/be/1 range/NN/range/2 now/RB/now/1 ?/./?/0 
+[/RB/[/0 1/CD/1/0 ,/,/,/0 4/CD/4/0 ]/NN/]/0 
+[/RB/[/0 0/CD/0/0 ,/,/,/0 1/CD/1/0 ]/NN/]/0 
+[/RB/[/0 1/CD/1/0 ,/,/,/0 3/CD/3/0 ]/NN/]/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+[/RB/[/0 1/CD/1/0 ,/,/,/0 4/CD/4/0 ]/NN/]/0 
+
+Question/NN/question/1 6/CD/6/0 
+Undo/IN/do/1 the/DT/the/1 change/NN/change/1 and/CC/and/1 check/VB/check/1 that/IN/that/1 you/PRP/you/1 have/VBP/have/1 reverted/VBN/revert/6 to/TO/to/1 the/DT/the/1 original/JJ/original/2 dataset/NN/dataset/0 ./././0 Now/RB/now/1 apply/VBP/apply/2 the/DT/the/1 unsupervised/JJ/supervise/3 attribute/NN/attribute/3 filter/NN/filter/3 Standardize/NNP/standard/2 ./././0 What/WP/what/1 are/VBP/be/1 the/DT/the/1 new/JJ/new/1 mean/NN/mean/1 and/CC/and/1 standard/JJ/standard/2 deviation/NN/deviate/5 of/IN/of/1 the/DT/the/1 K/NNP/k/0 attribute/NN/attribute/3 ?/./?/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 0.497/CD/0.497/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 0.652/CD/0.652/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 –0.762/JJ/–0.762/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 8.76/CD/8.76/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 1/CD/1/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 0/CD/0/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 0/CD/0/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 1/CD/1/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 1.518/CD/1.518/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 0.003/CD/0.003/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+The/DT/the/1 mean/NN/mean/1 is/VBZ/be/1 0/CD/0/0 and/CC/and/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 is/VBZ/be/1 1/CD/1/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 Standardize/NNP/standard/2 filter/NN/filter/3 alters/VBZ/alter/2 the/DT/the/1 range/NN/range/2 of/IN/of/1 an/DT/a/1 attribute/NN/attribute/3 to/TO/to/1 give/VB/give/1 it/PRP/it/1 a/DT/a/1 mean/NN/mean/1 of/IN/of/1 0/CD/0/0 and/CC/and/1 standard/JJ/standard/2 deviation/NN/deviate/5 of/IN/of/1 1/CD/1/0 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Undo/IN/do/1 all/DT/all/1 changes/NNS/change/1 to/TO/to/1 the/DT/the/1 glass/NN/glass/1 dataset/NN/dataset/0 again/RB/again/1 ./././0 Now/RB/now/1 determine/VBP/determine/2 which/WDT/which/1 attribute/VBP/attribute/3 set/VBN/set/1 gives/VBZ/give/1 the/DT/the/1 highest/JJS/high/1 classification/NN/classification/4 accuracy/NN/accurate/3 using/VBG/use/1 J48/NNP/j48/0 ./././0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Si/NNP/si/0 ,/,/,/0 Al/NNP/al/0 ,/,/,/0 K/NNP/k/0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 Rl/NNP/rl/0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Si/NNP/si/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 K/NNP/k/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Si/NNP/si/0 ,/,/,/0 Al/NNP/al/0 ,/,/,/0 K/NNP/k/0 
+
+Question/NN/question/1 7/CD/7/0 
+Undo/IN/do/1 all/DT/all/1 changes/NNS/change/1 to/TO/to/1 the/DT/the/1 glass/NN/glass/1 dataset/NN/dataset/0 again/RB/again/1 ./././0 Now/RB/now/1 determine/VBP/determine/2 which/WDT/which/1 attribute/VBP/attribute/3 set/VBN/set/1 gives/VBZ/give/1 the/DT/the/1 highest/JJS/high/1 classification/NN/classification/4 accuracy/NN/accurate/3 using/VBG/use/1 J48/NNP/j48/0 ./././0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Si/NNP/si/0 ,/,/,/0 Al/NNP/al/0 ,/,/,/0 K/NNP/k/0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 Rl/NNP/rl/0 
+removing/VBG/remove/2 Fe/NNP/fe/0 ,/,/,/0 Si/NNP/si/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 K/NNP/k/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

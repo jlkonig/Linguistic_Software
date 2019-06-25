@@ -1,0 +1,3 @@
+Logistic regression
+Many classification methods produce probabilities rather than black-or-white classifications. Naive Bayes is an obvious example, but other methods do too. The numbers between 0 and 1 produced by linear regression in the previous lesson may look like probabilities, but they’re not. However, a variant called “logistic regression” does produce probabilities. Logistic regression is a powerful classification that predict probabilities directly through something called the “logit transform”.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

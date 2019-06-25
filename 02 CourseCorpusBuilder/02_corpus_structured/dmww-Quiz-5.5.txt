@@ -1,0 +1,103 @@
+Missing values
+Question 1
+Select the J48 classifier (default options). What is its accuracy, evaluated using 10-fold cross-validation?
+26%
+73%
+74%
+88%
+---
+Correct answer(s):
+74%
+---
+Feedback correct:
+Weka gives the result as 73.6842
+---
+Feedback incorrect:
+That’s for incorrectly classified instances!
+
+Question 2
+Return to the Preprocess tab and remove all attributes with 33% or more missing values. How many attributes are left (excluding the class attribute)?
+3
+6
+12
+17
+---
+Correct answer(s):
+6
+---
+Feedback correct:
+When you select an attribute in the Preprocess panel, the number and percentage of missing values is shown. It’s easy to check the ones with 33% or more and remove them manually.
+All 16 attributes (apart from the class) have missing values, and 10 of them have at least 33% of missing values.
+---
+Feedback incorrect:
+When you select an attribute in the Preprocess panel, the number and percentage of missing values is shown. It’s easy to check the ones with 33% or more and remove them manually.
+
+Question 3
+Re-run J48 under the same conditions as before. What accuracy is achieved now?
+73%
+74%
+81%
+88%
+---
+Correct answer(s):
+81%
+---
+Feedback correct:
+Weka gives the result as 80.7018
+---
+Feedback incorrect:
+That’s the result for the original 16-attribute dataset
+
+Question 4
+Now revert to the original dataset and apply the ReplaceMissingValues filter. This filter replaces missing values. What does it replace them with?
+Blank for nominal attributes and zero for numeric attributes
+Mean for numeric attributes and mode for nominal attributes
+Random values for both nominal and numeric attrbutes
+Mean for nominal attributes and mode for numeric attributes
+---
+Correct answer(s):
+Mean for numeric attributes and mode for nominal attributes
+---
+Feedback correct:
+Click the filter’s More button to get information about it.
+The mean is the average value, and the mode is the most popular value.
+---
+Feedback incorrect:
+Click the filter’s More button to get information about it.
+
+Question 5
+What is J48’s accuracy now?
+73%
+74%
+81%
+88%
+---
+Correct answer(s):
+81%
+---
+Feedback correct:
+The accuracy is 81% (80.7018%), which is the same as with the reduced attribute set. However, the confusion matrix is different. In general, it’s better to replace missing values rather than delete them entirely, since in many cases these attributes contribute some useful information.
+---
+Feedback incorrect:
+That’s the result for the original 16-attribute dataset, with missing values
+
+Question 6
+Can you spot a methodological problem with this experiment?
+No
+Yes
+---
+Correct answer(s):
+
+Question 6
+Can you spot a methodological problem with this experiment?
+No
+Yes
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+There’s a rather subtle (and almost certainly insignificant) problem. The ReplaceMissingValues filter calculates means and modes over the whole dataset. Thus for each fold of the cross-validation, some of the attribute values in the training set have been contaminated with information from the test set (although the effect is probably very small). This could produce results that are slightly different from those obtained from a completely independent test set in which missing values are replaced by means/modes from that test set.
+---
+Feedback incorrect:
+This is a rhetorical question – the correct answer is obvious :-). But why? …

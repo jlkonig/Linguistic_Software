@@ -1,0 +1,78 @@
+Examining the benefits of cheating 
+Question 1
+Using OneR on the discretized dataset is cheating. What classification accuracy is obtained?
+81%
+82%
+88%
+90%
+---
+Correct answer(s):
+88%
+---
+Feedback correct:
+(More specifically, 87.75%)
+
+Question 2
+Using the FilteredClassifier on the original dataset is not cheating. What classification accuracy is obtained?
+85%
+86%
+88%
+90%
+---
+Correct answer(s):
+86%
+---
+Feedback correct:
+(More specifically, 85.87%)
+
+Question 3
+Is the difference significant at the 5% level? (The Experimenter doesn’t compare one method on one dataset with the other method on the other dataset. However, in this case, both classifiers will necessarily produce identical results on one of the datasets. Think about it.)
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The two classifiers produce the same results on the discretized dataset because further filtering has no effect – nominal attributes are unchanged by discretization. Thus you should compare the FilteredClassifier on the two datasets. Do this by selecting the Scheme as the Row and the Dataset as the Column, and looking at the row corresponding to the FilteredClassifier.
+---
+Feedback incorrect:
+The two classifiers produce the same results on the discretized dataset because further filtering has no effect – nominal attributes are unchanged by discretization. Thus you should compare the FilteredClassifier on the two datasets. Do this by selecting the Scheme as the Row and the Dataset as the Column, and looking at the row corresponding to the FilteredClassifier.
+
+Question 4
+Would you expect OneR’s performance to improve if you used the binary-attribute version of discretization?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It would certainly not improve (though it could stay the same). OneR chooses a single attribute to branch on, and an individual attribute in the binary-attribute version cannot be more informative than the original attribute it was derived from (in general, it’s far less informative).
+
+Question 5
+Replace OneR with J48. How does the result of “cheating” compare with not cheating.
+Cheating is significantly better than not cheating.
+Cheating is somewhat better than not cheating.
+They are the same.
+Cheating is somewhat worse than not cheating.
+Cheating is significantly worse than not cheating.
+---
+Correct answer(s):
+
+Question 5
+Replace OneR with J48. How does the result of “cheating” compare with not cheating.
+Cheating is significantly better than not cheating.
+Cheating is somewhat better than not cheating.
+They are the same.
+Cheating is somewhat worse than not cheating.
+Cheating is significantly worse than not cheating.
+---
+Correct answer(s):
+Cheating is somewhat worse than not cheating.
+---
+Feedback correct:
+In this case J48 obtains 89.49% on the discretized dataset (cheating) and 90.12% when used in the filtered classifier on the original dataset (not cheating). This is slightly surprising. In general one would expect “cheating” to help a little, but not necessarily in every case.
+---
+Feedback incorrect:
+In some cases it may be, but not always.

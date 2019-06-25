@@ -1,0 +1,79 @@
+Unsupervised/VBN/supervise/3 discretization/NN/discretization/0 
+Question/NN/question/1 1/CD/1/0 
+In/IN/in/1 general/JJ/general/1 ,/,/,/0 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 equal-frequency/JJ/equal-frequency/0 binning/NN/bin/2 to/TO/to/1 outperform/VB/outperform/10 equal-width/JJ/equal-width/0 binning/NN/bin/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Equal-frequency/NN/equal-frequency/0 binning/NN/bin/2 is/VBZ/be/1 sensitive/JJ/sensitive/3 to/TO/to/1 the/DT/the/1 data/NN/data/3 distribution/NN/distribute/3 ,/,/,/0 which/WDT/which/1 will/MD/will/1 probably/RB/probably/1 make/VB/make/1 it/PRP/it/1 perform/VB/perform/2 better/RBR/better/1 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+In/IN/in/1 general/JJ/general/1 ,/,/,/0 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 (/(/(/0 with/IN/with/1 the/DT/the/1 makeBinary/JJ/makebinary/0 option/NN/option/2 )/)/)/0 to/TO/to/1 improve/VB/improve/2 results/NNS/result/2 for/IN/for/1 both/DT/both/1 equal-width/JJ/equal-width/0 and/CC/and/1 equal-frequency/NN/equal-frequency/0 binning/NN/bin/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 binary/JJ/binary/6 attributes/NNS/attribute/3 produced/VBN/produce/2 by/IN/by/1 the/DT/the/1 makeBinary/JJ/makebinary/0 option/NN/option/2 include/VBP/include/2 information/NN/inform/1 about/IN/about/1 the/DT/the/1 ordering/NN/order/1 of/IN/of/1 the/DT/the/1 original/JJ/original/2 numeric/JJ/numeric/5 attribute/NN/attribute/3 values/NNS/value/2 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Create/NNP/create/2 four/CD/four/1 new/JJ/new/1 versions/NNS/version/2 of/IN/of/1 the/DT/the/1 ionosphere/JJ/ionosphere/16 data/NNS/data/3 ,/,/,/0 all/DT/all/1 of/IN/of/1 whose/WP$/who/1 attributes/NNS/attribute/3 are/VBP/be/1 discrete/JJ/discrete/6 ,/,/,/0 by/IN/by/1 applying/VBG/apply/2 the/DT/the/1 unsupervised/JJ/supervise/3 discretization/NN/discretization/0 filter/NN/filter/3 with/IN/with/1 the/DT/the/1 four/CD/four/1 option/NN/option/2 combinations/NNS/combine/2 and/CC/and/1 default/NN/default/5 number/NN/number/1 of/IN/of/1 bins/NNS/bin/2 (/(/(/0 10/CD/10/0 )/)/)/0 ,/,/,/0 and/CC/and/1 write/VB/write/1 out/RP/out/1 each/DT/each/1 resulting/VBG/result/2 dataset/NN/dataset/0 ./././0 Then/RB/then/1 use/IN/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 (/(/(/0 not/RB/not/1 the/DT/the/1 Explorer/NNP/explore/3 )/)/)/0 to/TO/to/1 evaluate/VB/evaluate/3 the/DT/the/1 classification/NN/classification/4 accuracy/NN/accurate/3 using/VBG/use/1 ten/JJ/ten/1 repetitions/NNS/repeat/2 of/IN/of/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 (/(/(/0 the/DT/the/1 Experimenter/NNP/experiment/3 ’/NNP/’/0 s/PRP/be/1 default/NN/default/5 )/)/)/0 ,/,/,/0 using/VBG/use/1 J48/NNP/j48/0 and/CC/and/1 the/DT/the/1 five/CD/five/1 datasets/NNS/datasets/0 (/(/(/0 including/VBG/include/2 the/DT/the/1 original/JJ/original/2 ionosphere.arff/NN/ionosphere.arff/0 )/)/)/0 ./././0 
+What/WP/what/1 percentage/NN/percent/2 accuracy/NN/accurate/3 do/VBP/do/1 you/PRP/you/1 get/VB/get/1 using/VBG/use/1 J48/NNP/j48/0 ?/./?/0 Fill/NNP/fill/1 in/IN/in/1 the/DT/the/1 table/NN/table/1 below/IN/below/1 ./././0 
+[/JJ/[/0 Hint/NN/hint/3 :/:/:/0 the/DT/the/1 answers/NNS/answer/1 are/VBP/be/1 87/CD/87/0 ,/,/,/0 89/CD/89/0 ,/,/,/0 90/CD/90/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 93/CD/93/0 –/NN/–/0 but/CC/but/1 in/IN/in/1 a/DT/a/1 different/JJ/different/1 order/NN/order/1 ]/NN/]/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+90/CD/90/0 
+87/CD/87/0 
+89/CD/89/0 
+93/CD/93/0 
+92/CD/92/0 
+
+Question/NN/question/1 4/CD/4/0 
+These/DT/this/1 results/NNS/result/2 contain/VBP/contain/2 some/DT/some/1 small/JJ/small/1 surprises/NNS/surprise/1 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 most/RBS/most/1 striking/JJ/strike/1 surprise/NN/surprise/1 ?/./?/0 
+The/DT/the/1 equal-frequency-binned/JJ/equal-frequency-binned/0 version/NN/version/2 outperforms/VBZ/outperform/10 the/DT/the/1 unfiltered/JJ/filter/3 version/NN/version/2 ./././0 
+With/IN/with/1 binary/JJ/binary/6 attributes/NNS/attribute/3 ,/,/,/0 equal-width/JJ/equal-width/0 bins/NNS/bin/2 outperform/IN/outperform/10 equal-frequency/NN/equal-frequency/0 bins/NNS/bin/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+With/IN/with/1 binary/JJ/binary/6 attributes/NNS/attribute/3 ,/,/,/0 equal-width/JJ/equal-width/0 bins/NNS/bin/2 outperform/IN/outperform/10 equal-frequency/NN/equal-frequency/0 bins/NNS/bin/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+We/PRP/we/1 would/MD/would/1 expect/VB/expect/1 binary-attribute/JJ/binary-attribute/0 discretization/NN/discretization/0 to/TO/to/1 do/VB/do/1 well/RB/well/1 ,/,/,/0 but/CC/but/1 would/MD/would/1 not/RB/not/1 expect/VB/expect/1 equal-width/JJ/equal-width/0 binning/NN/bin/2 to/TO/to/1 outperform/VB/outperform/10 equal-frequency/NN/equal-frequency/0 binning/NN/bin/2 when/WRB/when/1 both/DT/both/1 are/VBP/be/1 producing/VBG/produce/2 binary/JJ/binary/6 attributes/NNS/attribute/3 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Using/VBG/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 ,/,/,/0 compare/VB/compare/2 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 and/CC/and/1 non-binary-attribute/JJ/non-binary-attribute/0 versions/NNS/version/2 of/IN/of/1 equal-width-binning/NN/equal-width-binning/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 (/(/(/0 Weka/NNP/weka/23 ’/NNP/’/0 s/PRP/be/1 default/NN/default/5 )/)/)/0 ./././0 (/(/(/0 Note/NN/note/1 :/:/:/0 you/PRP/you/1 will/MD/will/1 have/VB/have/1 to/TO/to/1 re-select/VB/re-select/0 the/DT/the/1 row/NN/row/2 and/CC/and/1 column/NN/column/3 in/IN/in/1 the/DT/the/1 Analyse/NNP/analyse/3 panel/NN/panel/3 ,/,/,/0 and/CC/and/1 then/RB/then/1 re-select/VB/re-select/0 the/DT/the/1 test/NN/test/1 base/NN/base/1 ./././0 )/)/)/0 
+For/IN/for/1 equal-width/JJ/equal-width/0 binning/NN/bin/2 ,/,/,/0 is/VBZ/be/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 significantly/RB/significant/3 better/RBR/better/1 than/IN/than/1 the/DT/the/1 non-binary-attribute/JJ/non-binary-attribute/0 version/NN/version/2 (/(/(/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+For/IN/for/1 equal-width/JJ/equal-width/0 binning/VBG/bin/2 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 yields/NNS/yield/3 93/CD/93/0 %/NN/%/0 accuracy/NN/accurate/3 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 the/DT/the/1 87/CD/87/0 %/NN/%/0 accuracy/NN/accurate/3 of/IN/of/1 the/DT/the/1 non-binary-attribute/JJ/non-binary-attribute/0 version/NN/version/2 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Using/VBG/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 ,/,/,/0 compare/VB/compare/2 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 and/CC/and/1 non-binary-attribute/JJ/non-binary-attribute/0 versions/NNS/version/2 of/IN/of/1 equal-width-binning/NN/equal-width-binning/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 (/(/(/0 Weka/NNP/weka/23 ’/NNP/’/0 s/PRP/be/1 default/NN/default/5 )/)/)/0 ./././0 (/(/(/0 Note/NN/note/1 :/:/:/0 you/PRP/you/1 will/MD/will/1 have/VB/have/1 to/TO/to/1 re-select/VB/re-select/0 the/DT/the/1 row/NN/row/2 and/CC/and/1 column/NN/column/3 in/IN/in/1 the/DT/the/1 Analyse/NNP/analyse/3 panel/NN/panel/3 ,/,/,/0 and/CC/and/1 then/RB/then/1 re-select/VB/re-select/0 the/DT/the/1 test/NN/test/1 base/NN/base/1 ./././0 )/)/)/0 
+For/IN/for/1 equal-width/JJ/equal-width/0 binning/NN/bin/2 ,/,/,/0 is/VBZ/be/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 significantly/RB/significant/3 better/RBR/better/1 than/IN/than/1 the/DT/the/1 non-binary-attribute/JJ/non-binary-attribute/0 version/NN/version/2 (/(/(/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 6/CD/6/0 
+Similarly/RB/similar/2 ,/,/,/0 compare/VB/compare/2 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 and/CC/and/1 non-binary-attribute/JJ/non-binary-attribute/0 versions/NNS/version/2 of/IN/of/1 equal-frequency-binning/NN/equal-frequency-binning/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 ./././0 (/(/(/0 Note/NN/note/1 :/:/:/0 you/PRP/you/1 will/MD/will/1 have/VB/have/1 to/TO/to/1 re-select/VB/re-select/0 the/DT/the/1 test/NN/test/1 base/NN/base/1 ./././0 )/)/)/0 
+For/IN/for/1 equal-frequency/NN/equal-frequency/0 binning/NN/bin/2 ,/,/,/0 is/VBZ/be/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 significantly/RB/significant/3 better/RBR/better/1 than/IN/than/1 the/DT/the/1 non-binary-attribute/JJ/non-binary-attribute/0 version/NN/version/2 (/(/(/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 ’/VBZ/’/0 s/PRP/be/1 not/RB/not/1 significantly/RB/significant/3 better/RBR/better/1 ./././0 Although/IN/although/1 the/DT/the/1 binary/JJ/binary/6 attribute/NN/attribute/3 version/NN/version/2 (/(/(/0 92/CD/92/0 %/NN/%/0 )/)/)/0 is/VBZ/be/1 better/RBR/better/1 than/IN/than/1 the/DT/the/1 non-binary/JJ/non-binary/0 attribute/NN/attribute/3 version/NN/version/2 (/(/(/0 89/CD/89/0 %/NN/%/0 )/)/)/0 ,/,/,/0 the/DT/the/1 difference/NN/difference/1 is/VBZ/be/1 not/RB/not/1 significant/JJ/significant/3 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 ./././0 
+
+

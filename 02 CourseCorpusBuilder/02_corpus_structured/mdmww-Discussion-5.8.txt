@@ -1,0 +1,4 @@
+Share stories on deep learning
+You hear a lot about amazing successes – and failures – of deep learning neural network techniques.
+For example, adversarial examples are synthetic examples constructed by modifying real examples slightly in order to make a classifier believe they belong to the wrong class with high confidence – though whether they might make a difference in practice is controversial. You might want to think about that next time you step into a self-driving car.
+Over to you – do you have any experiences or information to share with your fellow students about successes – and failures – of deep learning techniques?

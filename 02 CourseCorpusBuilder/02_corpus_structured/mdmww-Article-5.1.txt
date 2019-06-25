@@ -1,0 +1,6 @@
+What are "neural networks" and how can I use them?
+Neural networks are a computational approach based on a large collection of primitive units connected together in a simple, regular, way.
+Some people call the units “neurons,” and claim that this loosely models the way a biological brain solves problems with large clusters of biological neurons connected by axons. If so, the key word is loosely! Drawing an analogy with that amazing organ inside your head provides an element of sex appeal that is entirely unjustified, in my opinion.
+The individual units of so-called “neural networks” – I prefer the term “Perceptron”, the historical name under which these things were introduced in the 1960s – are disarmingly simple. And the connections are also disarmingly simple.
+You’ll be asking: Exactly what do these units do? How do the connections work? Where does the learning come in? What decision boundaries can neural networks (aka “multilayer perceptrons”) create? How do you design these things? And can you do it in Weka?
+By the end of the week you’ll know. You’ll be able to create your own neural network structures, and make them learn. And you’ll experience the role that patience plays in the process.

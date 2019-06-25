@@ -1,0 +1,3 @@
+Discretizing numeric attributes 
+Discretizing is transforming numeric attributes to nominal. You might want to do that in order to use a classification method that can’t handle numeric attributes (unlikely), or to produce better results (likely), or to produce a more comprehensible model such as a simpler decision tree (very likely). This video explains two simple methods, equal-width and equal-frequency binning; and a third, non-obvious, method that preserves the ordering information implicit in a numeric attribute even though it has been converted to nominal. Using these methods in Weka is easy!
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

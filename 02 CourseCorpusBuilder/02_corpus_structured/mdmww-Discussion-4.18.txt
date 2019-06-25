@@ -1,0 +1,7 @@
+Reflect on this week's Big Questions
+The Big Questions this week are, “How about selecting key attributes before applying a classifier?” and “What happens when different errors have different costs?”
+We promised that by the end you’d be able to explain – and apply – different ways of selecting a subset of attributes that work well for the problem at hand. You’d be able to use different measures to evaluate that subset. And you’d be able to adopt different search strategies to reduce the computation by avoiding the need to test all possible subsets. You’d also be able to do attribute selection and classification within the cross-validation operation, so that attribute selection was based on the training set for each fold, not the entire dataset.
+We also promised that you’d be able to take different error costs into account when doing machine learning. If you knew the different costs of incorrect predictions, you’d be able to take them into account when measuring performance. You’d also know how to post-process the output of an ordinary classifier to take account of different error costs, and – an alternative method – how to build a classifier that takes costs into account internally.
+And you’d be able to do all these things in Weka.
+And, hopefully, explain them to a colleague!
+So: can you? Tell your fellow learners how you get on.

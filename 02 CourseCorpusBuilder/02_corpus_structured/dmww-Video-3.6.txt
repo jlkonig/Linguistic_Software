@@ -1,0 +1,3 @@
+Using probabilities
+OneR assumes that there is one attribute that does all the work. Another simple strategy is the opposite, all attributes contribute equally and independently to the decision. This is called “Naive Bayes,” and is based on a classical statistical result called Bayes Theorem. The method makes two assumptions that are generally violated in practice: the attributes are equally important; and statistically independent. Despite this naivety, the method often works surprisingly well.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

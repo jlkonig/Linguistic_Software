@@ -1,0 +1,3 @@
+Learning association rules 
+Apriori’s strategy for generating association rules is to specify a minimum “confidence” and iteratively reduce “support” until enough rules are found. Doing this efficiently involves an interesting and subtle algorithm. “Market basket analysis” is often considered a prime candidate for association rule mining, and we look at some data that records the contents of shopping baskets in a real New Zealand supermarket.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

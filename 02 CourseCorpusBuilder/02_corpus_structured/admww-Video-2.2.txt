@@ -1,0 +1,3 @@
+Incremental classifiers in Weka
+Albert Bifet introduces data stream mining. It requires incremental operation rather than the batch mode used so far. Weka includes many different incremental methods. Updating decision trees presents an interesting challenge that is solved using the “Hoeffding bound” to estimate how many instances should be examined before deciding whether to split a node. Incremental methods like this typically require more training data to reach a given level of accuracy than batch-mode ones, but they can be very fast, and use much less memory.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

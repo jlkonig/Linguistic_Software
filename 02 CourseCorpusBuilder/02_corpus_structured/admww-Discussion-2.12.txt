@@ -1,0 +1,4 @@
+Sentiment analysis
+In the video, Albert defines sentiment analysis as the task of classifying messages or tweets into two categories, positive or negative, depending on the feelings that we can see inside the messages.
+But life is more complex than this! There are many other sentiments, apart from this bipolar positive/negative distinction.
+What other sentiments might one want to mine from tweets? In what ways might the results be useful? And – the 64,000 dollar question! – what are possible ways of obtaining training and evaluation data?

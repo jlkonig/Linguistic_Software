@@ -1,0 +1,4 @@
+Market basket analysis
+Do you have any thoughts on market basket analysis in general, or the supermarket dataset in particular, that you’d like to share with others?
+Now’s your chance!
+I’m certainly not an expert on association rule mining, so you might find better rules, and better interpretations, than me.

@@ -1,0 +1,3 @@
+Generating good decision rules 
+Here are a couple of schemes for rule learning. The first, called PART, is a way of forming rules from partial decision trees. The second, called Ripper (JRip in Weka), uses incremental reduced-error pruning, followed by a fiendishly complicated global optimization step that’s detailed, complex, unprincipled, but works well and often generates unbelievably small rule sets that do an excellent job. I’ll spare you the details – you really don’t want to know! Both methods are easy to use in Weka.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

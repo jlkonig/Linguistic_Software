@@ -1,0 +1,57 @@
+OneR vs. the baseline
+Question 1
+Perform 10-fold cross-validation using ZeroR and OneR. Which classifier achieves higher accuracy?
+OneR
+ZeroR
+Both have the same accuracy
+---
+Correct answer(s):
+OneR
+---
+Feedback correct:
+A single rule outperforms ZeroR by a large margin on the iris dataset (92% vs 33%).
+
+Question 2
+Which attribute does OneR use for generating the rule in the previous experiment, when using the full dataset?
+sepallength
+sepalwidth
+petallength
+petalwidth
+class
+---
+Correct answer(s):
+petalwidth
+---
+Feedback correct:
+The Classifier model output prints details of the model that is generated on the full training set. In case of OneR, it prints the rule.
+---
+Feedback incorrect:
+“Class” is not really an attribute, it’s what’s being predicted.
+
+Question 3
+Could there be a dataset for which ZeroR outperforms OneR?
+No. OneR always outperforms ZeroR.
+Yes. ZeroR sometimes outperforms OneR.
+---
+Correct answer(s):
+Yes. ZeroR sometimes outperforms OneR.
+---
+Feedback correct:
+If the class distribution is skewed or limited data is available, predicting the majority class can yield better results than basing a rule on a single attribute. This happens with the nominal weather dataset, weather.nominal.arff.
+
+Question 4
+Could there be a dataset for which ZeroR outperforms OneR when evaluated on the training data?
+No
+Yes
+---
+Correct answer(s):
+---
+Feedback correct:
+OneR always outperforms (or, at worst, equals) ZeroR when evaluated on the training data. (Of course, evaluating on the training data doesn’t reflect performance on independent test data.)
+
+Question 4
+Could there be a dataset for which ZeroR outperforms OneR when evaluated on the training data?
+No
+Yes
+---
+Correct answer(s):

@@ -1,0 +1,3 @@
+Counting the cost
+So far we’ve taken the classification rate – computed on a test set, or holdout, or cross-validation – as the measure of a classifier’s success. We’re trying to maximize the classification rate, that is, minimize the number of errors. But in real life, different kinds of error often have different costs. If the costs are known, they can be taken into account when evaluating a classifier’s performance. Error costs can also taken into account when using a learning method to create a classifier – regardless of which learning method is used – to get a classifier that minimizes the cost rather than the error rate.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

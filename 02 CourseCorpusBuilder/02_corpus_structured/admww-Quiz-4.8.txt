@@ -1,0 +1,117 @@
+Training classifiers with Spark 
+Question 1
+Open the “Spark: train and save two classifiers” template in the Knowledge Flow.
+Delete the RandomlyShuffleDataSparkJob step and connect the WekaClassifierSparkJob step directly to the WekaClassifierSparkJob2 step with a success connection. This effectively passes the dataset on from the first classifier to the second.
+Leave the first WekaClassifierSparkJob as Naive Bayes, and change the classifier in the second WekaClassifierSparkJob from JRip to Random Forest. Configure the Random Forest by changing numIterations from 100 to 10 and setting printClassifiers to True.
+Execute the flow.
+How many trees did Random Forest learn?
+4
+8
+10
+100
+---
+Correct answer(s):
+8
+
+Question 2
+For an ensemble learning algorithm like RandomForest, distributed Weka configures it to learn the base models from the data in each partition of the dataset (that is, each Spark RDD).
+In the last question we asked for 10 trees but ended up with fewer. Why?
+Some trees were dropped due to insufficient data in a particular partition
+Maximum accuracy was achieved with fewer than 10 trees
+The number of partitions does not divide evenly into 10
+---
+Correct answer(s):
+The number of partitions does not divide evenly into 10
+---
+Feedback correct:
+The Spark configuration defined in the ArffHeaderSparkJob sets the minInputSlices parameter to 4; that is, 4 partitions.
+
+Question 3
+Change the minInputSlices property in the ArffHeaderSparkJob to create a dataset with 5 partitions. Run the flow again.
+How many trees did RandomForest learn this time?
+4
+8
+10
+100
+---
+Correct answer(s):
+10
+
+Question 4
+How many nodes do the biggest and smallest trees in the ensemble contain?
+Select all the answers you think are correct.
+19: smallest tree
+19: biggest tree
+56: smallest tree
+56: biggest tree
+104: smallest tree
+104: biggest tree
+159: smallest tree
+159: biggest tree
+---
+Correct answer(s):
+56: smallest tree
+159: biggest tree
+
+Question 5
+Now change the parameter to create a dataset with 10 partitions and run the flow again.
+How many nodes do the biggest and smallest trees contain now?
+Select all the answers you think are correct.
+19: smallest tree
+19: biggest tree
+56: smallest tree
+56: biggest tree
+104: smallest tree
+104: biggest tree
+159: smallest tree
+159: biggest tree
+---
+Correct answer(s):
+19: smallest tree
+104: biggest tree
+
+Question 6
+The size of the trees in the ensemble tends to decrease as the number of partitions increases. Why?
+More partitions improves the quality of the data in each, resulting in compact, more accurate trees.
+The number of partitions is now in sync with the requested number of trees, resulting in compact, more accurate trees.
+With more partitions, there is less data in each from which to build a tree.
+---
+Correct answer(s):
+With more partitions, there is less data in each from which to build a tree.
+
+Question 7
+Return to the results for Naive Bayes in the first two runs, that is, with 4 and 5 partitions. Are the two Naive Bayes classifiers the same or different?
+Same
+Different
+---
+Correct answer(s):
+Different
+---
+Feedback correct:
+Yes, they’re slightly different: for example, the first number in the model is 52.3531 for 4 partitions and 52.2629 for 5 partitions.
+This is a great surprise! Naive Bayes models should be independent of the number of partitions, because the distributed Weka package ensures that all statistics are computed and aggregated correctly.
+The observed difference is rather subtle, and stems from the way that Weka’s implementation of Naive Bayes handles numeric attributes. For each numeric attribute Weka estimates a precision parameter from the training data, and uses it to round numeric values and to set the minimum allowable standard deviation for that attribute.
+
+Question 8
+Edit the filtersToUse property in the Naive Bayes WekaClassifierSparkJob to use a RemoveType unsupervised attribute filter, and configure the filter to delete numeric attributes.
+After selecting RemoveType, click the Add button on the GenericArrayEditor to add it to the list of filters. Close the GenericArrayEditor (in this case by clicking on the “x” in the top right corner) and then click OK in the WekaClassifierSparkJob’s dialog box.
+Run the flow again using 4 partitions and then 5 partitions. Are the Naive Bayes models for 4 and 5 partitions …
+The same as before using the filter?
+Different from each other, and from before the filter was used?
+The same as each other?
+---
+Correct answer(s):
+
+Question 8
+Edit the filtersToUse property in the Naive Bayes WekaClassifierSparkJob to use a RemoveType unsupervised attribute filter, and configure the filter to delete numeric attributes.
+After selecting RemoveType, click the Add button on the GenericArrayEditor to add it to the list of filters. Close the GenericArrayEditor (in this case by clicking on the “x” in the top right corner) and then click OK in the WekaClassifierSparkJob’s dialog box.
+Run the flow again using 4 partitions and then 5 partitions. Are the Naive Bayes models for 4 and 5 partitions …
+The same as before using the filter?
+Different from each other, and from before the filter was used?
+The same as each other?
+---
+Correct answer(s):
+The same as each other?
+---
+Feedback correct:
+But they’re different from before, because the numeric attributes have been removed.

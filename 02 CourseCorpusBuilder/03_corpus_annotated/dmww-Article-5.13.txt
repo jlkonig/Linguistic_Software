@@ -1,0 +1,63 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Labor/NN/labour/2 
+5.5/CD/5.5/0 
+Regression_outliers/NNS/regression_outliers/0 
+5.3/CD/5.3/0 
+Weather/NN/weather/1 
+5.4/CD/5.4/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+5.9/CD/5.9/0 
+J48/NN/j48/0 
+5.5/CD/5.5/0 ,/,/,/0 5.9/CD/5.9/0 
+LeastMedSq/NN/leastmedsq/0 
+5.3/CD/5.3/0 
+LinearRegression/NN/linearregression/0 
+5.3/CD/5.3/0 
+Logistic/JJ/logistics/6 
+5.9/CD/5.9/0 
+NaiveBayes/NNS/naivebayes/0 
+5.9/CD/5.9/0 
+OneR/NN/oner/0 
+5.4/CD/5.4/0 ,/,/,/0 5.9/CD/5.9/0 
+SMO/NN/smo/0 
+5.9/CD/5.9/0 
+ZeroR/NN/zeror/0 
+5.9/CD/5.9/0 
+Filters/NNS/filter/3 
+AddClassification/NN/addclassification/0 
+5.3/CD/5.3/0 
+AddExpression/NN/addexpression/0 
+5.2/CD/5.2/0 
+Discretize/VB/discretize/0 
+5.2/CD/5.2/0 
+Normalize/VB/normal/1 
+5.2/CD/5.2/0 
+PrincipalComponents/NNS/principalcomponents/0 
+5.2/CD/5.2/0 
+RemoveUseless/NN/removeuseless/0 
+5.2/CD/5.2/0 
+ReplaceMissingValues/NNS/replacemissingvalues/0 
+5.5/CD/5.5/0 
+Standardize/VB/standard/2 
+5.2/CD/5.2/0 
+Packages/NNS/pack/1 
+LeastMedSquared/VBN/leastmedsquared/0 
+5.3/CD/5.3/0 
+Plus/CC/plus/1 …/VB/…/0 
+Missing/VBG/miss/1 values/NNS/value/2 
+5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 
+Outliers/NNS/outlying/9 
+5.3/CD/5.3/0 
+Reading/VBG/read/1 CSV/NNP/csv/0 files/NNS/file/2 
+5.3/CD/5.3/0 
+Reidentification/NN/reidentification/0 
+5.6/CD/5.6/0 ,/,/,/0 5.7/CD/5.7/0 
+Visualize/NNP/visual/3 panel/NN/panel/3 
+5.3/CD/5.3/0 
+
+

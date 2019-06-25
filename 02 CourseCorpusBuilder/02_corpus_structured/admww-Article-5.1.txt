@@ -1,0 +1,4 @@
+How can you script Weka?
+Have you found that repeatedly executing the same or similar tasks through an interactive interface like the Weka Explorer can become tedious?
+Scripts are programs that automate the execution of tasks that could alternatively be executed interactively by a human operator. Typically, scripts are typed into an interactive interface and executed immediately.
+Wouldn’t it be cool to be able to “script” Weka, and avoid all this pointing, selecting, and clicking? Yes? Read on …

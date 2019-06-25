@@ -1,0 +1,64 @@
+Document classification with Naive Bayes 
+Question 1
+What’s the first thing you should do before starting to evaluate classifiers on a new dataset?
+Apply a filter to the data.
+Try a simple baseline classifier.
+Check the source of the data for missing values.
+---
+Correct answer(s):
+Try a simple baseline classifier.
+---
+Feedback correct:
+In this case, ZeroR gets 96.0%, so it doesn’t outperform J48’s 97.4%. Phew! But OneR, a slightly more sophisticated baseline, gets 97.5%. Oh no! And it yields a really simple model, branching on the single attribute CORN, whereas J48’s model is far more complex.
+I should practice what I preach!
+---
+Feedback incorrect:
+Probably not a bad idea, but not the answer we’re looking for …
+
+Question 2
+Using the new dataset ReutersGrain-train and ReutersGrain-test, evaluate the FilteredClassifier with the StringToWordVector filter and the J48 classifier (default parameters throughout).
+What is the overall classification accuracy on the test set?
+78%
+96%
+97%
+98%
+---
+Correct answer(s):
+96%
+---
+Feedback correct:
+(It’s actually 96.3576%.) In this case the ZeroR baseline gives appreciably worse overall accuracy than J48 (91%), and OneR is slightly worse too (96%).
+
+Question 3
+What are the percentage classification accuracies (rounded to the nearest integer)?
+---
+Correct answer(s):
+67
+99
+
+Question 4
+Now repeat this exercise using Naive Bayes as the classifier instead of J48.
+What are the percentage classification accuracies (rounded to the nearest integer)?
+---
+Correct answer(s):
+80
+81
+
+Question 5
+If you apply the StringToWordVector filter in the Preprocess panel, you will notice that that although the attributes all have values 0 and 1, they are nevertheless defined as “numeric”. In fact, this causes NaiveBayes to treat them differently to nominal attributes (technically, it assumes that they are distributed according to a Gaussian distribution). So let’s apply the NumericToNominal filter to convert the attributes to nominal, and re-evaluate NaiveBayes.
+But now we have two filters! How can we use the FilteredClassifier with multiple filters? The answer lies in the MultiFilter, which applies several filters successively. It appears at the top of the list of filter choices.
+Figure out how to apply it (the interface is a little weird: you’ll have to experiment). First check that you get the same results as before if you configure MultiFilter to use the single StringToWordVector filter. Now add NumericToNominal to convert the attributes to nominal.
+Re-evaluate the classification accuracies for NaiveBayes. What are they (as percentages, rounded to the nearest integer)?
+---
+Correct answer(s):
+
+Question 5
+If you apply the StringToWordVector filter in the Preprocess panel, you will notice that that although the attributes all have values 0 and 1, they are nevertheless defined as “numeric”. In fact, this causes NaiveBayes to treat them differently to nominal attributes (technically, it assumes that they are distributed according to a Gaussian distribution). So let’s apply the NumericToNominal filter to convert the attributes to nominal, and re-evaluate NaiveBayes.
+But now we have two filters! How can we use the FilteredClassifier with multiple filters? The answer lies in the MultiFilter, which applies several filters successively. It appears at the top of the list of filter choices.
+Figure out how to apply it (the interface is a little weird: you’ll have to experiment). First check that you get the same results as before if you configure MultiFilter to use the single StringToWordVector filter. Now add NumericToNominal to convert the attributes to nominal.
+Re-evaluate the classification accuracies for NaiveBayes. What are they (as percentages, rounded to the nearest integer)?
+---
+Correct answer(s):
+87
+77
+88

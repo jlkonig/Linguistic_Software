@@ -1,0 +1,75 @@
+Index
+At the end of each week is an index of topics covered that week.
+A full index to the course appears under DOWNLOADS, below.
+      Topic
+      Step
+      Datasets
+      airline
+      1.7, 1.8, 1.9, 1.10, 1.11, 1.12, 1.13
+      appleStocks
+      1.13
+      Financial data for GOOG
+      1.14
+      Infrared data from soil samples
+      1.16, 1.18
+      sentiment
+      1.4
+      Soil dataset (org_c_n)
+      1.18
+      wine
+      1.15
+      Classifiers
+      LinearRegression
+      1.7, 1.9, 1.10, 1.11, 1.15, 1.18
+      M5P
+      1.18
+      NaiveBayesMultinomial
+      1.4
+      OneR
+      1.4
+      RandomForest
+      1.18
+      REPTree
+      1.18
+      SMOreg
+      1.8, 1.10, 1.11
+      ZeroR
+      1.4
+      Metalearners
+      FilteredClassifier
+      1.9
+      Filters
+      AddExpression
+      1.8
+      Copy
+      1.7
+      Remove
+      1.9
+      RemoveMisclassified
+      1.4
+      RemoveRange
+      1.7, 1.8
+      Resample
+      1.4
+      TimeSeriesTranslate
+      1.7, 1.8
+      Packages
+      timeseriesForecasting
+      1.9
+      Plus …
+      Downsampling
+      1.18
+      Forecast panel
+      1.9, 1.10, 1.11, 1.12
+      International Conf. on Machine Learning (ICML)
+      1.16
+      Lagged variables
+      1.6–1.15
+      Overlay data
+      1.13
+      Row normalization
+      1.18
+      Savitzky-Golay smoothing
+      1.18
+      Time series analysis
+      1.6–1.15

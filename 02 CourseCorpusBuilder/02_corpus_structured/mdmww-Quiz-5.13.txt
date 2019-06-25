@@ -1,0 +1,61 @@
+Optimizing IBk
+Question 1
+In the Explorer, determine the optimal parameter value for IBk between 1 and 10 for the breast-cancer.arff dataset using the CVParameterSelection meta-learning scheme with the CVParameter string set to “K 1 10 10”. What is it?
+1
+2
+4
+9
+---
+Correct answer(s):
+4
+
+Question 2
+Set up the Experimenter to compare IBk with its default parameter of 1 with the optimal value between 1 and 10 found using the CVParameterSelection meta-learning scheme.
+Use these 4 datasets: credit-g.arff, diabetes.arff, glass.arff, and ionosphere.arff. Note: the optimal parameter value will vary from one dataset to another, so be sure to set up the Experimenter to determine it individually for each dataset.
+For which datasets does this optimization step produce a better result?
+Select all the answers you think are correct.
+credit-g
+diabetes
+glass
+ionosphere
+none
+---
+Correct answer(s):
+credit-g
+diabetes
+ionosphere
+
+Question 3
+For which datasets is the result significantly better (5% level)?
+Select all the answers you think are correct.
+credit-g
+diabetes
+glass
+ionosphere
+none
+---
+Correct answer(s):
+ionosphere
+
+Question 4
+For which datasets is the result significantly worse?
+Select all the answers you think are correct.
+credit-g
+diabetes
+glass
+ionosphere
+none
+---
+Correct answer(s):
+
+Question 4
+For which datasets is the result significantly worse?
+Select all the answers you think are correct.
+credit-g
+diabetes
+glass
+ionosphere
+none
+---
+Correct answer(s):
+none

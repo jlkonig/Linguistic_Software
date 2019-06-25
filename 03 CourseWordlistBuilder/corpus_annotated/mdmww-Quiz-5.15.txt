@@ -1,0 +1,182 @@
+Advanced/NNP/advance/2 ARFF/NNP/arff/0 
+Question/NN/question/1 1/CD/1/0 
+With/IN/with/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 how/WRB/how/1 many/JJ/many/1 yes/NNS/yes/1 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 no/DT/no/1 instances/NNS/instance/2 are/VBP/be/1 reported/VBN/report/1 on/IN/on/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+6/CD/6/0 yes/NNS/yes/1 instances/NNS/instance/2 
+7/CD/7/0 yes/NNS/yes/1 instances/NNS/instance/2 
+9/CD/9/0 yes/NNS/yes/1 instances/NNS/instance/2 
+5/CD/5/0 no/DT/no/1 instances/NNS/instance/2 
+7/CD/7/0 no/DT/no/1 instances/NNS/instance/2 
+8/CD/8/0 no/DT/no/1 instances/NNS/instance/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 1/CD/1/0 
+With/IN/with/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 how/WRB/how/1 many/JJ/many/1 yes/NNS/yes/1 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 no/DT/no/1 instances/NNS/instance/2 are/VBP/be/1 reported/VBN/report/1 on/IN/on/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+6/CD/6/0 yes/NNS/yes/1 instances/NNS/instance/2 
+7/CD/7/0 yes/NNS/yes/1 instances/NNS/instance/2 
+9/CD/9/0 yes/NNS/yes/1 instances/NNS/instance/2 
+5/CD/5/0 no/DT/no/1 instances/NNS/instance/2 
+7/CD/7/0 no/DT/no/1 instances/NNS/instance/2 
+8/CD/8/0 no/DT/no/1 instances/NNS/instance/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+9/CD/9/0 yes/NNS/yes/1 instances/NNS/instance/2 
+5/CD/5/0 no/DT/no/1 instances/NNS/instance/2 
+
+Question/NN/question/1 2/CD/2/0 
+Process/NN/process/2 the/DT/the/1 data/NNS/data/3 with/IN/with/1 any/DT/any/1 classifier/JJR/classifier/0 and/CC/and/1 examine/VB/examine/2 the/DT/the/1 confusion/NN/confuse/2 matrix/NN/matrix/4 ./././0 How/WRB/how/1 many/JJ/many/1 yes/NNS/yes/1 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 no/DT/no/1 instances/NNS/instance/2 are/VBP/be/1 represented/VBN/represent/2 in/IN/in/1 the/DT/the/1 confusion/NN/confuse/2 matrix/NN/matrix/4 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+0/CD/0/0 yes/NNS/yes/1 instances/NNS/instance/2 
+9/CD/9/0 yes/NNS/yes/1 instances/NNS/instance/2 
+45/CD/45/0 yes/NNS/yes/1 instances/NNS/instance/2 
+0/CD/0/0 no/DT/no/1 instances/NNS/instance/2 
+2.5/CD/2.5/0 no/DT/no/1 instances/NNS/instance/2 
+5/CD/5/0 no/DT/no/1 instances/NNS/instance/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+45/CD/45/0 yes/NNS/yes/1 instances/NNS/instance/2 
+2.5/CD/2.5/0 no/DT/no/1 instances/NNS/instance/2 
+
+Question/NN/question/1 3/CD/3/0 
+Examine/VB/examine/2 the/DT/the/1 dataset/NN/dataset/0 using/VBG/use/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ’/NNP/’/0 s/NN/be/1 Edit/NNP/edit/2 button/NN/button/2 ./././0 Are/VBP/be/1 the/DT/the/1 weights/NNS/weight/1 displayed/VBN/display/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+They/PRP/they/1 ’/VBP/’/0 re/JJ/be/1 shown/VBN/show/1 in/IN/in/1 the/DT/the/1 second/JJ/second/1 column/NN/column/3 ,/,/,/0 just/RB/just/1 after/IN/after/1 the/DT/the/1 instance/NN/instance/2 number/NN/number/1 
+
+Question/NN/question/1 4/CD/4/0 
+[/JJ/[/0 Note/NN/note/1 :/:/:/0 Weka/NNP/weka/23 3.8.2/CD/3.8.2/0 has/VBZ/have/1 a/DT/a/1 bug/NN/bug/2 that/WDT/that/1 will/MD/will/1 not/RB/not/1 let/VB/let/1 you/PRP/you/1 save/VB/save/1 a/DT/a/1 weighted/JJ/weight/1 ARFF/NNP/arff/0 file/NN/file/2 ,/,/,/0 so/IN/so/1 please/JJ/please/1 skip/NN/skip/4 this/DT/this/1 question/NN/question/1 ]/NN/]/0 
+Save/VB/save/1 the/DT/the/1 dataset/NN/dataset/0 in/IN/in/1 a/DT/a/1 new/JJ/new/1 ARFF/NNP/arff/0 file/NN/file/2 and/CC/and/1 examine/VB/examine/2 it/PRP/it/1 with/IN/with/1 a/DT/a/1 text/NN/text/3 editor/NN/edit/2 ./././0 Does/VBZ/do/1 it/PRP/it/1 contain/VB/contain/2 the/DT/the/1 weights/NNS/weight/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+
+Question/NN/question/1 5/CD/5/0 
+[/JJ/[/0 Note/NN/note/1 :/:/:/0 Weka/NNP/weka/23 3.8.2/CD/3.8.2/0 has/VBZ/have/1 a/DT/a/1 bug/NN/bug/2 that/WDT/that/1 will/MD/will/1 not/RB/not/1 let/VB/let/1 you/PRP/you/1 save/VB/save/1 a/DT/a/1 weighted/JJ/weight/1 ARFF/NNP/arff/0 file/NN/file/2 ,/,/,/0 so/IN/so/1 please/JJ/please/1 skip/NN/skip/4 this/DT/this/1 question/NN/question/1 ]/NN/]/0 
+Save/VB/save/1 the/DT/the/1 data/NN/data/3 into/IN/into/1 a/DT/a/1 .csv/JJ/.csv/0 file/NN/file/2 ./././0 Does/VBZ/do/1 it/PRP/it/1 contain/VB/contain/2 the/DT/the/1 weights/NNS/weight/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+
+Question/NN/question/1 6/CD/6/0 
+Load/NNP/load/1 the/DT/the/1 original/JJ/original/2 weather.nominal.arff/NN/weather.nominal.arff/0 file/NN/file/2 and/CC/and/1 convert/VB/convert/3 it/PRP/it/1 to/TO/to/1 sparse/VB/sparse/6 format/NN/format/3 using/VBG/use/1 the/DT/the/1 NonSparsetoSparse/NNP/nonsparsetosparse/0 filter/NN/filter/3 ./././0 Save/VB/save/1 it/PRP/it/1 in/IN/in/1 a/DT/a/1 new/JJ/new/1 ARFF/NNP/arff/0 file/NN/file/2 and/CC/and/1 take/VB/take/1 a/DT/a/1 look/NN/look/1 ./././0 
+How/WRB/how/1 large/JJ/large/1 are/VBP/be/1 the/DT/the/1 original/JJ/original/2 weather.nominal/JJ/weather.nominal/0 file/NN/file/2 and/CC/and/1 the/DT/the/1 sparse/JJ/sparse/6 version/NN/version/2 respectively/RB/respective/3 (/(/(/0 in/IN/in/1 bytes/NNS/byte/8 )/)/)/0 ?/./?/0 
+587/CD/587/0 and/CC/and/1 592/CD/592/0 
+589/CD/589/0 and/CC/and/1 598/CD/598/0 
+587/CD/587/0 and/CC/and/1 606/CD/606/0 
+592/CD/592/0 and/CC/and/1 612/CD/612/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+587/CD/587/0 and/CC/and/1 606/CD/606/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+These/DT/this/1 are/VBP/be/1 the/DT/the/1 sizes/NNS/size/1 under/IN/under/1 Windows/NNS/window/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+These/DT/this/1 are/VBP/be/1 the/DT/the/1 sizes/NNS/size/1 on/IN/on/1 the/DT/the/1 Mac/NNP/mac/0 
+
+Question/NN/question/1 7/CD/7/0 
+Word/NNP/word/1 vectors/NNS/vector/6 for/IN/for/1 large/JJ/large/1 text/NN/text/3 files/NNS/file/2 are/VBP/be/1 a/DT/a/1 prime/JJ/prime/2 candidate/NN/candidate/3 for/IN/for/1 sparse/JJ/sparse/6 representation/NN/represent/2 ,/,/,/0 because/IN/because/1 most/JJS/most/1 words/NNS/word/1 do/VBP/do/1 not/RB/not/1 occur/VB/occur/2 in/IN/in/1 most/JJS/most/1 documents/NNS/document/3 ./././0 
+Use/VB/use/1 the/DT/the/1 StringtoWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 to/TO/to/1 convert/VB/convert/3 the/DT/the/1 ReutersCorn-train.arff/NNP/reuterscorn-train.arff/0 file/NN/file/2 into/IN/into/1 a/DT/a/1 word/NN/word/1 vector/NN/vector/6 ,/,/,/0 and/CC/and/1 save/VB/save/1 it/PRP/it/1 ./././0 How/WRB/how/1 big/JJ/big/1 is/VBZ/be/1 the/DT/the/1 file/NN/file/2 ?/./?/0 
+584/CD/584/0 KB/NNP/kb/0 
+589/CD/589/0 KB/NNP/kb/0 
+592/CD/592/0 KB/NNP/kb/0 
+597/CD/597/0 KB/NNP/kb/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+597/CD/597/0 KB/NNP/kb/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 size/NN/size/1 on/IN/on/1 a/DT/a/1 Mac/NNP/mac/0 ./././0 (/(/(/0 Macs/NNP/macs/14 use/VBP/use/1 1/CD/1/0 KB/NNP/kb/0 =/NN/=/0 1000/CD/1000/0 bytes/NNS/byte/8 ./././0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 size/NN/size/1 under/IN/under/1 Windows/NNP/window/1 ./././0 (/(/(/0 Windows/JJ/window/1 uses/VBZ/use/1 1/CD/1/0 KB/NNP/kb/0 =/NN/=/0 1024/CD/1024/0 bytes/NNS/byte/8 ./././0 )/)/)/0 
+
+Question/NN/question/1 8/CD/8/0 
+StringToWordVector/NNP/stringtowordvector/0 produces/VBZ/produce/2 a/DT/a/1 sparse/JJ/sparse/6 representation/NN/represent/2 ,/,/,/0 so/IN/so/1 convert/JJ/convert/3 it/PRP/it/1 to/TO/to/1 non-sparse/JJ/non-sparse/0 and/CC/and/1 save/VB/save/1 that/DT/that/1 ./././0 
+How/WRB/how/1 big/JJ/big/1 is/VBZ/be/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 file/NN/file/2 ?/./?/0 
+6/CD/6/0 MB/NNP/megabyte/8 
+6,840/CD/6,840/0 KB/NNP/kb/0 
+7/CD/7/0 MB/NNP/megabyte/8 
+7,087/CD/7,087/0 KB/NNP/kb/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+6,840/CD/6,840/0 KB/NNP/kb/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 size/NN/size/1 under/IN/under/1 Windows/NNS/window/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 size/NN/size/1 on/IN/on/1 a/DT/a/1 Mac/NNP/mac/0 
+
+Question/NN/question/1 9/CD/9/0 
+We/PRP/we/1 now/RB/now/1 compare/VBP/compare/2 the/DT/the/1 speed/NN/speed/2 of/IN/of/1 various/JJ/various/2 classifiers/NNS/classifier/0 on/IN/on/1 sparse/NN/sparse/6 and/CC/and/1 non-sparse/JJ/non-sparse/0 input/NN/input/3 ./././0 
+For/IN/for/1 the/DT/the/1 two/CD/two/1 word-vector/NN/word-vector/0 files/NNS/file/2 you/PRP/you/1 ’/VBP/’/0 ve/JJ/have/1 just/RB/just/1 produced/VBN/produce/2 ,/,/,/0 use/VBP/use/1 the/DT/the/1 Explorer/NN/explore/3 to/TO/to/1 move/VB/move/1 the/DT/the/1 class/NN/class/1 attribute/NN/attribute/3 (/(/(/0 currently/RB/current/2 the/DT/the/1 first/JJ/first/1 attribute/NN/attribute/3 )/)/)/0 to/TO/to/1 the/DT/the/1 end/NN/end/1 ./././0 Do/VB/do/1 this/DT/this/1 by/IN/by/1 applying/VBG/apply/2 the/DT/the/1 Reorder/NNP/order/1 filter/NN/filter/3 with/IN/with/1 parameter/JJ/parameter/4 “/JJ/“/0 2-last,1/JJ/2-last,1/0 ”/NN/”/0 ./././0 This/DT/this/1 moves/VBZ/move/1 all/DT/all/1 attributes/NNS/attribute/3 from/IN/from/1 the/DT/the/1 second/JJ/second/1 to/TO/to/1 the/DT/the/1 last/JJ/last/1 (/(/(/0 inclusive/JJ/inclusive/6 )/)/)/0 to/TO/to/1 the/DT/the/1 beginning/NN/begin/1 ,/,/,/0 i.e/NN/i.e/0 ./././0 starting/VBG/start/1 at/IN/at/1 position/NN/position/1 1/CD/1/0 ./././0 
+In/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 ,/,/,/0 classify/VB/classify/4 these/DT/this/1 two/CD/two/1 files/NNS/file/2 with/IN/with/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 Multinomial/NNP/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 and/CC/and/1 SMO/NNP/smo/0 ./././0 This/DT/this/1 took/VBD/take/1 15–20/CD/15–20/0 mins/NNS/minute/1 on/IN/on/1 my/PRP$/i/1 computer/NN/computer/1 using/VBG/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 ’/NNP/’/0 s/NN/be/1 default/NN/default/5 settings/NNS/set/1 ,/,/,/0 but/CC/but/1 you/PRP/you/1 ’/VBP/’/0 ll/JJ/will/1 get/VB/get/1 much/RB/much/1 the/DT/the/1 same/JJ/same/1 result/NN/result/2 far/RB/far/1 more/RBR/more/1 quickly/RB/quick/1 if/IN/if/1 you/PRP/you/1 reduce/VB/reduce/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 repetitions/NNS/repeat/2 from/IN/from/1 10/CD/10/0 to/TO/to/1 1/CD/1/0 ./././0 
+How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 User/NNP/use/1 CPU/NNP/cpu/0 time/NN/time/1 for/IN/for/1 training/VBG/train/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 on/IN/on/1 the/DT/the/1 sparse/JJ/sparse/6 representation/NN/represent/2 compare/NN/compare/2 with/IN/with/1 training/VBG/train/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 representation/NN/represent/2 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+A/DT/a/1 bit/NN/bit/1 slower/JJR/slow/1 
+2–3/CD/2–3/0 times/NNS/time/1 slower/JJR/slow/1 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+2–3/CD/2–3/0 times/NNS/time/1 slower/JJR/slow/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 does/VBZ/do/1 not/RB/not/1 take/VB/take/1 advantage/NN/advantage/2 of/IN/of/1 the/DT/the/1 sparse/NN/sparse/6 representation/NN/represent/2 
+
+Question/NN/question/1 10/CD/10/0 
+How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 User/NNP/use/1 CPU/NNP/cpu/0 time/NN/time/1 for/IN/for/1 training/VBG/train/1 Multinomial/NNP/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 on/IN/on/1 the/DT/the/1 sparse/JJ/sparse/6 representation/NN/represent/2 compare/NN/compare/2 with/IN/with/1 training/VBG/train/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 representation/NN/represent/2 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+A/DT/a/1 bit/NN/bit/1 slower/JJR/slow/1 
+2–3/CD/2–3/0 times/NNS/time/1 slower/JJR/slow/1 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Multinomial/JJ/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 takes/VBZ/take/1 advantage/NN/advantage/2 of/IN/of/1 the/DT/the/1 sparse/NN/sparse/6 representation/NN/represent/2 
+
+Question/NN/question/1 11/CD/11/0 
+How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 User/NNP/use/1 CPU/NNP/cpu/0 time/NN/time/1 for/IN/for/1 training/VBG/train/1 J48/NNP/j48/0 on/IN/on/1 the/DT/the/1 sparse/JJ/sparse/6 representation/NN/represent/2 compare/NN/compare/2 with/IN/with/1 training/VBG/train/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 representation/NN/represent/2 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+A/DT/a/1 bit/NN/bit/1 slower/JJR/slow/1 
+2–3/CD/2–3/0 times/NNS/time/1 slower/JJR/slow/1 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+A/DT/a/1 bit/NN/bit/1 slower/JJR/slow/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+J48/NNP/j48/0 does/VBZ/do/1 not/RB/not/1 take/VB/take/1 advantage/NN/advantage/2 of/IN/of/1 the/DT/the/1 sparse/NN/sparse/6 representation/NN/represent/2 
+
+Question/NN/question/1 12/CD/12/0 
+How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 User/NNP/use/1 CPU/NNP/cpu/0 time/NN/time/1 for/IN/for/1 training/VBG/train/1 SMO/NNP/smo/0 on/IN/on/1 the/DT/the/1 sparse/JJ/sparse/6 representation/NN/represent/2 compare/NN/compare/2 with/IN/with/1 training/VBG/train/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 representation/NN/represent/2 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+A/DT/a/1 bit/NN/bit/1 slower/JJR/slow/1 
+2–3/CD/2–3/0 times/NNS/time/1 slower/JJR/slow/1 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+More/JJR/more/1 than/IN/than/1 3/CD/3/0 times/NNS/time/1 faster/RBR/fast/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+SMO/NNP/smo/0 takes/VBZ/take/1 advantage/NN/advantage/2 of/IN/of/1 the/DT/the/1 sparse/JJ/sparse/6 representation/NN/represent/2 ./././0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 applying/VBG/apply/2 Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNP/bayes/0 or/CC/or/1 SMO/NNP/smo/0 to/TO/to/1 the/DT/the/1 non-sparse/JJ/non-sparse/0 file/NN/file/2 you/PRP/you/1 have/VBP/have/1 just/RB/just/1 produced/VBN/produce/2 ,/,/,/0 it/PRP/it/1 ’/VBD/’/0 s/RB/be/1 2/CD/2/0 to/TO/to/1 5/CD/5/0 times/NNS/time/1 faster/RBR/fast/1 to/TO/to/1 use/VB/use/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 to/TO/to/1 convert/VB/convert/3 it/PRP/it/1 into/IN/into/1 sparse/JJ/sparse/6 representation/NN/represent/2 and/CC/and/1 apply/VB/apply/2 the/DT/the/1 classifier/NN/classifier/0 to/TO/to/1 that/DT/that/1 –/NNP/–/0 even/RB/even/1 though/IN/though/1 with/IN/with/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 this/DT/this/1 runs/VBZ/run/1 the/DT/the/1 filter/NN/filter/3 10/CD/10/0 separate/JJ/separate/2 times/NNS/time/1 ./././0 
+
+

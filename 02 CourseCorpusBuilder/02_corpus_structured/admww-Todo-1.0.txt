@@ -1,0 +1,81 @@
+Time series forecasting 
+Introduction
+This course aims to lift you to the "wizard" level of skill in data mining with Weka. You'll learn to use a variety of popular packages that extend Weka's capabilities in a wide range of areas.
+1.1
+What will you learn?
+video (03:39)
+1.2
+About this course
+article
+1.3
+Welcome! Please introduce yourself
+discussion
+1.4
+Are you ready for this? 
+quiz
+1.5
+Rogues gallery
+article
+How can you use data mining to foretell the future?
+Each week we’ll focus on a “Big Question” relating to data mining. This is the Big Question for this week.
+1.6
+How can you use data mining to foretell the future?
+article
+Time series: linear regression with lags 
+The simplest kind of forecasting is linear regression, "Date" attributes must be normalized in order to interpret the linear model. Linear predictions can be improved by adding lagged copies of variables.
+1.7
+Time series: linear regression with lags 
+video (11:10)
+1.8
+Time series forecasting with SMO 
+quiz
+Using the time series forecasting package 
+The time series forecasting package automatically produces lots of lagged variables
+... and lots of other variables too, which can lead to overfitting. Beware of evaluation based on training data: simpler models can be better!
+1.9
+Using the time series forecasting package 
+video (09:48)
+1.10
+Evaluating on a test set 
+quiz
+Looking at forecasts 
+Weka's time series forecasting package includes many options for visualizing predictions. It can graph future predictions for any number of steps ahead, and show comparisons of predictions for different numbers of steps
+1.11
+Looking at forecasts
+video (08:42)
+1.12
+Looking at the textual output
+quiz
+Lag creation and overlay data 
+There are many different parameters and options for deriving time-dependent attributes.
+More than one target can be predicted, and "Overlay data" can be specified whose future values are known.
+1.13
+Lag creation and overlay data 
+video (09:20)
+1.14
+How do you find stock market data?
+article
+1.15
+Forecasting wine sales 
+quiz
+Analyzing infrared data from soil samples 
+Here are six challenges for data mining applications. Inferring properties of soil samples from infrared data can save significant dollars.
+Remember, data mining is an experimental science!
+1.16
+Analyzing infrared data from soil samples 
+video (10:37)
+1.17
+Challenges for machine learning applications
+discussion
+1.18
+Analyzing a soil sample 
+quiz
+1.19
+Avenues for further investigation
+article
+1.20
+Reflect on this week’s Big Question
+discussion
+1.21
+Index
+article

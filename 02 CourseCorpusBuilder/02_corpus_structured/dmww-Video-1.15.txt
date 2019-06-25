@@ -1,0 +1,3 @@
+The glass data
+The glass dataset is a more realistic dataset with 214 instances and 10 attributes. Each instance represents a piece of glass, and its class is the type of the glass. There are 7 possible types, corresponding to different glass manufacturing processes. We interpret the attributes, and check their values for reasonableness. Weka datasets use a format called ARFF, and we take a look at the raw glass.arff data file.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

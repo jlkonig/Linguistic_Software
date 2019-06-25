@@ -1,0 +1,63 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Diabetes
+      2.7
+      Glass
+      2.7
+      Ionosphere
+      2.2, 2.3, 2.5, 2.7
+      Iris
+      2.7
+      Reuters-Corn-train/test
+      2.9, 2.12, 2.14
+      Reuters-Grain-train/test
+      2.10, 2.13
+      Schizo
+      2.7
+      Weather
+      2.4, 2.6, 2.11
+      Classifiers
+      IBk
+      2.7
+      J48
+      2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.9, 2.10, 2.11, 2.12, 2.13
+      JRip
+      2.7
+      NaiveBayes
+      2.10, 2.11, 2.12, 2.14
+      NaiveBayesMultinomial
+      2.13, 2.14
+      OneR
+      2.5
+      PART
+      2.7
+      SimpleLogistic
+      2.7
+      SMO
+      2.7
+      Metalearners
+      FilteredClassifier
+      2.4, 2.5, 2.9, 2.10, 2.12, 2.13
+      Filters
+      Discretize (supervised)
+      2.4, 2.5, 2.7
+      Discretize (unsupervised)
+      2.2, 2.3
+      MultiFilter
+      2.10, 2.12
+      NumericToNominal
+      2.10, 2.12
+      StringToWordVector
+      2.9, 2.10, 2.12, 2.13, 2.14
+      Plus …
+      Experimenter interface
+      2.3, 2.5, 2.14
+      ROC curve (AUC)
+      2.11, 2.12, 2.13
+      Stemming
+      2.14
+      Stop words
+      2.13

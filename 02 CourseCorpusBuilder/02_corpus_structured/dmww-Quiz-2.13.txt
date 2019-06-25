@@ -1,0 +1,143 @@
+Comparing with the baseline
+Question 1
+The iris.arff dataset consists of three classes (Iris-setosa, Iris-versicolor, Iris-virginica), with 50 instances each. What is the accuracy of ZeroR on this dataset when testing on the training set?
+10%
+33%
+50%
+66%
+---
+Correct answer(s):
+33%
+---
+Feedback correct:
+It’s a tie, so ZeroR chooses one of the three classes as the the majority class and always predicts it, achieving a success rate of 50/150, or 33.3%.
+
+Question 2
+In practice, what is ZeroR’s success rate on the iris dataset when evaluated using the default (66%) Percentage split?
+29%
+31%
+71%
+96%
+---
+Correct answer(s):
+29%
+---
+Feedback correct:
+There is some statistical variation from the expected figure because the training and test sets are randomly sampled. (Note: to get this result, Weka’s random seed should have its default value of 1).
+---
+Feedback incorrect:
+Is your seed value set to 2 or 3? Make sure the default seed is set at a value of 1.
+---
+Feedback incorrect:
+Make sure you are looking that the Correctly Classified Instances and not the Incorrectly Classified Instances.
+
+Question 3
+Open the glass.arff dataset, go to the Classify tab, and use Percentage split with the default value of 66% as the evaluation method.
+What is ZeroR’s accuracy (in percent)?
+27%
+28%
+33%
+34%
+---
+Correct answer(s):
+27%
+---
+Feedback correct:
+(Weka gives the result as 27.3973%)
+---
+Feedback incorrect:
+Did you use percentage split (66%) and random seed of 1?
+
+Question 4
+What is J48’s accuracy on the glass dataset, using default parameter values?
+38%
+57%
+58%
+62%
+---
+Correct answer(s):
+58%
+---
+Feedback correct:
+(Weka gives the result as 57.5342%)
+---
+Feedback incorrect:
+Did you use Percentage split (66%) and random seed of 1?
+
+Question 5
+What is NaiveBayes’ accuracy on the glass dataset, using default parameter values?
+39%
+43%
+49%
+51%
+---
+Correct answer(s):
+49%
+---
+Feedback correct:
+(Weka gives the result as 49.3%)
+---
+Feedback incorrect:
+Did you use Percentage split (66%) and random seed of 1?
+
+Question 6
+Open the segment-challenge.arff dataset, go to the Classify tab, and evaluate using segment-test.arff as the test set.
+What is ZeroR’s accuracy?
+12%
+14%
+16%
+88%
+---
+Correct answer(s):
+---
+Feedback correct:
+(Weka gives the result as 11.6049%)
+---
+Feedback incorrect:
+Did you use Supplied test set?
+---
+Feedback incorrect:
+Are you looking at the Incorrectly classified Instances instead of the Correctly classified Instances?
+
+Question 6
+Open the segment-challenge.arff dataset, go to the Classify tab, and evaluate using segment-test.arff as the test set.
+What is ZeroR’s accuracy?
+12%
+14%
+16%
+88%
+---
+Correct answer(s):
+
+Question 7
+What is IBk’s accuracy for segment-challenge evaluated on segment-test, using default parameter values?
+31%
+95%
+96%
+98%
+---
+Correct answer(s):
+---
+Feedback correct:
+(Weka gives the result as 95.8025 percent)
+---
+Feedback incorrect:
+Are you using Percentage split? You should be using the Supplied test set.
+---
+Feedback incorrect:
+Are you using the Supplied test set?
+
+Question 8
+What is PART’s accuracy for segment-challenge evaluated on segment-test, using default parameter values?
+11%
+88%
+95%
+96%
+---
+Correct answer(s):
+---
+Feedback correct:
+(Weka gives the result as 95.679%)
+---
+Feedback incorrect:
+Did you use the Supplied test set?

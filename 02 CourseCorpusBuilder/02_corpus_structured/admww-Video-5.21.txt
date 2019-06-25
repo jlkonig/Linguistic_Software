@@ -1,0 +1,3 @@
+Course summary 
+We’ve covered a lot of ground in this course. Congratulations for getting this far, and double congratulations if you’ve managed to do all the Quizzes! I encourage you to keep learning; one good way is to challenge yourself by tackling data mining competitions. Kaggle offers many competitions, past and present, some with attractive prizes! Finally, a little word on ethics. I urge you to be ethical in your use of data mining, partly because there are good business reasons for doing things ethically, but mainly because I want to encourage you to have personal integrity and conduct yourself in an ethical way.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

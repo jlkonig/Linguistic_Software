@@ -1,0 +1,9 @@
+Welcome! Please introduce yourself
+Remember me? I’m Ian, in New Zealand. I hope you do remember me from the course Data Mining with Weka, because you should have completed that course (or have equivalent knowledge) before embarking on this one.
+But just to remind you: formally I’m Professor Ian Witten from the University of Waikato in New Zealand, but everyone calls me Ian. I grew up in Northern Ireland, studied at Cambridge University, and worked at the Universities of Essex in England and Calgary in Canada before moving to paradise (aka New Zealand) 25 years ago. I became interested in data mining way back when, and also in open source software and open education. Data, they say, is the “new oil”: it affects all of us economically, socially, and politically.
+I made this course because everyone needs to know about the data revolution (which far outshines the “computer revolution”) and what you can do with data – and what they can do with data. That’s why I’m so glad to have you here and learning!
+Who are you? Where are you from? What do you do? Why are you here? What are you hoping to learn? What sort of data do have and why do you need to analyze it? Can you share an example?
+See what other learners say and let them know if you share their interests (use ‘Reply’).
+(We find the diversity of backgrounds, interests and locations of the people who join this course absolutely fascinating.)
+You can make and reply to comments on almost every step of the course by clicking the pink plus icon. There will also be specific discussion steps from time to time (like this one and the regular ‘Weekly Reflections’ steps). Please join in!
+There’s more information on FutureLearn discussions here.

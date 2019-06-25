@@ -1,0 +1,3 @@
+Association rules 
+Association rule learners find associations between attributes. Between any attributes: there’s no particular class attribute. Rules can predict any attribute, or indeed any combination of attributes. To find them we need a different kind of algorithm. “Support” and “confidence” are two measures of a rule that are used to evaluate them, and rank them. The most popular association rule learner, and the one used in Weka, is called Apriori.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

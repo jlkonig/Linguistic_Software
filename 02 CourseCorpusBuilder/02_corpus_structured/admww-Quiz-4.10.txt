@@ -1,0 +1,149 @@
+Cross-validating classifiers with Spark 
+Question 1
+Open the  “Spark: cross-validate two classifiers” template and run it.
+What percentage of instances do Naive Bayes and Random Forest classify correctly?
+Select all the answers you think are correct.
+Naive Bayes: 0.1%
+Random Forest: 0.1%
+Naive Bayes: 4.5%
+Random Forest: 4.5%
+Naive Bayes: 95.5%
+Random Forest: 95.5%
+Naive Bayes: 99.2%
+Random Forest: 99.2%
+---
+Correct answer(s):
+Naive Bayes: 95.5%
+Random Forest: 99.2%
+---
+Feedback incorrect:
+That’s the percentage incorrectly classified by Naive Bayes
+
+Question 2
+What is the total number of instances predicted by the classifiers (whether correctly or incorrectly classified)?
+29
+169
+3605
+3745
+3774
+---
+Correct answer(s):
+3774
+---
+Feedback incorrect:
+That’s the number incorrectly classified by Random Forest
+---
+Feedback incorrect:
+That’s the number incorrectly classified by Naive Bayes
+---
+Feedback incorrect:
+That’s the number correctly classified by Naive Bayes
+---
+Feedback incorrect:
+That’s the number correctly classified by Random Forest
+
+Question 3
+Load the hypothyroid data into the Explorer.
+How many instances are there, and how many belong to the secondary_hypothyroid class?
+Select all the answers you think are correct.
+2 total
+2 secondary_hypothyroid
+30 total
+30 secondary_hypothyroid
+95 total
+95 secondary_hypothyroid
+3772 total
+3772 secondary_hypothyroid
+---
+Correct answer(s):
+2 secondary_hypothyroid
+3772 total
+---
+Feedback correct:
+There’s a 2-instance discrepancy between the number reported by the classifiers and the number shown by the Explorer.
+This occurs because the RandomlyShuffleDataSparkJob step stratifies the data as well as shuffling it. It ensures that all classes are represented in each partition of the Spark RDD dataset — even if a class has fewer instances than there are partitions.
+Here it is configured to produce 4 partitions, so 2 additional secondary_hypothyroid instances (sampled from the 2 original ones) are generated to force each partition of the data to include a representative of that class.
+---
+Feedback incorrect:
+There’s a 2-instance discrepancy between the number reported by the classifiers and the number shown by the Explorer.
+This occurs because the RandomlyShuffleDataSparkJob step stratifies the data as well as shuffling it. It ensures that all classes are represented in each partition of the Spark RDD dataset — even if a class has fewer instances than there are partitions.
+Here it is configured to produce 4 partitions, so 2 additional secondary_hypothyroid instances (sampled from the 2 original ones) are generated to force each partition of the data to include a representative of that class.
+
+Question 4
+Configure the RandomlyShuffleDataSparkJob to use 2 splits  instead of 4 (numRandomlyShuffledSplits), and run the flow again.
+What percentage of instances do Naive Bayes and Random Forest classify correctly?
+Select all the answers you think are correct.
+Naive Bayes: 95.4%
+Random Forest: 95.4%
+Naive Bayes: 95.5%
+Random Forest: 95.5%
+Naive Bayes: 99.2%
+Random Forest: 99.2%
+Naive Bayes: 99.7%
+Random Forest: 99.7%
+---
+Correct answer(s):
+Naive Bayes: 95.4%
+Random Forest: 99.7%
+
+Question 5
+What is the total number of instances predicted by the classifiers (whether correctly or incorrectly classified)?
+3772
+3774
+---
+Correct answer(s):
+3772
+---
+Feedback correct:
+With only 2 partitions there is no need to generate extra secondary_hypothyroid instances, because there are sufficient original instances to put at least one in each partition
+
+Question 6
+The performance of the Random Forest increased slightly with 4 partitions rather than 2, even though 100 trees are learned in each case.
+This could be due to a different shuffling of the data caused by a different number of partitions, but is more likely to be because, with fewer partitions, each one contains more data.
+To investigate further, vary the randomSeed property in the RandomlyShuffleDataSparkJob (use values 10, 50, 100) and observe the percentage of instances correctly classified by Random Forest when using 2 and 4 partitions. How does the performance compare?
+Always better with 2 partitions
+Always better with 4 partitions
+Sometimes better with 2, sometimes with 4
+---
+Correct answer(s):
+Always better with 2 partitions
+---
+Feedback correct:
+This suggests that fewer partitions give better performance.
+
+Question 7
+Let’s investigate how performance of Random Forest varies with the number of trees.
+Reset the RandomlyShuffleDataSparkJob step to use 4 partitions, and the randomSeed back to 1.
+Increase the number of trees learned by Random Forest (numIterations property) in the WekaClassifierEvaluationSparkJob2 step from the default value of 100 to 200. Run the flow again.
+What percentage of instances does Random Forest classify correctly?
+99.23%
+99.26%
+99.31%
+99.36%
+---
+Correct answer(s):
+99.36%
+---
+Feedback incorrect:
+That’s the result for 100 iterations
+---
+Feedback incorrect:
+That’s the result for 500 iterations
+---
+Feedback incorrect:
+That’s the result for 400 iterations
+
+Question 8
+Increase the number of trees to 300, 400 and then 500. Does performance improve?
+Yes
+No
+---
+Correct answer(s):
+
+Question 8
+Increase the number of trees to 300, 400 and then 500. Does performance improve?
+Yes
+No
+---
+Correct answer(s):
+No

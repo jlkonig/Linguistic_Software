@@ -1,0 +1,177 @@
+Post-course assessment
+Question 1
+In the Explorer, run OneR on the weather.nominal.arff data, evaluated using 10-fold cross-validation, and output the predictions, along with the value of the first attribute (outlook).
+[Hint: Under More options …, change Output Predictions from Null to PlainText, and then click on the word “PlainText” and set the attributes field to 1. This prints the value of the first attribute alongside each prediction.]
+Number these predictions from 1 to 14 in the order that they are output. Ignore the column headed actual.
+The output also shows the classifier model generated from the full training set, which branches on the outlook attribute, so for each prediction you can deduce what that model would predict.
+Four of the 14 predictions made by the cross-validation models do not agree with the predictions made by the classifier model for the full training set. Which ones are they?
+Select all the answers you think are correct.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+---
+Correct answer(s):
+6
+8
+9
+12
+
+Question 2
+The reason that four predictions do not agree with the model generated from the full training set is that OneR makes different models in different folds of the cross-validation.
+Use the KnowledgeFlow interface to determine the 10 cross-validation models that OneR makes for the weather.nominal.arff dataset. Model numbers appear in the Result list in parentheses (at the end of each line). Four models are different from the one generated from the full training set. Which ones?
+Select all the answers you think are correct.
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+---
+Correct answer(s):
+(3)
+(4)
+(5)
+(8)
+
+Question 3
+In order to relate the predictions printed by the Explorer to instances in the dataset, the AddID filter can be used to add an identification attribute to each instance.
+Unfortunately, this often causes the classifier to produce a different model (e.g., try it with OneR on the nominal weather data).
+However, you can effectively disable an attribute for the purposes of classification by using the FilteredClassifier with the Remove filter, appropriately configured.
+Now for the question: with the iris.arff dataset, J48 makes one error on the first cross-validation fold (it is the 15th instance in the “output predictions” list). Use the above technique to determine the instance number in the original data set that this error corresponds to.
+44
+71
+78
+84
+107
+---
+Correct answer(s):
+84
+
+Question 4
+Using the Explorer in Week 4, you achieved 99.7% cross-validation accuracy on the ReutersCorn-train.arff dataset using Naive Bayes and the FilteredClassifier, with the StringToWordVector filter with case-folding enabled (lowerCaseTokens = true), and selecting the top 2 attributes using the Gain Ratio attribute evaluator combined with the Ranker search method, wrapped up inside the AttributeSelectedClassifier.
+What is the corresponding accuracy for the ReutersGrain-train.arff dataset? (You are advised to check the classifier configuration first by repeating the earlier experiment.)
+96%
+97%
+98%
+99%
+99.5%
+99.7%
+---
+Correct answer(s):
+98%
+
+Question 5
+Repeat the experiment of Question 4 on the same dataset but retaining the top 4 attributes instead of 2. What is the accuracy now?
+96%
+97%
+98%
+99%
+99.5%
+99.7%
+---
+Correct answer(s):
+99%
+
+Question 6
+In the Explorer, cluster the diabetes.arff dataset using SimpleKMeans (with default parameters); ensure that you exclude the class attribute to get a realistic clustering.
+What is the within-cluster sum of squared errors?
+91
+115
+121
+150
+---
+Correct answer(s):
+121
+
+Question 7
+In the Explorer, do a classification-by-clustering evaluation of SimpleKMeans, XMeans, and EM on the diabetes dataset, constraining the number of clusters to 2, and compare with ZeroR as a baseline. (You will need to install the classificationViaClustering and XMeans packages if you haven’t already done so.)
+In terms of classification accuracy, what order do the methods come in?
+ZeroR < EM < SimpleKMeans = XMeans
+ZeroR < SimpleKMeans < XMeans = EM
+EM < ZeroR < SimpleKMeans < XMeans
+EM = XMeans < SimpleKMeans < ZeroR
+SimpleKMeans = ZeroR < XMeans = EM
+---
+Correct answer(s):
+EM = XMeans < SimpleKMeans < ZeroR
+
+Question 8
+Load the bankdata.arff dataset into the Explorer.
+Prepare it for association rule mining by Apriori, which does not handle numeric attributes, by converting the children attribute using the NumericToNominal filter, and discretizing (unsupervised discretization) both age and income into three equal-width ranges, expressed in terms of binary attributes.
+Apply Apriori. Which of the original attributes do the top 10 rules predict?
+Select all the answers you think are correct.
+age
+income
+married
+pep
+sex
+---
+Correct answer(s):
+age
+income
+
+Question 9
+Suppose that in the diabetes dataset, misclassifying a tested_positive instance as tested_negative is twice as costly as misclassifying a tested_negative instance as tested_positive.
+Use cost-sensitive evaluation with:
+    (a) the Logistic classifier
+    (b) the Logistic classifier using cost-sensitive classification (minimizeExpectedCost = true)
+    (c) the Logistic classifier using cost-sensitive learning (minimizeExpectedCost = false).
+What are the three costs?
+Select all the answers you think are correct.
+(a) 175
+(a) 256
+(a) 261
+(a) 290
+(a) 635
+(b) 175
+(b) 256
+(b) 261
+(b) 290
+(b) 635
+(c) 175
+(c) 256
+(c) 261
+(c) 290
+(c) 635
+---
+Correct answer(s):
+(a) 290
+(b) 256
+(c) 261
+
+Question 10
+Use the Explorer’s dataset generator to create 5 sets of LED24 data with 100, 200, 300, 400, and 500 instances respectively. Then use the Experimenter to compare the performance of J48, Naive Bayes, and SMO on them (with the default 10-fold cross-validation repeated 10 times).
+Which of these statements do you agree with?
+Select all the answers you think are correct.
+Naive Bayes significantly outperforms J48 on 1 dataset
+Naive Bayes significantly outperforms J48 on 2 datasets
+Naive Bayes significantly outperforms J48 on 3 datasets
+Naive Bayes outperforms J48 on 4 datasets
+Naive Bayes outperforms J48 on 5 datasets
+SMO significantly outperforms J48 on no datasets
+SMO significantly outperforms J48 on 1 dataset
+SMO significantly outperforms J48 on 2 datasets
+SMO outperforms J48 on 3 datasets
+SMO outperforms J48 on 4 datasets
+SMO outperforms J48 on 5 datasets
+---
+Correct answer(s):
+Naive Bayes significantly outperforms J48 on 1 dataset
+Naive Bayes outperforms J48 on 4 datasets
+SMO significantly outperforms J48 on no datasets
+SMO outperforms J48 on 3 datasets

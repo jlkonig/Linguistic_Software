@@ -1,0 +1,3 @@
+Reflect on this week’s Big Question
+This week’s Big Question is, “How can you script Weka”?
+So, can you? What do you think of the Python and Groovy scripting languages? Let your fellow learners know how you got on!

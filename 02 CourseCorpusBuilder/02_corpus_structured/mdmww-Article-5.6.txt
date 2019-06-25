@@ -1,0 +1,15 @@
+Performance of the multilayer perceptron
+Let’s review the performance of multilayer perceptrons in the preceding quiz.
+First, 2 hidden layers never significantly outperform 1 hidden layer.
+Ignoring significance:
+    2 hidden layers are best for 1 dataset
+    1 hidden layer is best for 2 datasets
+    0 hidden layers are best for 3 datasets.
+It’s interesting to look at the time taken for training, UserCPU_Time_training. Overall, 2 hidden layers take up to twice as long as 1 hidden layer, which takes between 2 and 12 times as long as 0 hidden layers.
+On 4 of the 6 datasets, all three versions of MultilayerPerceptron (0, 1, and 2 hidden layers) are outperformed by much faster methods:
+    roundly outperformed by J48 on breast-cancer (74% correct vs 67% correct for the default configuration of MultilayerPerceptron)
+    outperformed by SMO on credit-g and diabetes (75% vs 72%, and 77% vs 75% respectively)
+    outperformed by IBk on glass (70% vs 67%).
+MultilayerPerceptron (default configuration with 1 hidden layer) has two marginal successes:
+    on iris, it’s a shade better than its nearest competitor, SMO (97% vs 96%)
+    on ionosphere, it’s a shade better than its nearest competitor, AdaBoostM1 (91.1% vs 90.9%).

@@ -1,0 +1,97 @@
+Neural networks, learning curves, and performance optimization
+What are "neural networks" and how can I use them?
+This week's first Big Question!
+5.1
+What are "neural networks" and how can I use them?
+article
+Simple neural networks 
+The "Perceptron" is the simplest form of neural network.
+The basic perceptron implements a linear decision boundary
+... though modern improvements allow more complex boundaries.
+5.2
+Simple neural networks 
+video (07:44)
+5.3
+Investigating the Voted Perceptron
+quiz
+Multilayer perceptrons 
+Multilayer perceptrons are networks of perceptrons, with an input layer, an output layer, and (perhaps many) "hidden layers". They can implement arbitrary decision boundaries, but have practical limitations.
+5.4
+Multilayer perceptrons
+video (09:09)
+5.5
+Investigating multilayer perceptrons
+quiz
+5.6
+Performance of the multilayer perceptron
+article
+5.7
+ The deep learning renaissance
+article
+5.8
+Share stories on deep learning
+discussion
+How much training data do I need? And how do I optimize all those parameters? 
+This week's second Big Question! (two questions, really)
+5.9
+How much training data do I need? And how do I optimize all those parameters? 
+article
+Learning curves 
+Find out how much data you need by plotting a learning curve using the "resample" filter (which allows sampling with or without replacement). You can avoid sampling the test set by using the FilteredClassifier.
+5.10
+Learning curves 
+video (06:24)
+5.11
+Learning curves
+quiz
+Performance optimization 
+Weka has several "wrapper" metalearners that optimize parameters for best performance:
+CVParameterSelection, GridSearch, and ThresholdSelector.
+You should avoid optimizing parameters manually: you're bound to overfit!
+5.12
+Performance optimization 
+video (08:55)
+5.13
+Optimizing IBk
+quiz
+ARFF and XRFF 
+The ARFF format can encode sparse data, weighted instances, and relational attributes.
+Some Weka filters and classifiers take advantage of sparsity to reduce space and increase speed.
+There's an XML version of ARFF, called XRFF.
+5.14
+ARFF and XRFF 
+video (05:42)
+5.15
+Advanced ARFF
+quiz
+There's no magic in data mining
+There's no magic in data mining – no universal "best" method. It's an experimental science. You've learned a lot – but there's plenty more! Data mining is a powerful technology: please use it wisely.
+5.16
+Summary
+video (05:54)
+5.17
+How to cheat: A case study
+quiz
+5.18
+Corruption and cheating
+discussion
+5.19
+Reflect on this week's Big Questions
+discussion
+Farewell
+It's time to say goodbye again.
+5.20
+Post-course assessment
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+5.21
+Farewell
+article
+5.22
+Index
+article

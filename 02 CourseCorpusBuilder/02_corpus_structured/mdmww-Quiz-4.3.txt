@@ -1,0 +1,134 @@
+Using a wrapper to select attributes
+Question 1
+What would the final attribute subset contain if you used ZeroR with forward search?
+Nothing
+Na
+Si
+K
+All attributes
+---
+Correct answer(s):
+Nothing
+---
+Feedback correct:
+All attribute subsets yield the same performance, and the preference is for the smallest subset, so the result is a set with no attributes (the “empty” set)
+
+Question 2
+What would the final attribute subset contain if you used ZeroR with backward search?
+Nothing
+RI
+Fe
+Al
+All attributes
+---
+Correct answer(s):
+Nothing
+---
+Feedback correct:
+Same as for the previous question. In this case the order of searching is irrelevant.
+
+Question 3
+For this question and the next you need to know that OneR chooses Al as the attribute for this dataset.
+What would the final attribute subset contain if you used OneR with forward search?
+Nothing
+Al
+All attributes
+---
+Correct answer(s):
+Al
+---
+Feedback correct:
+OneR chooses Al for this dataset, and exactly the same result would be obtained for any larger subset of attributes. So preferring the smallest subset leads to the 1-attribute subset containing Al alone.
+
+Question 4
+What would final attribute subset contain if you used OneR with backward search?
+None
+Al
+All attributes
+---
+Correct answer(s):
+Al
+---
+Feedback correct:
+OneR chooses Al for this dataset, and any subset of attributes that does not include Al will yield a worse result. Again, the subset containing Al alone is preferred over larger subsets that also contain Al.
+
+Question 5
+Use Weka to confirm your intuition for the above questions.
+Now use the Classify panel to run IBk (with default parameters) on the glass.arff dataset, evaluating using 10-fold cross-validation. What is the percentage of correctly classified instances?
+71%
+72%
+75%
+78%
+80%
+---
+Correct answer(s):
+71%
+
+Question 6
+What is the percentage of correctly classified instances when the attribute set is {RI, Na, Mg, Ca, Ba}?
+(This is the set that Ian found at the beginning of the video Wrapper attribute selection, using wrapper-based attribute selection with J48 in the wrapper.)
+72%
+74%
+76%
+78%
+80%
+---
+Correct answer(s):
+78%
+
+Question 6
+What is the percentage of correctly classified instances when the attribute set is {RI, Na, Mg, Ca, Ba}?
+(This is the set that Ian found at the beginning of the video Wrapper attribute selection, using wrapper-based attribute selection with J48 in the wrapper.)
+72%
+74%
+76%
+78%
+80%
+---
+Correct answer(s):
+
+Question 7
+Use the Select attributes panel to find the subset selected by WrapperSubsetEval using IBk and BestFirst search (default parameters throughout). There are 6 attributes in this subset. What are they? (Type them in order.)
+---
+Correct answer(s):
+RI
+Mg
+Al
+K
+Ca
+Ba
+
+Question 8
+What percentage of correctly classified instances does IBk yield for that attribute set?
+71%
+72%
+75%
+78%
+80%
+---
+Correct answer(s):
+78%
+
+Question 9
+For this question you will first need to install Weka’s attributeSelectionSearchMethods package. (That’s a nuisance? – hey, it only takes about 2 minutes!)
+Restore the original dataset and choose the “Exhaustive search” search method on the Select attributes panel. This searches all 512 possible subsets of the 9 attributes.
+What attribute subset is selected by WrapperSubsetEval using IBk (default parameters)?
+---
+Correct answer(s):
+RI
+Na
+Mg
+K
+Ca
+Ba
+
+Question 10
+What percentage of correctly classified instances does IBk yield for that attribute set?
+71%
+73%
+75%
+77%
+79%
+---
+Correct answer(s):
+79%

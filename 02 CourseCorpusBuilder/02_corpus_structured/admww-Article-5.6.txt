@@ -1,0 +1,12 @@
+Datasets and scripts
+Here are the datasets and scripts used in the preceding video.
+The anneal dataset:
+  anneal.arff (the full dataset)
+  anneal_train.arff (used in the third script for training)
+  anneal_unlbl.arff (used in the third script for making predictions)
+Script for building a classifier and outputting the model:
+  build_classifier.py
+Script for evaluating a classifier and outputting summary statistics and a confusion matrix:
+  crossvalidate_classifier.py
+Script for building a classifier and making predictions on an unlabeled dataset:
+  make-predictions_classifier.py

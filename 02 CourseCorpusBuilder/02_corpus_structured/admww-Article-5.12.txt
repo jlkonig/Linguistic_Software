@@ -1,0 +1,21 @@
+Do it yourself!
+To set up Python with Weka you first need to install Python, and then install the python-weka-wrapper library for Python. You will probably need admin access to your computer for this.
+Python-weka-wrapper comes in two versions, one for Python 2.7 and one for Python 3.x, so make sure that you install the appropriate version. You must also ensure that your Python and Java version have the same bitness, i.e., either 32 or 64 bits.
+Java underwent quite some dramatic changes underneath the hood, starting with Java 9. To avoid any issues, you should use Java 8 with python-weka-wrapper.
+Python 2.7
+  Download and install Python 2.7 (installation is easy on Linux, but can be challenging on Windows and OSX)
+  Download and install the python-weka-wrapper library
+  Here are instructions for all this
+Python 3.x
+  Download and install Python 3.x (installation is easy on Linux, but can be challenging on Windows and OSX)
+  Download and install the python-weka-wrapper3 library
+  Here are instructions for all this
+Data files:
+  bodyfat.arff
+  balance-scale.arff
+Evaluate a classifier and output summary statistics and a confusion matrix:
+  pww-crossvalidate_classifier.py
+Plot the errors made by LinearRegression:
+  pww-crossvalidate_classifier-errors-bubbles.py
+Display multiple ROC curves, one for each class:
+  pww-display_roc-multiple.py

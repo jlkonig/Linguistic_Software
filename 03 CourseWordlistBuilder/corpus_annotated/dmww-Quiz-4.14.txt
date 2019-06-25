@@ -1,0 +1,122 @@
+Boosting/VBG/boost/3 
+Question/NN/question/1 1/CD/1/0 
+For/IN/for/1 classification/NN/classification/4 ,/,/,/0 what/WP/what/1 measure/NN/measure/2 does/VBZ/do/1 DecisionStump/NNP/decisionstump/0 use/NN/use/1 ?/./?/0 
+Information/NN/inform/1 gain/NN/gain/2 
+Entropy/NN/entropy/9 
+Gini/NNP/gini/0 impurity/NN/pure/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Entropy/NN/entropy/9 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 More/JJR/more/1 button/NN/button/2 in/IN/in/1 DecisionStump/NNP/decisionstump/0 ’/NNP/’/0 s/NN/be/1 configuration/NN/configure/4 panel/NN/panel/3 states/VBZ/states/2 that/IN/that/1 for/IN/for/1 classification/NN/classification/4 ,/,/,/0 the/DT/the/1 algorithm/NN/algorithm/5 is/VBZ/be/1 based/VBN/base/1 on/IN/on/1 entropy/NN/entropy/9 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+J48/NNP/j48/0 is/VBZ/be/1 an/DT/a/1 example/NN/example/2 of/IN/of/1 a/DT/a/1 classifier/NN/classifier/0 that/WDT/that/1 uses/VBZ/use/1 Information/NNP/inform/1 gain/NN/gain/2 ,/,/,/0 but/CC/but/1 DecisionStump/NNP/decisionstump/0 doesn/VBP/do/1 ’/NNP/’/0 t/NN/not/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 Gini/NNP/gini/0 impurity/NN/pure/2 measure/NN/measure/2 is/VBZ/be/1 used/VBN/use/1 by/IN/by/1 some/DT/some/1 machine/NN/machine/1 learning/VBG/learn/1 algorithms/JJ/algorithm/5 ,/,/,/0 but/CC/but/1 not/RB/not/1 by/IN/by/1 DecisionStump/NNP/decisionstump/0 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Now/RB/now/1 perform/VB/perform/2 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 on/IN/on/1 the/DT/the/1 diabetes/NNS/diabetes/4 dataset/VBP/dataset/0 with/IN/with/1 DecisionStump/NNP/decisionstump/0 ./././0 How/NNP/how/1 many/JJ/many/1 leaves/VBZ/leave/1 does/VBZ/do/1 the/DT/the/1 tree/NN/tree/1 that/WDT/that/1 is/VBZ/be/1 generated/VBN/generate/3 for/IN/for/1 the/DT/the/1 full/JJ/full/1 dataset/NN/dataset/0 have/VB/have/1 ?/./?/0 
+1/CD/1/0 
+2/CD/2/0 
+3/CD/3/0 
+4/CD/4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+3/CD/3/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+DecisionStump/NNP/decisionstump/0 makes/VBZ/make/1 a/DT/a/1 binary/JJ/binary/6 split/NN/split/2 on/IN/on/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 attributes/NNS/attribute/3 ./././0 As/RB/as/1 well/RB/well/1 as/IN/as/1 two/CD/two/1 leaves/NNS/leave/1 for/IN/for/1 the/DT/the/1 split/NN/split/2 criterion/NN/criteria/3 ,/,/,/0 it/PRP/it/1 makes/VBZ/make/1 a/DT/a/1 third/JJ/three/1 for/IN/for/1 when/WRB/when/1 the/DT/the/1 value/NN/value/2 of/IN/of/1 that/DT/that/1 attribute/NN/attribute/3 is/VBZ/be/1 missing/VBG/miss/1 ./././0 (/(/(/0 Missing/VBG/miss/1 values/NNS/value/2 will/MD/will/1 be/VB/be/1 discussed/VBN/discuss/2 next/JJ/next/1 week/NN/week/1 )/)/)/0 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+In/IN/in/1 the/DT/the/1 previous/JJ/previous/2 experiment/NN/experiment/3 ,/,/,/0 which/WDT/which/1 attribute/NN/attribute/3 was/VBD/be/1 used/VBN/use/1 to/TO/to/1 split/VB/split/2 the/DT/the/1 data/NNS/data/3 on/IN/on/1 ?/./?/0 
+preg/NN/preg/0 
+plas/NNS/plas/24 
+pres/NNS/pres/7 
+skin/NN/skin/1 
+insu/NN/insu/0 
+mass/NN/mass/2 
+pedi/NN/pedi/0 
+age/NN/age/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+plas/NNS/plas/24 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 attribute/NN/attribute/3 name/NN/name/1 used/VBN/use/1 for/IN/for/1 splitting/NN/split/2 is/VBZ/be/1 shown/VBN/show/1 at/IN/at/1 the/DT/the/1 start/NN/start/1 of/IN/of/1 the/DT/the/1 rules/NNS/rule/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Does/NNP/do/1 DecisionStump/NNP/decisionstump/0 perform/VB/perform/2 better/JJR/better/1 than/IN/than/1 ZeroR/JJR/zeror/0 on/IN/on/1 this/DT/this/1 dataset/NN/dataset/0 ?/./?/0 
+yes/NNS/yes/1 
+no/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Though/IN/though/1 considered/VBN/consider/1 a/DT/a/1 “/JJ/“/0 weak/JJ/weak/2 learner/NN/learn/1 ”/NN/”/0 because/IN/because/1 it/PRP/it/1 can/MD/can/1 only/RB/only/1 produce/VB/produce/2 a/DT/a/1 tree/NN/tree/1 with/IN/with/1 one/CD/one/1 level/NN/level/1 ,/,/,/0 DecisionStump/NNP/decisionstump/0 (/(/(/0 at/IN/at/1 72/CD/72/0 %/NN/%/0 )/)/)/0 outperforms/VBZ/outperform/10 the/DT/the/1 ZeroR/NNP/zeror/0 baseline/NN/baseline/0 (/(/(/0 65/CD/65/0 %/NN/%/0 )/)/)/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Now/RB/now/1 select/JJ/select/2 AdaBoostM1/NNP/adaboostm1/0 ,/,/,/0 a/DT/a/1 boosting/NN/boost/3 algorithm/NN/algorithm/5 that/IN/that/1 by/IN/by/1 default/NN/default/5 utilizes/JJ/utilise/4 DecisionStump/NNP/decisionstump/0 as/IN/as/1 its/PRP$/it/1 base/NN/base/1 learner/NN/learn/1 ,/,/,/0 and/CC/and/1 familiarize/VB/familiar/2 yourself/PRP/you/1 with/IN/with/1 its/PRP$/it/1 options/NNS/option/2 ./././0 
+Apply/NNP/apply/2 AdaBoostM1/NNP/adaboostm1/0 to/TO/to/1 the/DT/the/1 same/JJ/same/1 dataset/NN/dataset/0 using/VBG/use/1 various/JJ/various/2 values/NNS/value/2 for/IN/for/1 the/DT/the/1 numIterations/NNS/numiterations/0 option/NN/option/2 ,/,/,/0 and/CC/and/1 make/VB/make/1 a/DT/a/1 rough/JJ/rough/1 paper-and-pencil/NN/paper-and-pencil/0 plot/NN/plot/3 of/IN/of/1 the/DT/the/1 accuracies/NNS/accurate/3 obtained/VBN/obtain/3 (/(/(/0 with/IN/with/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 )/)/)/0 ./././0 What/WP/what/1 does/VBZ/do/1 the/DT/the/1 graph/JJ/graph/4 look/NN/look/1 like/IN/like/1 ?/./?/0 
+(/(/(/0 a/DT/a/1 )/)/)/0 
+(/(/(/0 b/NN/b/0 )/)/)/0 
+(/(/(/0 c/NN/c/0 )/)/)/0 
+(/(/(/0 d/NN/have/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 a/DT/a/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+With/IN/with/1 boosting/NN/boost/3 ,/,/,/0 the/DT/the/1 accuracy/NN/accurate/3 generally/RB/general/1 improves/VBZ/improve/2 as/IN/as/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 iterations/NNS/iterate/8 increases/NNS/increase/2 ,/,/,/0 and/CC/and/1 then/RB/then/1 flattens/VBZ/flat/1 out/RP/out/1 ./././0 For/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 it/PRP/it/1 improves/VBZ/improve/2 only/RB/only/1 sightly/RB/sightly/0 ,/,/,/0 and/CC/and/1 only/RB/only/1 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 of/IN/of/1 the/DT/the/1 graph/NN/graph/4 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 shapes/NNS/shape/1 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 if/IN/if/1 you/PRP/you/1 boosted/VBD/boost/3 the/DT/the/1 ZeroR/NNP/zeror/0 algorithm/NN/algorithm/5 instead/RB/instead/1 of/IN/of/1 DecisionStump/NNP/decisionstump/0 ?/./?/0 
+(/(/(/0 a/DT/a/1 )/)/)/0 
+(/(/(/0 b/NN/b/0 )/)/)/0 
+(/(/(/0 c/NN/c/0 )/)/)/0 
+(/(/(/0 d/NN/have/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 d/NN/have/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+ZeroR/NNP/zeror/0 will/MD/will/1 produce/VB/produce/2 the/DT/the/1 same/JJ/same/1 classifier/NN/classifier/0 for/IN/for/1 practically/RB/practical/2 any/DT/any/1 subset/NN/set/1 of/IN/of/1 the/DT/the/1 data/NNS/data/3 (/(/(/0 provided/VBN/provide/2 only/RB/only/1 that/IN/that/1 statistical/JJ/statistic/3 sampling/VBG/sample/3 leaves/VBZ/leave/1 the/DT/the/1 majority/NN/majority/3 class/NN/class/1 intact/JJ/intact/4 )/)/)/0 ./././0 Combining/VBG/combine/2 these/DT/this/1 identical/JJ/identical/4 classifiers/NNS/classifier/0 would/MD/would/1 give/VB/give/1 the/DT/the/1 same/JJ/same/1 result/NN/result/2 as/IN/as/1 ZeroR/NNP/zeror/0 by/IN/by/1 itself/PRP/it/1 ./././0 However/RB/however/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 try/VBP/try/1 this/DT/this/1 with/IN/with/1 Weka/NNP/weka/23 it/PRP/it/1 will/MD/will/1 simply/RB/simple/1 refuse/VB/refuse/2 to/TO/to/1 boost/VB/boost/3 the/DT/the/1 ZeroR/NNP/zeror/0 algorithm/NN/algorithm/5 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Apply/NNP/apply/2 AdaBoostM1/NNP/adaboostm1/0 to/TO/to/1 the/DT/the/1 breast-cancer.arff/JJ/breast-cancer.arff/0 dataset/NN/dataset/0 for/IN/for/1 the/DT/the/1 default/NN/default/5 number/NN/number/1 of/IN/of/1 iterations/NNS/iterate/8 (/(/(/0 10/CD/10/0 )/)/)/0 ,/,/,/0 boosting/VBG/boost/3 OneR/NNP/oner/0 instead/RB/instead/1 of/IN/of/1 DecisionStump/NNP/decisionstump/0 ./././0 Ten/CD/ten/1 models/NNS/model/2 are/VBP/be/1 produced/VBN/produce/2 ,/,/,/0 each/DT/each/1 testing/VBG/test/1 a/DT/a/1 single/JJ/single/1 attribute/NN/attribute/3 ./././0 Which/JJ/which/1 attributes/NNS/attribute/3 are/VBP/be/1 used/VBN/use/1 in/IN/in/1 at/IN/at/1 least/JJS/least/1 one/CD/one/1 model/NN/model/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+age/NN/age/1 
+menopause/NN/menopause/7 
+tumor-size/NN/tumor-size/0 
+inv_nodes/NNS/inv_nodes/0 
+node-caps/NNS/node-caps/0 
+deg-malig/NN/deg-malig/0 
+breast/NN/breast/2 
+breast-quad/NN/breast-quad/0 
+irradiat/NN/irradiat/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+Apply/NNP/apply/2 AdaBoostM1/NNP/adaboostm1/0 to/TO/to/1 the/DT/the/1 breast-cancer.arff/JJ/breast-cancer.arff/0 dataset/NN/dataset/0 for/IN/for/1 the/DT/the/1 default/NN/default/5 number/NN/number/1 of/IN/of/1 iterations/NNS/iterate/8 (/(/(/0 10/CD/10/0 )/)/)/0 ,/,/,/0 boosting/VBG/boost/3 OneR/NNP/oner/0 instead/RB/instead/1 of/IN/of/1 DecisionStump/NNP/decisionstump/0 ./././0 Ten/CD/ten/1 models/NNS/model/2 are/VBP/be/1 produced/VBN/produce/2 ,/,/,/0 each/DT/each/1 testing/VBG/test/1 a/DT/a/1 single/JJ/single/1 attribute/NN/attribute/3 ./././0 Which/JJ/which/1 attributes/NNS/attribute/3 are/VBP/be/1 used/VBN/use/1 in/IN/in/1 at/IN/at/1 least/JJS/least/1 one/CD/one/1 model/NN/model/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+age/NN/age/1 
+menopause/NN/menopause/7 
+tumor-size/NN/tumor-size/0 
+inv_nodes/NNS/inv_nodes/0 
+node-caps/NNS/node-caps/0 
+deg-malig/NN/deg-malig/0 
+breast/NN/breast/2 
+breast-quad/NN/breast-quad/0 
+irradiat/NN/irradiat/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+age/NN/age/1 
+menopause/NN/menopause/7 
+tumor-size/NN/tumor-size/0 
+inv_nodes/NNS/inv_nodes/0 
+deg-malig/NN/deg-malig/0 
+
+

@@ -1,0 +1,69 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Breast-cancer
+      5.2, 5.3, 5.4, 5.5, 5.11, 5.13
+      Credit-g
+      5.2, 5.3, 5.4, 5.5, 5.11, 5.13
+      Diabetes
+      5.2, 5.3, 5.4, 5.5, 5.11, 5.12, 5.13
+      Glass
+      5.4, 5.5, 5.10, 5.11, 5.13
+      Ionosphere
+      5.2, 5.3, 5.4, 5.5, 5.11, 5.13
+      Iris
+      5.3, 5.4, 5.5
+      Reuters-Corn-train/test
+      5.15
+      Sentiment
+      5.17
+      Weather
+      5.4, 5.14, 5.15
+      Classifiers
+      IBk
+      5.4, 5.11, 5.13
+      J48
+      5.3, 5.4, 5.10, 5.11, 5.12, 5.15
+      MultilayerPerceptron
+      5.4, 5.5
+      NaiveBayes
+      5.3, 5.4, 5.11, 5.15
+      NaiveBayesMultinomial
+      5.14, 5.15, 5.17
+      OneR
+      5.4, 5.17
+      SMO
+      5.2, 5.3, 5.4, 5.14, 5.15
+      VotedPerceptron
+      5.2, 5.3, 5.4
+      ZeroR
+      5.4, 5.10, 5.17
+      Metalearners
+      AdaBoostM1
+      5.4
+      CVParameterSelection
+      5.12, 5.13
+      FilteredClassifier
+      5.10, 5.11
+      GridSearch
+      5.12
+      ThresholdSelector
+      5.12
+      Filters
+      NonSparseToSparse
+      5.14, 5.15
+      RemoveMisclassified
+      5.17
+      RemoveWithValues
+      5.3
+      Resample
+      5.10, 5.11, 5.17
+      SparseToNonSparse
+      5.14
+      StringToWordVector
+      5.14, 5.15
+      Plus …
+      Experimenter interface
+      5.3, 5.4, 5.5, 5.10, 5.13, 5.15

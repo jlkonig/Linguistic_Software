@@ -1,0 +1,6 @@
+Reflect on this week's Big Question
+The Big Question this week is, “What’s it like to do data mining?”
+We said that by the end you would be able to demonstrate the use of Weka for the key tasks of examining a dataset, classifying it with a decision tree, filtering it with various filters, and visualizing the dataset and the result of learning.
+So: can you?
+And how about explaining (to your partner, siblings, parents or kids) … what it’s like to do data mining?
+Tell your fellow learners how you get on!

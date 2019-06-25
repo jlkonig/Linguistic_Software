@@ -1,0 +1,72 @@
+Exploring classification boundaries
+Question 1
+Choose the IBk classifier with default options and start the boundary visualization. You will notice a small, faint region of mixed color (green and blue). How can you get mixed colors when only one nearest neighbor is being used?
+There are instances with different classes at the same point of the graph
+IBk has a bug
+IBk defaults to two nearest neighbors
+IBk defaults to more than two nearest neighbors
+---
+Correct answer(s):
+There are instances with different classes at the same point of the graph
+---
+Feedback correct:
+Examine the points in this small region using the Explorer’s Visualize panel.
+Instances 71, 127 and 139 have the same attribute values, but their classes are versicolor, virginica and virginica respectively. The colors on the plot are mixed in the corresponding proportions.
+---
+Feedback incorrect:
+Examine the points in this small region using the Explorer’s Visualize panel.
+
+Question 2
+Look at the decision boundary created by the Logistic regression method, which we will learn about later this week. You will find it at functions > Logistic.
+What can you say about the boundary shapes?
+The boundaries are non-linear
+Crisp boundaries, changing abruptly from one color to another
+Gradual transition from one color to another
+Checkered pattern, crisp boundaries, no mixed colors
+---
+Correct answer(s):
+Gradual transition from one color to another
+---
+Feedback correct:
+We will discover why this happens in the Logistic regression activity.
+
+Question 3
+Look at the decision boundary created by the Support Vector Machine method, which we will also learn about later this week. You will find it at functions > SMO.
+What can you say about the resulting plot?
+The boundaries are non-linear
+There are no areas of pure color
+Checkered pattern with crisp boundaries
+Checkered pattern with slightly fuzzy boundaries
+---
+Correct answer(s):
+There are no areas of pure color
+---
+Feedback correct:
+This is most striking for red, but the greenish and bluish colors are not pure either. The system is never completely certain about the classification of any point!
+
+Question 4
+Look at the decision boundary created by the Random Forest method, which we will learn about in the Ensemble learning activity at the end of this week. You will find it at trees > RandomForest.
+What can you say about the boundary shapes?
+Crisp boundaries, changing abruptly from one color to another
+There are no areas of pure color
+Gradual transition from one color to another
+Checkered pattern with slightly fuzzy boundaries
+---
+Correct answer(s):
+Checkered pattern with slightly fuzzy boundaries
+---
+Feedback correct:
+As we will learn in the Ensemble learning activity, random forests are collections of trees, all slightly different.
+---
+Feedback incorrect:
+There are areas of pure red, pure green, and pure blue.
+
+Question 4
+Look at the decision boundary created by the Random Forest method, which we will learn about in the Ensemble learning activity at the end of this week. You will find it at trees > RandomForest.
+What can you say about the boundary shapes?
+Crisp boundaries, changing abruptly from one color to another
+There are no areas of pure color
+Gradual transition from one color to another
+Checkered pattern with slightly fuzzy boundaries
+---
+Correct answer(s):

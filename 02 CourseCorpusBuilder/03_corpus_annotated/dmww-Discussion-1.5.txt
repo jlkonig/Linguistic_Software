@@ -1,0 +1,17 @@
+More/JJR/more/1 data/NNS/data/3 mining/NN/miner/3 applications/NNS/apply/2 
+Now/RB/now/1 we/PRP/we/1 ’/VBP/’/0 ve/JJ/have/1 got/VBD/get/1 you/PRP/you/1 thinking/VBG/think/1 about/IN/about/1 possible/JJ/possible/1 data/NNS/data/3 mining/NN/miner/3 applications/NNS/apply/2 ,/,/,/0 we/PRP/we/1 invite/VBP/invite/2 you/PRP/you/1 to/TO/to/1 share/NN/share/1 your/PRP$/you/1 thoughts/NNS/think/1 on/IN/on/1 other/JJ/other/1 data/NNS/data/3 mining/machine/NN/mining/machine/0 learning/NN/learn/1 applications/NNS/apply/2 with/IN/with/1 fellow/JJ/fellow/1 learners/NNS/learn/1 ./././0 
+Learning/VBG/learn/1 is/VBZ/be/1 as/RB/as/1 high/JJ/high/1 as/IN/as/1 the/DT/the/1 mountains/NNS/mountain/1 and/CC/and/1 as/RB/as/1 wide/JJ/wide/1 as/IN/as/1 the/DT/the/1 seas/NNS/sea/1 ./././0 (/(/(/0 Chinese/JJ/chinese/0 proverb/NN/proverb/7 )/)/)/0 
+Just/RB/just/1 to/TO/to/1 get/VB/get/1 you/PRP/you/1 started/VBN/start/1 ,/,/,/0 what/WP/what/1 about/IN/about/1 …/NN/…/0 
+Telecommunication/NN/telecom/4 industry/NN/industry/2 
+Manufacturing/VBG/manufacture/3 engineering/NN/engineer/2 
+Fraud/NNP/fraud/4 detection/NN/detect/2 
+Intrusion/NN/intrusion/6 detection/NN/detect/2 
+Lie/NNP/lie/1 detection/NN/detect/2 
+Customer/NNP/customer/2 segmentation/NN/segment/3 
+Financial/JJ/finance/2 banking/NN/bank/1 
+Corporate/JJ/corporate/3 surveillance/NN/surveillance/5 
+Research/NN/research/2 analysis/NN/analyse/3 
+Bioinformatics/NNS/bioinformatics/23 
+Scientific/NNP/science/1 applications/NNS/apply/2 
+
+

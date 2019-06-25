@@ -1,0 +1,4 @@
+Discretization in J48 
+J48 effectively discretizes numeric attributes as it goes along, which sounds good because split points are chosen in a local context, taking into account just the instances that reach that node of the tree. But discretizing numeric attributes in advance may outperform this, because more data is available in the global context, leading to more reliable decisions. Which is better? it’s an experimental question! Luckily Weka makes it easy to perform the necessary experiments.
+Note: in the 4th slide, “Information gain for the temperature attribute”, the entropy after the split should be 0.895 (not 0.939), making the information gain 0.045 (not 0.001).
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

@@ -1,0 +1,80 @@
+The Iris dataset
+Question 1
+How many instances are there in the iris dataset?
+100
+150
+200
+250
+---
+Correct answer(s):
+150
+---
+Feedback correct:
+The Preprocess panel tells you how many data rows, or Instances, are in the currently loaded data set.
+---
+Feedback incorrect:
+The Preprocess panel tells you how many data rows, or Instances, are in the currently loaded data set.
+
+Question 2
+How many attributes are there in the iris dataset?
+4
+5
+7
+10
+---
+Correct answer(s):
+5
+---
+Feedback correct:
+The Preprocess panel also shows you how many attributes, or columns, are in the current data set. In this case the attributes are sepallength, sepalwidth, petallength, petalwidth, and class.
+---
+Feedback incorrect:
+The Preprocess panel also shows you how many attributes, or columns, are in the current data set. In this case the attributes are sepallength, sepalwidth, petallength, petalwidth, and class.
+Almost right. It’s not quite clear whether the class should be counted as an attribute or not. But for the purposes of this question we do count it as an attribute. So please try again.
+---
+Feedback incorrect:
+The Preprocess panel also shows you how many attributes, or columns, are in the current data set. In this case the attributes are sepallength, sepalwidth, petallength, petalwidth, and class.
+
+Question 3
+How many possible values does the class attribute in the iris dataset have?
+1
+2
+3
+50
+---
+Correct answer(s):
+3
+---
+Feedback correct:
+By default the last attribute is the class, which in this case has values Iris-setosa, Iris-versicolor and Iris-virginica.
+---
+Feedback incorrect:
+By default the last attribute is the class, which in this case has values Iris-setosa, Iris-versicolor and Iris-virginica.
+
+Question 4
+Does the class Iris-setosa tend to have high or low values of sepallength?
+low
+high
+---
+Correct answer(s):
+---
+Feedback correct:
+When you select the class attribute, you see that Iris-setosa is depicted blue (hover your mouse over each colored bar). Selecting the sepallength attribute, you can see that blue is distributed towards the left, towards lower values.
+
+Question 5
+Does the class Iris-virginica tend to have high or low values of petalwidth?
+low
+high
+---
+Correct answer(s):
+
+Question 5
+Does the class Iris-virginica tend to have high or low values of petalwidth?
+low
+high
+---
+Correct answer(s):
+high
+---
+Feedback correct:
+When you select the class attribute, you see that class Iris-virginia is depicted in cyan (that is, light blue). Selecting the petalwidth attribute, you can see that cyan is distributed towards the right, towards higher values. (The petallength attribute gives an equally good indication of the class.)

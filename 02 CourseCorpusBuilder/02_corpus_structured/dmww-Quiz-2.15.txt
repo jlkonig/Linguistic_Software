@@ -1,0 +1,46 @@
+Repeated cross-validation
+Question 1
+What is the minimum and maximum value of the results obtained by ZeroR on the iris dataset using cross-validation with 10, 11, 12, 13, 14, and 15 folds?
+They’re all 33%
+They’re all 50%
+28% and 35%
+28% and 33%
+---
+Correct answer(s):
+---
+Feedback correct:
+14-fold cross-validation gives 28%, and 10-fold cross-validation gives 33%.
+
+Question 2
+It’s curious that all values obtained in the previous question were less than or equal to ZeroR’s true accuracy value of 33% on this dataset. Is this a coincidence?
+Yes
+No
+---
+Correct answer(s):
+---
+Feedback correct:
+It’s not a coincidence. For each fold of the cross-validation, ZeroR chooses the majority class in the training set. Because there are a fixed number (50) of each class in the entire dataset, a class that is in the majority in the training set cannot be in the majority in the test set. Thus the success rate cannot possibly exceed 33% on any fold of the cross-validation.
+
+Question 3
+Suppose the accuracy of ZeroR on the iris dataset were evaluated using cross-validation with 5, 10, and 25 folds. Without doing the experiment, what would you expect the accuracies to be?
+All exactly 33%
+All around about 33%, some bigger, some smaller
+All 33% or perhaps a little bit smaller
+---
+Correct answer(s):
+---
+Feedback correct:
+With 5 folds the test set contains 30 instances; with 10 folds it contains 15; and with 25 folds it contains 6. These are all exact multiples of the number of classes (3). The number of instances in the training set is also an exact multiple of the number of classes in each case. Because Weka does stratified cross-validation, for each fold it is able to get an equal number of each class in both training and test sets. Thus the accuracy for each fold of the cross-validation is exactly 33.3%.
+
+Question 4
+What would ZeroR’s success rate on the iris datset be if evaluated using 150-fold cross-validation? Think carefully about this first, and then confirm your answer using Weka.
+0%
+29%
+33%
+50%
+66%
+---
+Correct answer(s):
+---
+Feedback correct:
+Surprising, eh? Here’s why. The dataset contains 150 instances, so 150-fold cross-validation sets aside exactly one for testing, and chooses the majority class of the remaining 149 training instances. That class will never be the same as the left-out instance’s class, because the left-out class can never be the majority class in the training set.

@@ -1,0 +1,3 @@
+Building models
+Peter demonstrates writing three Python scripts for Weka using the J48 classifier, using the anneal dataset. The first builds a classifier and outputs the model, the second evaluates a classifier and outputs summary statistics and a confusion matrix, and the third builds a classifier and makes predictions on an unlabeled dataset.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

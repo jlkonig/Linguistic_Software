@@ -1,0 +1,3 @@
+Be a classifier!
+What’s it like to be a classifier? Load up the segment-challenge.arff dataset and examine the class values. Then choose the UserClassifier, a tree classifier. (If you can’t see it under trees, return to the preceding article and install the userClassifier package.) Specify the supplied test set segment-test.arff. Start the UserClassifier, and select the Data Visualizer panel. Select Rectangle, sweep out a rectangle, and submit it. Now select the Tree Visualizer and look at the resulting tree. Switch between these two panels, building up a tree, and then accept it. Ian’s tree classified nearly 79% of the instances correctly. How well does yours do?
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

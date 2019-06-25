@@ -1,0 +1,3 @@
+Invoking Python from Weka
+Peter Reutemann introduces scripting, and then demonstrates a Weka package that opens an editor in which you can write and execute Python scripts. Finally he writes a script for loading and filtering data.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

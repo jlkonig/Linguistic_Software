@@ -1,0 +1,5 @@
+Share/VB/share/1 your/PRP$/you/1 experience/NN/experience/1 .../:/.../0 
+Peter/NNP/peter/0 said/VBD/say/1 that/IN/that/1 setting/VBG/set/1 up/RP/up/1 Python/NNP/python/11 and/CC/and/1 arranging/VBG/arrange/1 for/IN/for/1 it/PRP/it/1 to/TO/to/1 access/NN/access/2 Weka/NNP/weka/23 is/VBZ/be/1 easy/JJ/easy/1 on/IN/on/1 Linux/NNP/linux/0 ,/,/,/0 but/CC/but/1 not/RB/not/1 so/RB/so/1 easy/JJ/easy/1 on/IN/on/1 Windows/NNP/window/1 or/CC/or/1 OSX/NNP/osx/0 ./././0 
+If/IN/if/1 you/PRP/you/1 have/VBP/have/1 done/VBN/do/1 this/DT/this/1 ,/,/,/0 or/CC/or/1 tried/VBN/try/1 to/TO/to/1 ,/,/,/0 please/VB/please/1 share/NN/share/1 your/PRP$/you/1 experiences/NNS/experience/1 with/IN/with/1 your/PRP$/you/1 fellow/JJ/fellow/1 learners/NNS/learn/1 ./././0 Perhaps/RB/perhaps/1 they/PRP/they/1 can/MD/can/1 help/VB/help/1 !/./!/0 
+
+

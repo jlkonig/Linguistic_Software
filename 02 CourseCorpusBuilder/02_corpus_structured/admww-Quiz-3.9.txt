@@ -1,0 +1,256 @@
+Using the Explorer’s R console
+Question 1
+One useful R function in R is summary(), which when applied to a data frame outputs summary statistics for all the variables (i.e., attributes) in the data. In particular, it outputs the median and the 1st and 3rd quartile, which are not output by the Preprocess panel.
+Apply the summary() function to the diabetes.arff dataset. (Remember that the data loaded into the Preprocess panel is available as a data frame in the RConsole under the name rdata.)
+What is the median value of the plas attribute?
+3
+72
+117
+121
+---
+Correct answer(s):
+117
+---
+Feedback incorrect:
+That’s the median for the preg attribute
+---
+Feedback incorrect:
+That’s the median for the pres attribute
+---
+Feedback incorrect:
+That’s the mean, not the median
+
+Question 2
+For which attribute does approximately one-quarter of the data have a value greater than 80?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+pres
+---
+Feedback correct:
+The third quartile for this attribute is 80
+
+Question 3
+For which attribute does approximately three-quarters of the data have a value greater than 24?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+age
+---
+Feedback correct:
+The first quartile for this attribute is 24
+
+Question 4
+The difference between the two quartiles is called the “interquartile range”, and is a statistically robust measure of dispersion – in contrast to standard deviation, which can be heavily influenced by outliers.
+The IQR() function in R computes the interquartile range for an attribute. For example, to apply this function to the pres attribute in the diabetes data (assuming it has been loaded into the Preprocess panel), use IQR(rdata$pres). (The $ operator is used to extract the values of a particular column in a data frame.)
+Apply the IQR() function to all numeric attributes in the data. Which one has the largest interquartile range?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+insu
+---
+Feedback correct:
+This has IQR = 127.25, which is greater than for any other attribute
+
+Question 5
+For data that follows a normal distribution, the interquartile range is about 1.35 times the sample standard deviation.
+Which attribute has the smallest value when the interquartile range given by the IQR() function is divided by the sample standard deviation given by the sd() function?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+pres
+---
+Feedback correct:
+You can apply a function automatically to all columns of a data frame, e.g., try sapply(rdata, function(x) IQR(x)/sd(x))
+For this attribute IQR(rdata$pres)/sd(rdata$pres) = 0.93, which is less than for any other attribute
+---
+Feedback incorrect:
+You can apply a function automatically to all columns of a data frame, e.g., try sapply(rdata, function(x) IQR(x)/sd(x))
+
+Question 6
+We can generate useful plots using R’s basic plotting functionality.
+Applying the hist() function to an attribute produces a histogram.
+Plot a histogram for the pres attribute. If you rank the bins of the histogram by the number of instances they contain, with the largest bin receiving rank 1, what is the rank of the leftmost bin?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+---
+Correct answer(s):
+5
+
+Question 7
+Applying the boxplot() function to an attribute produces a boxplot.
+A boxplot shows a box bounded by the two quartiles of the attribute, and it also shows the median. By default, the whiskers shown in the plot extend from the box to the most extreme attribute value that is no more than 1.5 times the interquartile range from the box. Attribute values that are beyond the extent of the whiskers are shown as outlier points in the plot.
+Generate a boxplot for the pres attribute.
+How many visually distinct points are shown as locations of outliers in the plot?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+---
+Correct answer(s):
+7
+
+Question 8
+The table() function in R, when applied to an attribute, gives a list of attribute values that occur in the data; beneath each one is the number of times that value occurs.
+Apply it to the pres attribute. How many times does the value 0 occur?
+0
+1
+2
+24
+30
+35
+---
+Correct answer(s):
+35
+---
+Feedback correct:
+This is the number that appears beneath “0”
+
+Question 9
+We may be interested in a particular percentile of a numeric attribute, rather than just the 1st quartile, 3rd quartile, and median.
+The quantile() function is used for this. For example, quantile(rdata$plas, 0.01) gives the first percentile of the data.
+What is the 99th percentile of the plas attribute?
+181
+184
+188
+192
+196
+199
+---
+Correct answer(s):
+196
+
+Question 10
+What is the 5th percentile of the plas attribute?
+73
+76
+79
+80
+82
+83
+---
+Correct answer(s):
+79
+
+Question 11
+The covariance and correlation coefficients between two numeric attributes in the data are given by the cov() and cor() functions respectively.
+For example, cov(rdata$plas, rdata$age) gives the covariance between plas and age.
+What is the covariance between age and preg?
+0.54
+3.14
+21.57
+22.56
+33.10
+36.67
+---
+Correct answer(s):
+21.57
+
+Question 12
+What is the correlation coefficient between age and preg?
+0.54
+3.14
+21.57
+22.56
+33.10
+36.67
+---
+Correct answer(s):
+0.54
+
+Question 13
+For numeric attributes, R can compute skewness and kurtosis.
+Skewness is given by the skewness() function. Positive values indicate right-skew; negative values left-skew. Kurtosis, given by the kurtosis() function, is a measure of peakedness of a distribution: negative values indicate a flat distribution; positive ones a peaked distribution.
+To access these functions you need to install and load R’s e1071 package. Use the R command
+install.packages("e1071")
+to download and install the package and
+library(e1071) 
+to load it into the current R session. When applying these functions, it is instructive to consider them in conjunction with the histogram for the attribute concerned.
+Compute skewness for all the numeric attributes in the diabetes data.
+Which attribute has the smallest skewness value?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+pres
+---
+Feedback correct:
+This has skewness –1.84, which is less than for any other attribute
+
+Question 14
+Which attribute has the largest kurtosis value?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+insu
+---
+Feedback correct:
+This has kurtosis 7.13, which is greater than for any other attribute
+
+Question 14
+Which attribute has the largest kurtosis value?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):

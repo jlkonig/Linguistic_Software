@@ -1,0 +1,10 @@
+Build/VB/build/1 your/PRP$/you/1 own/JJ/own/1 classifier/NN/classifier/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 best/JJS/best/1 accuracy/NN/accurate/3 that/IN/that/1 you/PRP/you/1 can/MD/can/1 achieve/VB/achieve/3 with/IN/with/1 the/DT/the/1 UserClassifier/NNP/userclassifier/0 ?/./?/0 
+</RB/</0 90/CD/90/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 –/JJ/–/0 96/CD/96/0 %/NN/%/0 
+96.2/CD/96.2/0 %/NN/%/0 
+>/RB/>/0 96.2/CD/96.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

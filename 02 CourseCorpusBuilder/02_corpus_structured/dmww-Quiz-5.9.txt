@@ -1,0 +1,118 @@
+What classifiers do
+Question 1
+Works well and produces comprehensible models.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machines)
+ZeroR
+---
+Correct answer(s):
+J48
+---
+Feedback correct:
+The J48 classifier performs quite well, and provides the user with decision trees, which are easily understandable models.
+
+Question 2
+Works well when attributes contribute equally and independently to the decision.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+NaiveBayes
+---
+Feedback correct:
+The NaiveBayes classifier generally works well on datasets for which the independence assumption holds true.
+
+Question 3
+Simply stores the training data without processing it at all.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+IBk
+---
+Feedback correct:
+The nearest neighbor method IBk simply stores the training data. Although this overfits the training data, it can nevertheless work surprisingly well.
+
+Question 4
+Calculates a single linear decision boundary and outputs class probability estimates.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+Logistic (Logistic regression)
+---
+Feedback correct:
+The Logistic (Logistic regression) classifier calculates a linear decision boundary. (The boundaries obtained by IBk and SMO are piecewise linear.)
+
+Question 5
+Avoids overfitting, even with large numbers of attributes.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+SMO (Support vector machine)
+---
+Feedback correct:
+Through its use of a small number of support vectors, SMO (Support vector machine)  avoids overfitting even with large numbers of attributes.
+
+Question 6
+Determines the baseline performance for a dataset.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+
+Question 6
+Determines the baseline performance for a dataset.
+IBk
+J48
+LinearRegression
+Logistic (Logistic regression)
+NaiveBayes
+OneR
+SMO (Support vector machine)
+ZeroR
+---
+Correct answer(s):
+ZeroR
+---
+Feedback correct:
+By simply predicting the majority class, ZeroR provides a baseline performance measure for any dataset. OneR provides a slightly more sophisticated baseline.
+---
+Feedback correct:
+By choosing to branch on a single attribute, OneR provides a baseline performance measure for any dataset. ZeroR provides a more rudimentary baseline.

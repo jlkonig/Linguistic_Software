@@ -1,0 +1,136 @@
+Using/VBG/use/1 a/DT/a/1 wrapper/NN/wrap/2 to/TO/to/1 select/VB/select/2 attributes/NNS/attribute/3 
+Question/NN/question/1 1/CD/1/0 
+What/WP/what/1 would/MD/would/1 the/DT/the/1 final/JJ/final/1 attribute/NN/attribute/3 subset/NN/set/1 contain/NN/contain/2 if/IN/if/1 you/PRP/you/1 used/VBD/use/1 ZeroR/NNP/zeror/0 with/IN/with/1 forward/JJ/forward/1 search/NN/search/2 ?/./?/0 
+Nothing/NN/nothing/1 
+Na/NN/na/0 
+Si/NN/si/0 
+K/NNP/k/0 
+All/DT/all/1 attributes/NNS/attribute/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Nothing/NN/nothing/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+All/DT/all/1 attribute/JJ/attribute/3 subsets/NNS/set/1 yield/VBP/yield/3 the/DT/the/1 same/JJ/same/1 performance/NN/perform/2 ,/,/,/0 and/CC/and/1 the/DT/the/1 preference/NN/prefer/2 is/VBZ/be/1 for/IN/for/1 the/DT/the/1 smallest/JJS/small/1 subset/NN/set/1 ,/,/,/0 so/IN/so/1 the/DT/the/1 result/NN/result/2 is/VBZ/be/1 a/DT/a/1 set/NN/set/1 with/IN/with/1 no/DT/no/1 attributes/NNS/attribute/3 (/(/(/0 the/DT/the/1 “/NN/“/0 empty/JJ/empty/1 ”/NNP/”/0 set/NN/set/1 )/)/)/0 
+
+Question/NN/question/1 2/CD/2/0 
+What/WP/what/1 would/MD/would/1 the/DT/the/1 final/JJ/final/1 attribute/NN/attribute/3 subset/NN/set/1 contain/NN/contain/2 if/IN/if/1 you/PRP/you/1 used/VBD/use/1 ZeroR/NNP/zeror/0 with/IN/with/1 backward/NN/back/1 search/NN/search/2 ?/./?/0 
+Nothing/NN/nothing/1 
+RI/NN/ri/0 
+Fe/NNP/fe/0 
+Al/NN/al/0 
+All/DT/all/1 attributes/NNS/attribute/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Nothing/NN/nothing/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Same/NN/same/1 as/IN/as/1 for/IN/for/1 the/DT/the/1 previous/JJ/previous/2 question/NN/question/1 ./././0 In/IN/in/1 this/DT/this/1 case/NN/case/1 the/DT/the/1 order/NN/order/1 of/IN/of/1 searching/NN/search/2 is/VBZ/be/1 irrelevant/JJ/relevant/3 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+For/IN/for/1 this/DT/this/1 question/NN/question/1 and/CC/and/1 the/DT/the/1 next/JJ/next/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 know/VB/know/1 that/DT/that/1 OneR/NNP/oner/0 chooses/VBZ/choose/1 Al/NNP/al/0 as/IN/as/1 the/DT/the/1 attribute/NN/attribute/3 for/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 ./././0 
+What/WP/what/1 would/MD/would/1 the/DT/the/1 final/JJ/final/1 attribute/NN/attribute/3 subset/NN/set/1 contain/NN/contain/2 if/IN/if/1 you/PRP/you/1 used/VBD/use/1 OneR/NNP/oner/0 with/IN/with/1 forward/JJ/forward/1 search/NN/search/2 ?/./?/0 
+Nothing/NN/nothing/1 
+Al/NN/al/0 
+All/DT/all/1 attributes/NNS/attribute/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Al/NN/al/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+OneR/NNP/oner/0 chooses/VBZ/choose/1 Al/NNP/al/0 for/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 and/CC/and/1 exactly/RB/exact/1 the/DT/the/1 same/JJ/same/1 result/NN/result/2 would/MD/would/1 be/VB/be/1 obtained/VBN/obtain/3 for/IN/for/1 any/DT/any/1 larger/JJR/large/1 subset/NN/set/1 of/IN/of/1 attributes/NNS/attribute/3 ./././0 So/RB/so/1 preferring/VBG/prefer/2 the/DT/the/1 smallest/JJS/small/1 subset/NN/set/1 leads/VBZ/lead/1 to/TO/to/1 the/DT/the/1 1-attribute/JJ/1-attribute/0 subset/NN/set/1 containing/VBG/contain/2 Al/NNP/al/0 alone/RB/alone/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+What/WP/what/1 would/MD/would/1 final/JJ/final/1 attribute/NN/attribute/3 subset/NN/set/1 contain/NN/contain/2 if/IN/if/1 you/PRP/you/1 used/VBD/use/1 OneR/NNP/oner/0 with/IN/with/1 backward/NN/back/1 search/NN/search/2 ?/./?/0 
+None/NN/none/1 
+Al/NN/al/0 
+All/DT/all/1 attributes/NNS/attribute/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Al/NN/al/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+OneR/NNP/oner/0 chooses/VBZ/choose/1 Al/NNP/al/0 for/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 and/CC/and/1 any/DT/any/1 subset/NN/set/1 of/IN/of/1 attributes/NNS/attribute/3 that/WDT/that/1 does/VBZ/do/1 not/RB/not/1 include/VB/include/2 Al/NNP/al/0 will/MD/will/1 yield/VB/yield/3 a/DT/a/1 worse/JJR/worse/1 result/NN/result/2 ./././0 Again/NNP/again/1 ,/,/,/0 the/DT/the/1 subset/NN/set/1 containing/VBG/contain/2 Al/NNP/al/0 alone/RB/alone/1 is/VBZ/be/1 preferred/VBN/prefer/2 over/IN/over/1 larger/JJR/large/1 subsets/NNS/set/1 that/WDT/that/1 also/RB/also/1 contain/VBP/contain/2 Al/NNP/al/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Use/NNP/use/1 Weka/NNP/weka/23 to/TO/to/1 confirm/VB/confirm/3 your/PRP$/you/1 intuition/NN/intuition/6 for/IN/for/1 the/DT/the/1 above/JJ/above/1 questions/NNS/question/1 ./././0 
+Now/RB/now/1 use/VBP/use/1 the/DT/the/1 Classify/NNP/classify/4 panel/NN/panel/3 to/TO/to/1 run/VB/run/1 IBk/NNP/ibk/0 (/(/(/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 on/IN/on/1 the/DT/the/1 glass.arff/NN/glass.arff/0 dataset/NN/dataset/0 ,/,/,/0 evaluating/VBG/evaluate/3 using/VBG/use/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 ?/./?/0 
+71/CD/71/0 %/NN/%/0 
+72/CD/72/0 %/NN/%/0 
+75/CD/75/0 %/NN/%/0 
+78/CD/78/0 %/NN/%/0 
+80/CD/80/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+71/CD/71/0 %/NN/%/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 when/WRB/when/1 the/DT/the/1 attribute/NN/attribute/3 set/NN/set/1 is/VBZ/be/1 {/(/{/0 RI/NNP/ri/0 ,/,/,/0 Na/NNP/na/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 Ca/NNP/ca/0 ,/,/,/0 Ba/NNP/ba/0 }/)/}/0 ?/./?/0 
+(/(/(/0 This/DT/this/1 is/VBZ/be/1 the/DT/the/1 set/NN/set/1 that/WDT/that/1 Ian/NNP/ian/0 found/VBD/find/1 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 of/IN/of/1 the/DT/the/1 video/NN/video/1 Wrapper/NNP/wrap/2 attribute/NN/attribute/3 selection/NN/select/2 ,/,/,/0 using/VBG/use/1 wrapper-based/JJ/wrapper-based/0 attribute/JJ/attribute/3 selection/NN/select/2 with/IN/with/1 J48/NNP/j48/0 in/IN/in/1 the/DT/the/1 wrapper/NN/wrap/2 ./././0 )/)/)/0 
+72/CD/72/0 %/NN/%/0 
+74/CD/74/0 %/NN/%/0 
+76/CD/76/0 %/NN/%/0 
+78/CD/78/0 %/NN/%/0 
+80/CD/80/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+78/CD/78/0 %/NN/%/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 when/WRB/when/1 the/DT/the/1 attribute/NN/attribute/3 set/NN/set/1 is/VBZ/be/1 {/(/{/0 RI/NNP/ri/0 ,/,/,/0 Na/NNP/na/0 ,/,/,/0 Mg/NNP/milligram/4 ,/,/,/0 Ca/NNP/ca/0 ,/,/,/0 Ba/NNP/ba/0 }/)/}/0 ?/./?/0 
+(/(/(/0 This/DT/this/1 is/VBZ/be/1 the/DT/the/1 set/NN/set/1 that/WDT/that/1 Ian/NNP/ian/0 found/VBD/find/1 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 of/IN/of/1 the/DT/the/1 video/NN/video/1 Wrapper/NNP/wrap/2 attribute/NN/attribute/3 selection/NN/select/2 ,/,/,/0 using/VBG/use/1 wrapper-based/JJ/wrapper-based/0 attribute/JJ/attribute/3 selection/NN/select/2 with/IN/with/1 J48/NNP/j48/0 in/IN/in/1 the/DT/the/1 wrapper/NN/wrap/2 ./././0 )/)/)/0 
+72/CD/72/0 %/NN/%/0 
+74/CD/74/0 %/NN/%/0 
+76/CD/76/0 %/NN/%/0 
+78/CD/78/0 %/NN/%/0 
+80/CD/80/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+Use/VB/use/1 the/DT/the/1 Select/NNP/select/2 attributes/VBZ/attribute/3 panel/NN/panel/3 to/TO/to/1 find/VB/find/1 the/DT/the/1 subset/NN/set/1 selected/VBN/select/2 by/IN/by/1 WrapperSubsetEval/NNP/wrappersubseteval/0 using/VBG/use/1 IBk/NNP/ibk/0 and/CC/and/1 BestFirst/NNP/bestfirst/0 search/NN/search/2 (/(/(/0 default/NN/default/5 parameters/NNS/parameter/4 throughout/IN/through/1 )/)/)/0 ./././0 There/EX/there/1 are/VBP/be/1 6/CD/6/0 attributes/NNS/attribute/3 in/IN/in/1 this/DT/this/1 subset/NN/set/1 ./././0 What/WP/what/1 are/VBP/be/1 they/PRP/they/1 ?/./?/0 (/(/(/0 Type/VB/type/1 them/PRP/they/1 in/IN/in/1 order/NN/order/1 ./././0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+RI/NN/ri/0 
+Mg/NN/milligram/4 
+Al/NN/al/0 
+K/NNP/k/0 
+Ca/NN/ca/0 
+Ba/NN/ba/0 
+
+Question/NN/question/1 8/CD/8/0 
+What/WP/what/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 does/VBZ/do/1 IBk/NNP/ibk/0 yield/VB/yield/3 for/IN/for/1 that/DT/that/1 attribute/NN/attribute/3 set/VBN/set/1 ?/./?/0 
+71/CD/71/0 %/NN/%/0 
+72/CD/72/0 %/NN/%/0 
+75/CD/75/0 %/NN/%/0 
+78/CD/78/0 %/NN/%/0 
+80/CD/80/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+78/CD/78/0 %/NN/%/0 
+
+Question/NN/question/1 9/CD/9/0 
+For/IN/for/1 this/DT/this/1 question/NN/question/1 you/PRP/you/1 will/MD/will/1 first/VB/first/1 need/VB/need/1 to/TO/to/1 install/VB/install/3 Weka/NNP/weka/23 ’/NNP/’/0 s/NN/be/1 attributeSelectionSearchMethods/NNS/attributeselectionsearchmethods/0 package/NN/pack/1 ./././0 (/(/(/0 That/IN/that/1 ’/VBZ/’/0 s/VB/be/1 a/DT/a/1 nuisance/NN/nuisance/5 ?/./?/0 –/NN/–/0 hey/NN/hello/1 ,/,/,/0 it/PRP/it/1 only/RB/only/1 takes/VBZ/take/1 about/IN/about/1 2/CD/2/0 minutes/NNS/minute/1 !/./!/0 )/)/)/0 
+Restore/IN/restore/3 the/DT/the/1 original/JJ/original/2 dataset/NN/dataset/0 and/CC/and/1 choose/VB/choose/1 the/DT/the/1 “/NNP/“/0 Exhaustive/NNP/exhaust/2 search/NN/search/2 ”/NNP/”/0 search/NN/search/2 method/NN/method/3 on/IN/on/1 the/DT/the/1 Select/NNP/select/2 attributes/VBZ/attribute/3 panel/NN/panel/3 ./././0 This/DT/this/1 searches/VBZ/search/2 all/DT/all/1 512/CD/512/0 possible/JJ/possible/1 subsets/NNS/set/1 of/IN/of/1 the/DT/the/1 9/CD/9/0 attributes/NNS/attribute/3 ./././0 
+What/WP/what/1 attribute/NN/attribute/3 subset/NN/set/1 is/VBZ/be/1 selected/VBN/select/2 by/IN/by/1 WrapperSubsetEval/NNP/wrappersubseteval/0 using/VBG/use/1 IBk/NNP/ibk/0 (/(/(/0 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+RI/NN/ri/0 
+Na/NN/na/0 
+Mg/NN/milligram/4 
+K/NNP/k/0 
+Ca/NN/ca/0 
+Ba/NN/ba/0 
+
+Question/NN/question/1 10/CD/10/0 
+What/WP/what/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 does/VBZ/do/1 IBk/NNP/ibk/0 yield/VB/yield/3 for/IN/for/1 that/DT/that/1 attribute/NN/attribute/3 set/VBN/set/1 ?/./?/0 
+71/CD/71/0 %/NN/%/0 
+73/CD/73/0 %/NN/%/0 
+75/CD/75/0 %/NN/%/0 
+77/CD/77/0 %/NN/%/0 
+79/CD/79/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+79/CD/79/0 %/NN/%/0 
+
+

@@ -1,0 +1,3 @@
+A challenge, and some Groovy 
+We begin by looking at a real-world challenge: the IDRC (International Diffuse Reflectance Conference) Shootout challenge. The training data – called “calibration data” – and test data is linked to below. The challenge is tough: in the step that follows the upcoming quiz Peter talks about his solution, and how he arrived at it. Then, as a second part, we look at another scripting language called “Groovy” and use it to replicate two of the earlier Python scripts.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

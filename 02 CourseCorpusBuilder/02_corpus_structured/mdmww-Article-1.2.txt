@@ -1,0 +1,43 @@
+About this course
+This course aims to extend your knowledge and experience of practical data mining, following on from Data Mining with Weka.
+We’ll talk about “big data” and how to deal with that in Weka (you’ll process a dataset with 10 million instances). You’ll learn about mining text. You’ll look at filtering using supervised and unsupervised filters. You’ll learn about discretization and sampling. You’ll learn about attribute selection. You’ll learn about classification rules, rules vs. trees, association rules, clustering, cost-sensitive evaluation and classification. You already know how to use the Explorer, and we’re going to start by showing you Weka’s other interfaces.
+Again, the aim of the course is to dispel the mystery that surrounds data mining. After completing it you will be even better equipped to mine your own data using more powerful methods. Most importantly, you’ll understand what it is that you’re doing!
+Course structure
+Teachers open the door. You enter by yourself. (Chinese proverb)
+This is structured as a five week course:
+  Week 1: Exploring Weka’s interfaces, and working with big data
+  Week 2: Discretization and text classification
+  Week 3: Classification rules, association rules, and clustering
+  Week 4: Selecting attributes, and counting the cost
+  Week 5: Neural networks, learning curves, and performance optimization
+Each week focuses on a couple of “Big Questions.” For example, Week 1’s Big Questions are What are Weka’s other interfaces for? and Can Weka process big data?
+The week covers a handful of activities that together address the questions. Each activity comprises:
+  5-10 minute video
+  Quiz. But no ordinary quiz! In order to answer the questions you have to undertake some practical data mining task. You don’t learn by watching someone talk; you learn by actually doing things! The quizzes give you an opportunity to do a lot of data mining.
+I hear and I forget. I see and I remember. I do and I understand. (Confucius)
+You will get additional benefits by purchasing an upgrade, including access to the tests:
+  Mid-class test at the end of Week 2
+  Post-class test at the end of Week 5
+This week …
+In Week 1 you will explore Weka’s other interfaces: the Experimenter, which allows you to run experiments that compare different methods; the Knowledge Flow interface, which lets you set up a graphical workflow for your data mining project; the Command Line interface, which accepts more complex commands to Weka. And you will learn about “big data” and how to deal with it in Weka. At the end of the week you’ll be equipped to use all Weka’s facilities, including stream-oriented processing for massive datasets.
+Right now …
+Please take the time to fill in the pre-course survey.
+Teaching team
+  Lead educator, Ian Witten
+  Educator, Dave Nichols
+  Educator, Jemma Konig
+Production team
+  Video editing, Louise Hutt
+  Captions, Jennifer Whisler
+  Music: 7 Mand på en Skude (7 men in a boat) by Rasmus Ørskov, performed by Rasmus Ørskov, Ashley Hopkins, Sarah Shieff and Ian Witten
+Support
+  Share what you are learning, including difficulties, problems and solutions, with others in the class in a weekly discussion focused on the Big Questions of the week and what you have learned
+  Other discussions from time to time
+  Transcripts are supplied for all videos
+  Slides for all videos can be downloaded as a PDF file
+Software requirements
+If you have not already installed the Weka software you will need to do so right away (see step 1.4). It runs on any computer, under Windows, Linux, or Mac. It has been downloaded millions of times and is being used all around the world.
+(Note: Depending on your computer and system version, you may need admin access to successfully install Weka.)
+Prerequisite knowledge
+You need no programming experience for this course. And no math, though some high-school statistical concepts are used (means and variances, maybe confidence intervals).
+However, you do need to have completed the course Data Mining with Weka, or have equivalent knowledge. If you can do the Are you ready for this? quiz at the end of this Activity, you’ll be fine!

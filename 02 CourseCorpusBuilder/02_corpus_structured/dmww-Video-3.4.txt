@@ -1,0 +1,3 @@
+Overfitting
+“Overfitting” is a problem that plagues all machine learning methods. It occurs when a classifier fits the training data too tightly and doesn’t generalize well to independent test data. It can be illustrated using OneR, which has a parameter that tends to make it overfit numeric attributes. For example, on the numeric version of the weather data, and on the diabetes dataset, we get good performance on the training data, but lousy performance on independent test sets – or with cross-validation. That’s overfitting.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

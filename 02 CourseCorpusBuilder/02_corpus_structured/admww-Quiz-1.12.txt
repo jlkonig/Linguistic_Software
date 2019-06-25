@@ -1,0 +1,86 @@
+Looking at the textual output
+Question 1
+Go to the Forecast panel and forecast 12 time units ahead, using default values for all other parameters.
+What’s the maximum passenger estimate over the 12 predicted values, and what month and year does it occur in?
+464, in December 1961
+661, in August 1961
+690, in June 1961
+690, in July 1961
+691, in January 1962
+710, in January 1962
+---
+Correct answer(s):
+690, in July 1961
+
+Question 2
+Now remove leading instances with unknown lag values, and repeat.
+What’s the maximum passenger estimate over the 12 predicted values, and what month and year does it occur in?
+690, in July 1961
+710, in July 1961
+710, in August 1961
+892, in October 1961
+892, in December 1961
+905, in July 1962
+---
+Correct answer(s):
+710, in July 1961
+
+Question 3
+Now evaluate on the training data and 24 test instances.
+What’s the maximum future passenger estimate from the end of the training data, and what month and year does it occur in? (Note: be sure to look from the end of the training data, not the test data.)
+490, in June 1959
+490, in August 1959
+543, in July 1961
+610, in September 1959
+---
+Correct answer(s):
+490, in August 1959
+---
+Feedback incorrect:
+Are you looking at predictions from the test data instead of the training data?
+
+Question 4
+What’s the maximum passenger estimate from the end of the test data, and what month and year does it occur in?
+490, in August 1959
+438, in June 1961
+438, in July 1961
+543, in July 1961
+---
+Correct answer(s):
+543, in July 1961
+---
+Feedback incorrect:
+Are you looking at predictions from the training data instead of the test data?
+
+Question 5
+You can change the textual options using the “Output options” (as opposed to “Graphing options”). The results all appear in the single textual output stream, rather than in different tabs as with the Graphing options.
+By setting the “Output options” appropriately, what is the largest error in the training data for 1-step-ahead predictions, and what instance number does it occur on? (Note: the largest error may be negative.)
+–12, on instance 42
+–9, on instance 14
+15, on instance 30
+21, on instance 62
+332, on instance 120
+---
+Correct answer(s):
+21, on instance 62
+
+Question 6
+What is the largest error in the test data for 1-step-ahead predictions, and what instance number does it occur on? (Note: the largest error may be negative.)
+–106, on instance 136
+–91, on instance 134
+–67, on instance 131
+–56, on instance 122
+336, on instance 121
+---
+Correct answer(s):
+–106, on instance 136
+
+Question 6
+What is the largest error in the test data for 1-step-ahead predictions, and what instance number does it occur on? (Note: the largest error may be negative.)
+–106, on instance 136
+–91, on instance 134
+–67, on instance 131
+–56, on instance 122
+336, on instance 121
+---
+Correct answer(s):

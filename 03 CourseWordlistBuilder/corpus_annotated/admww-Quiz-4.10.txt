@@ -1,0 +1,151 @@
+Cross-validating/JJ/cross-validating/0 classifiers/NNS/classifier/0 with/IN/with/1 Spark/NNP/spark/4 
+Question/NN/question/1 1/CD/1/0 
+Open/VB/open/1 the/DT/the/1 “/JJ/“/0 Spark/NNP/spark/4 :/:/:/0 cross-validate/JJ/cross-validate/0 two/CD/two/1 classifiers/NNS/classifier/0 ”/VBP/”/0 template/NN/template/7 and/CC/and/1 run/VB/run/1 it/PRP/it/1 ./././0 
+What/WP/what/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 do/VBP/do/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 Random/NNP/random/3 Forest/NNP/forest/1 classify/NN/classify/4 correctly/RB/correct/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 0.1/CD/0.1/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 0.1/CD/0.1/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 4.5/CD/4.5/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 4.5/CD/4.5/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 95.5/CD/95.5/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 95.5/CD/95.5/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99.2/CD/99.2/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 99.2/CD/99.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 95.5/CD/95.5/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 99.2/CD/99.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 incorrectly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 
+
+Question/NN/question/1 2/CD/2/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 total/JJ/total/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 predicted/VBN/predict/3 by/IN/by/1 the/DT/the/1 classifiers/NNS/classifier/0 (/(/(/0 whether/IN/whether/1 correctly/RB/correct/2 or/CC/or/1 incorrectly/RB/correct/2 classified/VBN/classify/4 )/)/)/0 ?/./?/0 
+29/CD/29/0 
+169/CD/169/0 
+3605/CD/3605/0 
+3745/CD/3745/0 
+3774/CD/3774/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+3774/CD/3774/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 number/NN/number/1 incorrectly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Random/NNP/random/3 Forest/NNP/forest/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 number/NN/number/1 incorrectly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 number/NN/number/1 correctly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 number/NN/number/1 correctly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Random/NNP/random/3 Forest/NNP/forest/1 
+
+Question/NN/question/1 3/CD/3/0 
+Load/NNP/load/1 the/DT/the/1 hypothyroid/NN/hypothyroidism/14 data/NNS/data/3 into/IN/into/1 the/DT/the/1 Explorer/NNP/explore/3 ./././0 
+How/WRB/how/1 many/JJ/many/1 instances/NNS/instance/2 are/VBP/be/1 there/RB/there/1 ,/,/,/0 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 belong/RB/belong/2 to/TO/to/1 the/DT/the/1 secondary_hypothyroid/JJ/secondary_hypothyroid/0 class/NN/class/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+2/CD/2/0 total/NN/total/1 
+2/CD/2/0 secondary_hypothyroid/NN/secondary_hypothyroid/0 
+30/CD/30/0 total/NN/total/1 
+30/CD/30/0 secondary_hypothyroid/NN/secondary_hypothyroid/0 
+95/CD/95/0 total/NN/total/1 
+95/CD/95/0 secondary_hypothyroid/NN/secondary_hypothyroid/0 
+3772/CD/3772/0 total/NN/total/1 
+3772/CD/3772/0 secondary_hypothyroid/NN/secondary_hypothyroid/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+2/CD/2/0 secondary_hypothyroid/NN/secondary_hypothyroid/0 
+3772/CD/3772/0 total/NN/total/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+There/EX/there/1 ’/VBZ/’/0 s/JJR/be/1 a/DT/a/1 2-instance/JJ/2-instance/0 discrepancy/NN/discrepancy/5 between/IN/between/1 the/DT/the/1 number/NN/number/1 reported/VBN/report/1 by/IN/by/1 the/DT/the/1 classifiers/NNS/classifier/0 and/CC/and/1 the/DT/the/1 number/NN/number/1 shown/VBN/show/1 by/IN/by/1 the/DT/the/1 Explorer/NNP/explore/3 ./././0 
+This/DT/this/1 occurs/VBZ/occur/2 because/IN/because/1 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 step/NN/step/1 stratifies/VBZ/stratify/7 the/DT/the/1 data/NN/data/3 as/RB/as/1 well/RB/well/1 as/IN/as/1 shuffling/VBG/shuffle/5 it/PRP/it/1 ./././0 It/PRP/it/1 ensures/VBZ/ensure/3 that/IN/that/1 all/DT/all/1 classes/NNS/class/1 are/VBP/be/1 represented/VBN/represent/2 in/IN/in/1 each/DT/each/1 partition/NN/partition/6 of/IN/of/1 the/DT/the/1 Spark/NNP/spark/4 RDD/NNP/rdd/0 dataset/NN/dataset/0 —/NNP/—/0 even/RB/even/1 if/IN/if/1 a/DT/a/1 class/NN/class/1 has/VBZ/have/1 fewer/JJR/few/1 instances/NNS/instance/2 than/IN/than/1 there/EX/there/1 are/VBP/be/1 partitions/NNS/partition/6 ./././0 
+Here/RB/here/1 it/PRP/it/1 is/VBZ/be/1 configured/VBN/configure/4 to/TO/to/1 produce/VB/produce/2 4/CD/4/0 partitions/NNS/partition/6 ,/,/,/0 so/RB/so/1 2/CD/2/0 additional/JJ/add/1 secondary_hypothyroid/NN/secondary_hypothyroid/0 instances/NNS/instance/2 (/(/(/0 sampled/VBN/sample/3 from/IN/from/1 the/DT/the/1 2/CD/2/0 original/JJ/original/2 ones/NNS/one/1 )/)/)/0 are/VBP/be/1 generated/VBN/generate/3 to/TO/to/1 force/VB/force/1 each/DT/each/1 partition/NN/partition/6 of/IN/of/1 the/DT/the/1 data/NNS/data/3 to/TO/to/1 include/VB/include/2 a/DT/a/1 representative/NN/represent/2 of/IN/of/1 that/DT/that/1 class/NN/class/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+There/EX/there/1 ’/VBZ/’/0 s/JJR/be/1 a/DT/a/1 2-instance/JJ/2-instance/0 discrepancy/NN/discrepancy/5 between/IN/between/1 the/DT/the/1 number/NN/number/1 reported/VBN/report/1 by/IN/by/1 the/DT/the/1 classifiers/NNS/classifier/0 and/CC/and/1 the/DT/the/1 number/NN/number/1 shown/VBN/show/1 by/IN/by/1 the/DT/the/1 Explorer/NNP/explore/3 ./././0 
+This/DT/this/1 occurs/VBZ/occur/2 because/IN/because/1 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 step/NN/step/1 stratifies/VBZ/stratify/7 the/DT/the/1 data/NN/data/3 as/RB/as/1 well/RB/well/1 as/IN/as/1 shuffling/VBG/shuffle/5 it/PRP/it/1 ./././0 It/PRP/it/1 ensures/VBZ/ensure/3 that/IN/that/1 all/DT/all/1 classes/NNS/class/1 are/VBP/be/1 represented/VBN/represent/2 in/IN/in/1 each/DT/each/1 partition/NN/partition/6 of/IN/of/1 the/DT/the/1 Spark/NNP/spark/4 RDD/NNP/rdd/0 dataset/NN/dataset/0 —/NNP/—/0 even/RB/even/1 if/IN/if/1 a/DT/a/1 class/NN/class/1 has/VBZ/have/1 fewer/JJR/few/1 instances/NNS/instance/2 than/IN/than/1 there/EX/there/1 are/VBP/be/1 partitions/NNS/partition/6 ./././0 
+Here/RB/here/1 it/PRP/it/1 is/VBZ/be/1 configured/VBN/configure/4 to/TO/to/1 produce/VB/produce/2 4/CD/4/0 partitions/NNS/partition/6 ,/,/,/0 so/RB/so/1 2/CD/2/0 additional/JJ/add/1 secondary_hypothyroid/NN/secondary_hypothyroid/0 instances/NNS/instance/2 (/(/(/0 sampled/VBN/sample/3 from/IN/from/1 the/DT/the/1 2/CD/2/0 original/JJ/original/2 ones/NNS/one/1 )/)/)/0 are/VBP/be/1 generated/VBN/generate/3 to/TO/to/1 force/VB/force/1 each/DT/each/1 partition/NN/partition/6 of/IN/of/1 the/DT/the/1 data/NNS/data/3 to/TO/to/1 include/VB/include/2 a/DT/a/1 representative/NN/represent/2 of/IN/of/1 that/DT/that/1 class/NN/class/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Configure/NN/configure/4 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 to/TO/to/1 use/VB/use/1 2/CD/2/0 splits/NNS/split/2 instead/RB/instead/1 of/IN/of/1 4/CD/4/0 (/(/(/0 numRandomlyShuffledSplits/NNS/numrandomlyshuffledsplits/0 )/)/)/0 ,/,/,/0 and/CC/and/1 run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 ./././0 
+What/WP/what/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 do/VBP/do/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 Random/NNP/random/3 Forest/NNP/forest/1 classify/NN/classify/4 correctly/RB/correct/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 95.4/CD/95.4/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 95.4/CD/95.4/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 95.5/CD/95.5/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 95.5/CD/95.5/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99.2/CD/99.2/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 99.2/CD/99.2/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99.7/CD/99.7/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 99.7/CD/99.7/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 95.4/CD/95.4/0 %/NN/%/0 
+Random/JJ/random/3 Forest/NNP/forest/1 :/:/:/0 99.7/CD/99.7/0 %/NN/%/0 
+
+Question/NN/question/1 5/CD/5/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 total/JJ/total/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 predicted/VBN/predict/3 by/IN/by/1 the/DT/the/1 classifiers/NNS/classifier/0 (/(/(/0 whether/IN/whether/1 correctly/RB/correct/2 or/CC/or/1 incorrectly/RB/correct/2 classified/VBN/classify/4 )/)/)/0 ?/./?/0 
+3772/CD/3772/0 
+3774/CD/3774/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+3772/CD/3772/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+With/IN/with/1 only/RB/only/1 2/CD/2/0 partitions/NNS/partition/6 there/EX/there/1 is/VBZ/be/1 no/DT/no/1 need/NN/need/1 to/TO/to/1 generate/VB/generate/3 extra/JJ/extra/1 secondary_hypothyroid/NN/secondary_hypothyroid/0 instances/NNS/instance/2 ,/,/,/0 because/IN/because/1 there/EX/there/1 are/VBP/be/1 sufficient/JJ/sufficient/3 original/JJ/original/2 instances/NNS/instance/2 to/TO/to/1 put/VB/put/1 at/IN/at/1 least/JJS/least/1 one/CD/one/1 in/IN/in/1 each/DT/each/1 partition/NN/partition/6 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 performance/NN/perform/2 of/IN/of/1 the/DT/the/1 Random/NNP/random/3 Forest/NNP/forest/1 increased/VBD/increase/2 slightly/RB/slight/1 with/IN/with/1 4/CD/4/0 partitions/NNS/partition/6 rather/RB/rather/1 than/IN/than/1 2/CD/2/0 ,/,/,/0 even/RB/even/1 though/IN/though/1 100/CD/100/0 trees/NNS/tree/1 are/VBP/be/1 learned/VBN/learn/1 in/IN/in/1 each/DT/each/1 case/NN/case/1 ./././0 
+This/DT/this/1 could/MD/could/1 be/VB/be/1 due/JJ/due/2 to/TO/to/1 a/DT/a/1 different/JJ/different/1 shuffling/NN/shuffle/5 of/IN/of/1 the/DT/the/1 data/NNS/data/3 caused/VBN/cause/1 by/IN/by/1 a/DT/a/1 different/JJ/different/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 ,/,/,/0 but/CC/but/1 is/VBZ/be/1 more/RBR/more/1 likely/JJ/likely/2 to/TO/to/1 be/VB/be/1 because/RB/because/1 ,/,/,/0 with/IN/with/1 fewer/JJR/few/1 partitions/NNS/partition/6 ,/,/,/0 each/DT/each/1 one/CD/one/1 contains/VBZ/contain/2 more/JJR/more/1 data/NNS/data/3 ./././0 
+To/TO/to/1 investigate/VB/investigate/2 further/RBR/further/1 ,/,/,/0 vary/VBP/vary/2 the/DT/the/1 randomSeed/NN/randomseed/0 property/NN/property/2 in/IN/in/1 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 (/(/(/0 use/NN/use/1 values/VBZ/value/2 10/CD/10/0 ,/,/,/0 50/CD/50/0 ,/,/,/0 100/CD/100/0 )/)/)/0 and/CC/and/1 observe/VBP/observe/2 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 correctly/RB/correct/2 classified/VBN/classify/4 by/IN/by/1 Random/NNP/random/3 Forest/NNP/forest/1 when/WRB/when/1 using/VBG/use/1 2/CD/2/0 and/CC/and/1 4/CD/4/0 partitions/NNS/partition/6 ./././0 How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 performance/NN/perform/2 compare/NN/compare/2 ?/./?/0 
+Always/NNS/always/1 better/VBP/better/1 with/IN/with/1 2/CD/2/0 partitions/NNS/partition/6 
+Always/NNS/always/1 better/VBP/better/1 with/IN/with/1 4/CD/4/0 partitions/NNS/partition/6 
+Sometimes/RB/some/1 better/RB/better/1 with/IN/with/1 2/CD/2/0 ,/,/,/0 sometimes/RB/some/1 with/IN/with/1 4/CD/4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Always/NNS/always/1 better/VBP/better/1 with/IN/with/1 2/CD/2/0 partitions/NNS/partition/6 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 suggests/VBZ/suggest/1 that/IN/that/1 fewer/JJR/few/1 partitions/NNS/partition/6 give/VBP/give/1 better/JJR/better/1 performance/NN/perform/2 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Let/VB/let/1 ’/NNP/’/0 s/VB/be/1 investigate/VB/investigate/2 how/WRB/how/1 performance/NN/perform/2 of/IN/of/1 Random/NNP/random/3 Forest/NNP/forest/1 varies/NNS/vary/2 with/IN/with/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 trees/NNS/tree/1 ./././0 
+Reset/VB/reset/8 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 step/NN/step/1 to/TO/to/1 use/VB/use/1 4/CD/4/0 partitions/NNS/partition/6 ,/,/,/0 and/CC/and/1 the/DT/the/1 randomSeed/NN/randomseed/0 back/RB/back/1 to/TO/to/1 1/CD/1/0 ./././0 
+Increase/VB/increase/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 trees/NNS/tree/1 learned/VBN/learn/1 by/IN/by/1 Random/NNP/random/3 Forest/NNP/forest/1 (/(/(/0 numIterations/NNS/numiterations/0 property/NN/property/2 )/)/)/0 in/IN/in/1 the/DT/the/1 WekaClassifierEvaluationSparkJob2/NNP/wekaclassifierevaluationsparkjob2/0 step/NN/step/1 from/IN/from/1 the/DT/the/1 default/NN/default/5 value/NN/value/2 of/IN/of/1 100/CD/100/0 to/TO/to/1 200/CD/200/0 ./././0 Run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 ./././0 
+What/WP/what/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 does/VBZ/do/1 Random/NNP/random/3 Forest/NNP/forest/1 classify/NN/classify/4 correctly/RB/correct/2 ?/./?/0 
+99.23/CD/99.23/0 %/NN/%/0 
+99.26/CD/99.26/0 %/NN/%/0 
+99.31/CD/99.31/0 %/NN/%/0 
+99.36/CD/99.36/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+99.36/CD/99.36/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 result/NN/result/2 for/IN/for/1 100/CD/100/0 iterations/NNS/iterate/8 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 result/NN/result/2 for/IN/for/1 500/CD/500/0 iterations/NNS/iterate/8 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 result/NN/result/2 for/IN/for/1 400/CD/400/0 iterations/NNS/iterate/8 
+
+Question/NN/question/1 8/CD/8/0 
+Increase/VB/increase/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 trees/NNS/tree/1 to/TO/to/1 300/CD/300/0 ,/,/,/0 400/CD/400/0 and/CC/and/1 then/RB/then/1 500/CD/500/0 ./././0 Does/NNS/do/1 performance/NN/perform/2 improve/VB/improve/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 8/CD/8/0 
+Increase/VB/increase/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 trees/NNS/tree/1 to/TO/to/1 300/CD/300/0 ,/,/,/0 400/CD/400/0 and/CC/and/1 then/RB/then/1 500/CD/500/0 ./././0 Does/NNS/do/1 performance/NN/perform/2 improve/VB/improve/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+
+

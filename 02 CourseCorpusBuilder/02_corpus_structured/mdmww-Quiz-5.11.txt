@@ -1,0 +1,101 @@
+Learning curves
+Question 1
+Before we begin, if you train on a certain percentage of a dataset using the FilteredClassifier with the Resample filter (as Ian did in the “Learning curves” video), would you expect better results if sampling was done with replacement or without replacement?
+With replacement
+Without replacement
+---
+Correct answer(s):
+Without replacement
+---
+Feedback correct:
+Sampling without replacement yields a greater variety of different instances, which will probably generate a more accurate classifier.
+
+Question 2
+Open the classifier-performance.csv file in a spreadsheet program.
+It gives the performance on 1000 repetitions of 10-fold cross-validation of 3 algorithms (Naive Bayes, J48, and IBk) on 5 datasets (breast-cancer.arff, glass.arff, credit-g.arff, diabetes.arff, ionosphere.arff), training on 100%, 90%, …, 20%, 10% of the instances (sampling without replacement).
+Just to be sure that you understand how it was generated, the figures for a 50% sample of the breast-cancer dataset are omitted from the CSV file. What should they be, for Naive Bayes, J48, and IBk respectively?
+72.42, 71.10, 70.22
+71.34, 70.27, 69.78
+72.13, 70.83, 70.84
+---
+Correct answer(s):
+72.13, 70.83, 70.84
+---
+Feedback incorrect:
+Are you sure you set the number of repetitions to 1000 in the Experimenter? – this is the result for 10 repetitions (the default)
+---
+Feedback incorrect:
+Are you sure you are filtering without replacement (noReplacement = true)? – this is the result for sampling with replacement
+
+Question 3
+Complete the classifier-performance spreadsheet by including the three new figures you have calculated. The remainder of this quiz involves examining this spreadsheet; you do not need to use Weka any more.
+Suppose we are interested in the number of training instances (not the percentage of the dataset) required to achieve 99% of the “ultimate” performance of each classifier, defined as the performance obtained using 100% of the training data.
+    Add a new column (M) to the spreadsheet that calculates 99% of that ultimate performance (for the first spreadsheet row that’s 72.08, or 99% of 72.81).
+    Add a further column (N) that shows what percentage of the dataset is needed to better that performance (for the first spreadsheet row that’s 50%, because that yields a performance of 72.13, which is just better than 72.08). I did this part manually; it took me a few minutes.
+    Add a column (O), again manually, that shows the number of instances in the dataset, which I found using the Explorer (286 for the first row).
+    Add a column (P) that shows the number of instances corresponding to the percentage in column N (143 for the first row).
+Now use your spreadsheet to answer the following questions.
+Which dataset seems to be the “hardest”, in the sense that Naive Bayes, J48, and IBk require the greatest number of training instances in order to attain 99% of their ultimate performance?
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+---
+Correct answer(s):
+credit-g
+---
+Feedback correct:
+Naive Bayes, J48, and IBk require 600, 500, and 900 instances respectively to reach 99% of their ultimate performance on credit-g – more instances than for any other dataset (except diabetes, but only in the case of J48)
+---
+Feedback incorrect:
+J48 does require the largest number of instances (691) to reach 99% of its ultimate performance on diabetes, but the other two methods do not require nearly as many instances as they do for one of the other datasets.
+
+Question 4
+Is there evidence that different methods require different amounts of data to reach 99% of their ultimate performance?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+IBk always requires the most data, except on the breast-cancer and diabetes datasets where J48 requires even more. Naive Bayes always requires the least data, except on the credit-g dataset where J48 requires even less.
+
+Question 5
+What is the order of the methods in terms of the volume of data that is generally required to reach 99% of ultimate performance?
+---
+Correct answer(s):
+IBK
+J48
+NaiveBayes
+
+Question 6
+In a further column (Q) of the spreadsheet, calculate for each dataset the average number of instances needed by the three methods to achieve 99% of their ultimate performance.
+Also note on the spreadsheet which datasets have two classes and which have more than two.
+Does the data support the contention that the more class values there are, the more data is needed?
+Definitely
+Not really
+---
+Correct answer(s):
+Not really
+
+Question 7
+Note on your spreadsheet which datasets have 10 or fewer attributes and which have more than 10.
+Does the data support the contention that the more attributes there are, the more data is needed?
+Definitely
+Not really
+---
+Correct answer(s):
+
+Question 7
+Note on your spreadsheet which datasets have 10 or fewer attributes and which have more than 10.
+Does the data support the contention that the more attributes there are, the more data is needed?
+Definitely
+Not really
+---
+Correct answer(s):
+Not really
+---
+Feedback correct:
+We conclude that it’s pretty hard to predict the amount of data required by a classifier to achieve close to ultimate performance – without actually plotting a learning curve.

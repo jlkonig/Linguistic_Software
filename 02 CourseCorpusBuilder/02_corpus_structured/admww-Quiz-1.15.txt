@@ -1,0 +1,167 @@
+Forecasting wine sales 
+Question 1
+Throughout this activity we will use mean absolute error as the evaluation criterion, rather than root mean squared error as before. Which is best in practice depends on what is most appropriate for the problem at hand in the real world.
+There are important differences between mean absolute error and root mean squared error. Which of these statements do you agree with?
+Select all the answers you think are correct.
+Mean absolute error weights all individual differences equally
+Root mean squared error gives relatively high weight to large errors
+Mean absolute error never exceeds root mean squared error
+Root mean squared error punishes large errors more severely
+If both measures have the same value, all errors have the same size
+Neither root mean squared error nor mean absolute error can be negative
+---
+Correct answer(s):
+Mean absolute error weights all individual differences equally
+Root mean squared error gives relatively high weight to large errors
+Mean absolute error never exceeds root mean squared error
+Root mean squared error punishes large errors more severely
+If both measures have the same value, all errors have the same size
+Neither root mean squared error nor mean absolute error can be negative
+
+Question 2
+Use linear regression to forecast the volume of red wine, holding out one year’s worth of data for evaluation.
+But first, check Remove leading instances under Lag creation, More options. Leave all other parameters at their default values. Note that Weka correctly identifies the last attribute as the date to be used for forecasting.
+What is the mean absolute error on the test data and the training data?
+Select all the answers you think are correct.
+Test data: 173
+Test data: 187
+Test data: 233
+Training data: 131
+Training data: 135
+Training data: 173
+---
+Correct answer(s):
+Test data: 233
+Training data: 131
+
+Question 3
+What mean absolute error values do you get if the linear regression model uses only two attributes, Date and Lag_Red-12 (the sales of red wine for the same month last year)?
+Select all the answers you think are correct.
+Test data: 218
+Test data: 225
+Test data: 242
+Training data: 175
+Training data: 183
+Training data: 242
+---
+Correct answer(s):
+Test data: 242
+Training data: 183
+---
+Feedback correct:
+Examine the attributes used in the linear regression model near the top of the output panel. To remove superfluous lagged variables, click “Use custom lag lengths” in the Lag creation panel and select a minimum lag of 12. To eliminate Month attributes from the model, check “Customize” in the Periodic attributes panel – but leave the other boxes there unchecked. To eliminate the products of time and lagged variables, and the powers of time, from the model, uncheck the corresponding boxes under More options in the Lag creation panel.
+Now the linear regression should use just two attributes: Date-remapped and Lag_Red-12.
+---
+Feedback incorrect:
+Examine the attributes used in the linear regression model near the top of the output panel. To remove superfluous lagged variables, click “Use custom lag lengths” in the Lag creation panel and select a minimum lag of 12. To eliminate Month attributes from the model, check “Customize” in the Periodic attributes panel – but leave the other boxes there unchecked. To eliminate the products of time and lagged variables, and the powers of time, from the model, uncheck the corresponding boxes under More options in the Lag creation panel.
+Now the linear regression should use just two attributes: Date-remapped and Lag_Red-12.
+
+Question 4
+Suppose you use the three attributes Date, Lag-12, and Lag-24.
+What is the mean absolute error on the test data and the training data?
+Select all the answers you think are correct.
+Test data: 187
+Test data: 221
+Test data: 242
+Training data: 170
+Training data: 172
+Training data: 175
+---
+Correct answer(s):
+Test data: 221
+Training data: 172
+---
+Feedback correct:
+On the Lag creation panel, select the minimum and maximum lags to be 12 and 24 respectively, and type 12,24 into the “Fine tune lag selection” box.
+---
+Feedback incorrect:
+On the Lag creation panel, select the minimum and maximum lags to be 12 and 24 respectively, and type 12,24 into the “Fine tune lag selection” box.
+
+Question 5
+Keeping the same parameter settings, predict both Dry-white and Red.
+How many attributes are there in the transformed training data?
+7
+9
+12
+24
+---
+Correct answer(s):
+7
+---
+Feedback correct:
+The attributes in the transformed training data are Dry-white, Red, Date-remapped, Lag_Dry-white-12, Lag_Dry-white-24, Lag_Red-12 and Lag_Red-24
+
+Question 6
+In terms of the mean absolute error, does including the lagged variables for Dry-white make the prediction for Red …
+better
+exactly the same
+worse
+better on the training data, worse on the test data
+better on the test data, worse on the training data
+---
+Correct answer(s):
+exactly the same
+---
+Feedback correct:
+The mean absolute error values for Red wine on the test data and training data are still 221 and 172 respectively, just as they were before. (They are much worse for Dry-white.)
+
+Question 7
+Instead of predicting Dry-white as well as Red, use Dry-white as overlay data.
+(You won’t be able to generate a future forecast, so turn this off in the Output panel.)
+How many attributes are there in the transformed training data?
+3
+5
+7
+12
+---
+Correct answer(s):
+5
+---
+Feedback correct:
+The attributes in the transformed training data are Dry-white, Red, Date-remapped, Lag_Red-12 and Lag_Red-24
+
+Question 8
+In terms of the mean absolute error, does using Dry-white as overlay data make the prediction for Red …
+better
+exactly the same
+worse
+better on the training data, worse on the test data
+better on the test data, worse on the training data
+---
+Correct answer(s):
+better
+---
+Feedback correct:
+The mean absolute error values on the test data and training data are now 216 and 163, somewhat less than they were before (namely 221 and 172 respectively)
+
+Question 9
+Think about the differences between using an attribute as overlay data and using it as an additional target for prediction. Which of these statements do you agree with?
+Select all the answers you think are correct.
+An attribute’s lagged values can be used in the model if it is overlay data
+An attribute’s lagged values can be used in the model if it is a target for prediction
+The values of overlay data must be available for the instances that are being predicted
+---
+Correct answer(s):
+An attribute’s lagged values can be used in the model if it is a target for prediction
+The values of overlay data must be available for the instances that are being predicted
+
+Question 10
+Does adding all the other types of wine as overlay data improve the prediction for Red?
+Yes
+Only if you include Red as overlay data
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The mean absolute error values for test data and training data are now 207 and 145, less than they were before.
+Of course, it would greatly improve the result if you could use the target variable as overlay data—because then prediction would be trivial! However, Weka will not allow you to select Red as overlay data—the target variable doesn’t appear in the list.
+
+Question 10
+Does adding all the other types of wine as overlay data improve the prediction for Red?
+Yes
+Only if you include Red as overlay data
+No
+---
+Correct answer(s):

@@ -1,0 +1,8 @@
+Reflect on this week's Big Question
+The Big Question of the week is, “How do simple classification methods work?”
+We promised that by the end of the week you would be able to choose learning methods based on several different “flavors” of simplicity. You would be able to explain how they work, apply them to a dataset of your choice, and interpret the output they produce.
+As you know, simplicity comes in many different flavors. You could choose a single attribute and base the decision on that, ignoring all others (OneR). Or you could assume that each attribute contributes equally and independently to the final decision (NaiveBayes). Or you could build a tree that tests a few attributes sequentially (J48). Or you could store the training data and give new instances the same classification as their nearest neighbor – or take into account several neighbors (IBk*).
+So … how do simple classification methods work?
+I bet you’d have no trouble explaining (to your partner, siblings, parents or kids) how these methods work. Try it! Tell your fellow learners how you get on.
+And by the way, “there is no better way to learn than to teach”.
+(Benjamin Whichcote, Moral and Religious Aphorisms)

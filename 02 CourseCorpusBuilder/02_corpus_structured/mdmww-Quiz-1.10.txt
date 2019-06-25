@@ -1,0 +1,99 @@
+Percentage split vs cross-validation estimates 
+Question 1
+Given these results:
+which do you think is a better estimate of the mean?
+95.71%
+95.22%
+Don’t know
+---
+Correct answer(s):
+Don’t know
+---
+Feedback correct:
+There’s not enough evidence here to prefer one over the other because the standard deviations far outweigh the difference between the estimates.
+
+Question 2
+It’s curious that the standard deviation estimate for percentage split is smaller than that for cross-validation:
+Re-run the experiment and determine the standard deviation estimate for a 95% split, repeated 10 times.
+1.05
+1.85
+2.17
+NaN
+---
+Correct answer(s):
+2.17
+---
+Feedback incorrect:
+Are you using a 66% split instead of a 95% split?
+---
+Feedback incorrect:
+Are you using cross-validation instead of percentage split?
+---
+Feedback incorrect:
+NaN is short for “Not a number”, and a common way of getting it is to accidentally divide by zero. If you set the Experiment Type to Train/Test Percentage Split (order preserved), the Experimenter runs the experiment just once instead of the usual 10 times—there’s no point in running it again because the result will be the same each time. You can’t compute the standard deviation of a single number; what happens mathematically is an attempt to divide by zero.
+
+Question 3
+Re-run the experiment with 20-fold cross-validation, repeated 10 times. What is the standard deviation estimate?
+0.59
+1.85
+1.94
+2.44
+---
+Correct answer(s):
+2.44
+
+Question 4
+Re-run the experiment with an 80% split, repeated 10 times. What is the standard deviation estimate?
+1.32
+2.22
+3.34
+4.36
+---
+Correct answer(s):
+1.32
+
+Question 5
+Re-run the experiment with 5-fold cross-validation, repeated 10 times. What is the standard deviation estimate?
+1.32
+1.39
+2.22
+3.35
+---
+Correct answer(s):
+1.39
+---
+Feedback incorrect:
+Are you using percentage split instead of cross-validation?
+
+Question 6
+Can you think of reasons why the standard deviation estimate tends to be smaller for percentage split than for the corresponding cross-validation?
+Select all the answers you think are correct.
+There’s no reason; it’s just a coincidence.
+The estimate is made using a different number of samples in each case
+There’s some overlap in the test sets for percentage split, but none for cross-validation.
+---
+Correct answer(s):
+
+Question 6
+Can you think of reasons why the standard deviation estimate tends to be smaller for percentage split than for the corresponding cross-validation?
+Select all the answers you think are correct.
+There’s no reason; it’s just a coincidence.
+The estimate is made using a different number of samples in each case
+There’s some overlap in the test sets for percentage split, but none for cross-validation.
+---
+Correct answer(s):
+The estimate is made using a different number of samples in each case
+There’s some overlap in the test sets for percentage split, but none for cross-validation.
+---
+Feedback correct:
+One reason is that the estimate is made using a different number of samples in each case. Ten times 10-fold cross-validation generates 100 samples, a 90% split repeated ten times generates only 10 samples.
+One reason is that there’s some overlap in the test sets for percentage split, but none for cross-validation. When you repeat percentage split, each time using a random sample as the test set, there is a good chance of overlap between the different test sets. With cross-validation, overlap doesn’t occur.
+---
+Feedback incorrect:
+It’s not just a coincidence …
+---
+Feedback incorrect:
+One reason is that the estimate is made using a different number of samples in each case. Ten times 10-fold cross-validation generates 100 samples, a 90% split repeated ten times generates only 10 samples.
+---
+Feedback incorrect:
+One reason is that there’s some overlap in the test sets for percentage split, but none for cross-validation. When you repeat percentage split, each time using a random sample as the test set, there is a good chance of overlap between the different test sets. With cross-validation, overlap doesn’t occur.

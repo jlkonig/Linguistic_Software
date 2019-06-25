@@ -1,0 +1,109 @@
+Using filters
+Question 1
+How many attributes does the anneal dataset have?
+17
+39
+772
+898
+---
+Correct answer(s):
+39
+---
+Feedback correct:
+This is shown in the “Current relation” box on the “Preprocess” panel.
+---
+Feedback incorrect:
+That was for the labor dataset. You should have loaded the anneal dataset.
+---
+Feedback incorrect:
+That’s the number of instances, not the number of attributes, as shown in the “Current relation” box on the “Preprocess” panel.
+
+Question 2
+Apply the unsupervised attribute filter RemoveUseless. How many attributes does the anneal dataset have now?
+30
+32
+36
+39
+---
+Correct answer(s):
+32
+---
+Feedback correct:
+Select the filter by choosing unsupervised, attribute, and then RemoveUseless.
+---
+Feedback incorrect:
+Select the filter by choosing unsupervised, attribute, and then RemoveUseless.
+---
+Feedback incorrect:
+Select the filter by choosing unsupervised, attribute, and then RemoveUseless.
+Don’t forget to APPLY the filter once you have selected it (Apply button)!
+
+Question 3
+Identify one of the attributes that was removed by clicking Undo and then Apply. Now figure out why it was removed.
+The attribute name was too short
+Only one of the attribute’s values actually appears in the dataset
+The attribute only had two possible values
+---
+Correct answer(s):
+Only one of the attribute’s values actually appears in the dataset
+---
+Feedback correct:
+An attribute that has the same value for all instances in the dataset doesn’t yield any additional information, and Weka therefore deems it to be useless.
+---
+Feedback incorrect:
+The attribute’s name has no influence.
+---
+Feedback incorrect:
+The number of possible values has no influence.
+
+Question 4
+Open the glass.arff dataset (which was downloaded when you installed Weka). Apply the unsupervised attribute filter Normalize. What is the new range (i.e. minimum and maximum) of the Na attribute?
+[–1, 1]
+[0, 1]
+[–∞, ∞]
+---
+Correct answer(s):
+[0, 1]
+---
+Feedback correct:
+The Normalize filter scales attributes into the range [0, 1].
+
+Question 5
+Undo the effect of the Normalize filter and bring up its configuration panel. Set the scale to 3 and the translation option to 1. Apply the filter again. What is the Na attribute’s range now?
+[1, 4]
+[0, 1]
+[1, 3]
+---
+Correct answer(s):
+[1, 4]
+
+Question 6
+Undo the change and check that you have reverted to the original dataset. Now apply the unsupervised attribute filter Standardize. What are the new mean and standard deviation of the K attribute?
+The mean is 0.497 and the standard deviation is 0.652
+The mean is –0.762 and the standard deviation is 8.76
+The mean is 1 and the standard deviation is 0
+The mean is 0 and the standard deviation is 1
+The mean is 1.518 and the standard deviation is 0.003
+---
+Correct answer(s):
+The mean is 0 and the standard deviation is 1
+---
+Feedback correct:
+The Standardize filter alters the range of an attribute to give it a mean of 0 and standard deviation of 1.
+
+Question 7
+Undo all changes to the glass dataset again. Now determine which attribute set gives the highest classification accuracy using J48.
+removing Fe, Si, Al, K
+removing Fe, Mg, Rl
+removing Fe, Si, Mg, K
+---
+Correct answer(s):
+removing Fe, Si, Al, K
+
+Question 7
+Undo all changes to the glass dataset again. Now determine which attribute set gives the highest classification accuracy using J48.
+removing Fe, Si, Al, K
+removing Fe, Mg, Rl
+removing Fe, Si, Mg, K
+---
+Correct answer(s):

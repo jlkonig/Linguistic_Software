@@ -1,0 +1,58 @@
+Putting it all together
+What else is there to know?
+This week's Big Question!
+5.1
+What else is there to know?
+article
+The data mining process
+Producing classifiers is just a small part of the overall data mining process – perhaps the easiest part! Other parts involve formulating the question, gathering data, cleaning it, defining new features, and deploying the result.
+5.2
+The data mining process
+video (06:22)
+5.3
+Outliers
+quiz
+Pitfalls and pratfalls
+Be skeptical, and particularly wary of overfitting. Missing values can signify various things; classifiers treat them differently. There’s no single "best learner"; all methods have biases. Data mining is an experimental science!
+5.4
+Pitfalls and pratfalls
+video (09:13)
+5.5
+Missing values
+quiz
+Data mining and ethics
+It’s far harder to anonymize data than you think! The purpose of data mining is to discriminate, but some kinds of discrimination are unethical, and illegal. Data mining discovers correlations, but these do not imply causation.
+5.6
+Data mining and ethics
+video (06:40)
+5.7
+Correlation, causation, and reidentification
+quiz
+There's no magic in data mining
+There’s no magic in data mining! – in fact, perhaps Weka makes things too easy. You’ve learned lots, but don’t be smug: this course has missed out plenty. And you've learned a powerful technology: please use it wisely.
+5.8
+Summary
+video (06:04)
+5.9
+What classifiers do
+quiz
+5.10
+Reflect on this week's Big Question
+discussion
+Farewell
+It's time to say goodbye. 
+5.11
+Post-course assessment
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+5.12
+Farewell
+article
+5.13
+Index
+article

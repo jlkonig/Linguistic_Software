@@ -1,0 +1,205 @@
+Pre-discretization/NN/pre-discretization/0 vs./FW/versus/3 built-in/JJ/built-in/0 discretization/NN/discretization/0 
+Question/NN/question/1 1/CD/1/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 give/VB/give/1 better/JJR/better/1 results/NNS/result/2 than/IN/than/1 the/DT/the/1 FilteredClassifer/NNP/filteredclassifer/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+diabetes/NNS/diabetes/4 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 gives/VBZ/give/1 better/JJR/better/1 results/NNS/result/2 on/IN/on/1 the/DT/the/1 diabetes/NNS/diabetes/4 ,/,/,/0 iris/NN/iris/8 ,/,/,/0 and/CC/and/1 schizo/JJ/schizo/23 datasets/NNS/datasets/0 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 does/VBZ/do/1 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 give/VBP/give/1 significantly/RB/significant/3 better/JJR/better/1 results/NNS/result/2 (/(/(/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+schizo/NN/schizo/23 
+
+Question/NN/question/1 3/CD/3/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 give/VBP/give/1 significantly/RB/significant/3 worse/JJR/worse/1 results/NNS/result/2 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 4/CD/4/0 
+Repeat/NN/repeat/2 with/IN/with/1 the/DT/the/1 classifiers/NNS/classifier/0 JRip/NNP/jrip/0 and/CC/and/1 PART/NNP/part/1 (/(/(/0 use/NN/use/1 default/NN/default/5 settings/NNS/set/1 throughout/IN/through/1 )/)/)/0 ,/,/,/0 comparing/VBG/compare/2 them/PRP/they/1 on/IN/on/1 the/DT/the/1 above/JJ/above/1 datasets/NNS/datasets/0 with/IN/with/1 and/CC/and/1 without/IN/without/1 Weka/NNP/weka/23 ’/NNP/’/0 s/NN/be/1 supervised/VBD/supervise/3 Discretize/NNP/discretize/0 filter/NN/filter/3 with/IN/with/1 the/DT/the/1 makeBinary/JJ/makebinary/0 option/NN/option/2 set/VBN/set/1 ./././0 This/DT/this/1 time/NN/time/1 ,/,/,/0 look/VB/look/1 at/IN/at/1 just/RB/just/1 the/DT/the/1 results/NNS/result/2 that/WDT/that/1 are/VBP/be/1 statistically/RB/statistic/3 significant/JJ/significant/3 (/(/(/0 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ./././0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 JRip/NNP/jrip/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 gives/VBZ/give/1 significantly/RB/significant/3 better/JJR/better/1 results/NNS/result/2 than/IN/than/1 the/DT/the/1 Filtered/NNP/filter/3 Classifer/NNP/classifer/0 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+schizo/NN/schizo/23 
+
+Question/NN/question/1 5/CD/5/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 JRip/NNP/jrip/0 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 gives/VBZ/give/1 significantly/RB/significant/3 worse/JJR/worse/1 results/NNS/result/2 than/IN/than/1 the/DT/the/1 Filtered/NNP/filter/3 Classifer/NNP/classifer/0 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 6/CD/6/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 PART/NNP/part/1 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 gives/VBZ/give/1 significantly/RB/significant/3 better/JJR/better/1 results/NNS/result/2 than/IN/than/1 the/DT/the/1 Filtered/NNP/filter/3 Classifer/NNP/classifer/0 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 7/CD/7/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 PART/NNP/part/1 ’/NNP/’/0 s/VBD/be/1 built-in/JJ/built-in/0 discretization/NN/discretization/0 gives/VBZ/give/1 significantly/RB/significant/3 worse/JJR/worse/1 results/NNS/result/2 than/IN/than/1 the/DT/the/1 Filtered/NNP/filter/3 Classifer/NNP/classifer/0 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 8/CD/8/0 
+The/DT/the/1 classifiers/NNS/classifier/0 SMO/NNP/smo/0 and/CC/and/1 SimpleLogistic/NNP/simplelogistic/0 implement/NN/implement/3 linear/JJ/linear/4 decision/NN/decision/2 boundaries/NNS/boundary/3 in/IN/in/1 instance/NN/instance/2 space/NN/space/1 ./././0 
+How/WRB/how/1 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 pre-discretization/NN/pre-discretization/0 (/(/(/0 with/IN/with/1 makeBinary/NNP/makebinary/0 enabled/VBD/enable/3 )/)/)/0 to/TO/to/1 affect/VB/affect/2 their/PRP$/they/1 performance/NN/perform/2 ?/./?/0 
+Make/VB/make/1 it/PRP/it/1 worse/JJR/worse/1 than/IN/than/1 without/IN/without/1 discretization/NN/discretization/0 ./././0 
+Make/VB/make/1 it/PRP/it/1 better/JJR/better/1 than/IN/than/1 without/IN/without/1 discretization/NN/discretization/0 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Make/VB/make/1 it/PRP/it/1 better/JJR/better/1 than/IN/than/1 without/IN/without/1 discretization/NN/discretization/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Discretization/NNP/discretization/0 (/(/(/0 with/IN/with/1 makeBinary/NNP/makebinary/0 enabled/VBD/enable/3 )/)/)/0 would/MD/would/1 probably/RB/probably/1 improve/VB/improve/2 performance/NN/perform/2 ,/,/,/0 because/IN/because/1 it/PRP/it/1 allows/VBZ/allow/1 a/DT/a/1 more/RBR/more/1 complex/JJ/complex/3 model/NN/model/2 ,/,/,/0 one/CD/one/1 that/WDT/that/1 is/VBZ/be/1 no/DT/no/1 longer/RB/long/1 linear/VBP/linear/4 in/IN/in/1 the/DT/the/1 decision/NN/decision/2 space/NN/space/1 ./././0 
+
+Question/NN/question/1 9/CD/9/0 
+Confirm/VB/confirm/3 your/PRP$/you/1 intuition/NN/intuition/6 (/(/(/0 using/VBG/use/1 default/NN/default/5 settings/NNS/set/1 throughout/IN/through/1 )/)/)/0 by/IN/by/1 testing/VBG/test/1 the/DT/the/1 above/JJ/above/1 datasets/NNS/datasets/0 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 pre-discretization/NN/pre-discretization/0 significantly/RB/significant/3 improve/VB/improve/2 SMO/NNP/smo/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+glass/NN/glass/1 
+schizo/NN/schizo/23 
+
+Question/NN/question/1 10/CD/10/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 pre-discretization/JJ/pre-discretization/0 make/VB/make/1 SMO/NNP/smo/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 11/CD/11/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 pre-discretization/NN/pre-discretization/0 significantly/RB/significant/3 improve/VB/improve/2 SimpleLogistic/NNP/simplelogistic/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ionosphere/RB/ionosphere/16 
+schizo/NN/schizo/23 
+
+Question/NN/question/1 12/CD/12/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 pre-discretization/JJ/pre-discretization/0 make/VB/make/1 SimpleLogistic/JJ/simplelogistic/0 ’/NNP/’/0 s/NN/be/1 performance/NN/perform/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 13/CD/13/0 
+IBk/NNP/ibk/0 can/MD/can/1 implement/VB/implement/3 arbitrary/JJ/arbitrary/5 boundaries/NNS/boundary/3 in/IN/in/1 instance/NN/instance/2 space/NN/space/1 ./././0 
+How/WRB/how/1 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 pre-discretization/NN/pre-discretization/0 to/TO/to/1 affect/VB/affect/2 IBk/NNP/ibk/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 ?/./?/0 
+Pre-discretization/NN/pre-discretization/0 would/MD/would/1 improve/VB/improve/2 its/PRP$/it/1 performance/NN/perform/2 
+Pre-discretization/NN/pre-discretization/0 would/MD/would/1 make/VB/make/1 its/PRP$/it/1 performance/NN/perform/2 worse/NN/worse/1 
+Pre-discretization/NN/pre-discretization/0 would/MD/would/1 not/RB/not/1 change/VB/change/1 its/PRP$/it/1 performance/NN/perform/2 significantly/RB/significant/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Pre-discretization/NN/pre-discretization/0 would/MD/would/1 not/RB/not/1 change/VB/change/1 its/PRP$/it/1 performance/NN/perform/2 significantly/RB/significant/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Although/IN/although/1 it/PRP/it/1 may/MD/may/1 do/VB/do/1 so/RB/so/1 at/IN/at/1 times/NNS/time/1 ,/,/,/0 this/DT/this/1 is/VBZ/be/1 probably/RB/probably/1 coincidental/JJ/coincide/3 ./././0 
+
+Question/NN/question/1 14/CD/14/0 
+Confirm/VB/confirm/3 your/PRP$/you/1 intuition/NN/intuition/6 (/(/(/0 using/VBG/use/1 default/NN/default/5 settings/NNS/set/1 throughout/IN/through/1 )/)/)/0 by/IN/by/1 testing/VBG/test/1 the/DT/the/1 above/JJ/above/1 datasets/NNS/datasets/0 ./././0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 pre-discretization/NN/pre-discretization/0 significantly/RB/significant/3 improve/VB/improve/2 IBk/NNP/ibk/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 ?/./?/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 15/CD/15/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 pre-discretization/JJ/pre-discretization/0 make/VB/make/1 IBk/NNP/ibk/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+
+Question/NN/question/1 15/CD/15/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 (/(/(/0 if/IN/if/1 any/DT/any/1 )/)/)/0 does/VBZ/do/1 pre-discretization/JJ/pre-discretization/0 make/VB/make/1 IBk/NNP/ibk/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+schizo/NN/schizo/23 
+(/(/(/0 none/NN/none/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

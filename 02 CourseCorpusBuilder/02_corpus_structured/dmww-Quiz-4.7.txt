@@ -1,0 +1,185 @@
+Multi-response linear regression
+Question 1
+In the Classify panel, check the LinearRegression classifier. You will find that it is grayed out. Why?
+The attributes in the dataset are all numeric
+There are not enough attributes in the dataset
+Linear regression only works in New Zealand
+The class is not numeric
+---
+Correct answer(s):
+The class is not numeric
+---
+Feedback correct:
+LinearRegression works with numeric classes, not with nominal ones.
+
+Question 2
+Apply the MakeIndicator filter (which is unsupervised), with default parameters. How does it affect the class value (check 3 boxes)?
+Select all the answers you think are correct.
+Makes it 0 for Iris-setosas
+Makes it 1 for Iris-setosas
+Makes it 0 for Iris-versicolors
+Makes it 1 for Iris-versicolors
+Makes it 0 for Iris-virginicas
+Makes it 1 for Iris-virginicas
+---
+Correct answer(s):
+Makes it 0 for Iris-setosas
+Makes it 0 for Iris-versicolors
+Makes it 1 for Iris-virginicas
+---
+Feedback correct:
+The Iris-virginicas are singled out, but it’s a bit hard to determine that. Use the Edit button to check the dataset before and after applying the filter – the instance numbers don’t change.
+---
+Feedback incorrect:
+The Iris-virginicas are singled out, but it’s a bit hard to determine that. Use the Edit button to check the dataset before and after applying the filter – the instance numbers don’t change.
+
+Question 3
+Run the LinearRegression classifier on the filtered dataset, using 10-fold cross-validation. But first, be sure to click Output predictions in the More options menu and output the predictions as PlainText. You will need these later on.
+What is the correlation coefficient?
+0.25
+0.30
+0.77
+0.89
+---
+Correct answer(s):
+0.77
+---
+Feedback correct:
+Weka gives the result as 0.7676.
+---
+Feedback incorrect:
+Are you looking at the correlation coefficient?
+
+Question 4
+Which attribute or attributes are used in the model that Weka outputs?
+Select all the answers you think are correct.
+sepallength
+sepalwidth
+petallength
+petalwidth
+class
+---
+Correct answer(s):
+sepalwidth
+petalwidth
+---
+Feedback correct:
+Weka outputs the model
+ 0.1791 * sepalwidth  +  0.513 * petalwidth  –  0.8286
+Weka outputs the model
+ 0.1791 * sepalwidth  +  0.513 * petalwidth  –  0.8286
+---
+Feedback incorrect:
+Weka outputs the model
+ 0.1791 * sepalwidth  +  0.513 * petalwidth  –  0.8286
+
+Question 5
+Undo your changes in the Preprocess panel, and investigate the effect of the filter’s valueIndices parameter. Use it to make a class value that is 1 only for Iris-versicolors. Run LinearRegression again, with the same settings. 
+What is the correlation coefficient?
+0.45
+0.46
+0.94
+0.95
+---
+Correct answer(s):
+0.46
+---
+Feedback correct:
+(Weka gives the result as 0.458)
+valueIndices specifies a range of nominal values to act on. The default is for the filter to set the last attribute (the class) to its last value (3, for Iris-virginica). To change to Iris-versicolor, set valueIndex to 2.
+
+Question 6
+Which attribute is not used in the model that Weka outputs?
+sepallength
+sepalwidth
+petallength
+petalwidth
+---
+Correct answer(s):
+sepallength
+---
+Feedback correct:
+Weka outputs the model
+   –0.4548*sepalwidth+0.2032*petallength–0.4711*petalwidth+1.5232
+
+Question 7
+Now repeat the above for the Iris-setosas. What is the correlation coefficient?
+0.46
+0.77
+0.94
+0.95
+---
+Correct answer(s):
+0.95
+---
+Feedback correct:
+Weka gives the result as 0.9456
+
+Question 8
+The Multi-response linear regression method chooses the class of an instance according to whichever of the three regression formulae produces the largest output. Judging by the correlations you have observed, which class do you think it will produce most errors for?
+Iris-setosa
+Iris-versicolor
+Iris-virginica
+petalwidth
+---
+Correct answer(s):
+Iris-versicolor
+---
+Feedback correct:
+The correlation coefficient for Iris-versicolor (0.46) is much smaller than for the others (0.77 and 0.95), so this class is likely to have the greatest number of errors.
+---
+Feedback incorrect:
+That’s not a class value
+
+Question 9
+Now click in Weka’s Result list to see the predictions that are output by the three models. Check the first four instances only. Weka outputs predictions in the shuffled order that is used by the cross-validation, not in the instances’ original order – which makes it hard to determine their true class. But the information is there. Note that although the shuffling order is random, it depends only on the random seed value and therefore remains the same throughout.
+Multiresponse linear regression will make just one error on the first four instances (in shuffled order), of the total of 150 instances used in the 10-fold cross-validation. Which instance is it?
+#1
+#2
+#3
+#4
+---
+Correct answer(s):
+#3
+---
+Feedback correct:
+The first 4 instances belong to class Iris-virginica, Iris-virginica, Iris-versicolor, and Iris-setosa respectively. You can tell that from the three sets of Weka output.
+The three models you have produced are for Iris-virginica, Iris-versicolor, and Iris-setosa respectively.
+For instance#3 (Iris-versicolor), the first model outputs .359, which is greater than the output from the other two models. This means that this instance will be predicted as Iris-virginica. This is an error.
+---
+Feedback incorrect:
+The first 4 instances belong to class Iris-virginica, Iris-virginica, Iris-versicolor, and Iris-setosa respectively. You can tell that from the three sets of Weka output.
+The three models you have produced are for Iris-virginica, Iris-versicolor, and Iris-setosa respectively.
+For instance#1 (Iris-virginica), the first model predicts .966, which is greater than the output from the other two models. This is not an error.
+---
+Feedback incorrect:
+The first 4 instances belong to class Iris-virginica, Iris-virginica, Iris-versicolor, and Iris-setosa respectively. You can tell that from the three sets of Weka output.
+The three models you have produced are for Iris-virginica, Iris-versicolor, and Iris-setosa respectively.
+For instance#2 (Iris-virginica), the first model predicts .896, which is greater than the output from the other two models. This is not an error.
+---
+Feedback incorrect:
+The first 4 instances belong to class Iris-virginica, Iris-virginica, Iris-versicolor, and Iris-setosa respectively. You can tell that from the three sets of Weka output.
+The three models you have produced are for Iris-virginica, Iris-versicolor, and Iris-setosa respectively.
+For instance#4 (Iris-setosa), the third model predicts .827, which is greater than the output from the other two models. This is correct.
+
+Question 10
+As you saw in the last question, Weka outputs predictions in shuffled order. This can be a nuisance. However, a filter can be used to add the original instance numbers alongside the predictions. Which filter?
+Add
+AddCluster
+AddClassification
+AddID
+---
+Correct answer(s):
+
+Question 10
+As you saw in the last question, Weka outputs predictions in shuffled order. This can be a nuisance. However, a filter can be used to add the original instance numbers alongside the predictions. Which filter?
+Add
+AddCluster
+AddClassification
+AddID
+---
+Correct answer(s):
+AddID
+---
+Feedback correct:
+When you click the More button, this is described as an instance filter that adds an ID attribute to the dataset. The new attribute contains a unique ID for each instance.

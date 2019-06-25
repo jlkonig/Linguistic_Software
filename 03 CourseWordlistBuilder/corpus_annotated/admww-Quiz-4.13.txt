@@ -1,0 +1,98 @@
+Playing/VBG/play/1 with/IN/with/1 template/NN/template/7 flows/NNS/flow/2 
+Question/NN/question/1 1/CD/1/0 
+Open/VB/open/1 the/DT/the/1 “/JJ/“/0 Spark/NNP/spark/4 :/:/:/0 run/VB/run/1 k-means/NNS/k-means/0 parallel/JJ/parallel/3 ”/NNP/”/0 template/NN/template/7 and/CC/and/1 run/VB/run/1 it/PRP/it/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 within-cluster/JJ/within-cluster/0 sum/NN/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 of/IN/of/1 the/DT/the/1 k-means/NNS/k-means/0 model/NN/model/2 learned/VBN/learn/1 on/IN/on/1 the/DT/the/1 hypothyroid/NN/hypothyroidism/14 data/NNS/data/3 ,/,/,/0 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 iterations/NNS/iterate/8 did/VBD/do/1 k-means/NNS/k-means/0 perform/NN/perform/2 to/TO/to/1 generate/VB/generate/3 it/PRP/it/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Sum/NNP/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 :/:/:/0 56.7/CD/56.7/0 
+Sum/NNP/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 :/:/:/0 3867.2/CD/3867.2/0 
+Sum/NNP/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 :/:/:/0 3867.3/CD/3867.3/0 
+Sum/NNP/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 :/:/:/0 4329.4/CD/4329.4/0 
+Number/NNP/number/1 of/IN/of/1 iterations/NNS/iterate/8 :/:/:/0 6/CD/6/0 
+Number/NNP/number/1 of/IN/of/1 iterations/NNS/iterate/8 :/:/:/0 8/CD/8/0 
+Number/NNP/number/1 of/IN/of/1 iterations/NNS/iterate/8 :/:/:/0 10/CD/10/0 
+Number/NNP/number/1 of/IN/of/1 iterations/NNS/iterate/8 :/:/:/0 12/CD/12/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Sum/NNP/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 :/:/:/0 3867.3/CD/3867.3/0 
+Number/NNP/number/1 of/IN/of/1 iterations/NNS/iterate/8 :/:/:/0 10/CD/10/0 
+
+Question/NN/question/1 2/CD/2/0 
+k-means/NNS/k-means/0 parallel/JJ/parallel/3 uses/VBZ/use/1 a/DT/a/1 distributed/JJ/distribute/3 version/NN/version/2 of/IN/of/1 the/DT/the/1 k-means++/JJ/k-means++/0 initialization/NN/initial/3 routine/NN/routine/3 designed/VBN/design/2 to/TO/to/1 give/VB/give/1 a/DT/a/1 better/JJR/better/1 final/JJ/final/1 solution/NN/solution/3 than/IN/than/1 using/VBG/use/1 random/JJ/random/3 initialization/NN/initial/3 ./././0 
+Switch/NN/switch/2 to/TO/to/1 random/VB/random/3 initialization/NN/initial/3 in/IN/in/1 the/DT/the/1 KMeansClustererSparkJob/NNP/kmeansclusterersparkjob/0 by/IN/by/1 setting/VBG/set/1 the/DT/the/1 initWithRandomCentroids/NNS/initwithrandomcentroids/0 property/NN/property/2 to/TO/to/1 True/NNP/true/1 ,/,/,/0 and/CC/and/1 then/RB/then/1 run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 within-cluster/JJ/within-cluster/0 sum/NN/sum/3 of/IN/of/1 squared/JJ/square/1 errors/NNS/error/3 now/RB/now/1 ?/./?/0 
+56.7/CD/56.7/0 
+3867.2/CD/3867.2/0 
+3867.3/CD/3867.3/0 
+4329.4/CD/4329.4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+4329.4/CD/4329.4/0 
+
+Question/NN/question/1 3/CD/3/0 
+Is/VBZ/be/1 the/DT/the/1 k-means++/JJ/k-means++/0 initialization/NN/initial/3 really/RB/really/1 better/JJR/better/1 than/IN/than/1 random/JJ/random/3 initialization/NN/initial/3 ?/./?/0 
+Try/VB/try/1 different/JJ/different/1 seeds/NNS/seed/2 ,/,/,/0 using/VBG/use/1 values/NNS/value/2 10/CD/10/0 ,/,/,/0 50/CD/50/0 ,/,/,/0 100/CD/100/0 for/IN/for/1 the/DT/the/1 randomSeed/NN/randomseed/0 property/NN/property/2 in/IN/in/1 the/DT/the/1 KMeansClustererSparkJob/NNP/kmeansclusterersparkjob/0 for/IN/for/1 both/DT/both/1 k-means++/JJ/k-means++/0 initialization/NN/initial/3 (/(/(/0 initWithRandomCentroids/JJ/initwithrandomcentroids/0 =/NNP/=/0 False/NNP/false/3 )/)/)/0 and/CC/and/1 random/JJ/random/3 initialization/NN/initial/3 (/(/(/0 initWithRandomCentroids/JJ/initwithrandomcentroids/0 =/NNP/=/0 True/NNP/true/1 )/)/)/0 ./././0 
+The/DT/the/1 best/JJS/best/1 result/NN/result/2 using/VBG/use/1 seed/NN/seed/2 values/NNS/value/2 1/CD/1/0 ,/,/,/0 10/CD/10/0 ,/,/,/0 50/CD/50/0 and/CC/and/1 100/CD/100/0 is/VBZ/be/1 given/VBN/give/1 by/IN/by/1 …/NN/…/0 
+k-means++/NN/k-means++/0 
+k-means/NNS/k-means/0 with/IN/with/1 random/JJ/random/3 initialization/NN/initial/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+k-means++/NN/k-means++/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 3867.3/CD/3867.3/0 obtained/VBN/obtain/3 above/NN/above/1 is/VBZ/be/1 the/DT/the/1 best/JJS/best/1 of/IN/of/1 all/DT/all/1 8/CD/8/0 results/NNS/result/2 obtained/VBD/obtain/3 using/VBG/use/1 the/DT/the/1 4/CD/4/0 seeds/NNS/seed/2 and/CC/and/1 2/CD/2/0 initialization/NN/initial/3 methods/NNS/method/3 
+
+Question/NN/question/1 4/CD/4/0 
+How/WRB/how/1 many/JJ/many/1 of/IN/of/1 the/DT/the/1 top/JJ/top/1 4/CD/4/0 of/IN/of/1 the/DT/the/1 8/CD/8/0 results/NNS/result/2 in/IN/in/1 the/DT/the/1 previous/JJ/previous/2 question/NN/question/1 are/VBP/be/1 obtained/VBN/obtain/3 by/IN/by/1 k-means++/JJ/k-means++/0 initialization/NN/initial/3 ?/./?/0 
+0/CD/0/0 
+1/CD/1/0 
+2/CD/2/0 
+3/CD/3/0 
+4/CD/4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+3/CD/3/0 
+
+Question/NN/question/1 5/CD/5/0 
+Open/VB/open/1 the/DT/the/1 “/JJ/“/0 Spark/NNP/spark/4 :/:/:/0 compute/NN/computer/1 a/DT/a/1 correlation/NN/correlate/3 matrix/NN/matrix/4 and/CC/and/1 run/VB/run/1 PCA/NNP/pca/0 ”/NNP/”/0 template/NN/template/7 and/CC/and/1 run/VB/run/1 it/PRP/it/1 ./././0 
+Right-click/NNP/right-click/0 on/IN/on/1 the/DT/the/1 ImageViewer/NNP/imageviewer/0 and/CC/and/1 select/VB/select/2 Show/NNP/show/1 images/NNS/image/2 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 largest/JJS/large/1 off-diagonal/JJ/off-diagonal/0 correlation/NN/correlate/3 in/IN/in/1 the/DT/the/1 matrix/NN/matrix/4 ?/./?/0 
+0.25/CD/0.25/0 
+0.29/CD/0.29/0 
+0.31/CD/0.31/0 
+0.52/CD/0.52/0 
+0.65/CD/0.65/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.52/CD/0.52/0 
+
+Question/NN/question/1 6/CD/6/0 
+Open/VB/open/1 the/DT/the/1 TextViewer/NNP/textviewer/0 to/TO/to/1 see/VB/see/1 the/DT/the/1 PCA/NNP/pca/0 analysis/NN/analyse/3 ./././0 
+Which/NNP/which/1 attribute/NN/attribute/3 was/VBD/be/1 dropped/VBN/drop/1 from/IN/from/1 the/DT/the/1 analysis/NN/analyse/3 ?/./?/0 
+age/NN/age/1 
+sex/NN/sex/1 
+sick/NN/sick/1 
+TBG/NN/tbg/0 
+TBG/NN/tbg/0 measured/VBD/measure/2 
+TT4/NN/tt4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+TBG/NN/tbg/0 
+
+Question/NN/question/1 7/CD/7/0 
+Examine/VB/examine/2 the/DT/the/1 hypothyroid/NN/hypothyroidism/14 data/NNS/data/3 in/IN/in/1 the/DT/the/1 Explorer/NNP/explore/3 ’/NNP/’/0 s/VBD/be/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 to/TO/to/1 determine/VB/determine/2 why/WRB/why/1 the/DT/the/1 TBG/NNP/tbg/0 attribute/NN/attribute/3 was/VBD/be/1 dropped/VBN/drop/1 ./././0 
+It/PRP/it/1 has/VBZ/have/1 a/DT/a/1 constant/JJ/constant/2 value/NN/value/2 across/IN/across/1 all/DT/all/1 instances/NNS/instance/2 
+It/PRP/it/1 is/VBZ/be/1 noisy/JJ/noise/1 
+All/DT/all/1 its/PRP$/it/1 values/NNS/value/2 are/VBP/be/1 missing/VBG/miss/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+Examine/VB/examine/2 the/DT/the/1 hypothyroid/NN/hypothyroidism/14 data/NNS/data/3 in/IN/in/1 the/DT/the/1 Explorer/NNP/explore/3 ’/NNP/’/0 s/VBD/be/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 to/TO/to/1 determine/VB/determine/2 why/WRB/why/1 the/DT/the/1 TBG/NNP/tbg/0 attribute/NN/attribute/3 was/VBD/be/1 dropped/VBN/drop/1 ./././0 
+It/PRP/it/1 has/VBZ/have/1 a/DT/a/1 constant/JJ/constant/2 value/NN/value/2 across/IN/across/1 all/DT/all/1 instances/NNS/instance/2 
+It/PRP/it/1 is/VBZ/be/1 noisy/JJ/noise/1 
+All/DT/all/1 its/PRP$/it/1 values/NNS/value/2 are/VBP/be/1 missing/VBG/miss/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+All/DT/all/1 its/PRP$/it/1 values/NNS/value/2 are/VBP/be/1 missing/VBG/miss/1 
+
+

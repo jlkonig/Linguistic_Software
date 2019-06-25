@@ -1,0 +1,99 @@
+Neural/JJ/neural/7 networks/NNS/network/3 ,/,/,/0 learning/VBG/learn/1 curves/NNS/curve/3 ,/,/,/0 and/CC/and/1 performance/NN/perform/2 optimization/NN/optimise/6 
+What/WP/what/1 are/VBP/be/1 ``/``/``/0 neural/JJ/neural/7 networks/NNS/network/3 ''/''/''/0 and/CC/and/1 how/WRB/how/1 can/MD/can/1 I/PRP/i/1 use/VB/use/1 them/PRP/they/1 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 first/JJ/first/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+5.1/CD/5.1/0 
+What/WP/what/1 are/VBP/be/1 ``/``/``/0 neural/JJ/neural/7 networks/NNS/network/3 ''/''/''/0 and/CC/and/1 how/WRB/how/1 can/MD/can/1 I/PRP/i/1 use/VB/use/1 them/PRP/they/1 ?/./?/0 
+article/NN/article/2 
+Simple/JJ/simple/1 neural/JJ/neural/7 networks/NNS/network/3 
+The/DT/the/1 ``/``/``/0 Perceptron/NNP/perceptron/0 ''/''/''/0 is/VBZ/be/1 the/DT/the/1 simplest/JJS/simple/1 form/NN/form/1 of/IN/of/1 neural/JJ/neural/7 network/NN/network/3 ./././0 
+The/DT/the/1 basic/JJ/basic/1 perceptron/NN/perceptron/0 implements/NNS/implement/3 a/DT/a/1 linear/JJ/linear/4 decision/NN/decision/2 boundary/NN/boundary/3 
+.../:/.../0 though/IN/though/1 modern/JJ/modern/2 improvements/NNS/improve/2 allow/VB/allow/1 more/RBR/more/1 complex/JJ/complex/3 boundaries/NNS/boundary/3 ./././0 
+5.2/CD/5.2/0 
+Simple/JJ/simple/1 neural/JJ/neural/7 networks/NNS/network/3 
+video/NN/video/1 (/(/(/0 07:44/CD/07:44/0 )/)/)/0 
+5.3/CD/5.3/0 
+Investigating/VBG/investigate/2 the/DT/the/1 Voted/NNP/vote/2 Perceptron/NNP/perceptron/0 
+quiz/NN/quiz/6 
+Multilayer/NNP/multilayer/0 perceptrons/NNS/perceptrons/0 
+Multilayer/NNP/multilayer/0 perceptrons/NNS/perceptrons/0 are/VBP/be/1 networks/NNS/network/3 of/IN/of/1 perceptrons/NNS/perceptrons/0 ,/,/,/0 with/IN/with/1 an/DT/a/1 input/NN/input/3 layer/NN/layer/3 ,/,/,/0 an/DT/a/1 output/NN/output/3 layer/NN/layer/3 ,/,/,/0 and/CC/and/1 (/(/(/0 perhaps/RB/perhaps/1 many/JJ/many/1 )/)/)/0 ``/``/``/0 hidden/JJ/hide/1 layers/NNS/layer/3 ''/''/''/0 ./././0 They/PRP/they/1 can/MD/can/1 implement/VB/implement/3 arbitrary/JJ/arbitrary/5 decision/NN/decision/2 boundaries/NNS/boundary/3 ,/,/,/0 but/CC/but/1 have/VBP/have/1 practical/JJ/practical/2 limitations/NNS/limit/2 ./././0 
+5.4/CD/5.4/0 
+Multilayer/NNP/multilayer/0 perceptrons/NNS/perceptrons/0 
+video/NN/video/1 (/(/(/0 09:09/CD/09:09/0 )/)/)/0 
+5.5/CD/5.5/0 
+Investigating/VBG/investigate/2 multilayer/NN/multilayer/0 perceptrons/NNS/perceptrons/0 
+quiz/NN/quiz/6 
+5.6/CD/5.6/0 
+Performance/NN/perform/2 of/IN/of/1 the/DT/the/1 multilayer/NN/multilayer/0 perceptron/NN/perceptron/0 
+article/NN/article/2 
+5.7/CD/5.7/0 
+The/DT/the/1 deep/JJ/deep/1 learning/NN/learn/1 renaissance/NN/renaissance/5 
+article/NN/article/2 
+5.8/CD/5.8/0 
+Share/NN/share/1 stories/NNS/story/1 on/IN/on/1 deep/JJ/deep/1 learning/NN/learn/1 
+discussion/NN/discuss/2 
+How/WRB/how/1 much/JJ/much/1 training/NN/train/1 data/NNS/data/3 do/VBP/do/1 I/PRP/i/1 need/VB/need/1 ?/./?/0 And/CC/and/1 how/WRB/how/1 do/VBP/do/1 I/PRP/i/1 optimize/VB/optimise/6 all/DT/all/1 those/DT/that/1 parameters/NNS/parameter/4 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 second/JJ/second/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 (/(/(/0 two/CD/two/1 questions/NNS/question/1 ,/,/,/0 really/RB/really/1 )/)/)/0 
+5.9/CD/5.9/0 
+How/WRB/how/1 much/JJ/much/1 training/NN/train/1 data/NNS/data/3 do/VBP/do/1 I/PRP/i/1 need/VB/need/1 ?/./?/0 And/CC/and/1 how/WRB/how/1 do/VBP/do/1 I/PRP/i/1 optimize/VB/optimise/6 all/DT/all/1 those/DT/that/1 parameters/NNS/parameter/4 ?/./?/0 
+article/NN/article/2 
+Learning/VBG/learn/1 curves/NNS/curve/3 
+Find/VB/find/1 out/RP/out/1 how/WRB/how/1 much/JJ/much/1 data/NN/data/3 you/PRP/you/1 need/VBP/need/1 by/IN/by/1 plotting/VBG/plot/3 a/DT/a/1 learning/NN/learn/1 curve/NN/curve/3 using/VBG/use/1 the/DT/the/1 ``/``/``/0 resample/NN/resample/0 ''/''/''/0 filter/NN/filter/3 (/(/(/0 which/WDT/which/1 allows/VBZ/allow/1 sampling/VBG/sample/3 with/IN/with/1 or/CC/or/1 without/IN/without/1 replacement/NN/replace/2 )/)/)/0 ./././0 You/PRP/you/1 can/MD/can/1 avoid/VB/avoid/2 sampling/VBG/sample/3 the/DT/the/1 test/NN/test/1 set/VBN/set/1 by/IN/by/1 using/VBG/use/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 ./././0 
+5.10/CD/5.10/0 
+Learning/VBG/learn/1 curves/NNS/curve/3 
+video/NN/video/1 (/(/(/0 06:24/CD/06:24/0 )/)/)/0 
+5.11/CD/5.11/0 
+Learning/VBG/learn/1 curves/NNS/curve/3 
+quiz/NN/quiz/6 
+Performance/NN/perform/2 optimization/NN/optimise/6 
+Weka/NNP/weka/23 has/VBZ/have/1 several/JJ/several/1 ``/``/``/0 wrapper/NN/wrap/2 ''/''/''/0 metalearners/NNS/metalearners/0 that/WDT/that/1 optimize/VBP/optimise/6 parameters/NNS/parameter/4 for/IN/for/1 best/JJS/best/1 performance/NN/perform/2 :/:/:/0 
+CVParameterSelection/NN/cvparameterselection/0 ,/,/,/0 GridSearch/NNP/gridsearch/0 ,/,/,/0 and/CC/and/1 ThresholdSelector/NNP/thresholdselector/0 ./././0 
+You/PRP/you/1 should/MD/should/1 avoid/VB/avoid/2 optimizing/VBG/optimise/6 parameters/NNS/parameter/4 manually/RB/manual/3 :/:/:/0 you/PRP/you/1 're/VBP/be/1 bound/VBN/bind/2 to/TO/to/1 overfit/VB/overfit/0 !/./!/0 
+5.12/CD/5.12/0 
+Performance/NN/perform/2 optimization/NN/optimise/6 
+video/NN/video/1 (/(/(/0 08:55/CD/08:55/0 )/)/)/0 
+5.13/CD/5.13/0 
+Optimizing/VBG/optimise/6 IBk/NNP/ibk/0 
+quiz/NN/quiz/6 
+ARFF/NNP/arff/0 and/CC/and/1 XRFF/NNP/xrff/0 
+The/DT/the/1 ARFF/NNP/arff/0 format/NN/format/3 can/MD/can/1 encode/VB/encode/6 sparse/JJ/sparse/6 data/NNS/data/3 ,/,/,/0 weighted/VBD/weight/1 instances/NNS/instance/2 ,/,/,/0 and/CC/and/1 relational/JJ/relate/1 attributes/NNS/attribute/3 ./././0 
+Some/DT/some/1 Weka/NNP/weka/23 filters/NNS/filter/3 and/CC/and/1 classifiers/NNS/classifier/0 take/VBP/take/1 advantage/NN/advantage/2 of/IN/of/1 sparsity/NN/sparse/6 to/TO/to/1 reduce/VB/reduce/2 space/NN/space/1 and/CC/and/1 increase/VB/increase/2 speed/NN/speed/2 ./././0 
+There/EX/there/1 's/VBZ/be/1 an/DT/a/1 XML/JJ/xml/0 version/NN/version/2 of/IN/of/1 ARFF/NNP/arff/0 ,/,/,/0 called/VBD/call/1 XRFF/NN/xrff/0 ./././0 
+5.14/CD/5.14/0 
+ARFF/NNP/arff/0 and/CC/and/1 XRFF/NNP/xrff/0 
+video/NN/video/1 (/(/(/0 05:42/CD/05:42/0 )/)/)/0 
+5.15/CD/5.15/0 
+Advanced/NNP/advance/2 ARFF/NNP/arff/0 
+quiz/NN/quiz/6 
+There/EX/there/1 's/VBZ/be/1 no/DT/no/1 magic/NN/magic/2 in/IN/in/1 data/NNS/data/3 mining/NN/miner/3 
+There/EX/there/1 's/VBZ/be/1 no/DT/no/1 magic/NN/magic/2 in/IN/in/1 data/NNS/data/3 mining/VBG/miner/3 –/JJ/–/0 no/DT/no/1 universal/JJ/universe/3 ``/``/``/0 best/JJS/best/1 ''/''/''/0 method/NN/method/3 ./././0 It/PRP/it/1 's/VBZ/be/1 an/DT/a/1 experimental/JJ/experiment/3 science/NN/science/1 ./././0 You/PRP/you/1 've/VBP/have/1 learned/VBN/learn/1 a/DT/a/1 lot/NN/lot/1 –/NN/–/0 but/CC/but/1 there/EX/there/1 's/VBZ/be/1 plenty/NN/plenty/1 more/JJR/more/1 !/./!/0 Data/NNP/data/3 mining/NN/miner/3 is/VBZ/be/1 a/DT/a/1 powerful/JJ/power/1 technology/NN/technology/2 :/:/:/0 please/NN/please/1 use/VB/use/1 it/PRP/it/1 wisely/RB/wise/2 ./././0 
+5.16/CD/5.16/0 
+Summary/JJ/summary/3 
+video/NN/video/1 (/(/(/0 05:54/CD/05:54/0 )/)/)/0 
+5.17/CD/5.17/0 
+How/WRB/how/1 to/TO/to/1 cheat/VB/cheat/2 :/:/:/0 A/DT/a/1 case/NN/case/1 study/NN/study/1 
+quiz/NN/quiz/6 
+5.18/CD/5.18/0 
+Corruption/NN/corrupt/3 and/CC/and/1 cheating/NN/cheat/2 
+discussion/NN/discuss/2 
+5.19/CD/5.19/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Questions/NNS/question/1 
+discussion/NN/discuss/2 
+Farewell/NN/farewell/5 
+It/PRP/it/1 's/VBZ/be/1 time/NN/time/1 to/TO/to/1 say/VB/say/1 goodbye/NN/goodbye/1 again/RB/again/1 ./././0 
+5.20/CD/5.20/0 
+Post-course/JJ/post-course/0 assessment/NN/assess/3 
+test/NN/test/1 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 test/NN/test/1 step/NN/step/1 ,/,/,/0 it/PRP/it/1 helps/VBZ/help/1 you/PRP/you/1 verify/VB/verify/4 your/PRP$/you/1 understanding/NN/understand/1 ./././0 If/IN/if/1 you/PRP/you/1 want/VBP/want/1 to/TO/to/1 earn/VB/earn/2 a/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 on/IN/on/1 this/DT/this/1 course/NN/course/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 complete/VB/complete/1 this/DT/this/1 test/NN/test/1 and/CC/and/1 any/DT/any/1 others/NNS/other/1 ,/,/,/0 scoring/VBG/score/2 an/DT/a/1 average/NN/average/2 of/IN/of/1 70/CD/70/0 %/NN/%/0 or/CC/or/1 above/NN/above/1 ./././0 
+To/TO/to/1 take/VB/take/1 tests/NNS/test/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 upgrade/VB/upgrade/4 this/DT/this/1 course/NN/course/1 ./././0 It/PRP/it/1 costs/VBZ/cost/1 $/$/$/0 94/CD/94/0 ,/,/,/0 which/WDT/which/1 also/RB/also/1 gets/VBZ/get/1 you/PRP/you/1 :/:/:/0 
+Unlimited/JJ/limit/2 access/NN/access/2 to/TO/to/1 the/DT/the/1 course/NN/course/1 for/IN/for/1 as/RB/as/1 long/RB/long/1 as/IN/as/1 it/PRP/it/1 exists/VBZ/exist/2 on/IN/on/1 FutureLearn/NNP/futurelearn/0 ,/,/,/0 so/IN/so/1 you/PRP/you/1 can/MD/can/1 learn/VB/learn/1 at/IN/at/1 your/PRP$/you/1 own/JJ/own/1 pace/NN/pace/3 
+A/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 when/WRB/when/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 eligible/JJ/eligible/4 ,/,/,/0 to/TO/to/1 prove/VB/prove/2 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 
+Upgrade/NN/upgrade/4 
+Find/VB/find/1 out/RP/out/1 more/JJR/more/1 
+5.21/CD/5.21/0 
+Farewell/NN/farewell/5 
+article/NN/article/2 
+5.22/CD/5.22/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

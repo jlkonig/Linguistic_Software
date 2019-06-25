@@ -1,0 +1,103 @@
+Comparing cost-sensitive techniques
+Question 1
+What is the total weighted cost for plain Naive Bayes?
+25
+40
+86
+124
+---
+Correct answer(s):
+86
+---
+Feedback correct:
+5x15.29 + 1x9.55 = 86
+
+Question 2
+What is the total weighted cost for cost-sensitive learning (CostSensitiveClassifier with Naive Bayes and default parameters)?
+31
+53
+133
+156
+---
+Correct answer(s):
+53
+---
+Feedback correct:
+5x5.58 + 1x25.54 = 53.44
+
+Question 3
+What is the total weighted cost for cost-sensitive classification (CostSensitiveClassifier with Naive Bayes and minimizeExpectedCost = true)?
+31
+50
+53
+155
+---
+Correct answer(s):
+53
+---
+Feedback correct:
+5x5.53 + 1x25.53 = 53.18.
+Cost-sensitive learning (Q.2) and cost-sensitive classification (this question) give pretty well the same result with Naive Bayes. Both do much better than plain Naive Bayes (Q.1).
+
+Question 4
+What is the total weighted cost for plain J48?
+47
+100
+101
+144
+---
+Correct answer(s):
+101
+---
+Feedback correct:
+5x18.07 + 1x10.68 = 101.03
+
+Question 5
+What is the total weighted cost for J48 with cost-sensitive learning?
+41
+47
+63
+66
+---
+Correct answer(s):
+66
+---
+Feedback correct:
+5x6.39 + 1x34.53 = 66.48
+
+Question 6
+What is the total weighted cost for J48 with cost-sensitive classification?
+34
+78
+124
+168
+---
+Correct answer(s):
+78
+---
+Feedback correct:
+5x11.02 + 1x22.64 = 77.74
+For J48, cost-sensitive learning (Q.5) gives a better result than cost-sensitive classification (this question). Both do much better than plain J48 (Q.4).
+
+Question 7
+What is the total weighted cost for J48 with cost-sensitive classification with bagging?
+39
+58
+60
+172
+---
+Correct answer(s):
+
+Question 7
+What is the total weighted cost for J48 with cost-sensitive classification with bagging?
+39
+58
+60
+172
+---
+Correct answer(s):
+60
+---
+Feedback correct:
+5x5.23 + 1x33.84 = 59.99
+Bagging improves the result of cost-sensitive classification using J48.

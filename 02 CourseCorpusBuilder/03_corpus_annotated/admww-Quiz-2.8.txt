@@ -1,0 +1,168 @@
+Using/VBG/use/1 MOA/NNP/moa/18 
+Question/NN/question/1 1/CD/1/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correct/JJ/correct/2 classifications/NNS/classification/4 ?/./?/0 
+74.2/CD/74.2/0 %/NN/%/0 
+77.7/CD/77.7/0 %/NN/%/0 
+80.5/CD/80.5/0 %/NN/%/0 
+84.5/CD/84.5/0 %/NN/%/0 
+85.1/CD/85.1/0 %/NN/%/0 
+85.8/CD/85.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+80.5/CD/80.5/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 precisely/RB/precise/3 ,/,/,/0 80.465/CD/80.465/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 2/CD/2/0 
+Edit/NNP/edit/2 the/DT/the/1 command/NN/command/2 line/NN/line/1 to/TO/to/1 evaluate/VB/evaluate/3 the/DT/the/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 model/NN/model/2 instead/RB/instead/1 of/IN/of/1 the/DT/the/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 model/NN/model/2 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correct/JJ/correct/2 classifications/NNS/classification/4 ?/./?/0 
+74.2/CD/74.2/0 %/NN/%/0 
+77.7/CD/77.7/0 %/NN/%/0 
+80.5/CD/80.5/0 %/NN/%/0 
+84.5/CD/84.5/0 %/NN/%/0 
+85.1/CD/85.1/0 %/NN/%/0 
+85.8/CD/85.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+84.5/CD/84.5/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 precisely/RB/precise/3 ,/,/,/0 84.474/CD/84.474/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 3/CD/3/0 
+Which/JJ/which/1 model/NN/model/2 performs/NNS/perform/2 best/RBS/best/1 according/VBG/according/2 to/TO/to/1 the/DT/the/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+Hoeffding/VBG/hoeffding/0 Tree/NN/tree/1 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Hoeffding/VBG/hoeffding/0 Tree/NN/tree/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 is/VBZ/be/1 76.7/CD/76.7/0 %/NN/%/0 for/IN/for/1 a/DT/a/1 Hoeffding/NNP/hoeffding/0 tree/NN/tree/1 and/CC/and/1 70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+In/IN/in/1 MOA/NNP/moa/18 ,/,/,/0 you/PRP/you/1 can/MD/can/1 nest/VB/nest/2 commands/NNS/command/2 ./././0 For/IN/for/1 example/NN/example/2 ,/,/,/0 the/DT/the/1 LearnModel/NNP/learnmodel/0 and/CC/and/1 EvaluateModel/NNP/evaluatemodel/0 steps/NNS/step/1 can/MD/can/1 be/VB/be/1 rolled/VBN/roll/1 into/IN/into/1 one/CD/one/1 ,/,/,/0 avoiding/VBG/avoid/2 the/DT/the/1 need/NN/need/1 to/TO/to/1 create/VB/create/2 an/DT/a/1 external/JJ/external/3 file/NN/file/2 ./././0 You/PRP/you/1 can/MD/can/1 ’/VB/’/0 t/RB/not/1 do/VBP/do/1 this/DT/this/1 within/IN/within/1 the/DT/the/1 interactive/JJ/interact/3 Configure/NNP/configure/4 interface/NN/interface/4 ;/:/;/0 instead/RB/instead/1 you/PRP/you/1 have/VBP/have/1 to/TO/to/1 edit/VB/edit/2 the/DT/the/1 Configure/NNP/configure/4 command/NN/command/2 text/NN/text/3 ./././0 
+OzaBag/NNP/ozabag/0 is/VBZ/be/1 an/DT/a/1 incremental/JJ/increment/6 bagging/NN/bag/1 technique/NN/technique/3 ./././0 Evaluate/VB/evaluate/3 it/PRP/it/1 as/IN/as/1 follows/VBZ/follow/1 :/:/:/0 
+EvaluateModel/NNP/evaluatemodel/0 -m/NNP/be/1 (/(/(/0 LearnModel/NNP/learnmodel/0 -l/NNP/-l/0 meta.OzaBag/NN/meta.ozabag/0 
+-s/JJ/be/1 generators.WaveformGenerator/NN/generators.waveformgenerator/0 -m/NNP/be/1 1000000/CD/1000000/0 )/)/)/0 
+-s/NN/be/1 (/(/(/0 generators.WaveformGenerator/NN/generators.waveformgenerator/0 -i/RB/i/1 2/CD/2/0 )/)/)/0 -i/CD/i/1 1000000/CD/1000000/0 
+Do/VB/do/1 this/DT/this/1 by/IN/by/1 copying/VBG/copy/2 this/DT/this/1 command/NN/command/2 and/CC/and/1 pasting/VBG/paste/5 it/PRP/it/1 as/IN/as/1 the/DT/the/1 Configure/NNP/configure/4 text/NN/text/3 using/VBG/use/1 right-click/JJ/right-click/0 “/JJ/“/0 Enter/NNP/enter/1 configuration/NN/configure/4 ”/NN/”/0 ./././0 
+What/WP/what/1 is/VBZ/be/1 OzaBag/NNP/ozabag/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 ?/./?/0 
+74.2/CD/74.2/0 %/NN/%/0 
+77.7/CD/77.7/0 %/NN/%/0 
+80.5/CD/80.5/0 %/NN/%/0 
+84.5/CD/84.5/0 %/NN/%/0 
+85.1/CD/85.1/0 %/NN/%/0 
+85.8/CD/85.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+85.8/CD/85.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 precisely/RB/precise/3 ,/,/,/0 85.821/CD/85.821/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 5/CD/5/0 
+The/DT/the/1 task/NN/task/3 EvaluatePeriodicHeldOutTest/NNP/evaluateperiodicheldouttest/0 trains/VBZ/train/1 a/DT/a/1 model/NN/model/2 while/IN/while/1 taking/VBG/take/1 performance/NN/perform/2 snapshots/NNS/snapshot/7 at/IN/at/1 periodic/JJ/period/2 intervals/NNS/interval/4 on/IN/on/1 a/DT/a/1 held-out/JJ/held-out/0 test/NN/test/1 set/NN/set/1 ./././0 
+The/DT/the/1 following/JJ/follow/1 command/NN/command/2 trains/VBZ/train/1 the/DT/the/1 HoeffdingTree/NNP/hoeffdingtree/0 classifier/NN/classifier/0 on/IN/on/1 a/DT/a/1 100,000,000/CD/100,000,000/0 samples/NNS/sample/3 from/IN/from/1 the/DT/the/1 WaveformGenerator/NNP/waveformgenerator/0 data/NN/data/3 ,/,/,/0 holding/VBG/hold/1 out/RP/out/1 the/DT/the/1 first/JJ/first/1 100,000/CD/100,000/0 samples/NNS/sample/3 as/IN/as/1 a/DT/a/1 test/NN/test/1 set/NN/set/1 ./././0 After/IN/after/1 every/DT/every/1 1,000,000/CD/1,000,000/0 examples/NNS/example/2 it/PRP/it/1 performs/VBZ/perform/2 a/DT/a/1 test/NN/test/1 on/IN/on/1 this/DT/this/1 set/NN/set/1 :/:/:/0 
+EvaluatePeriodicHeldOutTest/NNP/evaluateperiodicheldouttest/0 -l/NNP/-l/0 trees.HoeffdingTree/NN/trees.hoeffdingtree/0 
+-s/NNS/be/1 generators.WaveformGenerator/NN/generators.waveformgenerator/0 
+-n/RB/-n/0 100000/CD/100000/0 -i/JJ/i/1 10000000/CD/10000000/0 -f/$/-f/0 1000000/CD/1000000/0 
+You/PRP/you/1 can/MD/can/1 copy/VB/copy/2 this/DT/this/1 configuration/NN/configure/4 and/CC/and/1 paste/NN/paste/5 it/PRP/it/1 in/IN/in/1 (/(/(/0 cheating/VBG/cheat/2 !/./!/0 )/)/)/0 ,/,/,/0 or/CC/or/1 (/(/(/0 work/NN/work/1 harder/NN/hard/1 and/CC/and/1 learn/VB/learn/1 more/JJR/more/1 )/)/)/0 set/VBD/set/1 it/PRP/it/1 up/RP/up/1 in/IN/in/1 the/DT/the/1 interactive/JJ/interact/3 Configure/NN/configure/4 interface/NN/interface/4 (/(/(/0 test/NN/test/1 size/NN/size/1 100,000/CD/100,000/0 ,/,/,/0 train/NN/train/1 size/NN/size/1 10,000,000/CD/10,000,000/0 ,/,/,/0 sample/JJ/sample/3 frequency/NN/frequency/3 1,000,000/CD/1,000,000/0 )/)/)/0 ./././0 
+It/PRP/it/1 outputs/VBZ/output/3 a/DT/a/1 CSV/NNP/csv/0 file/NN/file/2 with/IN/with/1 10/CD/10/0 rows/NNS/row/2 in/IN/in/1 the/DT/the/1 center/NN/centre/1 panel/NN/panel/3 ,/,/,/0 and/CC/and/1 final/JJ/final/1 statistics/NNS/statistic/3 in/IN/in/1 the/DT/the/1 lower/JJR/lower/2 panel/NN/panel/3 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 final/JJ/final/1 accuracy/NN/accurate/3 and/CC/and/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Accuracy/NN/accurate/3 :/:/:/0 74.2/CD/74.2/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 77.7/CD/77.7/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 85.1/CD/85.1/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 74.2/CD/74.2/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 77.7/CD/77.7/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 80.5/CD/80.5/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Accuracy/NN/accurate/3 :/:/:/0 85.1/CD/85.1/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 77.7/CD/77.7/0 %/NN/%/0 
+
+Question/NN/question/1 6/CD/6/0 
+Another/DT/another/1 evaluation/NN/evaluate/3 method/NN/method/3 is/VBZ/be/1 “/JJ/“/0 prequential/JJ/prequential/0 ”/NN/”/0 ,/,/,/0 which/WDT/which/1 interleaves/VBZ/interleave/15 testing/VBG/test/1 and/CC/and/1 training/NN/train/1 ./././0 
+Individual/JJ/individual/2 examples/NNS/example/2 are/VBP/be/1 used/VBN/use/1 to/TO/to/1 test/VB/test/1 the/DT/the/1 model/NN/model/2 before/IN/before/1 they/PRP/they/1 are/VBP/be/1 used/VBN/use/1 for/IN/for/1 training/NN/train/1 ;/:/;/0 the/DT/the/1 accuracy/NN/accurate/3 is/VBZ/be/1 incrementally/RB/increment/6 updated/VBN/update/3 ./././0 The/DT/the/1 order/NN/order/1 is/VBZ/be/1 important/JJ/important/1 :/:/:/0 the/DT/the/1 model/NN/model/2 is/VBZ/be/1 always/RB/always/1 tested/VBN/test/1 on/IN/on/1 examples/NNS/example/2 it/PRP/it/1 has/VBZ/have/1 not/RB/not/1 yet/RB/yet/1 seen/VBN/see/1 ./././0 Full/NNP/full/1 use/NN/use/1 is/VBZ/be/1 made/VBN/make/1 of/IN/of/1 all/DT/all/1 available/JJ/available/2 data/NNS/data/3 because/IN/because/1 no/DT/no/1 holdout/NN/holdout/0 set/VBN/set/1 is/VBZ/be/1 needed/VBN/need/1 for/IN/for/1 testing/VBG/test/1 ./././0 
+Here/RB/here/1 is/VBZ/be/1 a/DT/a/1 EvaluatePrequential/JJ/evaluateprequential/0 task/NN/task/3 that/WDT/that/1 trains/VBZ/train/1 a/DT/a/1 HoeffdingTree/NNP/hoeffdingtree/0 classifier/NN/classifier/0 on/IN/on/1 1,000,000/CD/1,000,000/0 examples/NNS/example/2 of/IN/of/1 the/DT/the/1 WaveformGenerator/NNP/waveformgenerator/0 data/NN/data/3 ,/,/,/0 testing/VBG/test/1 every/DT/every/1 10,000/CD/10,000/0 examples/NNS/example/2 ,/,/,/0 to/TO/to/1 create/VB/create/2 a/DT/a/1 100-line/JJ/100-line/0 CSV/NNP/csv/0 file/NN/file/2 :/:/:/0 
+EvaluatePrequential/JJ/evaluateprequential/0 -l/NNP/-l/0 trees.HoeffdingTree/NN/trees.hoeffdingtree/0 
+-s/NNS/be/1 generators.WaveformGenerator/NN/generators.waveformgenerator/0 
+-i/RB/i/1 1000000/CD/1000000/0 -f/NNS/-f/0 10000/CD/10000/0 
+Set/NN/set/1 it/PRP/it/1 up/RP/up/1 in/IN/in/1 the/DT/the/1 interactive/JJ/interact/3 Configure/NNP/configure/4 interface/NN/interface/4 and/CC/and/1 run/VB/run/1 it/PRP/it/1 ./././0 At/IN/at/1 the/DT/the/1 bottom/NN/bottom/1 ,/,/,/0 the/DT/the/1 GUI/NNP/gui/0 shows/VBZ/show/1 a/DT/a/1 graphical/JJ/graphic/3 display/NN/display/3 of/IN/of/1 the/DT/the/1 results/NNS/result/2 –/VBD/–/0 a/DT/a/1 learning/NN/learn/1 curve/NN/curve/3 ./././0 You/PRP/you/1 can/MD/can/1 compare/VB/compare/2 the/DT/the/1 results/NNS/result/2 of/IN/of/1 two/CD/two/1 different/JJ/different/1 tasks/NNS/task/3 :/:/:/0 click/NN/click/4 around/IN/around/1 the/DT/the/1 tasks/NNS/task/3 and/CC/and/1 you/PRP/you/1 will/MD/will/1 find/VB/find/1 that/IN/that/1 the/DT/the/1 current/JJ/current/2 one/NN/one/1 is/VBZ/be/1 displayed/VBN/display/3 in/IN/in/1 red/JJ/red/1 and/CC/and/1 the/DT/the/1 previously/RB/previous/2 selected/VBN/select/2 one/CD/one/1 in/IN/in/1 blue/NN/blue/1 ./././0 
+Compare/VB/compare/2 the/DT/the/1 prequential/JJ/prequential/0 evaluation/NN/evaluate/3 of/IN/of/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 with/IN/with/1 HoeffdingTree/NNP/hoeffdingtree/0 ./././0 Does/VBZ/do/1 the/DT/the/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 always/RB/always/1 outperform/RB/outperform/10 Naive/JJ/naive/5 Bayes/NNP/bayes/0 in/IN/in/1 the/DT/the/1 learning/NN/learn/1 curve/NN/curve/3 display/NN/display/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+There/EX/there/1 ’/VBZ/’/0 s/JJR/be/1 a/DT/a/1 brief/JJ/brief/2 period/NN/period/2 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 when/WRB/when/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 is/VBZ/be/1 sometimes/RB/some/1 better/RBR/better/1 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+What/WP/what/1 are/VBP/be/1 the/DT/the/1 final/JJ/final/1 Kappa/NNP/kappa/0 statistics/NNS/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+70.2/CD/70.2/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+70.2/CD/70.2/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+85.1/CD/85.1/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+85.1/CD/85.1/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+70.2/CD/70.2/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+70.25/CD/70.25/0 %/NN/%/0 for/IN/for/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 has/VBZ/have/1 been/VBN/be/1 rounded/VBN/round/1 to/TO/to/1 70.2/CD/70.2/0 %/NN/%/0 ,/,/,/0 following/VBG/follow/1 the/DT/the/1 convention/NN/convention/3 of/IN/of/1 rounding/VBG/round/1 to/TO/to/1 an/DT/a/1 even/RB/even/1 number/NN/number/1 (/(/(/0 70.2/CD/70.2/0 %/NN/%/0 )/)/)/0 rather/RB/rather/1 than/IN/than/1 an/DT/a/1 odd/JJ/odd/1 one/CD/one/1 (/(/(/0 70.3/CD/70.3/0 %/NN/%/0 )/)/)/0 when/WRB/when/1 both/DT/both/1 are/VBP/be/1 equally/RB/equal/2 close/RB/close/1 to/TO/to/1 the/DT/the/1 actual/JJ/actual/1 value/NN/value/2 (/(/(/0 70.25/CD/70.25/0 %/NN/%/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+70.25/CD/70.25/0 %/NN/%/0 for/IN/for/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 has/VBZ/have/1 been/VBN/be/1 rounded/VBN/round/1 to/TO/to/1 70.2/CD/70.2/0 %/NN/%/0 ,/,/,/0 following/VBG/follow/1 the/DT/the/1 convention/NN/convention/3 of/IN/of/1 rounding/VBG/round/1 to/TO/to/1 an/DT/a/1 even/RB/even/1 number/NN/number/1 (/(/(/0 70.2/CD/70.2/0 %/NN/%/0 )/)/)/0 rather/RB/rather/1 than/IN/than/1 an/DT/a/1 odd/JJ/odd/1 one/CD/one/1 (/(/(/0 70.3/CD/70.3/0 %/NN/%/0 )/)/)/0 when/WRB/when/1 both/DT/both/1 are/VBP/be/1 equally/RB/equal/2 close/RB/close/1 to/TO/to/1 the/DT/the/1 actual/JJ/actual/1 value/NN/value/2 (/(/(/0 70.25/CD/70.25/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 8/CD/8/0 
+By/IN/by/1 default/NN/default/5 ,/,/,/0 prequential/JJ/prequential/0 evaluation/NN/evaluate/3 displays/NNS/display/3 performance/NN/perform/2 computed/VBD/computer/1 over/IN/over/1 a/DT/a/1 window/NN/window/1 of/IN/of/1 1000/CD/1000/0 instances/NNS/instance/2 ,/,/,/0 which/WDT/which/1 creates/VBZ/create/2 a/DT/a/1 jumpy/NN/jump/1 ,/,/,/0 jagged/VBD/jagged/7 ,/,/,/0 learning/VBG/learn/1 curve/NN/curve/3 ./././0 
+Look/NN/look/1 at/IN/at/1 the/DT/the/1 evaluator/NN/evaluate/3 in/IN/in/1 the/DT/the/1 Configuration/NNP/configure/4 panel/NN/panel/3 ./././0 You/PRP/you/1 can/MD/can/1 see/VB/see/1 that/IN/that/1 the/DT/the/1 WindowClassificationPerformanceEvaluator/NNP/windowclassificationperformanceevaluator/0 is/VBZ/be/1 used/VBN/use/1 ,/,/,/0 with/IN/with/1 a/DT/a/1 window/JJ/window/1 size/NN/size/1 of/IN/of/1 1000/CD/1000/0 ./././0 Instead/RB/instead/1 ,/,/,/0 select/VBP/select/2 the/DT/the/1 BasicClassificationPerformanceEvaluator/NNP/basicclassificationperformanceevaluator/0 ,/,/,/0 which/WDT/which/1 computes/VBZ/computer/1 evaluation/NN/evaluate/3 measures/NNS/measure/2 from/IN/from/1 the/DT/the/1 beginning/NN/begin/1 of/IN/of/1 the/DT/the/1 stream/NN/stream/2 using/VBG/use/1 every/DT/every/1 example/NN/example/2 :/:/:/0 
+EvaluatePrequential/JJ/evaluateprequential/0 -l/NNP/-l/0 trees.HoeffdingTree/NN/trees.hoeffdingtree/0 
+-s/NNS/be/1 generators.WaveformGenerator/NN/generators.waveformgenerator/0 
+-e/NNS/-e/0 BasicClassificationPerformanceEvaluator/NNP/basicclassificationperformanceevaluator/0 
+-i/RB/i/1 1000000/CD/1000000/0 -f/NNS/-f/0 10000/CD/10000/0 
+As/IN/as/1 you/PRP/you/1 can/MD/can/1 see/VB/see/1 ,/,/,/0 this/DT/this/1 ensures/VBZ/ensure/3 a/DT/a/1 smooth/JJ/smooth/2 plot/NN/plot/3 over/IN/over/1 time/NN/time/1 ,/,/,/0 because/IN/because/1 each/DT/each/1 individual/JJ/individual/2 example/NN/example/2 becomes/VBZ/become/1 increasingly/RB/increase/2 less/RBR/less/1 significant/JJ/significant/3 to/TO/to/1 the/DT/the/1 overall/JJ/overall/3 average/NN/average/2 ./././0 
+Compare/NNP/compare/2 again/RB/again/1 the/DT/the/1 prequential/JJ/prequential/0 evaluations/NNS/evaluate/3 of/IN/of/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 using/VBG/use/1 the/DT/the/1 BasicClassificationPerformanceEvaluator/NNP/basicclassificationperformanceevaluator/0 ./././0 Does/VBZ/do/1 the/DT/the/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 always/RB/always/1 outperform/RB/outperform/10 Naive/JJ/naive/5 Bayes/NNP/bayes/0 in/IN/in/1 the/DT/the/1 learning/NN/learn/1 curve/NN/curve/3 display/NN/display/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Again/RB/again/1 ,/,/,/0 there/EX/there/1 ’/VBZ/’/0 s/JJR/be/1 a/DT/a/1 brief/JJ/brief/2 period/NN/period/2 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 when/WRB/when/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 is/VBZ/be/1 better/RBR/better/1 ./././0 
+
+Question/NN/question/1 9/CD/9/0 
+What/WP/what/1 are/VBP/be/1 the/DT/the/1 final/JJ/final/1 Kappa/NNP/kappa/0 statistics/NNS/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+75.8/CD/75.8/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+75.8/CD/75.8/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+75.8/CD/75.8/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+
+Question/NN/question/1 9/CD/9/0 
+What/WP/what/1 are/VBP/be/1 the/DT/the/1 final/JJ/final/1 Kappa/NNP/kappa/0 statistics/NNS/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+70.7/CD/70.7/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+74.2/CD/74.2/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+75.8/CD/75.8/0 %/NN/%/0 for/IN/for/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 
+75.8/CD/75.8/0 %/NN/%/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

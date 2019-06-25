@@ -1,0 +1,61 @@
+Try out some classifiers
+Question 1
+Fill in the blanks with the words ZeroR, NaiveBayes, J48 and Logistic to reflect the results that you obtained on the glass.arff dataset.
+---
+Correct answer(s):
+
+Question 2
+Repeat the same four algorithms (ZeroR, NaiveBayes, J48, Logistic) and 10-fold cross-validation on the labor.arff dataset. In each case record the root mean squared error. What is the correct ordering in terms of this measure?
+---
+Correct answer(s):
+
+Question 3
+Repeat the same four algorithms (ZeroR, NaiveBayes, J48, Logistic) and 10-fold cross-validation on the breast-cancer.arff dataset, in each case recording the classification accuracy. What is the correct ordering in terms of accuracy?
+---
+Correct answer(s):
+
+Question 4
+In this question we will examine the prediction probabilities that OneR generates, and learn how they are calculated. These probabilities are always either 0 or 1.
+Open the ionosphere.arff dataset, select OneR as classifier and use the training set for testing. OneR generates this rule:
+a06:
+ < -0.217515   -> b
+ < -0.010275   -> g
+ < 0.00101     -> b
+ < 0.110845    -> g
+ < 0.15505     -> b
+ < 0.7955      -> g
+ >= 0.7955     -> b
+Use Weka to help you fill in the following table for the first 6 instances of the training set. To get prediction probabilities, click More options, under Output predictions select PlainText, and then click the box that says PlainText in order to configure it. For outputDistribution, select True.
+OneR uses one of the following methods to calculate the probabilities when the above rule is used to make a prediction for an instance. Use the information in your table to determine which method.
+Evaluate attribute a06 against all conditions of the rule and predict the class that was chosen most often, with probability 1. Other classes get probability 0.
+Check a06 against each condition in turn. The first match determines the class, with a probability of 1. Other classes get 0.
+Check a06 against each condition in turn. The first match determines the class, and its probability is calculated as (position of condition)/(number of conditions). The remaining probability is evenly distributed between the other classes.
+---
+Correct answer(s):
+
+Question 4
+In this question we will examine the prediction probabilities that OneR generates, and learn how they are calculated. These probabilities are always either 0 or 1.
+Open the ionosphere.arff dataset, select OneR as classifier and use the training set for testing. OneR generates this rule:
+a06:
+ < -0.217515   -> b
+ < -0.010275   -> g
+ < 0.00101     -> b
+ < 0.110845    -> g
+ < 0.15505     -> b
+ < 0.7955      -> g
+ >= 0.7955     -> b
+Use Weka to help you fill in the following table for the first 6 instances of the training set. To get prediction probabilities, click More options, under Output predictions select PlainText, and then click the box that says PlainText in order to configure it. For outputDistribution, select True.
+OneR uses one of the following methods to calculate the probabilities when the above rule is used to make a prediction for an instance. Use the information in your table to determine which method.
+Evaluate attribute a06 against all conditions of the rule and predict the class that was chosen most often, with probability 1. Other classes get probability 0.
+Check a06 against each condition in turn. The first match determines the class, with a probability of 1. Other classes get 0.
+Check a06 against each condition in turn. The first match determines the class, and its probability is calculated as (position of condition)/(number of conditions). The remaining probability is evenly distributed between the other classes.
+---
+Correct answer(s):
+Check a06 against each condition in turn. The first match determines the class, with a probability of 1. Other classes get 0.
+---
+Feedback correct:
+Use the Preprocess panel’s Edit button to examine the raw data, and the Classify panel’s Output predictions option to determine the probabilities.
+OneR takes the value of the attribute it has chosen, and evaluates each condition in turn. The first one that evaluates to true determines the class, which gets a probability of 1. All others get 0. For example, the first instance has a06 = 0.02306, which matches “a06 < 0.110845”, leading to class label g.
+---
+Feedback incorrect:
+Use the Preprocess panel’s Edit button to examine the raw data, and the Classify panel’s Output predictions option to determine the probabilities.

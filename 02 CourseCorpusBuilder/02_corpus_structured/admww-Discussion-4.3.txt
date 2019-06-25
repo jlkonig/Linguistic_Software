@@ -1,0 +1,3 @@
+The "map-reduce" framework
+Map-reduce is a general framework for processing big data sets using a parallel, distributed algorithm on a cluster of computers that Mark introduced in the lesson video.
+The map-reduce framework has been widely applied to all sorts of tasks, not just distributed machine learning. In order to broaden your understanding of the concept, I invite you to dream up (or look up) applications of the framework to other computational problems, and briefly explain to your colleagues what the map tasks and the reduce tasks have to do.

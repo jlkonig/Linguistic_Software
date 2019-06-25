@@ -1,0 +1,49 @@
+About this course
+This course will lift you to the wizard level of skill in data mining with Weka.
+It shows you how to use popular packages that extend Weka’s functionality, following on from Data Mining with Weka and More Data Mining with Weka. You’ll learn about forecasting time series and mining data streams. You’ll connect up the popular R statistical package and learn how to use its extensive visualisation and preprocessing functions from Weka. You’ll script Weka in Python – all from within the friendly Weka interface. And you’ll learn how to distribute data mining jobs over several computers using Apache SPARK.
+Course structure
+Teachers open the door. You enter by yourself. (Chinese proverb)
+This is structured as a five week course:
+  Week 1: Time series forecasting
+  Week 2: Data stream mining
+  Week 3: Reaching out to other data mining packages
+  Week 4: Distributed processing
+  Week 5: Scripting Weka
+In addition to these topics, and in response to popular demand, at the end of each week we describe an actual application of Weka (not necessarily relating to that week’s topic):
+  Analyzing infrared data from soil samples
+  Signal peptide prediction
+  Analyzing functional MRI neuroimaging data
+  Processing images with different feature sets
+  Data mining challenges
+Each week focuses on a “Big Question.” For example, Week 1’s is: How can you use data mining to foretell the future? The week includes a handful of activities that together address the question. Each activity comprises:
+  5-10 minute video
+  Quiz. But no ordinary quiz! In order to answer the questions you have to undertake some practical data mining task. You don’t learn by watching someone talk; you learn by actually doing things! The quizzes give you an opportunity to do a lot of data mining.
+I hear and I forget. I see and I remember. I do and I understand. (Confucius)
+Tests:
+  Mid-class test at the end of Week 2
+  Post-class test at the end of Week 5
+This week …
+In Week 1 you will experience the surprising power of linear regression with lagged variables to model cyclic phenomena. Having become frustrated with all the steps that are involved in adding such variables manually, you will install the time series forecasting package and learn how to use it. You will analyze historical airline passenger data, and wine sales. (Unfortunately you do not get to drink the wine.) At the end of the week you will know how to use data mining to forecast the future! And, in addition, you will learn about major challenges for data mining applications, and how to infer properties of soil samples from infrared data.
+Right now …
+Please take the time to fill in the pre-course survey.
+Teaching team
+  Lead educator, Ian Witten
+  Course team (in order of appearance): Geoff Holmes, Albert Bifet, Bernhard Pfahringer, Tony Smith, Eibe Frank, Pamela Douglas, Mark Hall, Mike Mayo, Peter Reutemann
+  Educator, David Nichols
+  Educator, Jemma König
+Production team
+  Video editing, Louise Hutt
+  Captions, Jennifer Whisler
+  Music: Improvisations on Dizzy Gillespie’s A night in Tunisia, by Ian Witten
+Support
+  Share what you are learning, including difficulties, problems and solutions, with others in the class in a weekly discussion focused on the Big Question of the week and what you have learned
+  Other discussions from time to time
+  Transcripts are supplied for all videos as PDF files
+  Slides for all videos can be downloaded as PDF files
+Software requirements
+Before the course starts, download the free Weka software. It runs on any computer, under Windows, Linux, or Mac. It has been downloaded millions of times and is being used all around the world.
+(Note: Depending on your computer and system version, you may need admin access to install Weka.)
+Prerequisite knowledge
+You should have completed Data Mining with Weka and More Data Mining with Weka – or be an experienced Weka user. If you can do the Are you ready for this? quiz at the end of this Activity, you’ll be fine!
+Although the course includes some scripting with Python and Groovy, you need no prior knowledge of these languages.
+You will have to install and configure some software components. We provide full instructions, but you may need to be resourceful in sorting out configuration problems.

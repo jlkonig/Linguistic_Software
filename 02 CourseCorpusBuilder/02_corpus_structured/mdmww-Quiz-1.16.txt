@@ -1,0 +1,61 @@
+Using Javadoc and the Simple CLI 
+Question 1
+Use Weka’s Javadoc to find out what the “–I” (capital i, not lower-case l ) option of the IBk classifier does. What does the documentation say about this?
+Weight neighbors by 1 – their distance
+The nearest neighbor search algorithm to use
+Weight neighbors by the inverse of their distance
+Number of nearest neighbors (k) used in classification
+---
+Correct answer(s):
+Weight neighbors by the inverse of their distance
+---
+Feedback correct:
+There are many ways to find this by clicking around the Javadoc; for example, click All Classes in the small pane at the top left and locate IBk in the list that appears in the pane below.
+
+Question 2
+In the Explorer, open any data file and select IBk as the classifier.
+Configure IBk to use the “–I” option (by setting distanceWeighting to Weight by 1/distance); set the KNN parameter to 5; click OK; right-click the configuration (that is, the large field that appears to the right of the Choose button); and copy it to the clipboard.
+Paste this command into the Simple CLI interface, preceded by “java” and followed by “–t iris.arff” (i.e., specify iris.arff as a training file; you will have to precede it by an appropriate directory specification, and if it contains spaces you may need to put the whole filename in quotes). Then press Enter to run the command.
+What is the percent accuracy of correctly classified instances?
+77%
+82%
+95%
+96%
+---
+Correct answer(s):
+95%
+---
+Feedback correct:
+I hope you didn’t do this in the Explorer, though we both know that you could.
+
+Question 3
+In preparation for Working with big data, use Weka’s Javadoc to find out which classifiers are “updateable”, i.e., which ones implement the UpdateableClassifier interface.
+How many updateable classifiers are there?
+7
+10
+13
+18
+---
+Correct answer(s):
+10
+---
+Feedback correct:
+To answer this, note that IBk is an updateable classifer. If you find it in the JavaDoc, links to all the interfaces it implements appear near the top of its Class page. Just click the appropriate one.
+In Weka 3.8, the updateable classifiers are HoeffdingTree, IBk, KStar, LWL, MultiClassClassifierUpdateable, NaiveBayesMultinomialText, NaiveBayesMultinomialUpdateable, NaiveBayesUpdateable, SGD, SGDText
+---
+Feedback incorrect:
+To answer this, note that IBk is an updateable classifer. If you find it in the JavaDoc, links to all the interfaces it implements appear near the top of its Class page. Just click the appropriate one.
+---
+Feedback incorrect:
+To answer this, note that IBk is an updateable classifer. If you find it in the JavaDoc, links to all the interfaces it implements appear near the top of its Class page. Just click the appropriate one.
+There were 13 updateable classifiers in Weka version 3.6 (AODE, AODEsr, DMNBtext, IB1, IBk, KStar, LWL, NaiveBayesMultinomialUpdateable, NaiveBayesUpdateable, NNge, RacedIncrementalLogitBoost, SPegasos and Winnow). However, in this course we use Weka version 3.8 or later.
+
+Question 3
+In preparation for Working with big data, use Weka’s Javadoc to find out which classifiers are “updateable”, i.e., which ones implement the UpdateableClassifier interface.
+How many updateable classifiers are there?
+7
+10
+13
+18
+---
+Correct answer(s):

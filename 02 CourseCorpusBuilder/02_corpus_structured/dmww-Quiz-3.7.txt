@@ -1,0 +1,88 @@
+Naive Bayes with dependent attributes
+Question 1
+What is NaiveBayes’s accuracy on this dataset?
+79%
+84%
+90%
+91%
+---
+Correct answer(s):
+90%
+---
+Feedback correct:
+(Weka gives the result as 90.1149%.)
+---
+Feedback incorrect:
+Are you using the default options and 10-fold cross validation as the evaluation method?
+
+Question 2
+Return to the Preprocess tab and copy the 12th attribute, education-spending, ten times, using the Copy filter.
+(You will run into a problem that is easily solved with a little ingenuity. And don’t forget that the word last can be used as an attribute index.)
+What is NaiveBayes’s accuracy on this new dataset, again evaluated using 10-fold cross-validation?
+86%
+87%
+90%
+91%
+---
+Correct answer(s):
+87%
+---
+Feedback correct:
+(Weka gives the result as 86.6667%)
+---
+Feedback incorrect:
+There should be 27 attributes in the dataset
+
+Question 3
+Return to the Preprocess tab and copy the same attribute a further ten times. What is the accuracy now?
+86%
+87%
+90%
+91%
+---
+Correct answer(s):
+86%
+---
+Feedback correct:
+(Weka gives the result as 86.4368%)
+---
+Feedback incorrect:
+There should be 37 attributes in the dataset
+
+Question 4
+You’re probably thinking that if you were to continue to make copies of the education-spending attribute and evaluate by 10-fold cross-validation, the accuracy would gradually decrease until it finally leveled off. And you’d be right! What percentage accuracy does it level off at?
+84%
+85%
+86%
+87%
+---
+Correct answer(s):
+84%
+---
+Feedback correct:
+Do not make more copies of this attribute. Use what you know about Naive Bayes to figure out a better, quicker, and more reliable way.
+(To be precise, 84.1379%.)
+Continuing to make copies of an attribute gives it an increasingly stronger contribution to the decision, until – in the extreme – the other attributes have no influence at all. You can determine this value by removing all attributes except education-spending (but leave the class, of course).
+---
+Feedback incorrect:
+Do not make more copies of this attribute. Use what you know about Naive Bayes to figure out a better, quicker, and more reliable way.
+
+Question 5
+If Naive Bayes’s accuracy continually deteriorates as you add copies of a particular attribute (as it does here for education-spending), do you think it would improve if that attribute was completely removed from the dataset?
+Yes
+No
+Maybe
+---
+Correct answer(s):
+
+Question 5
+If Naive Bayes’s accuracy continually deteriorates as you add copies of a particular attribute (as it does here for education-spending), do you think it would improve if that attribute was completely removed from the dataset?
+Yes
+No
+Maybe
+---
+Correct answer(s):
+Maybe
+---
+Feedback correct:
+It might. (In the present case, accuracy drops a little when education-spending is removed, so it seems that this attribute is slightly relevant to the class.)

@@ -1,0 +1,71 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Breast-cancer/NN/breast-cancer/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.13/CD/5.13/0 
+Credit-g/NN/credit-g/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.13/CD/5.13/0 
+Diabetes/NNS/diabetes/4 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.12/CD/5.12/0 ,/,/,/0 5.13/CD/5.13/0 
+Glass/NN/glass/1 
+5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.13/CD/5.13/0 
+Ionosphere/RB/ionosphere/16 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.13/CD/5.13/0 
+Iris/NN/iris/8 
+5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 
+Reuters-Corn-train/test/JJ/reuters-corn-train/test/0 
+5.15/CD/5.15/0 
+Sentiment/NN/sentiment/4 
+5.17/CD/5.17/0 
+Weather/NN/weather/1 
+5.4/CD/5.4/0 ,/,/,/0 5.14/CD/5.14/0 ,/,/,/0 5.15/CD/5.15/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+5.4/CD/5.4/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.13/CD/5.13/0 
+J48/NN/j48/0 
+5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.12/CD/5.12/0 ,/,/,/0 5.15/CD/5.15/0 
+MultilayerPerceptron/NNP/multilayerperceptron/0 
+5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 
+NaiveBayes/NNS/naivebayes/0 
+5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.15/CD/5.15/0 
+NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 
+5.14/CD/5.14/0 ,/,/,/0 5.15/CD/5.15/0 ,/,/,/0 5.17/CD/5.17/0 
+OneR/NN/oner/0 
+5.4/CD/5.4/0 ,/,/,/0 5.17/CD/5.17/0 
+SMO/NN/smo/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.14/CD/5.14/0 ,/,/,/0 5.15/CD/5.15/0 
+VotedPerceptron/NNP/votedperceptron/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 
+ZeroR/NN/zeror/0 
+5.4/CD/5.4/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.17/CD/5.17/0 
+Metalearners/NNS/metalearners/0 
+AdaBoostM1/NN/adaboostm1/0 
+5.4/CD/5.4/0 
+CVParameterSelection/NN/cvparameterselection/0 
+5.12/CD/5.12/0 ,/,/,/0 5.13/CD/5.13/0 
+FilteredClassifier/NN/filteredclassifier/0 
+5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 
+GridSearch/NN/gridsearch/0 
+5.12/CD/5.12/0 
+ThresholdSelector/NN/thresholdselector/0 
+5.12/CD/5.12/0 
+Filters/NNS/filter/3 
+NonSparseToSparse/NN/nonsparsetosparse/0 
+5.14/CD/5.14/0 ,/,/,/0 5.15/CD/5.15/0 
+RemoveMisclassified/VBN/removemisclassified/0 
+5.17/CD/5.17/0 
+RemoveWithValues/NNS/removewithvalues/0 
+5.3/CD/5.3/0 
+Resample/NN/resample/0 
+5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.17/CD/5.17/0 
+SparseToNonSparse/NN/sparsetononsparse/0 
+5.14/CD/5.14/0 
+StringToWordVector/NN/stringtowordvector/0 
+5.14/CD/5.14/0 ,/,/,/0 5.15/CD/5.15/0 
+Plus/CC/plus/1 …/VB/…/0 
+Experimenter/NNP/experiment/3 interface/NN/interface/4 
+5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 ,/,/,/0 5.5/CD/5.5/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.13/CD/5.13/0 ,/,/,/0 5.15/CD/5.15/0 
+
+

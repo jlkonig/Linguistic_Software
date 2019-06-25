@@ -1,0 +1,3 @@
+Classification by regression
+Linear regression can be used for classification too. On the diabetes data, use the NominalToBinary filter to convert the two classes, which are nominal, to the numeric values 0 and 1, and apply linear regression. The result is a predicted number between 0 and 1 for each instance. The addClassification filter is used to add that number as a new attribute; then OneR is applied to choose a good split point on that attribute to predict the original two classes. The procedure is a bit cumbersome, but the result works quite well as a classifier.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

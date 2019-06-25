@@ -1,0 +1,4 @@
+Problems/NNS/problem/1 with/IN/with/1 probabilities/NNS/probably/1 ?/./?/0 
+This/DT/this/1 material/NN/material/2 on/IN/on/1 probabilities/NNS/probably/1 is/VBZ/be/1 a/DT/a/1 bit/RB/bit/1 more/RBR/more/1 abstract/JJ/abstract/3 than/IN/than/1 the/DT/the/1 rest/NN/rest/1 of/IN/of/1 the/DT/the/1 course/NN/course/1 ./././0 We/PRP/we/1 invite/VBP/invite/2 you/PRP/you/1 to/TO/to/1 discuss/VB/discuss/2 it/PRP/it/1 :/:/:/0 the/DT/the/1 idea/NN/idea/1 of/IN/of/1 a/DT/a/1 probability/NN/probably/1 ,/,/,/0 a/DT/a/1 hypothesis/NN/hypothesis/3 based/VBN/base/1 on/IN/on/1 evidence/NN/evidence/2 ,/,/,/0 the/DT/the/1 prior/JJ/prior/3 and/CC/and/1 posterior/JJ/posterior/8 probability/NN/probably/1 ,/,/,/0 and/CC/and/1 what/WP/what/1 the/DT/the/1 “/NN/“/0 naïve/JJ/naive/5 ”/NNP/”/0 assumption/NN/assumption/3 really/RB/really/1 means/VBZ/mean/1 ./././0 
+
+

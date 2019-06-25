@@ -1,0 +1,17 @@
+First, install Weka
+Before beginning you should download and install Weka – if it isn’t already installed, which it will be if you have done the previous course Data Mining with Weka.
+(Note: Depending on your computer and system version, you may need admin access to successfully install Weka.)
+    Go to http://www.cs.waikato.ac.nz/ml/weka
+    Click the Download button
+    Now choose which one to download:
+        the latest version, currently Weka-3-8-2
+        (use the latest “stable” version; Weka-3-9 is a “developer” version)
+        the appropriate link for your computer; Windows, Mac, or Linux
+        if you don’t know what Java is, you probably want the file that includes a Java VM (= virtual machine)
+Once it’s downloaded, Ian opens it to get a standard setup “wizard”.
+    Just keep clicking “Next”! Install it in the default place – and remember the name of that place!
+    After installation, uncheck the box that says “Start Weka” and click “Finish”.
+    Then go to where Weka was installed and
+        create a shortcut to the Weka program and put it on the desktop for future use.
+        make a copy of the data folder (within the Weka folder) and put it in a convenient place for future use
+        rename it “Weka datasets”

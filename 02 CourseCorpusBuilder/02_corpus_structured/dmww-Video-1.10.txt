@@ -1,0 +1,3 @@
+The weather data
+Here’s how to load a dataset into the Weka Explorer interface, and look around it to see what’s there. It’s a tiny “toy” dataset, but all these operations work equally well on large, real life, ones. You can also edit the dataset, and – if you like – change it.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

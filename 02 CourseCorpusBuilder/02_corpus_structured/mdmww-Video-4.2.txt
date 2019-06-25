@@ -1,0 +1,3 @@
+"Wrapper" attribute selection 
+Fewer attributes often yield better performance! In a laborious manual process, you can start with the full attribute set and remove the best attribute by selectively trying all possibilities, and carry on doing that. Weka’s Select Attributes panel accomplishes this automatically.  The “wrapper” method wraps a classifier in a cross-validation loop: it searches through the attribute space and uses the classifier to find a good attribute set. Searching can be forwards, backwards, or bidirectional, starting from any subset.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

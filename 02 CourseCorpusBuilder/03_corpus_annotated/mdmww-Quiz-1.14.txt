@@ -1,0 +1,78 @@
+Looking/VBG/look/1 inside/IN/inside/1 cross-validation/NN/cross-validation/0 
+Question/NN/question/1 1/CD/1/0 
+Among/IN/among/1 the/DT/the/1 10/CD/10/0 models/NNS/model/2 there/EX/there/1 are/VBP/be/1 two/CD/two/1 basically/RB/basic/1 different/JJ/different/1 structures/NNS/structure/3 ./././0 How/WRB/how/1 many/JJ/many/1 leaves/NNS/leave/1 do/VBP/do/1 they/PRP/they/1 have/VB/have/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+4/CD/4/0 leaves/NNS/leave/1 
+5/CD/5/0 leaves/NNS/leave/1 
+7/CD/7/0 leaves/NNS/leave/1 
+9/CD/9/0 leaves/NNS/leave/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+4/CD/4/0 leaves/NNS/leave/1 
+5/CD/5/0 leaves/NNS/leave/1 
+
+Question/NN/question/1 2/CD/2/0 
+How/WRB/how/1 many/JJ/many/1 of/IN/of/1 the/DT/the/1 10/CD/10/0 models/NNS/model/2 have/VBP/have/1 five/CD/five/1 leaves/NNS/leave/1 ?/./?/0 
+3/CD/3/0 
+5/CD/5/0 
+7/CD/7/0 
+9/CD/9/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+7/CD/7/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 models/NNS/model/2 for/IN/for/1 folds/NNS/fold/2 2/CD/2/0 ,/,/,/0 3/CD/3/0 ,/,/,/0 4/CD/4/0 ,/,/,/0 6/CD/6/0 ,/,/,/0 7/CD/7/0 ,/,/,/0 9/CD/9/0 and/CC/and/1 10/CD/10/0 are/VBP/be/1 the/DT/the/1 ones/NNS/one/1 with/IN/with/1 five/CD/five/1 leaves/NNS/leave/1 ./././0 (/(/(/0 The/DT/the/1 fold/NN/fold/2 number/NN/number/1 appears/VBZ/appear/1 in/IN/in/1 brackets/NNS/bracket/5 in/IN/in/1 the/DT/the/1 Result/NNP/result/2 list/NN/list/1 ./././0 )/)/)/0 
+
+Question/NN/question/1 3/CD/3/0 
+The/DT/the/1 number/NN/number/1 that/WDT/that/1 appears/VBZ/appear/1 in/IN/in/1 brackets/NNS/bracket/5 after/IN/after/1 each/DT/each/1 leaf/NN/leaf/4 (/(/(/0 or/CC/or/1 the/DT/the/1 first/JJ/first/1 number/NN/number/1 ,/,/,/0 if/IN/if/1 there/EX/there/1 are/VBP/be/1 two/CD/two/1 )/)/)/0 is/VBZ/be/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 that/WDT/that/1 reach/VBP/reach/1 that/DT/that/1 leaf/NN/leaf/4 ./././0 The/DT/the/1 total/JJ/total/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 that/WDT/that/1 reach/VBP/reach/1 a/DT/a/1 leaf/NN/leaf/4 is/VBZ/be/1 the/DT/the/1 same/JJ/same/1 for/IN/for/1 each/DT/each/1 of/IN/of/1 the/DT/the/1 ten/NN/ten/1 trees/NNS/tree/1 ./././0 What/WP/what/1 is/VBZ/be/1 that/DT/that/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 ?/./?/0 
+122/CD/122/0 
+130/CD/130/0 
+135/CD/135/0 
+150/CD/150/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+135/CD/135/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+135/CD/135/0 is/VBZ/be/1 90/CD/90/0 %/NN/%/0 of/IN/of/1 150/CD/150/0 ,/,/,/0 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 used/VBN/use/1 to/TO/to/1 train/VB/train/1 each/DT/each/1 fold/NN/fold/2 of/IN/of/1 the/DT/the/1 cross-validation/NN/cross-validation/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+135/CD/135/0 is/VBZ/be/1 90/CD/90/0 %/NN/%/0 of/IN/of/1 150/CD/150/0 ,/,/,/0 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 used/VBN/use/1 to/TO/to/1 train/VB/train/1 each/DT/each/1 fold/NN/fold/2 of/IN/of/1 the/DT/the/1 cross-validation/NN/cross-validation/0 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+When/WRB/when/1 two/CD/two/1 numbers/NNS/number/1 appear/VBP/appear/1 in/IN/in/1 brackets/NNS/bracket/5 after/IN/after/1 a/DT/a/1 leaf/NN/leaf/4 ,/,/,/0 the/DT/the/1 second/JJ/second/1 number/NN/number/1 shows/VBZ/show/1 how/WRB/how/1 many/JJ/many/1 incorrectly/RB/correct/2 classified/JJ/classify/4 instances/NNS/instance/2 reach/VBP/reach/1 that/IN/that/1 leaf/NN/leaf/4 ./././0 One/CD/one/1 of/IN/of/1 the/DT/the/1 7/CD/7/0 models/NNS/model/2 with/IN/with/1 five/CD/five/1 leaves/NNS/leave/1 makes/VBZ/make/1 fewer/JJR/few/1 total/JJ/total/1 misclassifications/NNS/misclassifications/0 than/IN/than/1 the/DT/the/1 other/JJ/other/1 6/CD/6/0 models/NNS/model/2 ./././0 How/WRB/how/1 many/JJ/many/1 does/VBZ/do/1 it/PRP/it/1 make/VB/make/1 ?/./?/0 
+1/CD/1/0 
+2/CD/2/0 
+3/CD/3/0 
+4/CD/4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+2/CD/2/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 model/NN/model/2 for/IN/for/1 fold/JJ/fold/2 7/CD/7/0 makes/VBZ/make/1 a/DT/a/1 total/NN/total/1 of/IN/of/1 2/CD/2/0 misclassifications/NNS/misclassifications/0 ,/,/,/0 whereas/IN/whereas/2 the/DT/the/1 models/NNS/model/2 for/IN/for/1 folds/NNS/fold/2 2/CD/2/0 ,/,/,/0 3/CD/3/0 ,/,/,/0 4/CD/4/0 ,/,/,/0 6/CD/6/0 ,/,/,/0 9/CD/9/0 and/CC/and/1 10/CD/10/0 each/DT/each/1 make/NN/make/1 a/DT/a/1 total/NN/total/1 of/IN/of/1 3/CD/3/0 misclassifications/NNS/misclassifications/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+The/DT/the/1 3/CD/3/0 models/NNS/model/2 with/IN/with/1 four/CD/four/1 leaves/NNS/leave/1 (/(/(/0 for/IN/for/1 folds/NNS/fold/2 1/CD/1/0 ,/,/,/0 5/CD/5/0 and/CC/and/1 8/CD/8/0 )/)/)/0 all/DT/all/1 differ/VBP/differ/3 slightly/RB/slight/1 from/IN/from/1 each/DT/each/1 other/JJ/other/1 ./././0 How/WRB/how/1 ?/./?/0 
+They/PRP/they/1 branch/VBP/branch/2 on/IN/on/1 different/JJ/different/1 attributes/NNS/attribute/3 ./././0 
+They/PRP/they/1 branch/VBP/branch/2 on/IN/on/1 the/DT/the/1 same/JJ/same/1 attributes/NNS/attribute/3 but/CC/but/1 the/DT/the/1 cutoff/NN/cutoff/0 values/NNS/value/2 differ/VBP/differ/3 ./././0 
+They/PRP/they/1 have/VBP/have/1 a/DT/a/1 smaller/JJR/small/1 number/NN/number/1 of/IN/of/1 class/NN/class/1 values/NNS/value/2 ./././0 
+A/DT/a/1 different/JJ/different/1 total/JJ/total/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 reach/VBP/reach/1 the/DT/the/1 leaves/NNS/leave/1 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+They/PRP/they/1 branch/VBP/branch/2 on/IN/on/1 the/DT/the/1 same/JJ/same/1 attributes/NNS/attribute/3 but/CC/but/1 the/DT/the/1 cutoff/NN/cutoff/0 values/NNS/value/2 differ/VBP/differ/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+These/DT/this/1 models/NNS/model/2 have/VBP/have/1 the/DT/the/1 same/JJ/same/1 structure/NN/structure/3 but/CC/but/1 different/JJ/different/1 cutoff/NN/cutoff/0 values/NNS/value/2 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+The/DT/the/1 3/CD/3/0 models/NNS/model/2 with/IN/with/1 four/CD/four/1 leaves/NNS/leave/1 (/(/(/0 for/IN/for/1 folds/NNS/fold/2 1/CD/1/0 ,/,/,/0 5/CD/5/0 and/CC/and/1 8/CD/8/0 )/)/)/0 all/DT/all/1 differ/VBP/differ/3 slightly/RB/slight/1 from/IN/from/1 each/DT/each/1 other/JJ/other/1 ./././0 How/WRB/how/1 ?/./?/0 
+They/PRP/they/1 branch/VBP/branch/2 on/IN/on/1 different/JJ/different/1 attributes/NNS/attribute/3 ./././0 
+They/PRP/they/1 branch/VBP/branch/2 on/IN/on/1 the/DT/the/1 same/JJ/same/1 attributes/NNS/attribute/3 but/CC/but/1 the/DT/the/1 cutoff/NN/cutoff/0 values/NNS/value/2 differ/VBP/differ/3 ./././0 
+They/PRP/they/1 have/VBP/have/1 a/DT/a/1 smaller/JJR/small/1 number/NN/number/1 of/IN/of/1 class/NN/class/1 values/NNS/value/2 ./././0 
+A/DT/a/1 different/JJ/different/1 total/JJ/total/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 reach/VBP/reach/1 the/DT/the/1 leaves/NNS/leave/1 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

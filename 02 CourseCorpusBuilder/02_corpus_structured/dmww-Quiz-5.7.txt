@@ -1,0 +1,78 @@
+Correlation, causation, and reidentification
+Question 1
+Might this be true: A causes B?
+True
+False
+---
+Correct answer(s):
+True
+---
+Feedback correct:
+Yes. It might.
+---
+Feedback incorrect:
+You cannot rule out the explanation that A causes B
+
+Question 2
+Might this be true: B causes A?
+True
+False
+---
+Correct answer(s):
+True
+---
+Feedback correct:
+Yes. It might.
+---
+Feedback incorrect:
+You cannot rule out the explanation that B causes A
+
+Question 3
+Might this be true: Some third factor C is the cause of both A and B?
+True
+False
+---
+Correct answer(s):
+True
+---
+Feedback correct:
+Yes. It might.
+---
+Feedback incorrect:
+You cannot rule out the explanation that some third factor is the cause of both A and B
+
+Question 4
+Might this be true: The correlation between A and B is entirely coincidental?
+True
+False
+---
+Correct answer(s):
+True
+---
+Feedback correct:
+Yes. It might.
+---
+Feedback incorrect:
+You cannot rule out the explanation that the correlation between A and B is entirely coincidental
+
+Question 5
+In 2006, a text file was released on the web containing 20,000,000 search engine queries made by 650,000 users over a 3-month period, intended for research purposes. The file had been anonymized by replacing user names with random numbers, one per user. However, some of the queries contained clues to the user’s identity. The New York Times was able to locate an individual from these supposedly anonymized search records by cross referencing them with phonebook listings. Look up this classic example of reidentification and read about it.
+What is the name of the person who was identified?
+Dr. Abur Chowdhury
+Thelma Arnold
+User 927
+---
+Correct answer(s):
+Thelma Arnold
+---
+Feedback correct:
+You can read about this fiasco in many places, for example, the Wikipedia article entitled “AOL search data leak”, and the New York Times here.
+
+Question 5
+In 2006, a text file was released on the web containing 20,000,000 search engine queries made by 650,000 users over a 3-month period, intended for research purposes. The file had been anonymized by replacing user names with random numbers, one per user. However, some of the queries contained clues to the user’s identity. The New York Times was able to locate an individual from these supposedly anonymized search records by cross referencing them with phonebook listings. Look up this classic example of reidentification and read about it.
+What is the name of the person who was identified?
+Dr. Abur Chowdhury
+Thelma Arnold
+User 927
+---
+Correct answer(s):

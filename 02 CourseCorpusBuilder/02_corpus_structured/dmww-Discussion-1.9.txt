@@ -1,0 +1,7 @@
+Installing Weka
+Have you installed Weka on your computer yet?
+If not, do it now! Download the latest (stable) version of Weka from here.
+How did it go? It should be easy, but you never know … Please share your experiences, and any tips, with fellow learners. If you have problems, post them. (Don’t forget to include details such as the computer, maybe system version too.) If you’ve figured out the solution, post that. And if you can help someone else, please do so! You’re a community.
+OK, I’ll kick it off:
+Problem. I downloaded Weka but my Mac says it cannot open it because it comes from an unrecognised developer.
+Solution. Yep, Macs are picky about new software. Open System Preferences and click Security & Privacy. You’ll probably find it says to allow apps downloaded from the Mac App Store (and maybe from identified developers as well). Temporarily click Anywhere. Then start Weka. It should open OK, and in fact your Mac will remember that you’ve OK’d it. Then, to be safe, restore the original setting in Security & Privacy.

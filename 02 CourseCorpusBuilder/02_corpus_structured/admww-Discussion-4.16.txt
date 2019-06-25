@@ -1,0 +1,5 @@
+Reflect on this week’s Big Question
+This week’s Big Question is, “Can you distribute Weka jobs over several machines?”
+Of course, as we said when introducing it, the answer is “yes”!
+We promised that by the end, you’d be acquainted with Distributed Weka, its design goals, its use of the map-reduce idea for breaking computations down for parallel implementation, and – most importantly – how to install it and use it from the Knowledge Flow interface. Even though you’re running it on a single desktop machine, each of the individual cores in the CPU is treated as a separate processing node.
+Here is a good place to discuss what you have learned with fellow learners.

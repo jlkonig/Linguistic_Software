@@ -1,0 +1,7 @@
+Reflect on this week's Big Questions
+The big questions this week are, “What are neural networks and how can I use them?”, and (in general, not just for neural networks) “How much training data do I need?” and “How do I optimize all those parameters?”
+We promised that by the end you’d know exactly what the individual units of so-called “neural networks” do and how they are connected together. You’d know where the learning comes in, and  what decision boundaries these systems can create. And you’d be able to set up neural networks in Weka and evaluate how well they work. You’d also know that you’ll need to be patient! – multilayer networks take a long time to run. (I hope you also agree that the sex appeal of the brain analogy diminishes radically when the details are revealed.)
+We also promised that you’d know how to estimate how much training data is necessary to achieve a certain level of performance by examining how performance improves as the volume of data increases. And you’d be able to use “wrapper” metalearners that Weka provides to optimize parameters for best performance.
+Finally, you’d also have a richer understanding of what is possible in the ARFF file format in which datasets are represented.
+Well, now it’s time to take up our final challenge to explain some of these things to a colleague.
+Tell your fellow learners how you get on!

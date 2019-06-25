@@ -1,0 +1,3 @@
+Working with big data
+Some classifiers work incrementally – that is, they update their model as the training dataset comes in, in a single pass through the dataset. When invoked from the command line, these classifiers can handle arbitrarily large datasets. In contrast, the Explorer loads in the entire dataset to begin with irrespective of which classifier is used, so it is limited by the amount of computer memory available. Note that cross-validation cannot work incrementally; you need to be careful about how you do the evaluation, maybe using an explicit test file.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

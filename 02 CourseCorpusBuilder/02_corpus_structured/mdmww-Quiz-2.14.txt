@@ -1,0 +1,87 @@
+Document classification with Multinomial Naive Bayes 
+Question 1
+What is the weighted-average ROC Area for NaiveBayesMultinomial?
+0.694
+0.952
+0.957
+0.962
+---
+Correct answer(s):
+0.952
+
+Question 2
+In the StringToWordVector filter, set outputWordCounts and lowerCaseTokens to true; set minTermFreq to 5.
+What is NaiveBayesMultinomial’s weighted-average ROC Area now?
+0.912
+0.974
+0.976
+0.993
+---
+Correct answer(s):
+0.976
+
+Question 3
+It might help to stem words, that is, remove word endings like -s and -ing. SnowBall is a good stemming algorithm, so set this as the stemmer in the StringToWordVector filter. Also, it might help to reduce the number of words kept per class, so change wordsToKeep from 1000 to 800.
+What is NaiveBayesMultinomial’s weighted-average ROC Area now?
+0.932
+0.934
+0.974
+0.976
+---
+Correct answer(s):
+0.976
+---
+Feedback correct:
+Disappointingly, these tweaks have not improved the result at all.
+
+Question 4
+Of course, tiny changes in the ROC Area are probably insignificant, so let’s do a proper comparison using the Experimenter. Here, you can’t specify training and test sets separately, so we’ll just use the ReutersCorn-train and ReutersGrain-train training sets, with a 66% percentage split (“data randomized”) – which will be a lot faster than cross-validation.
+Set up the Experimenter to use these two files with the FilteredClassifier, the StringToWordVector filter, and the following four configurations:
+  NaiveBayes with default parameters for StringToWordVector
+Three instances of MultinomialNaiveBayes with the three parameter settings for StringToWordVector that you tested above:
+  default parameters
+  outputWordCounts, lowerCaseTokens, and minTermFreq = 5
+  the above settings plus SnowballStemmer and wordsToKeep = 800.
+How do these NaiveBayesMultinomial configurations compare with NaiveBayes?
+NaiveBayes performs better than all the NaiveBayesMultinomial methods.
+Some NaiveBayesMultinomial configurations perform better than NaiveBayes
+All NaiveBayesMultinomial configurations perform significantly better than NaiveBayes.
+---
+Correct answer(s):
+All NaiveBayesMultinomial configurations perform significantly better than NaiveBayes.
+
+Question 5
+Of all the NaiveBayesMultinomial configurations you have tested, which performed the best?
+StringToWordVector with outputWordCounts and lowerCaseTokens set to true, and using the SnowballStemmer
+StringToWordVector with default parameters
+StringToWordVector with outputWordCounts and lowerCaseTokens set to true
+---
+Correct answer(s):
+StringToWordVector with default parameters
+---
+Feedback correct:
+This is true for both data files. However, the differences with the other NaiveBayesMultinomial configurations are not large.
+
+Question 6
+The Experimenter’s default “Comparison field” is Percent_correct, which, as we know, may not be appropriate for this data. Change it to Area_under_ROC. (You don’t have to re-do the experiment; just the test.)
+What are the significant differences now?
+There are no significant differences
+For the Grain dataset, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+For the Corn dataset, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+For both datasets, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+---
+Correct answer(s):
+For the Grain dataset, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+---
+Feedback correct:
+There are no significant differences for Corn, but for Grain all NaiveBayesMultinomial configurations are significantly better than NaiveBayes.
+
+Question 6
+The Experimenter’s default “Comparison field” is Percent_correct, which, as we know, may not be appropriate for this data. Change it to Area_under_ROC. (You don’t have to re-do the experiment; just the test.)
+What are the significant differences now?
+There are no significant differences
+For the Grain dataset, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+For the Corn dataset, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+For both datasets, NaiveBayesMultinomial configurations perform significantly better than NaiveBayes
+---
+Correct answer(s):

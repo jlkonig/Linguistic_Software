@@ -1,0 +1,75 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+anneal/NN/anneal/13 
+5.5/CD/5.5/0 ,/,/,/0 5.7/CD/5.7/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.15/CD/5.15/0 
+balance-scale/NN/balance-scale/0 
+5.8/CD/5.8/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.15/CD/5.15/0 
+bodyfat/NN/bodyfat/0 
+5.8/CD/5.8/0 ,/,/,/0 5.10/CD/5.10/0 ,/,/,/0 5.11/CD/5.11/0 
+breast-cancer/NN/breast-cancer/0 
+5.10/CD/5.10/0 
+iris/NN/iris/8 
+5.2/CD/5.2/0 ,/,/,/0 5.7/CD/5.7/0 
+Classifiers/NNS/classifier/0 
+BayesNet/NN/bayesnet/0 
+5.8/CD/5.8/0 
+GaussianProcesses/NNS/gaussianprocesses/0 
+5.17/CD/5.17/0 ,/,/,/0 5.18/CD/5.18/0 
+IBk/NN/ibk/0 
+5.17/CD/5.17/0 
+J48/NN/j48/0 
+5.5/CD/5.5/0 ,/,/,/0 5.8/CD/5.8/0 ,/,/,/0 5.11/CD/5.11/0 
+LinearRegression/NN/linearregression/0 
+5.8/CD/5.8/0 ,/,/,/0 5.11/CD/5.11/0 ,/,/,/0 5.17/CD/5.17/0 
+LWL/NNP/lwl/0 (/(/(/0 Locally/NNP/local/1 weighted/VBD/weight/1 learning/VBG/learn/1 )/)/)/0 
+5.17/CD/5.17/0 ,/,/,/0 5.18/CD/5.18/0 
+NaiveBayes/NNS/naivebayes/0 
+5.7/CD/5.7/0 ,/,/,/0 5.8/CD/5.8/0 
+Filters/NNS/filter/3 
+AddNoise/NN/addnoise/0 
+5.4/CD/5.4/0 
+Discretize/VB/discretize/0 
+5.4/CD/5.4/0 ,/,/,/0 5.7/CD/5.7/0 
+Packages/NNS/pack/1 
+jfreechartOffScreenRenderer/NN/jfreechartoffscreenrenderer/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.8/CD/5.8/0 
+kfGroovy/NN/kfgroovy/0 
+5.20/CD/5.20/0 
+tigerJython/NN/tigerjython/0 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.4/CD/5.4/0 
+Python/NNP/python/11 classes/NNS/class/1 
+DataSource/NNP/datasource/0 ,/,/,/0 Filter/NNP/filter/3 ,/,/,/0 os/NN/o/0 ,/,/,/0 Remove/VB/remove/2 
+5.2/CD/5.2/0 
+DataSource/NNP/datasource/0 ,/,/,/0 Evaluation/NNP/evaluate/3 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 os/NN/o/0 ,/,/,/0 Random/NNP/random/3 
+5.5/CD/5.5/0 
+BayesNet/NNP/bayesnet/0 ,/,/,/0 ChartFactory/NNP/chartfactory/0 ,/,/,/0 ChartPanel/NNP/chartpanel/0 ,/,/,/0 ChartUtilities/NNP/chartutilities/0 ,/,/,/0 DataSource/NNP/datasource/0 ,/,/,/0 DefaultXYDataset/NNP/defaultxydataset/0 ,/,/,/0 DefaultXYZDataset/NNP/defaultxyzdataset/0 ,/,/,/0 Evaluation/NNP/evaluate/3 ,/,/,/0 File/NNP/file/2 ,/,/,/0 GraphVisualizer/NNP/graphvisualizer/0 ,/,/,/0 JFrame/NNP/jframe/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 LinearRegression/NNP/linearregression/0 ,/,/,/0 NaiveBayes/NNP/naivebayes/0 ,/,/,/0 os/NN/o/0 ,/,/,/0 PlaceNode2/NNP/placenode2/0 ,/,/,/0 PlotOrientation/NNP/plotorientation/0 ,/,/,/0 ThresholdCurve/NNP/thresholdcurve/0 ,/,/,/0 TreeVisualizer/NNP/treevisualizer/0 ,/,/,/0 XYBubbleRenderer/NN/xybubblerenderer/0 
+5.8/CD/5.8/0 
+Evaluation/NN/evaluate/3 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 SMOreg/NNP/smoreg/0 ,/,/,/0 ZeroR/NNP/zeror/0 
+5.10/CD/5.10/0 
+Evaluation/NN/evaluate/3 ,/,/,/0 Classifier/NNP/classifier/0 ,/,/,/0 converters/NNS/convert/3 ,/,/,/0 jvm/NN/jvm/0 ,/,/,/0 os/NN/o/0 ,/,/,/0 Random/NNP/random/3 
+5.11/CD/5.11/0 
+Groovy/NNP/groovy/13 imports/NNS/import/3 
+ChartFactory/NNP/chartfactory/0 ,/,/,/0 ChartPanel/NNP/chartpanel/0 ,/,/,/0 DataSource/NNP/datasource/0 ,/,/,/0 DefaultXYDataset/NNP/defaultxydataset/0 ,/,/,/0 Instance/NNP/instance/2 ,/,/,/0 Instances/NNP/instance/2 ,/,/,/0 JFrame/NNP/jframe/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 NaiveBayes/NNP/naivebayes/0 ,/,/,/0 PlotOrientation/NNP/plotorientation/0 ,/,/,/0 Random/NNP/random/3 ,/,/,/0 ThresholdCurve/NNP/thresholdcurve/0 
+5.15/CD/5.15/0 
+Plus/CC/plus/1 
+Environment/NN/environment/2 variable/NN/vary/2 
+5.2/CD/5.2/0 ,/,/,/0 5.3/CD/5.3/0 ,/,/,/0 5.7/CD/5.7/0 ,/,/,/0 5.17/CD/5.17/0 
+Ethics/NNS/ethics/4 
+5.21/CD/5.21/0 
+Groovy/NN/groovy/13 
+5.15–5.20/CD/5.15–5.20/0 
+IDRC/NNP/idrc/0 Shootout/NNP/shootout/0 challenge/NN/challenge/2 
+5.15/CD/5.15/0 ,/,/,/0 5.17/CD/5.17/0 ,/,/,/0 5.18/CD/5.18/0 
+Kaggle/NNP/kaggle/0 
+5.21/CD/5.21/0 
+Python/Jython/NN/python/jython/0 
+5.2–5.14/CD/5.2–5.14/0 
+Python-weka-wrapper/NN/python-weka-wrapper/0 
+5.11/CD/5.11/0 
+Scripting/VBG/script/4 
+5.1–5.20/CD/5.1–5.20/0 
+
+

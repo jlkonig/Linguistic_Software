@@ -1,0 +1,3 @@
+Simple neural networks 
+Neural network learning methods invite an analogy to the brain that is seductive but entirely misleading! The simplest form of neural network, called a “Perceptron”, implements a linear decision boundary. It operates iteratively, and the result depends on the order in which the instances are presented, but there is a theorem that proves that under certain circumstances it will converge rather than cycle indefinitely. The Perceptron has been the subject of much controversy during its 60-year life span.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

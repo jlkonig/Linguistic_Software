@@ -1,0 +1,83 @@
+Partitioning datasets for training and testing
+Question 1
+Choose the J48 classifier (default options), select Percentage split as test option, and determine the proportion of correctly classified instances when the following percentages are used for training set size: 10%, 20%, 40%. 60%, 80%. What do you observe?
+There are some fluctuations, but performance generally increases with training set size.
+Performance stays about the same.
+Performance always increases as training set size increases.
+Performance tends to decrease as training set size increases.
+---
+Correct answer(s):
+---
+Feedback correct:
+You would expect this general trend but with some fluctuation, but in this case performance always increases.
+---
+Feedback incorrect:
+That is what you’d generally expect, but in this case one of the other answers is more likely to apply.
+
+Question 2
+Repeat Question 1 using the training set percentages of 90%, 95%, 98%, and 99%. What happens to the number of correctly classified instances?
+Stays about the same.
+Increases slowly.
+Decreases a little bit.
+Decreases dramatically.
+---
+Correct answer(s):
+---
+Feedback correct:
+The numbers of correctly classified instances are 145, 72, 29, and 15 respectively. Although these numbers are decreasing, the percentage of correctly classified instances is increasing.
+---
+Feedback incorrect:
+Remember, you should be looking at the number (not the percentage) of correctly classified instances
+
+Question 3
+Repeating Question 1 with a training set percentage of 99% gives a figure of 100% accuracy on the test set.
+Does this mean that this generates a perfect classifier for the segmentation problem?
+Yes
+No
+---
+Correct answer(s):
+---
+Feedback correct:
+Although the classifier is indeed 100% correct on the test set, that set only contains 15 instances (1% of the 1500 instances in the data set). This is not a reliable predictor of performance on independent test data.
+
+Question 4
+Based on the above experiments, what is your best estimate of J48’s true accuracy on the segment-challenge dataset?
+50%
+90%
+95%
+100%
+---
+Correct answer(s):
+---
+Feedback correct:
+In fact, 96% might be an even better estimate.
+
+Question 5
+What is the likelihood that J48 would make no mistakes on 15 independently chosen test instances, if its accuracy for each instance was 95%?
+Very unlikely
+About 50%
+Almost 100%
+---
+Correct answer(s):
+---
+Feedback correct:
+In fact, the probability of getting 15 independent decisions correct is 0.95×0.95×0.95×0.95×… [15 times], which is 0.95**15 = 0.46, or 46%. (0.95**15 is 0.95 to the power 15.) If you’re unfamiliar with this math, don’t worry, we won’t be using it again.
+
+Question 6
+Which of the following statements seems to be correct, based on your experiments?
+The more training data, the greater the classifier’s success rate.
+Training set size has no influence on the classifier’s success rate.
+The more test data, the greater the classifier’s success rate.
+---
+Correct answer(s):
+
+Question 7
+When the percentage split option is used for evaluation, how good is the performance if (a) almost none of the data is used for testing; (b) almost all of the data is used for testing?
+(a) has poor performance, (b) has good performance.
+(a) has better performance than (b).
+The performance for (a) and (b) are similar.
+---
+Correct answer(s):
+---
+Feedback correct:
+Leaving almost no data for testing means more data for training, so the algorithm has seen most patterns in the data and performs quite well on the remaining test data.

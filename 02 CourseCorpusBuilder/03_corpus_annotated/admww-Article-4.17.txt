@@ -1,0 +1,76 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+butterfly_vs_owl/NN/butterfly_vs_owl/0 
+4.14/CD/4.14/0 
+hypothyroid/NN/hypothyroidism/14 
+4.5/CD/4.5/0 ,/,/,/0 4.7/CD/4.7/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.10/CD/4.10/0 ,/,/,/0 4.12/CD/4.12/0 ,/,/,/0 4.13/CD/4.13/0 
+iris/NN/iris/8 
+4.6/CD/4.6/0 
+vehicle_images/NNS/vehicle_images/0 
+4.15/CD/4.15/0 
+Classifiers/NNS/classifier/0 
+JRip/NN/jrip/0 
+4.7/CD/4.7/0 ,/,/,/0 4.9/CD/4.9/0 
+J48/NN/j48/0 
+4.14/CD/4.14/0 ,/,/,/0 4.15/CD/4.15/0 
+NaiveBayes/NNS/naivebayes/0 
+4.7/CD/4.7/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.10/CD/4.10/0 ,/,/,/0 4.15/CD/4.15/0 
+RandomForest/JJS/randomforest/0 
+4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.10/CD/4.10/0 
+SMO/NN/smo/0 
+4.15/CD/4.15/0 
+Filters/NNS/filter/3 
+ColorLayout/NN/colorlayout/0 
+4.14/CD/4.14/0 ,/,/,/0 4.15/CD/4.15/0 
+EdgeHistogram/NN/edgehistogram/0 
+4.14/CD/4.14/0 ,/,/,/0 4.15/CD/4.15/0 
+Gabor/NN/gabor/0 
+4.15/CD/4.15/0 
+RemoveType/NN/removetype/0 
+4.8/CD/4.8/0 
+Packages/NNS/pack/1 
+distributedWekaBase/NN/distributedwekabase/0 
+4.2/CD/4.2/0 ,/,/,/0 4.5/CD/4.5/0 
+distributedWekaSpark/NN/distributedwekaspark/0 
+4.2/CD/4.2/0 ,/,/,/0 4.5/CD/4.5/0 ,/,/,/0 4.6/CD/4.6/0 
+imageFilters/NNS/imagefilters/0 
+4.14/CD/4.14/0 ,/,/,/0 4.15/CD/4.15/0 
+KnowledgeFlow/NNP/knowledgeflow/0 components/NNS/component/3 
+ArffHeaderSparkJob/NN/arffheadersparkjob/0 
+4.5/CD/4.5/0 ,/,/,/0 4.6/CD/4.6/0 ,/,/,/0 4.7/CD/4.7/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.12/CD/4.12/0 
+ArffLoader/NN/arffloader/0 
+4.6/CD/4.6/0 
+CorrelationMatrixSparkJob/NN/correlationmatrixsparkjob/0 
+4.12/CD/4.12/0 
+CSVSaver/NN/csvsaver/0 
+4.6/CD/4.6/0 
+ImageViewer/NN/imageviewer/0 
+4.12/CD/4.12/0 ,/,/,/0 4.13/CD/4.13/0 
+KMeansClustererSparkJob/NNP/kmeansclusterersparkjob/0 
+4.13/CD/4.13/0 
+RandomlyShuffleDataSparkJob/NN/randomlyshuffledatasparkjob/0 
+4.7/CD/4.7/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.10/CD/4.10/0 
+WekaClassifierSparkJob/NN/wekaclassifiersparkjob/0 
+4.5/CD/4.5/0 ,/,/,/0 4.7/CD/4.7/0 ,/,/,/0 4.8/CD/4.8/0 
+WekaClassifierEvaluationSparkJob/NN/wekaclassifierevaluationsparkjob/0 
+4.5/CD/4.5/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.10/CD/4.10/0 
+TextViewer/NN/textviewer/0 
+4.5/CD/4.5/0 ,/,/,/0 4.6/CD/4.6/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.12/CD/4.12/0 ,/,/,/0 4.13/CD/4.13/0 
+Plus/CC/plus/1 
+Distributed/VBN/distribute/3 Weka/NNP/weka/23 
+4.1–4.13/CD/4.1–4.13/0 
+Hadoop/NN/hadoop/0 
+4.2/CD/4.2/0 ,/,/,/0 4.4/CD/4.4/0 
+k-means/NNS/k-means/0 clustering/VBG/cluster/3 
+4.12/CD/4.12/0 ,/,/,/0 4.13/CD/4.13/0 
+Map-reduce/NN/map-reduce/0 
+4.2/CD/4.2/0 ,/,/,/0 4.3/CD/4.3/0 ,/,/,/0 4.9/CD/4.9/0 
+Principal/JJ/principal/3 components/NNS/component/3 analysis/NN/analyse/3 
+4.12/CD/4.12/0 ,/,/,/0 4.13/CD/4.13/0 
+Spark/NN/spark/4 
+4.2/CD/4.2/0 ,/,/,/0 4.4/CD/4.4/0 ,/,/,/0 4.5/CD/4.5/0 ,/,/,/0 4.12/CD/4.12/0 
+
+

@@ -1,0 +1,171 @@
+Time/NNP/time/1 series/NN/series/2 forecasting/VBG/forecast/3 with/IN/with/1 SMO/NNP/smo/0 
+Question/NN/question/1 1/CD/1/0 
+Open/VB/open/1 the/DT/the/1 airline.arff/NN/airline.arff/0 dataset/NN/dataset/0 ./././0 The/DT/the/1 Date/NNP/date/1 attribute/NN/attribute/3 is/VBZ/be/1 expressed/VBN/express/1 in/IN/in/1 msec/NN/msec/0 since/IN/since/1 Jan/NNP/january/2 1/CD/1/0 ,/,/,/0 1970/CD/1970/0 ./././0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 values/NNS/value/2 below/IN/below/1 is/VBZ/be/1 closest/JJS/close/1 to/TO/to/1 its/PRP$/it/1 minimum/JJ/minimum/3 value/NN/value/2 ,/,/,/0 as/IN/as/1 shown/VBN/show/1 in/IN/in/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ?/./?/0 
+35150317071/CD/35150317071/0 
+–286718400000/NN/–286718400000/0 
+–474793200000/NN/–474793200000/0 
+–662731200000/NN/–662731200000/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+–662731200000/NN/–662731200000/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Note/NN/note/1 :/:/:/0 the/DT/the/1 value/NN/value/2 is/VBZ/be/1 negative/JJ/negative/3 for/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 because/IN/because/1 it/PRP/it/1 precedes/VBZ/precede/3 1970/CD/1970/0 ./././0 Also/RB/also/1 ,/,/,/0 the/DT/the/1 answer/NN/answer/1 depends/VBZ/depend/1 on/IN/on/1 the/DT/the/1 time/NN/time/1 zone/NN/zone/3 you/PRP/you/1 are/VBP/be/1 in/IN/in/1 ,/,/,/0 because/IN/because/1 your/PRP$/you/1 operating/NN/operate/2 system/NN/system/1 takes/VBZ/take/1 the/DT/the/1 time/NN/time/1 zone/NN/zone/3 into/IN/into/1 account/NN/account/2 when/WRB/when/1 translating/VBG/translate/3 dates/NNS/date/1 and/CC/and/1 times/NNS/time/1 ./././0 A/DT/a/1 12-hour/JJ/12-hour/0 difference/NN/difference/1 between/IN/between/1 your/PRP$/you/1 time/NN/time/1 and/CC/and/1 New/NNP/new/1 Zealand/NNP/zealand/0 ’/NNP/’/0 s/NN/be/1 would/MD/would/1 add/VB/add/1 126060*1000/CD/126060*1000/0 =/JJ/=/0 43200000/CD/43200000/0 to/TO/to/1 the/DT/the/1 answer/NN/answer/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 may/MD/may/1 find/VB/find/1 
+1.1/CD/1.1/0 What/WP/what/1 will/MD/will/1 you/PRP/you/1 learn/VB/learn/1 ?/./?/0 
+useful/JJ/use/1 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 values/NNS/value/2 below/IN/below/1 is/VBZ/be/1 closest/JJS/close/1 to/TO/to/1 its/PRP$/it/1 maximum/JJ/maximum/2 value/NN/value/2 ?/./?/0 
+35150317071/CD/35150317071/0 
+–286718400000/NN/–286718400000/0 
+–474793200000/NN/–474793200000/0 
+–662731200000/NN/–662731200000/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+–286718400000/NN/–286718400000/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Note/NN/note/1 :/:/:/0 the/DT/the/1 value/NN/value/2 is/VBZ/be/1 negative/JJ/negative/3 for/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 because/IN/because/1 it/PRP/it/1 precedes/VBZ/precede/3 1970/CD/1970/0 ./././0 Also/RB/also/1 ,/,/,/0 the/DT/the/1 answer/NN/answer/1 depends/VBZ/depend/1 on/IN/on/1 the/DT/the/1 time/NN/time/1 zone/NN/zone/3 you/PRP/you/1 are/VBP/be/1 in/IN/in/1 ,/,/,/0 because/IN/because/1 your/PRP$/you/1 operating/NN/operate/2 system/NN/system/1 takes/VBZ/take/1 the/DT/the/1 time/NN/time/1 zone/NN/zone/3 into/IN/into/1 account/NN/account/2 when/WRB/when/1 translating/VBG/translate/3 dates/NNS/date/1 and/CC/and/1 times/NNS/time/1 ./././0 A/DT/a/1 12-hour/JJ/12-hour/0 difference/NN/difference/1 between/IN/between/1 your/PRP$/you/1 time/NN/time/1 and/CC/and/1 New/NNP/new/1 Zealand/NNP/zealand/0 ’/NNP/’/0 s/NN/be/1 would/MD/would/1 add/VB/add/1 126060*1000/CD/126060*1000/0 =/JJ/=/0 43200000/CD/43200000/0 to/TO/to/1 the/DT/the/1 answer/NN/answer/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Use/VB/use/1 the/DT/the/1 AddExpression/NNP/addexpression/0 filter/NN/filter/3 to/TO/to/1 re-map/VB/re-map/0 the/DT/the/1 date/NN/date/1 in/IN/in/1 the/DT/the/1 airline/NN/airline/3 dataset/VBN/dataset/0 into/IN/into/1 months/NNS/month/1 since/IN/since/1 Jan/NNP/january/2 1/CD/1/0 ,/,/,/0 1949/CD/1949/0 ./././0 
+Call/VB/call/1 the/DT/the/1 new/JJ/new/1 date/NN/date/1 NewDate/NNP/newdate/0 ,/,/,/0 and/CC/and/1 remove/VB/remove/2 the/DT/the/1 old/JJ/old/1 Date/NNP/date/1 attribute/NN/attribute/3 ./././0 
+Use/NNP/use/1 SMOreg/NNP/smoreg/0 (/(/(/0 in/IN/in/1 the/DT/the/1 “/JJ/“/0 functions/NNS/function/3 ”/VBP/”/0 category/NN/category/3 )/)/)/0 to/TO/to/1 predict/JJ/predict/3 passenger_numbers/NNS/passenger_numbers/0 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 ?/./?/0 
+16.7/CD/16.7/0 
+33.9/CD/33.9/0 
+40.5/CD/40.5/0 
+48.5/CD/48.5/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+48.5/CD/48.5/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 appropriate/JJ/appropriate/3 expression/NN/express/1 parameter/NN/parameter/4 for/IN/for/1 the/DT/the/1 AddExpression/NNP/addexpression/0 filter/NN/filter/3 ,/,/,/0 used/VBN/use/1 in/IN/in/1 the/DT/the/1 lesson/NN/lesson/2 video/NN/video/1 ,/,/,/0 is/VBZ/be/1 (/(/(/0 a2//JJ/a2//0 (/(/(/0 1000*60*60*24*365.25/CD/1000*60*60*24*365.25/0 )/)/)/0 +/FW/+/0 21/CD/21/0 )/)/)/0 *12/NN/*12/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 get/VBP/get/1 this/DT/this/1 if/IN/if/1 you/PRP/you/1 predict/VBP/predict/3 NewDate/NNP/newdate/0 instead/RB/instead/1 of/IN/of/1 passenger_numbers/NNS/passenger_numbers/0 ./././0 Change/VB/change/1 the/DT/the/1 Classify/NNP/classify/4 panel/NN/panel/3 to/TO/to/1 predict/VB/predict/3 passenger_numbers/NNS/passenger_numbers/0 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+If/IN/if/1 you/PRP/you/1 look/VBP/look/1 in/IN/in/1 the/DT/the/1 Classifier/NNP/classifier/0 output/NN/output/3 at/IN/at/1 the/DT/the/1 model/NN/model/2 produced/VBD/produce/2 ,/,/,/0 you/PRP/you/1 will/MD/will/1 see/VB/see/1 that/DT/that/1 SMOreg/NNP/smoreg/0 has/VBZ/have/1 normalized/VBN/normal/1 the/DT/the/1 NewDate/NNP/newdate/0 parameter/NN/parameter/4 ./././0 To/TO/to/1 make/VB/make/1 a/DT/a/1 comparison/NN/compare/2 with/IN/with/1 the/DT/the/1 linear/JJ/linear/4 regression/NN/regress/4 model/NN/model/2 produced/VBN/produce/2 in/IN/in/1 the/DT/the/1 lesson/NN/lesson/2 video/NN/video/1 ,/,/,/0 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 disable/VB/disabled/3 this/DT/this/1 normalization/NN/normal/1 operation/NN/operate/2 ./././0 Do/NNP/do/1 so/RB/so/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 model/NN/model/2 produced/VBN/produce/2 ?/./?/0 
+0.36*passenger_numbers/NNS/0.36*passenger_numbers/0 –/VBD/–/0 26.98/CD/26.98/0 
+0.65*NewDate/CD/0.65*newdate/0 +/CD/+/0 0.00/CD/0.00/0 
+2.66*NewDate/CD/2.66*newdate/0 +/CD/+/0 90.44/CD/90.44/0 
+2.41*NewDate/CD/2.41*newdate/0 +/CD/+/0 99.00/CD/99.00/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+2.41*NewDate/CD/2.41*newdate/0 +/CD/+/0 99.00/CD/99.00/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 predicting/VBG/predict/3 NewDate/NNP/newdate/0 instead/RB/instead/1 of/IN/of/1 passenger_numbers/NNS/passenger_numbers/0 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 need/VBP/need/1 to/TO/to/1 look/VB/look/1 at/IN/at/1 the/DT/the/1 filterType/JJ/filtertype/0 parameter/NN/parameter/4 of/IN/of/1 SMOreg/NNP/smoreg/0 ,/,/,/0 and/CC/and/1 change/VB/change/1 it/PRP/it/1 to/TO/to/1 No/DT/no/1 normalization/standardization/NN/normalization/standardization/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+This/DT/this/1 model/NN/model/2 is/VBZ/be/1 the/DT/the/1 one/NN/one/1 produced/VBN/produce/2 by/IN/by/1 LinearRegression/NNP/linearregression/0 ;/:/;/0 you/PRP/you/1 can/MD/can/1 compare/VB/compare/2 it/PRP/it/1 with/IN/with/1 SMOreg/NNP/smoreg/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Now/RB/now/1 add/VBZ/add/1 a/DT/a/1 lagged/JJ/lag/5 variable/NN/vary/2 ./././0 
+In/IN/in/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ,/,/,/0 copy/VBP/copy/2 the/DT/the/1 passenger_numbers/NNS/passenger_numbers/0 attribute/VBP/attribute/3 and/CC/and/1 apply/VBP/apply/2 the/DT/the/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 filter/NN/filter/3 with/IN/with/1 a/DT/a/1 parameter/NN/parameter/4 of/IN/of/1 –12/JJ/–12/0 months/NNS/month/1 to/TO/to/1 the/DT/the/1 new/JJ/new/1 attribute/NN/attribute/3 ./././0 Classify/VB/classify/4 with/IN/with/1 SMOreg/NNP/smoreg/0 ./././0 (/(/(/0 You/PRP/you/1 should/MD/should/1 be/VB/be/1 predicting/VBG/predict/3 the/DT/the/1 future/NN/future/2 from/IN/from/1 the/DT/the/1 past/NN/past/1 ,/,/,/0 not/RB/not/1 the/DT/the/1 other/JJ/other/1 way/NN/way/1 round/NN/round/1 ,/,/,/0 so/RB/so/1 think/VB/think/1 carefully/RB/care/1 which/WDT/which/1 version/NN/version/2 of/IN/of/1 the/DT/the/1 passenger_numbers/NNS/passenger_numbers/0 attribute/VBP/attribute/3 should/MD/should/1 be/VB/be/1 the/DT/the/1 class/NN/class/1 ./././0 )/)/)/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 ?/./?/0 
+0/CD/0/0 %/NN/%/0 
+14.6/CD/14.6/0 %/NN/%/0 
+23.7/CD/23.7/0 %/NN/%/0 
+36.3/CD/36.3/0 %/NN/%/0 
+38.8/CD/38.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+38.8/CD/38.8/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Many/JJ/many/1 things/NNS/thing/1 can/MD/can/1 go/VB/go/1 wrong/JJ/wrong/1 here/RB/here/1 ./././0 
+Use/VB/use/1 the/DT/the/1 Copy/NNP/copy/2 filter/NN/filter/3 to/TO/to/1 copy/VB/copy/2 the/DT/the/1 attribute/NN/attribute/3 ./././0 Here/RB/here/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 specify/VB/specify/3 which/WDT/which/1 attribute/NN/attribute/3 to/TO/to/1 copy/NN/copy/2 ./././0 
+In/IN/in/1 the/DT/the/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 filter/NN/filter/3 ,/,/,/0 specify/VB/specify/3 –12/NNP/–12/0 as/IN/as/1 the/DT/the/1 instanceRange/NN/instancerange/0 and/CC/and/1 3/CD/3/0 (/(/(/0 the/DT/the/1 copied/VBN/copy/2 attribute/NN/attribute/3 )/)/)/0 as/IN/as/1 the/DT/the/1 attributeIndices/NNS/attributeindices/0 ./././0 Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 check/VB/check/1 that/IN/that/1 the/DT/the/1 translation/NN/translate/3 has/VBZ/have/1 been/VBN/be/1 done/VBN/do/1 correctly/RB/correct/2 using/VBG/use/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ’/NNP/’/0 s/NN/be/1 Edit/NNP/edit/2 button/NN/button/2 ./././0 If/IN/if/1 it/PRP/it/1 hasn/VBZ/have/1 ’/JJ/’/0 t/NN/not/1 ,/,/,/0 note/NN/note/1 that/IN/that/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 doesn/VBD/do/1 ’/NNP/’/0 t/NN/not/1 apply/NN/apply/2 translation/NN/translate/3 to/TO/to/1 what/WP/what/1 it/PRP/it/1 thinks/VBZ/think/1 is/VBZ/be/1 the/DT/the/1 “/JJ/“/0 class/NN/class/1 ”/NNP/”/0 attribute—by/NN/attribute—by/0 default/NN/default/5 ,/,/,/0 the/DT/the/1 last/JJ/last/1 attribute/NN/attribute/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Many/JJ/many/1 things/NNS/thing/1 can/MD/can/1 go/VB/go/1 wrong/JJ/wrong/1 here/RB/here/1 ./././0 
+Use/VB/use/1 the/DT/the/1 Copy/NNP/copy/2 filter/NN/filter/3 to/TO/to/1 copy/VB/copy/2 the/DT/the/1 attribute/NN/attribute/3 ./././0 Here/RB/here/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 specify/VB/specify/3 which/WDT/which/1 attribute/NN/attribute/3 to/TO/to/1 copy/NN/copy/2 ./././0 
+In/IN/in/1 the/DT/the/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 filter/NN/filter/3 ,/,/,/0 specify/VB/specify/3 –12/NNP/–12/0 as/IN/as/1 the/DT/the/1 instanceRange/NN/instancerange/0 and/CC/and/1 3/CD/3/0 (/(/(/0 the/DT/the/1 copied/VBN/copy/2 attribute/NN/attribute/3 )/)/)/0 as/IN/as/1 the/DT/the/1 attributeIndices/NNS/attributeindices/0 ./././0 Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 check/VB/check/1 that/IN/that/1 the/DT/the/1 translation/NN/translate/3 has/VBZ/have/1 been/VBN/be/1 done/VBN/do/1 correctly/RB/correct/2 using/VBG/use/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ’/NNP/’/0 s/NN/be/1 Edit/NNP/edit/2 button/NN/button/2 ./././0 If/IN/if/1 it/PRP/it/1 hasn/VBZ/have/1 ’/JJ/’/0 t/NN/not/1 ,/,/,/0 note/NN/note/1 that/IN/that/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 doesn/VBD/do/1 ’/NNP/’/0 t/NN/not/1 apply/NN/apply/2 translation/NN/translate/3 to/TO/to/1 what/WP/what/1 it/PRP/it/1 thinks/VBZ/think/1 is/VBZ/be/1 the/DT/the/1 “/JJ/“/0 class/NN/class/1 ”/NNP/”/0 attribute—by/NN/attribute—by/0 default/NN/default/5 ,/,/,/0 the/DT/the/1 last/JJ/last/1 attribute/NN/attribute/3 ./././0 
+Perfect/NNP/perfect/1 prediction/NN/predict/3 ?/./?/0 Zero/NNP/zero/1 error/NN/error/3 ?/./?/0 You/PRP/you/1 ’/VBP/’/0 re/VB/be/1 probably/RB/probably/1 predicting/VBG/predict/3 a/DT/a/1 class/NN/class/1 value/NN/value/2 that/WDT/that/1 is/VBZ/be/1 already/RB/already/1 present/JJ/present/1 as/IN/as/1 an/DT/a/1 attribute/NN/attribute/3 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 !/./!/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Many/JJ/many/1 things/NNS/thing/1 can/MD/can/1 go/VB/go/1 wrong/JJ/wrong/1 here/RB/here/1 ./././0 
+Use/VB/use/1 the/DT/the/1 Copy/NNP/copy/2 filter/NN/filter/3 to/TO/to/1 copy/VB/copy/2 the/DT/the/1 attribute/NN/attribute/3 ./././0 Here/RB/here/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 specify/VB/specify/3 which/WDT/which/1 attribute/NN/attribute/3 to/TO/to/1 copy/NN/copy/2 ./././0 
+In/IN/in/1 the/DT/the/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 filter/NN/filter/3 ,/,/,/0 specify/VB/specify/3 –12/NNP/–12/0 as/IN/as/1 the/DT/the/1 instanceRange/NN/instancerange/0 and/CC/and/1 3/CD/3/0 (/(/(/0 the/DT/the/1 copied/VBN/copy/2 attribute/NN/attribute/3 )/)/)/0 as/IN/as/1 the/DT/the/1 attributeIndices/NNS/attributeindices/0 ./././0 Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 check/VB/check/1 that/IN/that/1 the/DT/the/1 translation/NN/translate/3 has/VBZ/have/1 been/VBN/be/1 done/VBN/do/1 correctly/RB/correct/2 using/VBG/use/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ’/NNP/’/0 s/NN/be/1 Edit/NNP/edit/2 button/NN/button/2 ./././0 If/IN/if/1 it/PRP/it/1 hasn/VBZ/have/1 ’/JJ/’/0 t/NN/not/1 ,/,/,/0 note/NN/note/1 that/IN/that/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 doesn/VBD/do/1 ’/NNP/’/0 t/NN/not/1 apply/NN/apply/2 translation/NN/translate/3 to/TO/to/1 what/WP/what/1 it/PRP/it/1 thinks/VBZ/think/1 is/VBZ/be/1 the/DT/the/1 “/JJ/“/0 class/NN/class/1 ”/NNP/”/0 attribute—by/NN/attribute—by/0 default/NN/default/5 ,/,/,/0 the/DT/the/1 last/JJ/last/1 attribute/NN/attribute/3 ./././0 
+You/PRP/you/1 ’/VBP/’/0 re/VB/be/1 probably/RB/probably/1 predicting/VBG/predict/3 the/DT/the/1 time-shifted/JJ/time-shifted/0 attribute/NN/attribute/3 from/IN/from/1 the/DT/the/1 original/JJ/original/2 one/CD/one/1 –/NN/–/0 in/IN/in/1 other/JJ/other/1 words/NNS/word/1 ,/,/,/0 predicting/VBG/predict/3 the/DT/the/1 past/NN/past/1 from/IN/from/1 the/DT/the/1 future/NN/future/2 !/./!/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Many/JJ/many/1 things/NNS/thing/1 can/MD/can/1 go/VB/go/1 wrong/JJ/wrong/1 here/RB/here/1 ./././0 
+Use/VB/use/1 the/DT/the/1 Copy/NNP/copy/2 filter/NN/filter/3 to/TO/to/1 copy/VB/copy/2 the/DT/the/1 attribute/NN/attribute/3 ./././0 Here/RB/here/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 specify/VB/specify/3 which/WDT/which/1 attribute/NN/attribute/3 to/TO/to/1 copy/NN/copy/2 ./././0 
+In/IN/in/1 the/DT/the/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 filter/NN/filter/3 ,/,/,/0 specify/VB/specify/3 –12/NNP/–12/0 as/IN/as/1 the/DT/the/1 instanceRange/NN/instancerange/0 and/CC/and/1 3/CD/3/0 (/(/(/0 the/DT/the/1 copied/VBN/copy/2 attribute/NN/attribute/3 )/)/)/0 as/IN/as/1 the/DT/the/1 attributeIndices/NNS/attributeindices/0 ./././0 Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 check/VB/check/1 that/IN/that/1 the/DT/the/1 translation/NN/translate/3 has/VBZ/have/1 been/VBN/be/1 done/VBN/do/1 correctly/RB/correct/2 using/VBG/use/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ’/NNP/’/0 s/NN/be/1 Edit/NNP/edit/2 button/NN/button/2 ./././0 If/IN/if/1 it/PRP/it/1 hasn/VBZ/have/1 ’/JJ/’/0 t/NN/not/1 ,/,/,/0 note/NN/note/1 that/IN/that/1 TimeSeriesTranslate/NNP/timeseriestranslate/0 doesn/VBD/do/1 ’/NNP/’/0 t/NN/not/1 apply/NN/apply/2 translation/NN/translate/3 to/TO/to/1 what/WP/what/1 it/PRP/it/1 thinks/VBZ/think/1 is/VBZ/be/1 the/DT/the/1 “/JJ/“/0 class/NN/class/1 ”/NNP/”/0 attribute—by/NN/attribute—by/0 default/NN/default/5 ,/,/,/0 the/DT/the/1 last/JJ/last/1 attribute/NN/attribute/3 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 model/NN/model/2 is/VBZ/be/1 not/RB/not/1 a/DT/a/1 good/JJ/good/1 one/NN/one/1 because/IN/because/1 the/DT/the/1 first/JJ/first/1 12/CD/12/0 instances/NNS/instance/2 have/VBP/have/1 missing/VBG/miss/1 values/NNS/value/2 for/IN/for/1 the/DT/the/1 lagged/JJ/lag/5 parameter/NN/parameter/4 ,/,/,/0 and/CC/and/1 SMOreg/NNP/smoreg/0 replaces/NNS/replace/2 these/DT/this/1 by/IN/by/1 their/PRP$/they/1 average/JJ/average/2 value/NN/value/2 over/IN/over/1 the/DT/the/1 dataset/NN/dataset/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 inappropriate/JJ/appropriate/3 ./././0 
+Delete/NNP/delete/5 the/DT/the/1 first/JJ/first/1 12/CD/12/0 instances/NNS/instance/2 using/VBG/use/1 the/DT/the/1 RemoveRange/NNP/removerange/0 instance/NN/instance/2 filter/NN/filter/3 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 of/IN/of/1 SMOreg/NNP/smoreg/0 now/RB/now/1 ?/./?/0 
+12.6/CD/12.6/0 
+14.7/CD/14.7/0 
+15.9/CD/15.9/0 
+16.4/CD/16.4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+16.4/CD/16.4/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Specify/RB/specify/3 1–12/CD/1–12/0 as/IN/as/1 the/DT/the/1 instancesIndices/NNS/instancesindices/0 parameter/NN/parameter/4 of/IN/of/1 the/DT/the/1 RemoveRange/NNP/removerange/0 filter/NN/filter/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Specify/RB/specify/3 1–12/CD/1–12/0 as/IN/as/1 the/DT/the/1 instancesIndices/NNS/instancesindices/0 parameter/NN/parameter/4 of/IN/of/1 the/DT/the/1 RemoveRange/NNP/removerange/0 filter/NN/filter/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Specify/RB/specify/3 1–12/CD/1–12/0 as/IN/as/1 the/DT/the/1 instancesIndices/NNS/instancesindices/0 parameter/NN/parameter/4 of/IN/of/1 the/DT/the/1 RemoveRange/NNP/removerange/0 filter/NN/filter/3 
+You/PRP/you/1 ’/VBP/’/0 re/VB/be/1 probably/RB/probably/1 predicting/VBG/predict/3 the/DT/the/1 copied/JJ/copy/2 parameter/NN/parameter/4 ,/,/,/0 i.e/NN/i.e/0 ./././0 the/DT/the/1 time-shifted/JJ/time-shifted/0 version/NN/version/2 of/IN/of/1 passenger_numbers/NNS/passenger_numbers/0 –/VBP/–/0 again/RB/again/1 !/./!/0 
+
+Question/NN/question/1 7/CD/7/0 
+Check/VB/check/1 the/DT/the/1 model/NN/model/2 produced/VBD/produce/2 to/TO/to/1 see/VB/see/1 whether/IN/whether/1 the/DT/the/1 parameters/NNS/parameter/4 have/VBP/have/1 been/VBN/be/1 normalized/VBN/normal/1 ,/,/,/0 which/WDT/which/1 means/VBZ/mean/1 that/IN/that/1 you/PRP/you/1 can/MD/can/1 not/RB/not/1 compare/VB/compare/2 it/PRP/it/1 with/IN/with/1 the/DT/the/1 linear/JJ/linear/4 regression/NN/regress/4 model/NN/model/2 produced/VBN/produce/2 in/IN/in/1 the/DT/the/1 lesson/NN/lesson/2 video/NN/video/1 ./././0 If/IN/if/1 so/RB/so/1 ,/,/,/0 you/PRP/you/1 should/MD/should/1 prevent/VB/prevent/2 this/DT/this/1 normalization/NN/normal/1 operation/NN/operate/2 ./././0 Do/NNP/do/1 so/RB/so/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 model/NN/model/2 produced/VBN/produce/2 ?/./?/0 (/(/(/0 In/IN/in/1 the/DT/the/1 answers/NNS/answer/1 below/IN/below/1 ,/,/,/0 Lag_12/NNP/lag_12/0 is/VBZ/be/1 the/DT/the/1 new/JJ/new/1 attribute/NN/attribute/3 ,/,/,/0 i.e/NN/i.e/0 ./././0 the/DT/the/1 lagged/JJ/lag/5 version/NN/version/2 of/IN/of/1 passenger_numbers/NNS/passenger_numbers/0 ./././0 )/)/)/0 
+0.07/CD/0.07/0 */JJ/*/0 NewDate/NNP/newdate/0 +/NNP/+/0 1.07/CD/1.07/0 */NNP/*/0 Lag_12/NNP/lag_12/0 +/VBD/+/0 11.62/CD/11.62/0 
+1.07/CD/1.07/0 */JJ/*/0 Lag_12/NNP/lag_12/0 +/VBD/+/0 12.67/CD/12.67/0 
+0.05/CD/0.05/0 */JJ/*/0 NewDate/NNP/newdate/0 +/NNP/+/0 0.90/CD/0.90/0 */NNP/*/0 Lag_12/NNP/lag_12/0 +/VBD/+/0 0.02/CD/0.02/0 
+0.19/CD/0.19/0 */JJ/*/0 NewDate/NNP/newdate/0 +/NNP/+/0 0.85/CD/0.85/0 */NN/*/0 passenger_numbers/NNS/passenger_numbers/0 +/VBP/+/0 5.29/CD/5.29/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.07/CD/0.07/0 */JJ/*/0 NewDate/NNP/newdate/0 +/NNP/+/0 1.07/CD/1.07/0 */NNP/*/0 Lag_12/NNP/lag_12/0 +/VBD/+/0 11.62/CD/11.62/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Note/NN/note/1 that/IN/that/1 suppressing/VBG/suppress/4 normalization/NN/normal/1 has/VBZ/have/1 changed/VBN/change/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 slightly/RB/slight/1 ,/,/,/0 from/IN/from/1 16.4/CD/16.4/0 to/TO/to/1 16.5/CD/16.5/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 model/NN/model/2 produced/VBN/produce/2 by/IN/by/1 LinearRegression/NNP/linearregression/0 ./././0 It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 interesting/VBG/interest/1 that/IN/that/1 the/DT/the/1 coefficient/NN/coefficient/5 of/IN/of/1 the/DT/the/1 lagged/VBN/lag/5 variable/NN/vary/2 is/VBZ/be/1 the/DT/the/1 same/JJ/same/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Make/NNP/make/1 sure/NN/sure/1 that/WDT/that/1 SMOreg/NNP/smoreg/0 ’/NNP/’/0 s/NN/be/1 filterType/NN/filtertype/0 is/VBZ/be/1 set/VBN/set/1 to/TO/to/1 No/DT/no/1 normalization/standardization/NN/normalization/standardization/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 predicting/VBG/predict/3 the/DT/the/1 time-shifted/JJ/time-shifted/0 version/NN/version/2 of/IN/of/1 passenger_numbers/NNS/passenger_numbers/0 ?/./?/0 –/NN/–/0 again/RB/again/1 !/./!/0 
+
+Question/NN/question/1 8/CD/8/0 
+So/RB/so/1 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 better/RBR/better/1 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 RMS/NNP/rms/0 error/NN/error/3 ?/./?/0 
+SMOreg/NN/smoreg/0 
+LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+In/IN/in/1 the/DT/the/1 video/NN/video/1 ,/,/,/0 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 obtained/VBD/obtain/3 for/IN/for/1 LinearRegression/NNP/linearregression/0 was/VBD/be/1 16.0/CD/16.0/0 ,/,/,/0 whereas/RB/whereas/2 here/RB/here/1 we/PRP/we/1 have/VBP/have/1 found/VBN/find/1 16.4/CD/16.4/0 for/IN/for/1 SMOreg/NNP/smoreg/0 (/(/(/0 16.5/CD/16.5/0 without/IN/without/1 normalization/NN/normal/1 )/)/)/0 ./././0 
+This/DT/this/1 is/VBZ/be/1 surprising/JJ/surprise/1 ,/,/,/0 because/IN/because/1 support/NN/support/1 vector/NN/vector/6 machines/NNS/machine/1 are/VBP/be/1 more/RBR/more/1 sophisticated/JJ/sophisticated/3 learning/NN/learn/1 structures/NNS/structure/3 than/IN/than/1 linear/JJ/linear/4 regression/NN/regress/4 ./././0 However/RB/however/1 ,/,/,/0 all/PDT/all/1 this/DT/this/1 evaluation/NN/evaluate/3 has/VBZ/have/1 been/VBN/be/1 done/VBN/do/1 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 –/NNP/–/0 which/WDT/which/1 is/VBZ/be/1 always/RB/always/1 misleading/VBG/lead/1 ./././0 In/IN/in/1 the/DT/the/1 next/JJ/next/1 section/NN/section/2 we/PRP/we/1 will/MD/will/1 see/VB/see/1 what/WP/what/1 happens/VBZ/happen/1 on/IN/on/1 independent/JJ/independent/3 test/NN/test/1 sets/NNS/set/1 ./././0 
+
+Question/NN/question/1 8/CD/8/0 
+So/RB/so/1 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 better/RBR/better/1 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 RMS/NNP/rms/0 error/NN/error/3 ?/./?/0 
+SMOreg/NN/smoreg/0 
+LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

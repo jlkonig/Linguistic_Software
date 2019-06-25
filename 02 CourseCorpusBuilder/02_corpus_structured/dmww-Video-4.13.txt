@@ -1,0 +1,3 @@
+Ensemble learning
+Sometimes committees make better decisions than individuals. An ensemble of different classification methods can be applied to the same problem and vote on the classification of test instances. Bagging, randomization, boosting and stacking are ensemble-based classification methods. It is good to have diverse classifiers in the ensemble, and these methods create diversity in different ways. Instead of voting, stacking combines results from an ensemble of different kinds of learner using another learner.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

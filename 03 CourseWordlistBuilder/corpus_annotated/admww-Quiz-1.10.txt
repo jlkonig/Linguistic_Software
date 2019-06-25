@@ -1,0 +1,157 @@
+Evaluating/VBG/evaluate/3 on/IN/on/1 a/DT/a/1 test/NN/test/1 set/NN/set/1 
+Question/NN/question/1 1/CD/1/0 
+Open/VB/open/1 the/DT/the/1 airline.arff/NN/airline.arff/0 dataset/NN/dataset/0 ./././0 Go/VB/go/1 to/TO/to/1 the/DT/the/1 Forecast/NNP/forecast/3 panel/NN/panel/3 and/CC/and/1 check/VB/check/1 Perform/NNP/perform/2 evaluation/NN/evaluate/3 ./././0 
+In/IN/in/1 Advanced/NNP/advance/2 configuration/NN/configure/4 ,/,/,/0 ensure/VB/ensure/3 that/DT/that/1 LinearRegression/NNP/linearregression/0 (/(/(/0 the/DT/the/1 default/NN/default/5 )/)/)/0 is/VBZ/be/1 chosen/VBN/choose/1 as/IN/as/1 the/DT/the/1 base/NN/base/1 learner/NN/learn/1 ./././0 Under/IN/under/1 Lag/NNP/lag/5 creation/NN/create/2 ,/,/,/0 More/JJR/more/1 options/NNS/option/2 ,/,/,/0 check/VB/check/1 Remove/NNP/remove/2 leading/VBG/lead/1 instances/NNS/instance/2 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 of/IN/of/1 LinearRegression/NNP/linearregression/0 on/IN/on/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ?/./?/0 
+6.9/CD/6.9/0 
+8.4/CD/8.4/0 
+8.7/CD/8.7/0 
+10.6/CD/10.6/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+8.7/CD/8.7/0 
+
+Question/NN/question/1 2/CD/2/0 
+Go/VB/go/1 to/TO/to/1 the/DT/the/1 Evaluation/NNP/evaluate/3 panel/NN/panel/3 and/CC/and/1 hold/VB/hold/1 out/RP/out/1 24/CD/24/0 instances/NNS/instance/2 for/IN/for/1 evaluation/NN/evaluate/3 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 ?/./?/0 
+27.1/CD/27.1/0 
+32.9/CD/32.9/0 
+52.9/CD/52.9/0 
+58.0/CD/58.0/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+58.0/CD/58.0/0 
+
+Question/NN/question/1 3/CD/3/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ?/./?/0 
+5.3/CD/5.3/0 
+5.5/CD/5.5/0 
+6.4/CD/6.4/0 
+8.7/CD/8.7/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+6.4/CD/6.4/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 training/NN/train/1 error/NN/error/3 was/VBD/be/1 8.7/CD/8.7/0 before/IN/before/1 ,/,/,/0 but/CC/but/1 has/VBZ/have/1 changed/VBN/change/1 because/IN/because/1 the/DT/the/1 training/NN/train/1 set/NN/set/1 is/VBZ/be/1 different/JJ/different/1 –/NN/–/0 it/PRP/it/1 has/VBZ/have/1 24/CD/24/0 fewer/JJR/few/1 instances/NNS/instance/2 
+
+Question/NN/question/1 4/CD/4/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 most/RBS/most/1 likely/JJ/likely/2 reason/NN/reason/1 for/IN/for/1 the/DT/the/1 huge/JJ/huge/1 disparity/NN/disparity/6 between/IN/between/1 test/NN/test/1 and/CC/and/1 training/NN/train/1 set/VBN/set/1 errors/NNS/error/3 you/PRP/you/1 have/VBP/have/1 just/RB/just/1 found/VBN/find/1 ?/./?/0 
+The/DT/the/1 test/NN/test/1 data/NN/data/3 represents/VBZ/represent/2 values/NNS/value/2 at/IN/at/1 later/RB/late/1 times/NNS/time/1 than/IN/than/1 the/DT/the/1 training/NN/train/1 set/NN/set/1 
+The/DT/the/1 difference/NN/difference/1 is/VBZ/be/1 due/JJ/due/2 to/TO/to/1 statistical/JJ/statistic/3 variation/NN/vary/2 
+The/DT/the/1 training/NN/train/1 set/NN/set/1 is/VBZ/be/1 far/RB/far/1 larger/JJR/large/1 than/IN/than/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 
+The/DT/the/1 model/NN/model/2 is/VBZ/be/1 overfitted/VBN/overfitted/0 to/TO/to/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+The/DT/the/1 model/NN/model/2 is/VBZ/be/1 overfitted/VBN/overfitted/0 to/TO/to/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 disparity/NN/disparity/6 is/VBZ/be/1 so/RB/so/1 huge/JJ/huge/1 that/IN/that/1 it/PRP/it/1 seems/VBZ/seem/1 overwhelmingly/RB/overwhelm/3 likely/JJ/likely/2 that/IN/that/1 the/DT/the/1 model/NN/model/2 overfits/VBZ/overfits/0 the/DT/the/1 training/NN/train/1 data/NNS/data/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 certainly/RB/certain/1 a/DT/a/1 possibility/NN/possible/1 ./././0 A/DT/a/1 fundamental/JJ/fundamental/3 assumption/NN/assumption/3 of/IN/of/1 machine/NN/machine/1 learning/NN/learn/1 is/VBZ/be/1 that/IN/that/1 both/DT/both/1 training/NN/train/1 and/CC/and/1 test/NN/test/1 data/NNS/data/3 represent/VBP/represent/2 the/DT/the/1 same/JJ/same/1 fundamental/JJ/fundamental/3 statistical/JJ/statistic/3 distribution/NN/distribute/3 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 unlikely/JJ/likely/2 to/TO/to/1 be/VB/be/1 the/DT/the/1 case/NN/case/1 for/IN/for/1 time/NN/time/1 series/NN/series/2 ,/,/,/0 which/WDT/which/1 are/VBP/be/1 generally/RB/general/1 either/RB/either/1 increasing/VBG/increase/2 or/CC/or/1 decreasing/VBG/decrease/3 ./././0 However/RB/however/1 ,/,/,/0 one/CD/one/1 of/IN/of/1 the/DT/the/1 other/JJ/other/1 choices/NNS/choice/1 identifies/NNS/identify/2 what/WP/what/1 is/VBZ/be/1 probably/RB/probably/1 a/DT/a/1 far/RB/far/1 stronger/JJR/strong/1 effect/NN/effect/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 difference/NN/difference/1 could/MD/could/1 conceivably/RB/conceive/3 be/VB/be/1 due/JJ/due/2 to/TO/to/1 statistical/JJ/statistic/3 variation/NN/vary/2 ,/,/,/0 but/CC/but/1 there/RB/there/1 ’/NNP/’/0 s/VBD/be/1 a/DT/a/1 much/RB/much/1 more/RBR/more/1 likely/JJ/likely/2 answer/NN/answer/1 
+
+Question/NN/question/1 5/CD/5/0 
+Now/RB/now/1 change/VBP/change/1 the/DT/the/1 base/NN/base/1 learner/NN/learn/1 to/TO/to/1 SMOreg/NNP/smoreg/0 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 and/CC/and/1 training/VBG/train/1 data/NNS/data/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 6.1/CD/6.1/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 8.9/CD/8.9/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 22.8/CD/22.8/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 27.5/CD/27.5/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 6.1/CD/6.1/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 8.9/CD/8.9/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 22.8/CD/22.8/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 27.5/CD/27.5/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 27.5/CD/27.5/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 8.9/CD/8.9/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 about/IN/about/1 the/DT/the/1 figures/NNS/figure/1 for/IN/for/1 SMOreg/NNP/smoreg/0 compared/VBN/compare/2 with/IN/with/1 the/DT/the/1 corresponding/JJ/correspond/3 ones/NNS/one/1 for/IN/for/1 LinearRegression/NNP/linearregression/0 ?/./?/0 
+Neither/DT/neither/2 SMOreg/NNP/smoreg/0 nor/CC/nor/2 LinearRegression/NNP/linearregression/0 overfit/VBP/overfit/0 very/RB/very/1 much/JJ/much/1 
+Overfitting/VBG/overfitting/0 occurs/NNS/occur/2 for/IN/for/1 LinearRegression/NNP/linearregression/0 but/CC/but/1 not/RB/not/1 for/IN/for/1 SMOreg/NNP/smoreg/0 
+Overfitting/VBG/overfitting/0 occurs/NNS/occur/2 for/IN/for/1 SMOreg/NNP/smoreg/0 but/CC/but/1 not/RB/not/1 for/IN/for/1 LinearRegression/NN/linearregression/0 
+Overfitting/NN/overfitting/0 is/VBZ/be/1 present/JJ/present/1 for/IN/for/1 SMOreg/NNP/smoreg/0 ,/,/,/0 but/CC/but/1 to/TO/to/1 a/DT/a/1 lesser/JJR/less/1 degree/NN/degree/1 than/IN/than/1 for/IN/for/1 LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Overfitting/NN/overfitting/0 is/VBZ/be/1 present/JJ/present/1 for/IN/for/1 SMOreg/NNP/smoreg/0 ,/,/,/0 but/CC/but/1 to/TO/to/1 a/DT/a/1 lesser/JJR/less/1 degree/NN/degree/1 than/IN/than/1 for/IN/for/1 LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 difference/NN/difference/1 between/IN/between/1 test/NN/test/1 and/CC/and/1 training/NN/train/1 errors/NNS/error/3 ,/,/,/0 which/WDT/which/1 indicates/VBZ/indicate/2 overfitting/VBG/overfitting/0 ,/,/,/0 is/VBZ/be/1 substantial/JJ/substantial/3 for/IN/for/1 both/DT/both/1 SMOreg/NNP/smoreg/0 and/CC/and/1 LinearRegression/NNP/linearregression/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 difference/NN/difference/1 between/IN/between/1 test/NN/test/1 and/CC/and/1 training/NN/train/1 errors/NNS/error/3 ,/,/,/0 which/WDT/which/1 indicates/VBZ/indicate/2 overfitting/VBG/overfitting/0 ,/,/,/0 is/VBZ/be/1 substantial/JJ/substantial/3 for/IN/for/1 SMOreg/NNP/smoreg/0 as/RB/as/1 well/RB/well/1 as/IN/as/1 for/IN/for/1 LinearRegression/NN/linearregression/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 difference/NN/difference/1 between/IN/between/1 test/NN/test/1 and/CC/and/1 training/NN/train/1 errors/NNS/error/3 ,/,/,/0 which/WDT/which/1 indicates/VBZ/indicate/2 overfitting/VBG/overfitting/0 ,/,/,/0 is/VBZ/be/1 substantial/JJ/substantial/3 for/IN/for/1 LinearRegression/NNP/linearregression/0 as/RB/as/1 well/RB/well/1 as/IN/as/1 for/IN/for/1 SMOreg/NNP/smoreg/0 
+
+Question/NN/question/1 7/CD/7/0 
+If/IN/if/1 you/PRP/you/1 look/VBP/look/1 at/IN/at/1 the/DT/the/1 model/NN/model/2 that/WDT/that/1 SMOreg/NNP/smoreg/0 has/VBZ/have/1 just/RB/just/1 created/VBN/create/2 you/PRP/you/1 will/MD/will/1 see/VB/see/1 that/IN/that/1 it/PRP/it/1 involves/VBZ/involve/1 a/DT/a/1 linear/JJ/linear/4 sum/NN/sum/3 with/IN/with/1 43/CD/43/0 terms/NNS/term/1 (/(/(/0 plus/CC/plus/1 a/DT/a/1 constant/JJ/constant/2 )/)/)/0 ./././0 Let/VB/let/1 ’/JJ/’/0 s/NNS/be/1 make/VBP/make/1 a/DT/a/1 simpler/NN/simple/1 model/NN/model/2 ./././0 
+On/IN/on/1 the/DT/the/1 lag/NN/lag/5 creation/NN/create/2 panel/NN/panel/3 :/:/:/0 
+use/NN/use/1 custom/NN/custom/3 lag/NN/lag/5 lengths/NNS/length/2 ,/,/,/0 setting/VBG/set/1 both/DT/both/1 minimum/JJ/minimum/3 and/CC/and/1 maximum/JJ/maximum/2 to/TO/to/1 12/CD/12/0 
+under/IN/under/1 More/JJR/more/1 options/NNS/option/2 ,/,/,/0 turn/VB/turn/1 off/RP/off/1 both/DT/both/1 powers/NNS/power/1 of/IN/of/1 time/NN/time/1 and/CC/and/1 products/NNS/product/2 of/IN/of/1 time/NN/time/1 and/CC/and/1 lagged/VBD/lag/5 variables/NNS/vary/2 
+On/IN/on/1 the/DT/the/1 Periodic/NNP/period/2 attributes/VBZ/attribute/3 panel/NN/panel/3 :/:/:/0 
+check/NN/check/1 Customize/NNP/customise/7 but/CC/but/1 leave/VBP/leave/1 all/PDT/all/1 the/DT/the/1 other/JJ/other/1 boxes/NNS/box/1 unchecked/VBD/check/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 of/IN/of/1 SMOreg/NNP/smoreg/0 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 and/CC/and/1 training/VBG/train/1 data/NNS/data/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 15.0/CD/15.0/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 16.9/CD/16.9/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 17.0/CD/17.0/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 17.9/CD/17.9/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 12.2/CD/12.2/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.0/CD/15.0/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.9/CD/15.9/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 16.9/CD/16.9/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 16.9/CD/16.9/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.9/CD/15.9/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Overfitting/NN/overfitting/0 is/VBZ/be/1 greatly/RB/great/1 reduced/VBN/reduce/2 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Overfitting/NN/overfitting/0 is/VBZ/be/1 greatly/RB/great/1 reduced/VBN/reduce/2 
+
+Question/NN/question/1 8/CD/8/0 
+With/IN/with/1 the/DT/the/1 current/JJ/current/2 settings/NNS/set/1 ,/,/,/0 what/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 of/IN/of/1 LinearRegression/NNP/linearregression/0 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 and/CC/and/1 training/VBG/train/1 data/NNS/data/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 12.4/CD/12.4/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 15.6/CD/15.6/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 16.6/CD/16.6/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 18.7/CD/18.7/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 12.4/CD/12.4/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.6/CD/15.6/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 16.6/CD/16.6/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 18.7/CD/18.7/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 18.7/CD/18.7/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.6/CD/15.6/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Comparing/VBG/compare/2 the/DT/the/1 performances/NNS/perform/2 of/IN/of/1 SMOreg/NNP/smoreg/0 and/CC/and/1 LinearRegression/NNP/linearregression/0 ,/,/,/0 SMOreg/NNP/smoreg/0 is/VBZ/be/1 a/DT/a/1 little/JJ/little/1 better/JJR/better/1 than/IN/than/1 LinearRegression/NN/linearregression/0 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 ;/:/;/0 they/PRP/they/1 are/VBP/be/1 about/IN/about/1 the/DT/the/1 same/JJ/same/1 on/IN/on/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 LinearRegression/NN/linearregression/0 is/VBZ/be/1 still/RB/still/1 perhaps/RB/perhaps/1 slightly/RB/slight/1 overfitted/VBN/overfitted/0 to/TO/to/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Comparing/VBG/compare/2 the/DT/the/1 performances/NNS/perform/2 of/IN/of/1 SMOreg/NNP/smoreg/0 and/CC/and/1 LinearRegression/NNP/linearregression/0 ,/,/,/0 SMOreg/NNP/smoreg/0 is/VBZ/be/1 a/DT/a/1 little/JJ/little/1 better/JJR/better/1 than/IN/than/1 LinearRegression/NN/linearregression/0 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 ;/:/;/0 they/PRP/they/1 are/VBP/be/1 about/IN/about/1 the/DT/the/1 same/JJ/same/1 on/IN/on/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 LinearRegression/NN/linearregression/0 is/VBZ/be/1 still/RB/still/1 perhaps/RB/perhaps/1 slightly/RB/slight/1 overfitted/VBN/overfitted/0 to/TO/to/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 
+
+Question/NN/question/1 8/CD/8/0 
+With/IN/with/1 the/DT/the/1 current/JJ/current/2 settings/NNS/set/1 ,/,/,/0 what/WP/what/1 is/VBZ/be/1 the/DT/the/1 RMS/NNP/rms/0 error/NN/error/3 of/IN/of/1 LinearRegression/NNP/linearregression/0 on/IN/on/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 and/CC/and/1 training/VBG/train/1 data/NNS/data/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 12.4/CD/12.4/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 15.6/CD/15.6/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 16.6/CD/16.6/0 
+Test/NNP/test/1 data/NNS/data/3 :/:/:/0 18.7/CD/18.7/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 12.4/CD/12.4/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 15.6/CD/15.6/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 16.6/CD/16.6/0 
+Training/VBG/train/1 data/NNS/data/3 :/:/:/0 18.7/CD/18.7/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

@@ -1,0 +1,3 @@
+Attribute selection using ranking
+The attribute selection methods we have examined so far strive to eliminate both irrelevant attributes and redundant ones. A simpler idea is to rank the effectiveness of each individual attribute, and choose the top few to use for classification, discarding the rest. This is lightning fast because it does not involve searching at all, but can only eliminate irrelevant attributes, not redundant ones. And the results are very sensitive to the number of attributes that are retained.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

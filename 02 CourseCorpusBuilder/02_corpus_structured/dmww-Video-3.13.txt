@@ -1,0 +1,3 @@
+Nearest neighbor
+“Nearest neighbor” (equivalently, “instance based”) is a classic method that often yields good results. Just stash away the training instances. Be lazy! – do  nothing until you have to make a prediction. Then, to classify a test instance, search the training set for the closest training instance and use its class. A similarity function is needed to measure “closeness”; you might want to normalize the attributes first; and you might want to use several neighbors and let them vote on the result.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

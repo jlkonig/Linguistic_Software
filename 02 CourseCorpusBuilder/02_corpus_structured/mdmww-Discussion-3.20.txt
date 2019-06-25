@@ -1,0 +1,6 @@
+Reflect on this week's Big Questions
+The Big Questions this week are, “Is it better to generate rules or trees?” and “What if there’s no class attribute?”
+We promised that by the end you’d be able to explain the important differences between rules and trees as knowledge representation methods. You’d know how to read an equivalent set of rules from a decision tree, and explain why it may well be excessively redundant. And you’d be able to use two rule-generating methods in Weka, and explain – at a high level – how they work.
+We also promised that you’d have some ideas on what to do with a dataset with no class attribute. You’d be able to apply association rule mining to seek interesting associations, and calculate the key parameters of support and confidence for any rule. You’d also be able to use different clustering methods, and be sceptical if the results look too good! And you’d be able to evaluate clusterings using the classification-by-clustering method.
+A lot of promises! Can you do these things? Any of them? All of them? And explain them to a colleague?
+Well, how did you get on?

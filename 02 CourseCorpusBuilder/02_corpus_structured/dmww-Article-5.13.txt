@@ -1,0 +1,61 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Labor
+      5.5
+      Regression_outliers
+      5.3
+      Weather
+      5.4
+      Classifiers
+      IBk
+      5.9
+      J48
+      5.5, 5.9
+      LeastMedSq
+      5.3
+      LinearRegression
+      5.3
+      Logistic
+      5.9
+      NaiveBayes
+      5.9
+      OneR
+      5.4, 5.9
+      SMO
+      5.9
+      ZeroR
+      5.9
+      Filters
+      AddClassification
+      5.3
+      AddExpression
+      5.2
+      Discretize
+      5.2
+      Normalize
+      5.2
+      PrincipalComponents
+      5.2
+      RemoveUseless
+      5.2
+      ReplaceMissingValues
+      5.5
+      Standardize
+      5.2
+      Packages
+      LeastMedSquared
+      5.3
+      Plus …
+      Missing values
+      5.4, 5.5
+      Outliers
+      5.3
+      Reading CSV files
+      5.3
+      Reidentification
+      5.6, 5.7
+      Visualize panel
+      5.3

@@ -1,0 +1,7 @@
+Reflect on this week’s Big Questions
+This week’s first Big Question is, “What’s in Weka’s LibSVM and LibLINEAR packages?”
+We promised that by the end you’d be able to explain what they do, why you would use them, and how to use them.
+And the second is, “How do you access R from Weka?”
+We promised that by the end you’d be able to explain what R is, why it’s important, and what you can do with it. And, of course, how to access R from Weka.
+The first question is easy. LibSVM and LibLINEAR are powerful implementations of support vector machines. LibSVM is very flexible; LibLINEAR is very fast. And now you can use them. But more importantly, you also learned some useful things about machine learning generally: the power of non-linear kernels, 1-class classification, and the L1 norm.
+As for the second question, now you know what R is, and how to create and use Weka’s R Console. It’s a powerful statistical programming language, and we only looked at a tiny subset of what it can do: impressive facilities for plotting data through the ggplot2 package for R; how to use R’s numerous regression and classification schemes just as you would any other Weka classifier through the MLR classifier; and how to access R’s comprehensive data preprocessing facilities from Weka’s Knowledge Flow interface through the RScriptExecutor component.

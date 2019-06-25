@@ -1,0 +1,23 @@
+Do/VB/do/1 it/PRP/it/1 yourself/PRP/you/1 !/./!/0 
+To/TO/to/1 set/VB/set/1 up/RP/up/1 Python/NNP/python/11 with/IN/with/1 Weka/NNP/weka/23 you/PRP/you/1 first/RB/first/1 need/VB/need/1 to/TO/to/1 install/VB/install/3 Python/NNP/python/11 ,/,/,/0 and/CC/and/1 then/RB/then/1 install/VB/install/3 the/DT/the/1 python-weka-wrapper/JJ/python-weka-wrapper/0 library/NN/library/2 for/IN/for/1 Python/NNP/python/11 ./././0 You/PRP/you/1 will/MD/will/1 probably/RB/probably/1 need/VB/need/1 admin/RB/administration/3 access/NN/access/2 to/TO/to/1 your/PRP$/you/1 computer/NN/computer/1 for/IN/for/1 this/DT/this/1 ./././0 
+Python-weka-wrapper/NNP/python-weka-wrapper/0 comes/VBZ/come/1 in/IN/in/1 two/CD/two/1 versions/NNS/version/2 ,/,/,/0 one/CD/one/1 for/IN/for/1 Python/NNP/python/11 2.7/CD/2.7/0 and/CC/and/1 one/CD/one/1 for/IN/for/1 Python/NNP/python/11 3.x/CD/3.x/0 ,/,/,/0 so/RB/so/1 make/JJ/make/1 sure/NN/sure/1 that/IN/that/1 you/PRP/you/1 install/VBP/install/3 the/DT/the/1 appropriate/JJ/appropriate/3 version/NN/version/2 ./././0 You/PRP/you/1 must/MD/must/1 also/RB/also/1 ensure/VB/ensure/3 that/IN/that/1 your/PRP$/you/1 Python/NNP/python/11 and/CC/and/1 Java/NNP/java/0 version/NN/version/2 have/VBP/have/1 the/DT/the/1 same/JJ/same/1 bitness/NN/bitness/0 ,/,/,/0 i.e./FW/i.e./0 ,/,/,/0 either/RB/either/1 32/CD/32/0 or/CC/or/1 64/CD/64/0 bits/NNS/bit/1 ./././0 
+Java/NNP/java/0 underwent/JJ/undergo/3 quite/RB/quite/1 some/DT/some/1 dramatic/JJ/drama/2 changes/NNS/change/1 underneath/VBP/underneath/1 the/DT/the/1 hood/NN/hood/4 ,/,/,/0 starting/VBG/start/1 with/IN/with/1 Java/NNP/java/0 9/CD/9/0 ./././0 To/TO/to/1 avoid/VB/avoid/2 any/DT/any/1 issues/NNS/issue/1 ,/,/,/0 you/PRP/you/1 should/MD/should/1 use/VB/use/1 Java/NNP/java/0 8/CD/8/0 with/IN/with/1 python-weka-wrapper/NN/python-weka-wrapper/0 ./././0 
+Python/NNP/python/11 2.7/CD/2.7/0 
+Download/NN/download/0 and/CC/and/1 install/VB/install/3 Python/NNP/python/11 2.7/CD/2.7/0 (/(/(/0 installation/NN/install/3 is/VBZ/be/1 easy/JJ/easy/1 on/IN/on/1 Linux/NNP/linux/0 ,/,/,/0 but/CC/but/1 can/MD/can/1 be/VB/be/1 challenging/VBG/challenge/2 on/IN/on/1 Windows/NNP/window/1 and/CC/and/1 OSX/NNP/osx/0 )/)/)/0 
+Download/NN/download/0 and/CC/and/1 install/VB/install/3 the/DT/the/1 python-weka-wrapper/JJ/python-weka-wrapper/0 library/NN/library/2 
+Here/RB/here/1 are/VBP/be/1 instructions/NNS/instruct/2 for/IN/for/1 all/DT/all/1 this/DT/this/1 
+Python/NNP/python/11 3.x/CD/3.x/0 
+Download/NN/download/0 and/CC/and/1 install/VB/install/3 Python/NNP/python/11 3.x/CD/3.x/0 (/(/(/0 installation/NN/install/3 is/VBZ/be/1 easy/JJ/easy/1 on/IN/on/1 Linux/NNP/linux/0 ,/,/,/0 but/CC/but/1 can/MD/can/1 be/VB/be/1 challenging/VBG/challenge/2 on/IN/on/1 Windows/NNP/window/1 and/CC/and/1 OSX/NNP/osx/0 )/)/)/0 
+Download/NN/download/0 and/CC/and/1 install/VB/install/3 the/DT/the/1 python-weka-wrapper3/JJ/python-weka-wrapper3/0 library/NN/library/2 
+Here/RB/here/1 are/VBP/be/1 instructions/NNS/instruct/2 for/IN/for/1 all/DT/all/1 this/DT/this/1 
+Data/NNS/data/3 files/NNS/file/2 :/:/:/0 
+bodyfat.arff/NN/bodyfat.arff/0 
+balance-scale.arff/NN/balance-scale.arff/0 
+Evaluate/VB/evaluate/3 a/DT/a/1 classifier/NN/classifier/0 and/CC/and/1 output/NN/output/3 summary/JJ/summary/3 statistics/NNS/statistic/3 and/CC/and/1 a/DT/a/1 confusion/NN/confuse/2 matrix/NN/matrix/4 :/:/:/0 
+pww-crossvalidate_classifier.py/NN/pww-crossvalidate_classifier.py/0 
+Plot/NNP/plot/3 the/DT/the/1 errors/NNS/error/3 made/VBN/make/1 by/IN/by/1 LinearRegression/NN/linearregression/0 :/:/:/0 
+pww-crossvalidate_classifier-errors-bubbles.py/NN/pww-crossvalidate_classifier-errors-bubbles.py/0 
+Display/NNP/display/3 multiple/JJ/multiple/3 ROC/NNP/roc/0 curves/NNS/curve/3 ,/,/,/0 one/CD/one/1 for/IN/for/1 each/DT/each/1 class/NN/class/1 :/:/:/0 
+pww-display_roc-multiple.py/NN/pww-display_roc-multiple.py/0 
+
+

@@ -1,0 +1,63 @@
+Index
+At the end of each week is an index of topics covered that week.
+A full index to the course appears under DOWNLOADS, below.
+      Topic
+      Step
+      Datasets
+      Breast-cancer
+      1.12
+      Covtype
+      1.21
+      Covtype.small
+      1.20, 1.21
+      Credit-g
+      1.12
+      Diabetes
+      1.12
+      Glass
+      1.12
+      Ionosphere
+      1.12
+      Iris
+      1.11, 1.12, 1.13, 1.14, 1.15
+      LED24 data generator
+      1.18, 1.19
+      Segment-challenge
+      1.8, 1.10, 1.12, 1.13
+      Classifiers
+      IBk
+      1.12, 1.16
+      J48
+      1.8, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.18
+      Logistic
+      1.12
+      NaiveBayes
+      1.12, 1.18, 1.20
+      NaiveBayesUpdateable
+      1.13, 1.18, 1.19, 1.21, 1.22
+      OneR
+      1.11, 1.12
+      SMO
+      1.12
+      ZeroR
+      1.11, 1.12
+      Metalearners
+      AdaBoostM1
+      1.12
+      Plus …
+      Cross-validation
+      1.10, 1.11, 1.14
+      Experimenter interface
+      1.8, 1.10, 1.11, 1.12
+      Javadoc documentation
+      1.15, 1.16
+      Knowledge Flow interface
+      1.13, 1.14
+      Random number seed
+      1.9
+      Simple CLI
+      1.15, 1.16, 1.18, 1.20, 1.21
+      Updateable classifiers
+      1.16
+      Weka installation
+      1.4

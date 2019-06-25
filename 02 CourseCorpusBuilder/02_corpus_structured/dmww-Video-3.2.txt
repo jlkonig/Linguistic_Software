@@ -1,0 +1,3 @@
+Simplicity first
+In data mining you should always try simple things before you try more complicated things. There are many different kinds of simple structure. One is to create a one-level decision tree, or a set of rules that all test one particular attribute. Here one attribute does all the work: all you need to do is to choose which attribute. The method is called OneR, and it’s easy to see how it operates on the weather data. Sometimes, simple methods like this work surprisingly well.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

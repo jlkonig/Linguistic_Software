@@ -1,0 +1,8 @@
+Farewell
+Thanks for taking this course. We hope you’ve enjoyed it.
+We’ve introduced you to some more advanced topics in practical data mining, following on from Data Mining with Weka and More Data Mining with Weka. The aim is to increase your knowledge, understanding, and abilities in practical data mining, lifting you to the wizard level of skill in data mining with Weka.
+We’ve shown you how to use popular packages that extend Weka’s functionality. You’ve learned about forecasting time series and mining data streams. You’ve connected up the popular R statistical package and learn how to use its extensive visualisation and preprocessing functions from Weka. You’ve script Weka in Python – all from within the friendly Weka interface. And you’ve learned how to distribute data mining jobs over several computers using Apache SPARK.
+We claimed that after completing it you would be able to mine your own data in more subtle and sophisticated ways – and understand what it is that you are doing.
+What do you think? How did you get on? What did you learn? What did you struggle with? Have your views on data mining changed? What do you want to learn next? Please let us know by filling in the post-course survey. We welcome your suggestions on what could be improved!
+This course will run again starting in May 2018. Please tell anyone you think might benefit from it.
+No matter where you go, there you are. (Sometimes attributed to Confucius)

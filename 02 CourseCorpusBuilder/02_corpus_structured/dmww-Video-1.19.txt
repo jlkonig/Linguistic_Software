@@ -1,0 +1,3 @@
+Using a filter
+Weka include many filters that can be used before invoking a classifier to clean up the dataset, or alter it in some way. Filters help with data preparation. For example, you can easily remove an attribute. Or you can remove all instances that have a certain value for an attribute (e.g. instances for which humidity has the value high). Surprisingly, removing attributes sometimes leads to better classification! – and also simpler decision trees.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

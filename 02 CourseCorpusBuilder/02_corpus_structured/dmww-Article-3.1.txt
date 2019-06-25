@@ -1,0 +1,6 @@
+How do simple classification methods work?
+Simplicity first!
+That’s the underlying theme of this whole course on data mining. Always start by checking how well simple methods work on your dataset, before progressing to more complicated things. You will be surprised by how often methods that seem simplistic do better than ones that are far more sophisticated. Real life data mining abounds with systems that are much more complex than they need to be – and actually perform worse than simple methods.
+Simplicity comes in many different flavors. You could choose a single attribute and base the decision on that, ignoring the others. Or you could assume that each attribute contributes to the final decision independently, and in equal measure. Or you could build a simple branching structure that tests a few attributes sequentially. Or you could store the training instances and give new instances the same classification as their nearest neighbor – or take into account several nearest neighbors.
+At the end of this week you will be able to choose learning methods based on each of these “flavors” of simplicity. You will be able to explain how they work, apply them to a dataset of your choice, and interpret the output that they produce.
+Warning! These methods are really simple. You might be disappointed. If so, just wait till next week!

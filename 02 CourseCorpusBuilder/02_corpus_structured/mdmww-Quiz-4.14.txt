@@ -1,0 +1,159 @@
+Cost-sensitive classification
+Question 1
+In the Explorer, load breast-cancer.arff and apply Naive Bayes (evaluate using 10-fold cross-validation throughout this Quiz). How many recurrence-events are misclassified as no-recurrence-events?
+33
+37
+48
+168
+---
+Correct answer(s):
+48
+
+Question 2
+Assume that misclassifying a recurrence-event as a no-recurrence-event (and therefore terminating treatment prematurely) is twice as costly as the reverse (and therefore continuing treatment unnecessarily).
+Check Cost-sensitive evaluation in the More options menu and specify a cost matrix that reflects this asymmetry in misclassification costs by doubling the cost of one error type.
+Apply Naive Bayes again, and check that the evaluation cost matrix appears near the beginning of the output. What is output as the “total cost”?
+81
+114
+129
+162
+---
+Correct answer(s):
+129
+---
+Feedback correct:
+129 is 2x48 + 1x33
+---
+Feedback incorrect:
+Perhaps you put “2” in the upper right-hand corner of the cost matrix? That is not the correct place.
+
+Question 3
+Now apply the CostSensitiveClassifier metalearner with Naive Bayes, defining the cost matrix appropriately (but leaving the other parameters at their default values).
+How many recurrence-events are misclassified as no-recurrence-events now?
+33
+36
+49
+54
+---
+Correct answer(s):
+36
+
+Question 4
+What is output as the “total cost”?
+90
+126
+144
+180
+---
+Correct answer(s):
+126
+---
+Feedback correct:
+126 is 2x36 + 1x54
+Using cost-sensitive classification the cost decreases (from 129 without cost-sensitive classification to 126 with cost-sensitive classification) even though the total number of errors has increased (from 81 to 90 incorrectly classified instances).
+The reason is that the number of critical misclassifications – the more costly ones – has decreased (from 48 to 36).
+
+Question 5
+Repeat the whole procedure with J48 instead of Naive Bayes.
+When you change from ordinary to cost-sensitive classification, does the total number of errors increase?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+It increases from 70 (which is 62+8) to 96 (which is 55+41) incorrectly classified instances
+
+Question 6
+Using cost-sensitive classification, is the number of critical misclassifications – the more costly ones – smaller with J48 than with Naive Bayes?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+For J48 there are 55 critical misclassifications, compared with 36 for Naive Bayes
+
+Question 7
+Again using cost-sensitive classification, is the total cost smaller with J48 than with Naive Bayes?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+For J48 the total cost is 151, compared with 126 for Naive Bayes.
+
+Question 8
+Still using J48, alter the cost matrix to treat misclassifying a recurrence-event as a no-recurrence-event as five times as costly as the reverse (instead of twice as costly as before), and repeat the experiment.
+What is the total number of errors now?
+24
+121
+141
+165
+---
+Correct answer(s):
+165
+---
+Feedback correct:
+141 no-recurrence events are classified as recurrence-events, and 24 recurrence-events are classified as no-recurrence-events
+---
+Feedback incorrect:
+24 recurrence-events are classified as no-recurrence-events, but the question asks for the total number of errors
+---
+Feedback incorrect:
+141 no-recurrence events are classified as recurrence-events, but the question asks for the total number of errors
+
+Question 9
+What is the number of critical (i.e., more costly) misclassifications?
+24
+60
+61
+141
+---
+Correct answer(s):
+24
+
+Question 10
+What is the total cost now?
+(Note: you must specify the new cost matrix in the More options menu, as well as in the CostSensitiveClassifier.)
+165
+189
+261
+729
+---
+Correct answer(s):
+261
+---
+Feedback correct:
+261 is 5x24 + 1x141
+---
+Feedback incorrect:
+189 is 2x24 + 1x141. Perhaps you didn’t change the evaluation cost matrix in the More options menu?
+
+Question 11
+Remember that old rule, always check your results against a baseline classifier? With this cost matrix, cost-sensitive classification with ZeroR does even better!
+What is the total cost for ZeroR (with all the same settings)?
+5
+201
+206
+1005
+---
+Correct answer(s):
+
+Question 11
+Remember that old rule, always check your results against a baseline classifier? With this cost matrix, cost-sensitive classification with ZeroR does even better!
+What is the total cost for ZeroR (with all the same settings)?
+5
+201
+206
+1005
+---
+Correct answer(s):
+201
+---
+Feedback correct:
+ZeroR classifies everything as a recurrence-event. With a multiplier of 5 for the cost of misclassifying a recurrence-event as a no-recurrence-event, this is a very good idea!

@@ -1,0 +1,89 @@
+A/DT/a/1 little/JJ/little/1 bit/NN/bit/1 of/IN/of/1 everything/NN/every/1 
+What/WP/what/1 's/VBZ/be/1 data/NN/data/3 mining/NN/miner/3 ?/./?/0 What/WP/what/1 's/VBZ/be/1 Weka/NNP/weka/23 ?/./?/0 What/WP/what/1 's/VBZ/be/1 the/DT/the/1 course/NN/course/1 about/IN/about/1 ?/./?/0 
+Everybody/NN/every/1 talks/NNS/talk/1 about/IN/about/1 data/NNS/data/3 mining/NN/miner/3 and/CC/and/1 ``/``/``/0 big/JJ/big/1 data/NN/data/3 ''/''/''/0 nowadays/NNS/nowadays/5 ./././0 This/DT/this/1 course/NN/course/1 introduces/VBZ/introduce/2 you/PRP/you/1 to/TO/to/1 practical/VB/practical/2 data/NNS/data/3 mining/NN/miner/3 ./././0 Weka/NNP/weka/23 is/VBZ/be/1 a/DT/a/1 powerful/JJ/power/1 yet/RB/yet/1 easy/JJ/easy/1 to/TO/to/1 use/VB/use/1 tool/NN/tool/2 for/IN/for/1 machine/NN/machine/1 learning/NN/learn/1 and/CC/and/1 data/NN/data/3 mining/NN/miner/3 that/WDT/that/1 can/MD/can/1 also/RB/also/1 tackle/VB/tackle/3 large/JJ/large/1 problems/NNS/problem/1 ./././0 
+1.1/CD/1.1/0 
+What/WP/what/1 's/VBZ/be/1 data/NN/data/3 mining/NN/miner/3 ?/./?/0 What/WP/what/1 's/VBZ/be/1 Weka/NNP/weka/23 ?/./?/0 
+video/NN/video/1 (/(/(/0 05:55/CD/05:55/0 )/)/)/0 
+1.2/CD/1.2/0 
+About/IN/about/1 this/DT/this/1 course/NN/course/1 
+article/NN/article/2 
+1.3/CD/1.3/0 
+Welcome/JJ/welcome/2 !/./!/0 Please/NNP/please/1 introduce/VB/introduce/2 yourself/PRP/you/1 
+discussion/NN/discuss/2 
+1.4/CD/1.4/0 
+Data/NNP/data/3 mining/NN/miner/3 applications/NNS/apply/2 
+quiz/NN/quiz/6 
+1.5/CD/1.5/0 
+More/JJR/more/1 data/NNS/data/3 mining/NN/miner/3 applications/NNS/apply/2 
+discussion/NN/discuss/2 
+What/WP/what/1 's/VBZ/be/1 it/PRP/it/1 like/IN/like/1 to/TO/to/1 do/VB/do/1 data/NNS/data/3 mining/NN/miner/3 ?/./?/0 
+Each/DT/each/1 week/NN/week/1 we/PRP/we/1 ’/VBP/’/0 ll/JJ/will/1 focus/NN/focus/3 on/IN/on/1 a/DT/a/1 “/JJ/“/0 Big/NNP/big/1 Question/NNP/question/1 ”/NNP/”/0 relating/VBG/relate/1 to/TO/to/1 data/NNS/data/3 mining/NN/miner/3 ./././0 This/DT/this/1 is/VBZ/be/1 the/DT/the/1 question/NN/question/1 for/IN/for/1 this/DT/this/1 week/NN/week/1 ./././0 
+1.6/CD/1.6/0 
+What/WP/what/1 's/VBZ/be/1 it/PRP/it/1 like/IN/like/1 to/TO/to/1 do/VB/do/1 data/NNS/data/3 mining/NN/miner/3 ?/./?/0 
+article/NN/article/2 
+Exploring/VBG/explore/3 the/DT/the/1 Explorer/NN/explore/3 
+In/IN/in/1 this/DT/this/1 activity/NN/active/2 you/PRP/you/1 will/MD/will/1 install/VB/install/3 Weka/NNP/weka/23 on/IN/on/1 your/PRP$/you/1 computer/NN/computer/1 ,/,/,/0 start/VB/start/1 the/DT/the/1 Weka/NNP/weka/23 Explorer/NNP/explore/3 ,/,/,/0 and/CC/and/1 load/NN/load/1 ,/,/,/0 view/NN/view/1 ,/,/,/0 and/CC/and/1 edit/JJ/edit/2 datasets/NNS/datasets/0 ./././0 (/(/(/0 Note/NN/note/1 :/:/:/0 You/PRP/you/1 may/MD/may/1 need/VB/need/1 admin/JJ/administration/3 access/NN/access/2 to/TO/to/1 install/VB/install/3 Weka/NNP/weka/23 ./././0 )/)/)/0 
+1.7/CD/1.7/0 
+Installing/VBG/install/3 Weka/NNP/weka/23 :/:/:/0 preview/NN/preview/6 
+article/NN/article/2 
+1.8/CD/1.8/0 
+Installing/VBG/install/3 Weka/NNP/weka/23 
+video/NN/video/1 (/(/(/0 05:33/CD/05:33/0 )/)/)/0 
+1.9/CD/1.9/0 
+Installing/VBG/install/3 Weka/NNP/weka/23 
+discussion/NN/discuss/2 
+1.10/CD/1.10/0 
+The/DT/the/1 weather/NN/weather/1 data/NNS/data/3 
+video/NN/video/1 (/(/(/0 04:08/CD/04:08/0 )/)/)/0 
+1.11/CD/1.11/0 
+Looking/VBG/look/1 at/IN/at/1 a/DT/a/1 dataset/NN/dataset/0 
+quiz/NN/quiz/6 
+1.12/CD/1.12/0 
+Forecasting/VBG/forecast/3 electricity/NN/electric/2 demand/NN/demand/2 
+discussion/NN/discuss/2 
+Exploring/VBG/explore/3 datasets/NNS/datasets/0 
+Classification/NN/classification/4 (/(/(/0 also/RB/also/1 called/VBN/call/1 ``/``/``/0 supervised/VBD/supervise/3 learning/NN/learn/1 ''/''/''/0 )/)/)/0 is/VBZ/be/1 a/DT/a/1 common/JJ/common/2 kind/NN/kind/1 of/IN/of/1 data/NNS/data/3 mining/NN/miner/3 problem/NN/problem/1 ./././0 Datasets/VBZ/datasets/0 contain/VBP/contain/2 ``/``/``/0 instances/NNS/instance/2 ,/,/,/0 ''/''/''/0 which/WDT/which/1 are/VBP/be/1 described/VBN/describe/2 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 a/DT/a/1 fixed/JJ/fix/1 set/NN/set/1 of/IN/of/1 features/NNS/feature/2 ,/,/,/0 or/CC/or/1 ``/``/``/0 attributes/NNS/attribute/3 ''/''/''/0 ./././0 
+1.13/CD/1.13/0 
+More/RBR/more/1 weather/NN/weather/1 
+video/NN/video/1 (/(/(/0 04:27/CD/04:27/0 )/)/)/0 
+1.14/CD/1.14/0 
+The/DT/the/1 Iris/NNP/iris/8 dataset/NN/dataset/0 
+quiz/NN/quiz/6 
+1.15/CD/1.15/0 
+The/DT/the/1 glass/NN/glass/1 data/NNS/data/3 
+video/NN/video/1 (/(/(/0 05:10/CD/05:10/0 )/)/)/0 
+1.16/CD/1.16/0 
+More/RBR/more/1 irises/NNS/iris/8 
+quiz/NN/quiz/6 
+Building/VBG/build/1 a/DT/a/1 classifier/NN/classifier/0 
+Now/RB/now/1 you/PRP/you/1 will/MD/will/1 learn/VB/learn/1 how/WRB/how/1 to/TO/to/1 use/VB/use/1 Weka/NNP/weka/23 's/POS/be/1 popular/JJ/popular/2 J48/NNP/j48/0 classifier/NN/classifier/0 ,/,/,/0 which/WDT/which/1 builds/VBZ/build/1 decision/NN/decision/2 trees/NNS/tree/1 ./././0 J48/NNP/j48/0 is/VBZ/be/1 a/DT/a/1 reimplementation/NN/reimplementation/0 of/IN/of/1 a/DT/a/1 classic/JJ/classic/2 classifier/NN/classifier/0 algorithm/NN/algorithm/5 called/VBN/call/1 C4.5/NNP/c4.5/0 ./././0 
+1.17/CD/1.17/0 
+Building/VBG/build/1 a/DT/a/1 classifier/NN/classifier/0 
+video/NN/video/1 (/(/(/0 08:14/CD/08:14/0 )/)/)/0 
+1.18/CD/1.18/0 
+Using/VBG/use/1 J48/NNP/j48/0 
+quiz/NN/quiz/6 
+Using/VBG/use/1 a/DT/a/1 filter/NN/filter/3 
+WEKA/NNP/weka/23 contains/VBZ/contain/2 ``/``/``/0 filters/NNS/filter/3 ''/''/''/0 that/WDT/that/1 help/VBP/help/1 with/IN/with/1 cleaning/NN/clean/1 and/CC/and/1 preparing/VBG/prepare/1 your/PRP$/you/1 data/NNS/data/3 ./././0 Some/DT/some/1 filters/NNS/filter/3 operate/VBP/operate/2 on/IN/on/1 attributes/NNS/attribute/3 ;/:/;/0 others/NNS/other/1 operate/VBP/operate/2 on/IN/on/1 instances/NNS/instance/2 ./././0 
+1.19/CD/1.19/0 
+Using/VBG/use/1 a/DT/a/1 filter/NN/filter/3 
+video/NN/video/1 (/(/(/0 06:51/CD/06:51/0 )/)/)/0 
+1.20/CD/1.20/0 
+Using/VBG/use/1 filters/NNS/filter/3 
+quiz/NN/quiz/6 
+Visualizing/VBG/visual/3 your/PRP$/you/1 data/NNS/data/3 
+With/IN/with/1 Weka/NNP/weka/23 's/POS/be/1 visualization/NN/visual/3 tool/NN/tool/2 you/PRP/you/1 can/MD/can/1 clean/VB/clean/1 the/DT/the/1 data/NNS/data/3 and/CC/and/1 remove/VB/remove/2 anomalous/JJ/anomaly/5 instances/NNS/instance/2 (/(/(/0 outliers/NNS/outlying/9 )/)/)/0 ./././0 You/PRP/you/1 can/MD/can/1 also/RB/also/1 visualize/VB/visual/3 the/DT/the/1 errors/NNS/error/3 that/IN/that/1 classifiers/NNS/classifier/0 make/VBP/make/1 ./././0 
+1.21/CD/1.21/0 
+Visualizing/VBG/visual/3 your/PRP$/you/1 data/NNS/data/3 
+video/NN/video/1 (/(/(/0 06:54/CD/06:54/0 )/)/)/0 
+1.22/CD/1.22/0 
+Finding/VBG/find/1 misclassified/VBD/misclassified/0 instances/NNS/instance/2 
+quiz/NN/quiz/6 
+1.23/CD/1.23/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+1.24/CD/1.24/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

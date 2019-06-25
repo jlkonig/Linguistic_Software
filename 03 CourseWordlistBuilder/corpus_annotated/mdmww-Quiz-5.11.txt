@@ -1,0 +1,103 @@
+Learning/VBG/learn/1 curves/NNS/curve/3 
+Question/NN/question/1 1/CD/1/0 
+Before/IN/before/1 we/PRP/we/1 begin/VBP/begin/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 train/VBP/train/1 on/IN/on/1 a/DT/a/1 certain/JJ/certain/1 percentage/NN/percent/2 of/IN/of/1 a/DT/a/1 dataset/NN/dataset/0 using/VBG/use/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 with/IN/with/1 the/DT/the/1 Resample/NNP/resample/0 filter/NN/filter/3 (/(/(/0 as/IN/as/1 Ian/NNP/ian/0 did/VBD/do/1 in/IN/in/1 the/DT/the/1 “/NNP/“/0 Learning/NNP/learn/1 curves/VBZ/curve/3 ”/NNP/”/0 video/NN/video/1 )/)/)/0 ,/,/,/0 would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 better/JJR/better/1 results/NNS/result/2 if/IN/if/1 sampling/NN/sample/3 was/VBD/be/1 done/VBN/do/1 with/IN/with/1 replacement/NN/replace/2 or/CC/or/1 without/IN/without/1 replacement/NN/replace/2 ?/./?/0 
+With/IN/with/1 replacement/NN/replace/2 
+Without/IN/without/1 replacement/NN/replace/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Without/IN/without/1 replacement/NN/replace/2 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Sampling/VBG/sample/3 without/IN/without/1 replacement/NN/replace/2 yields/NNS/yield/3 a/DT/a/1 greater/JJR/great/1 variety/NN/variety/3 of/IN/of/1 different/JJ/different/1 instances/NNS/instance/2 ,/,/,/0 which/WDT/which/1 will/MD/will/1 probably/RB/probably/1 generate/VB/generate/3 a/DT/a/1 more/RBR/more/1 accurate/JJ/accurate/3 classifier/NN/classifier/0 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Open/VB/open/1 the/DT/the/1 classifier-performance.csv/JJ/classifier-performance.csv/0 file/NN/file/2 in/IN/in/1 a/DT/a/1 spreadsheet/NN/spreadsheet/6 program/NN/programme/1 ./././0 
+It/PRP/it/1 gives/VBZ/give/1 the/DT/the/1 performance/NN/perform/2 on/IN/on/1 1000/CD/1000/0 repetitions/NNS/repeat/2 of/IN/of/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 of/IN/of/1 3/CD/3/0 algorithms/NNS/algorithm/5 (/(/(/0 Naive/JJ/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 and/CC/and/1 IBk/NNP/ibk/0 )/)/)/0 on/IN/on/1 5/CD/5/0 datasets/NNS/datasets/0 (/(/(/0 breast-cancer.arff/NN/breast-cancer.arff/0 ,/,/,/0 glass.arff/NN/glass.arff/0 ,/,/,/0 credit-g.arff/NN/credit-g.arff/0 ,/,/,/0 diabetes.arff/NN/diabetes.arff/0 ,/,/,/0 ionosphere.arff/NN/ionosphere.arff/0 )/)/)/0 ,/,/,/0 training/VBG/train/1 on/IN/on/1 100/CD/100/0 %/NN/%/0 ,/,/,/0 90/CD/90/0 %/NN/%/0 ,/,/,/0 …/NNP/…/0 ,/,/,/0 20/CD/20/0 %/NN/%/0 ,/,/,/0 10/CD/10/0 %/NN/%/0 of/IN/of/1 the/DT/the/1 instances/NNS/instance/2 (/(/(/0 sampling/VBG/sample/3 without/IN/without/1 replacement/NN/replace/2 )/)/)/0 ./././0 
+Just/RB/just/1 to/TO/to/1 be/VB/be/1 sure/JJ/sure/1 that/IN/that/1 you/PRP/you/1 understand/VBP/understand/1 how/WRB/how/1 it/PRP/it/1 was/VBD/be/1 generated/VBN/generate/3 ,/,/,/0 the/DT/the/1 figures/NNS/figure/1 for/IN/for/1 a/DT/a/1 50/CD/50/0 %/NN/%/0 sample/NN/sample/3 of/IN/of/1 the/DT/the/1 breast-cancer/JJ/breast-cancer/0 dataset/NN/dataset/0 are/VBP/be/1 omitted/VBN/omit/4 from/IN/from/1 the/DT/the/1 CSV/NNP/csv/0 file/NN/file/2 ./././0 What/WP/what/1 should/MD/should/1 they/PRP/they/1 be/VB/be/1 ,/,/,/0 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 and/CC/and/1 IBk/NNP/ibk/0 respectively/RB/respective/3 ?/./?/0 
+72.42/CD/72.42/0 ,/,/,/0 71.10/CD/71.10/0 ,/,/,/0 70.22/CD/70.22/0 
+71.34/CD/71.34/0 ,/,/,/0 70.27/CD/70.27/0 ,/,/,/0 69.78/CD/69.78/0 
+72.13/CD/72.13/0 ,/,/,/0 70.83/CD/70.83/0 ,/,/,/0 70.84/CD/70.84/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+72.13/CD/72.13/0 ,/,/,/0 70.83/CD/70.83/0 ,/,/,/0 70.84/CD/70.84/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 sure/VBP/sure/1 you/PRP/you/1 set/VBP/set/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 repetitions/NNS/repeat/2 to/TO/to/1 1000/CD/1000/0 in/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 ?/./?/0 –/NN/–/0 this/DT/this/1 is/VBZ/be/1 the/DT/the/1 result/NN/result/2 for/IN/for/1 10/CD/10/0 repetitions/NNS/repeat/2 (/(/(/0 the/DT/the/1 default/NN/default/5 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 sure/VBP/sure/1 you/PRP/you/1 are/VBP/be/1 filtering/VBG/filter/3 without/IN/without/1 replacement/NN/replace/2 (/(/(/0 noReplacement/JJ/noreplacement/0 =/NNP/=/0 true/JJ/true/1 )/)/)/0 ?/./?/0 –/NN/–/0 this/DT/this/1 is/VBZ/be/1 the/DT/the/1 result/NN/result/2 for/IN/for/1 sampling/VBG/sample/3 with/IN/with/1 replacement/NN/replace/2 
+
+Question/NN/question/1 3/CD/3/0 
+Complete/JJ/complete/1 the/DT/the/1 classifier-performance/NN/classifier-performance/0 spreadsheet/NN/spreadsheet/6 by/IN/by/1 including/VBG/include/2 the/DT/the/1 three/CD/three/1 new/JJ/new/1 figures/NNS/figure/1 you/PRP/you/1 have/VBP/have/1 calculated/VBN/calculate/2 ./././0 The/DT/the/1 remainder/NN/remainder/5 of/IN/of/1 this/DT/this/1 quiz/NN/quiz/6 involves/VBZ/involve/1 examining/VBG/examine/2 this/DT/this/1 spreadsheet/NN/spreadsheet/6 ;/:/;/0 you/PRP/you/1 do/VBP/do/1 not/RB/not/1 need/VB/need/1 to/TO/to/1 use/VB/use/1 Weka/NNP/weka/23 any/DT/any/1 more/RBR/more/1 ./././0 
+Suppose/NNP/suppose/1 we/PRP/we/1 are/VBP/be/1 interested/JJ/interest/1 in/IN/in/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 training/NN/train/1 instances/NNS/instance/2 (/(/(/0 not/RB/not/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 the/DT/the/1 dataset/NN/dataset/0 )/)/)/0 required/VBD/require/2 to/TO/to/1 achieve/VB/achieve/3 99/CD/99/0 %/NN/%/0 of/IN/of/1 the/DT/the/1 “/NNP/“/0 ultimate/JJ/ultimate/3 ”/NNP/”/0 performance/NN/perform/2 of/IN/of/1 each/DT/each/1 classifier/NN/classifier/0 ,/,/,/0 defined/VBD/define/3 as/IN/as/1 the/DT/the/1 performance/NN/perform/2 obtained/VBD/obtain/3 using/VBG/use/1 100/CD/100/0 %/NN/%/0 of/IN/of/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 
+Add/VB/add/1 a/DT/a/1 new/JJ/new/1 column/NN/column/3 (/(/(/0 M/NNP/be/1 )/)/)/0 to/TO/to/1 the/DT/the/1 spreadsheet/NN/spreadsheet/6 that/WDT/that/1 calculates/VBZ/calculate/2 99/CD/99/0 %/NN/%/0 of/IN/of/1 that/DT/that/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 (/(/(/0 for/IN/for/1 the/DT/the/1 first/JJ/first/1 spreadsheet/NN/spreadsheet/6 row/NN/row/2 that/IN/that/1 ’/VBZ/’/0 s/RB/be/1 72.08/CD/72.08/0 ,/,/,/0 or/CC/or/1 99/CD/99/0 %/NN/%/0 of/IN/of/1 72.81/CD/72.81/0 )/)/)/0 ./././0 
+Add/VB/add/1 a/DT/a/1 further/JJ/further/1 column/NN/column/3 (/(/(/0 N/NNP/n/0 )/)/)/0 that/WDT/that/1 shows/VBZ/show/1 what/WP/what/1 percentage/NN/percent/2 of/IN/of/1 the/DT/the/1 dataset/NN/dataset/0 is/VBZ/be/1 needed/VBN/need/1 to/TO/to/1 better/RBR/better/1 that/DT/that/1 performance/NN/perform/2 (/(/(/0 for/IN/for/1 the/DT/the/1 first/JJ/first/1 spreadsheet/NN/spreadsheet/6 row/NN/row/2 that/IN/that/1 ’/VBZ/’/0 s/RB/be/1 50/CD/50/0 %/NN/%/0 ,/,/,/0 because/IN/because/1 that/DT/that/1 yields/VBZ/yield/3 a/DT/a/1 performance/NN/perform/2 of/IN/of/1 72.13/CD/72.13/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 just/RB/just/1 better/JJR/better/1 than/IN/than/1 72.08/CD/72.08/0 )/)/)/0 ./././0 I/PRP/i/1 did/VBD/do/1 this/DT/this/1 part/NN/part/1 manually/RB/manual/3 ;/:/;/0 it/PRP/it/1 took/VBD/take/1 me/PRP/i/1 a/DT/a/1 few/JJ/few/1 minutes/NNS/minute/1 ./././0 
+Add/VB/add/1 a/DT/a/1 column/NN/column/3 (/(/(/0 O/NNP/o/0 )/)/)/0 ,/,/,/0 again/RB/again/1 manually/RB/manual/3 ,/,/,/0 that/WDT/that/1 shows/VBZ/show/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 ,/,/,/0 which/WDT/which/1 I/PRP/i/1 found/VBD/find/1 using/VBG/use/1 the/DT/the/1 Explorer/NNP/explore/3 (/(/(/0 286/CD/286/0 for/IN/for/1 the/DT/the/1 first/JJ/first/1 row/NN/row/2 )/)/)/0 ./././0 
+Add/VB/add/1 a/DT/a/1 column/NN/column/3 (/(/(/0 P/NNP/p/0 )/)/)/0 that/WDT/that/1 shows/VBZ/show/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 corresponding/VBG/correspond/3 to/TO/to/1 the/DT/the/1 percentage/NN/percent/2 in/IN/in/1 column/NN/column/3 N/NNP/n/0 (/(/(/0 143/CD/143/0 for/IN/for/1 the/DT/the/1 first/JJ/first/1 row/NN/row/2 )/)/)/0 ./././0 
+Now/RB/now/1 use/VB/use/1 your/PRP$/you/1 spreadsheet/NN/spreadsheet/6 to/TO/to/1 answer/VB/answer/1 the/DT/the/1 following/JJ/follow/1 questions/NNS/question/1 ./././0 
+Which/JJ/which/1 dataset/NN/dataset/0 seems/VBZ/seem/1 to/TO/to/1 be/VB/be/1 the/DT/the/1 “/JJ/“/0 hardest/NN/hard/1 ”/NN/”/0 ,/,/,/0 in/IN/in/1 the/DT/the/1 sense/NN/sense/1 that/WDT/that/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 and/CC/and/1 IBk/NNP/ibk/0 require/VBP/require/2 the/DT/the/1 greatest/JJS/great/1 number/NN/number/1 of/IN/of/1 training/VBG/train/1 instances/NNS/instance/2 in/IN/in/1 order/NN/order/1 to/TO/to/1 attain/VB/attain/4 99/CD/99/0 %/NN/%/0 of/IN/of/1 their/PRP$/they/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 ?/./?/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 and/CC/and/1 IBk/NNP/ibk/0 require/VBP/require/2 600/CD/600/0 ,/,/,/0 500/CD/500/0 ,/,/,/0 and/CC/and/1 900/CD/900/0 instances/NNS/instance/2 respectively/RB/respective/3 to/TO/to/1 reach/VB/reach/1 99/CD/99/0 %/NN/%/0 of/IN/of/1 their/PRP$/they/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 on/IN/on/1 credit-g/JJ/credit-g/0 –/NNP/–/0 more/JJR/more/1 instances/NNS/instance/2 than/IN/than/1 for/IN/for/1 any/DT/any/1 other/JJ/other/1 dataset/NN/dataset/0 (/(/(/0 except/IN/except/1 diabetes/NNS/diabetes/4 ,/,/,/0 but/CC/but/1 only/RB/only/1 in/IN/in/1 the/DT/the/1 case/NN/case/1 of/IN/of/1 J48/NNP/j48/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+J48/NN/j48/0 does/VBZ/do/1 require/VB/require/2 the/DT/the/1 largest/JJS/large/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 (/(/(/0 691/CD/691/0 )/)/)/0 to/TO/to/1 reach/VB/reach/1 99/CD/99/0 %/NN/%/0 of/IN/of/1 its/PRP$/it/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 on/IN/on/1 diabetes/NNS/diabetes/4 ,/,/,/0 but/CC/but/1 the/DT/the/1 other/JJ/other/1 two/CD/two/1 methods/NNS/method/3 do/VBP/do/1 not/RB/not/1 require/VB/require/2 nearly/RB/near/1 as/RB/as/1 many/JJ/many/1 instances/NNS/instance/2 as/IN/as/1 they/PRP/they/1 do/VBP/do/1 for/IN/for/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 other/JJ/other/1 datasets/NNS/datasets/0 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Is/VBZ/be/1 there/EX/there/1 evidence/NN/evidence/2 that/IN/that/1 different/JJ/different/1 methods/NNS/method/3 require/VBP/require/2 different/JJ/different/1 amounts/NNS/amount/1 of/IN/of/1 data/NNS/data/3 to/TO/to/1 reach/VB/reach/1 99/CD/99/0 %/NN/%/0 of/IN/of/1 their/PRP$/they/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+IBk/NNP/ibk/0 always/RB/always/1 requires/VBZ/require/2 the/DT/the/1 most/RBS/most/1 data/NNS/data/3 ,/,/,/0 except/IN/except/1 on/IN/on/1 the/DT/the/1 breast-cancer/NN/breast-cancer/0 and/CC/and/1 diabetes/VBZ/diabetes/4 datasets/NNS/datasets/0 where/WRB/where/1 J48/NNP/j48/0 requires/VBZ/require/2 even/RB/even/1 more/RBR/more/1 ./././0 Naive/JJ/naive/5 Bayes/NNP/bayes/0 always/RB/always/1 requires/VBZ/require/2 the/DT/the/1 least/JJS/least/1 data/NNS/data/3 ,/,/,/0 except/IN/except/1 on/IN/on/1 the/DT/the/1 credit-g/JJ/credit-g/0 dataset/NN/dataset/0 where/WRB/where/1 J48/NNP/j48/0 requires/VBZ/require/2 even/RB/even/1 less/RBR/less/1 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 order/NN/order/1 of/IN/of/1 the/DT/the/1 methods/NNS/method/3 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 the/DT/the/1 volume/NN/volume/3 of/IN/of/1 data/NNS/data/3 that/WDT/that/1 is/VBZ/be/1 generally/RB/general/1 required/VBN/require/2 to/TO/to/1 reach/VB/reach/1 99/CD/99/0 %/NN/%/0 of/IN/of/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+IBK/NN/ibk/0 
+J48/NN/j48/0 
+NaiveBayes/NNS/naivebayes/0 
+
+Question/NN/question/1 6/CD/6/0 
+In/IN/in/1 a/DT/a/1 further/JJ/further/1 column/NN/column/3 (/(/(/0 Q/NNP/q/0 )/)/)/0 of/IN/of/1 the/DT/the/1 spreadsheet/NN/spreadsheet/6 ,/,/,/0 calculate/NN/calculate/2 for/IN/for/1 each/DT/each/1 dataset/NN/dataset/0 the/DT/the/1 average/JJ/average/2 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 needed/VBN/need/1 by/IN/by/1 the/DT/the/1 three/CD/three/1 methods/NNS/method/3 to/TO/to/1 achieve/VB/achieve/3 99/CD/99/0 %/NN/%/0 of/IN/of/1 their/PRP$/they/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 ./././0 
+Also/RB/also/1 note/NN/note/1 on/IN/on/1 the/DT/the/1 spreadsheet/NN/spreadsheet/6 which/WDT/which/1 datasets/NNS/datasets/0 have/VBP/have/1 two/CD/two/1 classes/NNS/class/1 and/CC/and/1 which/WDT/which/1 have/VBP/have/1 more/JJR/more/1 than/IN/than/1 two/CD/two/1 ./././0 
+Does/VBZ/do/1 the/DT/the/1 data/NNS/data/3 support/NN/support/1 the/DT/the/1 contention/NN/contend/3 that/IN/that/1 the/DT/the/1 more/JJR/more/1 class/NN/class/1 values/NNS/value/2 there/EX/there/1 are/VBP/be/1 ,/,/,/0 the/DT/the/1 more/JJR/more/1 data/NNS/data/3 is/VBZ/be/1 needed/VBN/need/1 ?/./?/0 
+Definitely/RB/definite/1 
+Not/RB/not/1 really/RB/really/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Not/RB/not/1 really/RB/really/1 
+
+Question/NN/question/1 7/CD/7/0 
+Note/NN/note/1 on/IN/on/1 your/PRP$/you/1 spreadsheet/NN/spreadsheet/6 which/WDT/which/1 datasets/NNS/datasets/0 have/VBP/have/1 10/CD/10/0 or/CC/or/1 fewer/JJR/few/1 attributes/NNS/attribute/3 and/CC/and/1 which/WDT/which/1 have/VBP/have/1 more/JJR/more/1 than/IN/than/1 10/CD/10/0 ./././0 
+Does/VBZ/do/1 the/DT/the/1 data/NNS/data/3 support/NN/support/1 the/DT/the/1 contention/NN/contend/3 that/IN/that/1 the/DT/the/1 more/JJR/more/1 attributes/NNS/attribute/3 there/EX/there/1 are/VBP/be/1 ,/,/,/0 the/DT/the/1 more/JJR/more/1 data/NNS/data/3 is/VBZ/be/1 needed/VBN/need/1 ?/./?/0 
+Definitely/RB/definite/1 
+Not/RB/not/1 really/RB/really/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+Note/NN/note/1 on/IN/on/1 your/PRP$/you/1 spreadsheet/NN/spreadsheet/6 which/WDT/which/1 datasets/NNS/datasets/0 have/VBP/have/1 10/CD/10/0 or/CC/or/1 fewer/JJR/few/1 attributes/NNS/attribute/3 and/CC/and/1 which/WDT/which/1 have/VBP/have/1 more/JJR/more/1 than/IN/than/1 10/CD/10/0 ./././0 
+Does/VBZ/do/1 the/DT/the/1 data/NNS/data/3 support/NN/support/1 the/DT/the/1 contention/NN/contend/3 that/IN/that/1 the/DT/the/1 more/JJR/more/1 attributes/NNS/attribute/3 there/EX/there/1 are/VBP/be/1 ,/,/,/0 the/DT/the/1 more/JJR/more/1 data/NNS/data/3 is/VBZ/be/1 needed/VBN/need/1 ?/./?/0 
+Definitely/RB/definite/1 
+Not/RB/not/1 really/RB/really/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Not/RB/not/1 really/RB/really/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+We/PRP/we/1 conclude/VBP/conclude/3 that/IN/that/1 it/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 pretty/RB/pretty/1 hard/JJ/hard/1 to/TO/to/1 predict/VB/predict/3 the/DT/the/1 amount/NN/amount/1 of/IN/of/1 data/NNS/data/3 required/VBN/require/2 by/IN/by/1 a/DT/a/1 classifier/NN/classifier/0 to/TO/to/1 achieve/VB/achieve/3 close/RB/close/1 to/TO/to/1 ultimate/JJ/ultimate/3 performance/NN/perform/2 –/NN/–/0 without/IN/without/1 actually/RB/actual/1 plotting/VBG/plot/3 a/DT/a/1 learning/NN/learn/1 curve/NN/curve/3 ./././0 
+
+

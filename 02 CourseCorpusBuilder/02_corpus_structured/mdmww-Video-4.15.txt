@@ -1,0 +1,3 @@
+Cost-sensitive classification 
+There are two different ways to make a classifier cost-sensitive. One is to create the classifier in the usual way, striving to minimize the number of errors rather than their cost – but then adjust its output to reflect the different costs by recalculating the probability threshold used to make classification decisions. This can be done even for methods that don’t use probabilities explicitly. The second is to learn a different classifier, one that takes the costs into account internally rather than by post-processing the output. This can be done by re-weighting the instances in a way that reflects the error costs.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

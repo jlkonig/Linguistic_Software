@@ -1,0 +1,126 @@
+Mid-course assessment
+Question 1
+Open the blood_fat_corrupted.arff dataset.
+Note: this is not in your Weka installation; you must download it from the above link. Make sure you save it as blood_fat_corrupted.arff and not blood_fat_corrupted.arff.txt, otherwise Weka won’t see it.
+How many instances are there? How many attributes? What are the possible class values?
+Select all the answers you think are correct.
+26 instances
+27 instances
+2 attributes
+3 attributes
+class values low, medium, very_high
+class values low, medium, high, very_high
+class values weight, age, blood_fat
+---
+Correct answer(s):
+27 instances
+3 attributes
+class values low, medium, high, very_high
+
+Question 2
+The blood_fat_corrupted dataset contains two corrupted values. What instances and attributes do they occur in?
+Select all the answers you think are correct.
+instance 5, attribute age
+instance 5, attribute weight
+instance 6, attribute age
+instance 6, attribute weight
+instance 7, attribute age
+instance 7, attribute weight
+instance 11, attribute age
+instance 25 , attribute weight
+---
+Correct answer(s):
+instance 5, attribute weight
+instance 6, attribute age
+
+Question 3
+Open the soybean.arff dataset. Use Weka to determine J48’s classification accuracy, evaluated using a 95% split into training and test instances. What is the percentage of correctly classified instances?
+90.5%
+91.5%
+93.3%
+96.3%
+97.1%
+---
+Correct answer(s):
+97.1%
+
+Question 4
+What is J48’s classification accuracy on the soybean dataset, evaluated using 20-fold cross-validation with a random number seed of 42?
+91.5%
+92.2%
+92.4%
+92.9%
+93.0%
+---
+Correct answer(s):
+93.0%
+
+Question 5
+---
+Correct answer(s):
+
+Question 6
+Determine the performance of ZeroR, NaiveBayes, IBk, and OneR on the soybean dataset, evaluated using a 90% split into training and test instances (with the default random number seed of 1). Which order do they come in?
+---
+Correct answer(s):
+
+Question 7
+Imagine a dataset with 150 instances and 3 class values. 25 of the instances belong to the first class, 50 to the second, and 75 to the third. What is the accuracy of ZeroR for this dataset, when evaluated on the training set?
+25%
+33%
+50%
+66%
+75%
+---
+Correct answer(s):
+50%
+
+Question 8
+For the dataset in the previous question (150 instances, of which 25, 50 and 75 belong to the three classes), would you expect exactly 50% accuracy if ZeroR were evaluated using (a) a 90% split into training and test instances, and (b) 10-fold cross-validation?
+Select all the answers you think are correct.
+(a) no
+(a) yes
+(b) no
+(b) yes
+---
+Correct answer(s):
+(a) no
+(b) yes
+
+Question 9
+For the ionosphere.arff dataset, evaluate J48 five times using a 80% split into training and test instances, with the five random seeds 1, 4, 5, 6, and 8. What is the mean and standard deviation of the classification accuracy?
+Select all the answers you think are correct.
+mean is 86.0%
+mean is 89.7%
+standard deviation is 0.3%
+standard deviation is 4.5%
+standard deviation is 4.9%
+standard deviation is 5.5%
+---
+Correct answer(s):
+mean is 86.0%
+standard deviation is 5.5%
+---
+Feedback correct:
+You may find
+1.18 Using J48
+useful.
+
+Question 10
+If J48 was evaluated on the ionosphere dataset using a single 5-fold cross-validation, would you expect the performance estimate to be more reliable or less reliable than the mean value obtained in Question 9?
+about the same
+less reliable
+more reliable provided the cross-validation is stratified
+more reliable regardless of whether or not the cross-validation is stratified
+---
+Correct answer(s):
+more reliable regardless of whether or not the cross-validation is stratified
+
+Question 10
+If J48 was evaluated on the ionosphere dataset using a single 5-fold cross-validation, would you expect the performance estimate to be more reliable or less reliable than the mean value obtained in Question 9?
+about the same
+less reliable
+more reliable provided the cross-validation is stratified
+more reliable regardless of whether or not the cross-validation is stratified
+---
+Correct answer(s):

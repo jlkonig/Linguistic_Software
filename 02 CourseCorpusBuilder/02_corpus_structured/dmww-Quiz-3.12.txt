@@ -1,0 +1,104 @@
+The effect of pruning
+Question 1
+The dataset was created by the Oncology Institute in Ljubljana. For which other domain did they contribute?
+computer tomography
+lymphography
+steganography
+---
+Correct answer(s):
+lymphography
+---
+Feedback correct:
+You will find this in Section 4 of the ARFF file, entitled Relevant information.
+
+Question 2
+By looking at the comments in the ARFF file, determine how many possible values there are for the age attribute, and how many of these values are used in the dataset.
+3 values, all of which are used
+8 values, 4 of which are used
+9 values, 6 of which are used
+9 values, all of which are used
+100 values, 90 of which are used
+100 values, all of which are used
+---
+Correct answer(s):
+9 values, 6 of which are used
+---
+Feedback correct:
+In Secton 7 of the comments you can see that age is divided into 9 different ranges, and Section 9 says that 6 of these are distinct.
+
+Question 3
+Now open the breast-cancer.arff dataset in the Explorer, go to the Classify tab, and select J48.
+One simple way of pruning a decision tree is to impose a minimum on the number of training examples that reach a leaf. This is done by J48’s minNumObj parameter (default value 2) with the unpruned switch set to True. (The terminology is a little confusing: we are talking about pruning even though unpruned is selected. If we were to deselect unpruned, J48’s other pruning mechanisms would come into play.)
+Experiment with the following values of minNumObj, recording the number of leaves and size of the tree in each case:
+1,  2,  3,  5,  10,  20,  50,  100
+Make a rough pencil-and-paper plot of the number of leaves in the tree (on the vertical axis) against minNumObj (on the horizontal axis).
+Which of these shapes do you get?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+(a)
+---
+Feedback correct:
+The number of leaves in the tree decreases very rapidly as the size of each leaf is allowed to grow.
+
+Question 4
+Which of these shapes do you get when you plot the total size of the tree (in nodes) against minNumObj?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+(b)
+---
+Feedback correct:
+The tree size follows the same trajectory as the number of leaves: it decreases very rapidly as the leaf size grows.
+
+Question 5
+One of the following values for minNumObj produces the same tree as the version of J48 with default parameters (i.e., unpruned = false, minNumObj = 2). Which is it?
+minNumObj = 1
+minNumObj = 2
+minNumObj = 5
+minNumObj = 10
+minNumObj = 20
+minNumObj = 50
+minNumObj = 100
+---
+Correct answer(s):
+minNumObj = 20
+---
+Feedback correct:
+Interestingly, although the same tree is generated for the full dataset, the cross-validation accuracies differ: 76% (default parameters) vs. 74%. How can this be?
+
+Question 6
+In general, J48’s confidenceFactor parameter is best left alone (unless it is tuned automatically using a parameter tuning method). But it is interesting to see its effect. With default values for the other parameters, experiment with the following values of confidenceFactor, recording the performance in each case (evaluated using 10-fold cross-validation):
+0.005,  0.05,  0.1,  0.25,  0.5
+Which value or values produce the greatest accuracy?
+0.005
+0.05
+0.1
+0.05, 0.1. and 0.25 (a tie)
+0.1 and 0.25 (a tie)
+0.25
+0.5
+---
+Correct answer(s):
+
+Question 6
+In general, J48’s confidenceFactor parameter is best left alone (unless it is tuned automatically using a parameter tuning method). But it is interesting to see its effect. With default values for the other parameters, experiment with the following values of confidenceFactor, recording the performance in each case (evaluated using 10-fold cross-validation):
+0.005,  0.05,  0.1,  0.25,  0.5
+Which value or values produce the greatest accuracy?
+0.005
+0.05
+0.1
+0.05, 0.1. and 0.25 (a tie)
+0.1 and 0.25 (a tie)
+0.25
+0.5
+---
+Correct answer(s):
+0.05, 0.1. and 0.25 (a tie)
+---
+Feedback correct:
+These all produce a percentage accuracy of 75.5%.

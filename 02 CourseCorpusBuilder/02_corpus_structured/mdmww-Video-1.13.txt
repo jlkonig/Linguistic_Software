@@ -1,0 +1,4 @@
+The Knowledge Flow interface 
+The Knowledge Flow interface is an alternative to the Explorer.  You lay out filters,
+classifiers, evaluators, and visualizers interactively on a 2D canvas and connect them together with different kinds of connector. Data and classification models flow through the diagram!
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

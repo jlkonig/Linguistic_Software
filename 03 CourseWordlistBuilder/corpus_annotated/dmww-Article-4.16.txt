@@ -1,0 +1,78 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+TOPIC/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Breast-cancer/NN/breast-cancer/0 
+4.9/CD/4.9/0 ,/,/,/0 4.14/CD/4.14/0 
+Cpu/NN/cpu/0 
+4.4/CD/4.4/0 ,/,/,/0 4.5/CD/4.5/0 
+Cpu.with.vendor/NN/cpu.with.vendor/0 
+4.5/CD/4.5/0 
+Credit-g/NN/credit-g/0 
+4.12/CD/4.12/0 
+Diabetes/NNS/diabetes/4 
+4.6/CD/4.6/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.14/CD/4.14/0 
+Glass/NN/glass/1 
+4.9/CD/4.9/0 
+Ionosphere/RB/ionosphere/16 
+4.9/CD/4.9/0 
+Iris/NN/iris/8 
+4.2/CD/4.2/0 ,/,/,/0 4.3/CD/4.3/0 ,/,/,/0 4.7/CD/4.7/0 ,/,/,/0 4.11/CD/4.11/0 
+Labor/NN/labour/2 
+4.9/CD/4.9/0 
+Classifiers/NNS/classifier/0 
+DecisionStump/NN/decisionstump/0 
+4.14/CD/4.14/0 
+IBk/NN/ibk/0 
+4.2/CD/4.2/0 ,/,/,/0 4.3/CD/4.3/0 ,/,/,/0 4.12/CD/4.12/0 
+J48/NN/j48/0 
+4.2/CD/4.2/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.12/CD/4.12/0 
+LinearRegression/NN/linearregression/0 
+4.4/CD/4.4/0 ,/,/,/0 4.5/CD/4.5/0 ,/,/,/0 4.6/CD/4.6/0 ,/,/,/0 4.7/CD/4.7/0 
+Logistic/JJ/logistics/6 
+4.3/CD/4.3/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.11/CD/4.11/0 ,/,/,/0 4.12/CD/4.12/0 
+M5P/NN/m5p/0 
+4.4/CD/4.4/0 ,/,/,/0 4.5/CD/4.5/0 
+NaiveBayes/NNS/naivebayes/0 
+4.2/CD/4.2/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 
+OneR/NN/oner/0 
+4.2/CD/4.2/0 ,/,/,/0 4.6/CD/4.6/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.14/CD/4.14/0 
+SMO/NN/smo/0 
+4.3/CD/4.3/0 ,/,/,/0 4.11/CD/4.11/0 ,/,/,/0 4.12/CD/4.12/0 
+ZeroR/NN/zeror/0 
+4.6/CD/4.6/0 ,/,/,/0 4.8/CD/4.8/0 ,/,/,/0 4.9/CD/4.9/0 ,/,/,/0 4.14/CD/4.14/0 
+Metalearners/NNS/metalearners/0 
+AdaBoostM1/NN/adaboostm1/0 
+4.13/CD/4.13/0 ,/,/,/0 4.14/CD/4.14/0 
+Bagging/VBG/bag/1 
+4.13/CD/4.13/0 
+RandomForest/JJS/randomforest/0 
+4.3/CD/4.3/0 
+Stacking/VBG/stack/4 ,/,/,/0 StackingC/NNP/stackingc/0 
+4.13/CD/4.13/0 
+Filters/NNS/filter/3 
+AddClassification/NN/addclassification/0 
+4.6/CD/4.6/0 
+AddID/NN/addid/0 
+4.7/CD/4.7/0 
+MakeIndicator/NN/makeindicator/0 
+4.7/CD/4.7/0 
+NominalToBinary/JJ/nominaltobinary/0 
+4.5/CD/4.5/0 ,/,/,/0 4.6/CD/4.6/0 
+NumericToNominal/JJ/numerictonominal/0 
+4.6/CD/4.6/0 
+Packages/NNS/pack/1 
+LibSVM/NN/libsvm/0 
+4.11/CD/4.11/0 
+Plus/CC/plus/1 …/VB/…/0 
+Boundary/NNP/boundary/3 visualizer/NN/visualizer/0 
+4.11/CD/4.11/0 
+Contrabassoon/NN/contrabassoon/0 
+4.11/CD/4.11/0 
+Output/NNP/output/3 predictions/NNS/predict/3 
+4.7/CD/4.7/0 ,/,/,/0 4.9/CD/4.9/0 
+Visualize/NNP/visual/3 classification/NN/classification/4 boundaries/NNS/boundary/3 
+4.2/CD/4.2/0 ,/,/,/0 4.3/CD/4.3/0 
+
+

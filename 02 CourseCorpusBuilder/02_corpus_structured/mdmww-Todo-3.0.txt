@@ -1,0 +1,88 @@
+Classification rules, association rules, and clustering 
+Is it better to generate rules or trees?
+This week's first Big Question!
+3.1
+Is it better to generate rules or trees?
+article
+Decision trees and rules 
+Any decision tree has an equivalent set of rules ... and for any set of rules there's an equivalent decision tree. But the complexities may be very different – particularly if the rules are to be executed in a predetermined order.
+3.2
+Decision trees and rules 
+video (07:24)
+3.3
+Adding PRISM to Weka
+article
+3.4
+What could possibly go wrong?
+discussion
+3.5
+Simple decision rules
+quiz
+3.6
+Small rule sets for the contact-lenses data
+discussion
+Generating decision rules 
+"PART" makes good rules by repeatedly creating partial decision trees.
+Incremental reduced-error pruning is a standard pruning technique.
+"Ripper" follows this by complex optimization to make very small rule sets.
+3.7
+Generating good decision rules 
+video (06:42)
+3.8
+Comparing rule-based classifiers
+quiz
+What if there's no "class" attribute?
+This week's second Big Question!
+3.9
+What if there's no "class" attribute?
+article
+Association rules 
+Instead of predicting a "class", association rules describe relations between any of the attributes.
+Support and Confidence are basic measures of a rule.
+"Apriori" is the standard association-rule-learning algorithm.
+3.10
+Association rules 
+video (05:02)
+3.11
+Association rules
+quiz
+Learning association rules 
+Apriori's strategy is to specify a minimum Confidence, and iteratively reduce Support until enough rules are found.
+It generates high-support "item sets" and turns them into rules.
+3.12
+Learning association rules 
+video (09:06)
+3.13
+Try some market basket analysis
+article
+3.14
+Here's what I did
+article
+3.15
+Market basket analysis
+discussion
+Representing clusters 
+With clustering, there is no "class" attribute. Instead of predicting the class, we try to divide the instances into natural groups, or "clusters".
+There are many different representations for clusters.
+3.16
+Representing clusters 
+video (07:40)
+3.17
+Clustering the Iris data
+quiz
+Evaluating clusters
+It's hard to evaluate clustering, except perhaps by visualization.
+Different clustering algorithms use different metrics for optimization.
+If the dataset has a "class" attribute, you can do "classes to clusters" evaluation.
+3.18
+Evaluating clusters 
+video (08:48)
+3.19
+Comparing clusterers using classification-by-clustering
+quiz
+3.20
+Reflect on this week's Big Questions
+discussion
+3.21
+Index
+article

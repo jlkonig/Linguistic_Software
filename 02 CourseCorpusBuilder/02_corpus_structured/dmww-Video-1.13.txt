@@ -1,0 +1,3 @@
+More weather
+Key concepts when talking about datasets are instances, attributes, and the class (which is conventionally the last attribute). Attributes can be nominal or numeric (there are also other types). In a classification problem the goal is to produce automatically some kind of model that can determine the class of new instances. These concepts are illustrated using the weather dataset.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

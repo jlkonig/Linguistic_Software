@@ -1,0 +1,96 @@
+Instance-based learning
+Question 1
+Select the IBk classifier. What is its accuracy, evaluated using 10-fold cross-validation?
+71%
+72%
+74%
+97%
+---
+Correct answer(s):
+72%
+---
+Feedback correct:
+On the breast-cancer dataset, IBk gives an accuracy of 72% (not rounded: 72.3776%) for 10-fold cross-validation.
+---
+Feedback incorrect:
+Make sure you are using the default values.
+---
+Feedback incorrect:
+Are you using cross-validation?
+
+Question 2
+IBk’s KNN parameter specifies the number of nearest neighbors to use when classifying a test instance, and the outcome is determined by majority vote. The default value is 1. Evaluate KNN’s performance with 2, 3, and 5 nearest neighbors. What accuracies do you obtain?
+72%, 74%, 73%
+72%, 73%, 74%
+73%, 74%, 73%
+73%, 74%, 74%
+---
+Correct answer(s):
+73%, 74%, 73%
+---
+Feedback correct:
+For 2 neighbors you get 73%, for 3 neighbors 74%, and for 5 neighbors 73% accuracy when cross-validating IBk using 10 folds.
+
+Question 3
+Do you think these differences are significant? Support your answer by running IBk with the default value of 1 for KNN using the following random number seeds, recording the accuracies:
+1, 2, 3, 4, 5
+Are the differences likely to be significant?
+yes
+no
+---
+Correct answer(s):
+no
+---
+Feedback correct:
+These seed values give accuracies of 72%, 74%, 71%, 74%, 73%, which are sufficiently close together that the differences are probably not significant.
+
+Question 4
+An obvious issue with IBk is how to choose a suitable value for the number of nearest neighbors used. If it’s too small, the method is susceptible to noise in the data. If it’s too large, the decision is smeared out, covering too great an area of instance space. Weka’s IBk implementation has an option that can help by choosing the best value automatically. Check the More button information to find out what it is.
+KNN
+crossValidate
+debug
+distanceWeighting
+meanSquared
+nearestNeighbourSearchAlgorithm
+windowSize
+---
+Correct answer(s):
+crossValidate
+---
+Feedback correct:
+If this is set, IBk uses cross-validation to select the best value for KNN (which is the same as k).
+---
+Feedback incorrect:
+You should already know that the KNN parameter specifies the number of nearest neighbors to use when classifying a test instance.
+
+Question 5
+Let’s artificially add noise to a dataset, determine the best value for KNN using the option you have just discovered, and watch it change with the level of noise.
+Open the glass.arff dataset. Select the unsupervised attribute filter addNoise. Observe from its configuration panel that by default it adds 10% noise to the last attribute (the class). Change this to 30% and Apply the filter.
+In the Classify panel, select IBk and configure it to determine the best number of neighbors automatically. On the face of it, the KNN parameter is now redundant, but in fact it’s not. Figure out what it does by experimenting with values 1, 10, 20 and checking how many neighbors are used. When you run IBk this information appears in the Classifier model section of the output.
+What is the best number of neighbors (as determined by Weka) when the amount of noise added is 0%, 10%, 20%, and 30%? (20 is a safe value to use for KNN in these experiments.) Don’t forget to Undo the effect of the addNoise filter (or reload the dataset) after each experiment!
+1, 1, 1, 1
+1, 2, 3, 4
+1, 2, 3, 12
+1, 4, 4, 12
+1, 2, 4, 20
+1, 4, 12, 20
+---
+Correct answer(s):
+1, 4, 4, 12
+---
+Feedback correct:
+Using the crossValidate mode that you discovered in the previous question, the KNN parameter sets the maximum number of neighbors that will be investigated. Leave this at anything greater than 12 to get these results.
+
+Question 5
+Let’s artificially add noise to a dataset, determine the best value for KNN using the option you have just discovered, and watch it change with the level of noise.
+Open the glass.arff dataset. Select the unsupervised attribute filter addNoise. Observe from its configuration panel that by default it adds 10% noise to the last attribute (the class). Change this to 30% and Apply the filter.
+In the Classify panel, select IBk and configure it to determine the best number of neighbors automatically. On the face of it, the KNN parameter is now redundant, but in fact it’s not. Figure out what it does by experimenting with values 1, 10, 20 and checking how many neighbors are used. When you run IBk this information appears in the Classifier model section of the output.
+What is the best number of neighbors (as determined by Weka) when the amount of noise added is 0%, 10%, 20%, and 30%? (20 is a safe value to use for KNN in these experiments.) Don’t forget to Undo the effect of the addNoise filter (or reload the dataset) after each experiment!
+1, 1, 1, 1
+1, 2, 3, 4
+1, 2, 3, 12
+1, 4, 4, 12
+1, 2, 4, 20
+1, 4, 12, 20
+---
+Correct answer(s):

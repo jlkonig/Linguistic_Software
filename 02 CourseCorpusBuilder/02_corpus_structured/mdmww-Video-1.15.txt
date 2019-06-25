@@ -1,0 +1,3 @@
+Using the Command Line 
+You can do everything the Explorer does (and more) from the command line. Why would you want to – the Explorer is so easy? Well, some people find it faster  to type commands! More importantly, the command line gives you more control over memory usage, because it’s a lower-level way of accessing Weka’s facilities. You will also learn how to consult Javadoc, which is the definitive source of Weka documentation.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

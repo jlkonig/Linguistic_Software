@@ -1,0 +1,4 @@
+Avenues for further investigation
+You can perform much more experimentation in search of a good model!
+For example, we have not examined the effects of parameter changes in either the classifiers or the preprocessing techniques (except for the Savitzky-Golay window size).
+One problem faced in all application development is knowing when a result is good enough to be useful in practice. In our experience, the correlation coefficient needs to increase to 0.95–0.99 for this problem. Our best result in this activity is 0.87, still a long way off. Another important factor that we have not explored is the effect of outliers in regression problems. Filtering out outlier instances can make a huge difference to performance.

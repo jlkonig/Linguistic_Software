@@ -1,0 +1,10 @@
+Forecasting electricity demand
+In the electricity supply industry, it is important to determine future demand for power as far in advance as possible.
+If accurate estimates can be made for the maximum and minimum load for each hour, day, month, season, and year, utility companies can make significant economies in areas such as setting the operating reserve, maintenance schedule, and fuel inventory management.
+Given appropriate historical data, forecasting the demand for electricity for a particular hour, day, month, and year is a data mining problem.
+Brainstorm suggestions for suitable input – the attributes, or features – for this problem. Assume that whatever historical data you need is available, and also weather forecasts for the forecasting period.
+Think about this:
+    Periodicity in electrical load may occur at several fundamental frequencies – a yearly one is obvious (why?), what are some others?
+    What about minor variations that might occur on holidays?
+    What about the weather?
+    What about overall growth?

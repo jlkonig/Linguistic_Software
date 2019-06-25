@@ -1,0 +1,243 @@
+Comparing/VBG/compare/2 rule-based/JJ/rule-based/0 classifiers/NNS/classifier/0 
+Question/NN/question/1 1/CD/1/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 J48/NNP/j48/0 give/VB/give/1 the/DT/the/1 best/JJS/best/1 results/NNS/result/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 1/CD/1/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 J48/NNP/j48/0 give/VB/give/1 the/DT/the/1 best/JJS/best/1 results/NNS/result/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+iris/NN/iris/8 
+
+Question/NN/question/1 2/CD/2/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 JRip/NNP/jrip/0 give/VB/give/1 the/DT/the/1 best/JJS/best/1 results/NNS/result/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+
+Question/NN/question/1 3/CD/3/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 does/VBZ/do/1 PART/NNP/part/1 give/VB/give/1 the/DT/the/1 best/JJS/best/1 results/NNS/result/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+segment-challenge/NN/segment-challenge/0 
+
+Question/NN/question/1 4/CD/4/0 
+Now/RB/now/1 consider/VB/consider/1 statistical/JJ/statistic/3 significance/NN/significance/3 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 (/(/(/0 default/NN/default/5 )/)/)/0 level/NN/level/1 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 are/VBP/be/1 there/RB/there/1 no/DT/no/1 significant/JJ/significant/3 differences/NNS/difference/1 between/IN/between/1 JRip/NNP/jrip/0 and/CC/and/1 ZeroR/NNP/zeror/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+
+Question/NN/question/1 5/CD/5/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 is/VBZ/be/1 there/RB/there/1 no/DT/no/1 significant/JJ/significant/3 difference/NN/difference/1 between/IN/between/1 JRip/NNP/jrip/0 and/CC/and/1 OneR/NNP/oner/0 ?/./?/0 
+[/JJ/[/0 Hint/NN/hint/3 :/:/:/0 For/IN/for/1 this/DT/this/1 question/NN/question/1 and/CC/and/1 the/DT/the/1 following/JJ/follow/1 ones/NNS/one/1 you/PRP/you/1 will/MD/will/1 have/VB/have/1 to/TO/to/1 alter/VB/alter/2 the/DT/the/1 “/JJ/“/0 Test/NNP/test/1 base/NN/base/1 ”/NNP/”/0 appropriately/RB/appropriate/3 ]/VBD/]/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+iris/NN/iris/8 
+
+Question/NN/question/1 6/CD/6/0 
+For/IN/for/1 which/WDT/which/1 dataset/NN/dataset/0 are/VBP/be/1 there/RB/there/1 significant/JJ/significant/3 differences/NNS/difference/1 between/IN/between/1 any/DT/any/1 of/IN/of/1 PART/NNP/part/1 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 and/CC/and/1 J48/NNP/j48/0 ?/./?/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+segment-challenge/NN/segment-challenge/0 
+
+Question/NN/question/1 7/CD/7/0 
+Now/RB/now/1 change/VBP/change/1 the/DT/the/1 “/NNP/“/0 Comparison/NNP/compare/2 field/NN/field/1 ”/NN/”/0 to/TO/to/1 measureNumRules/NNS/measurenumrules/0 ,/,/,/0 which/WDT/which/1 gives/VBZ/give/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 rules/NNS/rule/1 produced/VBN/produce/2 by/IN/by/1 PART/NNP/part/1 and/CC/and/1 JRip/NNP/jrip/0 ,/,/,/0 and/CC/and/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 leaves/NNS/leave/1 produced/VBN/produce/2 by/IN/by/1 J48/NNP/j48/0 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 JRip/NNP/jrip/0 produce/VB/produce/2 the/DT/the/1 smallest/JJS/small/1 number/NN/number/1 of/IN/of/1 rules/NNS/rule/1 ?/./?/0 
+[/JJ/[/0 Hint/NN/hint/3 :/:/:/0 For/IN/for/1 this/DT/this/1 question/NN/question/1 and/CC/and/1 the/DT/the/1 next/JJ/next/1 two/CD/two/1 ones/NNS/one/1 you/PRP/you/1 will/MD/will/1 need/VB/need/1 to/TO/to/1 ensure/VB/ensure/3 that/IN/that/1 the/DT/the/1 “/JJ/“/0 Test/NNP/test/1 base/NN/base/1 ”/NN/”/0 is/VBZ/be/1 set/VBN/set/1 to/TO/to/1 one/CD/one/1 of/IN/of/1 PART/NNP/part/1 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 J48/NNP/j48/0 ]/NNP/]/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+
+Question/NN/question/1 8/CD/8/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 does/VBZ/do/1 PART/NNP/part/1 produce/VB/produce/2 fewer/JJR/few/1 rules/NNS/rule/1 than/IN/than/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 leaves/NNS/leave/1 that/WDT/that/1 J48/NNP/j48/0 generates/VBZ/generate/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+
+Question/NN/question/1 9/CD/9/0 
+Now/RB/now/1 consider/VB/consider/1 significance/NN/significance/3 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 (/(/(/0 default/NN/default/5 )/)/)/0 level/NN/level/1 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 JRip/NNP/jrip/0 produce/VB/produce/2 significantly/RB/significant/3 fewer/JJR/few/1 rules/NNS/rule/1 than/IN/than/1 PART/NNP/part/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+iris/NN/iris/8 
+segment-challenge/NN/segment-challenge/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+segment-challenge/NN/segment-challenge/0 
+
+Question/NN/question/1 10/CD/10/0 
+Now/RB/now/1 that/IN/that/1 you/PRP/you/1 ’/VBP/’/0 ve/JJ/have/1 got/VBD/get/1 everything/NN/every/1 set/VBN/set/1 up/RP/up/1 in/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 there/EX/there/1 ’/NNP/’/0 s/VBD/be/1 one/CD/one/1 final/JJ/final/1 thing/NN/thing/1 that/WDT/that/1 is/VBZ/be/1 easy/JJ/easy/1 to/TO/to/1 do/VB/do/1 ,/,/,/0 and/CC/and/1 very/RB/very/1 instructive/JJ/instruct/2 ;/:/;/0 which/WDT/which/1 is/VBZ/be/1 to/TO/to/1 examine/VB/examine/2 the/DT/the/1 speed/NN/speed/2 of/IN/of/1 the/DT/the/1 classifier/NN/classifier/0 algorithms/IN/algorithm/5 you/PRP/you/1 ’/VBP/’/0 ve/RB/have/1 been/VBN/be/1 investigating/VBG/investigate/2 ./././0 
+Let/VB/let/1 ’/PRP/’/0 s/VB/be/1 think/VBP/think/1 about/IN/about/1 it/PRP/it/1 first/RB/first/1 ./././0 
+You/PRP/you/1 have/VBP/have/1 been/VBN/be/1 evaluating/VBG/evaluate/3 5/CD/5/0 methods/NNS/method/3 :/:/:/0 ZeroR/NNP/zeror/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 PART/NNP/part/1 ,/,/,/0 JRip/NNP/jrip/0 and/CC/and/1 J48/NNP/j48/0 ./././0 Which/NNP/which/1 2/CD/2/0 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 are/VBP/be/1 the/DT/the/1 fastest/JJS/fast/1 for/IN/for/1 training/NN/train/1 ?/./?/0 
+ZeroR/NNP/zeror/0 and/CC/and/1 PART/NNP/part/1 
+ZeroR/NNP/zeror/0 and/CC/and/1 OneR/NNP/oner/0 
+J48/NNP/j48/0 and/CC/and/1 OneR/NNP/oner/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ZeroR/NNP/zeror/0 and/CC/and/1 OneR/NNP/oner/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+These/DT/this/1 methods/NNS/method/3 are/VBP/be/1 by/IN/by/1 far/RB/far/1 the/DT/the/1 simplest/JJS/simple/1 
+
+Question/NN/question/1 11/CD/11/0 
+Which/JJ/which/1 2/CD/2/0 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 are/VBP/be/1 the/DT/the/1 fastest/JJS/fast/1 for/IN/for/1 testing/VBG/test/1 ?/./?/0 
+ZeroR/NNP/zeror/0 and/CC/and/1 JRip/NNP/jrip/0 
+ZeroR/NNP/zeror/0 and/CC/and/1 OneR/NNP/oner/0 
+J48/NNP/j48/0 and/CC/and/1 OneR/NNP/oner/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ZeroR/NNP/zeror/0 and/CC/and/1 OneR/NNP/oner/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Once/RB/once/1 again/RB/again/1 ,/,/,/0 these/DT/this/1 methods/NNS/method/3 are/VBP/be/1 by/IN/by/1 far/RB/far/1 the/DT/the/1 simplest/JJS/simple/1 
+
+Question/NN/question/1 12/CD/12/0 
+Do/VBP/do/1 you/PRP/you/1 think/VB/think/1 J48/NNP/j48/0 is/VBZ/be/1 faster/RBR/fast/1 than/IN/than/1 PART/NNP/part/1 for/IN/for/1 training/NN/train/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+J48/NNP/j48/0 produces/VBZ/produce/2 just/RB/just/1 one/CD/one/1 decision/NN/decision/2 tree/NN/tree/1 whereas/IN/whereas/2 PART/NNP/part/1 produces/VBZ/produce/2 several/JJ/several/1 
+
+Question/NN/question/1 13/CD/13/0 
+Do/VBP/do/1 you/PRP/you/1 think/VB/think/1 JRip/NNP/jrip/0 is/VBZ/be/1 faster/RBR/fast/1 than/IN/than/1 PART/NNP/part/1 for/IN/for/1 testing/VBG/test/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+JRip/NNP/jrip/0 produces/VBZ/produce/2 smaller/JJR/small/1 rule/NN/rule/1 sets/NNS/set/1 ,/,/,/0 which/WDT/which/1 are/VBP/be/1 quicker/JJR/quick/1 to/TO/to/1 test/VB/test/1 
+
+Question/NN/question/1 14/CD/14/0 
+In/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 ,/,/,/0 select/JJ/select/2 UserCPU_Time_training/NNP/usercpu_time_training/0 as/IN/as/1 the/DT/the/1 “/NNP/“/0 Comparison/NNP/compare/2 field/NN/field/1 ”/NNP/”/0 ./././0 Set/NNP/set/1 the/DT/the/1 Mean/NNP/mean/1 Precision/NNP/precise/3 under/IN/under/1 “/NNP/“/0 Output/NNP/output/3 Format/NNP/format/3 ”/NNP/”/0 to/TO/to/1 6/CD/6/0 (/(/(/0 decimal/JJ/decimal/9 places/NNS/place/1 )/)/)/0 ,/,/,/0 and/CC/and/1 check/VB/check/1 Show/NNP/show/1 Average/NNP/average/2 (/(/(/0 also/RB/also/1 under/IN/under/1 “/NNP/“/0 Output/NNP/output/3 Format/NNP/format/3 ”/NNP/”/0 )/)/)/0 ./././0 
+Perform/VB/perform/2 the/DT/the/1 test/NN/test/1 and/CC/and/1 look/NN/look/1 at/IN/at/1 the/DT/the/1 average/JJ/average/2 training/NN/train/1 time/NN/time/1 taken/VBN/take/1 by/IN/by/1 these/DT/this/1 classifiers/NNS/classifier/0 :/:/:/0 ZeroR/NNP/zeror/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 PART/NNP/part/1 ,/,/,/0 JRip/NNP/jrip/0 and/CC/and/1 J48/NNP/j48/0 ./././0 What/WP/what/1 order/NN/order/1 do/VBP/do/1 they/PRP/they/1 come/VB/come/1 in/IN/in/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ZeroR/NN/zeror/0 
+oneR/NN/oner/0 
+J48/NN/j48/0 
+PART/NN/part/1 
+JRIP/NN/jrip/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 Note/NN/note/1 that/IN/that/1 the/DT/the/1 times/NNS/time/1 might/MD/might/1 differ/VB/differ/3 slightly/RB/slight/1 on/IN/on/1 your/PRP$/you/1 computer/NN/computer/1 ,/,/,/0 so/IN/so/1 what/WP/what/1 ’/NNP/’/0 s/NN/be/1 correct/NN/correct/2 for/IN/for/1 me/PRP/i/1 may/MD/may/1 not/RB/not/1 necessarily/RB/necessary/1 be/VB/be/1 correct/JJ/correct/2 for/IN/for/1 you/PRP/you/1 ./././0 )/)/)/0 
+
+Question/NN/question/1 15/CD/15/0 
+Change/VB/change/1 the/DT/the/1 Comparison/NNP/compare/2 field/NN/field/1 to/TO/to/1 UserCPU_Time_testing/NNP/usercpu_time_testing/0 ./././0 What/WP/what/1 order/NN/order/1 do/VBP/do/1 they/PRP/they/1 come/VB/come/1 in/IN/in/1 now/RB/now/1 (/(/(/0 fastest/JJS/fast/1 to/TO/to/1 slowest/VB/slow/1 )/)/)/0 ?/./?/0 
+JRip/NNP/jrip/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 PART/NNP/part/1 ,/,/,/0 ZeroR/NNP/zeror/0 
+J48/NNP/j48/0 ,/,/,/0 ZeroR/NNP/zeror/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 PART/NNP/part/1 
+ZeroR/NNP/zeror/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 PART/NNP/part/1 
+ZeroR/NNP/zeror/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 PART/NNP/part/1 
+J48/NNP/j48/0 ,/,/,/0 ZeroR/NNP/zeror/0 ,/,/,/0 JRip/NNP/jrip/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 PART/NNP/part/1 
+JRip/NNP/jrip/0 ,/,/,/0 OneR/NNP/oner/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 ZeroR/NNP/zeror/0 ,/,/,/0 PART/NNP/part/1 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+None/NN/none/1 of/IN/of/1 the/DT/the/1 above/NN/above/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 ’/VBZ/’/0 s/RB/be/1 hard/JJ/hard/1 to/TO/to/1 get/VB/get/1 this/DT/this/1 question/NN/question/1 wrong/JJ/wrong/1 !/./!/0 I/PRP/i/1 was/VBD/be/1 surprised/VBN/surprise/1 to/TO/to/1 find/VB/find/1 many/JJ/many/1 different/JJ/different/1 permutations/NNS/permutate/11 of/IN/of/1 UserCPU_Time_testing/VBG/usercpu_time_testing/0 ordering/VBG/order/1 when/WRB/when/1 I/PRP/i/1 tried/VBD/try/1 this/DT/this/1 on/IN/on/1 different/JJ/different/1 computers/NNS/computer/1 ./././0 So/RB/so/1 all/DT/all/1 answers/NNS/answer/1 are/VBP/be/1 marked/VBN/mark/1 correct/JJ/correct/2 !/./!/0 !/./!/0 !/./!/0 
+
+

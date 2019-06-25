@@ -1,0 +1,40 @@
+About this course
+This course introduces you to practical data mining using the Weka workbench. We explain the basic principles of several popular algorithms and how to use them in practical applications. The aim of the course is to dispel the mystery that surrounds data mining.
+After completing it you will be able to mine your own data – and understand what it is that you are doing!
+Course structure
+Teachers open the door. You enter by yourself. (Chinese proverb)
+This is structured as a five week course:
+  Week 1: A little bit of everything
+  Week 2: Evaluation
+  Week 3: Simple classifiers
+  Week 4: More classifiers
+  Week 5: Putting it all together
+Each week focuses on a “Big Question.” For example, Week 1’s Big Question is: What’s it like to do data mining? The week covers a handful of activities that together address the question. Each activity comprises:
+  5-10 minute video
+  Quiz. But no ordinary quiz! In order to answer the questions you have to undertake some practical data mining task. You don’t learn by watching someone talk; you learn by actually doing things! The quizzes give you an opportunity to do a lot of data mining.
+I hear and I forget. I see and I remember. I do and I understand. (Confucius)
+You will get additional benefits by purchasing an upgrade, including access to the tests:
+  Mid-class test at the end of Week 2
+  Post-class test at the end of Week 5
+This week …
+In Week 1 you will get started with data mining. You will install Weka, explore its interface, explore some data sets, build a classifier, interpret the output, use filters, and visualize data sets. At the end of the week you will know what it’s like to do data mining!
+Right now …
+Please take the time to fill in the pre-course survey.
+Teaching team
+  Lead educator, Ian Witten
+  Educator, David Nichols
+  Educator, Jemma König
+Production team
+  Video editing, Peter Oliver and Louise Hutt
+  Captions, Jennifer Whisler
+  Music: Mozart’s Divertimento No. 2, Allegro, performed by Woodside Clarinets: Paul King, Sarah Shieff and Ian Witten
+Support
+  Share what you are learning, including difficulties, problems and solutions, with others in the class in a weekly discussion focused on the Big Question of the week and what you have learned
+  Other discussions from time to time
+  Transcripts are supplied for all videos
+  Slides for all videos can be downloaded as a PDF file
+Software requirements
+You will download and install the free Weka software during Week 1. It runs on any computer, under Windows, Linux, or Mac. It has been downloaded millions of times and is being used all around the world.
+(Note: Depending on your computer and system version, you may need admin access to install Weka.)
+Prerequisite knowledge
+You need no programming experience for this course. And no math, though some high-school statistical concepts are used (means and variances, maybe confidence intervals).

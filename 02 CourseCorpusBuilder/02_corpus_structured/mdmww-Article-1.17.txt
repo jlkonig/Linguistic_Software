@@ -1,0 +1,5 @@
+Can Weka process big data?
+What is “big data” anyway? The term is typically used to refer to data sets that are so large that data mining tools have difficulty in dealing with them. But how large is this? Well, that depends …
+We will learn that there is a limit to the size of datasets that the Weka Explorer can deal with. It’s pretty big, but a fundamental limit is imposed by the way the Explorer works.
+But wait! That’s the Explorer. The Command Line interface (and also the Knowledge Flow interface) can be used in a way that imposes no limit on dataset size. That’s right!—datasets can be infinite. (Well, of course, in any physical system there are always file size limits.) The limitation then becomes time: how long are you prepared to wait for an answer?
+After this Activity you will be able to explain why the Explorer has a fundamental limit, and have a rough idea what it might be. And you’ll be able to explain why this limit can be transcended using the Command Line interface, and how to do that.

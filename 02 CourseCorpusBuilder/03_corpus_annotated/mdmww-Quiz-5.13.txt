@@ -1,0 +1,63 @@
+Optimizing/VBG/optimise/6 IBk/NNP/ibk/0 
+Question/NN/question/1 1/CD/1/0 
+In/IN/in/1 the/DT/the/1 Explorer/NNP/explore/3 ,/,/,/0 determine/VB/determine/2 the/DT/the/1 optimal/JJ/optimal/5 parameter/NN/parameter/4 value/NN/value/2 for/IN/for/1 IBk/NNP/ibk/0 between/IN/between/1 1/CD/1/0 and/CC/and/1 10/CD/10/0 for/IN/for/1 the/DT/the/1 breast-cancer.arff/JJ/breast-cancer.arff/0 dataset/NN/dataset/0 using/VBG/use/1 the/DT/the/1 CVParameterSelection/NNP/cvparameterselection/0 meta-learning/JJ/meta-learning/0 scheme/NN/scheme/3 with/IN/with/1 the/DT/the/1 CVParameter/NNP/cvparameter/0 string/NN/string/2 set/NN/set/1 to/TO/to/1 “/VB/“/0 K/NNP/k/0 1/CD/1/0 10/CD/10/0 10/CD/10/0 ”/NN/”/0 ./././0 What/WP/what/1 is/VBZ/be/1 it/PRP/it/1 ?/./?/0 
+1/CD/1/0 
+2/CD/2/0 
+4/CD/4/0 
+9/CD/9/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+4/CD/4/0 
+
+Question/NN/question/1 2/CD/2/0 
+Set/NNP/set/1 up/RP/up/1 the/DT/the/1 Experimenter/NNP/experiment/3 to/TO/to/1 compare/VB/compare/2 IBk/NNP/ibk/0 with/IN/with/1 its/PRP$/it/1 default/NN/default/5 parameter/NN/parameter/4 of/IN/of/1 1/CD/1/0 with/IN/with/1 the/DT/the/1 optimal/JJ/optimal/5 value/NN/value/2 between/IN/between/1 1/CD/1/0 and/CC/and/1 10/CD/10/0 found/VBD/find/1 using/VBG/use/1 the/DT/the/1 CVParameterSelection/NNP/cvparameterselection/0 meta-learning/JJ/meta-learning/0 scheme/NN/scheme/3 ./././0 
+Use/NNP/use/1 these/DT/this/1 4/CD/4/0 datasets/NNS/datasets/0 :/:/:/0 credit-g.arff/NN/credit-g.arff/0 ,/,/,/0 diabetes.arff/NN/diabetes.arff/0 ,/,/,/0 glass.arff/NN/glass.arff/0 ,/,/,/0 and/CC/and/1 ionosphere.arff/NN/ionosphere.arff/0 ./././0 Note/NN/note/1 :/:/:/0 the/DT/the/1 optimal/JJ/optimal/5 parameter/NN/parameter/4 value/NN/value/2 will/MD/will/1 vary/VB/vary/2 from/IN/from/1 one/CD/one/1 dataset/NN/dataset/0 to/TO/to/1 another/DT/another/1 ,/,/,/0 so/RB/so/1 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 set/VB/set/1 up/RP/up/1 the/DT/the/1 Experimenter/NN/experiment/3 to/TO/to/1 determine/VB/determine/2 it/PRP/it/1 individually/RB/individual/2 for/IN/for/1 each/DT/each/1 dataset/NN/dataset/0 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 this/DT/this/1 optimization/NN/optimise/6 step/NN/step/1 produce/VBP/produce/2 a/DT/a/1 better/JJR/better/1 result/NN/result/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+
+Question/NN/question/1 3/CD/3/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 is/VBZ/be/1 the/DT/the/1 result/NN/result/2 significantly/RB/significant/3 better/RBR/better/1 (/(/(/0 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ionosphere/RB/ionosphere/16 
+
+Question/NN/question/1 4/CD/4/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 is/VBZ/be/1 the/DT/the/1 result/NN/result/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 4/CD/4/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 is/VBZ/be/1 the/DT/the/1 result/NN/result/2 significantly/RB/significant/3 worse/JJR/worse/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+glass/NN/glass/1 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+none/NN/none/1 
+
+

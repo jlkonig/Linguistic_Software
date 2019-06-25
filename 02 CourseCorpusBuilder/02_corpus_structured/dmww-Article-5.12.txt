@@ -1,0 +1,7 @@
+Farewell
+Thanks for taking this course. We hope you’ve enjoyed it.
+We’ve introduced you to practical data mining using the Weka workbench. We explained the basic principles of several popular algorithms and how to use them in practical applications. As we said at the beginning, the aim of the course is to dispel the mystery that surrounds data mining.
+We claimed that after completing it you would be able to mine your own data – and understand what it is that you are doing!
+What do you think? How did you get on? What did you learn? What did you struggle with? Have your views on data mining changed? What do you want to learn next? Please let us know by filling in the post-course survey. We welcome your suggestions on what could be improved!
+This course will run again soon. Please tell anyone you think might benefit from it.
+No matter where you go, there you are. (Sometimes attributed to Confucius)

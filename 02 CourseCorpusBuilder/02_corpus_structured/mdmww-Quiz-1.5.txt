@@ -1,0 +1,291 @@
+Are you ready for this?
+Question 1
+Open the blood_fat_corrupted.arff dataset. (This is not in your Weka installation; you will have to download it. Make sure you save it with extension “.arff”.)
+How many instances are there? How many attributes? What are the possible class values?
+Select all the answers you think are correct.
+26 instances
+27 instances
+2 attributes
+3 attributes
+class values low, medium, very_high
+class values low, medium, high, very_high
+class values weight, age, blood_fat
+---
+Correct answer(s):
+27 instances
+3 attributes
+class values low, medium, high, very_high
+---
+Feedback incorrect:
+You’ve got the number of instances wrong.
+---
+Feedback incorrect:
+The class is included as one of the attributes.
+---
+Feedback incorrect:
+Weight and age are attributes, not class values.
+
+Question 1
+Open the blood_fat_corrupted.arff dataset. (This is not in your Weka installation; you will have to download it. Make sure you save it with extension “.arff”.)
+How many instances are there? How many attributes? What are the possible class values?
+Select all the answers you think are correct.
+26 instances
+27 instances
+2 attributes
+3 attributes
+class values low, medium, very_high
+class values low, medium, high, very_high
+class values weight, age, blood_fat
+---
+Correct answer(s):
+
+Question 2
+The blood_fat_corrupted dataset contains two corrupted values. What instances and attributes do they occur in?
+Select all the answers you think are correct.
+instance 5, attribute age
+instance 5, attribute weight
+instance 6, attribute age
+instance 6, attribute weight
+instance 7, attribute age
+instance 7, attribute weight
+instance 11, attribute age
+instance 25 , attribute weight
+---
+Correct answer(s):
+instance 5, attribute weight
+instance 6, attribute age
+---
+Feedback correct:
+You can view the data with the Edit button in the Preprocess panel.
+The weight attribute for instance 5 has value –1. That’s impossible!
+The age attribute for instance 6 has value 120. That’s highly unlikely!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The age attribute for instance 5 has value 25. Nothing wrong with that!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The weight attribute for instance 5 has value –1. That’s impossible!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The age attribute for instance 6 has value 120. That’s highly unlikely!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The weight attribute for instance 6 has value 60. Nothing wrong with that! (assuming Kg)
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The age attribute for instance 7 has value 57. Nothing wrong with that!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The weight attribute for instance 7 has value 76. Nothing wrong with that! (assuming Kg)
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The age attribute for instance 11 has value 57. Nothing wrong with that!
+---
+Feedback incorrect:
+You can view the data with the Edit button in the Preprocess panel.
+The weight attribute for instance 25 has value 85. Nothing wrong with that! (assuming Kg)
+
+Question 3
+Open the soybean.arff dataset. Use Weka to determine J48’s classification accuracy, evaluated using a 95% split into training and test instances. What is the result?
+90.5%
+91.5%
+93.3%
+96.3%
+97.1%
+---
+Correct answer(s):
+97.1%
+---
+Feedback incorrect:
+Are you using Percentage split with the default value of 66%, instead of 95%?
+---
+Feedback incorrect:
+Are you using Cross-validation instead of Percentage split?
+---
+Feedback incorrect:
+Are you evaluating on the training set instead of using percentage split?
+
+Question 4
+What is J48’s classification accuracy on the soybean dataset, evaluated using 20-fold cross-validation with a random number seed of 42?
+91.5%
+92.2%
+92.4%
+92.9%
+93.0%
+---
+Correct answer(s):
+93.0%
+---
+Feedback incorrect:
+Did you use 20-fold cross-validation with a random number seed of 42?
+---
+Feedback incorrect:
+Did you use 10-fold cross-validation instead of 20-fold?
+---
+Feedback incorrect:
+Did you leave the random number seed at the default value of 1?
+
+Question 5
+Which of the estimates in the last two questions would you expect to be more reliable?
+Question 3
+Question 4
+---
+Correct answer(s):
+Question 4
+---
+Feedback correct:
+With 20-fold cross-validation (Q.4), J48 is run 20 times with 20 different test sets, whereas with a 95% split (Q.3) it’s only run once, with 1 test set.
+
+Question 6
+Determine the performance of ZeroR, NaiveBayes, IBk, and OneR on the soybean dataset, evaluated using a 90% split into training and test instances (with the default random number seed). In terms of classification accuracy, which order do they come in?
+---
+Correct answer(s):
+ZeroR
+OneR
+IBk
+NaiveBayes
+---
+Feedback correct:
+OK, I’ll tell you. But you need to be able to get these results yourself!
+  ZeroR: 14.7059%
+  NaiveBayes: 95.5882%
+  IBk: 86.7647%
+  OneR: 36.7647%
+
+Question 7
+Imagine a dataset with 150 instances and 3 class values. 25 of the instances belong to the first class, 50 to the second, and 75 to the third. What is the accuracy of ZeroR for this dataset, when evaluated on the training set?
+25%
+33%
+50%
+66%
+75%
+---
+Correct answer(s):
+50%
+---
+Feedback correct:
+ZeroR assigns all instances to the majority class, that is, the third class (75 instances). Half the instances have a class that is different to this (25 in the first class and 50 in the second), so the accuracy is 50%.
+
+Question 8
+For the dataset in the previous question (150 instances of which 25, 50 and 75 belong to the three classes), would you expect exactly 50% accuracy if ZeroR were evaluated using (a) a 90% split into training and test instances, and (b) 10-fold cross-validation?
+Select all the answers you think are correct.
+(a) no
+(a) yes
+(a) perhaps
+(b) no
+(b) yes
+(b) perhaps
+---
+Correct answer(s):
+(a) no
+(b) yes
+---
+Feedback correct:
+(a) With a 90% split, the training set will have at least 68 instances of the third class (90% of the 75 instances in the original dataset). So ZeroR will assign all test instances to the third class.
+However, it’s highly unlikely that a 90% split will produce a test set with exactly the same class distribution as in the entire set.
+(b) With 10-fold cross-validation, in each fold the training set will have at least 68 instances of the third class (90% of the 75 instances in the original dataset). So ZeroR will assign all test instances to the third class.
+In cross-validation, every instance in the dataset is used for testing exactly once. Since half the instances have a class that is different to the third class (25 in the first class and 50 in the second), the accuracy is again 50% – exactly 50%.
+---
+Feedback incorrect:
+(a) With a 90% split, the training set will have at least 68 instances of the third class (90% of the 75 instances in the original dataset). So ZeroR will assign all test instances to the third class.
+However, it’s highly unlikely that a 90% split will produce a test set with exactly the same class distribution as in the entire set.
+(b) With 10-fold cross-validation, in each fold the training set will have at least 68 instances of the third class (90% of the 75 instances in the original dataset). So ZeroR will assign all test instances to the third class.
+In cross-validation, every instance in the dataset is used for testing exactly once. Since half the instances have a class that is different to the third class (25 in the first class and 50 in the second), the accuracy is again 50% – exactly 50%.
+
+Question 9
+For the ionosphere.arff dataset, evaluate J48 five times using a 80% split into training and test instances, with the five random seeds 1, 4, 5, 6, and 8. What is the mean and standard deviation of the classification accuracy?
+Select all the answers you think are correct.
+mean is 86.0%
+mean is 89.7%
+standard deviation is 0.3%
+standard deviation is 4.5%
+standard deviation is 4.9%
+standard deviation is 5.5%
+---
+Correct answer(s):
+mean is 86.0%
+standard deviation is 5.5%
+---
+Feedback correct:
+The accuracies are 80%, 90%, 90%, 90%, and 80% for the five cases.
+The variance is the sum of squared differences from the mean, divided by one less than the number of samples:
+(0.06^2 + 0.04^2 + 0.04^2+ 0.04^2+ 0.06^2)/4 = 0.003.
+The standard deviation is the square root of this, 0.05477.
+---
+Feedback incorrect:
+The accuracies are 80%, 90%, 90%, 90%, and 80% for the five cases.
+---
+Feedback incorrect:
+Did you remember to divide by 4 rather than 5 when computing the variance?
+---
+Feedback incorrect:
+The variance is the sum of squared differences from the mean, divided by one less than the number of samples:
+(0.06^2 + 0.04^2 + 0.04^2+ 0.04^2+ 0.06^2)/4 = 0.003.
+The standard deviation is the square root of this, 0.05477.
+
+Question 10
+If J48 was evaluated on the ionosphere dataset using a single 5-fold cross-validation, would you expect the performance estimate to be more reliable or less reliable than in Question 9?
+about the same
+less reliable
+more reliable provided the cross-validation is stratified
+more reliable regardless of whether or not the cross-validation is stratified
+---
+Correct answer(s):
+more reliable regardless of whether or not the cross-validation is stratified
+---
+Feedback correct:
+Cross-validation (whether stratified or not) uses every instance in the dataset as a test instance exactly once, instead of leaving the test set up to chance each time.
+---
+Feedback incorrect:
+You’re partially correct, but the cross-validation doesn’t have to be stratified.
+
+Question 11
+This question and the next two are about how accurately the weight of a slug can be predicted from its length. Download the slug.arff dataset, use linear regression to predict the weight from the length, and determine the correlation coefficient using 10-fold cross-validation. What is it?
+0.88
+0.89
+0.90
+0.91
+0.92
+---
+Correct answer(s):
+0.91
+
+Question 12
+When visualizing the slug data in Weka, it seems from the graph of weight versus length that a logarithmic transform of one or both attributes may help the performance of linear regression. This can be done using Weka’s AddExpression filter. Figure out how to use this filter. What is the mean and standard deviation of the new attribute that is obtained by applying a logarithmic transform to the existing length attribute?
+Select all the answers you think are correct.
+Mean: 2.2
+Mean: 2.3
+Mean: 3.6
+Mean: 42.1
+StdDev: 0.62
+StdDev: 3.02
+StdDev: 4.54
+StdDev: 24.80
+---
+Correct answer(s):
+Mean: 3.6
+StdDev: 0.62
+---
+Feedback correct:
+Use the More button for information on how to use AddExpression
+---
+Feedback incorrect:
+Use the More button for information on how to use AddExpression
+
+Question 13
+Apply a logarithmic transform to both the length and weight attributes in the slug data. Use linear regression to predict log weight from log length, and determine the correlation coefficient using 10-fold cross-validation. What is it?
+0.96
+0.97
+0.98
+0.99
+1
+---
+Correct answer(s):
+0.97

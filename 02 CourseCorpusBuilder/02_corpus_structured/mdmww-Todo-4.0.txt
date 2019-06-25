@@ -1,0 +1,83 @@
+Selecting attributes and counting the cost 
+How about selecting key attributes before applying a classifier?
+This week's first Big Question!
+4.1
+How about selecting key attributes before applying a classifier?
+article
+"Wrapper" attribute selection 
+Fewer attributes often yield better performance!
+The "wrapper" method of attribute selection involves both an attribute evaluator and a search method.
+A classifier, wrapped inside a cross-validation loop, is used for evaluation.
+4.2
+"Wrapper" attribute selection 
+video (09:45)
+4.3
+Using a wrapper to select attributes
+quiz
+The Attribute Selected Classifier 
+Experimenting with a dataset to select attributes and applying a classifier to the result is cheating!
+– even when evaluating by cross-validation.
+The AttributeSelectedClassifier selects attributes based on the training set only.
+4.4
+The Attribute Selected Classifier
+video (07:49)
+4.5
+More benefits of cheating
+quiz
+4.6
+What's all this about cheating?
+discussion
+Scheme-independent selection 
+The "wrapper" method for evaluating attributes is slow.
+"Scheme-independent" methods that do not depend on a particular classifier can be faster.
+However, searching is still involved whenever you evaluate subsets of attributes.
+4.7
+Scheme-independent selection 
+video (06:40)
+4.8
+Attribute selection for text classification
+quiz
+Attribute selection using ranking 
+Evaluating attributes individually is much faster than evaluating subsets.
+Single-attribute methods, often based on particular machine learning methods, can eliminate irrelevant attributes – but not redundant ones.
+4.9
+Attribute selection using ranking
+video (06:26)
+4.10
+More attribute selection for text classification
+quiz
+What happens when different errors have different costs?
+This week's second Big Question!
+4.11
+What happens when different errors have different costs?
+article
+4.12
+Examples of different error costs
+discussion
+Counting the cost 
+If different errors have different costs, the "classification rate" is inappropriate.
+Cost-sensitive evaluation takes account of cost when measuring performance.
+Cost-sensitive classification takes account of cost during learning.
+4.13
+Counting the cost
+video (06:43)
+4.14
+Cost-sensitive classification
+quiz
+Cost-sensitive classification 
+A classifier can be made cost-sensitive by re-calculating internal probability thresholds to adjust its output; alternatively the classifier itself can be reimplemented to take account of the cost matrix.
+4.15
+Cost-sensitive classification 
+video (09:49)
+4.16
+Comparing cost-sensitive techniques
+quiz
+4.17
+Cost-sensitive classification conclusions
+article
+4.18
+Reflect on this week's Big Questions
+discussion
+4.19
+Index
+article

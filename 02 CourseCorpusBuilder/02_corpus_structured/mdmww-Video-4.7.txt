@@ -1,0 +1,3 @@
+Scheme-independent selection 
+Attribute selection methods that do not involve a classifier can be faster than the wrapper method. They can use the same kind of searching, but evaluate each subset using a heuristic instead of applying a particular classifier. In this video we look at a scheme-independent attribute selection method that is nearly as good as the wrapper method, and is much faster.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

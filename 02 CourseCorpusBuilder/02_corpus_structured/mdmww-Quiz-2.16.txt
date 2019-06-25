@@ -1,0 +1,163 @@
+Mid-course assessment
+Question 1
+Using a suitable Weka interface, determine the standard deviation of J48’s accuracy (Percent_correct) when 10-fold cross-validation is repeated 10 times on the datasets ionosphere.arff and breast-cancer.arff. What are the standard deviations for the two datasets?
+Select all the answers you think are correct.
+4.38 for ionosphere
+4.44 for ionosphere
+5.97 for ionosphere
+6.05 for ionosphere
+6.63 for ionosphere
+4.38 for breast-cancer
+4.44 for breast-cancer
+5.97 for breast-cancer
+6.05 for breast-cancer
+8.23 for breast-cancer
+---
+Correct answer(s):
+4.38 for ionosphere
+6.05 for breast-cancer
+
+Question 2
+Re-run the experiment in Question 1, writing the results into an ARFF file. Load this file into the Explorer and determine the number of instances and attributes in it.
+Select all the answers you think are correct.
+50 instances
+70 instances
+100 instances
+150 instances
+170 instances
+200 instances
+50 attributes
+70 attributes
+100 attributes
+150 attributes
+170 attributes
+200 attributes
+---
+Correct answer(s):
+200 instances
+70 attributes
+
+Question 3
+Load the ARFF file you produced for Question 2 into the Explorer and use J48 to predict Key_Dataset from the other attributes. You will get a simple tree, branching on one attribute. What is that attribute?
+Number_of_testing_instances
+Area_under_ROC
+measureNumLeaves
+measureNumRules
+Number_of_training_instances
+---
+Correct answer(s):
+Number_of_training_instances
+
+Question 4
+Use the Experimenter to compare the Logistic classifier with AdaBoostM1 on the datasets iris.arff, breast-cancer.arff, credit-g.arff, diabetes.arff, glass.arff and ionosphere.arff (default parameters throughout). Record the number of wins and losses for Logistic, and the number that are statistically significant (5% level).
+---
+Correct answer(s):
+4
+3
+2
+0
+
+Question 5
+Use a suitable Weka interface to examine the models produced in each fold of the cross-validation when the J48 classifier (default parameters) is run on the labor.arff dataset and evaluated using 5-fold cross-validation. Among the five models produced,
+  (a) how many different models are there?
+  (b) how many of these are the same except for the branch values for numeric attributes?
+Select all the answers you think are correct.
+(a) 1
+(a) 2
+(a) 3
+(a) 4
+(a) 5
+(b) 0
+(b) 1
+(b) 2
+(b) 3
+---
+Correct answer(s):
+(a) 5
+(b) 2
+
+Question 5
+Use a suitable Weka interface to examine the models produced in each fold of the cross-validation when the J48 classifier (default parameters) is run on the labor.arff dataset and evaluated using 5-fold cross-validation. Among the five models produced,
+  (a) how many different models are there?
+  (b) how many of these are the same except for the branch values for numeric attributes?
+Select all the answers you think are correct.
+(a) 1
+(a) 2
+(a) 3
+(a) 4
+(a) 5
+(b) 0
+(b) 1
+(b) 2
+(b) 3
+---
+Correct answer(s):
+
+Question 6
+In the previous question, there is one attribute that is used in all five J48 models. What is it?
+working-hours
+wage-increase-first-year
+statutory-holidays
+longterm-disability-assistance
+vacation
+---
+Correct answer(s):
+wage-increase-first-year
+
+Question 7
+In the Explorer, test the the effect of different kinds of unsupervised discretization (10 bins) of the labor dataset by performing discretization using the Preprocess panel and executing J48 on the result, evaluating using cross-validation (default parameters).
+What order do different settings of the equal width/equal frequency parameter and the binary-attribute parameter come in? (< denotes worse performance)
+no discretization < equal frequency < equal width < equal frequency with binary attributes < equal width with binary attributes
+no discretization < equal width < equal frequency < equal width with binary attributes < equal frequency with binary attributes
+equal frequency < equal width < no discretization < equal frequency with binary attributes < equal width with binary attributes
+equal width < equal frequency < no discretization < equal width with binary attributes < equal frequency with binary attributes
+equal width < equal frequency < no discretization < equal frequency with binary attributes < equal width with binary attributes
+---
+Correct answer(s):
+equal width < equal frequency < no discretization < equal frequency with binary attributes < equal width with binary attributes
+
+Question 8
+Consider the following filtering configurations:
+a. supervised discretization using the filtered classifier
+b. supervised discretization without the filtered classifier
+c. equal-width discretization (10 bins) using the filtered classifier
+d. equal-width discretization (10 bins) without the filtered classifier
+e. equal-frequency discretization (10 bins) using the filtered classifier
+f. equal-frequency discretization (10 bins) without the filtered classifier 
+Suppose you were to use each configuration on a particular dataset with a particular classifier, evaluated with cross-validation in the usual way. Which of the following best describes the performance you would expect? (> denotes better performance, = denotes exactly the same, ≈ denotes about the same.)
+a ≈ b > c ≈ d > e ≈ f
+a ≈ b > e ≈ f > c ≈ d
+a > b > c = d > e ≈ f
+b > a > e ≈ f > c = d
+a = b > c = d > e ≈ f
+---
+Correct answer(s):
+b > a > e ≈ f > c = d
+
+Question 9
+Determine the classification accuracy of Naive Bayes and Multinomial Naive Bayes on the ReutersCorn-test.arff dataset, using the ReutersCorn-train.arff dataset for training and the StringToWordVector filter with default parameter settings.
+Select all the answers you think are correct.
+86.4% for Naive Bayes
+87.1% for Naive Bayes
+87.6% for Naive Bayes
+88.1% for Naive Bayes
+91.4% for Multinomial Naive Bayes
+92.1% for Multinomial Naive Bayes
+93.0% for Multinomial Naive Bayes
+93.7% for Multinomial Naive Bayes
+---
+Correct answer(s):
+86.4% for Naive Bayes
+93.7% for Multinomial Naive Bayes
+
+Question 10
+Load the ionosphere.arff data into the Explorer and display the ROC curve for Naive Bayes and J48 (using cross-validation and default parameters throughout), for the first (“b”) class.
+The interface allows you to change the X and Y axes to different variables from the FP rate and TP rate that are used for ROC curves. Change them to True Positives (X) and True Negatives (Y).
+Which of the following shapes do you get for Naive Bayes and J48 respectively?
+a
+b
+c
+d
+---
+Correct answer(s):
+a

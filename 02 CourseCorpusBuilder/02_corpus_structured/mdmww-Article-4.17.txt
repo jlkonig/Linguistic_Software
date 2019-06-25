@@ -1,0 +1,8 @@
+Cost-sensitive classification conclusions
+Even if you don’t do the exercise, you should look at the numbers and note that they support the following general conclusions for the credit-g dataset with a particular cost matrix.
+    Naive Bayes is generally better than J48 on this problem.
+    Using cost-sensitive classification or cost-sensitive learning always improves the result.
+    For Naive Bayes, cost-sensitive learning gives about the same result as cost-sensitive classification.
+    For J48, cost-sensitive learning gives a better result than cost-sensitive classification.
+    Bagging improves the result of cost-sensitive classification using J48.
+(Note incidentally that the Experimenter differs from the Explorer in that it calculates the four elements of the confusion matrix, Num_false_positives etc, separately for each cross-validation fold and averages them, whereas the Explorer sums them over the entire dataset. Thus, since we are using 10-fold cross-validation in this activity, the numbers, and the costs, produced by the Experimenter are 10% of those produced by the Explorer. The Experimenter does this because a separate confusion matrix is needed for each fold in order to compute the standard deviation of each element and to do significance tests between corresponding elements produced by different classifiers.)

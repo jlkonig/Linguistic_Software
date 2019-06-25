@@ -1,0 +1,3 @@
+Support vector machines
+In essence, support vector machines drive a straight line between two classes, right down the middle of the channel – which you can see using Weka’s boundary visualizer. If the classes cannot be separated by a straight line, a device called the “kernel trick” enables support vector machines to make boundaries of different shapes, not just straight lines. Support vector machines are very resilient to overfitting, because the boundary depends on just a few well-chosen data points, not the entire training set. They are implemented by Weka’s SMO classifier.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

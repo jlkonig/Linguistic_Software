@@ -1,0 +1,13 @@
+Adding PRISM to Weka
+Before attempting the quiz that follows, you will need to download Weka’s PRISM package.
+We explained Weka’s “package” system in the previous course Data Mining with Weka. Here’s a refresher.
+Weka has hundreds of different classifiers and scores of filtering algorithms. To simplify the interface, when you download Weka it comes with a small set of key classifiers and filters, along with a simple mechanism that allows you to add new methods that are stored in separate “packages”.
+The Package Manager is accessed from the Tools menu in Weka’s GUI Chooser panel, which appears when you start up Weka:
+The very first time it is accessed, the Manager downloads information about all available packages. This requires an internet connection.
+Here is the resulting display:
+The top half is a scrollable list of packages, beneath which is information about the currently selected package – in this case the userClassifier package.
+To install (or uninstall) a package, click the install (or uninstall) button near the top of the window. When you do this, you will be asked to close any Weka application windows – like the Explorer. When you reopen it, the new package will be incorporated.
+You can display all packages, or just the ones that are installed, or just the ones that are not installed. The list gives the package name, the broad category it belongs to, the version currently installed (if any), and the most recent version. It can be sorted, in ascending or descending order, by clicking the package or the category column header.
+For successful operation the Package Manager requires Weka version 3.8.1 or later. If yours predates this you should install the latest version.
+Please install the simpleEducationalLearningSchemes package now. It contains PRISM, which you’ll need for the quiz that follows.
+Problems? If you have technical difficulties with the installation, raise them in the Discussion step that follows (“What could possibly go wrong?”).

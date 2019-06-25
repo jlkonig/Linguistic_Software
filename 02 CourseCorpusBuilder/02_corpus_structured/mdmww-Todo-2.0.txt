@@ -1,0 +1,79 @@
+Discretization and text classification 
+How can you discretize numeric attributes? 
+This week's first Big Question!
+2.1
+How can you discretize numeric attributes?
+article
+Discretizing numeric attributes
+There are two basic methods for converting numeric attributes to nominal: equal-width binning and equal-frequency binning. A third method is able to preserve the ordering information inherent in numeric values.
+2.2
+Discretizing numeric attributes 
+video (08:37)
+2.3
+Unsupervised discretization
+quiz
+Supervised discretization 
+"Supervised" discretization takes the class into account when setting discretization boundaries. But when testing, the boundaries must be determined from the *training* set. You can do this with Weka's FilteredClassifier.
+2.4
+Supervised discretization 
+video (07:34)
+2.5
+Examining the benefits of cheating 
+quiz
+Discretization in J48 
+Some classifiers (e.g. C4.5/J48) incorporate discretization internally, as they go along. But pre-discretization may outperform internal discretization. Whether it does or not is an experimental question!
+2.6
+Discretization in J48 
+video (07:07)
+2.7
+Pre-discretization vs. built-in discretization 
+quiz
+How do you classify documents?
+This week's second Big Question!
+2.8
+How do you classify documents?
+article
+Document classification 
+In Weka, documents are represented as "string" attributes, and the StringToWordVector filter creates one attribute for each word. But the overall classification accuracy isn't necessarily what we really care about?
+2.9
+Document classification 
+video (12:28)
+2.10
+Document classification with Naive Bayes 
+quiz
+Evaluating 2-class classification 
+Threshold curves show different tradeoffs between error types. "Receiver Operating Characteristic" (ROC) curves are a particular type of threshold curve, and the area under the ROC curve measures a classifier's overall quality.
+2.11
+Evaluating 2-class classification 
+video (10:28)
+2.12
+Activity: Comparing AUCs 
+quiz
+Multinomial Naive Bayes 
+Multinomial Naive Bayes is a classification method designed for text, which is generally better, and a lot faster, than plain Naive Bayes. In addition, the StringToWordVector filter has many useful options.
+2.13
+Multinomial Naive Bayes 
+video (08:42)
+2.14
+Document classification with Multinomial Naive Bayes 
+quiz
+2.15
+Reflect on this week's Big Questions 
+discussion
+How are you getting on?
+We're well into the course now. Let's just take stock.
+2.16
+Mid-course assessment
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+2.17
+How are you getting on?
+discussion
+2.18
+Index
+article

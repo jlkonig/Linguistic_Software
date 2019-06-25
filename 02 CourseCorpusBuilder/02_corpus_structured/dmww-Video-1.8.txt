@@ -1,0 +1,4 @@
+Installing Weka
+Here’s how to download the Weka data mining workbench and install it on your own computer. For future convenience, create a shortcut to the program and put it somewhere handy – like the desktop. The Weka download comes with a folder containing sample data files that we’ll be using throughout the course; put this somewhere handy too – like the My Documents folder. Weka has four interfaces: the “Explorer” is the one we’ll be using throughout this course.
+(In the video Ian downloads Weka 3.6, but you should download the latest stable version of the software.)
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

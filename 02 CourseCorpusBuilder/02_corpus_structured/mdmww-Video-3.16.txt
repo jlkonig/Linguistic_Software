@@ -1,0 +1,3 @@
+Representing clusters 
+With clustering, there’s no “class” attribute: we’re just trying to divide the instances into natural groups or “clusters”. There are different ways of representing clusters. Are they disjoint, or can they overlap? Is cluster membership precisely determined, or probabilistic? Perhaps a tree structure in which clusters are repeatedly refined into smaller ones is appropriate? Different algorithms produce different representations. In any case, it’s hard to evaluate clustering, because, lacking a class value, you can’t compute the accuracy of any particular clustering.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

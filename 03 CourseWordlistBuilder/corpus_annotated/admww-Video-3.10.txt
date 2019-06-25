@@ -1,0 +1,5 @@
+Using/VBG/use/1 R/NNP/r/0 to/TO/to/1 plot/VB/plot/3 data/NNS/data/3 
+This/DT/this/1 video/NN/video/1 demonstrates/VBZ/demonstrate/3 an/DT/a/1 R/JJ/r/0 package/NN/pack/1 called/VBN/call/1 ggplot2/NN/ggplot2/0 that/WDT/that/1 provides/VBZ/provide/2 extensive/JJ/extensive/3 plotting/VBG/plot/3 capabilities/NNS/capable/2 ,/,/,/0 which/WDT/which/1 can/MD/can/1 be/VB/be/1 accessed/VBN/access/2 from/IN/from/1 Weka/NNP/weka/23 ./././0 Detailed/VBN/detail/2 instructions/NNS/instruct/2 are/VBP/be/1 given/VBN/give/1 in/IN/in/1 the/DT/the/1 accompanying/VBG/accompany/3 download/NN/download/0 (/(/(/0 these/DT/this/1 slides/NNS/slide/2 do/VBP/do/1 not/RB/not/1 appear/VB/appear/1 in/IN/in/1 the/DT/the/1 video/NN/video/1 itself/PRP/it/1 )/)/)/0 ./././0 
+©/JJ/©/0 University/NNP/university/2 of/IN/of/1 Waikato/NNP/waikato/0 ,/,/,/0 New/NNP/new/1 Zealand/NNP/zealand/0 ./././0 CC/NNP/cc/0 Creative/JJ/create/2 Commons/NNP/commons/8 Attribution/NNP/attribute/3 4.0/CD/4.0/0 International/NNP/international/3 License/NNP/licence/2 ./././0 
+
+

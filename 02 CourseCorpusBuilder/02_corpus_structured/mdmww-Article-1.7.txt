@@ -1,0 +1,4 @@
+What are Weka's other interfaces for?
+In the last course, Data Mining with Weka, you got to know the Weka Explorer. It’s great for exploring datasets and learning algorithms!
+But sometimes you need to do other things. We’ll  look at the Experimenter and the Knowledge Flow interface. You’ll be wondering what kinds of experiments you might want to do, and what is a “knowledge flow” anyway? And we’ll look at the Command Line interface, which you’ll find a little … hmmm … geeky. Why would you want to do things at the command line, instead of through an interactive interface? Well, you’ll find out. And in this week’s second Big Question you’ll find out why you might have to work that way.
+At the end of the week you’ll be able to use all these interfaces. More importantly, you’ll realize why they might be useful, even necessary. You’ll have a richer understanding of the spectrum of data mining activities.

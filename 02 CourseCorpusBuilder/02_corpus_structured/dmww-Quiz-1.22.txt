@@ -1,0 +1,65 @@
+Finding misclassified instances
+Question 1
+Choose the J48 tree classifier, and run it (with default parameters). How many instances are misclassified?
+1
+2
+4
+6
+---
+Correct answer(s):
+6
+---
+Feedback correct:
+Six out of the 150 instances are misclassified.
+---
+Feedback incorrect:
+That’s the percentage of instances that are misclassified. You were asked for the actual number of instances.
+
+Question 2
+Visualize the classifier errors by right-clicking on the Result list, and use the visualization to determine the instance numbers of the misclassified instances. Which are they?
+15, 73, 92, 98, 109, 119
+4, 8, 91, 98, 109, 119
+15, 72, 92, 98, 108, 120
+---
+Correct answer(s):
+15, 73, 92, 98, 109, 119
+---
+Feedback correct:
+Misclassified instances are shown as square boxes on the visualization plot, and clicking the box shows their instance number. If multiple instances are shown, be sure to choose only those whose predictedClass differs from their class.
+---
+Feedback incorrect:
+Misclassified instances are shown as square boxes on the visualization plot, and clicking the box shows their instance number. If multiple instances are shown, be sure to choose only those whose predictedClass differs from their class.
+
+Question 3
+Now switch the classifier to SimpleLogistic, which you will find in the functions category, and run it (with default parameters). How many instances are misclassified now?
+3
+6
+9
+12
+15
+---
+Correct answer(s):
+9
+---
+Feedback correct:
+On this dataset, SimpleLogistic gives more errors than J48.
+---
+Feedback incorrect:
+That’s the percentage of instances that are misclassified. You were asked for the actual number of instances.
+
+Question 4
+Which instances of type Iris-versicolor are misclassified as Iris-virginica?
+15, 73, 92, 98, 109, 119
+15, 73, 119, 132, 135, 147, 148
+80, 92
+---
+Correct answer(s):
+15, 73, 119, 132, 135, 147, 148
+
+Question 4
+Which instances of type Iris-versicolor are misclassified as Iris-virginica?
+15, 73, 92, 98, 109, 119
+15, 73, 119, 132, 135, 147, 148
+80, 92
+---
+Correct answer(s):

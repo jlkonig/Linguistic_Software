@@ -1,0 +1,85 @@
+Selecting/VBG/select/2 attributes/NNS/attribute/3 and/CC/and/1 counting/VBG/count/1 the/DT/the/1 cost/NN/cost/1 
+How/WRB/how/1 about/IN/about/1 selecting/VBG/select/2 key/JJ/key/1 attributes/NNS/attribute/3 before/IN/before/1 applying/VBG/apply/2 a/DT/a/1 classifier/NN/classifier/0 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 first/JJ/first/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+4.1/CD/4.1/0 
+How/WRB/how/1 about/IN/about/1 selecting/VBG/select/2 key/JJ/key/1 attributes/NNS/attribute/3 before/IN/before/1 applying/VBG/apply/2 a/DT/a/1 classifier/NN/classifier/0 ?/./?/0 
+article/NN/article/2 
+``/``/``/0 Wrapper/NNP/wrap/2 ''/''/''/0 attribute/NN/attribute/3 selection/NN/select/2 
+Fewer/JJR/few/1 attributes/NNS/attribute/3 often/RB/often/1 yield/VBP/yield/3 better/JJR/better/1 performance/NN/perform/2 !/./!/0 
+The/DT/the/1 ``/``/``/0 wrapper/NN/wrap/2 ''/''/''/0 method/NN/method/3 of/IN/of/1 attribute/JJ/attribute/3 selection/NN/select/2 involves/VBZ/involve/1 both/DT/both/1 an/DT/a/1 attribute/NN/attribute/3 evaluator/NN/evaluate/3 and/CC/and/1 a/DT/a/1 search/NN/search/2 method/NN/method/3 ./././0 
+A/DT/a/1 classifier/NN/classifier/0 ,/,/,/0 wrapped/VBD/wrap/2 inside/IN/inside/1 a/DT/a/1 cross-validation/NN/cross-validation/0 loop/NN/loop/4 ,/,/,/0 is/VBZ/be/1 used/VBN/use/1 for/IN/for/1 evaluation/NN/evaluate/3 ./././0 
+4.2/CD/4.2/0 
+``/``/``/0 Wrapper/NNP/wrap/2 ''/''/''/0 attribute/NN/attribute/3 selection/NN/select/2 
+video/NN/video/1 (/(/(/0 09:45/CD/09:45/0 )/)/)/0 
+4.3/CD/4.3/0 
+Using/VBG/use/1 a/DT/a/1 wrapper/NN/wrap/2 to/TO/to/1 select/VB/select/2 attributes/NNS/attribute/3 
+quiz/NN/quiz/6 
+The/DT/the/1 Attribute/NNP/attribute/3 Selected/NNP/select/2 Classifier/NNP/classifier/0 
+Experimenting/VBG/experiment/3 with/IN/with/1 a/DT/a/1 dataset/NN/dataset/0 to/TO/to/1 select/VB/select/2 attributes/NNS/attribute/3 and/CC/and/1 applying/VBG/apply/2 a/DT/a/1 classifier/NN/classifier/0 to/TO/to/1 the/DT/the/1 result/NN/result/2 is/VBZ/be/1 cheating/VBG/cheat/2 !/./!/0 
+–/RB/–/0 even/RB/even/1 when/WRB/when/1 evaluating/VBG/evaluate/3 by/IN/by/1 cross-validation/NN/cross-validation/0 ./././0 
+The/DT/the/1 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 selects/NNS/select/2 attributes/VBZ/attribute/3 based/VBN/base/1 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 only/RB/only/1 ./././0 
+4.4/CD/4.4/0 
+The/DT/the/1 Attribute/NNP/attribute/3 Selected/NNP/select/2 Classifier/NNP/classifier/0 
+video/NN/video/1 (/(/(/0 07:49/CD/07:49/0 )/)/)/0 
+4.5/CD/4.5/0 
+More/RBR/more/1 benefits/NNS/benefit/2 of/IN/of/1 cheating/VBG/cheat/2 
+quiz/NN/quiz/6 
+4.6/CD/4.6/0 
+What/WP/what/1 's/VBZ/be/1 all/DT/all/1 this/DT/this/1 about/IN/about/1 cheating/NN/cheat/2 ?/./?/0 
+discussion/NN/discuss/2 
+Scheme-independent/JJ/scheme-independent/0 selection/NN/select/2 
+The/DT/the/1 ``/``/``/0 wrapper/NN/wrap/2 ''/''/''/0 method/NN/method/3 for/IN/for/1 evaluating/VBG/evaluate/3 attributes/NNS/attribute/3 is/VBZ/be/1 slow/JJ/slow/1 ./././0 
+``/``/``/0 Scheme-independent/JJ/scheme-independent/0 ''/''/''/0 methods/NNS/method/3 that/WDT/that/1 do/VBP/do/1 not/RB/not/1 depend/VB/depend/1 on/IN/on/1 a/DT/a/1 particular/JJ/particular/1 classifier/NN/classifier/0 can/MD/can/1 be/VB/be/1 faster/RBR/fast/1 ./././0 
+However/RB/however/1 ,/,/,/0 searching/VBG/search/2 is/VBZ/be/1 still/RB/still/1 involved/VBN/involve/1 whenever/WRB/when/1 you/PRP/you/1 evaluate/VBP/evaluate/3 subsets/NNS/set/1 of/IN/of/1 attributes/NNS/attribute/3 ./././0 
+4.7/CD/4.7/0 
+Scheme-independent/JJ/scheme-independent/0 selection/NN/select/2 
+video/NN/video/1 (/(/(/0 06:40/CD/06:40/0 )/)/)/0 
+4.8/CD/4.8/0 
+Attribute/NNP/attribute/3 selection/NN/select/2 for/IN/for/1 text/JJ/text/3 classification/NN/classification/4 
+quiz/NN/quiz/6 
+Attribute/NNP/attribute/3 selection/NN/select/2 using/VBG/use/1 ranking/VBG/rank/3 
+Evaluating/VBG/evaluate/3 attributes/NNS/attribute/3 individually/RB/individual/2 is/VBZ/be/1 much/JJ/much/1 faster/JJR/fast/1 than/IN/than/1 evaluating/VBG/evaluate/3 subsets/NNS/set/1 ./././0 
+Single-attribute/JJ/single-attribute/0 methods/NNS/method/3 ,/,/,/0 often/RB/often/1 based/VBN/base/1 on/IN/on/1 particular/JJ/particular/1 machine/NN/machine/1 learning/VBG/learn/1 methods/NNS/method/3 ,/,/,/0 can/MD/can/1 eliminate/VB/eliminate/3 irrelevant/JJ/relevant/3 attributes/NNS/attribute/3 –/VBP/–/0 but/CC/but/1 not/RB/not/1 redundant/JJ/redundant/5 ones/NNS/one/1 ./././0 
+4.9/CD/4.9/0 
+Attribute/NNP/attribute/3 selection/NN/select/2 using/VBG/use/1 ranking/VBG/rank/3 
+video/NN/video/1 (/(/(/0 06:26/CD/06:26/0 )/)/)/0 
+4.10/CD/4.10/0 
+More/RBR/more/1 attribute/JJ/attribute/3 selection/NN/select/2 for/IN/for/1 text/JJ/text/3 classification/NN/classification/4 
+quiz/NN/quiz/6 
+What/WP/what/1 happens/VBZ/happen/1 when/WRB/when/1 different/JJ/different/1 errors/NNS/error/3 have/VBP/have/1 different/JJ/different/1 costs/NNS/cost/1 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 second/JJ/second/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+4.11/CD/4.11/0 
+What/WP/what/1 happens/VBZ/happen/1 when/WRB/when/1 different/JJ/different/1 errors/NNS/error/3 have/VBP/have/1 different/JJ/different/1 costs/NNS/cost/1 ?/./?/0 
+article/NN/article/2 
+4.12/CD/4.12/0 
+Examples/NNS/example/2 of/IN/of/1 different/JJ/different/1 error/NN/error/3 costs/NNS/cost/1 
+discussion/NN/discuss/2 
+Counting/VBG/count/1 the/DT/the/1 cost/NN/cost/1 
+If/IN/if/1 different/JJ/different/1 errors/NNS/error/3 have/VBP/have/1 different/JJ/different/1 costs/NNS/cost/1 ,/,/,/0 the/DT/the/1 ``/``/``/0 classification/NN/classification/4 rate/NN/rate/1 ''/''/''/0 is/VBZ/be/1 inappropriate/JJ/appropriate/3 ./././0 
+Cost-sensitive/JJ/cost-sensitive/0 evaluation/NN/evaluate/3 takes/VBZ/take/1 account/NN/account/2 of/IN/of/1 cost/NN/cost/1 when/WRB/when/1 measuring/VBG/measure/2 performance/NN/perform/2 ./././0 
+Cost-sensitive/JJ/cost-sensitive/0 classification/NN/classification/4 takes/VBZ/take/1 account/NN/account/2 of/IN/of/1 cost/NN/cost/1 during/IN/during/1 learning/VBG/learn/1 ./././0 
+4.13/CD/4.13/0 
+Counting/VBG/count/1 the/DT/the/1 cost/NN/cost/1 
+video/NN/video/1 (/(/(/0 06:43/CD/06:43/0 )/)/)/0 
+4.14/CD/4.14/0 
+Cost-sensitive/JJ/cost-sensitive/0 classification/NN/classification/4 
+quiz/NN/quiz/6 
+Cost-sensitive/JJ/cost-sensitive/0 classification/NN/classification/4 
+A/DT/a/1 classifier/NN/classifier/0 can/MD/can/1 be/VB/be/1 made/VBN/make/1 cost-sensitive/JJ/cost-sensitive/0 by/IN/by/1 re-calculating/JJ/re-calculating/0 internal/JJ/internal/3 probability/NN/probably/1 thresholds/NNS/threshold/4 to/TO/to/1 adjust/VB/adjust/3 its/PRP$/it/1 output/NN/output/3 ;/:/;/0 alternatively/RB/alternative/3 the/DT/the/1 classifier/JJR/classifier/0 itself/PRP/it/1 can/MD/can/1 be/VB/be/1 reimplemented/VBN/reimplemented/0 to/TO/to/1 take/VB/take/1 account/NN/account/2 of/IN/of/1 the/DT/the/1 cost/NN/cost/1 matrix/NN/matrix/4 ./././0 
+4.15/CD/4.15/0 
+Cost-sensitive/JJ/cost-sensitive/0 classification/NN/classification/4 
+video/NN/video/1 (/(/(/0 09:49/CD/09:49/0 )/)/)/0 
+4.16/CD/4.16/0 
+Comparing/VBG/compare/2 cost-sensitive/JJ/cost-sensitive/0 techniques/NNS/technique/3 
+quiz/NN/quiz/6 
+4.17/CD/4.17/0 
+Cost-sensitive/JJ/cost-sensitive/0 classification/NN/classification/4 conclusions/NNS/conclusion/3 
+article/NN/article/2 
+4.18/CD/4.18/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Questions/NNS/question/1 
+discussion/NN/discuss/2 
+4.19/CD/4.19/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

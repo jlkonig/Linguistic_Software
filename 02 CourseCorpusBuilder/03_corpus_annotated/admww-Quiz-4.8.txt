@@ -1,0 +1,119 @@
+Training/VBG/train/1 classifiers/NNS/classifier/0 with/IN/with/1 Spark/NNP/spark/4 
+Question/NN/question/1 1/CD/1/0 
+Open/VB/open/1 the/DT/the/1 “/JJ/“/0 Spark/NNP/spark/4 :/:/:/0 train/NN/train/1 and/CC/and/1 save/VB/save/1 two/CD/two/1 classifiers/NNS/classifier/0 ”/VBP/”/0 template/NN/template/7 in/IN/in/1 the/DT/the/1 Knowledge/NNP/knowledge/2 Flow/NNP/flow/2 ./././0 
+Delete/NNP/delete/5 the/DT/the/1 RandomlyShuffleDataSparkJob/NNP/randomlyshuffledatasparkjob/0 step/NN/step/1 and/CC/and/1 connect/VB/connect/2 the/DT/the/1 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 step/NN/step/1 directly/RB/direct/2 to/TO/to/1 the/DT/the/1 WekaClassifierSparkJob2/NNP/wekaclassifiersparkjob2/0 step/NN/step/1 with/IN/with/1 a/DT/a/1 success/NN/success/2 connection/NN/connect/2 ./././0 This/DT/this/1 effectively/RB/effective/3 passes/VBZ/pass/1 the/DT/the/1 dataset/NN/dataset/0 on/IN/on/1 from/IN/from/1 the/DT/the/1 first/JJ/first/1 classifier/NN/classifier/0 to/TO/to/1 the/DT/the/1 second/JJ/second/1 ./././0 
+Leave/VB/leave/1 the/DT/the/1 first/JJ/first/1 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 as/IN/as/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 ,/,/,/0 and/CC/and/1 change/VB/change/1 the/DT/the/1 classifier/NN/classifier/0 in/IN/in/1 the/DT/the/1 second/JJ/second/1 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 from/IN/from/1 JRip/NNP/jrip/0 to/TO/to/1 Random/NNP/random/3 Forest/NNP/forest/1 ./././0 Configure/VB/configure/4 the/DT/the/1 Random/NNP/random/3 Forest/NNP/forest/1 by/IN/by/1 changing/VBG/change/1 numIterations/NNS/numiterations/0 from/IN/from/1 100/CD/100/0 to/TO/to/1 10/CD/10/0 and/CC/and/1 setting/VBG/set/1 printClassifiers/NNS/printclassifiers/0 to/TO/to/1 True/NNP/true/1 ./././0 
+Execute/VB/execute/3 the/DT/the/1 flow/NN/flow/2 ./././0 
+How/WRB/how/1 many/JJ/many/1 trees/NNS/tree/1 did/VBD/do/1 Random/NNP/random/3 Forest/NNP/forest/1 learn/NN/learn/1 ?/./?/0 
+4/CD/4/0 
+8/CD/8/0 
+10/CD/10/0 
+100/CD/100/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+8/CD/8/0 
+
+Question/NN/question/1 2/CD/2/0 
+For/IN/for/1 an/DT/a/1 ensemble/JJ/ensemble/5 learning/NN/learn/1 algorithm/NNS/algorithm/5 like/IN/like/1 RandomForest/NNP/randomforest/0 ,/,/,/0 distributed/VBD/distribute/3 Weka/NNP/weka/23 configures/VBZ/configure/4 it/PRP/it/1 to/TO/to/1 learn/VB/learn/1 the/DT/the/1 base/NN/base/1 models/NNS/model/2 from/IN/from/1 the/DT/the/1 data/NNS/data/3 in/IN/in/1 each/DT/each/1 partition/NN/partition/6 of/IN/of/1 the/DT/the/1 dataset/NN/dataset/0 (/(/(/0 that/WDT/that/1 is/VBZ/be/1 ,/,/,/0 each/DT/each/1 Spark/NNP/spark/4 RDD/NNP/rdd/0 )/)/)/0 ./././0 
+In/IN/in/1 the/DT/the/1 last/JJ/last/1 question/NN/question/1 we/PRP/we/1 asked/VBD/ask/1 for/IN/for/1 10/CD/10/0 trees/NNS/tree/1 but/CC/but/1 ended/VBD/end/1 up/RP/up/1 with/IN/with/1 fewer/JJR/few/1 ./././0 Why/WRB/why/1 ?/./?/0 
+Some/DT/some/1 trees/NNS/tree/1 were/VBD/be/1 dropped/VBN/drop/1 due/JJ/due/2 to/TO/to/1 insufficient/JJ/sufficient/3 data/NNS/data/3 in/IN/in/1 a/DT/a/1 particular/JJ/particular/1 partition/NN/partition/6 
+Maximum/NNP/maximum/2 accuracy/NN/accurate/3 was/VBD/be/1 achieved/VBN/achieve/3 with/IN/with/1 fewer/JJR/few/1 than/IN/than/1 10/CD/10/0 trees/NNS/tree/1 
+The/DT/the/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 does/VBZ/do/1 not/RB/not/1 divide/VB/divide/2 evenly/RB/evenly/4 into/IN/into/1 10/CD/10/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+The/DT/the/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 does/VBZ/do/1 not/RB/not/1 divide/VB/divide/2 evenly/RB/evenly/4 into/IN/into/1 10/CD/10/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 Spark/NNP/spark/4 configuration/NN/configure/4 defined/VBD/define/3 in/IN/in/1 the/DT/the/1 ArffHeaderSparkJob/NNP/arffheadersparkjob/0 sets/VBZ/set/1 the/DT/the/1 minInputSlices/NNS/mininputslices/0 parameter/VBP/parameter/4 to/TO/to/1 4/CD/4/0 ;/:/;/0 that/DT/that/1 is/VBZ/be/1 ,/,/,/0 4/CD/4/0 partitions/NNS/partition/6 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Change/VB/change/1 the/DT/the/1 minInputSlices/NNS/mininputslices/0 property/NN/property/2 in/IN/in/1 the/DT/the/1 ArffHeaderSparkJob/NNP/arffheadersparkjob/0 to/TO/to/1 create/VB/create/2 a/DT/a/1 dataset/NN/dataset/0 with/IN/with/1 5/CD/5/0 partitions/NNS/partition/6 ./././0 Run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 ./././0 
+How/WRB/how/1 many/JJ/many/1 trees/NNS/tree/1 did/VBD/do/1 RandomForest/NNP/randomforest/0 learn/VB/learn/1 this/DT/this/1 time/NN/time/1 ?/./?/0 
+4/CD/4/0 
+8/CD/8/0 
+10/CD/10/0 
+100/CD/100/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+10/CD/10/0 
+
+Question/NN/question/1 4/CD/4/0 
+How/WRB/how/1 many/JJ/many/1 nodes/NNS/node/5 do/VBP/do/1 the/DT/the/1 biggest/JJS/big/1 and/CC/and/1 smallest/JJS/small/1 trees/NNS/tree/1 in/IN/in/1 the/DT/the/1 ensemble/NN/ensemble/5 contain/NN/contain/2 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+19/CD/19/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+19/CD/19/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+56/CD/56/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+56/CD/56/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+104/CD/104/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+104/CD/104/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+159/CD/159/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+159/CD/159/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+56/CD/56/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+159/CD/159/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+
+Question/NN/question/1 5/CD/5/0 
+Now/RB/now/1 change/VBP/change/1 the/DT/the/1 parameter/NN/parameter/4 to/TO/to/1 create/VB/create/2 a/DT/a/1 dataset/NN/dataset/0 with/IN/with/1 10/CD/10/0 partitions/NNS/partition/6 and/CC/and/1 run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 ./././0 
+How/WRB/how/1 many/JJ/many/1 nodes/NNS/node/5 do/VBP/do/1 the/DT/the/1 biggest/JJS/big/1 and/CC/and/1 smallest/JJS/small/1 trees/NNS/tree/1 contain/VBP/contain/2 now/RB/now/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+19/CD/19/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+19/CD/19/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+56/CD/56/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+56/CD/56/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+104/CD/104/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+104/CD/104/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+159/CD/159/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+159/CD/159/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+19/CD/19/0 :/:/:/0 smallest/JJS/small/1 tree/NN/tree/1 
+104/CD/104/0 :/:/:/0 biggest/JJS/big/1 tree/NN/tree/1 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 size/NN/size/1 of/IN/of/1 the/DT/the/1 trees/NNS/tree/1 in/IN/in/1 the/DT/the/1 ensemble/JJ/ensemble/5 tends/NNS/tend/1 to/TO/to/1 decrease/VB/decrease/3 as/IN/as/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 increases/NNS/increase/2 ./././0 Why/WRB/why/1 ?/./?/0 
+More/JJR/more/1 partitions/NNS/partition/6 improves/VBZ/improve/2 the/DT/the/1 quality/NN/quality/2 of/IN/of/1 the/DT/the/1 data/NNS/data/3 in/IN/in/1 each/DT/each/1 ,/,/,/0 resulting/VBG/result/2 in/IN/in/1 compact/NN/compact/4 ,/,/,/0 more/JJR/more/1 accurate/JJ/accurate/3 trees/NNS/tree/1 ./././0 
+The/DT/the/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 is/VBZ/be/1 now/RB/now/1 in/IN/in/1 sync/NN/sync/12 with/IN/with/1 the/DT/the/1 requested/JJ/request/3 number/NN/number/1 of/IN/of/1 trees/NNS/tree/1 ,/,/,/0 resulting/VBG/result/2 in/IN/in/1 compact/NN/compact/4 ,/,/,/0 more/JJR/more/1 accurate/JJ/accurate/3 trees/NNS/tree/1 ./././0 
+With/IN/with/1 more/JJR/more/1 partitions/NNS/partition/6 ,/,/,/0 there/EX/there/1 is/VBZ/be/1 less/JJR/less/1 data/NNS/data/3 in/IN/in/1 each/DT/each/1 from/IN/from/1 which/WDT/which/1 to/TO/to/1 build/VB/build/1 a/DT/a/1 tree/NN/tree/1 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+With/IN/with/1 more/JJR/more/1 partitions/NNS/partition/6 ,/,/,/0 there/EX/there/1 is/VBZ/be/1 less/JJR/less/1 data/NNS/data/3 in/IN/in/1 each/DT/each/1 from/IN/from/1 which/WDT/which/1 to/TO/to/1 build/VB/build/1 a/DT/a/1 tree/NN/tree/1 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Return/NN/return/1 to/TO/to/1 the/DT/the/1 results/NNS/result/2 for/IN/for/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 in/IN/in/1 the/DT/the/1 first/JJ/first/1 two/CD/two/1 runs/NNS/run/1 ,/,/,/0 that/DT/that/1 is/VBZ/be/1 ,/,/,/0 with/IN/with/1 4/CD/4/0 and/CC/and/1 5/CD/5/0 partitions/NNS/partition/6 ./././0 Are/VBP/be/1 the/DT/the/1 two/CD/two/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 classifiers/VBZ/classifier/0 the/DT/the/1 same/JJ/same/1 or/CC/or/1 different/JJ/different/1 ?/./?/0 
+Same/NN/same/1 
+Different/NN/different/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Different/NN/different/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 ,/,/,/0 they/PRP/they/1 ’/VBP/’/0 re/VBP/be/1 slightly/RB/slight/1 different/JJ/different/1 :/:/:/0 for/IN/for/1 example/NN/example/2 ,/,/,/0 the/DT/the/1 first/JJ/first/1 number/NN/number/1 in/IN/in/1 the/DT/the/1 model/NN/model/2 is/VBZ/be/1 52.3531/CD/52.3531/0 for/IN/for/1 4/CD/4/0 partitions/NNS/partition/6 and/CC/and/1 52.2629/CD/52.2629/0 for/IN/for/1 5/CD/5/0 partitions/NNS/partition/6 ./././0 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 great/JJ/great/1 surprise/NN/surprise/1 !/./!/0 Naive/JJ/naive/5 Bayes/NNP/bayes/0 models/NNS/model/2 should/MD/should/1 be/VB/be/1 independent/JJ/independent/3 of/IN/of/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 partitions/NNS/partition/6 ,/,/,/0 because/IN/because/1 the/DT/the/1 distributed/JJ/distribute/3 Weka/NNP/weka/23 package/NN/pack/1 ensures/VBZ/ensure/3 that/IN/that/1 all/DT/all/1 statistics/NNS/statistic/3 are/VBP/be/1 computed/VBN/computer/1 and/CC/and/1 aggregated/VBN/aggregate/5 correctly/RB/correct/2 ./././0 
+The/DT/the/1 observed/JJ/observe/2 difference/NN/difference/1 is/VBZ/be/1 rather/RB/rather/1 subtle/JJ/subtle/3 ,/,/,/0 and/CC/and/1 stems/VBZ/stem/3 from/IN/from/1 the/DT/the/1 way/NN/way/1 that/IN/that/1 Weka/NNP/weka/23 ’/NNP/’/0 s/JJ/be/1 implementation/NN/implement/3 of/IN/of/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 handles/VBZ/handle/1 numeric/JJ/numeric/5 attributes/NNS/attribute/3 ./././0 For/IN/for/1 each/DT/each/1 numeric/JJ/numeric/5 attribute/NN/attribute/3 Weka/NNP/weka/23 estimates/VBZ/estimate/3 a/DT/a/1 precision/NN/precise/3 parameter/NN/parameter/4 from/IN/from/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ,/,/,/0 and/CC/and/1 uses/VBZ/use/1 it/PRP/it/1 to/TO/to/1 round/VB/round/1 numeric/JJ/numeric/5 values/NNS/value/2 and/CC/and/1 to/TO/to/1 set/VB/set/1 the/DT/the/1 minimum/JJ/minimum/3 allowable/JJ/allow/1 standard/NN/standard/2 deviation/NN/deviate/5 for/IN/for/1 that/DT/that/1 attribute/NN/attribute/3 ./././0 
+
+Question/NN/question/1 8/CD/8/0 
+Edit/NNP/edit/2 the/DT/the/1 filtersToUse/JJ/filterstouse/0 property/NN/property/2 in/IN/in/1 the/DT/the/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 to/TO/to/1 use/VB/use/1 a/DT/a/1 RemoveType/NNP/removetype/0 unsupervised/JJ/supervise/3 attribute/NN/attribute/3 filter/NN/filter/3 ,/,/,/0 and/CC/and/1 configure/VB/configure/4 the/DT/the/1 filter/NN/filter/3 to/TO/to/1 delete/VB/delete/5 numeric/JJ/numeric/5 attributes/NNS/attribute/3 ./././0 
+After/IN/after/1 selecting/VBG/select/2 RemoveType/NNP/removetype/0 ,/,/,/0 click/VBZ/click/4 the/DT/the/1 Add/NNP/add/1 button/NN/button/2 on/IN/on/1 the/DT/the/1 GenericArrayEditor/NNP/genericarrayeditor/0 to/TO/to/1 add/VB/add/1 it/PRP/it/1 to/TO/to/1 the/DT/the/1 list/NN/list/1 of/IN/of/1 filters/NNS/filter/3 ./././0 Close/VB/close/1 the/DT/the/1 GenericArrayEditor/NNP/genericarrayeditor/0 (/(/(/0 in/IN/in/1 this/DT/this/1 case/NN/case/1 by/IN/by/1 clicking/VBG/click/4 on/IN/on/1 the/DT/the/1 “/NNP/“/0 x/NNP/x/0 ”/NNP/”/0 in/IN/in/1 the/DT/the/1 top/JJ/top/1 right/NN/right/1 corner/NN/corner/1 )/)/)/0 and/CC/and/1 then/RB/then/1 click/VB/click/4 OK/NNP/ok/1 in/IN/in/1 the/DT/the/1 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 ’/NNP/’/0 s/VBD/be/1 dialog/NN/dialogue/3 box/NN/box/1 ./././0 
+Run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 using/VBG/use/1 4/CD/4/0 partitions/NNS/partition/6 and/CC/and/1 then/RB/then/1 5/CD/5/0 partitions/NNS/partition/6 ./././0 Are/VBP/be/1 the/DT/the/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 models/NNS/model/2 for/IN/for/1 4/CD/4/0 and/CC/and/1 5/CD/5/0 partitions/NNS/partition/6 …/VBP/…/0 
+The/DT/the/1 same/JJ/same/1 as/IN/as/1 before/IN/before/1 using/VBG/use/1 the/DT/the/1 filter/NN/filter/3 ?/./?/0 
+Different/NN/different/1 from/IN/from/1 each/DT/each/1 other/JJ/other/1 ,/,/,/0 and/CC/and/1 from/IN/from/1 before/IN/before/1 the/DT/the/1 filter/NN/filter/3 was/VBD/be/1 used/VBN/use/1 ?/./?/0 
+The/DT/the/1 same/JJ/same/1 as/IN/as/1 each/DT/each/1 other/JJ/other/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 8/CD/8/0 
+Edit/NNP/edit/2 the/DT/the/1 filtersToUse/JJ/filterstouse/0 property/NN/property/2 in/IN/in/1 the/DT/the/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 to/TO/to/1 use/VB/use/1 a/DT/a/1 RemoveType/NNP/removetype/0 unsupervised/JJ/supervise/3 attribute/NN/attribute/3 filter/NN/filter/3 ,/,/,/0 and/CC/and/1 configure/VB/configure/4 the/DT/the/1 filter/NN/filter/3 to/TO/to/1 delete/VB/delete/5 numeric/JJ/numeric/5 attributes/NNS/attribute/3 ./././0 
+After/IN/after/1 selecting/VBG/select/2 RemoveType/NNP/removetype/0 ,/,/,/0 click/VBZ/click/4 the/DT/the/1 Add/NNP/add/1 button/NN/button/2 on/IN/on/1 the/DT/the/1 GenericArrayEditor/NNP/genericarrayeditor/0 to/TO/to/1 add/VB/add/1 it/PRP/it/1 to/TO/to/1 the/DT/the/1 list/NN/list/1 of/IN/of/1 filters/NNS/filter/3 ./././0 Close/VB/close/1 the/DT/the/1 GenericArrayEditor/NNP/genericarrayeditor/0 (/(/(/0 in/IN/in/1 this/DT/this/1 case/NN/case/1 by/IN/by/1 clicking/VBG/click/4 on/IN/on/1 the/DT/the/1 “/NNP/“/0 x/NNP/x/0 ”/NNP/”/0 in/IN/in/1 the/DT/the/1 top/JJ/top/1 right/NN/right/1 corner/NN/corner/1 )/)/)/0 and/CC/and/1 then/RB/then/1 click/VB/click/4 OK/NNP/ok/1 in/IN/in/1 the/DT/the/1 WekaClassifierSparkJob/NNP/wekaclassifiersparkjob/0 ’/NNP/’/0 s/VBD/be/1 dialog/NN/dialogue/3 box/NN/box/1 ./././0 
+Run/VB/run/1 the/DT/the/1 flow/NN/flow/2 again/RB/again/1 using/VBG/use/1 4/CD/4/0 partitions/NNS/partition/6 and/CC/and/1 then/RB/then/1 5/CD/5/0 partitions/NNS/partition/6 ./././0 Are/VBP/be/1 the/DT/the/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 models/NNS/model/2 for/IN/for/1 4/CD/4/0 and/CC/and/1 5/CD/5/0 partitions/NNS/partition/6 …/VBP/…/0 
+The/DT/the/1 same/JJ/same/1 as/IN/as/1 before/IN/before/1 using/VBG/use/1 the/DT/the/1 filter/NN/filter/3 ?/./?/0 
+Different/NN/different/1 from/IN/from/1 each/DT/each/1 other/JJ/other/1 ,/,/,/0 and/CC/and/1 from/IN/from/1 before/IN/before/1 the/DT/the/1 filter/NN/filter/3 was/VBD/be/1 used/VBN/use/1 ?/./?/0 
+The/DT/the/1 same/JJ/same/1 as/IN/as/1 each/DT/each/1 other/JJ/other/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+The/DT/the/1 same/JJ/same/1 as/IN/as/1 each/DT/each/1 other/JJ/other/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+But/CC/but/1 they/PRP/they/1 ’/VBP/’/0 re/JJ/be/1 different/JJ/different/1 from/IN/from/1 before/RB/before/1 ,/,/,/0 because/IN/because/1 the/DT/the/1 numeric/JJ/numeric/5 attributes/NNS/attribute/3 have/VBP/have/1 been/VBN/be/1 removed/VBN/remove/2 ./././0 
+
+

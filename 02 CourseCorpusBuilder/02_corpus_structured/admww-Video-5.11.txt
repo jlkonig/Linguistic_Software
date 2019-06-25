@@ -1,0 +1,3 @@
+Invoking Weka from Python
+So far, we’ve been using Python from within Weka. However, in this lesson we work the other way round and invoke Weka from within Python. This allows you to take advantage of the numerous program libraries that Python has to offer. You need to install Python, and then the python-weka-wrapper library for Python. Having set this up, we replicate some scripts from earlier lessons.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

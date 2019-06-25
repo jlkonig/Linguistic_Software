@@ -1,0 +1,4 @@
+What else is there to know?
+You’ve learned lots in this course about machine learning and its use in data mining. Most importantly, you’ve learned that there’s no magic in data mining, just a bunch of fairly simple techniques for analyzing data to produce models, and evaluating the performance of the predictions. You now know that interpreting the output, and understanding what is being done, is a key to successful application of this technology.
+Producing classifiers is just a small part of the overall data mining process – perhaps the easiest part! What else needs doing? When interpreting the results you need to be skeptical – what can possibly go wrong? (lots!). When working with data you need to be sensitive – why? Data mining is essentially about discrimination, which is sometimes unethical, even illegal(!) – when? What techniques have you learned, and what have we missed?
+At the end of the week you should be able to address these issues in an informed manner.

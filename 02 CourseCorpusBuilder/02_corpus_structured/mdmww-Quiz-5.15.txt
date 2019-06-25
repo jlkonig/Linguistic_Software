@@ -1,0 +1,180 @@
+Advanced ARFF
+Question 1
+With this dataset, how many yes and how many no instances are reported on the Preprocess panel?
+Select all the answers you think are correct.
+6 yes instances
+7 yes instances
+9 yes instances
+5 no instances
+7 no instances
+8 no instances
+---
+Correct answer(s):
+
+Question 1
+With this dataset, how many yes and how many no instances are reported on the Preprocess panel?
+Select all the answers you think are correct.
+6 yes instances
+7 yes instances
+9 yes instances
+5 no instances
+7 no instances
+8 no instances
+---
+Correct answer(s):
+9 yes instances
+5 no instances
+
+Question 2
+Process the data with any classifier and examine the confusion matrix. How many yes and how many no instances are represented in the confusion matrix?
+Select all the answers you think are correct.
+0 yes instances
+9 yes instances
+45 yes instances
+0 no instances
+2.5 no instances
+5 no instances
+---
+Correct answer(s):
+45 yes instances
+2.5 no instances
+
+Question 3
+Examine the dataset using the Preprocess panel’s Edit button. Are the weights displayed?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+They’re shown in the second column, just after the instance number
+
+Question 4
+[Note: Weka 3.8.2 has a bug that will not let you save a weighted ARFF file, so please skip this question]
+Save the dataset in a new ARFF file and examine it with a text editor. Does it contain the weights?
+Yes
+No
+---
+Correct answer(s):
+Yes
+
+Question 5
+[Note: Weka 3.8.2 has a bug that will not let you save a weighted ARFF file, so please skip this question]
+Save the data into a .csv file. Does it contain the weights?
+Yes
+No
+---
+Correct answer(s):
+No
+
+Question 6
+Load the original weather.nominal.arff file and convert it to sparse format using the NonSparsetoSparse filter. Save it in a new ARFF file and take a look.
+How large are the original weather.nominal file and the sparse version respectively (in bytes)?
+587 and 592
+589 and 598
+587 and 606
+592 and 612
+---
+Correct answer(s):
+587 and 606
+---
+Feedback correct:
+These are the sizes under Windows
+---
+Feedback correct:
+These are the sizes on the Mac
+
+Question 7
+Word vectors for large text files are a prime candidate for sparse representation, because most words do not occur in most documents.
+Use the StringtoWordVector filter to convert the ReutersCorn-train.arff file into a word vector, and save it. How big is the file?
+584 KB
+589 KB
+592 KB
+597 KB
+---
+Correct answer(s):
+597 KB
+---
+Feedback correct:
+This is the size on a Mac. (Macs use 1 KB = 1000 bytes.)
+---
+Feedback correct:
+This is the size under Windows. (Windows uses 1 KB = 1024 bytes.)
+
+Question 8
+StringToWordVector produces a sparse representation, so convert it to non-sparse and save that.
+How big is the non-sparse file?
+6 MB
+6,840 KB
+7 MB
+7,087 KB
+---
+Correct answer(s):
+6,840 KB
+---
+Feedback correct:
+This is the size under Windows
+---
+Feedback correct:
+This is the size on a Mac
+
+Question 9
+We now compare the speed of various classifiers on sparse and non-sparse input.
+For the two word-vector files you’ve just produced, use the Explorer to move the class attribute (currently the first attribute) to the end. Do this by applying the Reorder filter with parameter “2-last,1”. This moves all attributes from the second to the last (inclusive) to the beginning, i.e. starting at position 1.
+In the Experimenter, classify these two files with Naive Bayes, Multinomial Naive Bayes, J48, and SMO. This took 15–20 mins on my computer using the Experimenter’s default settings, but you’ll get much the same result far more quickly if you reduce the number of repetitions from 10 to 1.
+How does the User CPU time for training Naive Bayes on the sparse representation compare with training it on the non-sparse representation?
+About the same
+A bit slower
+2–3 times slower
+More than 3 times faster
+None of the above
+---
+Correct answer(s):
+2–3 times slower
+---
+Feedback correct:
+Naive Bayes does not take advantage of the sparse representation
+
+Question 10
+How does the User CPU time for training Multinomial Naive Bayes on the sparse representation compare with training it on the non-sparse representation?
+About the same
+A bit slower
+2–3 times slower
+More than 3 times faster
+None of the above
+---
+Correct answer(s):
+More than 3 times faster
+---
+Feedback correct:
+Multinomial Naive Bayes takes advantage of the sparse representation
+
+Question 11
+How does the User CPU time for training J48 on the sparse representation compare with training it on the non-sparse representation?
+About the same
+A bit slower
+2–3 times slower
+More than 3 times faster
+None of the above
+---
+Correct answer(s):
+A bit slower
+---
+Feedback correct:
+J48 does not take advantage of the sparse representation
+
+Question 12
+How does the User CPU time for training SMO on the sparse representation compare with training it on the non-sparse representation?
+About the same
+A bit slower
+2–3 times slower
+More than 3 times faster
+None of the above
+---
+Correct answer(s):
+More than 3 times faster
+---
+Feedback correct:
+SMO takes advantage of the sparse representation.
+In fact, if you’re applying Multinomial Naive Bayes or SMO to the non-sparse file you have just produced, it’s 2 to 5 times faster to use the FilteredClassifier to convert it into sparse representation and apply the classifier to that – even though with 10-fold cross-validation this runs the filter 10 separate times.

@@ -1,0 +1,3 @@
+Data mining and ethics
+Data mining is a powerful technology, and I urge you to be ethical in its use. Data is sensitive stuff and should be treated with care. Personal data is particularly sensitive, and surprisingly difficult to anonymize: individuals can often be “re-identified” in apparently anonymized data. Note that the very purpose of data mining is discrimination, which frequently raises legal and ethical issues. Furthermore, data mining reveals correlation, which should not be confused with causation.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

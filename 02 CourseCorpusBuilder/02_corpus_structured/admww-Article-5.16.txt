@@ -1,0 +1,13 @@
+Datasets and scripts
+IDRC Shootout challenge:
+  Information
+  Dataset 1: calibration; test
+  Dataset 2: calibration; test
+Datasets:
+  anneal.train.arff
+  anneal.unlbl.arff
+  balance-scale.arff
+Build a classifier and make predictions on an unlabeled dataset:
+  make_predictions-classifier.groovy
+Display multiple ROC curves, one for each class:
+  roc_multiple.groovy

@@ -1,0 +1,139 @@
+Attribute selection for text classification
+Question 1
+In the Explorer, load ReutersCorn-train and apply the StringToWordVector filter (with default parameters). In the Classify panel, apply NaiveBayes. Note that Weka assumes that the last attribute (zone) is the class, so be sure to change this to class-att.
+Check two of the boxes below to indicate the accuracy obtained by NaiveBayes and NaiveBayesMultinomial (using 10-fold cross-validation).
+Select all the answers you think are correct.
+Naive Bayes: 89%
+Naive Bayes: 90%
+Naive Bayes: 91%
+Naive Bayes: 92%
+Naive Bayes Multinomial: 96%
+Naive Bayes Multinomial: 97%
+Naive Bayes Multinomial: 98%
+Naive Bayes Multinomial: 99%
+---
+Correct answer(s):
+Naive Bayes: 90%
+Naive Bayes Multinomial: 98%
+
+Question 2
+In the Select attributes panel, use CfsSubsetEval with BestFirst search (default parameters). Again, be sure to change the class from zone to class-att.
+How many attributes are selected?
+8
+16
+256
+1024
+---
+Correct answer(s):
+16
+
+Question 3
+In the Classify panel, apply the AttributeSelectedClassifier with CfsSubsetEval and BestFirst search (default parameters).
+Check two of the boxes below to indicate the accuracy obtained by NaiveBayes and NaiveBayesMultinomial.
+Select all the answers you think are correct.
+Naive Bayes: 96.5%
+Naive Bayes: 97.3%
+Naive Bayes: 98.1%
+Naive Bayes: 98.9%
+Naive Bayes Multinomial: 96.2%
+Naive Bayes Multinomial: 97.6%
+Naive Bayes Multinomial: 98.5%
+Naive Bayes Multinomial: 99.3%
+---
+Correct answer(s):
+Naive Bayes: 98.9%
+Naive Bayes Multinomial: 99.3%
+
+Question 4
+In each case the error rate on the minority class is the same. How many errors are there (out of the 45 instances in that class)?
+7
+9
+11
+20
+---
+Correct answer(s):
+7
+
+Question 5
+Return to the Select attributes panel and examine the attributes that were selected by CfsSubsetEval. Three of them are the same word, expressed in different combinations of upper- and lower-case letters.
+What is that word?
+Taiwan
+Wheat
+Corn
+International
+---
+Correct answer(s):
+Corn
+
+Question 6
+That makes one suspect that it would be a good idea to convert everything into lower-case before performing attribute selection (this is called “case-folding”). Return to the Preprocess panel and configure the StringToWordVector filter to do that; then repeat the attribute selection process on the Select attributes panel (be sure to change the class to class-att again).
+How many attributes are selected?
+10
+16
+24
+34
+---
+Correct answer(s):
+16
+
+Question 7
+It’s just a coincidence that the same number of attributes (16) are selected in Q.6 as in Q.2. With case-folding, the reduced attribute set contains extra words that seem relevant, e.g. assets, decision, grain, meal, sorghum.
+In the Classify panel, apply the AttributeSelectedClassifier again, with CfsSubsetEval and BestFirst search (default parameters).
+Check two of the boxes below to indicate the accuracy obtained by NaiveBayes and MultinomialNaiveBayes.
+Select all the answers you think are correct.
+Naive Bayes: 96%
+Naive Bayes: 97%
+Naive Bayes: 98%
+Naive Bayes: 99%
+Multinomial Naive Bayes: 96%
+Multinomial Naive Bayes: 97%
+Multinomial Naive Bayes: 98%
+Multinomial Naive Bayes: 99%
+---
+Correct answer(s):
+Naive Bayes: 98%
+Multinomial Naive Bayes: 99%
+
+Question 8
+In each case, the error rate on the minority class is the same. How many errors are there?
+0
+1
+2
+4
+---
+Correct answer(s):
+1
+
+Question 9
+It’s disappointing that the performance of NaiveBayes drops for this new attribute set, from 99% (actually, 98.9%) without case-folding for Q.3 to 98% (actually, 98.1%) with case-folding for Q.7.
+However, the performance of NaiveBayesMultinomial with case-folding is outstanding: 9 errors out of 1509 (0.6%) for the majority class, and 1 error out of 45 (2%) for the minority class.
+When investigating document classification with Multinomial Naive Bayes in Week 2 (Step 2.10), we fiddled around with StringToWordVector parameters and finally achieved a weighted-average ROC Area of 0.977, with outputWordCounts and lowerCaseTokens true, minTermFreq 5, wordsToKeep 800, and the Snowball stemmer. (Perhaps you should repeat that experiment to refresh your memory of what you had to do. Recall that ReutersCorn-test.arff was used for evaluation, instead of cross-validation.)
+Is the ROC area we have just achieved with Multinomial Naive Bayes and attribute selection greater than this previously-best value of 0.977?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+It is 0.998, which is considerably better than 0.977
+
+Question 10
+In the earlier activity, performance was evaluated on a separate test set rather than using cross-validation. Suppose you created a reduced training set with a smaller number of attributes, as selected above, and evaluated performance on the test set, also reduced in the same way.
+Would it be cheating to apply classifiers like NaiveBayes and NaiveBayesMultinomial to this problem directly, instead of using the AttributeSelectedClassifier?
+Yes
+No
+---
+Correct answer(s):
+
+Question 10
+In the earlier activity, performance was evaluated on a separate test set rather than using cross-validation. Suppose you created a reduced training set with a smaller number of attributes, as selected above, and evaluated performance on the test set, also reduced in the same way.
+Would it be cheating to apply classifiers like NaiveBayes and NaiveBayesMultinomial to this problem directly, instead of using the AttributeSelectedClassifier?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It would be fine, because the test set has not been used in any way during the attribute selection process.

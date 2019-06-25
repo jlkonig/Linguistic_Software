@@ -1,0 +1,6 @@
+Reflect on this week's Big Question
+The Big Question this week is, “What else is there to know?”
+Ha! Lots!!!
+Data mining is not just about producing classifiers that work well. That’s an important part of the process, of course. But there are larger issues, and we claimed that by the end of the week you would be able to address these in an informed manner.
+This is what we said: You need to be able to interpret the results, and to be skeptical – what can possibly go wrong? (lots!). When working with data you need to be sensitive – why? Data mining is essentially about discrimination, which is sometimes unethical, even illegal(!) – when? And knowing things is good (of course), but it’s also good to have some idea what you don’t know: not just what techniques have you learned, but also what we have missed.
+So: how did you get on? Can you talk knowledgeably about these things? Choose one (how about discrimination?) and discuss it with your partner, siblings, parents or kids. I’m hoping you’re the authority, you’re the expert. Are you?

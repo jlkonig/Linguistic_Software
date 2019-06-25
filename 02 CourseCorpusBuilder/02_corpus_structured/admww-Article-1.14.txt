@@ -1,0 +1,9 @@
+How do you find stock market data?
+You might be interested in using Weka to analyze other stock market data.
+For example, suppose you wanted daily financial data for Google (GOOG) for the period 1 Jan 2015 – 31 Dec 2015. It’s easy!
+    Go to http://finance.yahoo.com
+    Search for GOOG
+    Click Historical Data
+    Specify the time period and click Done, and then Apply
+    Click Download Data to get a CSV file that you can load into Weka.
+Enjoy!

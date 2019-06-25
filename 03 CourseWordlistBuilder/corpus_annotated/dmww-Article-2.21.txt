@@ -1,0 +1,42 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Diabetes/NNS/diabetes/4 
+2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.16/CD/2.16/0 
+Glass/NN/glass/1 
+2.13/CD/2.13/0 
+Iris/NN/iris/8 
+2.13/CD/2.13/0 ,/,/,/0 2.15/CD/2.15/0 
+Segment-challenge/test/JJ/segment-challenge/test/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.7/CD/2.7/0 ,/,/,/0 2.8/CD/2.8/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.13/CD/2.13/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+J48/NN/j48/0 
+2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 ,/,/,/0 2.16/CD/2.16/0 ,/,/,/0 2.17/CD/2.17/0 
+NaiveBayes/NNS/naivebayes/0 
+2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+PART/NN/part/1 
+2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+UserClassifier/NN/userclassifier/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 
+ZeroR/NN/zeror/0 
+2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 ,/,/,/0 2.15/CD/2.15/0 ,/,/,/0 2.16/CD/2.16/0 
+Packages/NNS/pack/1 
+UserClassifier/NN/userclassifier/0 
+2.2/CD/2.2/0 
+Plus/CC/plus/1 …/VB/…/0 
+Baseline/NNP/baseline/0 accuracy/NN/accurate/3 
+2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+Cross-validation/NN/cross-validation/0 
+2.14/CD/2.14/0 ,/,/,/0 2.15/CD/2.15/0 ,/,/,/0 2.16/CD/2.16/0 ,/,/,/0 2.17/CD/2.17/0 
+Installing/VBG/install/3 packages/NNS/pack/1 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 
+Random/NNP/random/3 number/NN/number/1 seed/NN/seed/2 
+2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.11/CD/2.11/0 
+Test/NN/test/1 options/NNS/option/2 
+2.7/CD/2.7/0 ,/,/,/0 2.8/CD/2.8/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 ,/,/,/0 2.15/CD/2.15/0 ,/,/,/0 2.16/CD/2.16/0 ,/,/,/0 2.17/CD/2.17/0 
+
+

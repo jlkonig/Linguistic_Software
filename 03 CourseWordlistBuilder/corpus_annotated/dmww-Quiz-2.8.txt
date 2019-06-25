@@ -1,0 +1,85 @@
+Partitioning/VBG/partition/6 datasets/NNS/datasets/0 for/IN/for/1 training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+Question/NN/question/1 1/CD/1/0 
+Choose/VB/choose/1 the/DT/the/1 J48/NNP/j48/0 classifier/NN/classifier/0 (/(/(/0 default/NN/default/5 options/NNS/option/2 )/)/)/0 ,/,/,/0 select/JJ/select/2 Percentage/NNP/percent/2 split/NN/split/2 as/IN/as/1 test/NN/test/1 option/NN/option/2 ,/,/,/0 and/CC/and/1 determine/VB/determine/2 the/DT/the/1 proportion/NN/proportion/3 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 when/WRB/when/1 the/DT/the/1 following/JJ/follow/1 percentages/NNS/percent/2 are/VBP/be/1 used/VBN/use/1 for/IN/for/1 training/VBG/train/1 set/VBN/set/1 size/NN/size/1 :/:/:/0 10/CD/10/0 %/NN/%/0 ,/,/,/0 20/CD/20/0 %/NN/%/0 ,/,/,/0 40/CD/40/0 %/NN/%/0 ./././0 60/CD/60/0 %/NN/%/0 ,/,/,/0 80/CD/80/0 %/NN/%/0 ./././0 What/WP/what/1 do/VBP/do/1 you/PRP/you/1 observe/VB/observe/2 ?/./?/0 
+There/EX/there/1 are/VBP/be/1 some/DT/some/1 fluctuations/NNS/fluctuate/5 ,/,/,/0 but/CC/but/1 performance/NN/perform/2 generally/RB/general/1 increases/VBZ/increase/2 with/IN/with/1 training/NN/train/1 set/VBN/set/1 size/NN/size/1 ./././0 
+Performance/NNP/perform/2 stays/VBZ/stay/1 about/IN/about/1 the/DT/the/1 same/JJ/same/1 ./././0 
+Performance/NNP/perform/2 always/RB/always/1 increases/VBZ/increase/2 as/IN/as/1 training/NN/train/1 set/VBN/set/1 size/NN/size/1 increases/NNS/increase/2 ./././0 
+Performance/NN/perform/2 tends/VBZ/tend/1 to/TO/to/1 decrease/VB/decrease/3 as/IN/as/1 training/NN/train/1 set/VBN/set/1 size/NN/size/1 increases/NNS/increase/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+You/PRP/you/1 would/MD/would/1 expect/VB/expect/1 this/DT/this/1 general/JJ/general/1 trend/NN/trend/3 but/CC/but/1 with/IN/with/1 some/DT/some/1 fluctuation/NN/fluctuate/5 ,/,/,/0 but/CC/but/1 in/IN/in/1 this/DT/this/1 case/NN/case/1 performance/NN/perform/2 always/RB/always/1 increases/VBZ/increase/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 is/VBZ/be/1 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 d/VB/have/1 generally/RB/general/1 expect/VBP/expect/1 ,/,/,/0 but/CC/but/1 in/IN/in/1 this/DT/this/1 case/NN/case/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 other/JJ/other/1 answers/NNS/answer/1 is/VBZ/be/1 more/RBR/more/1 likely/JJ/likely/2 to/TO/to/1 apply/VB/apply/2 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Repeat/NNP/repeat/2 Question/NNP/question/1 1/CD/1/0 using/VBG/use/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 percentages/NNS/percent/2 of/IN/of/1 90/CD/90/0 %/NN/%/0 ,/,/,/0 95/CD/95/0 %/NN/%/0 ,/,/,/0 98/CD/98/0 %/NN/%/0 ,/,/,/0 and/CC/and/1 99/CD/99/0 %/NN/%/0 ./././0 What/WP/what/1 happens/VBZ/happen/1 to/TO/to/1 the/DT/the/1 number/NN/number/1 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 ?/./?/0 
+Stays/NNS/stay/1 about/IN/about/1 the/DT/the/1 same/JJ/same/1 ./././0 
+Increases/NNS/increase/2 slowly/RB/slow/1 ./././0 
+Decreases/VBZ/decrease/3 a/DT/a/1 little/JJ/little/1 bit/NN/bit/1 ./././0 
+Decreases/NNS/decrease/3 dramatically/RB/drama/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 numbers/NNS/number/1 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 are/VBP/be/1 145/CD/145/0 ,/,/,/0 72/CD/72/0 ,/,/,/0 29/CD/29/0 ,/,/,/0 and/CC/and/1 15/CD/15/0 respectively/RB/respective/3 ./././0 Although/IN/although/1 these/DT/this/1 numbers/NNS/number/1 are/VBP/be/1 decreasing/VBG/decrease/3 ,/,/,/0 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 is/VBZ/be/1 increasing/VBG/increase/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Remember/NNP/remember/1 ,/,/,/0 you/PRP/you/1 should/MD/should/1 be/VB/be/1 looking/VBG/look/1 at/IN/at/1 the/DT/the/1 number/NN/number/1 (/(/(/0 not/RB/not/1 the/DT/the/1 percentage/NN/percent/2 )/)/)/0 of/IN/of/1 correctly/RB/correct/2 classified/VBN/classify/4 instances/NNS/instance/2 
+
+Question/NN/question/1 3/CD/3/0 
+Repeating/VBG/repeat/2 Question/NN/question/1 1/CD/1/0 with/IN/with/1 a/DT/a/1 training/NN/train/1 set/VBN/set/1 percentage/NN/percent/2 of/IN/of/1 99/CD/99/0 %/NN/%/0 gives/VBZ/give/1 a/DT/a/1 figure/NN/figure/1 of/IN/of/1 100/CD/100/0 %/NN/%/0 accuracy/NN/accurate/3 on/IN/on/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 ./././0 
+Does/VBZ/do/1 this/DT/this/1 mean/NN/mean/1 that/IN/that/1 this/DT/this/1 generates/VBZ/generate/3 a/DT/a/1 perfect/JJ/perfect/1 classifier/NN/classifier/0 for/IN/for/1 the/DT/the/1 segmentation/NN/segment/3 problem/NN/problem/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Although/IN/although/1 the/DT/the/1 classifier/NN/classifier/0 is/VBZ/be/1 indeed/RB/indeed/1 100/CD/100/0 %/NN/%/0 correct/NN/correct/2 on/IN/on/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 ,/,/,/0 that/WDT/that/1 set/VBD/set/1 only/RB/only/1 contains/VBZ/contain/2 15/CD/15/0 instances/NNS/instance/2 (/(/(/0 1/CD/1/0 %/NN/%/0 of/IN/of/1 the/DT/the/1 1500/CD/1500/0 instances/NNS/instance/2 in/IN/in/1 the/DT/the/1 data/NNS/data/3 set/NN/set/1 )/)/)/0 ./././0 This/DT/this/1 is/VBZ/be/1 not/RB/not/1 a/DT/a/1 reliable/JJ/rely/2 predictor/NN/predict/3 of/IN/of/1 performance/NN/perform/2 on/IN/on/1 independent/JJ/independent/3 test/NN/test/1 data/NNS/data/3 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Based/VBN/base/1 on/IN/on/1 the/DT/the/1 above/JJ/above/1 experiments/NNS/experiment/3 ,/,/,/0 what/WP/what/1 is/VBZ/be/1 your/PRP$/you/1 best/JJS/best/1 estimate/NN/estimate/3 of/IN/of/1 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 true/JJ/true/1 accuracy/NN/accurate/3 on/IN/on/1 the/DT/the/1 segment-challenge/NN/segment-challenge/0 dataset/NN/dataset/0 ?/./?/0 
+50/CD/50/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+95/CD/95/0 %/NN/%/0 
+100/CD/100/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 96/CD/96/0 %/NN/%/0 might/MD/might/1 be/VB/be/1 an/DT/a/1 even/RB/even/1 better/JJR/better/1 estimate/NN/estimate/3 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 likelihood/NN/likely/2 that/IN/that/1 J48/NNP/j48/0 would/MD/would/1 make/VB/make/1 no/DT/no/1 mistakes/NNS/mistake/1 on/IN/on/1 15/CD/15/0 independently/RB/independent/3 chosen/VBN/choose/1 test/NN/test/1 instances/NNS/instance/2 ,/,/,/0 if/IN/if/1 its/PRP$/it/1 accuracy/NN/accurate/3 for/IN/for/1 each/DT/each/1 instance/NN/instance/2 was/VBD/be/1 95/CD/95/0 %/NN/%/0 ?/./?/0 
+Very/RB/very/1 unlikely/JJ/likely/2 
+About/RB/about/1 50/CD/50/0 %/NN/%/0 
+Almost/RB/almost/1 100/CD/100/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 the/DT/the/1 probability/NN/probably/1 of/IN/of/1 getting/VBG/get/1 15/CD/15/0 independent/JJ/independent/3 decisions/NNS/decision/2 correct/VBP/correct/2 is/VBZ/be/1 0.95×0.95×0.95×0.95×…/CD/0.95×0.95×0.95×0.95×…/0 [/NN/[/0 15/CD/15/0 times/NNS/time/1 ]/NNP/]/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 0.95**15/CD/0.95**15/0 =/JJ/=/0 0.46/CD/0.46/0 ,/,/,/0 or/CC/or/1 46/CD/46/0 %/NN/%/0 ./././0 (/(/(/0 0.95**15/CD/0.95**15/0 is/VBZ/be/1 0.95/CD/0.95/0 to/TO/to/1 the/DT/the/1 power/NN/power/1 15/CD/15/0 ./././0 )/)/)/0 If/IN/if/1 you/PRP/you/1 ’/VBP/’/0 re/VB/be/1 unfamiliar/JJ/familiar/2 with/IN/with/1 this/DT/this/1 math/NN/mathematics/2 ,/,/,/0 don/VB/do/1 ’/NNP/’/0 t/NN/not/1 worry/NN/worry/1 ,/,/,/0 we/PRP/we/1 won/VBD/win/1 ’/NNP/’/0 t/NN/not/1 be/VB/be/1 using/VBG/use/1 it/PRP/it/1 again/RB/again/1 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 following/JJ/follow/1 statements/NNS/state/1 seems/VBZ/seem/1 to/TO/to/1 be/VB/be/1 correct/JJ/correct/2 ,/,/,/0 based/VBN/base/1 on/IN/on/1 your/PRP$/you/1 experiments/NNS/experiment/3 ?/./?/0 
+The/DT/the/1 more/RBR/more/1 training/NN/train/1 data/NNS/data/3 ,/,/,/0 the/DT/the/1 greater/JJR/great/1 the/DT/the/1 classifier/JJR/classifier/0 ’/JJ/’/0 s/JJ/be/1 success/NN/success/2 rate/NN/rate/1 ./././0 
+Training/VBG/train/1 set/VBN/set/1 size/NN/size/1 has/VBZ/have/1 no/DT/no/1 influence/NN/influence/2 on/IN/on/1 the/DT/the/1 classifier/NN/classifier/0 ’/NNP/’/0 s/VBZ/be/1 success/NN/success/2 rate/NN/rate/1 ./././0 
+The/DT/the/1 more/JJR/more/1 test/NN/test/1 data/NNS/data/3 ,/,/,/0 the/DT/the/1 greater/JJR/great/1 the/DT/the/1 classifier/JJR/classifier/0 ’/JJ/’/0 s/JJ/be/1 success/NN/success/2 rate/NN/rate/1 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+When/WRB/when/1 the/DT/the/1 percentage/NN/percent/2 split/NN/split/2 option/NN/option/2 is/VBZ/be/1 used/VBN/use/1 for/IN/for/1 evaluation/NN/evaluate/3 ,/,/,/0 how/WRB/how/1 good/JJ/good/1 is/VBZ/be/1 the/DT/the/1 performance/NN/perform/2 if/IN/if/1 (/(/(/0 a/DT/a/1 )/)/)/0 almost/RB/almost/1 none/NN/none/1 of/IN/of/1 the/DT/the/1 data/NN/data/3 is/VBZ/be/1 used/VBN/use/1 for/IN/for/1 testing/VBG/test/1 ;/:/;/0 (/(/(/0 b/NN/b/0 )/)/)/0 almost/RB/almost/1 all/DT/all/1 of/IN/of/1 the/DT/the/1 data/NN/data/3 is/VBZ/be/1 used/VBN/use/1 for/IN/for/1 testing/VBG/test/1 ?/./?/0 
+(/(/(/0 a/DT/a/1 )/)/)/0 has/VBZ/have/1 poor/JJ/poor/1 performance/NN/perform/2 ,/,/,/0 (/(/(/0 b/NN/b/0 )/)/)/0 has/VBZ/have/1 good/JJ/good/1 performance/NN/perform/2 ./././0 
+(/(/(/0 a/DT/a/1 )/)/)/0 has/VBZ/have/1 better/JJR/better/1 performance/NN/perform/2 than/IN/than/1 (/(/(/0 b/NN/b/0 )/)/)/0 ./././0 
+The/DT/the/1 performance/NN/perform/2 for/IN/for/1 (/(/(/0 a/DT/a/1 )/)/)/0 and/CC/and/1 (/(/(/0 b/NN/b/0 )/)/)/0 are/VBP/be/1 similar/JJ/similar/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Leaving/VBG/leave/1 almost/RB/almost/1 no/DT/no/1 data/NN/data/3 for/IN/for/1 testing/VBG/test/1 means/NNS/mean/1 more/JJR/more/1 data/NNS/data/3 for/IN/for/1 training/NN/train/1 ,/,/,/0 so/IN/so/1 the/DT/the/1 algorithm/NN/algorithm/5 has/VBZ/have/1 seen/VBN/see/1 most/JJS/most/1 patterns/NNS/pattern/2 in/IN/in/1 the/DT/the/1 data/NNS/data/3 and/CC/and/1 performs/NNS/perform/2 quite/RB/quite/1 well/RB/well/1 on/IN/on/1 the/DT/the/1 remaining/VBG/remain/2 test/NN/test/1 data/NNS/data/3 ./././0 
+
+

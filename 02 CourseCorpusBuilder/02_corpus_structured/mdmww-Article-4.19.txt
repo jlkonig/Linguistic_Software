@@ -1,0 +1,54 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Breast-cancer
+      4.14
+      Credit-g
+      4.13, 4.15, 4.16
+      Diabetes
+      4.4
+      Glass
+      4.2, 4.3, 4.5
+      Ionosphere
+      4.7, 4.9
+      Reuters-Corn-train/test
+      4.8, 4.10
+      Classifiers
+      IBk
+      4.3, 4.5, 4.7, 4.9
+      J48
+      4.2, 4.4, 4.5, 4.9, 4.13, 4.14, 4.15, 4.16
+      NaiveBayes
+      4.4, 4.5, 4.7, 4.8, 4.9, 4.10, 4.14, 4.15, 4.16
+      NaiveBayesMultinomial
+      4.8, 4.10
+      OneR
+      4.3
+      ZeroR
+      4.13, 4.14
+      Metalearners
+      AttributeSelectedClassifier
+      4.4, 4.5, 4.7, 4.9, 4.10
+      Bagging
+      4.16
+      CostSensitiveClassifier
+      4.13, 4.14, 4.15, 4.16
+      FilteredClassifier
+      4.4
+      Filters
+      StringToWordVector
+      4.8, 4.10
+      Packages
+      AttributeSelectionSearchMethods
+      4.3
+      Plus …
+      Cost-sensitive evaluation
+      4.13, 4.14
+      Experimenter interface
+      4.5, 4.16
+      ROC curve (AUC)
+      4.8, 4.10, 4.13
+      Select attributes panel
+      4.2, 4.3, 4.4, 4.5, 4.8, 4.10

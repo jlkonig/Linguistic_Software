@@ -1,0 +1,171 @@
+Learning algorithms in the MLR package 
+Question 1
+Multivariate adaptive regression splines (MARS) are a famous learning method for regression problems, and are implemented by MLR’s regr.earth function.
+The MARS model is a linear combinations of hinge functions based on individual attributes, but may also include products of hinge functions. The “degree” parameter of regr.earth determines how many attributes may be included in each product, which controls the degree of interaction between attributes.
+Run a 10-fold cross-validation of MLRClassifier with regr.earth as the learning algorithm on Weka’s cpu.arff dataset. What is the resulting correlation coefficient?
+0.90
+0.92
+0.93
+0.94
+0.96
+---
+Correct answer(s):
+0.94
+---
+Feedback correct:
+(More precisely, 0.9364)
+
+Question 2
+By default, regr.earth runs with a parameter degree of 1, which means that no interactions between attributes are modeled.
+Try values 2, 3, and 4. What is the largest correlation coefficient obtained?
+0.90
+0.92
+0.93
+0.94
+0.96
+---
+Correct answer(s):
+0.96
+---
+Feedback correct:
+On my machine the result is 0.9598 for both degrees 3 and 4. However, the exact number may differ slightly depending on the operating system and Java version.
+
+Question 3
+MLR also provides access to a model tree learner, called regr.mob.
+Compare it to the M5P model tree learner in WEKA. Run both methods, with default parameters, on the cpu dataset, using 10-fold cross-validation in the Explorer.
+Which gives the greater correlation coefficient?
+M5P
+regr.mob
+---
+Correct answer(s):
+M5P
+---
+Feedback correct:
+Though not by much. M5P gives a correlation coefficient of 0.93, compared with regr.mob’s 0.92.
+
+Question 4
+Now try the two methods on some artificial data.
+Go to WEKA’s Preprocess panel and generate data using the MexicanHat data generator for regression (with default settings).
+Run a 10-fold cross-validation on this data with each of the two model tree learners. Which method achieves the best correlation coefficient?
+M5P
+regr.mob
+---
+Correct answer(s):
+M5P
+---
+Feedback correct:
+M5P gives a correlation coefficient of 0.91, compared with regr.mob’s 0.89.
+
+Question 5
+It is interesting to compare implementations of learning algorithms in R to those available natively in WEKA.
+Use WEKA’s Experimenter to compare two implementations of multinominal logistic regression, WEKA’s Logistic and MLR’s classif.multinom, using 10-times 10-fold cross-validation, on the diabetes, glass, ionosphere and iris datasets.
+One of these datasets give exactly the same estimated accuracy for the two methods. Which one?
+diabetes
+glass
+ionosphere
+iris
+---
+Correct answer(s):
+ionosphere
+---
+Feedback correct:
+Both methods give a Percent_correct of 87.72%.
+
+Question 6
+Logistic standardizes numeric attributes internally, whereas classif.multinom does not.
+To eliminate this potentially confounding factor, run both implementations by wrapping them into the FilteredClassifier in conjunction with WEKA’s Standardize filter.
+This makes a difference for just one of the datasets. Which one?
+diabetes
+glass
+ionosphere
+iris
+---
+Correct answer(s):
+glass
+---
+Feedback correct:
+The results are the same for Logistic, but the standardization operation lowers the performance of classif.multinomial slightly, from 63.71% to 62.99%.
+
+Question 7
+Repeat the previous experiment (without the Standardize filter), this time comparing WEKA’s RandomForest with MLR’s classif.randomForest, again using the Experimenter with default settings.
+RandomForest outperforms classif.randomForest on just one of the datasets. Which one?
+diabetes
+glass
+ionosphere
+iris
+---
+Correct answer(s):
+ionosphere
+---
+Feedback correct:
+RandomForest gives 93.48%, and classif.randomForest gives 93.42%.
+
+Question 8
+To make the comparison fair, we should fix the number of randomly selected attributes used at each node of each decision tree in the forest. We need to do this because the two implementations automatically select an appropriate number using different heuristics. We should also use the same number of trees in each forest.
+To this end, change the K (i.e., numFeatures) parameter in RandomForest to 2, and use mtry = 2 and ntree = 100 as parameters for classif.randomForest.
+Now the situation is reversed: RandomForest is outperformed by classif.randomForest on just one of the datasets. Which one?
+(There is one possible reason for remaining differences: RandomForest uses information gain to select splits in each tree whereas classif.randomForest uses the Gini index.)
+diabetes
+glass
+ionosphere
+iris
+---
+Correct answer(s):
+iris
+---
+Feedback correct:
+RandomForest gives 94.8%, and classif.randomForest gives 95.2%.
+
+Question 9
+WEKA’s metalearners can be used in conjunction with R learners (indeed, we have already used FilteredClassifier in conjunction with classif.multinom).
+For example, MARS can be applied to classification problems by using regr.earth as the base learner for the ClassificationViaRegression metalearner.
+In the Explorer, evaluate ClassificationViaRegression with regr.earth as the base learner (via MLRClassifier) on the ionosphere dataset, using 10-fold cross-validation.
+How many correct classifications are there?
+37
+89
+308
+311
+314
+317
+---
+Correct answer(s):
+314
+---
+Feedback incorrect:
+That’s the number of incorrectly classified instances
+---
+Feedback incorrect:
+That’s the percentage of correctly classified instances, not the number
+
+Question 10
+Try values 2, 3, and 4 for the degree of interactions in regr.earth (as you did in Q.2).
+Which degree gives the greatest accuracy?
+1
+2
+3
+4
+---
+Correct answer(s):
+
+Question 10
+Try values 2, 3, and 4 for the degree of interactions in regr.earth (as you did in Q.2).
+Which degree gives the greatest accuracy?
+1
+2
+3
+4
+---
+Correct answer(s):
+2
+---
+Feedback correct:
+On my machine a degree of 2 gives 317 correctly classified instances. However, the exact number may differ slightly depending on the operating system and Java version.
+---
+Feedback incorrect:
+A degree of 1 gives 314 correctly classified instances
+---
+Feedback incorrect:
+A degree of 3 gives 308 correctly classified instances
+---
+Feedback incorrect:
+A degree of 4 gives 311 correctly classified instances

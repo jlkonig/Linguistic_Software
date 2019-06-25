@@ -1,0 +1,77 @@
+Unsupervised discretization
+Question 1
+In general, would you expect equal-frequency binning to outperform equal-width binning?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+Equal-frequency binning is sensitive to the data distribution, which will probably make it perform better.
+
+Question 2
+In general, would you expect the binary-attribute version (with the makeBinary option) to improve results for both equal-width and equal-frequency binning?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The binary attributes produced by the makeBinary option include information about the ordering of the original numeric attribute values.
+
+Question 3
+Create four new versions of the ionosphere data, all of whose attributes are discrete, by applying the unsupervised discretization filter with the four option combinations and default number of bins (10), and write out each resulting dataset. Then use the Experimenter (not the Explorer) to evaluate the classification accuracy using ten repetitions of 10-fold cross-validation (the Experimenter’s default), using J48 and the five datasets (including the original ionosphere.arff).
+What percentage accuracy do you get using J48? Fill in the table below.
+[Hint: the answers are 87, 89, 90, 92, 93 – but in a different order]
+---
+Correct answer(s):
+90
+87
+89
+93
+92
+
+Question 4
+These results contain some small surprises. What is the most striking surprise?
+The equal-frequency-binned version outperforms the unfiltered version.
+With binary attributes, equal-width bins outperform equal-frequency bins.
+---
+Correct answer(s):
+With binary attributes, equal-width bins outperform equal-frequency bins.
+---
+Feedback correct:
+We would expect binary-attribute discretization to do well, but would not expect equal-width binning to outperform equal-frequency binning when both are producing binary attributes.
+
+Question 5
+Using the Experimenter, compare the binary-attribute and non-binary-attribute versions of equal-width-binning at the 5% level (Weka’s default). (Note: you will have to re-select the row and column in the Analyse panel, and then re-select the test base.)
+For equal-width binning, is the binary-attribute version significantly better than the non-binary-attribute version (at the 5% level)?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+For equal-width binning the binary-attribute version yields 93% accuracy, which is significantly better than the 87% accuracy of the non-binary-attribute version.
+
+Question 5
+Using the Experimenter, compare the binary-attribute and non-binary-attribute versions of equal-width-binning at the 5% level (Weka’s default). (Note: you will have to re-select the row and column in the Analyse panel, and then re-select the test base.)
+For equal-width binning, is the binary-attribute version significantly better than the non-binary-attribute version (at the 5% level)?
+Yes
+No
+---
+Correct answer(s):
+
+Question 6
+Similarly, compare the binary-attribute and non-binary-attribute versions of equal-frequency-binning at the 5% level. (Note: you will have to re-select the test base.)
+For equal-frequency binning, is the binary-attribute version significantly better than the non-binary-attribute version (at the 5% level)?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It’s not significantly better. Although the binary attribute version (92%) is better than the non-binary attribute version (89%), the difference is not significant at the 5% level.

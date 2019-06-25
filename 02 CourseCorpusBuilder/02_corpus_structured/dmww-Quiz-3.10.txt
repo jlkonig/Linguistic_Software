@@ -1,0 +1,139 @@
+Weka's output 
+Question 1
+The More options menu on the Classify panel can be used to customize the output. Depending on the setup, Weka will generate one or more of the following sections:
+a. === Run information === 
+b. === Stratified cross-validation ===
+c. === Evaluation on test set ===
+d. === Evaluation on training set ===
+e. === Summary ===
+f. === Classifier model (full training set) ===
+g. === Predictions on test data ===
+h. === Detailed accuracy by class ===
+i. === Confusion matrix ===
+j. === Source code ===
+Which of these sections is always present?
+a. === Run information ===
+b. === Stratified cross-validation ===
+i. === Confusion matrix ===
+---
+Correct answer(s):
+a. === Run information ===
+---
+Feedback correct:
+Run information is always produced, to record what algorithm was evaluated, in what fashion, and on which dataset.
+
+Question 2
+Which of the sections is present when a separate test set is used?
+a. === Run information === 
+b. === Stratified cross-validation ===
+c. === Evaluation on test set ===
+d. === Evaluation on training set ===
+e. === Summary ===
+f. === Classifier model (full training set) ===
+g. === Predictions on test data ===
+h. === Detailed accuracy by class ===
+i. === Confusion matrix ===
+j. === Source code ===
+b. === Stratified cross-validation ===
+c. === Evaluation on test set ===
+d. === Evaluation on training set ===
+j. === Source code ===
+---
+Correct answer(s):
+c. === Evaluation on test set ===
+---
+Feedback correct:
+The “test set” in the section title gives it away.
+
+Question 3
+Which section involves using the Folds parameter?
+a. === Run information === 
+b. === Stratified cross-validation ===
+c. === Evaluation on test set ===
+d. === Evaluation on training set ===
+e. === Summary ===
+f. === Classifier model (full training set) ===
+g. === Predictions on test data ===
+h. === Detailed accuracy by class ===
+i. === Confusion matrix ===
+j. === Source code ===
+b. === Stratified cross-validation ===
+c. === Evaluation on test set ===
+d. === Evaluation on training set ===
+j. === Source code ===
+---
+Correct answer(s):
+b. === Stratified cross-validation ===
+---
+Feedback correct:
+The Folds parameter is used for stratified cross-validation.
+
+Question 4
+Now let’s take a closer look at the options available in the More options dialog. These are:
+When using cross-validation, Weka prints a model built on the full dataset. The statistics, however, are calculated from the various train/test splits. This can be confusing, because the model stays the same regardless of the number of folds or the value of the random seed. Which of the options allows you to suppress the classifier model (section (f) in the list in Q.1, 2, 3)?
+Output model
+Error plot point size proportional to margin
+Output source code
+---
+Correct answer(s):
+Output model
+---
+Feedback correct:
+The Output model option toggles whether or not the model built on the full dataset is printed.
+
+Question 5
+Which option generates Java code that represents the model produced by the classifier (if the classifier offers this capability)?
+Output model
+Error plot point size proportional to margin
+Output source code
+---
+Correct answer(s):
+Output source code
+---
+Feedback correct:
+This option prints Java code for the model built on the full training set (section (j) in the list in Q.1, 2, 3). This code can be embedded in other Java applications.
+
+Question 6
+Which option should be configured in order to see how the learned classifier deals with each instance in a supplied test set (section (g) in the list in Q.1, 2, 3)?
+Output confusion matrix
+Store predictions for visualization
+Output predictions
+---
+Correct answer(s):
+Output predictions
+---
+Feedback correct:
+There are various ways in which the output can be configured, e.g., as plain text.
+
+Question 7
+If you plan to visualize the predictions made by the classifier, which option do you need to set?
+Output model
+Store predictions for visualization
+Error plot point size proportional to margin
+Output source code
+---
+Correct answer(s):
+Store predictions for visualization
+---
+Feedback correct:
+This option makes Weka save the classifier’s predictions on the test data. With a very large test set, you might want to turn this off to reduce storage requirements.
+
+Question 8
+Which option should you configure if you want the classifier’s predictions (section (g) in the list in Q.1, 2, 3) to show values of attributes other than the class?
+Output per-class stats
+Output confusion matrix
+Output predictions
+---
+Correct answer(s):
+
+Question 8
+Which option should you configure if you want the classifier’s predictions (section (g) in the list in Q.1, 2, 3) to show values of attributes other than the class?
+Output per-class stats
+Output confusion matrix
+Output predictions
+---
+Correct answer(s):
+Output predictions
+---
+Feedback correct:
+For instance, you could choose PlainText output of predictions. Also, you can specify a comma-separated range of attribute indices whose values will be included along with the actual and predicted class values. For example, the specification “first–3,10,12–14” would include attributes 1, 2, 3, 10, 12, 13, 14.

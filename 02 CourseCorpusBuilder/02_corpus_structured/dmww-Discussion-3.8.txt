@@ -1,0 +1,2 @@
+Problems with probabilities?
+This material on probabilities is a bit more abstract than the rest of the course. We invite you to discuss it: the idea of a probability, a hypothesis based on evidence, the prior and posterior probability, and what the “naïve” assumption really means.

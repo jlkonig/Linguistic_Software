@@ -1,0 +1,6 @@
+Market/NN/market/1 basket/NN/basket/2 analysis/NN/analyse/3 
+Do/VBP/do/1 you/PRP/you/1 have/VB/have/1 any/DT/any/1 thoughts/NNS/think/1 on/IN/on/1 market/NN/market/1 basket/NN/basket/2 analysis/NN/analyse/3 in/IN/in/1 general/JJ/general/1 ,/,/,/0 or/CC/or/1 the/DT/the/1 supermarket/NN/supermarket/0 dataset/NN/dataset/0 in/IN/in/1 particular/JJ/particular/1 ,/,/,/0 that/IN/that/1 you/PRP/you/1 ’/VBP/’/0 d/NNS/have/1 like/IN/like/1 to/TO/to/1 share/NN/share/1 with/IN/with/1 others/NNS/other/1 ?/./?/0 
+Now/RB/now/1 ’/VBZ/’/0 s/VB/be/1 your/PRP$/you/1 chance/NN/chance/1 !/./!/0 
+I/PRP/i/1 ’/VBP/’/0 m/RB/be/1 certainly/RB/certain/1 not/RB/not/1 an/DT/a/1 expert/NN/expert/3 on/IN/on/1 association/NN/associate/2 rule/NN/rule/1 mining/NN/miner/3 ,/,/,/0 so/IN/so/1 you/PRP/you/1 might/MD/might/1 find/VB/find/1 better/JJR/better/1 rules/NNS/rule/1 ,/,/,/0 and/CC/and/1 better/JJR/better/1 interpretations/NNS/interpret/3 ,/,/,/0 than/IN/than/1 me/PRP/i/1 ./././0 
+
+

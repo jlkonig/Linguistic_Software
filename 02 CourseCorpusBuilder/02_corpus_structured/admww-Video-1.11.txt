@@ -1,0 +1,3 @@
+Looking at forecasts
+Weka’s time series forecasting package includes options for visualizing predictions for any number of steps ahead, as well as performance on the training data. As well as visualizing future predictions, you can hold out the last few instances of the dataset for testing and visualize performance on these. Errors accumulate on multi-step future predictions, and you can assess the effect of this by looking at 1-step-ahead – or indeed any-number-of-steps-ahead – predictions on held-out test data.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

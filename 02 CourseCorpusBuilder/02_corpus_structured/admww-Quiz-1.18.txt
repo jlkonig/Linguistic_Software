@@ -1,0 +1,209 @@
+Analyzing a soil sample 
+Question 1
+The dataset has been converted into an ARFF file called org_c_n.arff.
+Load it into the Weka Explorer. The instances represent 4439 samples of soil that have been processed by a NIR (near-infrared) device. Most of the 220 attributes are wave bands, and contain the reflectance values produced by the device. For our purposes the dataset should contain only the wave bands plus the class we are interested in, and for this activity we will concentrate on organic carbon.
+Remove the unnecessary attributes from the dataset. How many attributes remain?
+131
+172
+217
+254
+---
+Correct answer(s):
+217
+---
+Feedback correct:
+You should remove Batch_Labid, ISO, and OrganicNitrogen
+---
+Feedback incorrect:
+You should remove Batch_Labid, ISO, and OrganicNitrogen
+
+Question 2
+There is still a problem with the dataset.
+If you click on the class attribute, OrganicCarbon, you will see that 12% of the values are missing. These are samples for which there was no wet chemistry reference, and are useless for our purpose. Use an appropriate Weka instance filter to remove all instances whose class attribute is missing.
+How many instances remain?
+528
+1119
+1872
+3911
+---
+Correct answer(s):
+3911
+---
+Feedback correct:
+Use the RemoveWithValues filter
+528 instances with missing values for OrganicCarbon are removed
+---
+Feedback incorrect:
+Use the RemoveWithValues filter
+
+Question 3
+We now set about benchmarking.
+The class is numeric, making this a regression problem. A simple classifier for regression problems is LinearRegression. Choose this in the Classify panel, along with 10-fold cross-validation (the default).
+What correlation coefficient does LinearRegression achieve?
+0.2547
+0.3951
+0.4215
+0.4789
+---
+Correct answer(s):
+0.3951
+
+Question 4
+Next we investigate the performance of some more sophisticated classifiers: M5P, REPTree and RandomForest. (There are other possibilities, but they are all slower.)
+Run these three with default settings, and record the resulting correlation coefficients. What is the best correlation coefficient achieved?
+0.3951
+0.4284
+0.6871
+0.7412
+---
+Correct answer(s):
+0.6871
+---
+Feedback correct:
+The largest correlation coefficient is 0.6871, achieved by RandomForest
+
+Question 5
+We now examine the effect of preprocessing the data, using the results of these classifiers as a benchmark.
+We investigate three commonly used techniques for NIR data: downsampling, row normalisation and a signal smoothing method called Savitzky-Golay.
+Downsampling is a simple method that can accelerate processing with little loss in accuracy (this may also allow slower classification methods to be applied without too much delay). By hand, remove every second attribute, W350, W370, … W2490. The resulting dataset will have 109 attributes including the class (you may wish to save it). Run the benchmark classifiers (again with default settings), along with 10-fold cross-validation. You will probably notice that they are faster than before.
+We will continue to use the correlation coefficient as the measure of success. Which methods perform better on the downsampled version than on the original data?
+Select all the answers you think are correct.
+LinearRegression
+M5P
+REPTree
+RandomForest
+---
+Correct answer(s):
+LinearRegression
+M5P
+REPTree
+RandomForest
+---
+Feedback correct:
+Linear regression: 0.400 on the downsampled data; 0.395 on the original
+M5P: 0.630 on the downsampled data; 0.603 on the original
+REPTree: 0.654 on the downsampled data; 0.653 on the original
+RandomForest: 0.695 on the downsampled data; 0.687 on the original
+---
+Feedback incorrect:
+Linear regression: 0.400 on the downsampled data; 0.395 on the original
+---
+Feedback incorrect:
+M5P: 0.630 on the downsampled data; 0.603 on the original
+---
+Feedback incorrect:
+REPTree: 0.654 on the downsampled data; 0.653 on the original
+---
+Feedback incorrect:
+RandomForest: 0.695 on the downsampled data; 0.687 on the original
+
+Question 6
+Downsampling has improved both speed and accuracy for all these classifiers.
+Let’s keep going: make the dataset half the size again! Construct a new dataset with 55 attributes: the class and wavebands W380, W420, W460, … W2500. Run the benchmark again.
+Which methods now perform better than they did on the first downsampling data?
+Select all the answers you think are correct.
+LinearRegression
+M5P
+REPTree
+RandomForest
+---
+Correct answer(s):
+M5P
+REPTree
+RandomForest
+---
+Feedback correct:
+M5P: 0.690 on the new data; 0.630 on the previous data
+REPTree: 0.658 on the new data; 0.654 on the previous data
+RandomForest: 0.707 on the new data; 0.695 on the previous data
+---
+Feedback incorrect:
+Linear regression: 0.391 on the new data; 0.401 on the previous data
+---
+Feedback incorrect:
+M5P: 0.690 on the new data; 0.630 on the previous data
+---
+Feedback incorrect:
+REPTree: 0.658 on the new data; 0.654 on the previous data
+---
+Feedback incorrect:
+RandomForest: 0.707 on the new data; 0.695 on the previous data
+
+Question 7
+Next we look at row normalization, a “scatter correction” technique that is designed to address the problem of baseline effects to which all NIR devices are susceptible.
+Unfortunately, Weka does not (yet!) have a filter for row normalization, so we provide a new dataset, org_c_no_missing-rn.arff. Load it into Weka and run the benchmark again. Note that this method does not remove data, so we are back to 217 attributes (including the class).
+Row normalization improves results for two of the methods, compared to the original (non-downsampled) result. Which ones?
+Select all the answers you think are correct.
+LinearRegression
+M5P
+REPTree
+RandomForest
+---
+Correct answer(s):
+LinearRegression
+M5P
+---
+Feedback correct:
+LinearRegression: 0.513 on the filtered data; 0.395 on the raw data
+M5P: 0.703 on the filtered data; 0.603 on the raw data
+---
+Feedback incorrect:
+LinearRegression: 0.513 on the filtered data; 0.395 on the raw data
+---
+Feedback incorrect:
+M5P: 0.703 on the filtered data; 0.603 on the raw data
+---
+Feedback incorrect:
+REPTree: 0.441 on the filtered data; 0.653 on the raw data
+---
+Feedback incorrect:
+RandomForest: 0.624 on the filtered data; 0.687 on the raw data
+
+Question 8
+The spectral derivative is a third preprocessing tool: it smooths the spectral signal.
+One of the most prominent methods, called Savitzky-Golay, corrects (smooths) each point using a fixed-width window centered on the point; the window’s width is a parameter. Again, this method is not in Weka, so we have produced datasets that smooth the signal using windows of two different sizes, 7 points (3 either side) and 11 points (5 either side): org_c_no_missing-sg7.arff and org_c_no_missing-sg11.arff. Upon loading them you will notice that the wave bands have been replaced with generic names because the technique has altered the original attributes. Run the benchmark once more.
+What is the best technique when Savitzky-Golay preprocessing is used?
+LinearRegression
+M5P
+RepTree
+RandomForest
+---
+Correct answer(s):
+RandomForest
+---
+Feedback correct:
+Savitzky-Golay achieves a correlation coefficient of 0.865 for the 7-point-window dataset and 0.8556 for the 11-point-window dataset, both of which exceed the results from the other methods
+
+Question 9
+One of these window sizes is better across all classifiers. Which one?
+7
+11
+---
+Correct answer(s):
+7
+
+Question 10
+We have seen that preprocessing can make a big difference to the performance of a classifier.
+So far, three different techniques have been applied independently. What if we combine them? We downsampled the original file by removing every second attribute, then applied Savitzky-Golay, then row normalization, to produce org_c_no_missing-d2sg7rn.arff. Load this dataset and re-run the benchmark.
+For one of the classifiers, this combination produces the best result of all preprocessing techniques. Which one?
+LinearRegression
+M5P
+RepTree
+RandomForest
+---
+Correct answer(s):
+LinearRegression
+---
+Feedback correct:
+It gives a correlation coefficient of 0.6734, which is the best result we have obtained for LinearRegression. (However, it’s not a very good result compared to what the other classifiers achieve.)
+
+Question 10
+We have seen that preprocessing can make a big difference to the performance of a classifier.
+So far, three different techniques have been applied independently. What if we combine them? We downsampled the original file by removing every second attribute, then applied Savitzky-Golay, then row normalization, to produce org_c_no_missing-d2sg7rn.arff. Load this dataset and re-run the benchmark.
+For one of the classifiers, this combination produces the best result of all preprocessing techniques. Which one?
+LinearRegression
+M5P
+RepTree
+RandomForest
+---
+Correct answer(s):

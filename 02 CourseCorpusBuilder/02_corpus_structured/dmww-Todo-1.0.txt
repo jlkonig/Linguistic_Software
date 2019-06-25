@@ -1,0 +1,87 @@
+A little bit of everything
+What's data mining? What's Weka? What's the course about?
+Everybody talks about data mining and "big data" nowadays. This course introduces you to practical data mining. Weka is a powerful yet easy to use tool for machine learning and data mining that can also tackle large problems.
+1.1
+What's data mining? What's Weka?
+video (05:55)
+1.2
+About this course
+article
+1.3
+Welcome! Please introduce yourself
+discussion
+1.4
+Data mining applications
+quiz
+1.5
+More data mining applications
+discussion
+What's it like to do data mining?
+Each week we’ll focus on a “Big Question” relating to data mining. This is the question for this week.
+1.6
+What's it like to do data mining?
+article
+Exploring the Explorer
+In this activity you will install Weka on your computer, start the Weka Explorer, and load, view, and edit datasets. (Note: You may need admin access to install Weka.)
+1.7
+Installing Weka: preview
+article
+1.8
+Installing Weka
+video (05:33)
+1.9
+Installing Weka
+discussion
+1.10
+The weather data
+video (04:08)
+1.11
+Looking at a dataset
+quiz
+1.12
+Forecasting electricity demand
+discussion
+Exploring datasets
+Classification (also called "supervised learning") is a common kind of data mining problem. Datasets contain "instances," which are described in terms of a fixed set of features, or "attributes".
+1.13
+More weather
+video (04:27)
+1.14
+The Iris dataset
+quiz
+1.15
+The glass data
+video (05:10)
+1.16
+More irises
+quiz
+Building a classifier
+Now you will learn how to use Weka's popular J48 classifier, which builds decision trees. J48 is a reimplementation of a classic classifier algorithm called C4.5.
+1.17
+Building a classifier
+video (08:14)
+1.18
+Using J48
+quiz
+Using a filter
+WEKA contains "filters" that help with cleaning and preparing your data. Some filters operate on attributes; others operate on instances.
+1.19
+Using a filter
+video (06:51)
+1.20
+Using filters
+quiz
+Visualizing your data
+With Weka's visualization tool you can clean the data and remove anomalous instances (outliers). You can also visualize the errors that classifiers make.
+1.21
+Visualizing your data
+video (06:54)
+1.22
+Finding misclassified instances
+quiz
+1.23
+Reflect on this week's Big Question
+discussion
+1.24
+Index
+article

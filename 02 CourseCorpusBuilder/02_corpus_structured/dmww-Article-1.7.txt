@@ -1,0 +1,20 @@
+Installing Weka: preview
+In the following video Ian downloads and installs the Weka system – and encourages you to do the same.
+(Note: Depending on your computer and system version, you may need admin access to install Weka.)
+    Go to http://www.cs.waikato.ac.nz/ml/weka
+    Click the Download button
+    Now choose which one to download:
+        the latest version, currently Weka-3-8-2
+        (use the latest “stable” version; Weka-3-9 is a “developer” version)
+        the appropriate link for your computer; Windows, Mac, or Linux
+        if you don’t know what Java is, you probably want the file that includes a Java VM (= virtual machine)
+Once it’s downloaded, Ian opens it to get a standard setup “wizard”.
+    Just keep clicking “Next”! Install it in the default place – and remember the name of that place!
+    After installation, Ian unchecks the box that says “Start Weka” and clicks “Finish”.
+    Then he goes to where Weka was installed and
+        creates a shortcut and puts it on the desktop for future use. This should be to the Weka program, but he mistakenly creates a shortcut to the Weka folder instead which he later corrects
+        makes a copy of the data folder (within the Weka folder) and puts it in a convenient place for future use
+        renames it “Weka datasets”
+Having installed Weka, Ian notes the different interfaces in Weka: Explorer, which is what we’ll be using; the Experimenter; the KnowledgeFlow interface; and the command-line interface.
+In the Explorer there are several panels: Preprocess; Classify; Clustering; Association rules;
+Attribute selection; and Visualization.

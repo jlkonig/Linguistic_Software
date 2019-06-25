@@ -1,0 +1,92 @@
+Experience big data
+Question 1
+Using the Explorer, determine the percentage accuracy of Naive Bayes on covtype.small, evaluated on the training set.
+65%
+66%
+67%
+68%
+---
+Correct answer(s):
+66%
+---
+Feedback correct:
+(Weka gives the result as 65.8%)
+---
+Feedback incorrect:
+Are you sure you evaluated on the training set? – this is the result you get when using cross-validation.
+
+Question 2
+Using the Explorer, determine the percentage accuracy of Naive Bayes on the same dataset, evaluated by cross-validation.
+65%
+66%
+67%
+68%
+---
+Correct answer(s):
+65%
+---
+Feedback correct:
+(Weka gives the result as 65.42%)
+---
+Feedback incorrect:
+The cross-validation accuracy will not be greater than the accuracy when evaluated on the training set, will it?
+
+Question 3
+Using the Simple CLI, determine the percentage accuracy of NaiveBayesUpdateable, evaluated on the training set.
+65%
+66%
+67%
+68%
+---
+Correct answer(s):
+66%
+---
+Feedback correct:
+The appropriate command is
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+        -t covtype.small.arff  -T covtype.small.arff
+NaiveBayesUpdateable gives the same result as NaiveBayes (65.8%).
+I hope you used the Simple CLI, not the Explorer!
+---
+Feedback incorrect:
+The appropriate command is
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+        -t covtype.small.arff  -T covtype.small.arff
+Be sure to specify the training set as the test file for evaluation.
+---
+Feedback incorrect:
+The appropriate command is
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+        -t covtype.small.arff  -T covtype.small.arff
+
+Question 4
+Using the Simple CLI, determine the percentage accuracy of NaiveBayesUpdateable, evaluated by cross-validation.
+65%
+66%
+67%
+68%
+---
+Correct answer(s):
+
+Question 4
+Using the Simple CLI, determine the percentage accuracy of NaiveBayesUpdateable, evaluated by cross-validation.
+65%
+66%
+67%
+68%
+---
+Correct answer(s):
+65%
+---
+Feedback correct:
+The appropriate command is
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.small.arff
+Note that cross-validation is the default option for evaluation.
+NaiveBayesUpdateable gives exactly the same result as NaiveBayes (65.42%).
+---
+Feedback incorrect:
+The appropriate command is
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.small.arff
+Note that cross-validation is the default option for evaluation.

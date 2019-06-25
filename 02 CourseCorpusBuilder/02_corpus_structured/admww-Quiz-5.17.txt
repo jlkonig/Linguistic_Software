@@ -1,0 +1,150 @@
+The data mining challenge
+Question 1
+How many instances are there in the calibration and test data for Datasets 1 and 2?
+---
+Correct answer(s):
+
+Question 2
+Dataset 2 is tiny; it’s there just to help you set things up. Dataset1 is the real test.
+Most of the attribute values in both datasets are spectral points. How many of these are there, for Datasets 1 and 2 respectively?
+---
+Correct answer(s):
+
+Question 3
+There are an inordinate number of attributes in both datasets. Not surprisingly, this makes things difficult.
+Prepare all four datasets one by one: load into the Weka Explorer; delete the Sample# attribute; move Reference Value, which is the class attribute, to the end (use the Reorder filter); rename it “reference value” (it is capitalized differently in the two datasets, which will become annoying if you use Python scripts), and save the result in ARFF format.
+Load Dataset2_Cal into the Explorer and run LinearRegression, training on the Cal version and testing on the Test version. You will find it painfully slow with default parameters, even with few instances. The problem is the huge number of attributes. To make it feasible, set the attributeSelectionMethod in Linear Regression to No attribute selection and eliminateColinearAttributes to False. That will speed things up considerably.
+What correlation coefficient does linear regression achieve on Dataset2?
+0.968
+0.986
+0.998
+0.999
+1
+---
+Correct answer(s):
+0.999
+---
+Feedback correct:
+Weka reports a value of 0.9986.
+---
+Feedback incorrect:
+That’s the value achieve when you train on the test set and evaluate using cross-validation
+---
+Feedback incorrect:
+That’s the value achieved when you train on the test set and evaluate on the calibration set
+---
+Feedback incorrect:
+That’s the value achieved with percentage split evaluation. You should evaluate on the test set.
+---
+Feedback incorrect:
+That’s the value achieved when you test on the training set
+
+Question 4
+What root mean square error does linear regression achieve on Dataset2?
+0
+0.002
+0.0023
+0.0026
+0.0027
+0.0082
+---
+Correct answer(s):
+0.0026
+---
+Feedback incorrect:
+That’s the value achieved when you test on the training set
+---
+Feedback incorrect:
+That’s the mean absolute error, not the root mean square error
+---
+Feedback incorrect:
+That’s the value achieved with 10-fold cross-validation. You should evaluate on the test set.
+---
+Feedback incorrect:
+That’s the value achieved with percentage split evaluation. You should evaluate on the test set.
+---
+Feedback incorrect:
+That’s the value achieve when you train on the test set and evaluate on the calibration set.
+
+Question 5
+In the Explorer, select Visualize classifier errors from the right-click menu.
+What does the graph look like?
+Plot A
+Plot B
+Plot C
+Plot D
+---
+Correct answer(s):
+Plot C
+
+Question 6
+Things are looking good for linear regression on Dataset2.
+It achieves a low root mean square error and a high correlation coefficient, with a graph of predicted value versus actual value that lies satisfyingly close to the ideal diagonal line.
+Now run linear regression on Dataset1, again training on Cal and testing on Test.
+You may find that Weka simply stops without outputting any evaluation statistics, due to a “heap size” overflow. (You can find out what the problem is by starting Weka with the console window.) This can be solved by increasing the heap size. There are various ways of doing this. For example, most Java virtual machines support the environment variable _JAVA_OPTIONS (don’t forget the underscore at the start): set it to –Xmx2048m, which allocates a heap of 2Gb instead of the default 1Gb. On Windows, you can set environment variables by using the Windows search functionality to search for variables and selecting Edit environment variables for your account. Having set _JAVA_OPTIONS, re-start Weka.
+What correlation coefficient and root mean square error does linear regression achieve on Dataset1?
+0.25 and 0.49
+0.95 and 0.37
+0.99 and 0.01
+---
+Correct answer(s):
+0.25 and 0.49
+---
+Feedback correct:
+On various Java versions on Windows, Mac, and Linux we have found correlation coefficients of 0.2489, 0.2502 and 0.2567; and root mean square errors of 0.4855, 0.4920 and 0.4923. This is weird! It turns out that Java is not quite as portable as we thought, and small differences are sometimes encountered. However, this difference is rather large … perhaps because the problem is somehow ill-conditioned. Welcome to the real world!
+
+Question 7
+Visualize the classifier errors again.
+Which of the graphs in Q.5 does it resemble?
+Plot A
+Plot B
+Plot C
+Plot D
+---
+Correct answer(s):
+Plot B
+
+Question 8
+Things are looking bad for linear regression on Dataset1.
+It gets a larger root mean square error and a far smaller correlation coefficient than for Dataset2, with a graph of predicted versus actual value that shows absurd errors for small actual values. Dataset2 is much easier to deal with than Dataset1. Unfortunately, this means it is of little use for quick experiments that might point to ways of getting good results for Dataset1.
+Can you get a better result on Dataset1? You can try many things, though you might find them frustratingly (or impossibly) slow. Suggestion: how about IBk? – you could experiment with different values of k (KNN). Can you do better than this? You might want to try LWL (locally weighted learning), another instance-based method, which can be viewed as a generalization of IBk. However, Weka’s default KNN value for LWL is –1, which uses all the neighbors and is likely to be very slow.
+Here’s a Python script for Dataset1 that was prepared by an expert data miner. Execute it in Weka’s Jython interface.
+What correlation coefficient and root mean square error does it achieve?
+0.25 and 0.49
+0.87 and 0.38
+0.950 and 0.37
+0.99 and 0.01
+---
+Correct answer(s):
+0.87 and 0.38
+---
+Feedback correct:
+(Weka gives 0.8664 and 0.384)
+---
+Feedback incorrect:
+These are the figures you got for linear regression. This script does far better than that.
+
+Question 9
+Can you replicate the result of Q.8 in the Explorer?
+Look at the classifier configuration string which appears in the Python output. You need to use Weka’s LWL (locally weighted learning) classifier with an appropriate KNN parameter value (–K 250); along with a LinearNNSearch (the default) with default parameters; and a GaussianProcesses classifier with an appropriate noise parameter (–L 0.01) and an RBFKernel with default parameters.
+Visualize the classifier errors again.
+Which of the graphs in Q.5 does this resemble?
+Plot A
+Plot B
+Plot C
+Plot D
+---
+Correct answer(s):
+Plot D
+
+Question 9
+Can you replicate the result of Q.8 in the Explorer?
+Look at the classifier configuration string which appears in the Python output. You need to use Weka’s LWL (locally weighted learning) classifier with an appropriate KNN parameter value (–K 250); along with a LinearNNSearch (the default) with default parameters; and a GaussianProcesses classifier with an appropriate noise parameter (–L 0.01) and an RBFKernel with default parameters.
+Visualize the classifier errors again.
+Which of the graphs in Q.5 does this resemble?
+Plot A
+Plot B
+Plot C
+Plot D
+---
+Correct answer(s):

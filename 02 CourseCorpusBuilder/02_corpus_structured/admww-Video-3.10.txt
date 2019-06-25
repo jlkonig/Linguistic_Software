@@ -1,0 +1,3 @@
+Using R to plot data
+This video demonstrates an R package called ggplot2 that provides extensive plotting capabilities, which can be accessed from Weka. Detailed instructions are given in the accompanying download (these slides do not appear in the video itself).
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

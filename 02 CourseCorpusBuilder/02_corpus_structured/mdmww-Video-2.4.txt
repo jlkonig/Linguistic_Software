@@ -1,0 +1,3 @@
+Supervised discretization 
+“Supervised” discretization methods take the class into account when setting discretization boundaries, which is often a very good thing to do. But wait! You mustn’t use the test data when setting discretization boundaries, and with cross-validation you don’t really have an opportunity to use the training data only. Weka’s solution is the FilteredClassifier, and it’s important because the same issue occurs in other contexts, not just discretization.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

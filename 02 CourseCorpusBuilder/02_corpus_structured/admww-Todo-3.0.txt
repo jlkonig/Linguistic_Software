@@ -1,0 +1,78 @@
+Reaching out to other data mining packages 
+What’s in Weka's LibSVM and LibLINEAR packages?
+This week's first Big Question!
+3.1
+What’s in Weka's LibSVM and LibLINEAR packages?
+article
+LibSVM and LibLINEAR
+LibLINEAR and LibSVM are Weka's most popular packages. The first contains many algorithms for linear classification: it's very fast. The second implements non-linear SVMs, and requires parameter optimization (using gridSearch).
+3.2
+LibSVM and LibLINEAR
+video (08:45)
+3.3
+One-class classification
+discussion
+3.4
+One-class classification 
+quiz
+3.5
+One-class classification results
+article
+How do you access R from Weka?
+This week's second Big Question
+3.6
+How do you access R from Weka?
+article
+Setting up R with Weka
+R is a programming language for statistical computing, whose tools for classification, regression, and plotting data can be accessed through WEKA via the RPlugin.
+3.7
+Setting up R with Weka
+video (08:13)
+3.8
+Getting started with R
+discussion
+3.9
+Using the Explorer’s R console
+quiz
+Using R to plot data
+A well-known library for R, ggplot2,
+enables construction of complex plots of data using layers. The RConsole for WEKA’s Explorer can be used to execute plotting commands.
+3.10
+Using R to plot data
+video (13:14)
+3.11
+Plotting data with ggplot2 
+quiz
+Using R to run a classifier 
+The MLR library interfaces to a vast collection of classification algorithms. These can be accessed from Weka just like regular classifiers, using the MLRClassifier. Algorithm implementations can be compared using the Experimenter
+3.12
+Using R to run a classifier
+video (09:31)
+3.13
+Learning algorithms in the MLR package 
+quiz
+Using R to preprocess data
+R contains many data preprocessing functions. These can be applied as part of a workflow in the KnowledgeFlow interface, using the RscriptExecutor. 
+3.14
+Using R to preprocess data
+video (10:25)
+3.15
+Using R to preprocess data 
+quiz
+Analyzing functional MRI Neuroimaging data 
+Analyzing functional MRI data is a machine learning problem, and one application is to diagnose Attention-deficit/hyperactivity disorder (ADHD). Functional MRI neuroimaging data is enormous, and high-dimensional!
+3.16
+Analyzing functional MRI Neuroimaging data
+video (04:51)
+3.17
+Playing with fMRI data 
+quiz
+3.18
+Playing with fMRI data 
+article
+3.19
+Reflect on this week’s Big Questions
+discussion
+3.20
+Index
+article

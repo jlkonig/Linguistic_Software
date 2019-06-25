@@ -1,0 +1,89 @@
+Document/NNP/document/3 classification/NN/classification/4 with/IN/with/1 Multinomial/NNP/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 
+Question/NN/question/1 1/CD/1/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 weighted-average/JJ/weighted-average/0 ROC/NNP/roc/0 Area/NNP/area/1 for/IN/for/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 ?/./?/0 
+0.694/CD/0.694/0 
+0.952/CD/0.952/0 
+0.957/CD/0.957/0 
+0.962/CD/0.962/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.952/CD/0.952/0 
+
+Question/NN/question/1 2/CD/2/0 
+In/IN/in/1 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 ,/,/,/0 set/VBN/set/1 outputWordCounts/NNS/outputwordcounts/0 and/CC/and/1 lowerCaseTokens/VBZ/lowercasetokens/0 to/TO/to/1 true/JJ/true/1 ;/:/;/0 set/VBN/set/1 minTermFreq/NN/mintermfreq/0 to/TO/to/1 5/CD/5/0 ./././0 
+What/WP/what/1 is/VBZ/be/1 NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 ’/JJ/’/0 s/JJ/be/1 weighted-average/NN/weighted-average/0 ROC/NNP/roc/0 Area/NNP/area/1 now/RB/now/1 ?/./?/0 
+0.912/CD/0.912/0 
+0.974/CD/0.974/0 
+0.976/CD/0.976/0 
+0.993/CD/0.993/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.976/CD/0.976/0 
+
+Question/NN/question/1 3/CD/3/0 
+It/PRP/it/1 might/MD/might/1 help/VB/help/1 to/TO/to/1 stem/VB/stem/3 words/NNS/word/1 ,/,/,/0 that/DT/that/1 is/VBZ/be/1 ,/,/,/0 remove/VB/remove/2 word/NN/word/1 endings/NNS/end/1 like/IN/like/1 -s/NN/be/1 and/CC/and/1 -ing/VBG/-ing/0 ./././0 SnowBall/NNP/snowball/0 is/VBZ/be/1 a/DT/a/1 good/JJ/good/1 stemming/NN/stem/3 algorithm/NN/algorithm/5 ,/,/,/0 so/RB/so/1 set/VB/set/1 this/DT/this/1 as/IN/as/1 the/DT/the/1 stemmer/NN/stemmer/0 in/IN/in/1 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 ./././0 Also/RB/also/1 ,/,/,/0 it/PRP/it/1 might/MD/might/1 help/VB/help/1 to/TO/to/1 reduce/VB/reduce/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 words/NNS/word/1 kept/VBN/keep/1 per/IN/per/2 class/NN/class/1 ,/,/,/0 so/IN/so/1 change/JJ/change/1 wordsToKeep/NN/wordstokeep/0 from/IN/from/1 1000/CD/1000/0 to/TO/to/1 800/CD/800/0 ./././0 
+What/WP/what/1 is/VBZ/be/1 NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 ’/JJ/’/0 s/JJ/be/1 weighted-average/NN/weighted-average/0 ROC/NNP/roc/0 Area/NNP/area/1 now/RB/now/1 ?/./?/0 
+0.932/CD/0.932/0 
+0.934/CD/0.934/0 
+0.974/CD/0.974/0 
+0.976/CD/0.976/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.976/CD/0.976/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Disappointingly/RB/disappoint/2 ,/,/,/0 these/DT/this/1 tweaks/NNS/tweak/8 have/VBP/have/1 not/RB/not/1 improved/VBN/improve/2 the/DT/the/1 result/NN/result/2 at/IN/at/1 all/DT/all/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Of/IN/of/1 course/NN/course/1 ,/,/,/0 tiny/JJ/tiny/2 changes/NNS/change/1 in/IN/in/1 the/DT/the/1 ROC/NNP/roc/0 Area/NNP/area/1 are/VBP/be/1 probably/RB/probably/1 insignificant/JJ/significant/3 ,/,/,/0 so/RB/so/1 let/JJ/let/1 ’/NNP/’/0 s/VB/be/1 do/VBP/do/1 a/DT/a/1 proper/JJ/proper/1 comparison/NN/compare/2 using/VBG/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 ./././0 Here/RB/here/1 ,/,/,/0 you/PRP/you/1 can/MD/can/1 ’/VB/’/0 t/JJ/not/1 specify/VB/specify/3 training/NN/train/1 and/CC/and/1 test/NN/test/1 sets/NNS/set/1 separately/RB/separate/2 ,/,/,/0 so/IN/so/1 we/PRP/we/1 ’/VBP/’/0 ll/RB/will/1 just/RB/just/1 use/VB/use/1 the/DT/the/1 ReutersCorn-train/JJ/reuterscorn-train/0 and/CC/and/1 ReutersGrain-train/JJ/reutersgrain-train/0 training/NN/train/1 sets/NNS/set/1 ,/,/,/0 with/IN/with/1 a/DT/a/1 66/CD/66/0 %/NN/%/0 percentage/NN/percent/2 split/NN/split/2 (/(/(/0 “/JJ/“/0 data/NNS/data/3 randomized/VBN/random/3 ”/NN/”/0 )/)/)/0 –/NN/–/0 which/WDT/which/1 will/MD/will/1 be/VB/be/1 a/DT/a/1 lot/NN/lot/1 faster/JJR/fast/1 than/IN/than/1 cross-validation/NN/cross-validation/0 ./././0 
+Set/NNP/set/1 up/RP/up/1 the/DT/the/1 Experimenter/NNP/experiment/3 to/TO/to/1 use/VB/use/1 these/DT/this/1 two/CD/two/1 files/NNS/file/2 with/IN/with/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 ,/,/,/0 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 ,/,/,/0 and/CC/and/1 the/DT/the/1 following/JJ/follow/1 four/CD/four/1 configurations/NNS/configure/4 :/:/:/0 
+NaiveBayes/NNS/naivebayes/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 for/IN/for/1 StringToWordVector/NN/stringtowordvector/0 
+Three/CD/three/1 instances/NNS/instance/2 of/IN/of/1 MultinomialNaiveBayes/NNP/multinomialnaivebayes/0 with/IN/with/1 the/DT/the/1 three/CD/three/1 parameter/NN/parameter/4 settings/NNS/set/1 for/IN/for/1 StringToWordVector/NNP/stringtowordvector/0 that/IN/that/1 you/PRP/you/1 tested/VBD/test/1 above/IN/above/1 :/:/:/0 
+default/NN/default/5 parameters/NNS/parameter/4 
+outputWordCounts/NNS/outputwordcounts/0 ,/,/,/0 lowerCaseTokens/NNS/lowercasetokens/0 ,/,/,/0 and/CC/and/1 minTermFreq/VB/mintermfreq/0 =/CD/=/0 5/CD/5/0 
+the/DT/the/1 above/JJ/above/1 settings/NNS/set/1 plus/CC/plus/1 SnowballStemmer/NNP/snowballstemmer/0 and/CC/and/1 wordsToKeep/JJ/wordstokeep/0 =/NN/=/0 800/CD/800/0 ./././0 
+How/WRB/how/1 do/VB/do/1 these/DT/this/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 compare/VBP/compare/2 with/IN/with/1 NaiveBayes/NNP/naivebayes/0 ?/./?/0 
+NaiveBayes/RB/naivebayes/0 performs/NNS/perform/2 better/JJR/better/1 than/IN/than/1 all/PDT/all/1 the/DT/the/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 methods/NNS/method/3 ./././0 
+Some/DT/some/1 NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+All/DT/all/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNP/naivebayes/0 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+All/DT/all/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNP/naivebayes/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Of/IN/of/1 all/PDT/all/1 the/DT/the/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 you/PRP/you/1 have/VBP/have/1 tested/VBN/test/1 ,/,/,/0 which/WDT/which/1 performed/VBD/perform/2 the/DT/the/1 best/JJS/best/1 ?/./?/0 
+StringToWordVector/NN/stringtowordvector/0 with/IN/with/1 outputWordCounts/NNS/outputwordcounts/0 and/CC/and/1 lowerCaseTokens/VBZ/lowercasetokens/0 set/VBN/set/1 to/TO/to/1 true/JJ/true/1 ,/,/,/0 and/CC/and/1 using/VBG/use/1 the/DT/the/1 SnowballStemmer/NN/snowballstemmer/0 
+StringToWordVector/NN/stringtowordvector/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 
+StringToWordVector/NN/stringtowordvector/0 with/IN/with/1 outputWordCounts/NNS/outputwordcounts/0 and/CC/and/1 lowerCaseTokens/VBZ/lowercasetokens/0 set/VBN/set/1 to/TO/to/1 true/JJ/true/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+StringToWordVector/NN/stringtowordvector/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 true/JJ/true/1 for/IN/for/1 both/DT/both/1 data/NNS/data/3 files/NNS/file/2 ./././0 However/RB/however/1 ,/,/,/0 the/DT/the/1 differences/NNS/difference/1 with/IN/with/1 the/DT/the/1 other/JJ/other/1 NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 configurations/NNS/configure/4 are/VBP/be/1 not/RB/not/1 large/JJ/large/1 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 Experimenter/NNP/experiment/3 ’/NNP/’/0 s/NN/be/1 default/NN/default/5 “/NNP/“/0 Comparison/NNP/compare/2 field/NN/field/1 ”/NN/”/0 is/VBZ/be/1 Percent_correct/NNP/percent_correct/0 ,/,/,/0 which/WDT/which/1 ,/,/,/0 as/IN/as/1 we/PRP/we/1 know/VBP/know/1 ,/,/,/0 may/MD/may/1 not/RB/not/1 be/VB/be/1 appropriate/JJ/appropriate/3 for/IN/for/1 this/DT/this/1 data/NN/data/3 ./././0 Change/VB/change/1 it/PRP/it/1 to/TO/to/1 Area_under_ROC/NNP/area_under_roc/0 ./././0 (/(/(/0 You/PRP/you/1 don/VBP/do/1 ’/JJ/’/0 t/NNS/not/1 have/VBP/have/1 to/TO/to/1 re-do/VB/re-do/0 the/DT/the/1 experiment/NN/experiment/3 ;/:/;/0 just/RB/just/1 the/DT/the/1 test/NN/test/1 ./././0 )/)/)/0 
+What/WP/what/1 are/VBP/be/1 the/DT/the/1 significant/JJ/significant/3 differences/NNS/difference/1 now/RB/now/1 ?/./?/0 
+There/EX/there/1 are/VBP/be/1 no/DT/no/1 significant/JJ/significant/3 differences/NNS/difference/1 
+For/IN/for/1 the/DT/the/1 Grain/NNP/grain/3 dataset/NN/dataset/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+For/IN/for/1 the/DT/the/1 Corn/NNP/corn/4 dataset/NN/dataset/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+For/IN/for/1 both/DT/both/1 datasets/NNS/datasets/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+For/IN/for/1 the/DT/the/1 Grain/NNP/grain/3 dataset/NN/dataset/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+There/EX/there/1 are/VBP/be/1 no/DT/no/1 significant/JJ/significant/3 differences/NNS/difference/1 for/IN/for/1 Corn/NNP/corn/4 ,/,/,/0 but/CC/but/1 for/IN/for/1 Grain/NNP/grain/3 all/DT/all/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 are/VBP/be/1 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNP/naivebayes/0 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 Experimenter/NNP/experiment/3 ’/NNP/’/0 s/NN/be/1 default/NN/default/5 “/NNP/“/0 Comparison/NNP/compare/2 field/NN/field/1 ”/NN/”/0 is/VBZ/be/1 Percent_correct/NNP/percent_correct/0 ,/,/,/0 which/WDT/which/1 ,/,/,/0 as/IN/as/1 we/PRP/we/1 know/VBP/know/1 ,/,/,/0 may/MD/may/1 not/RB/not/1 be/VB/be/1 appropriate/JJ/appropriate/3 for/IN/for/1 this/DT/this/1 data/NN/data/3 ./././0 Change/VB/change/1 it/PRP/it/1 to/TO/to/1 Area_under_ROC/NNP/area_under_roc/0 ./././0 (/(/(/0 You/PRP/you/1 don/VBP/do/1 ’/JJ/’/0 t/NNS/not/1 have/VBP/have/1 to/TO/to/1 re-do/VB/re-do/0 the/DT/the/1 experiment/NN/experiment/3 ;/:/;/0 just/RB/just/1 the/DT/the/1 test/NN/test/1 ./././0 )/)/)/0 
+What/WP/what/1 are/VBP/be/1 the/DT/the/1 significant/JJ/significant/3 differences/NNS/difference/1 now/RB/now/1 ?/./?/0 
+There/EX/there/1 are/VBP/be/1 no/DT/no/1 significant/JJ/significant/3 differences/NNS/difference/1 
+For/IN/for/1 the/DT/the/1 Grain/NNP/grain/3 dataset/NN/dataset/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+For/IN/for/1 the/DT/the/1 Corn/NNP/corn/4 dataset/NN/dataset/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+For/IN/for/1 both/DT/both/1 datasets/NNS/datasets/0 ,/,/,/0 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 configurations/NNS/configure/4 perform/VBP/perform/2 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 NaiveBayes/NNS/naivebayes/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

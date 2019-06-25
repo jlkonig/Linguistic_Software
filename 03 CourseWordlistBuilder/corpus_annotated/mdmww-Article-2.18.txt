@@ -1,0 +1,65 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Diabetes/NNS/diabetes/4 
+2.7/CD/2.7/0 
+Glass/NN/glass/1 
+2.7/CD/2.7/0 
+Ionosphere/RB/ionosphere/16 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.7/CD/2.7/0 
+Iris/NN/iris/8 
+2.7/CD/2.7/0 
+Reuters-Corn-train/test/JJ/reuters-corn-train/test/0 
+2.9/CD/2.9/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.14/CD/2.14/0 
+Reuters-Grain-train/test/JJ/reuters-grain-train/test/0 
+2.10/CD/2.10/0 ,/,/,/0 2.13/CD/2.13/0 
+Schizo/NN/schizo/23 
+2.7/CD/2.7/0 
+Weather/NN/weather/1 
+2.4/CD/2.4/0 ,/,/,/0 2.6/CD/2.6/0 ,/,/,/0 2.11/CD/2.11/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+2.7/CD/2.7/0 
+J48/NN/j48/0 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 ,/,/,/0 2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.6/CD/2.6/0 ,/,/,/0 2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+JRip/NN/jrip/0 
+2.7/CD/2.7/0 
+NaiveBayes/NNS/naivebayes/0 
+2.10/CD/2.10/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.14/CD/2.14/0 
+NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 
+2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+OneR/NN/oner/0 
+2.5/CD/2.5/0 
+PART/NN/part/1 
+2.7/CD/2.7/0 
+SimpleLogistic/JJ/simplelogistic/0 
+2.7/CD/2.7/0 
+SMO/NN/smo/0 
+2.7/CD/2.7/0 
+Metalearners/NNS/metalearners/0 
+FilteredClassifier/NN/filteredclassifier/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+Filters/NNS/filter/3 
+Discretize/NNP/discretize/0 (/(/(/0 supervised/VBN/supervise/3 )/)/)/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.7/CD/2.7/0 
+Discretize/NNP/discretize/0 (/(/(/0 unsupervised/VBN/supervise/3 )/)/)/0 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 
+MultiFilter/NN/multifilter/0 
+2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 
+NumericToNominal/JJ/numerictonominal/0 
+2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 
+StringToWordVector/NN/stringtowordvector/0 
+2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+Plus/CC/plus/1 …/VB/…/0 
+Experimenter/NNP/experiment/3 interface/NN/interface/4 
+2.3/CD/2.3/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.14/CD/2.14/0 
+ROC/NNP/roc/0 curve/NN/curve/3 (/(/(/0 AUC/NNP/auc/0 )/)/)/0 
+2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 ,/,/,/0 2.13/CD/2.13/0 
+Stemming/VBG/stem/3 
+2.14/CD/2.14/0 
+Stop/NNP/stop/1 words/NNS/word/1 
+2.13/CD/2.13/0 
+
+

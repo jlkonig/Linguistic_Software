@@ -1,0 +1,7 @@
+What’s in Weka's LibSVM and LibLINEAR packages?
+This week is about reaching out from Weka to other open source data mining software systems.
+We have two big questions: the first about the LibSVM and LibLINEAR systems, and the second about the R statistical programming language.
+What’s in Weka’s LibSVM and LibLINEAR packages?
+You already know how easy it is to install Weka packages and access the new data mining schemes they offer. These two are Weka’s most popular packages, and they simply contain two eponymous machine learning schemes, LibSVM and LibLINEAR – which were created by the same people and are widely used outside Weka.
+So the question is: what do they do? Both methods implement schemes that are already available in the Weka core: SMO and LinearRegression. So why would you use them? And how do you use them?
+By the end of the week (after the upcoming lesson, in fact), you will know.

@@ -1,0 +1,3 @@
+Setting up R with Weka
+R is a powerful statistical programming system that contains data mining tools for classification, regression, and plotting data, some of them very advanced. Eibe Frank shows how to access these from Weka. Setting this up is a little tricky: it involves installing R, installing a package (an R package) into R, setting some environment variables, and installing Weka’s RPlugin package. This video demonstrates the process. Detailed instructions are given in the accompanying download (these slides do not appear in the video itself). Be sure to install the latest version of R (3.4.0 or later).
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

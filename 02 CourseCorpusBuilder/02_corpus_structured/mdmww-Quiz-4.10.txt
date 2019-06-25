@@ -1,0 +1,233 @@
+More attribute selection for text classification
+Question 1
+Load ReutersCorn-train.arff and apply the StringToWordVector filter with case-folding (i.e., set lowerCaseTokens to true). In the Select attributes panel, use GainRatioAttributeEval with the Ranker search method. Don’t forget to change the class attribute to class-att.
+What are the top 6 attributes, in order?
+---
+Correct answer(s):
+corn
+maize
+sorghum
+upholds
+countervailing
+cwt
+
+Question 2
+In the Classify panel, apply the AttributeSelectedClassifier with NaiveBayes, and GainRatioAttributeEval with Ranker (default parameters).
+What overall accuracy does NaiveBayes achieve?
+90%
+91%
+92%
+93%
+---
+Correct answer(s):
+91%
+
+Question 3
+What is the number of errors on the minority and majority classes respectively?
+Select all the answers you think are correct.
+Errors on the minority class: 3
+Errors on the minority class: 5
+Errors on the minority class: 40
+Errors on the majority class: 132
+Errors on the majority class: 137
+Errors on the majority class: 140
+---
+Correct answer(s):
+Errors on the minority class: 3
+Errors on the majority class: 140
+
+Question 4
+The NaiveBayes accuracy you have just achieved is the same as without any attribute selection because the Ranker selects them all by default (numToSelect = –1).
+Change the Ranker to select just one attribute. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 89.7%
+Overall accuracy: 98.8%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 98.8%
+Errors on the minority class: 14
+Errors on the majority class: 4
+
+Question 5
+Change the Ranker to select 2 attributes. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 89.7%
+Overall accuracy: 98.8%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the majority class: 4
+
+Question 6
+Change the Ranker to select 5 attributes. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 89.7%
+Overall accuracy: 98.8%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the majority class: 4
+
+Question 7
+Change the Ranker to select 10 attributes. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 89.7%
+Overall accuracy: 98.8%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the majority class: 4
+
+Question 8
+Change the Ranker to select 15 attributes. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy:  98.8%
+Overall accuracy: 99.5%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 99.5%
+Errors on the minority class: 3
+Errors on the majority class: 4
+
+Question 9
+These results are astonishing! With just 2 carefully selected attributes, Naive Bayes yields unprecedented performance. Unfortunately, Multinomial Naive Bayes does not fare so well.
+Repeat the above with NaiveBayesMultinomial, using the Ranker to select 2 attributes. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 97.1%
+Overall accuracy: 99.5%
+Overall accuracy: 99.7%
+Errors on the minority class: 1
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 97.1%
+Errors on the minority class: 45
+Errors on the majority class: 0
+
+Question 10
+Multinomial Naive Bayes yields the same result with 5, 10, or 15 attributes. Its performance is appalling – it incorrectly classifies all 45 instances in the minority class.
+Return to Naive Bayes with 2 attributes, the best result by far that we have found for this problem. Can you expect this result to be achieved on independent test data?
+Definitely
+Perhaps
+---
+Correct answer(s):
+Perhaps
+---
+Feedback correct:
+Not necessarily, because although we have used proper methodology throughout, in the end we selected the best method of several, based on their performance – which effectively uses the evaluation data for selection.
+
+Question 11
+Previously we used the ReutersCorn-test.arff dataset for evaluation, and so far we haven’t used it in any way during our investigation. Thus it’s an entirely independent test set. Let’s use it to test our new best method. It’s a bit of a nuisance, but very instructive, so persevere for a little longer.
+The current dataset is ReutersCorn-train.arff, filtered by StringToWordVector with LowerCaseTokens set. Return to the Preprocess panel and delete all but the first two attributes, corn and maize, plus the class. (Click the button that selects all attributes; then find the three you want and deselect them. Delete all the rest.) Save the resulting dataset.
+Load ReutersCorn-test.arff, process it in the same way, and save it.
+Apply Naive Bayes to the training set and test it on the test set. What is the
+  Overall accuracy
+  Number of errors on the minority class
+  Number of errors on the majority class?
+Select all the answers you think are correct.
+Overall accuracy: 99.3%
+Overall accuracy: 99.5%
+Overall accuracy: 99.7%
+Errors on the minority class: 0
+Errors on the minority class: 3
+Errors on the minority class: 14
+Errors on the minority class: 45
+Errors on the majority class: 0
+Errors on the majority class: 4
+Errors on the majority class: 35
+---
+Correct answer(s):
+Overall accuracy: 99.3%
+Errors on the minority class: 0
+Errors on the majority class: 4
+
+Question 12
+These are astonishingly good! - despite our qualms that the earlier figures may be biased.
+Previously (with Multinomial Naive Bayes), we achieved a best ROC area of 0.977. What is it now?
+0.977
+0.979
+0.987
+0.997
+---
+Correct answer(s):
+0.997
+---
+Feedback correct:
+In fact, the error rates previously were 1 and 61 for the minority and majority classes respectively, compared with 0 and 4 now.
+Congratulations! You have achieved a phenomenal result using the simplest of methods.
+
+Question 12
+These are astonishingly good! - despite our qualms that the earlier figures may be biased.
+Previously (with Multinomial Naive Bayes), we achieved a best ROC area of 0.977. What is it now?
+0.977
+0.979
+0.987
+0.997
+---
+Correct answer(s):

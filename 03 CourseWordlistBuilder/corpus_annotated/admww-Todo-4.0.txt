@@ -1,0 +1,68 @@
+Distributed/VBN/distribute/3 processing/NN/process/2 
+Can/MD/can/1 you/PRP/you/1 distribute/VB/distribute/3 Weka/NNP/weka/23 jobs/NNS/job/1 over/IN/over/1 several/JJ/several/1 machines/NNS/machine/1 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+4.1/CD/4.1/0 
+Can/MD/can/1 you/PRP/you/1 distribute/VB/distribute/3 Weka/NNP/weka/23 jobs/NNS/job/1 over/IN/over/1 several/JJ/several/1 machines/NNS/machine/1 ?/./?/0 
+article/NN/article/2 
+What/WP/what/1 is/VBZ/be/1 Distributed/VBN/distribute/3 Weka/NNP/weka/23 ?/./?/0 
+Distributed/VBN/distribute/3 Weka/NNP/weka/23 is/VBZ/be/1 a/DT/a/1 plugin/NN/plugin/0 that/WDT/that/1 runs/VBZ/run/1 Weka/NNP/weka/23 on/IN/on/1 a/DT/a/1 cluster/NN/cluster/3 of/IN/of/1 machines/NNS/machine/1 ./././0 It/PRP/it/1 uses/VBZ/use/1 the/DT/the/1 “/JJ/“/0 map-reduce/JJ/map-reduce/0 ”/NN/”/0 framework/NN/framework/3 ,/,/,/0 and/CC/and/1 operates/VBZ/operate/2 with/IN/with/1 both/DT/both/1 Spark/NNP/spark/4 (/(/(/0 used/VBN/use/1 here/RB/here/1 )/)/)/0 and/CC/and/1 Hadoop/NNP/hadoop/0 ./././0 
+4.2/CD/4.2/0 
+What/WP/what/1 is/VBZ/be/1 distributed/VBN/distribute/3 Weka/NNP/weka/23 ?/./?/0 
+video/NN/video/1 (/(/(/0 06:04/CD/06:04/0 )/)/)/0 
+4.3/CD/4.3/0 
+The/DT/the/1 ``/``/``/0 map-reduce/NN/map-reduce/0 ''/''/''/0 framework/NN/framework/3 
+discussion/NN/discuss/2 
+4.4/CD/4.4/0 
+Learning/VBG/learn/1 about/IN/about/1 Spark/NNP/spark/4 and/CC/and/1 Hadoop/NNP/hadoop/0 
+quiz/NN/quiz/6 
+Distributing/VBG/distribute/3 Knowledge/NNP/knowledge/2 flows/NNS/flow/2 
+The/DT/the/1 main/JJ/main/1 way/NN/way/1 to/TO/to/1 interact/VB/interact/3 with/IN/with/1 Distributed/NNP/distribute/3 Weka/NNP/weka/23 is/VBZ/be/1 through/IN/through/1 the/DT/the/1 Knowledge/NNP/knowledge/2 Flow/NNP/flow/2 environment/NN/environment/2 ./././0 Processing/VBG/process/2 components/NNS/component/3 are/VBP/be/1 chained/VBN/chain/2 together/RB/together/1 so/RB/so/1 that/IN/that/1 one/CD/one/1 will/MD/will/1 not/RB/not/1 execute/VB/execute/3 until/IN/until/1 the/DT/the/1 previous/JJ/previous/2 one/NN/one/1 has/VBZ/have/1 completed/VBN/complete/1 ./././0 
+4.5/CD/4.5/0 
+Installing/VBG/install/3 with/IN/with/1 Apache/NNP/apache/0 Spark/NNP/spark/4 
+video/NN/video/1 (/(/(/0 12:14/CD/12:14/0 )/)/)/0 
+4.6/CD/4.6/0 
+ARFF/NNP/arff/0 headers/NNS/header/8 for/IN/for/1 Spark/NNP/spark/4 processing/NN/process/2 
+quiz/NN/quiz/6 
+Using/VBG/use/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 JRip/NNP/jrip/0 
+We/PRP/we/1 show/VBP/show/1 an/DT/a/1 example/NN/example/2 knowledge/NN/knowledge/2 flow/NN/flow/2 to/TO/to/1 train/VB/train/1 and/CC/and/1 save/VB/save/1 two/CD/two/1 classifiers/NNS/classifier/0 ./././0 Naive/JJ/naive/5 Bayes/NNP/bayes/0 yields/NNS/yield/3 a/DT/a/1 single/JJ/single/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 model/NN/model/2 ./././0 JRip/NNP/jrip/0 yields/NNS/yield/3 multiple/JJ/multiple/3 JRip/NNP/jrip/0 models/NNS/model/2 that/WDT/that/1 are/VBP/be/1 combined/VBN/combine/2 using/VBG/use/1 a/DT/a/1 Vote/NNP/vote/2 ensemble/JJ/ensemble/5 learner/NN/learn/1 ./././0 
+4.7/CD/4.7/0 
+Using/VBG/use/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 JRip/NNP/jrip/0 
+video/NN/video/1 (/(/(/0 12:05/CD/12:05/0 )/)/)/0 
+4.8/CD/4.8/0 
+Training/VBG/train/1 classifiers/NNS/classifier/0 with/IN/with/1 Spark/NNP/spark/4 
+quiz/NN/quiz/6 
+Map/NNP/map/2 tasks/NNS/task/3 and/CC/and/1 Reduce/NNP/reduce/2 tasks/NNS/task/3 
+Map/NNP/map/2 tasks/NNS/task/3 produce/VBP/produce/2 models/NNS/model/2 and/CC/and/1 a/DT/a/1 Reduce/NNP/reduce/2 task/NN/task/3 aggregates/VBZ/aggregate/5 them/PRP/they/1 ./././0 For/IN/for/1 Naïve/NNP/naive/5 Bayes/NNP/bayes/0 this/DT/this/1 involves/VBZ/involve/1 adding/VBG/add/1 together/RB/together/1 the/DT/the/1 statistics/NNS/statistic/3 ./././0 Other/JJ/other/1 model/NN/model/2 types/NNS/type/1 (/(/(/0 trees/NNS/tree/1 ,/,/,/0 rules/NNS/rule/1 )/)/)/0 use/VBP/use/1 a/DT/a/1 voted/JJ/vote/2 ensemble/NN/ensemble/5 ./././0 Cross-validation/NN/cross-validation/0 uses/VBZ/use/1 a/DT/a/1 Reduce/NNP/reduce/2 task/NN/task/3 for/IN/for/1 each/DT/each/1 fold/NN/fold/2 ./././0 
+4.9/CD/4.9/0 
+Map/NNP/map/2 tasks/NNS/task/3 and/CC/and/1 Reduce/NNP/reduce/2 tasks/NNS/task/3 
+video/NN/video/1 (/(/(/0 11:36/CD/11:36/0 )/)/)/0 
+4.10/CD/4.10/0 
+Cross-validating/JJ/cross-validating/0 classifiers/NNS/classifier/0 with/IN/with/1 Spark/NNP/spark/4 
+quiz/NN/quiz/6 
+4.11/CD/4.11/0 
+Random/NNP/random/3 Forest/NNP/forest/1 performance/NN/perform/2 
+article/NN/article/2 
+Miscellaneous/JJ/miscellaneous/9 Distributed/NNP/distribute/3 Weka/NNP/weka/23 capabilities/NNS/capable/2 
+We/PRP/we/1 show/VBP/show/1 how/WRB/how/1 to/TO/to/1 compute/VB/computer/1 a/DT/a/1 correlation/NN/correlate/3 matrix/NN/matrix/4 in/IN/in/1 Distributed/NNP/distribute/3 Weka/NNP/weka/23 and/CC/and/1 use/VB/use/1 it/PRP/it/1 as/IN/as/1 input/NN/input/3 to/TO/to/1 Principal/NNP/principal/3 Component/NNP/component/3 Analysis/NNP/analyse/3 ./././0 We/PRP/we/1 also/RB/also/1 show/VBP/show/1 a/DT/a/1 parallel/JJ/parallel/3 implementation/NN/implement/3 of/IN/of/1 k-means/NNS/k-means/0 clustering/VBG/cluster/3 ./././0 
+4.12/CD/4.12/0 
+Miscellaneous/JJ/miscellaneous/9 Distributed/NNP/distribute/3 Weka/NNP/weka/23 capabilities/NNS/capable/2 
+video/NN/video/1 (/(/(/0 08:38/CD/08:38/0 )/)/)/0 
+4.13/CD/4.13/0 
+Playing/VBG/play/1 with/IN/with/1 template/NN/template/7 flows/NNS/flow/2 
+quiz/NN/quiz/6 
+Image/NN/image/2 classification/NN/classification/4 
+With/IN/with/1 appropriate/JJ/appropriate/3 features/NNS/feature/2 ,/,/,/0 machine/NN/machine/1 learning/NN/learn/1 can/MD/can/1 be/VB/be/1 used/VBN/use/1 to/TO/to/1 classify/VB/classify/4 images/NNS/image/2 ./././0 Image/NN/image/2 features/NNS/feature/2 are/VBP/be/1 statistics/NNS/statistic/3 that/IN/that/1 describe/VBP/describe/2 an/DT/a/1 image/NN/image/2 ,/,/,/0 and/CC/and/1 can/MD/can/1 be/VB/be/1 extracted/VBN/extract/3 using/VBG/use/1 a/DT/a/1 Weka/JJ/weka/23 package/NN/pack/1 ./././0 
+4.14/CD/4.14/0 
+Image/NN/image/2 classification/NN/classification/4 
+video/NN/video/1 (/(/(/0 07:32/CD/07:32/0 )/)/)/0 
+4.15/CD/4.15/0 
+Processing/VBG/process/2 images/NNS/image/2 with/IN/with/1 different/JJ/different/1 feature/NN/feature/2 sets/NNS/set/1 
+quiz/NN/quiz/6 
+4.16/CD/4.16/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 ’/NNP/’/0 s/VBZ/be/1 Big/NNP/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+4.17/CD/4.17/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

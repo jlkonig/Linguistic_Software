@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+
+  "name": "CourseCrawler Chrome extension",
+  "key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhoVd8LLqXMR/E70Q8P1c1aUyeWOrZzU1UnGjv816yvuUVKjTiAig3bnZ3qNPZPFw5QsfZVOpjONObmfjRJ8b4TJXoaMRdD11pLprdBNQq+w7PkjKUTZjziOoiskdkPs1+Csn8vuUN0rBx2ESB9+zX8JLQM89xC14Y0fWVYS9Ut/BoTwY5Rf7QZcyNz75KNdJ9wBJZlQmbr4vIJjXgBxrLQBX3wdezkz4+QdQU/m1AvX5+uzAYZaKft+z+rpQr4Udt0VGl3o7XFHmKbyYICBjz4VD2Eh0MkN0fxGK8HQBa5sMnBfNn8INefShl7RCZhXuuRclksBcX/dnVByhrisQaQIDAQAB",
+  "description": "This extension retrieves the content of FL pages",
+  "version": "1.0",
+
+  "oauth2": {
+    "client_id": "911950397743-e6rbhgcpklfg688jpa0pmqs336rh236q.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]   
+  }, 
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.futurelearn.com/courses/more-data-mining-with-weka/2/*"
+      ],
+      "js": ["./libs/jquery-2.2.0.min.js", "./scripts/content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["./libs/upload.js", "./scripts/background.js", "./scripts/processing.js", "./scripts/formatting.js", "./scripts/quiz.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "identity",
+    "https://www.googleapis.com/",
+    "https://docs.google.com/",
+    "https://accounts.google.com/",
+    "<all_urls>"]
+}

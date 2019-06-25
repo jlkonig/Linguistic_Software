@@ -1,0 +1,209 @@
+Signal peptide prediction
+Question 1
+Analysis of signal peptide length reveals a fairly tight distribution around a mean of 24. Let’s see if position information helps when added to the residue context around the cleavage site.
+Apply J48 to sigdata1.arff, using default settings for the classifier and 10-fold cross-validation. Compare results when the len feature is included to when it is left out. Does this feature improve the true-positive rate for both classes?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+The true positive rate is not improved for the yes class; it increases from 77.4% to 77.5% when the len feature is omitted.
+
+Question 2
+When the len feature is removed, which of the other features are not used in the final decision tree?
+Select all the answers you think are correct.
+pos–3
+pos–2
+pos–1
+pos
+pos+1
+pos+2
+pos+3
+---
+Correct answer(s):
+pos
+pos+2
+pos+3
+
+Question 3
+If len is the only feature available to predict the class, what value does J48 choose as the constant for splitting the data?
+13
+14
+15
+16
+17
+18
+---
+Correct answer(s):
+15
+
+Question 4
+Apply J48 to sigdata2.arff, which has the same features as the previous dataset, sigdata1, but three times as many negative instances as positive ones. Use default settings once again.
+Remove the len feature. Does accuracy improve when compared to the same experiment run on sigdata1?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The proportion of correctly classified instances improves from 78.8% to 82.7%.
+
+Question 5
+Does the true positive rate for the yes class improve with the additional negative instances?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It drops from 77.5% to 52.3%.
+
+Question 6
+Which features have been used to predict the class in the tree built for the larger dataset?
+Select all the answers you think are correct.
+pos–3
+pos–2
+pos–1
+pos
+pos+1
+pos+2
+pos+3
+---
+Correct answer(s):
+pos–3
+pos–1
+pos+1
+
+Question 7
+Does including the len feature significantly improve the true positive rate for this larger dataset?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+Including len changes the true positive rate from 52.3% to 52.8%, which is negligible.
+
+Question 8
+Biologists believe that physicochemical properties of the signal peptide play an important role in determining the cleavage site.
+Some of these properties have been recorded in the sigdata3.arff file. Load this data and run J48 with the default settings.
+Does the average true positive rate improve when using general physical properties instead of specific amino acids?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The average true positive rate is 91.6%, much larger than anything we have seen before.
+
+Question 9
+Which physical property offers the most information gain?
+pos
+charge-3
+small-1
+h-region
+cleave
+---
+Correct answer(s):
+h-region
+---
+Feedback correct:
+The J48 tree splits first on h-region.
+
+Question 10
+How many additional correct classifications do you get when the pos feature is included in the current dataset as opposed to if it is left out?
+(Note: this feature is analogous to the len feature in earlier datasets.)
+12
+13
+14
+15
+16
+17
+---
+Correct answer(s):
+12
+---
+Feedback correct:
+Omitting pos reduces the number of correct classifications from 2573 to 2561
+
+Question 11
+Three times as many negative instances are included in sigdata4.arff as were available in the previous file, sigdata3. Load sigdata4.arff into WEKA and run J48 with default settings.
+Does the true positive rate for the cleavage site (i.e. yes) drop as significantly as it did when more negative instances were added to the context data (i.e. sigdata2)?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It drops from 91% to 85%, far smaller than the drop from 78% to 52% that we observed for sigdata2.
+
+Question 12
+Does the pos feature help to significantly increase accuracy when these additional negative instances are added to the physicochemical data?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+Removing pos affects the accuracy only marginally, from 94% to 93%.
+
+Question 13
+How much does the size of the tree (including leaves) reduce when pos is omitted from the sigdata4 feature set?
+4
+7
+11
+15
+22
+29
+---
+Correct answer(s):
+22
+---
+Feedback correct:
+It drops from 29 nodes to 7
+---
+Feedback incorrect:
+That’s the difference in the number of leaves
+
+Question 14
+Apart from the h-region, which other feature offers the most information gain when the pos feature is omitted?
+pos
+charge-3
+small-1
+cleave
+---
+Correct answer(s):
+small-1
+---
+Feedback correct:
+The J48 decision tree involves only two attributes, h-region and small-1
+
+Question 15
+Given the four data sets (sigdata1, sigdata2, sigdata3 and sigdata4), and ignoring position/length information, which one yields a decision tree that is least likely to be overfitting the data and the most likely to be a perspicacious characterisation of the cleavage site?
+sigdata1
+sigdata2
+sigdata3
+sigdata4
+---
+Correct answer(s):
+sigdata4
+---
+Feedback correct:
+The J48 tree has only 7 nodes (including leaves), whereas for the other three datasets it has 143, 62, and 13 nodes respectively
+
+Question 15
+Given the four data sets (sigdata1, sigdata2, sigdata3 and sigdata4), and ignoring position/length information, which one yields a decision tree that is least likely to be overfitting the data and the most likely to be a perspicacious characterisation of the cleavage site?
+sigdata1
+sigdata2
+sigdata3
+sigdata4
+---
+Correct answer(s):

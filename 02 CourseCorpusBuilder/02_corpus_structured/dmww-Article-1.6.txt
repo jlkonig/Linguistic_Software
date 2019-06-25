@@ -1,0 +1,5 @@
+What's it like to do data mining?
+You’ll be asking what kind of problems might be addressed? What kind of input do you need about the problem? What kind of output can you expect from a data mining system? What steps are involved in actually doing the mining?
+The questions are the same regardless of what system you might use for data mining. We’ll illustrate what it’s like to use the Weka data mining workbench to look at some simple datasets, preprocess them, analyze them, and visualize the result.
+Expect a whirlwind tour. This week we’ll take you swiftly – inevitably a little superficially – through the whole process. You’ll install Weka, check out its interface, explore some data sets, build a classifier, interpret the output, use filters, and visualize data. In subsequent weeks we’ll look more closely at the various steps and options, and what it all means.
+At the end of the week you will be able to demonstrate use of Weka for the key tasks of examining a dataset, classifying it with a decision tree, filtering it with various filters, and visualizing the dataset and the result of learning.

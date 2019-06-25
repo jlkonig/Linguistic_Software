@@ -1,0 +1,100 @@
+Scripting/VBG/script/4 Weka/NNP/weka/23 
+How/WRB/how/1 can/MD/can/1 you/PRP/you/1 script/VB/script/4 Weka/NNP/weka/23 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+5.1/CD/5.1/0 
+How/WRB/how/1 can/MD/can/1 you/PRP/you/1 script/VB/script/4 Weka/NNP/weka/23 ?/./?/0 
+article/NN/article/2 
+Invoking/VBG/invoke/4 Python/NNP/python/11 from/IN/from/1 Weka/NNP/weka/23 
+Scripting/VBG/script/4 allows/NNS/allow/1 automation/NN/automate/5 ,/,/,/0 and/CC/and/1 reproducible/JJ/reproduce/3 experiments/NNS/experiment/3 ./././0 There/EX/there/1 's/VBZ/be/1 a/DT/a/1 Weka/JJ/weka/23 package/NN/pack/1 that/WDT/that/1 opens/VBZ/open/1 an/DT/a/1 editor/NN/edit/2 in/IN/in/1 which/WDT/which/1 you/PRP/you/1 can/MD/can/1 write/VB/write/1 and/CC/and/1 execute/VB/execute/3 Python/NNP/python/11 ;/:/;/0 we/PRP/we/1 show/VBP/show/1 a/DT/a/1 script/NN/script/4 for/IN/for/1 loading/VBG/load/1 and/CC/and/1 filtering/VBG/filter/3 data/NNS/data/3 ./././0 
+5.2/CD/5.2/0 
+Invoking/VBG/invoke/4 Python/NNP/python/11 from/IN/from/1 Weka/NNP/weka/23 
+video/NN/video/1 (/(/(/0 09:12/CD/09:12/0 )/)/)/0 
+5.3/CD/5.3/0 
+Do/VB/do/1 it/PRP/it/1 yourself/PRP/you/1 !/./!/0 
+article/NN/article/2 
+5.4/CD/5.4/0 
+Some/DT/some/1 Python/NNP/python/11 commands/NNS/command/2 
+quiz/NN/quiz/6 
+Building/NN/build/1 models/NNS/model/2 
+We/PRP/we/1 write/VBP/write/1 a/DT/a/1 Python/NNP/python/11 script/NN/script/4 to/TO/to/1 build/VB/build/1 a/DT/a/1 J48/NNP/j48/0 classifier/NN/classifier/0 for/IN/for/1 the/DT/the/1 ``/``/``/0 anneal/NN/anneal/13 ''/''/''/0 dataset/NN/dataset/0 ,/,/,/0 and/CC/and/1 add/VB/add/1 code/NN/code/3 to/TO/to/1 evaluate/VB/evaluate/3 it/PRP/it/1 using/VBG/use/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 ./././0 We/PRP/we/1 also/RB/also/1 build/VBP/build/1 a/DT/a/1 J48/NNP/j48/0 model/NN/model/2 and/CC/and/1 make/VB/make/1 predictions/NNS/predict/3 for/IN/for/1 an/DT/a/1 unlabeled/JJ/label/3 test/NN/test/1 set/NN/set/1 ./././0 
+5.5/CD/5.5/0 
+Building/NN/build/1 models/NNS/model/2 
+video/NN/video/1 (/(/(/0 09:21/CD/09:21/0 )/)/)/0 
+5.6/CD/5.6/0 
+Datasets/NNS/datasets/0 and/CC/and/1 scripts/NNS/script/4 
+article/NN/article/2 
+5.7/CD/5.7/0 
+Using/VBG/use/1 Python/NNP/python/11 scripts/NNS/script/4 
+quiz/NN/quiz/6 
+Visualization/NN/visual/3 
+Using/VBG/use/1 the/DT/the/1 open/JJ/open/1 source/NN/source/3 library/JJ/library/2 JfreeChart/NNP/jfreechart/0 ./././0 We/PRP/we/1 create/VBP/create/2 four/CD/four/1 visualizations/NNS/visualization/0 with/IN/with/1 Weka/NNP/weka/23 :/:/:/0 classifier/NN/classifier/0 errors/NNS/error/3 (/(/(/0 with/IN/with/1 error/NN/error/3 sizes/NNS/size/1 )/)/)/0 ;/:/;/0 multiple/JJ/multiple/3 ROC/NNP/roc/0 curves/NNS/curve/3 ;/:/;/0 a/DT/a/1 J48/NNP/j48/0 decision/NN/decision/2 tree/NN/tree/1 ;/:/;/0 and/CC/and/1 a/DT/a/1 BayesNet/NNP/bayesnet/0 network/NN/network/3 graph/NN/graph/4 ./././0 
+5.8/CD/5.8/0 
+Visualization/NN/visual/3 
+video/NN/video/1 (/(/(/0 12:01/CD/12:01/0 )/)/)/0 
+5.9/CD/5.9/0 
+Datasets/NNS/datasets/0 and/CC/and/1 scripts/NNS/script/4 
+article/NN/article/2 
+5.10/CD/5.10/0 
+Showing/VBG/show/1 bubble/JJ/bubble/4 plots/NNS/plot/3 and/CC/and/1 ROC/NNP/roc/0 curves/NNS/curve/3 
+quiz/NN/quiz/6 
+Invoking/VBG/invoke/4 Weka/NNP/weka/23 from/IN/from/1 Python/NNP/python/11 
+Now/RB/now/1 we/PRP/we/1 bring/VBP/bring/1 Weka/UH/weka/23 to/TO/to/1 the/DT/the/1 Python/NNP/python/11 universe/NN/universe/3 ./././0 Setting/VBG/set/1 Python/NNP/python/11 up/RB/up/1 on/IN/on/1 Linux/NNP/linux/0 is/VBZ/be/1 easy/JJ/easy/1 ./././0 But/CC/but/1 on/IN/on/1 Windows/NNP/window/1 and/CC/and/1 OS/NNP/o/0 X/NNP/x/0 it/PRP/it/1 ’/NNP/’/0 s/VBZ/be/1 not/RB/not/1 for/IN/for/1 the/DT/the/1 faint-hearted/JJ/faint-hearted/0 !/./!/0 We/PRP/we/1 use/VBP/use/1 the/DT/the/1 python-weka-wrapper/JJ/python-weka-wrapper/0 library/NN/library/2 to/TO/to/1 replicate/VB/replicate/5 scripts/NNS/script/4 from/IN/from/1 previous/JJ/previous/2 lessons/NNS/lesson/2 ./././0 
+5.11/CD/5.11/0 
+Invoking/VBG/invoke/4 Weka/NNP/weka/23 from/IN/from/1 Python/NNP/python/11 
+video/NN/video/1 (/(/(/0 09:36/CD/09:36/0 )/)/)/0 
+5.12/CD/5.12/0 
+Do/VB/do/1 it/PRP/it/1 yourself/PRP/you/1 !/./!/0 
+article/NN/article/2 
+5.13/CD/5.13/0 
+Share/VB/share/1 your/PRP$/you/1 experience/NN/experience/1 .../:/.../0 
+discussion/NN/discuss/2 
+5.14/CD/5.14/0 
+Investigating/VBG/investigate/2 the/DT/the/1 python-weka-wrapper/JJ/python-weka-wrapper/0 library/NN/library/2 
+quiz/NN/quiz/6 
+A/DT/a/1 data/NN/data/3 mining/NN/miner/3 challenge/NN/challenge/2 ,/,/,/0 and/CC/and/1 some/DT/some/1 Groovy/NNP/groovy/13 
+Put/VB/put/1 your/PRP$/you/1 knowledge/NN/knowledge/2 to/TO/to/1 use/VB/use/1 by/IN/by/1 applying/VBG/apply/2 it/PRP/it/1 to/TO/to/1 real-world/JJ/real-world/0 data/NN/data/3 !/./!/0 Groovy/NNP/groovy/13 is/VBZ/be/1 an/DT/a/1 alternative/JJ/alternative/3 scripting/NN/script/4 language/NN/language/2 to/TO/to/1 Python/NNP/python/11 ;/:/;/0 we/PRP/we/1 use/VBP/use/1 it/PRP/it/1 to/TO/to/1 replicate/VB/replicate/5 some/DT/some/1 Python/NNP/python/11 scripts/NNS/script/4 ./././0 
+5.15/CD/5.15/0 
+A/DT/a/1 challenge/NN/challenge/2 ,/,/,/0 and/CC/and/1 some/DT/some/1 Groovy/NNP/groovy/13 
+video/NN/video/1 (/(/(/0 11:57/CD/11:57/0 )/)/)/0 
+5.16/CD/5.16/0 
+Datasets/NNS/datasets/0 and/CC/and/1 scripts/NNS/script/4 
+article/NN/article/2 
+5.17/CD/5.17/0 
+The/DT/the/1 data/NN/data/3 mining/NN/miner/3 challenge/NN/challenge/2 
+quiz/NN/quiz/6 
+5.18/CD/5.18/0 
+The/DT/the/1 data/NN/data/3 mining/NN/miner/3 challenge/NN/challenge/2 :/:/:/0 An/DT/a/1 expert/NN/expert/3 speaks/NN/speak/1 
+article/NN/article/2 
+5.19/CD/5.19/0 
+The/DT/the/1 data/NN/data/3 mining/NN/miner/3 challenge/NN/challenge/2 
+discussion/NN/discuss/2 
+5.20/CD/5.20/0 
+Feelin/NNP/feelin/0 '/POS/'/0 Groovy/NNP/groovy/13 ?/./?/0 
+quiz/NN/quiz/6 
+Course/NNP/course/1 summary/NN/summary/3 
+What/WP/what/1 have/VBP/have/1 we/PRP/we/1 done/VBN/do/1 ?/./?/0 You/PRP/you/1 've/VBP/have/1 learned/VBN/learn/1 a/DT/a/1 powerful/JJ/power/1 technology/NN/technology/2 :/:/:/0 please/NN/please/1 use/VB/use/1 it/PRP/it/1 ethically/RB/ethical/4 ./././0 One/CD/one/1 way/NN/way/1 to/TO/to/1 continue/VB/continue/1 learning/NN/learn/1 is/VBZ/be/1 through/IN/through/1 data/NNS/data/3 mining/NN/miner/3 competitions/NNS/competition/2 ./././0 
+5.21/CD/5.21/0 
+Course/NNP/course/1 summary/NN/summary/3 
+video/NN/video/1 (/(/(/0 07:03/CD/07:03/0 )/)/)/0 
+5.22/CD/5.22/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 ’/NNP/’/0 s/VBZ/be/1 Big/NNP/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+Farewell/NN/farewell/5 
+Once/RB/once/1 again/RB/again/1 ,/,/,/0 it/PRP/it/1 's/VBZ/be/1 time/NN/time/1 to/TO/to/1 say/VB/say/1 goodbye/NN/goodbye/1 ./././0 
+5.23/CD/5.23/0 
+Post-course/JJ/post-course/0 assessment/NN/assess/3 
+test/NN/test/1 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 test/NN/test/1 step/NN/step/1 ,/,/,/0 it/PRP/it/1 helps/VBZ/help/1 you/PRP/you/1 verify/VB/verify/4 your/PRP$/you/1 understanding/NN/understand/1 ./././0 If/IN/if/1 you/PRP/you/1 want/VBP/want/1 to/TO/to/1 earn/VB/earn/2 a/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 on/IN/on/1 this/DT/this/1 course/NN/course/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 complete/VB/complete/1 this/DT/this/1 test/NN/test/1 and/CC/and/1 any/DT/any/1 others/NNS/other/1 ,/,/,/0 scoring/VBG/score/2 an/DT/a/1 average/NN/average/2 of/IN/of/1 70/CD/70/0 %/NN/%/0 or/CC/or/1 above/NN/above/1 ./././0 
+To/TO/to/1 take/VB/take/1 tests/NNS/test/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 upgrade/VB/upgrade/4 this/DT/this/1 course/NN/course/1 ./././0 It/PRP/it/1 costs/VBZ/cost/1 $/$/$/0 94/CD/94/0 ,/,/,/0 which/WDT/which/1 also/RB/also/1 gets/VBZ/get/1 you/PRP/you/1 :/:/:/0 
+Unlimited/JJ/limit/2 access/NN/access/2 to/TO/to/1 the/DT/the/1 course/NN/course/1 for/IN/for/1 as/RB/as/1 long/RB/long/1 as/IN/as/1 it/PRP/it/1 exists/VBZ/exist/2 on/IN/on/1 FutureLearn/NNP/futurelearn/0 ,/,/,/0 so/IN/so/1 you/PRP/you/1 can/MD/can/1 learn/VB/learn/1 at/IN/at/1 your/PRP$/you/1 own/JJ/own/1 pace/NN/pace/3 
+A/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 when/WRB/when/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 eligible/JJ/eligible/4 ,/,/,/0 to/TO/to/1 prove/VB/prove/2 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 
+Upgrade/NN/upgrade/4 
+Find/VB/find/1 out/RP/out/1 more/JJR/more/1 
+5.24/CD/5.24/0 
+Farewell/NN/farewell/5 
+article/NN/article/2 
+5.25/CD/5.25/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

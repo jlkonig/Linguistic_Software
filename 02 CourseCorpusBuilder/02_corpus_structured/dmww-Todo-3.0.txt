@@ -1,0 +1,63 @@
+Simple classifiers
+How do simple classification methods work?
+This week's Big Question!
+3.1
+How do simple classification methods work?
+article
+Simplicity first
+Always try simple methods before complex ones! (A good maxim for life in general, not just data mining.) Sometimes, simple algorithms perform really well. We learn about OneR, a simple method that is sometimes quite effective. 
+3.2
+Simplicity first
+video (07:17)
+3.3
+OneR vs. the baseline
+quiz
+Overfitting
+“Overfitting” is a general problem that plagues all machine learning methods. It’s when a classifier fits the training data too tightly. The classifier works well on the training data but not on independent test data. 
+3.4
+Overfitting
+video (07:51)
+3.5
+Overfitting
+quiz
+Using probabilities
+Why not use all attributes, equally weighted, instead of a single one as OneR does. Bayes' Theorem provides a sound probabilistic foundation for this. "Naive" Bayes assumes that attributes are equally important, and independent.
+3.6
+Using probabilities
+video (11:32)
+3.7
+Naive Bayes with dependent attributes
+quiz
+3.8
+Problems with probabilities?
+discussion
+Decision trees
+Decision trees are another simple classification method, based on a top-down, recursive, divide-and-conquer strategy. J48 (aka C4.5) finds a good attribute to split on at each stage using a measure called "information gain."
+3.9
+Decision trees
+video (08:25)
+3.10
+Weka's output 
+quiz
+Pruning decision trees
+Decision trees can easily overfit the training data, and pruning techniques are needed to guard against overfitting. There are various different methods. Unfortunately, this is where elegant algorithms get messy!
+3.11
+Pruning decision trees
+video (09:45)
+3.12
+The effect of pruning
+quiz
+Nearest neighbor
+How about storing the training instances and giving new instances the same classification as their nearest neighbor? A similarity function is needed to select the closest instance. Using several neighbors can improve performance.
+3.13
+Nearest neighbor
+video (07:43)
+3.14
+Instance-based learning
+quiz
+3.15
+Reflect on this week's Big Question
+discussion
+3.16
+Index
+article

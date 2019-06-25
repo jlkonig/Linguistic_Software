@@ -1,0 +1,9 @@
+Reflect on this week's Big Questions 
+The Big Questions this week are, “How can you discretize numeric attributes?” and “How do you classify documents?”
+We promised that by the end you’d be able to explain various discretization strategies, and how to discretize in a way that preserves the ordering information inherent in numeric attributes, and why pre-discretization might be better than building the same discretization method into a classifier—and why it might work the other way around! Perhaps the most important skill is how to fairly evaluate a classification method that involves supervised filters (using the FilteredClassifier).
+We also promised that you’d be able to use Weka to classify documents, and use threshold curves to show different tradeoffs between error types.
+Well, can you explain these things to a colleague? The most challenging ones are:
+  how to preserve ordering information in nominal attributes;
+  why it’s non-trivial to evaluate a classification method that involves supervised filters;
+  threshold curves.
+So: choose one, explain it, and tell your fellow learners how you got on.

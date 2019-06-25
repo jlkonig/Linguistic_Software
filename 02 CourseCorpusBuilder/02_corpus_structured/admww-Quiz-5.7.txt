@@ -1,0 +1,236 @@
+Using Python scripts 
+Question 1
+With the build_classifier.py script in the Jython window, edit anneal.arff in the script to a nonexistent file and run again.
+You will get an error. What line is it on?
+Line 7
+Line 8
+Line 11
+---
+Correct answer(s):
+Line 8
+---
+Feedback correct:
+The error message is
+Traceback (most recent call last):
+  File "/Users/ihw/untitled", line 8, in <module>
+AttributeError: 'NoneType' object has no attribute 'setClassIndex'
+
+Question 2
+It would be more elegant to print an appropriate message if the file is missing.
+You can do this by replacing the line
+data = DS.read(os.environ.get("MOOC_DATA") + os.sep + "anneal.arff")
+with this:
+dataset = os.environ.get("MOOC_DATA") + os.sep + "anneal.arff"
+if ??:
+  print("File does not exist: " + dataset)
+else:
+  data = DS.read(dataset)
+and indenting the rest of the program. What should you put for the “??”?
+dataset is None:
+not os.path.exists(dataset)
+os.path.missing(dataset)
+---
+Correct answer(s):
+not os.path.exists(dataset)
+---
+Feedback correct:
+You can read about the os.path module and its methods in the Python documentation
+
+Question 3
+Restore the original version of build_classifier.py and modify it to output a Naive Bayes model with default options for the iris.arff dataset.
+How many code lines did you have to change?
+2
+3
+4
+5
+---
+Correct answer(s):
+4
+---
+Feedback correct:
+You should
+  change an “import” line to import bayes.NaiveBayes rather than trees.J48
+  change the filename anneal.arff to iris.arff
+  change cls = J48() to use the NaiveBayes classifier
+  delete the setOptions line
+
+Question 4
+Modify the program you have just created to print 5-fold cross-validation statistics (not the confusion matrix) for the same classifier (Naive Bayes) on the same dataset (iris.arff). (Hint: Examine crossvalidate_classifier.py to see how to make the change.)
+How many import lines and how many code lines did you have to add, and how many code lines did you delete?
+1 import line added, 3 code lines added, 3 code lines deleted
+2 import lines added, 3 code lines added, 0 code lines deleted
+2 import lines added, 3 code lines added, 2 code lines deleted
+2 import lines added, 4 code lines added, 2 code lines deleted
+---
+Correct answer(s):
+2 import lines added, 3 code lines added, 2 code lines deleted
+---
+Feedback correct:
+  import weka.classifiers.Evaluation and java.util.Random (2 import lines added)
+  initialize the evaluation, execute it, and print cross-validation statistics (3 code lines added)
+  delete the buildClassifier line and the line that prints the model (2 lines deleted)
+---
+Feedback incorrect:
+Close. But you should delete the buildClassifier line and the line that prints the model
+
+Question 5
+Modify the program you have just created to filter the data by discretizing the first attribute (only) using an unsupervised Discretize filter with 5 bins (and default parameters otherwise). (Hint: Examine the load_and_filter_data.py script supplied with the previous lesson.)
+What is the percentage of correctly classified instances?
+94.7%
+95.3%
+96.0%
+96.7%
+---
+Correct answer(s):
+96.7%
+---
+Feedback incorrect:
+Are you sure you’re using 5-fold cross-validation rather than the default of 10-fold?
+---
+Feedback incorrect:
+Are you sure you’re using 5 bins rather than the default of 10?
+---
+Feedback incorrect:
+Are you sure you applied the filter?
+
+Question 6
+The remaining activities are for people who intend to actually use Python for scripting. You can learn from the scripts supplied with this lesson, and from the Weka Javadoc.
+Examine the Python scripts to determine which of the following is a helper class used for loading data:
+weka.core.converters.ConverterUtils.DataSource
+weka.core.converters.LoadDataFromFile
+weka.core.LoadData
+---
+Correct answer(s):
+weka.core.converters.ConverterUtils.DataSource
+---
+Feedback correct:
+It’s used in all the scripts
+
+Question 7
+Examine the Python scripts to determine how to retrieve the content of environment variable MY_DATA:
+os.env[“MY_DATA”]
+os.env.get(“MY_DATA”)
+os.environ.get(“MY_DATA”)
+---
+Correct answer(s):
+os.environ.get(“MY_DATA”)
+---
+Feedback correct:
+It’s used in all the scripts.
+You can read about the os module’s environ mapping object in the Python documentation
+
+Question 8
+Which of these methods is used for building a classifier?
+build
+buildClassifier
+make
+makeClassifier
+---
+Correct answer(s):
+buildClassifier
+---
+Feedback correct:
+It’s used in the build_classifier.py script
+
+Question 9
+How do you set the 3rd attribute to be the class attribute?
+(Hint: examine the make-predictions_classifier.py script. Note that the index counts from 0.)
+data.setClassIndex(2)
+data.setClassIndex(3)
+data.setClassIndex(data.numAttributes() - 3)
+---
+Correct answer(s):
+data.setClassIndex(2)
+---
+Feedback incorrect:
+(The index counts from 0.)
+
+Question 10
+Which of these methods returns the cluster an instance belongs to?
+(Hint: examine the make-predictions_classifier.py script to determine what method is called to classify an instance, and work by analogy.)
+buildClusterer
+classifyInstance
+clusterInstance
+---
+Correct answer(s):
+clusterInstance
+---
+Feedback correct:
+make-predictions_classifier.py contains the line
+      labelIndex = cls.classifyInstance(inst)
+and clusterInstance is the obvious analogy for clustering.
+---
+Feedback incorrect:
+make-predictions_classifier.py contains the line
+      labelIndex = cls.classifyInstance(inst)
+and clusterInstance is the obvious analogy for clustering.
+---
+Feedback incorrect:
+make-predictions_classifier.py contains the line
+      labelIndex = cls.classifyInstance(inst)
+and clusterInstance is the obvious analogy for clustering.
+You are asked to return a cluster, not classify the instance
+
+Question 11
+Use Weka’s Javadoc to determine how to stratify a dataset data of type weka.core.Instances for 10-fold cross-validation.
+data.stratify(10)
+data.stratify(9)
+data.stratify()
+---
+Correct answer(s):
+data.stratify(10)
+---
+Feedback correct:
+In the main (Overview) panel of the Javadoc: click weka.core; find Instances in the list of core classes; click it; and search for stratify to locate the method stratify(int numfolds).
+Or just go here :-)
+
+Question 12
+How do you extract the directory from a file name fname?
+(Hint: find an os.environ.get line in one of the scripts supplied, and experiment with the choices below.)
+os.getdir(fname)
+os.path.basename(fname)
+os.path.dirname(fname)
+---
+Correct answer(s):
+os.path.dirname(fname)
+---
+Feedback correct:
+I extracted a couple of lines from load_and_filter_data.py and modified them to read
+    import os
+    x = os.environ.get("MOOC_DATA")
+    print os.path.dirname(x)
+You can read about the os.path module and its methods in the Python documentation.
+
+Question 13
+What does a classifier’s classifyInstance method returns in the case of a nominal class attribute?
+(Hint: Examine the make-predictions_classifier.py script.)
+Class label index
+Class label string
+---
+Correct answer(s):
+Class label index
+---
+Feedback correct:
+The line
+          labelIndex = cls.classifyInstance(inst)
+in make-predictions_classifier.py is a bit of a giveaway!
+
+Question 14
+Look at Weka’s Javadoc to determine the equivalent of the FilteredClassifier meta-classifier for clusterers.
+weka.clusterer.FilteredClusterer
+weka.clusterer.MetaClusterer
+weka.clusterers.FilteredClusterer
+---
+Correct answer(s):
+weka.clusterers.FilteredClusterer
+---
+Feedback correct:
+It’s here
+
+Question 14
+Look at Weka’s Javadoc to determine the equivalent of the FilteredClassifier meta-classifier for clusterers.
+weka.clusterer.FilteredClusterer
+weka.clusterer.MetaClusterer
+weka.clusterers.FilteredClusterer
+---
+Correct answer(s):

@@ -1,0 +1,4 @@
+Summary
+There’s no magic in data mining! In fact, perhaps Weka makes things too easy. It is important to understand, and evaluate, what you’re doing, not just click around looking for good results. You’ve learned lots, but we’ve missed out plenty. Finally, I’d like to encourage you to be wise when using data mining technology. You’ve gained the power to analyze your own datasets. Use this
+technology wisely, for the good of the world.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

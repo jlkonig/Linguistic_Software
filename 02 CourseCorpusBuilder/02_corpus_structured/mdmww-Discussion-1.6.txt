@@ -1,0 +1,3 @@
+Well, are you ready for this?
+How did you get on in the quiz? This is the place to discuss any problems with your fellow learners.
+If you found it challenging, you might consider doing the previous course Data Mining with Weka first. Alternatively, if you just need a refresher, you could look at some of these videos.

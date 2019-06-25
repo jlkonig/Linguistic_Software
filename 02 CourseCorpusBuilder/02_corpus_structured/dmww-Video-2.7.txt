@@ -1,0 +1,3 @@
+Training and testing
+How can you evaluate how well a classifier does? Training set performance is misleading. It’s like asking a child to memorize 1+1=2, 1+2=3 and then testing them on exactly the same questions, whereas you really want them to be able to answer questions like 2+3=?. We want to generalize from the training data to get a more widely applicable classifier. To evaluate how well this has been done, it must be tested on an independent test set. If you only have one dataset, set aside part of it for testing and use the rest for training.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

@@ -1,0 +1,3 @@
+Evaluating clusters 
+Different clustering algorithms use different metrics for optimization internally, which makes the results hard to evaluate and compare. Weka allows you to visualize clusters, so you can evaluate them by eye-balling. More quantitative evaluation is possible if, behind the scenes, each instance has a class value that’s not used during clustering. That makes classification via clustering possible, and the resulting classifier can then be evaluated in standard ways, such as cross-validation.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

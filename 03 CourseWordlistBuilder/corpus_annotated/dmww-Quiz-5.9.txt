@@ -1,0 +1,120 @@
+What/WP/what/1 classifiers/NNS/classifier/0 do/VBP/do/1 
+Question/NN/question/1 1/CD/1/0 
+Works/NNP/work/1 well/RB/well/1 and/CC/and/1 produces/VBZ/produce/2 comprehensible/JJ/incomprehensible/6 models/NNS/model/2 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machines/NNS/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+J48/NN/j48/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 J48/NNP/j48/0 classifier/NN/classifier/0 performs/NNS/perform/2 quite/RB/quite/1 well/RB/well/1 ,/,/,/0 and/CC/and/1 provides/VBZ/provide/2 the/DT/the/1 user/NN/use/1 with/IN/with/1 decision/NN/decision/2 trees/NNS/tree/1 ,/,/,/0 which/WDT/which/1 are/VBP/be/1 easily/RB/easy/1 understandable/JJ/understand/1 models/NNS/model/2 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Works/NNS/work/1 well/RB/well/1 when/WRB/when/1 attributes/NNS/attribute/3 contribute/VBP/contribute/2 equally/RB/equal/2 and/CC/and/1 independently/RB/independent/3 to/TO/to/1 the/DT/the/1 decision/NN/decision/2 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+NaiveBayes/NNS/naivebayes/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 NaiveBayes/NNP/naivebayes/0 classifier/NN/classifier/0 generally/RB/general/1 works/VBZ/work/1 well/RB/well/1 on/IN/on/1 datasets/NNS/datasets/0 for/IN/for/1 which/WDT/which/1 the/DT/the/1 independence/NN/independence/3 assumption/NN/assumption/3 holds/VBZ/hold/1 true/JJ/true/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Simply/NNP/simple/1 stores/NNS/store/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 without/IN/without/1 processing/VBG/process/2 it/PRP/it/1 at/IN/at/1 all/DT/all/1 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+IBk/NN/ibk/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 nearest/JJS/near/1 neighbor/NN/neighbour/1 method/NN/method/3 IBk/NNP/ibk/0 simply/RB/simple/1 stores/NNS/store/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ./././0 Although/IN/although/1 this/DT/this/1 overfits/VBZ/overfits/0 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ,/,/,/0 it/PRP/it/1 can/MD/can/1 nevertheless/RB/nevertheless/3 work/VB/work/1 surprisingly/RB/surprise/1 well/RB/well/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Calculates/VBZ/calculate/2 a/DT/a/1 single/JJ/single/1 linear/JJ/linear/4 decision/NN/decision/2 boundary/NN/boundary/3 and/CC/and/1 outputs/JJ/output/3 class/NN/class/1 probability/NN/probably/1 estimates/NNS/estimate/3 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 classifier/NN/classifier/0 calculates/VBZ/calculate/2 a/DT/a/1 linear/JJ/linear/4 decision/NN/decision/2 boundary/NN/boundary/3 ./././0 (/(/(/0 The/DT/the/1 boundaries/NNS/boundary/3 obtained/VBN/obtain/3 by/IN/by/1 IBk/NNP/ibk/0 and/CC/and/1 SMO/NNP/smo/0 are/VBP/be/1 piecewise/JJ/piecewise/0 linear/JJ/linear/4 ./././0 )/)/)/0 
+
+Question/NN/question/1 5/CD/5/0 
+Avoids/NNS/avoid/2 overfitting/VBG/overfitting/0 ,/,/,/0 even/RB/even/1 with/IN/with/1 large/JJ/large/1 numbers/NNS/number/1 of/IN/of/1 attributes/NNS/attribute/3 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Through/IN/through/1 its/PRP$/it/1 use/NN/use/1 of/IN/of/1 a/DT/a/1 small/JJ/small/1 number/NN/number/1 of/IN/of/1 support/NN/support/1 vectors/NNS/vector/6 ,/,/,/0 SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 avoids/VBZ/avoid/2 overfitting/VBG/overfitting/0 even/RB/even/1 with/IN/with/1 large/JJ/large/1 numbers/NNS/number/1 of/IN/of/1 attributes/NNS/attribute/3 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Determines/VBZ/determine/2 the/DT/the/1 baseline/NN/baseline/0 performance/NN/perform/2 for/IN/for/1 a/DT/a/1 dataset/NN/dataset/0 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 6/CD/6/0 
+Determines/VBZ/determine/2 the/DT/the/1 baseline/NN/baseline/0 performance/NN/perform/2 for/IN/for/1 a/DT/a/1 dataset/NN/dataset/0 ./././0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+LinearRegression/NN/linearregression/0 
+Logistic/NNP/logistics/6 (/(/(/0 Logistic/NNP/logistics/6 regression/NN/regress/4 )/)/)/0 
+NaiveBayes/NNS/naivebayes/0 
+OneR/NN/oner/0 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machine/NN/machine/1 )/)/)/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+ZeroR/NN/zeror/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+By/IN/by/1 simply/RB/simple/1 predicting/VBG/predict/3 the/DT/the/1 majority/NN/majority/3 class/NN/class/1 ,/,/,/0 ZeroR/NNP/zeror/0 provides/VBZ/provide/2 a/DT/a/1 baseline/NN/baseline/0 performance/NN/perform/2 measure/NN/measure/2 for/IN/for/1 any/DT/any/1 dataset/NN/dataset/0 ./././0 OneR/NNP/oner/0 provides/VBZ/provide/2 a/DT/a/1 slightly/RB/slight/1 more/RBR/more/1 sophisticated/JJ/sophisticated/3 baseline/NN/baseline/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+By/IN/by/1 choosing/VBG/choose/1 to/TO/to/1 branch/VB/branch/2 on/IN/on/1 a/DT/a/1 single/JJ/single/1 attribute/NN/attribute/3 ,/,/,/0 OneR/NNP/oner/0 provides/VBZ/provide/2 a/DT/a/1 baseline/NN/baseline/0 performance/NN/perform/2 measure/NN/measure/2 for/IN/for/1 any/DT/any/1 dataset/NN/dataset/0 ./././0 ZeroR/NNP/zeror/0 provides/VBZ/provide/2 a/DT/a/1 more/RBR/more/1 rudimentary/JJ/rudiment/7 baseline/NN/baseline/0 ./././0 
+
+

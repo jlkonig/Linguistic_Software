@@ -1,0 +1,74 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      butterfly_vs_owl
+      4.14
+      hypothyroid
+      4.5, 4.7, 4.8, 4.10, 4.12, 4.13
+      iris
+      4.6
+      vehicle_images
+      4.15
+      Classifiers
+      JRip
+      4.7, 4.9
+      J48
+      4.14, 4.15
+      NaiveBayes
+      4.7, 4.8, 4.9, 4.10, 4.15
+      RandomForest
+      4.8, 4.9, 4.10
+      SMO
+      4.15
+      Filters
+      ColorLayout
+      4.14, 4.15
+      EdgeHistogram
+      4.14, 4.15
+      Gabor
+      4.15
+      RemoveType
+      4.8
+      Packages
+      distributedWekaBase
+      4.2, 4.5
+      distributedWekaSpark
+      4.2, 4.5, 4.6
+      imageFilters
+      4.14, 4.15
+      KnowledgeFlow components
+      ArffHeaderSparkJob
+      4.5, 4.6, 4.7, 4.8, 4.9, 4.12
+      ArffLoader
+      4.6
+      CorrelationMatrixSparkJob
+      4.12
+      CSVSaver
+      4.6
+      ImageViewer
+      4.12, 4.13
+      KMeansClustererSparkJob
+      4.13
+      RandomlyShuffleDataSparkJob
+      4.7, 4.8, 4.9, 4.10
+      WekaClassifierSparkJob
+      4.5, 4.7, 4.8
+      WekaClassifierEvaluationSparkJob
+      4.5, 4.9, 4.10
+      TextViewer
+      4.5, 4.6, 4.9, 4.12, 4.13
+      Plus
+      Distributed Weka
+      4.1–4.13
+      Hadoop
+      4.2, 4.4
+      k-means clustering
+      4.12, 4.13
+      Map-reduce
+      4.2, 4.3, 4.9
+      Principal components analysis
+      4.12, 4.13
+      Spark
+      4.2, 4.4, 4.5, 4.12

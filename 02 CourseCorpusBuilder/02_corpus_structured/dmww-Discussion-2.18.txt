@@ -1,0 +1,6 @@
+Reflect on this week's Big Question
+The Big Question this week is, “How do I evaluate a classifier’s performance?”
+At the beginning of the week we promised that by the end you would know how to evaluate the performance of a classifier on new, unseen, instances. And you would understand how easy it is to fool yourself into thinking that your system is doing better than it actually is.
+So: how do you evaluate a classifier’s performance?
+Try explaining (to your partner, siblings, parents or kids) how to evaluate the performance of a learning system when you don’t even know what data it will be used on. Can you convince them why evaluating it on the data used to train it is an absolutely terrible idea?
+Tell your fellow learners how you get on.

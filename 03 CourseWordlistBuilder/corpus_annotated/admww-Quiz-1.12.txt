@@ -1,0 +1,88 @@
+Looking/VBG/look/1 at/IN/at/1 the/DT/the/1 textual/JJ/text/3 output/NN/output/3 
+Question/NN/question/1 1/CD/1/0 
+Go/VB/go/1 to/TO/to/1 the/DT/the/1 Forecast/NNP/forecast/3 panel/NN/panel/3 and/CC/and/1 forecast/VB/forecast/3 12/CD/12/0 time/NN/time/1 units/NNS/unit/2 ahead/RB/ahead/1 ,/,/,/0 using/VBG/use/1 default/NN/default/5 values/NNS/value/2 for/IN/for/1 all/DT/all/1 other/JJ/other/1 parameters/NNS/parameter/4 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 maximum/JJ/maximum/2 passenger/NN/passenger/3 estimate/NN/estimate/3 over/IN/over/1 the/DT/the/1 12/CD/12/0 predicted/VBD/predict/3 values/NNS/value/2 ,/,/,/0 and/CC/and/1 what/WP/what/1 month/NN/month/1 and/CC/and/1 year/NN/year/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 in/IN/in/1 ?/./?/0 
+464/CD/464/0 ,/,/,/0 in/IN/in/1 December/NNP/december/2 1961/CD/1961/0 
+661/CD/661/0 ,/,/,/0 in/IN/in/1 August/NNP/august/2 1961/CD/1961/0 
+690/CD/690/0 ,/,/,/0 in/IN/in/1 June/NNP/june/2 1961/CD/1961/0 
+690/CD/690/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+691/CD/691/0 ,/,/,/0 in/IN/in/1 January/NNP/january/2 1962/CD/1962/0 
+710/CD/710/0 ,/,/,/0 in/IN/in/1 January/NNP/january/2 1962/CD/1962/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+690/CD/690/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+
+Question/NN/question/1 2/CD/2/0 
+Now/RB/now/1 remove/VB/remove/2 leading/VBG/lead/1 instances/NNS/instance/2 with/IN/with/1 unknown/JJ/know/1 lag/NN/lag/5 values/NNS/value/2 ,/,/,/0 and/CC/and/1 repeat/NN/repeat/2 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 maximum/JJ/maximum/2 passenger/NN/passenger/3 estimate/NN/estimate/3 over/IN/over/1 the/DT/the/1 12/CD/12/0 predicted/VBD/predict/3 values/NNS/value/2 ,/,/,/0 and/CC/and/1 what/WP/what/1 month/NN/month/1 and/CC/and/1 year/NN/year/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 in/IN/in/1 ?/./?/0 
+690/CD/690/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+710/CD/710/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+710/CD/710/0 ,/,/,/0 in/IN/in/1 August/NNP/august/2 1961/CD/1961/0 
+892/CD/892/0 ,/,/,/0 in/IN/in/1 October/NNP/october/2 1961/CD/1961/0 
+892/CD/892/0 ,/,/,/0 in/IN/in/1 December/NNP/december/2 1961/CD/1961/0 
+905/CD/905/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1962/CD/1962/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+710/CD/710/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+
+Question/NN/question/1 3/CD/3/0 
+Now/RB/now/1 evaluate/VBP/evaluate/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 and/CC/and/1 24/CD/24/0 test/NN/test/1 instances/NNS/instance/2 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 maximum/JJ/maximum/2 future/JJ/future/2 passenger/NN/passenger/3 estimate/NN/estimate/3 from/IN/from/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ,/,/,/0 and/CC/and/1 what/WP/what/1 month/NN/month/1 and/CC/and/1 year/NN/year/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 in/IN/in/1 ?/./?/0 (/(/(/0 Note/NN/note/1 :/:/:/0 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 look/VB/look/1 from/IN/from/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ,/,/,/0 not/RB/not/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 ./././0 )/)/)/0 
+490/CD/490/0 ,/,/,/0 in/IN/in/1 June/NNP/june/2 1959/CD/1959/0 
+490/CD/490/0 ,/,/,/0 in/IN/in/1 August/NNP/august/2 1959/CD/1959/0 
+543/CD/543/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+610/CD/610/0 ,/,/,/0 in/IN/in/1 September/NNP/september/2 1959/CD/1959/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+490/CD/490/0 ,/,/,/0 in/IN/in/1 August/NNP/august/2 1959/CD/1959/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 looking/VBG/look/1 at/IN/at/1 predictions/NNS/predict/3 from/IN/from/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 instead/RB/instead/1 of/IN/of/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 ?/./?/0 
+
+Question/NN/question/1 4/CD/4/0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 maximum/JJ/maximum/2 passenger/NN/passenger/3 estimate/NN/estimate/3 from/IN/from/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 the/DT/the/1 test/NN/test/1 data/NN/data/3 ,/,/,/0 and/CC/and/1 what/WP/what/1 month/NN/month/1 and/CC/and/1 year/NN/year/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 in/IN/in/1 ?/./?/0 
+490/CD/490/0 ,/,/,/0 in/IN/in/1 August/NNP/august/2 1959/CD/1959/0 
+438/CD/438/0 ,/,/,/0 in/IN/in/1 June/NNP/june/2 1961/CD/1961/0 
+438/CD/438/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+543/CD/543/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+543/CD/543/0 ,/,/,/0 in/IN/in/1 July/NNP/july/2 1961/CD/1961/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 looking/VBG/look/1 at/IN/at/1 predictions/NNS/predict/3 from/IN/from/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 instead/RB/instead/1 of/IN/of/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 ?/./?/0 
+
+Question/NN/question/1 5/CD/5/0 
+You/PRP/you/1 can/MD/can/1 change/VB/change/1 the/DT/the/1 textual/JJ/text/3 options/NNS/option/2 using/VBG/use/1 the/DT/the/1 “/NNP/“/0 Output/NNP/output/3 options/NNS/option/2 ”/NNP/”/0 (/(/(/0 as/IN/as/1 opposed/VBN/oppose/2 to/TO/to/1 “/VB/“/0 Graphing/NNP/graph/4 options/NNS/option/2 ”/VBP/”/0 )/)/)/0 ./././0 The/DT/the/1 results/NNS/result/2 all/DT/all/1 appear/VBP/appear/1 in/IN/in/1 the/DT/the/1 single/JJ/single/1 textual/JJ/text/3 output/NN/output/3 stream/NN/stream/2 ,/,/,/0 rather/RB/rather/1 than/IN/than/1 in/IN/in/1 different/JJ/different/1 tabs/NNS/tab/6 as/IN/as/1 with/IN/with/1 the/DT/the/1 Graphing/NNP/graph/4 options/NNS/option/2 ./././0 
+By/IN/by/1 setting/VBG/set/1 the/DT/the/1 “/NNP/“/0 Output/NNP/output/3 options/NNS/option/2 ”/VBP/”/0 appropriately/RB/appropriate/3 ,/,/,/0 what/WP/what/1 is/VBZ/be/1 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 in/IN/in/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 for/IN/for/1 1-step-ahead/JJ/1-step-ahead/0 predictions/NNS/predict/3 ,/,/,/0 and/CC/and/1 what/WP/what/1 instance/NN/instance/2 number/NN/number/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 on/IN/on/1 ?/./?/0 (/(/(/0 Note/NN/note/1 :/:/:/0 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 may/MD/may/1 be/VB/be/1 negative/JJ/negative/3 ./././0 )/)/)/0 
+–12/NN/–12/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 42/CD/42/0 
+–9/NN/–9/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 14/CD/14/0 
+15/CD/15/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 30/CD/30/0 
+21/CD/21/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 62/CD/62/0 
+332/CD/332/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 120/CD/120/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+21/CD/21/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 62/CD/62/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 in/IN/in/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 for/IN/for/1 1-step-ahead/JJ/1-step-ahead/0 predictions/NNS/predict/3 ,/,/,/0 and/CC/and/1 what/WP/what/1 instance/NN/instance/2 number/NN/number/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 on/IN/on/1 ?/./?/0 (/(/(/0 Note/NN/note/1 :/:/:/0 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 may/MD/may/1 be/VB/be/1 negative/JJ/negative/3 ./././0 )/)/)/0 
+–106/NN/–106/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 136/CD/136/0 
+–91/NN/–91/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 134/CD/134/0 
+–67/NN/–67/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 131/CD/131/0 
+–56/NN/–56/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 122/CD/122/0 
+336/CD/336/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 121/CD/121/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+–106/NN/–106/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 136/CD/136/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 in/IN/in/1 the/DT/the/1 test/NN/test/1 data/NNS/data/3 for/IN/for/1 1-step-ahead/JJ/1-step-ahead/0 predictions/NNS/predict/3 ,/,/,/0 and/CC/and/1 what/WP/what/1 instance/NN/instance/2 number/NN/number/1 does/VBZ/do/1 it/PRP/it/1 occur/VB/occur/2 on/IN/on/1 ?/./?/0 (/(/(/0 Note/NN/note/1 :/:/:/0 the/DT/the/1 largest/JJS/large/1 error/NN/error/3 may/MD/may/1 be/VB/be/1 negative/JJ/negative/3 ./././0 )/)/)/0 
+–106/NN/–106/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 136/CD/136/0 
+–91/NN/–91/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 134/CD/134/0 
+–67/NN/–67/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 131/CD/131/0 
+–56/NN/–56/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 122/CD/122/0 
+336/CD/336/0 ,/,/,/0 on/IN/on/1 instance/NN/instance/2 121/CD/121/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

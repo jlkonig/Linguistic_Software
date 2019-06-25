@@ -1,0 +1,73 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      anneal
+      5.5, 5.7, 5.11, 5.15
+      balance-scale
+      5.8, 5.10, 5.11, 5.15
+      bodyfat
+      5.8, 5.10, 5.11
+      breast-cancer
+      5.10
+      iris
+      5.2, 5.7
+      Classifiers
+      BayesNet
+      5.8
+      GaussianProcesses
+      5.17, 5.18
+      IBk
+      5.17
+      J48
+      5.5, 5.8, 5.11
+      LinearRegression
+      5.8, 5.11, 5.17
+      LWL (Locally weighted learning)
+      5.17, 5.18
+      NaiveBayes
+      5.7, 5.8
+      Filters
+      AddNoise
+      5.4
+      Discretize
+      5.4, 5.7
+      Packages
+      jfreechartOffScreenRenderer
+      5.2, 5.3, 5.8
+      kfGroovy
+      5.20
+      tigerJython
+      5.2, 5.3, 5.4
+      Python classes
+      DataSource, Filter, os, Remove
+      5.2
+      DataSource, Evaluation, J48, os, Random
+      5.5
+      BayesNet, ChartFactory, ChartPanel, ChartUtilities, DataSource, DefaultXYDataset, DefaultXYZDataset, Evaluation, File, GraphVisualizer, JFrame, J48, LinearRegression, NaiveBayes, os, PlaceNode2, PlotOrientation, ThresholdCurve, TreeVisualizer, XYBubbleRenderer
+      5.8
+      Evaluation, J48, SMOreg, ZeroR
+      5.10
+      Evaluation, Classifier, converters, jvm, os, Random
+      5.11
+      Groovy imports
+      ChartFactory, ChartPanel, DataSource, DefaultXYDataset, Instance, Instances, JFrame, J48, NaiveBayes, PlotOrientation, Random, ThresholdCurve
+      5.15
+      Plus
+      Environment variable
+      5.2, 5.3, 5.7, 5.17
+      Ethics
+      5.21
+      Groovy
+      5.15–5.20
+      IDRC Shootout challenge
+      5.15, 5.17, 5.18
+      Kaggle
+      5.21
+      Python/Jython
+      5.2–5.14
+      Python-weka-wrapper
+      5.11
+      Scripting
+      5.1–5.20

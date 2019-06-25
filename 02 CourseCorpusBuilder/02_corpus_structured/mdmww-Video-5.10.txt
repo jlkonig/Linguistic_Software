@@ -1,0 +1,3 @@
+Learning curves 
+How much data do you need? There is no easy answer; it depends on many features of the problem and dataset. One way to estimate it is to plot a learning curve, and this can be done using the “resample” filter – along with the FilteredClassifier, to avoid resampling the test set (which is undesirable). The performance figures you obtain are estimates, and you can improve their reliability by repeating the experiment several times.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

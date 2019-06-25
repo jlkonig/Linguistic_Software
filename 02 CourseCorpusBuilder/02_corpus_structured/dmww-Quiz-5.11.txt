@@ -1,0 +1,189 @@
+Post-course assessment
+Question 1
+Which two of these Weka filters turn numeric attributes into nominal ones?
+Select all the answers you think are correct.
+Discretize
+NumericToNominal
+NumericTransform
+StringToNominal
+Obfuscate
+---
+Correct answer(s):
+Discretize
+NumericToNominal
+
+Question 2
+Use Weka’s Classify panel to determine who came up with the SMO algorithm for support vector machines, and what year their paper was published in.
+Select all the answers you think are correct.
+John Doe
+John Plato
+John Platt
+1996
+1998
+2006
+---
+Correct answer(s):
+John Platt
+1998
+
+Question 3
+What shape are the decision boundaries when AdaBoostM1 is used on the two-dimensional Iris data, iris.2D.arff?
+Horizontal stripe pattern with crisp boundaries
+Horizontal stripe pattern with fuzzy boundaries
+Checkered pattern with crisp boundaries
+Checkered pattern with fuzzy boundaries
+Curved boundaries with gradient
+Uneven, crisp boundaries
+Uneven, fuzzy boundaries
+---
+Correct answer(s):
+Checkered pattern with crisp boundaries
+
+Question 4
+This question and the next two are about how accurately the weight of a slug can be predicted from its length. Download the slug.arff dataset, use linear regression to predict the weight from the length, and determine the correlation coefficient using 10-fold cross-validation. What is it?
+0.88
+0.89
+0.90
+0.91
+0.92
+---
+Correct answer(s):
+
+Question 4
+This question and the next two are about how accurately the weight of a slug can be predicted from its length. Download the slug.arff dataset, use linear regression to predict the weight from the length, and determine the correlation coefficient using 10-fold cross-validation. What is it?
+0.88
+0.89
+0.90
+0.91
+0.92
+---
+Correct answer(s):
+0.91
+
+Question 5
+When visualizing the slug data in Weka, it seems from the graph of weight versus length that a logarithmic transform of one or both attributes may help the performance of linear regression. This can be done using Weka’s AddExpression filter. Figure out how to use this filter. What is the mean and standard deviation of the new attribute that is obtained by applying a logarithmic transform to the existing length attribute?
+Select all the answers you think are correct.
+Mean: 2.2
+Mean: 2.3
+Mean: 3.6
+Mean: 42.1
+StdDev: 0.62
+StdDev: 3.02
+StdDev: 4.54
+StdDev: 24.80
+---
+Correct answer(s):
+Mean: 3.6
+StdDev: 0.62
+
+Question 6
+Apply a logarithmic transform to both the length and weight attributes in the slug data. Use linear regression to predict log weight from log length, and determine the correlation coefficient using 10-fold cross-validation. What is it?
+0.96
+0.97
+0.98
+0.99
+1
+---
+Correct answer(s):
+0.97
+
+Question 7
+Download the schizo.arff dataset and run ZeroR, OneR, J48 and SMO to predict the class (schizophrenic/non-schizophrenic), evaluating using 10-fold cross-validation. What order do the methods come in, from least accurate to most accurate?
+---
+Correct answer(s):
+
+Question 8
+The predictions of OneR and J48 on the schizo dataset in the last question seem suspiciously good. In fact, they are anomalous because of the existence of one particular attribute. Identify this attribute, remove it, and test the four methods again (also using 10-fold cross-validation). What order do they come in now, from least accurate to most accurate?
+---
+Correct answer(s):
+
+Question 9
+With the original schizo dataset (before the attribute was removed), two of the classifiers were overfitting badly. Which two?
+Select all the answers you think are correct.
+OneR
+J48
+SMO
+ZeroR
+---
+Correct answer(s):
+OneR
+J48
+
+Question 10
+Using 10-fold cross-validation, evaluate the percentage classification accuracy of IBk (k = 3) on the soybean dataset when the class value of all instances (both training and test instances) is corrupted by 25% noise using Weka’s AddNoise filter.
+40%
+56%
+60%
+63%
+64%
+---
+Correct answer(s):
+64%
+
+Question 11
+Restore the original soybean.arff dataset and evaluate the performance of J48, selecting Percentage split as the test option with 90% as the parameter, using the random seed values 1, 2, 3, 4 and 5. What is the mean and standard deviation of the percentage classification accuracy?
+Select all the answers you think are correct.
+Mean: 89.7
+Mean: 91.8
+Mean: 94.1
+StdDev: 2.0
+StdDev: 2.1
+StdDev: 2.2
+---
+Correct answer(s):
+Mean: 91.8
+StdDev: 2.2
+
+Question 12
+Repeat the experiment in the previous question using 10-fold cross-validation as the test option and the same random seed values: 1, 2, 3, 4, and 5. What is the mean and standard deviation of the percentage classification accuracy now?
+Select all the answers you think are correct.
+Mean: 90.9
+Mean: 91.3
+Mean: 91.8
+StdDev: 0.7
+StdDev: 0.8
+StdDev: 0.9
+---
+Correct answer(s):
+Mean: 91.3
+StdDev: 0.8
+
+Question 13
+Reset the random seed value back to 1. Open the vote.arff dataset, run the four classifiers IBk, J48, Logistic, and SMO, and record the classification accuracy using 10-fold cross-validation. What order do the algorithms come in, from least accurate to most accurate?
+IBk = Logistic < J48 < SMO
+Logistic < IBk < J48 = SMO
+J48 = IBk < Logistic < SMO
+IBk < Logistic = SMO < J48
+---
+Correct answer(s):
+IBk < Logistic = SMO < J48
+
+Question 14
+Open the unbalanced.arff dataset, run the classifiers ZeroR, OneR, J48, and SMO, and record the classification accuracy using 10-fold cross-validation. Which of these is the most notable feature of the results?
+They all take the same amount of time
+They all have the same mean absolute error
+They all have some unclassified instances
+They all produce the same classification accuracy
+---
+Correct answer(s):
+They all produce the same classification accuracy
+
+Question 15
+The default configuration of AdaBoostM1 is 10 boosting iterations using the DecisionStump classifier. Performance might improve if 100 iterations were used instead. And it might improve if you kept to 10 iterations but used J48 instead of DecisionStump.
+Using the ionosphere dataset and 10-fold cross-validation, what percentage classification accuracy measures result from AdaBoostM1 with:
+a. 10 iterations using DecisionStump
+b. 100 iterations using DecisionStump
+c. 10 iterations using J48
+Select all the answers you think are correct.
+(a) 90.9
+(a) 92.9
+(b) 90.9
+(b) 92.9
+(b) 93.2
+(c) 90.9
+(c) 93.2
+---
+Correct answer(s):
+(a) 90.9
+(b) 92.9
+(c) 93.2

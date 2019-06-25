@@ -1,0 +1,40 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Diabetes
+      2.11, 2.12, 2.16
+      Glass
+      2.13
+      Iris
+      2.13, 2.15
+      Segment-challenge/test
+      2.4, 2.5, 2.7, 2.8, 2.9, 2.13
+      Classifiers
+      IBk
+      2.12, 2.13
+      J48
+      2.7, 2.9, 2.11, 2.12, 2.13, 2.16, 2.17
+      NaiveBayes
+      2.12, 2.13
+      PART
+      2.12, 2.13
+      UserClassifier
+      2.4, 2.5
+      ZeroR
+      2.12, 2.13, 2.15, 2.16
+      Packages
+      UserClassifier
+      2.2
+      Plus …
+      Baseline accuracy
+      2.12, 2.13
+      Cross-validation
+      2.14, 2.15, 2.16, 2.17
+      Installing packages
+      2.2, 2.3
+      Random number seed
+      2.9, 2.10, 2.11
+      Test options
+      2.7, 2.8, 2.11, 2.13, 2.14, 2.15, 2.16, 2.17

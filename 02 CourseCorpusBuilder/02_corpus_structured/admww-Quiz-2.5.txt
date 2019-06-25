@@ -1,0 +1,134 @@
+Using MOA from Weka
+Question 1
+Find the MOA data generator, which now appears when you click the Generate button in WEKA’s Preprocess panel.
+Create 1,000,000 instances using MOA’s hyperplane generator (click the Edit button beside “generator” and select HyperplaneGenerator from the dropdown list at the top).
+MOA’s classifiers are in WEKA’s meta category. First select MOA, and then configure it, selecting the Hoeffding Tree classifier – again by clicking the Edit button and selecting from the dropdown list at the top.
+Perform a percentage split evaluation (default parameter) using MOA’s Hoeffding Tree classifier. Repeat the evaluation using WEKA’s Hoeffding Tree classifier (in WEKA’s trees category).
+Which is faster, and which is more accurate?
+Select all the answers you think are correct.
+WEKA’s Hoeffding Tree is faster
+MOA’s Hoeffding Tree is faster
+WEKA’s Hoeffding Tree is more accurate
+MOA’s Hoeffding Tree is more accurate
+---
+Correct answer(s):
+MOA’s Hoeffding Tree is faster
+WEKA’s Hoeffding Tree is more accurate
+---
+Feedback correct:
+Weka’s HoeffdingTree gives 90.2715% classification accuracy; Moa’s gives 89.7818%
+(However, the difference is unlikely to be significant.)
+---
+Feedback incorrect:
+Weka’s HoeffdingTree gives 90.2715% classification accuracy; Moa’s gives 89.7818%
+(However, the difference is unlikely to be significant.)
+
+Question 2
+The elecNormNew dataset contains data collected from the Australian New South Wales Electricity Market, where prices change every 5 minutes according to supply and demand.
+It contains 45,312 instances and 9 attributes, including the class label, which indicates whether the price is UP or DOWN relative to a moving average over the past 24 hours.
+Load elecNormNew.arff into the Weka Explorer and run a 10-fold cross-validation using MOA’s Hoeffding Tree. What is the percentage of correctly classified instances?
+73.8%
+74.3%
+74.4%
+76.6%
+76.8%
+76.9%
+---
+Correct answer(s):
+76.6%
+---
+Feedback correct:
+(More precisely, 76.6199%)
+---
+Feedback incorrect:
+That’s the result using Percentage split, not cross-validation
+---
+Feedback incorrect:
+That’s the result using Weka’s Hoeffding Tree. You should instead select meta > MOA, and then configure the MOA wrapper to use moa.classifiers.trees.HoeffdingTree instead of the default, which is trees.DecisionStump.
+
+Question 3
+Hoeffding option trees are regular Hoeffding trees equipped with additional “option” nodes that allow several tests to be applied.
+They consist of a single structure that efficiently represents multiple trees: a particular example can travel down several paths, contributing, in different ways, to different options. Run a 10-fold cross-validation using MOA’s HoeffdingOptionTree classifier. What is its accuracy?
+76.4%
+76.5%
+76.6%
+76.8%
+76.9%
+77.0%
+---
+Correct answer(s):
+77.0%
+---
+Feedback correct:
+(More precisely, 77.0458%)
+---
+Feedback incorrect:
+That’s the result using Percentage split, not cross-validation
+
+Question 4
+The MOA classifier called meta.OzaBag (its full name is moa.classifiers.meta.OzaBag) is an online bagging method for Hoeffding trees.
+Use this classifier with HoeffdingTree as the base learner (the default) to bag 10 trees (the default). How does the accuracy (again evaluated using 10-fold cross-validation) compare with that of a single Hoeffding option tree?
+Better
+Worse
+---
+Correct answer(s):
+Better
+---
+Feedback correct:
+OzaBag (with 10 regular Hoeffding trees) gets 77.6%, whereas Hoeffding option trees get 77.0%.
+
+Question 5
+Let’s see how the performance of these online methods improves with more data. Check the accuracy of MOA’s HoeffdingOptionTree under these two conditions:
+    Apply Weka’s Resample filter (unsupervised version) to make an oversampled version of the elecNormNew dataset, increasing its size 10 times (use a 1000% sample size, with replacement)
+    Increase the original dataset’s size 40 times (undo the previous filtering operation and repeat it for a 4000% sample)
+What are the two accuracies?
+Select all the answers you think are correct.
+81.6% with a ×10 dataset
+81.6% with a ×40 dataset
+87.3% with a ×10 dataset
+87.3% with a ×40 dataset
+88.3% with a ×40 dataset
+---
+Correct answer(s):
+81.6% with a ×10 dataset
+87.3% with a ×40 dataset
+
+Question 6
+An alternative to oversampling is to bag online classifiers using the original dataset.
+With the original elecNormNew dataset (without oversampling), use MOA’s online classifiers to bag several Hoeffding option trees (note: option trees – you will need to change the base learner in OzaBag), first 10, and then 40 of them (again, with 10-fold cross-validation).
+What is the accuracy of online bagging of 40 Hoeffding option trees?
+77.61%
+77.84%
+78.30%
+78.32%
+---
+Correct answer(s):
+78.32%
+---
+Feedback incorrect:
+Are you sure you used 40 trees, and Hoeffding option trees rather than Hoeffding trees?
+---
+Feedback incorrect:
+Are you sure you used Hoeffding option trees rather than Hoeffding trees as the base learner?
+---
+Feedback incorrect:
+This is the result for 10 trees: are you sure you used an ensemble size of 40?
+
+Question 7
+In this case, does increasing the number of instances by oversampling the dataset by a certain factor (10 or 40) yield better performance than increasing the number of classifiers by the same factor (10 or 40) and bagging them?
+No
+Yes, when the factor is 10 (not 40)
+Yes, when the factor is 40 (not 10)
+Yes, for both values
+---
+Correct answer(s):
+
+Question 7
+In this case, does increasing the number of instances by oversampling the dataset by a certain factor (10 or 40) yield better performance than increasing the number of classifiers by the same factor (10 or 40) and bagging them?
+No
+Yes, when the factor is 10 (not 40)
+Yes, when the factor is 40 (not 10)
+Yes, for both values
+---
+Correct answer(s):
+Yes, for both values

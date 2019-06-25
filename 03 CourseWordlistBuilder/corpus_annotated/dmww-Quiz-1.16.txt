@@ -1,0 +1,50 @@
+More/RBR/more/1 irises/NNS/iris/8 
+Question/NN/question/1 1/CD/1/0 
+Do/VB/do/1 an/DT/a/1 image/NN/image/2 search/NN/search/2 on/IN/on/1 the/DT/the/1 web/NN/web/1 to/TO/to/1 find/VB/find/1 pictures/NNS/picture/1 of/IN/of/1 Iris/NNP/iris/8 setosa/NN/setosa/0 ,/,/,/0 Iris/NNP/iris/8 virginica/NN/virginica/0 and/CC/and/1 Iris/NNP/iris/8 versicolor/NN/versicolor/22 to/TO/to/1 see/VB/see/1 what/WP/what/1 the/DT/the/1 different/JJ/different/1 types/NNS/type/1 look/VBP/look/1 like/IN/like/1 ./././0 
+Label/NNP/label/3 the/DT/the/1 images/NNS/image/2 below/IN/below/1 according/VBG/according/2 to/TO/to/1 their/PRP$/they/1 type/NN/type/1 by/IN/by/1 choosing/VBG/choose/1 the/DT/the/1 correct/JJ/correct/2 sequence/NN/sequence/3 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Iris/NNP/iris/8 setosa/NN/setosa/0 
+Iris/NNP/iris/8 versicolor/NN/versicolor/22 
+Iris/NNP/iris/8 virginica/NN/virginica/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Hint/NN/hint/3 :/:/:/0 Since/IN/since/1 this/DT/this/1 course/NN/course/1 is/VBZ/be/1 not/RB/not/1 about/IN/about/1 web/NN/web/1 searching/NN/search/2 ,/,/,/0 here/RB/here/1 ’/VBZ/’/0 s/PRP/be/1 a/DT/a/1 tip/NN/tip/2 :/:/:/0 you/PRP/you/1 can/MD/can/1 find/VB/find/1 these/DT/this/1 images/NNS/image/2 at/IN/at/1 http/NN/http/0 :/:/:/0 //www.statlab.uni-heidelberg.de/data/iris//JJ///www.statlab.uni-heidelberg.de/data/iris//0 
+
+Question/NN/question/1 2/CD/2/0 
+Which/NNP/which/1 of/IN/of/1 these/DT/this/1 attributes/NNS/attribute/3 ,/,/,/0 taken/VBN/take/1 by/IN/by/1 itself/PRP/it/1 ,/,/,/0 gives/VBZ/give/1 the/DT/the/1 best/JJS/best/1 indication/NN/indicate/2 of/IN/of/1 the/DT/the/1 class/NN/class/1 ?/./?/0 
+sepallength/NN/sepallength/0 
+sepalwidth/NN/sepalwidth/0 
+petalwidth/NN/petalwidth/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+petalwidth/NN/petalwidth/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+When/WRB/when/1 you/PRP/you/1 look/VBP/look/1 at/IN/at/1 the/DT/the/1 class/NN/class/1 distribution/NN/distribute/3 for/IN/for/1 petalwidth/NN/petalwidth/0 ,/,/,/0 you/PRP/you/1 can/MD/can/1 see/VB/see/1 that/IN/that/1 it/PRP/it/1 has/VBZ/have/1 the/DT/the/1 least/JJS/least/1 overlap/NN/overlap/4 of/IN/of/1 colors/NNS/colour/1 for/IN/for/1 all/PDT/all/1 the/DT/the/1 bars/NNS/bar/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Weka/NNP/weka/23 can/MD/can/1 read/VB/read/1 Comma/NNP/comma/9 Separated/NNP/separate/2 Values/NNP/value/2 (/(/(/0 .csv/NNP/.csv/0 )/)/)/0 format/NN/format/3 files/NNS/file/2 by/IN/by/1 selecting/VBG/select/2 the/DT/the/1 appropriate/JJ/appropriate/3 File/NNP/file/2 Format/NNP/format/3 in/IN/in/1 the/DT/the/1 Open/NNP/open/1 file/NN/file/2 dialog/NN/dialogue/3 ./././0 Ascertain/NN/ascertain/6 by/IN/by/1 experiment/JJ/experiment/3 how/WRB/how/1 Weka/NNP/weka/23 determines/VBZ/determine/2 the/DT/the/1 attribute/NN/attribute/3 names/NNS/name/1 and/CC/and/1 value/NN/value/2 sets/NNS/set/1 by/IN/by/1 creating/VBG/create/2 a/DT/a/1 small/JJ/small/1 spreadsheet/NN/spreadsheet/6 file/NN/file/2 ,/,/,/0 saving/VBG/save/1 it/PRP/it/1 in/IN/in/1 Comma/NNP/comma/9 Separated/NNP/separate/2 Values/NNP/value/2 (/(/(/0 .csv/NNP/.csv/0 )/)/)/0 format/NN/format/3 ,/,/,/0 and/CC/and/1 loading/VBG/load/1 it/PRP/it/1 into/IN/into/1 Weka/NNP/weka/23 ./././0 
+What/WP/what/1 should/MD/should/1 be/VB/be/1 the/DT/the/1 first/JJ/first/1 row/NN/row/2 of/IN/of/1 a/DT/a/1 .csv/JJ/.csv/0 format/NN/format/3 file/NN/file/2 that/WDT/that/1 contains/VBZ/contain/2 the/DT/the/1 weather/NN/weather/1 data/NNS/data/3 ?/./?/0 
+outlook/NN/outlook/4 ,/,/,/0 temperature/NN/temperature/3 ,/,/,/0 humidity/NN/humid/6 ,/,/,/0 windy/NN/wind/1 ,/,/,/0 play/NN/play/1 
+sunny/JJ/sun/1 ,/,/,/0 hot/JJ/hot/1 ,/,/,/0 high/JJ/high/1 ,/,/,/0 FALSE/NNP/false/3 ,/,/,/0 no/DT/no/1 
+sunny/JJ/sun/1 ,/,/,/0 hot/JJ/hot/1 ,/,/,/0 high/JJ/high/1 ,/,/,/0 TRUE/NNP/true/1 ,/,/,/0 no/DT/no/1 
+rainy/NN/rain/1 ,/,/,/0 mild/NN/mild/3 ,/,/,/0 high/JJ/high/1 ,/,/,/0 TRUE/NNP/true/1 ,/,/,/0 no/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+outlook/NN/outlook/4 ,/,/,/0 temperature/NN/temperature/3 ,/,/,/0 humidity/NN/humid/6 ,/,/,/0 windy/NN/wind/1 ,/,/,/0 play/NN/play/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 first/JJ/first/1 row/NN/row/2 of/IN/of/1 the/DT/the/1 .csv/NNP/.csv/0 file/NN/file/2 should/MD/should/1 give/VB/give/1 the/DT/the/1 attribute/NN/attribute/3 names/NNS/name/1 ,/,/,/0 separated/VBN/separate/2 by/IN/by/1 commas/NN/comma/9 ,/,/,/0 which/WDT/which/1 for/IN/for/1 the/DT/the/1 weather/NN/weather/1 data/NNS/data/3 are/VBP/be/1 outlook/NN/outlook/4 ,/,/,/0 temperature/NN/temperature/3 ,/,/,/0 humidity/NN/humid/6 ,/,/,/0 windy/NN/wind/1 and/CC/and/1 play/NN/play/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Weka/NNP/weka/23 can/MD/can/1 read/VB/read/1 Comma/NNP/comma/9 Separated/NNP/separate/2 Values/NNP/value/2 (/(/(/0 .csv/NNP/.csv/0 )/)/)/0 format/NN/format/3 files/NNS/file/2 by/IN/by/1 selecting/VBG/select/2 the/DT/the/1 appropriate/JJ/appropriate/3 File/NNP/file/2 Format/NNP/format/3 in/IN/in/1 the/DT/the/1 Open/NNP/open/1 file/NN/file/2 dialog/NN/dialogue/3 ./././0 Ascertain/NN/ascertain/6 by/IN/by/1 experiment/JJ/experiment/3 how/WRB/how/1 Weka/NNP/weka/23 determines/VBZ/determine/2 the/DT/the/1 attribute/NN/attribute/3 names/NNS/name/1 and/CC/and/1 value/NN/value/2 sets/NNS/set/1 by/IN/by/1 creating/VBG/create/2 a/DT/a/1 small/JJ/small/1 spreadsheet/NN/spreadsheet/6 file/NN/file/2 ,/,/,/0 saving/VBG/save/1 it/PRP/it/1 in/IN/in/1 Comma/NNP/comma/9 Separated/NNP/separate/2 Values/NNP/value/2 (/(/(/0 .csv/NNP/.csv/0 )/)/)/0 format/NN/format/3 ,/,/,/0 and/CC/and/1 loading/VBG/load/1 it/PRP/it/1 into/IN/into/1 Weka/NNP/weka/23 ./././0 
+What/WP/what/1 should/MD/should/1 be/VB/be/1 the/DT/the/1 first/JJ/first/1 row/NN/row/2 of/IN/of/1 a/DT/a/1 .csv/JJ/.csv/0 format/NN/format/3 file/NN/file/2 that/WDT/that/1 contains/VBZ/contain/2 the/DT/the/1 weather/NN/weather/1 data/NNS/data/3 ?/./?/0 
+outlook/NN/outlook/4 ,/,/,/0 temperature/NN/temperature/3 ,/,/,/0 humidity/NN/humid/6 ,/,/,/0 windy/NN/wind/1 ,/,/,/0 play/NN/play/1 
+sunny/JJ/sun/1 ,/,/,/0 hot/JJ/hot/1 ,/,/,/0 high/JJ/high/1 ,/,/,/0 FALSE/NNP/false/3 ,/,/,/0 no/DT/no/1 
+sunny/JJ/sun/1 ,/,/,/0 hot/JJ/hot/1 ,/,/,/0 high/JJ/high/1 ,/,/,/0 TRUE/NNP/true/1 ,/,/,/0 no/DT/no/1 
+rainy/NN/rain/1 ,/,/,/0 mild/NN/mild/3 ,/,/,/0 high/JJ/high/1 ,/,/,/0 TRUE/NNP/true/1 ,/,/,/0 no/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

@@ -1,0 +1,73 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Breast-cancer
+      3.8, 3.19
+      Contact-lenses
+      3.5
+      Credit-g
+      3.8, 3.19
+      Diabetes
+      3.7, 3.8, 3.19
+      Glass
+      3.8
+      Ionosphere
+      3.8, 3.19
+      Iris
+      3.8, 3.16, 3.17, 3.18
+      Segment-challenge
+      3.8
+      Schizo
+      3.19
+      Supermarket
+      3.12, 3.13, 3.14
+      Vote
+      3.11, 3.19
+      Weather
+      3.2, 3.5, 3.10, 3.12
+      Classifiers
+      J48
+      3.5, 3.8
+      JRip
+      3.7, 3.8
+      OneR
+      3.8, 3.11
+      PART
+      3.7, 3.8
+      PRISM
+      3.2, 3.5
+      ZeroR
+      3.8
+      Metalearners
+      ClassificationViaClustering
+      3.18
+      Other learning schemes
+      Apriori
+      3.10, 3.11, 3.12, 3.13, 3.14
+      Cobweb
+      3.16, 3.17
+      EM
+      3.16, 3.17, 3.19
+      SimpleKMeans
+      3.16, 3.17, 3.18, 3.19
+      XMeans
+      3.16, 3.17, 3.19
+      Filters
+      AddCluster
+      3.18
+      Packages
+      ClassificationViaClustering
+      3.19
+      SimpleEducationalLearningSchemes
+      3.3
+      XMeans
+      3.17
+      Plus …
+      Decision list
+      3.5
+      Experimenter interface
+      3.8, 3.19
+      Missing values
+      3.13

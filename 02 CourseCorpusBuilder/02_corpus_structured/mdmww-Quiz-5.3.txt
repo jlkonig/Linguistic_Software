@@ -1,0 +1,162 @@
+Investigating the Voted Perceptron
+Question 1
+Load iris.arff into the Weka Explorer. How does VotedPerceptron perform on this dataset?
+Worse than 75% accuracy
+Better than 75% accuracy
+It doesn’t run
+---
+Correct answer(s):
+It doesn’t run
+---
+Feedback correct:
+VotedPerceptron can’t handle this data
+
+Question 2
+What’s the reason for the answer to the previous question?
+There are few class values
+There are more than 2 class values
+There are missing values
+---
+Correct answer(s):
+There are more than 2 class values
+---
+Feedback correct:
+VotedPerceptron can’t handle problems with more than 2 class values.
+Weka doesn’t show the reason because it simply refuses to run VotedPerceptron on this data, but you can trick it into trying to run it by using a meta-classifier (e.g. AttributeSelectedClassifier) and specifying VotedPerceptron. Then Weka will tell you that this classifier can’t handle a multi-valued nominal class.
+
+Question 3
+Delete all Iris-setosa instances and try again.
+You can delete the instances either by using the RemoveWithValues attribute filter or by multiply selecting these instances in the Edit window and right-clicking to delete. In either case you will have to save the file and change the header by editing it. Alternatively, if you are lazy (like me), you can avoid editing the header by saving as CSV and reloading. (Why does this work?)
+What accuracy does VotedPerceptron achieve on this 2-class Iris data?
+75%
+89%
+98%
+100%
+---
+Correct answer(s):
+89%
+
+Question 4
+How does this compare with SMO, J48 and Naive Bayes?
+VotedPerceptron performs better than some
+VotedPerceptron performs better than all three
+VotedPerceptron performs worse than all three
+---
+Correct answer(s):
+VotedPerceptron performs worse than all three
+---
+Feedback correct:
+Bummer!
+
+Question 5
+Let’s check whether VotedPerceptron is affected by the order of presentation of instances.
+Randomize the order (hint: check for a suitable filter) and try again.
+Does this make it generally better or generally worse?
+Generally better
+Generally worse
+---
+Correct answer(s):
+Generally worse
+---
+Feedback correct:
+I got 77%, 79%, 89% and 72% after successive applications of the Randomize instance filter with the default parameter, compared to 89% before randomization.
+
+Question 6
+Use the Experimenter to compare VotedPerceptron with SMO on breast-cancer.arff, credit-g.arff, diabetes.arff, and ionosphere.arff (all 2-class datasets).
+For which datasets does VotedPerceptron significantly outperform SMO?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+ionosphere
+none
+---
+Correct answer(s):
+none
+---
+Feedback correct:
+Bummer!
+
+Question 7
+For which datasets does SMO significantly outperform VotedPerceptron?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+ionosphere
+none
+---
+Correct answer(s):
+credit-g
+diabetes
+
+Question 8
+Disregarding significance, for which datasets does VotedPerceptron outperform SMO?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+ionosphere
+none
+---
+Correct answer(s):
+breast-cancer
+
+Question 9
+Disregarding significance, for which datasets does SMO outperform VotedPerceptron?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+ionosphere
+none
+---
+Correct answer(s):
+credit-g
+diabetes
+ionosphere
+
+Question 10
+Change the “Comparison field” to UserCPU_Time_training.
+Is VotedPerceptron significantly faster than SMO?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+On my machine it’s significantly faster on all 4 datasets, although on other machines the speed difference on the diabetes dataset may not be significant
+
+Question 11
+Let’s finish by turning to our old workhorse, J48, on the same 4 datasets (breast-cancer.arff, credit-g.arff, diabetes.arff, and ionosphere.arff), again using the Experimenter to do the comparison.
+Does VotedPerceptron outperform J48?
+Sometimes
+Always
+Never
+---
+Correct answer(s):
+Never
+---
+Feedback correct:
+Bummer!
+
+Question 12
+Is VotedPerceptron always faster to train than J48?
+About the same
+Yes
+No
+---
+Correct answer(s):
+About the same
+---
+Feedback correct:
+On my computer, VotedPerceptron is significantly faster in terms of UserCPU_Time_training on breast-cancer, diabetes and ionosphere; significantly slower on credit-g. However, other computers report no significant differences.
+
+Question 12
+Is VotedPerceptron always faster to train than J48?
+About the same
+Yes
+No
+---
+Correct answer(s):

@@ -1,0 +1,141 @@
+Attribute/NNP/attribute/3 selection/NN/select/2 for/IN/for/1 text/JJ/text/3 classification/NN/classification/4 
+Question/NN/question/1 1/CD/1/0 
+In/IN/in/1 the/DT/the/1 Explorer/NNP/explore/3 ,/,/,/0 load/NN/load/1 ReutersCorn-train/NNP/reuterscorn-train/0 and/CC/and/1 apply/VB/apply/2 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 (/(/(/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 In/IN/in/1 the/DT/the/1 Classify/NNP/classify/4 panel/NN/panel/3 ,/,/,/0 apply/VB/apply/2 NaiveBayes/NNP/naivebayes/0 ./././0 Note/NN/note/1 that/IN/that/1 Weka/NNP/weka/23 assumes/VBZ/assume/2 that/IN/that/1 the/DT/the/1 last/JJ/last/1 attribute/NN/attribute/3 (/(/(/0 zone/NN/zone/3 )/)/)/0 is/VBZ/be/1 the/DT/the/1 class/NN/class/1 ,/,/,/0 so/RB/so/1 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 change/VB/change/1 this/DT/this/1 to/TO/to/1 class-att/NN/class-att/0 ./././0 
+Check/NNP/check/1 two/CD/two/1 of/IN/of/1 the/DT/the/1 boxes/NNS/box/1 below/IN/below/1 to/TO/to/1 indicate/VB/indicate/2 the/DT/the/1 accuracy/NN/accurate/3 obtained/VBN/obtain/3 by/IN/by/1 NaiveBayes/NNP/naivebayes/0 and/CC/and/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 (/(/(/0 using/VBG/use/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 )/)/)/0 ./././0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 89/CD/89/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 90/CD/90/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 91/CD/91/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 92/CD/92/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 96/CD/96/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 97/CD/97/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 98/CD/98/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 99/CD/99/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 90/CD/90/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 98/CD/98/0 %/NN/%/0 
+
+Question/NN/question/1 2/CD/2/0 
+In/IN/in/1 the/DT/the/1 Select/NNP/select/2 attributes/VBZ/attribute/3 panel/NN/panel/3 ,/,/,/0 use/NN/use/1 CfsSubsetEval/NNP/cfssubseteval/0 with/IN/with/1 BestFirst/NNP/bestfirst/0 search/NN/search/2 (/(/(/0 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 Again/NNP/again/1 ,/,/,/0 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 change/VB/change/1 the/DT/the/1 class/NN/class/1 from/IN/from/1 zone/NN/zone/3 to/TO/to/1 class-att/NN/class-att/0 ./././0 
+How/WRB/how/1 many/JJ/many/1 attributes/NNS/attribute/3 are/VBP/be/1 selected/VBN/select/2 ?/./?/0 
+8/CD/8/0 
+16/CD/16/0 
+256/CD/256/0 
+1024/CD/1024/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+16/CD/16/0 
+
+Question/NN/question/1 3/CD/3/0 
+In/IN/in/1 the/DT/the/1 Classify/NNP/classify/4 panel/NN/panel/3 ,/,/,/0 apply/VB/apply/2 the/DT/the/1 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 with/IN/with/1 CfsSubsetEval/NNP/cfssubseteval/0 and/CC/and/1 BestFirst/NNP/bestfirst/0 search/NN/search/2 (/(/(/0 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 
+Check/NNP/check/1 two/CD/two/1 of/IN/of/1 the/DT/the/1 boxes/NNS/box/1 below/IN/below/1 to/TO/to/1 indicate/VB/indicate/2 the/DT/the/1 accuracy/NN/accurate/3 obtained/VBN/obtain/3 by/IN/by/1 NaiveBayes/NNP/naivebayes/0 and/CC/and/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 ./././0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 96.5/CD/96.5/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 97.3/CD/97.3/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98.1/CD/98.1/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98.9/CD/98.9/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 96.2/CD/96.2/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 97.6/CD/97.6/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 98.5/CD/98.5/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 99.3/CD/99.3/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98.9/CD/98.9/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 Multinomial/NNP/multinomial/23 :/:/:/0 99.3/CD/99.3/0 %/NN/%/0 
+
+Question/NN/question/1 4/CD/4/0 
+In/IN/in/1 each/DT/each/1 case/NN/case/1 the/DT/the/1 error/NN/error/3 rate/NN/rate/1 on/IN/on/1 the/DT/the/1 minority/NN/minor/2 class/NN/class/1 is/VBZ/be/1 the/DT/the/1 same/JJ/same/1 ./././0 How/WRB/how/1 many/JJ/many/1 errors/NNS/error/3 are/VBP/be/1 there/RB/there/1 (/(/(/0 out/IN/out/1 of/IN/of/1 the/DT/the/1 45/CD/45/0 instances/NNS/instance/2 in/IN/in/1 that/DT/that/1 class/NN/class/1 )/)/)/0 ?/./?/0 
+7/CD/7/0 
+9/CD/9/0 
+11/CD/11/0 
+20/CD/20/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+7/CD/7/0 
+
+Question/NN/question/1 5/CD/5/0 
+Return/NN/return/1 to/TO/to/1 the/DT/the/1 Select/NNP/select/2 attributes/VBZ/attribute/3 panel/NN/panel/3 and/CC/and/1 examine/VB/examine/2 the/DT/the/1 attributes/NNS/attribute/3 that/WDT/that/1 were/VBD/be/1 selected/VBN/select/2 by/IN/by/1 CfsSubsetEval/NNP/cfssubseteval/0 ./././0 Three/CD/three/1 of/IN/of/1 them/PRP/they/1 are/VBP/be/1 the/DT/the/1 same/JJ/same/1 word/NN/word/1 ,/,/,/0 expressed/VBN/express/1 in/IN/in/1 different/JJ/different/1 combinations/NNS/combine/2 of/IN/of/1 upper-/JJ/upper/2 and/CC/and/1 lower-case/JJ/lower-case/0 letters/NNS/letter/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 that/DT/that/1 word/NN/word/1 ?/./?/0 
+Taiwan/NNP/taiwan/0 
+Wheat/NN/wheat/5 
+Corn/NNP/corn/4 
+International/NNP/international/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Corn/NNP/corn/4 
+
+Question/NN/question/1 6/CD/6/0 
+That/DT/that/1 makes/VBZ/make/1 one/CD/one/1 suspect/NN/suspect/2 that/IN/that/1 it/PRP/it/1 would/MD/would/1 be/VB/be/1 a/DT/a/1 good/JJ/good/1 idea/NN/idea/1 to/TO/to/1 convert/VB/convert/3 everything/NN/every/1 into/IN/into/1 lower-case/JJ/lower-case/0 before/IN/before/1 performing/VBG/perform/2 attribute/JJ/attribute/3 selection/NN/select/2 (/(/(/0 this/DT/this/1 is/VBZ/be/1 called/VBN/call/1 “/JJ/“/0 case-folding/JJ/case-folding/0 ”/NN/”/0 )/)/)/0 ./././0 Return/VB/return/1 to/TO/to/1 the/DT/the/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 and/CC/and/1 configure/NN/configure/4 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 to/TO/to/1 do/VB/do/1 that/DT/that/1 ;/:/;/0 then/RB/then/1 repeat/VB/repeat/2 the/DT/the/1 attribute/JJ/attribute/3 selection/NN/select/2 process/NN/process/2 on/IN/on/1 the/DT/the/1 Select/NNP/select/2 attributes/VBZ/attribute/3 panel/NN/panel/3 (/(/(/0 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 change/VB/change/1 the/DT/the/1 class/NN/class/1 to/TO/to/1 class-att/VB/class-att/0 again/RB/again/1 )/)/)/0 ./././0 
+How/WRB/how/1 many/JJ/many/1 attributes/NNS/attribute/3 are/VBP/be/1 selected/VBN/select/2 ?/./?/0 
+10/CD/10/0 
+16/CD/16/0 
+24/CD/24/0 
+34/CD/34/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+16/CD/16/0 
+
+Question/NN/question/1 7/CD/7/0 
+It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 just/RB/just/1 a/DT/a/1 coincidence/NN/coincide/3 that/IN/that/1 the/DT/the/1 same/JJ/same/1 number/NN/number/1 of/IN/of/1 attributes/NNS/attribute/3 (/(/(/0 16/CD/16/0 )/)/)/0 are/VBP/be/1 selected/VBN/select/2 in/IN/in/1 Q.6/NNP/q.6/0 as/IN/as/1 in/IN/in/1 Q.2/NNP/q.2/0 ./././0 With/IN/with/1 case-folding/NN/case-folding/0 ,/,/,/0 the/DT/the/1 reduced/JJ/reduce/2 attribute/NN/attribute/3 set/NN/set/1 contains/VBZ/contain/2 extra/JJ/extra/1 words/NNS/word/1 that/WDT/that/1 seem/VBP/seem/1 relevant/JJ/relevant/3 ,/,/,/0 e.g/RB/e.g/0 ./././0 assets/NNS/asset/3 ,/,/,/0 decision/NN/decision/2 ,/,/,/0 grain/NN/grain/3 ,/,/,/0 meal/NN/meal/1 ,/,/,/0 sorghum/NN/sorghum/13 ./././0 
+In/IN/in/1 the/DT/the/1 Classify/NNP/classify/4 panel/NN/panel/3 ,/,/,/0 apply/VB/apply/2 the/DT/the/1 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 again/RB/again/1 ,/,/,/0 with/IN/with/1 CfsSubsetEval/NNP/cfssubseteval/0 and/CC/and/1 BestFirst/NNP/bestfirst/0 search/NN/search/2 (/(/(/0 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 
+Check/NNP/check/1 two/CD/two/1 of/IN/of/1 the/DT/the/1 boxes/NNS/box/1 below/IN/below/1 to/TO/to/1 indicate/VB/indicate/2 the/DT/the/1 accuracy/NN/accurate/3 obtained/VBN/obtain/3 by/IN/by/1 NaiveBayes/NNP/naivebayes/0 and/CC/and/1 MultinomialNaiveBayes/NNP/multinomialnaivebayes/0 ./././0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 96/CD/96/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 97/CD/97/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98/CD/98/0 %/NN/%/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99/CD/99/0 %/NN/%/0 
+Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 96/CD/96/0 %/NN/%/0 
+Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 97/CD/97/0 %/NN/%/0 
+Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98/CD/98/0 %/NN/%/0 
+Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99/CD/99/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 98/CD/98/0 %/NN/%/0 
+Multinomial/JJ/multinomial/23 Naive/JJ/naive/5 Bayes/NNS/bayes/0 :/:/:/0 99/CD/99/0 %/NN/%/0 
+
+Question/NN/question/1 8/CD/8/0 
+In/IN/in/1 each/DT/each/1 case/NN/case/1 ,/,/,/0 the/DT/the/1 error/NN/error/3 rate/NN/rate/1 on/IN/on/1 the/DT/the/1 minority/NN/minor/2 class/NN/class/1 is/VBZ/be/1 the/DT/the/1 same/JJ/same/1 ./././0 How/WRB/how/1 many/JJ/many/1 errors/NNS/error/3 are/VBP/be/1 there/RB/there/1 ?/./?/0 
+0/CD/0/0 
+1/CD/1/0 
+2/CD/2/0 
+4/CD/4/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+1/CD/1/0 
+
+Question/NN/question/1 9/CD/9/0 
+It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 disappointing/VBG/disappoint/2 that/IN/that/1 the/DT/the/1 performance/NN/perform/2 of/IN/of/1 NaiveBayes/NNP/naivebayes/0 drops/NNS/drop/1 for/IN/for/1 this/DT/this/1 new/JJ/new/1 attribute/NN/attribute/3 set/VBN/set/1 ,/,/,/0 from/IN/from/1 99/CD/99/0 %/NN/%/0 (/(/(/0 actually/RB/actual/1 ,/,/,/0 98.9/CD/98.9/0 %/NN/%/0 )/)/)/0 without/IN/without/1 case-folding/NN/case-folding/0 for/IN/for/1 Q.3/NNP/q.3/0 to/TO/to/1 98/CD/98/0 %/NN/%/0 (/(/(/0 actually/RB/actual/1 ,/,/,/0 98.1/CD/98.1/0 %/NN/%/0 )/)/)/0 with/IN/with/1 case-folding/NN/case-folding/0 for/IN/for/1 Q.7/NNP/q.7/0 ./././0 
+However/RB/however/1 ,/,/,/0 the/DT/the/1 performance/NN/perform/2 of/IN/of/1 NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 with/IN/with/1 case-folding/NN/case-folding/0 is/VBZ/be/1 outstanding/JJ/outstanding/0 :/:/:/0 9/CD/9/0 errors/NNS/error/3 out/IN/out/1 of/IN/of/1 1509/CD/1509/0 (/(/(/0 0.6/CD/0.6/0 %/NN/%/0 )/)/)/0 for/IN/for/1 the/DT/the/1 majority/NN/majority/3 class/NN/class/1 ,/,/,/0 and/CC/and/1 1/CD/1/0 error/NN/error/3 out/IN/out/1 of/IN/of/1 45/CD/45/0 (/(/(/0 2/CD/2/0 %/NN/%/0 )/)/)/0 for/IN/for/1 the/DT/the/1 minority/NN/minor/2 class/NN/class/1 ./././0 
+When/WRB/when/1 investigating/VBG/investigate/2 document/NN/document/3 classification/NN/classification/4 with/IN/with/1 Multinomial/NNP/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 in/IN/in/1 Week/NNP/week/1 2/CD/2/0 (/(/(/0 Step/NNP/step/1 2.10/CD/2.10/0 )/)/)/0 ,/,/,/0 we/PRP/we/1 fiddled/VBD/fiddle/5 around/RP/around/1 with/IN/with/1 StringToWordVector/NNP/stringtowordvector/0 parameters/NNS/parameter/4 and/CC/and/1 finally/RB/final/1 achieved/VBD/achieve/3 a/DT/a/1 weighted-average/JJ/weighted-average/0 ROC/NNP/roc/0 Area/NNP/area/1 of/IN/of/1 0.977/CD/0.977/0 ,/,/,/0 with/IN/with/1 outputWordCounts/NNS/outputwordcounts/0 and/CC/and/1 lowerCaseTokens/VBZ/lowercasetokens/0 true/JJ/true/1 ,/,/,/0 minTermFreq/JJ/mintermfreq/0 5/CD/5/0 ,/,/,/0 wordsToKeep/RB/wordstokeep/0 800/CD/800/0 ,/,/,/0 and/CC/and/1 the/DT/the/1 Snowball/NNP/snowball/0 stemmer/NN/stemmer/0 ./././0 (/(/(/0 Perhaps/RB/perhaps/1 you/PRP/you/1 should/MD/should/1 repeat/VB/repeat/2 that/DT/that/1 experiment/NN/experiment/3 to/TO/to/1 refresh/VB/refresh/4 your/PRP$/you/1 memory/NN/memory/2 of/IN/of/1 what/WP/what/1 you/PRP/you/1 had/VBD/have/1 to/TO/to/1 do/VB/do/1 ./././0 Recall/VB/recall/2 that/IN/that/1 ReutersCorn-test.arff/NNP/reuterscorn-test.arff/0 was/VBD/be/1 used/VBN/use/1 for/IN/for/1 evaluation/NN/evaluate/3 ,/,/,/0 instead/RB/instead/1 of/IN/of/1 cross-validation/NN/cross-validation/0 ./././0 )/)/)/0 
+Is/VBZ/be/1 the/DT/the/1 ROC/NNP/roc/0 area/NN/area/1 we/PRP/we/1 have/VBP/have/1 just/RB/just/1 achieved/VBN/achieve/3 with/IN/with/1 Multinomial/NNP/multinomial/23 Naive/NNP/naive/5 Bayes/NNP/bayes/0 and/CC/and/1 attribute/JJ/attribute/3 selection/NN/select/2 greater/JJR/great/1 than/IN/than/1 this/DT/this/1 previously-best/JJ/previously-best/0 value/NN/value/2 of/IN/of/1 0.977/CD/0.977/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 is/VBZ/be/1 0.998/CD/0.998/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 considerably/RB/considerable/3 better/JJR/better/1 than/IN/than/1 0.977/CD/0.977/0 
+
+Question/NN/question/1 10/CD/10/0 
+In/IN/in/1 the/DT/the/1 earlier/JJR/early/1 activity/NN/active/2 ,/,/,/0 performance/NN/perform/2 was/VBD/be/1 evaluated/VBN/evaluate/3 on/IN/on/1 a/DT/a/1 separate/JJ/separate/2 test/NN/test/1 set/NN/set/1 rather/RB/rather/1 than/IN/than/1 using/VBG/use/1 cross-validation/NN/cross-validation/0 ./././0 Suppose/NNP/suppose/1 you/PRP/you/1 created/VBD/create/2 a/DT/a/1 reduced/JJ/reduce/2 training/NN/train/1 set/VBN/set/1 with/IN/with/1 a/DT/a/1 smaller/JJR/small/1 number/NN/number/1 of/IN/of/1 attributes/NNS/attribute/3 ,/,/,/0 as/IN/as/1 selected/VBN/select/2 above/IN/above/1 ,/,/,/0 and/CC/and/1 evaluated/VBD/evaluate/3 performance/NN/perform/2 on/IN/on/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 ,/,/,/0 also/RB/also/1 reduced/VBN/reduce/2 in/IN/in/1 the/DT/the/1 same/JJ/same/1 way/NN/way/1 ./././0 
+Would/MD/would/1 it/PRP/it/1 be/VB/be/1 cheating/VBG/cheat/2 to/TO/to/1 apply/VB/apply/2 classifiers/NNS/classifier/0 like/IN/like/1 NaiveBayes/NNP/naivebayes/0 and/CC/and/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 to/TO/to/1 this/DT/this/1 problem/NN/problem/1 directly/RB/direct/2 ,/,/,/0 instead/RB/instead/1 of/IN/of/1 using/VBG/use/1 the/DT/the/1 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 10/CD/10/0 
+In/IN/in/1 the/DT/the/1 earlier/JJR/early/1 activity/NN/active/2 ,/,/,/0 performance/NN/perform/2 was/VBD/be/1 evaluated/VBN/evaluate/3 on/IN/on/1 a/DT/a/1 separate/JJ/separate/2 test/NN/test/1 set/NN/set/1 rather/RB/rather/1 than/IN/than/1 using/VBG/use/1 cross-validation/NN/cross-validation/0 ./././0 Suppose/NNP/suppose/1 you/PRP/you/1 created/VBD/create/2 a/DT/a/1 reduced/JJ/reduce/2 training/NN/train/1 set/VBN/set/1 with/IN/with/1 a/DT/a/1 smaller/JJR/small/1 number/NN/number/1 of/IN/of/1 attributes/NNS/attribute/3 ,/,/,/0 as/IN/as/1 selected/VBN/select/2 above/IN/above/1 ,/,/,/0 and/CC/and/1 evaluated/VBD/evaluate/3 performance/NN/perform/2 on/IN/on/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 ,/,/,/0 also/RB/also/1 reduced/VBN/reduce/2 in/IN/in/1 the/DT/the/1 same/JJ/same/1 way/NN/way/1 ./././0 
+Would/MD/would/1 it/PRP/it/1 be/VB/be/1 cheating/VBG/cheat/2 to/TO/to/1 apply/VB/apply/2 classifiers/NNS/classifier/0 like/IN/like/1 NaiveBayes/NNP/naivebayes/0 and/CC/and/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 to/TO/to/1 this/DT/this/1 problem/NN/problem/1 directly/RB/direct/2 ,/,/,/0 instead/RB/instead/1 of/IN/of/1 using/VBG/use/1 the/DT/the/1 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 would/MD/would/1 be/VB/be/1 fine/JJ/fine/1 ,/,/,/0 because/IN/because/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 has/VBZ/have/1 not/RB/not/1 been/VBN/be/1 used/VBN/use/1 in/IN/in/1 any/DT/any/1 way/NN/way/1 during/IN/during/1 the/DT/the/1 attribute/JJ/attribute/3 selection/NN/select/2 process/NN/process/2 ./././0 
+
+

@@ -1,0 +1,77 @@
+Index/NN/index/3 
+At/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 each/DT/each/1 week/NN/week/1 is/VBZ/be/1 an/DT/a/1 index/NN/index/3 of/IN/of/1 topics/NNS/topic/2 covered/VBD/cover/1 that/IN/that/1 week/NN/week/1 ./././0 
+A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 under/IN/under/1 DOWNLOADS/NNP/downloads/0 ,/,/,/0 below/IN/below/1 ./././0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+airline/NN/airline/3 
+1.7/CD/1.7/0 ,/,/,/0 1.8/CD/1.8/0 ,/,/,/0 1.9/CD/1.9/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 ,/,/,/0 1.13/CD/1.13/0 
+appleStocks/NNS/applestocks/0 
+1.13/CD/1.13/0 
+Financial/NNP/finance/2 data/NNS/data/3 for/IN/for/1 GOOG/NNP/goog/0 
+1.14/CD/1.14/0 
+Infrared/VBN/infrared/7 data/NNS/data/3 from/IN/from/1 soil/NN/soil/2 samples/NNS/sample/3 
+1.16/CD/1.16/0 ,/,/,/0 1.18/CD/1.18/0 
+sentiment/NN/sentiment/4 
+1.4/CD/1.4/0 
+Soil/NNP/soil/2 dataset/NN/dataset/0 (/(/(/0 org_c_n/NN/org_c_n/0 )/)/)/0 
+1.18/CD/1.18/0 
+wine/NN/wine/1 
+1.15/CD/1.15/0 
+Classifiers/NNS/classifier/0 
+LinearRegression/NN/linearregression/0 
+1.7/CD/1.7/0 ,/,/,/0 1.9/CD/1.9/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.15/CD/1.15/0 ,/,/,/0 1.18/CD/1.18/0 
+M5P/NN/m5p/0 
+1.18/CD/1.18/0 
+NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 
+1.4/CD/1.4/0 
+OneR/NN/oner/0 
+1.4/CD/1.4/0 
+RandomForest/JJS/randomforest/0 
+1.18/CD/1.18/0 
+REPTree/VB/reptree/0 
+1.18/CD/1.18/0 
+SMOreg/NN/smoreg/0 
+1.8/CD/1.8/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 
+ZeroR/NN/zeror/0 
+1.4/CD/1.4/0 
+Metalearners/NNS/metalearners/0 
+FilteredClassifier/NN/filteredclassifier/0 
+1.9/CD/1.9/0 
+Filters/NNS/filter/3 
+AddExpression/NN/addexpression/0 
+1.8/CD/1.8/0 
+Copy/NN/copy/2 
+1.7/CD/1.7/0 
+Remove/VB/remove/2 
+1.9/CD/1.9/0 
+RemoveMisclassified/VBN/removemisclassified/0 
+1.4/CD/1.4/0 
+RemoveRange/NN/removerange/0 
+1.7/CD/1.7/0 ,/,/,/0 1.8/CD/1.8/0 
+Resample/NN/resample/0 
+1.4/CD/1.4/0 
+TimeSeriesTranslate/NN/timeseriestranslate/0 
+1.7/CD/1.7/0 ,/,/,/0 1.8/CD/1.8/0 
+Packages/NNS/pack/1 
+timeseriesForecasting/VBG/timeseriesforecasting/0 
+1.9/CD/1.9/0 
+Plus/CC/plus/1 …/VB/…/0 
+Downsampling/VBG/downsampling/0 
+1.18/CD/1.18/0 
+Forecast/NNP/forecast/3 panel/NN/panel/3 
+1.9/CD/1.9/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 
+International/NNP/international/3 Conf/NNP/conf/0 ./././0 on/IN/on/1 Machine/NNP/machine/1 Learning/NNP/learn/1 (/(/(/0 ICML/NNP/icml/0 )/)/)/0 
+1.16/CD/1.16/0 
+Lagged/VBN/lag/5 variables/NNS/vary/2 
+1.6–1.15/CD/1.6–1.15/0 
+Overlay/NNP/overlay/7 data/NNS/data/3 
+1.13/CD/1.13/0 
+Row/NNP/row/2 normalization/NN/normal/1 
+1.18/CD/1.18/0 
+Savitzky-Golay/CD/savitzky-golay/0 smoothing/NN/smooth/2 
+1.18/CD/1.18/0 
+Time/NNP/time/1 series/NN/series/2 analysis/NN/analyse/3 
+1.6–1.15/CD/1.6–1.15/0 
+
+

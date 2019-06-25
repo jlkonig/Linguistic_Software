@@ -1,0 +1,65 @@
+Index/NN/index/3 
+At/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 each/DT/each/1 week/NN/week/1 is/VBZ/be/1 an/DT/a/1 index/NN/index/3 of/IN/of/1 topics/NNS/topic/2 covered/VBD/cover/1 that/IN/that/1 week/NN/week/1 ./././0 
+A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 under/IN/under/1 DOWNLOADS/NNP/downloads/0 ,/,/,/0 below/IN/below/1 ./././0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Breast-cancer/NN/breast-cancer/0 
+1.12/CD/1.12/0 
+Covtype/NN/covtype/0 
+1.21/CD/1.21/0 
+Covtype.small/NN/covtype.small/0 
+1.20/CD/1.20/0 ,/,/,/0 1.21/CD/1.21/0 
+Credit-g/NN/credit-g/0 
+1.12/CD/1.12/0 
+Diabetes/NNS/diabetes/4 
+1.12/CD/1.12/0 
+Glass/NN/glass/1 
+1.12/CD/1.12/0 
+Ionosphere/RB/ionosphere/16 
+1.12/CD/1.12/0 
+Iris/NN/iris/8 
+1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 ,/,/,/0 1.13/CD/1.13/0 ,/,/,/0 1.14/CD/1.14/0 ,/,/,/0 1.15/CD/1.15/0 
+LED24/NNP/led24/0 data/NNS/data/3 generator/NN/generator/5 
+1.18/CD/1.18/0 ,/,/,/0 1.19/CD/1.19/0 
+Segment-challenge/NN/segment-challenge/0 
+1.8/CD/1.8/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.12/CD/1.12/0 ,/,/,/0 1.13/CD/1.13/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+1.12/CD/1.12/0 ,/,/,/0 1.16/CD/1.16/0 
+J48/NN/j48/0 
+1.8/CD/1.8/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 ,/,/,/0 1.13/CD/1.13/0 ,/,/,/0 1.14/CD/1.14/0 ,/,/,/0 1.15/CD/1.15/0 ,/,/,/0 1.18/CD/1.18/0 
+Logistic/JJ/logistics/6 
+1.12/CD/1.12/0 
+NaiveBayes/NNS/naivebayes/0 
+1.12/CD/1.12/0 ,/,/,/0 1.18/CD/1.18/0 ,/,/,/0 1.20/CD/1.20/0 
+NaiveBayesUpdateable/JJ/naivebayesupdateable/0 
+1.13/CD/1.13/0 ,/,/,/0 1.18/CD/1.18/0 ,/,/,/0 1.19/CD/1.19/0 ,/,/,/0 1.21/CD/1.21/0 ,/,/,/0 1.22/CD/1.22/0 
+OneR/NN/oner/0 
+1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 
+SMO/NN/smo/0 
+1.12/CD/1.12/0 
+ZeroR/NN/zeror/0 
+1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 
+Metalearners/NNS/metalearners/0 
+AdaBoostM1/NN/adaboostm1/0 
+1.12/CD/1.12/0 
+Plus/CC/plus/1 …/VB/…/0 
+Cross-validation/NN/cross-validation/0 
+1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.14/CD/1.14/0 
+Experimenter/NNP/experiment/3 interface/NN/interface/4 
+1.8/CD/1.8/0 ,/,/,/0 1.10/CD/1.10/0 ,/,/,/0 1.11/CD/1.11/0 ,/,/,/0 1.12/CD/1.12/0 
+Javadoc/NNP/javadoc/0 documentation/NN/document/3 
+1.15/CD/1.15/0 ,/,/,/0 1.16/CD/1.16/0 
+Knowledge/NNP/knowledge/2 Flow/NNP/flow/2 interface/NN/interface/4 
+1.13/CD/1.13/0 ,/,/,/0 1.14/CD/1.14/0 
+Random/NNP/random/3 number/NN/number/1 seed/NN/seed/2 
+1.9/CD/1.9/0 
+Simple/JJ/simple/1 CLI/NNP/cli/0 
+1.15/CD/1.15/0 ,/,/,/0 1.16/CD/1.16/0 ,/,/,/0 1.18/CD/1.18/0 ,/,/,/0 1.20/CD/1.20/0 ,/,/,/0 1.21/CD/1.21/0 
+Updateable/JJ/updateable/0 classifiers/NNS/classifier/0 
+1.16/CD/1.16/0 
+Weka/NNP/weka/23 installation/NN/install/3 
+1.4/CD/1.4/0 
+
+

@@ -1,0 +1,143 @@
+One-class classification 
+Question 1
+The iris dataset contains 50 Iris-setosa instances, 50 Iris-versicolors, and 50 Iris-virginicas—in that order. We will train a one-class classifier on the first 26 instances in the dataset—that is, about half of the Setosas—and test it on the remaining Setosas, all the Versicolors, and all the Virginicas. Ideally it will classify the remaining Setosas as “Setosa” and all the other instances as “not Setosa”.
+Open the iris.arff dataset, select the LibSVM classifier, and set SVMType to one-class SVM.
+Use a Percentage split of 17%, which will put 26 instances in the training set. Prepare yourself for disappointment, and click Start.
+What went wrong?
+Nothing
+LibSVM cannot handle numeric attributes
+LibSVM cannot handle a multivalued class (in One-class classifier mode)
+---
+Correct answer(s):
+LibSVM cannot handle a multivalued class (in One-class classifier mode)
+---
+Feedback incorrect:
+You may find
+1.20 Reflect on this week’s Big Question
+useful.
+
+Question 2
+LibSVM with 1-class classification only takes a dataset with one class value. This is kinda dumb, but there it is.
+In the Preprocess panel: delete the class from the dataset; use a filter to add a new nominal class attribute (the Add filter adds an attribute whose values are all “missing”); and use another to replace the missing values with “setosa” (note: the ReplaceMissingWithUserConstant filter does not operate on the class value).
+Go to the Classify panel. Before you click Start, answer this question: How many instances are in the test set?
+0
+50
+100
+124
+150
+---
+Correct answer(s):
+124
+---
+Feedback correct:
+You set the Percentage split to train on 17% of instances, so the “Total number of instances” in the test set is 124 (83% of the 150 in the dataset).
+
+Question 3
+Now click Start and check the output.
+26 instances have been used for the training set, so the test set is supposed to represent 24 Iris-setosas, 50 Iris-versicolors, and 50 Iris-virginicas. The classifier is attempting to classify the Iris-setosas as “setosa”; the remainder are deemed to be “not setosa”.
+How many instances in the test set are classified as “setosa”?
+24
+26
+50
+58
+62
+124
+---
+Correct answer(s):
+58
+---
+Feedback incorrect:
+This would be expected if the Iris-setosas are being identified correctly
+---
+Feedback incorrect:
+This would be expected from a random split into “setosa” and “not setosa” (124 instances divided by 2)
+
+Question 4
+How many of these does Weka consider to be correct?
+0
+24
+26
+50
+all of them
+---
+Correct answer(s):
+all of them
+
+Question 5
+Is this good?
+yes
+no
+---
+Correct answer(s):
+no
+---
+Feedback correct:
+All the instances in the dataset are marked with class “setosa”, so of course these 58 are all judged correct. But our intention was to include 26 of the original 50 setosas in the training set, leaving only 24 actual setosas in the test set.
+---
+Feedback incorrect:
+This is a rhetorical question!
+
+Question 6
+The problem is that with the Percentage split option, Weka randomizes the order of the dataset before doing the split. Find out how to prevent this (look under More options).
+How many test instances are classified as “setosa” now?
+0
+15
+100
+124
+150
+---
+Correct answer(s):
+15
+
+Question 7
+Use the “More options” menu to output the predictions as plain text.
+How many errors does the LibSVM one-class classifier make on the Iris-setosas, Iris-versicolors, and Iris-virginicas respectively?
+0, 0, 0
+9, 0, 0
+15, 0, 0
+50, 50, 50
+---
+Correct answer(s):
+9, 0, 0
+---
+Feedback correct:
+There are 9 question marks (i.e. classified as “not setosa”) amongst the first 24 instances output, which really are Iris-Setosas, and all the remaining instances — Iris-versicolors and Iris-virginicas — are correctly classified as “not setosa”.
+
+Question 8
+Install the oneClassClassifier package in Weka, and choose the OneClassClassifier from the “meta” classifiers.
+It’s set up more sensibly than the LibSVM one-class classifier. Load the original iris dataset and configure the OneClassClassifier to use Iris-setosa as the targetClassLabel. Press Start.
+With the same training data as before (17% percentage split; preserve order), how many errors does this one-class classifier make on the Iris-setosas, Iris-versicolors, and Iris-virginicas respectively?
+0, 0, 0
+2, 0, 0
+9, 0, 0
+15, 0, 0
+---
+Correct answer(s):
+2, 0, 0
+---
+Feedback correct:
+There are 2 question marks (i.e. “not setosas”) amongst the first 24 instances output, which really are Iris-Setosas, and all the remaining instances are correctly classified as “not setosa”.
+
+Question 9
+Weka’s OneClassClassifier is quite sophisticated and has a host of parameters, most of which are obscure. However, the first is the base classifier, which by default is “Bagging.” This is a fairly advanced classifier.
+Choose NaiveBayes as the base classifier. How many errors does the one-class classifier make on the Iris-setosas, Iris-versicolors, and Iris-virginicas respectively?
+2, 0, 0
+3, 0, 0
+9, 0, 0
+15, 0, 0
+---
+Correct answer(s):
+
+Question 9
+Weka’s OneClassClassifier is quite sophisticated and has a host of parameters, most of which are obscure. However, the first is the base classifier, which by default is “Bagging.” This is a fairly advanced classifier.
+Choose NaiveBayes as the base classifier. How many errors does the one-class classifier make on the Iris-setosas, Iris-versicolors, and Iris-virginicas respectively?
+2, 0, 0
+3, 0, 0
+9, 0, 0
+15, 0, 0
+---
+Correct answer(s):
+3, 0, 0
+---
+Feedback correct:
+There are now 3 question marks (i.e. “not setosas”) amongst the first 24 instances output, and question marks on all other instances.

@@ -1,0 +1,241 @@
+Comparing rule-based classifiers
+Question 1
+For which datasets does J48 give the best results?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+
+Question 1
+For which datasets does J48 give the best results?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+breast-cancer
+iris
+
+Question 2
+For which datasets does JRip give the best results?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+credit-g
+diabetes
+
+Question 3
+For which datasets does PART give the best results?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+glass
+ionosphere
+segment-challenge
+
+Question 4
+Now consider statistical significance at the 5% (default) level.
+For which datasets are there no significant differences between JRip and ZeroR?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+breast-cancer
+credit-g
+
+Question 5
+For which dataset is there no significant difference between JRip and OneR?
+[Hint: For this question and the following ones you will have to alter the “Test base” appropriately]
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+iris
+
+Question 6
+For which dataset are there significant differences between any of PART, JRip, and J48?
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+segment-challenge
+
+Question 7
+Now change the “Comparison field” to measureNumRules, which gives the number of rules produced by PART and JRip, and the number of leaves produced by J48.
+For which datasets does JRip produce the smallest number of rules?
+[Hint: For this question and the next two ones you will need to ensure that the “Test base” is set to one of PART, JRip, J48]
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+
+Question 8
+For which datasets does PART produce fewer rules than the number of leaves that J48 generates?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+
+Question 9
+Now consider significance at the 5% (default) level.
+For which datasets does JRip produce significantly fewer rules than PART?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+segment-challenge
+---
+Correct answer(s):
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+segment-challenge
+
+Question 10
+Now that you’ve got everything set up in the Experimenter there’s one final thing that is easy to do, and very instructive; which is to examine the speed of the classifier algorithms you’ve been investigating.
+Let’s think about it first.
+You have been evaluating 5 methods: ZeroR, OneR, PART, JRip and J48. Which 2 do you think are the fastest for training?
+ZeroR and PART
+ZeroR and OneR
+J48 and OneR
+---
+Correct answer(s):
+ZeroR and OneR
+---
+Feedback correct:
+These methods are by far the simplest
+
+Question 11
+Which 2 do you think are the fastest for testing?
+ZeroR and JRip
+ZeroR and OneR
+J48 and OneR
+---
+Correct answer(s):
+ZeroR and OneR
+---
+Feedback correct:
+Once again, these methods are by far the simplest
+
+Question 12
+Do you think J48 is faster than PART for training?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+J48 produces just one decision tree whereas PART produces several
+
+Question 13
+Do you think JRip is faster than PART for testing?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+JRip produces smaller rule sets, which are quicker to test
+
+Question 14
+In the Experimenter, select UserCPU_Time_training as the “Comparison field”. Set the Mean Precision under “Output Format” to 6 (decimal places), and check Show Average (also under “Output Format”).
+Perform the test and look at the average training time taken by these classifiers: ZeroR, OneR, PART, JRip and J48. What order do they come in?
+---
+Correct answer(s):
+ZeroR
+oneR
+J48
+PART
+JRIP
+---
+Feedback correct:
+(Note that the times might differ slightly on your computer, so what’s correct for me may not necessarily be correct for you.)
+
+Question 15
+Change the Comparison field to UserCPU_Time_testing. What order do they come in now (fastest to slowest)?
+JRip, OneR, J48, PART, ZeroR
+J48, ZeroR, OneR, JRip, PART
+ZeroR, J48, OneR, JRip, PART
+ZeroR, J48, JRip, OneR, PART
+J48, ZeroR, JRip, OneR, PART
+JRip, OneR, J48, ZeroR, PART
+None of the above
+---
+Correct answer(s):
+None of the above
+---
+Feedback correct:
+It’s hard to get this question wrong! I was surprised to find many different permutations of UserCPU_Time_testing ordering when I tried this on different computers. So all answers are marked correct!!!

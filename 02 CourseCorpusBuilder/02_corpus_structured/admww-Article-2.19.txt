@@ -1,0 +1,98 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Forest cover type (covtypeNorm)
+      2.3, 2.9, 2.12
+      labelled_tweets
+      2.12
+      NSW Electricity Market (elecNormNew)
+      2.5, 2.12
+      Signal peptide cleavage data (sigdata)
+      2.13, 2.14
+      Classifiers
+      HoeffdingAdaptiveTree
+      2.8, 2.9
+      HoeffdingOptionTree
+      2.5
+      HoeffdingTree (Weka)
+      2.2, 2.3, 2.5
+      HoeffdingTree (MOA)
+      2.5, 2.6, 2.7, 2.9, 2.10
+      IBk
+      2.3
+      Incremental
+      2.2, 2.3
+      J48
+      2.3, 2.13, 2.14
+      MajorityClass
+      2.9, 2.12
+      NaiveBayes
+      2.7, 2.9
+      NaiveBayesUpdateable
+      2.3
+      NaiveBayesMultinomial
+      2.10, 2.12
+      SGD (Stochastic gradient descent)
+      2.10
+      SGDText
+      2.12
+      Updateable classifiers
+      2.2
+      Metalearners
+      LeveragingBag
+      2.8, 2.9
+      OzaBag
+      2.4, 2.5, 2.7, 2.9
+      OzaBagAdwin
+      2.8, 2.9
+      Filters
+      Resample
+      2.5
+      StringToWordVector
+      2.12
+      Packages
+      massiveOnlineAnalysis (MOA)
+      2.4, 2.5
+      Generators
+      HyperplaneGenerator
+      2.5, 2.6
+      LED24 (Weka)
+      2.3
+      LEDGenerator (MOA)
+      2.4
+      RandomRBFGenerator
+      2.8, 2.9
+      RandomRBFGeneratorDrift
+      2.9
+      WaveformGenerator
+      2.7
+      Evaluation
+      Kappa statistic
+      2.7, 2.10, 2.12
+      Kappa-temporal statistic
+      2.12
+      Periodic holdout
+      2.6, 2.7
+      Prequential
+      2.6, 2.7, 2.9, 2.10, 2.12
+      Plus …
+      Adaptive sliding window (ADWIN)
+      2.8
+      Bioinformatics
+      2.13, 2.14
+      Bootstrap sampling
+      2.8
+      Data stream mining
+      2.1–2.12
+      MOA system
+      2.6–2.12
+      Sequence analysis
+      2.13, 2.14
+      Sentiment analysis
+      2.10, 2.11, 2.12
+      Signal peptide prediction
+      2.13, 2.14
+      Twitter
+      2.10, 2.11, 2.12

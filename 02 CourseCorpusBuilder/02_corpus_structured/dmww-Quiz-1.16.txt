@@ -1,0 +1,48 @@
+More irises
+Question 1
+Do an image search on the web to find pictures of Iris setosa, Iris virginica and Iris versicolor to see what the different types look like.
+Label the images below according to their type by choosing the correct sequence.
+---
+Correct answer(s):
+Iris setosa
+Iris versicolor
+Iris virginica
+---
+Feedback correct:
+Hint: Since this course is not about web searching, here’s a tip: you can find these images at http://www.statlab.uni-heidelberg.de/data/iris/
+
+Question 2
+Which of these attributes, taken by itself, gives the best indication of the class?
+sepallength
+sepalwidth
+petalwidth
+---
+Correct answer(s):
+petalwidth
+---
+Feedback correct:
+When you look at the class distribution for petalwidth, you can see that it has the least overlap of colors for all the bars.
+
+Question 3
+Weka can read Comma Separated Values (.csv) format files by selecting the appropriate File Format in the Open file dialog. Ascertain by experiment how Weka determines the attribute names and value sets by creating a small spreadsheet file, saving it in Comma Separated Values (.csv) format, and loading it into Weka.
+What should be the first row of a .csv format file that contains the weather data?
+outlook,temperature,humidity,windy,play
+sunny,hot,high,FALSE,no
+sunny,hot,high,TRUE,no
+rainy,mild,high,TRUE,no
+---
+Correct answer(s):
+outlook,temperature,humidity,windy,play
+---
+Feedback correct:
+The first row of the .csv file should give the attribute names, separated by commas, which for the weather data are outlook, temperature, humidity, windy and play.
+
+Question 3
+Weka can read Comma Separated Values (.csv) format files by selecting the appropriate File Format in the Open file dialog. Ascertain by experiment how Weka determines the attribute names and value sets by creating a small spreadsheet file, saving it in Comma Separated Values (.csv) format, and loading it into Weka.
+What should be the first row of a .csv format file that contains the weather data?
+outlook,temperature,humidity,windy,play
+sunny,hot,high,FALSE,no
+sunny,hot,high,TRUE,no
+rainy,mild,high,TRUE,no
+---
+Correct answer(s):

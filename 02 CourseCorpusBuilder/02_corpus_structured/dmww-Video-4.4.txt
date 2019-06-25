@@ -1,0 +1,3 @@
+Linear regression
+Classification involves a nominal class value, whereas regression involves a numeric class. Linear regression is a classical statistical method that computes the coefficients or “weights” of a linear expression, and the predicted (“class”) value is the sum of each attribute value multiplied by its weight. A model tree is a tree where each leaf is a linear regression model; it’s like a patchwork of linear models. Linear regression and model trees are both easy to do in Weka.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

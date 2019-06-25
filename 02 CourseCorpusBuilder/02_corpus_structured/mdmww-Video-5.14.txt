@@ -1,0 +1,3 @@
+ARFF and XRFF 
+Remember the ARFF format? – we’ve been using it all along. But it’s more powerful than you have seen. For example, it can encode sparse data, which often greatly reduces the size of dataset files – and some filters and classifiers use sparse data directly, which can make them very fast (for example, StringToWordVector and Multinomial Naive Bayes, which you have used already). ARFF can represent weighted instances, data attributes, and relational attributes. Furthermore, there is an XML version called XRFF, which the Explorer can read and write.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

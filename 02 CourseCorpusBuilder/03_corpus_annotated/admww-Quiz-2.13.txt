@@ -1,0 +1,190 @@
+Classifying/VBG/classify/4 tweets/NNS/tweet/14 
+Question/NN/question/1 1/CD/1/0 
+How/WRB/how/1 many/JJ/many/1 instances/NNS/instance/2 are/VBP/be/1 there/RB/there/1 ,/,/,/0 and/CC/and/1 how/WRB/how/1 many/JJ/many/1 have/VBP/have/1 the/DT/the/1 minority/NN/minor/2 class/NN/class/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+8552/CD/8552/0 instances/NNS/instance/2 
+10426/CD/10426/0 instances/NNS/instance/2 
+49955/CD/49955/0 instances/NNS/instance/2 
+8552/CD/8552/0 minority/NN/minor/2 class/NN/class/1 instances/NNS/instance/2 
+10426/CD/10426/0 minority/NN/minor/2 class/NN/class/1 instances/NNS/instance/2 
+49955/CD/49955/0 minority/NN/minor/2 class/NN/class/1 instances/NNS/instance/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+49955/CD/49955/0 instances/NNS/instance/2 
+8552/CD/8552/0 minority/NN/minor/2 class/NN/class/1 instances/NNS/instance/2 
+
+Question/NN/question/1 2/CD/2/0 
+Is/VBZ/be/1 the/DT/the/1 dataset/NN/dataset/0 unbalanced/VBD/balance/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+One/CD/one/1 class/NN/class/1 has/VBZ/have/1 83/CD/83/0 %/NN/%/0 of/IN/of/1 the/DT/the/1 instances/NNS/instance/2 ;/:/;/0 the/DT/the/1 other/JJ/other/1 has/VBZ/have/1 17/CD/17/0 %/NN/%/0 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Run/VB/run/1 a/DT/a/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 with/IN/with/1 Weka/NNP/weka/23 ’/NNP/’/0 s/VBD/be/1 NaiveBayesMultinomialText/NNP/naivebayesmultinomialtext/0 classifier/NN/classifier/0 ./././0 
+In/IN/in/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 the/DT/the/1 second/JJ/second/1 attribute/NN/attribute/3 is/VBZ/be/1 a/DT/a/1 string/NN/string/2 –/VBZ/–/0 the/DT/the/1 text/NN/text/3 of/IN/of/1 the/DT/the/1 tweet/NN/tweet/14 –/NN/–/0 but/CC/but/1 this/DT/this/1 classifier/JJ/classifier/0 deals/NNS/deal/1 with/IN/with/1 string/NN/string/2 attributes/NNS/attribute/3 automatically/RB/automatic/2 :/:/:/0 it/PRP/it/1 incorporates/VBZ/incorporate/3 the/DT/the/1 StringToWordVector/NNP/stringtowordvector/0 filter/NN/filter/3 that/IN/that/1 we/PRP/we/1 used/VBD/use/1 in/IN/in/1 the/DT/the/1 earlier/JJR/early/1 Weka/NNP/weka/23 courses/NNS/course/1 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 accuracy/NN/accurate/3 of/IN/of/1 NaiveBayesMultinomialText/NNP/naivebayesmultinomialtext/0 ,/,/,/0 and/CC/and/1 what/WP/what/1 ’/NNP/’/0 s/VBD/be/1 its/PRP$/it/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Accuracy/NN/accurate/3 :/:/:/0 80.9/CD/80.9/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 82.9/CD/82.9/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 83.1/CD/83.1/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 0/CD/0/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 4.9/CD/4.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 39.2/CD/39.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Accuracy/NN/accurate/3 :/:/:/0 80.9/CD/80.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 39.2/CD/39.2/0 %/NN/%/0 
+
+Question/NN/question/1 4/CD/4/0 
+SGDText/NNP/sgdtext/0 is/VBZ/be/1 an/DT/a/1 iterative/JJ/iterate/8 method/NN/method/3 that/WDT/that/1 uses/VBZ/use/1 stochastic/JJ/stochastic/13 gradient/NN/gradient/7 descent/NN/descent/5 to/TO/to/1 learn/VB/learn/1 either/DT/either/1 an/DT/a/1 SVM/NNP/svm/0 (/(/(/0 default/NN/default/5 configuration/NN/configure/4 )/)/)/0 or/CC/or/1 a/DT/a/1 logistic/JJ/logistics/6 regression/NN/regress/4 model/NN/model/2 ./././0 
+Like/IN/like/1 NaiveBayesMultinomialText/NNP/naivebayesmultinomialtext/0 ,/,/,/0 it/PRP/it/1 deals/VBZ/deal/1 with/IN/with/1 string/VBG/string/2 attributes/NNS/attribute/3 automatically/RB/automatic/2 ./././0 
+Configure/NN/configure/4 it/PRP/it/1 for/IN/for/1 1/CD/1/0 epoch/NN/epoch/8 (/(/(/0 the/DT/the/1 default/NN/default/5 is/VBZ/be/1 500/CD/500/0 )/)/)/0 so/RB/so/1 that/IN/that/1 it/PRP/it/1 operates/VBZ/operate/2 incrementally/RB/increment/6 –/VB/–/0 it/PRP/it/1 sees/VBZ/see/1 instances/NNS/instance/2 just/RB/just/1 once/RB/once/1 ./././0 It/PRP/it/1 ’/VBD/’/0 s/JJ/be/1 rather/RB/rather/1 slow/JJ/slow/1 ,/,/,/0 even/RB/even/1 with/IN/with/1 just/RB/just/1 1/CD/1/0 epoch/NNS/epoch/8 ,/,/,/0 so/RB/so/1 use/JJ/use/1 percentage/NN/percent/2 split/NN/split/2 evaluation/NN/evaluate/3 rather/RB/rather/1 than/IN/than/1 cross-validation/NN/cross-validation/0 ./././0 What/WP/what/1 ’/VBD/’/0 s/CC/be/1 its/PRP$/it/1 accuracy/NN/accurate/3 on/IN/on/1 the/DT/the/1 Twitter/NNP/twitter/9 dataset/NN/dataset/0 ,/,/,/0 and/CC/and/1 what/WP/what/1 ’/NNP/’/0 s/VBD/be/1 its/PRP$/it/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Accuracy/NN/accurate/3 :/:/:/0 80.9/CD/80.9/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 82.9/CD/82.9/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 83.1/CD/83.1/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 0/CD/0/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 4.9/CD/4.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 39.2/CD/39.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Accuracy/NN/accurate/3 :/:/:/0 83.1/CD/83.1/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 4.9/CD/4.9/0 %/NN/%/0 
+
+Question/NN/question/1 5/CD/5/0 
+Of/IN/of/1 these/DT/this/1 two/CD/two/1 classifiers/NNS/classifier/0 ,/,/,/0 NaiveBayesMultinomialText/NNP/naivebayesmultinomialtext/0 and/CC/and/1 SGDText/NNP/sgdtext/0 ,/,/,/0 is/VBZ/be/1 the/DT/the/1 one/NN/one/1 with/IN/with/1 the/DT/the/1 larger/JJR/large/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 also/RB/also/1 the/DT/the/1 one/NN/one/1 with/IN/with/1 greater/JJR/great/1 accuracy/NN/accurate/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Any/DT/any/1 Kappa/NNP/kappa/0 value/NN/value/2 greater/JJR/great/1 than/IN/than/1 zero/CD/zero/1 indicates/VBZ/indicate/2 that/IN/that/1 some/DT/some/1 learning/NN/learn/1 has/VBZ/have/1 taken/VBN/take/1 place/NN/place/1 ,/,/,/0 but/CC/but/1 the/DT/the/1 value/NN/value/2 of/IN/of/1 5/CD/5/0 %/NN/%/0 achieved/VBN/achieve/3 here/RB/here/1 is/VBZ/be/1 very/RB/very/1 much/JJ/much/1 worse/JJR/worse/1 than/IN/than/1 the/DT/the/1 40/CD/40/0 %/NN/%/0 achieved/VBN/achieve/3 by/IN/by/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 –/NNP/–/0 despite/IN/despite/3 the/DT/the/1 slightly/RB/slight/1 greater/JJR/great/1 accuracy/NN/accurate/3 (/(/(/0 83/CD/83/0 %/NN/%/0 vs/JJ/versus/3 81/CD/81/0 %/NN/%/0 )/)/)/0 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Now/RB/now/1 configure/NN/configure/4 SGDText/NNP/sgdtext/0 to/TO/to/1 use/VB/use/1 logistic/JJ/logistics/6 regression/NN/regress/4 by/IN/by/1 changing/VBG/change/1 the/DT/the/1 loss/NN/loss/2 function/NN/function/3 to/TO/to/1 Log/NNP/log/2 loss/NN/loss/2 ./././0 
+Does/VBZ/do/1 the/DT/the/1 accuracy/NN/accurate/3 increase/NN/increase/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 decreases/VBZ/decrease/3 slightly/RB/slight/1 ,/,/,/0 from/IN/from/1 83.1/CD/83.1/0 %/NN/%/0 to/TO/to/1 82.9/CD/82.9/0 %/NN/%/0 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Does/VBZ/do/1 the/DT/the/1 Kappa/NNP/kappa/0 statistic/JJ/statistic/3 increase/NN/increase/2 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 increases/VBZ/increase/2 from/IN/from/1 4.9/CD/4.9/0 %/NN/%/0 to/TO/to/1 5.9/CD/5.9/0 %/NN/%/0 ./././0 The/DT/the/1 Log/NNP/log/2 loss/NN/loss/2 setting/VBG/set/1 gives/VBZ/give/1 a/DT/a/1 slightly/RB/slight/1 lower/JJR/lower/2 accuracy/NN/accurate/3 ,/,/,/0 but/CC/but/1 a/DT/a/1 slightly/RB/slight/1 higher/JJR/high/1 Kappa/NNP/kappa/0 ./././0 
+
+Question/NN/question/1 8/CD/8/0 
+Now/RB/now/1 create/VBP/create/2 an/DT/a/1 ARFF/NNP/arff/0 dataset/NN/dataset/0 that/IN/that/1 you/PRP/you/1 can/MD/can/1 use/VB/use/1 from/IN/from/1 MOA/NNP/moa/18 ./././0 
+In/IN/in/1 Weka/NNP/weka/23 ,/,/,/0 filter/VBD/filter/3 the/DT/the/1 Twitter/NNP/twitter/9 dataset/NN/dataset/0 with/IN/with/1 StringToWordVector/NNP/stringtowordvector/0 ,/,/,/0 setting/VBG/set/1 both/DT/both/1 IDFTransform/NNP/idftransform/0 and/CC/and/1 TFTransform/NNP/tftransform/0 to/TO/to/1 True/NNP/true/1 ./././0 Try/VB/try/1 it/PRP/it/1 ./././0 
+Oops/UH/oops/0 !/./!/0 –/NN/–/0 there/RB/there/1 ’/NNP/’/0 s/VBD/be/1 a/DT/a/1 problem/NN/problem/1 ./././0 Check/VB/check/1 it/PRP/it/1 out/RP/out/1 ./././0 You/PRP/you/1 can/MD/can/1 solve/VB/solve/3 it/PRP/it/1 by/IN/by/1 setting/VBG/set/1 StringToWordVector/NNP/stringtowordvector/0 ’/NNP/’/0 s/VBD/be/1 attributeNamePrefix/NN/attributenameprefix/0 to/TO/to/1 –/VB/–/0 anything/NN/any/1 ,/,/,/0 really/RB/really/1 ./././0 
+In/IN/in/1 MOA/NNP/moa/18 ,/,/,/0 run/VB/run/1 a/DT/a/1 prequential/JJ/prequential/0 evaluation/NN/evaluate/3 on/IN/on/1 this/DT/this/1 dataset/NN/dataset/0 using/VBG/use/1 the/DT/the/1 majority/NN/majority/3 class/NN/class/1 classifier/NN/classifier/0 (/(/(/0 functions.MajorityClass/NN/functions.majorityclass/0 )/)/)/0 and/CC/and/1 the/DT/the/1 BasicClassificationPerformanceEvaluator/NNP/basicclassificationperformanceevaluator/0 ./././0 
+Remember/NNP/remember/1 from/IN/from/1 the/DT/the/1 last/JJ/last/1 Quiz/NNP/quiz/6 how/WRB/how/1 to/TO/to/1 use/VB/use/1 ARFF/NNP/arff/0 files/NNS/file/2 in/IN/in/1 MOA/NNP/moa/18 ?/./?/0 –/NN/–/0 set/VBD/set/1 everything/NN/every/1 else/RB/else/1 up/RB/up/1 in/IN/in/1 the/DT/the/1 Configure/NNP/configure/4 interface/NN/interface/4 and/CC/and/1 then/RB/then/1 insert/VB/insert/3 
+-s/NN/be/1 (/(/(/0 ArffFileStream/NNP/arfffilestream/0 -f/NNP/-f/0 filename.arff/VBD/filename.arff/0 -c/NNP/-c/0 2/CD/2/0 )/)/)/0 
+into/IN/into/1 the/DT/the/1 command/NN/command/2 string/NN/string/2 ./././0 The/DT/the/1 –c/JJ/–c/0 2/CD/2/0 is/VBZ/be/1 necessary/JJ/necessary/1 to/TO/to/1 signify/VB/signify/5 that/IN/that/1 the/DT/the/1 class/NN/class/1 is/VBZ/be/1 the/DT/the/1 second/JJ/second/1 attribute/NN/attribute/3 ./././0 
+Or/CC/or/1 you/PRP/you/1 could/MD/could/1 just/RB/just/1 copy/VB/copy/2 the/DT/the/1 following/JJ/follow/1 line/NN/line/1 into/IN/into/1 MOA/NNP/moa/18 ’/NNP/’/0 s/NN/be/1 Command/NNP/command/2 text/NN/text/3 box/NN/box/1 ,/,/,/0 changing/VBG/change/1 the/DT/the/1 filename/NN/filename/0 appropriately/RB/appropriate/3 :/:/:/0 
+EvaluatePrequential/JJ/evaluateprequential/0 -l/NN/-l/0 functions.MajorityClass/NN/functions.majorityclass/0 
+-s/NN/be/1 (/(/(/0 ArffFileStream/NNP/arfffilestream/0 -f/NNP/-f/0 tweets.arff/VBD/tweets.arff/0 -c/NNP/-c/0 2/CD/2/0 )/)/)/0 
+-e/JJ/-e/0 BasicClassificationPerformanceEvaluator/NNP/basicclassificationperformanceevaluator/0 -i/VBD/i/1 1000000/CD/1000000/0 -f/NN/-f/0 1000/CD/1000/0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 final/JJ/final/1 accuracy/NN/accurate/3 and/CC/and/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+Accuracy/NN/accurate/3 :/:/:/0 19.1/CD/19.1/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 80.9/CD/80.9/0 %/NN/%/0 
+Accuracy/NN/accurate/3 :/:/:/0 82.9/CD/82.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 0/CD/0/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 4.9/CD/4.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 19.1/CD/19.1/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Accuracy/NN/accurate/3 :/:/:/0 82.9/CD/82.9/0 %/NN/%/0 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 :/:/:/0 0/CD/0/0 %/NN/%/0 
+
+Question/NN/question/1 9/CD/9/0 
+The/DT/the/1 majority/NN/majority/3 class/NN/class/1 classifier/NN/classifier/0 classifies/NNS/classify/4 everything/NN/every/1 as/IN/as/1 pos/NN/po/0 ,/,/,/0 yielding/VBG/yield/3 a/DT/a/1 superficially/RB/superficial/5 impressive/JJ/impress/2 accuracy/NN/accurate/3 of/IN/of/1 82.9/CD/82.9/0 %/NN/%/0 …/NN/…/0 
+…/NN/…/0 which/WDT/which/1 is/VBZ/be/1 simply/RB/simple/1 the/DT/the/1 proportion/NN/proportion/3 of/IN/of/1 pos/NN/po/0 instances/NNS/instance/2 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 ,/,/,/0 41403/49955/CD/41403/49955/0 ./././0 Not/RB/not/1 really/RB/really/1 very/RB/very/1 good/JJ/good/1 !/./!/0 And/CC/and/1 this/DT/this/1 is/VBZ/be/1 reflected/VBN/reflect/3 in/IN/in/1 a/DT/a/1 Kappa/NNP/kappa/0 value/NN/value/2 of/IN/of/1 0/CD/0/0 ,/,/,/0 which/WDT/which/1 means/VBZ/mean/1 that/IN/that/1 the/DT/the/1 classifier/NN/classifier/0 has/VBZ/have/1 learned/VBN/learn/1 nothing/NN/nothing/1 interesting/NN/interest/1 ./././0 
+Repeat/NN/repeat/2 with/IN/with/1 the/DT/the/1 NaiveBayesMultinomial/NNP/naivebayesmultinomial/0 classifier/NN/classifier/0 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 final/JJ/final/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 ?/./?/0 
+0/CD/0/0 %/NN/%/0 
+4.9/CD/4.9/0 %/NN/%/0 
+19.1/CD/19.1/0 %/NN/%/0 
+28.4/CD/28.4/0 %/NN/%/0 
+35.6/CD/35.6/0 %/NN/%/0 
+39.2/CD/39.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+35.6/CD/35.6/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 precisely/RB/precise/3 ,/,/,/0 35.63/CD/35.63/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 10/CD/10/0 
+This/DT/this/1 Kappa/NNP/kappa/0 value/NN/value/2 indicates/VBZ/indicate/2 that/IN/that/1 Bayes/NNP/bayes/0 does/VBZ/do/1 learn/VB/learn/1 something/NN/some/1 non-trivial/JJ/non-trivial/0 ./././0 
+The/DT/the/1 Kappa-temporal/NNP/kappa-temporal/0 statistic/NN/statistic/3 is/VBZ/be/1 similar/JJ/similar/2 to/TO/to/1 Kappa/NNP/kappa/0 ,/,/,/0 but/CC/but/1 instead/RB/instead/1 of/IN/of/1 comparing/VBG/compare/2 with/IN/with/1 a/DT/a/1 random/NN/random/3 classifier/NN/classifier/0 it/PRP/it/1 compares/VBZ/compare/2 with/IN/with/1 the/DT/the/1 “/JJ/“/0 no-change/JJ/no-change/0 ”/NN/”/0 classifier/NN/classifier/0 ,/,/,/0 which/WDT/which/1 simply/RB/simple/1 predicts/VBZ/predict/3 the/DT/the/1 class/NN/class/1 label/NN/label/3 of/IN/of/1 the/DT/the/1 last/JJ/last/1 training/NN/train/1 instance/NN/instance/2 seen/VBN/see/1 ./././0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 value/NN/value/2 of/IN/of/1 the/DT/the/1 Kappa-temporal/NNP/kappa-temporal/0 statistic/NN/statistic/3 in/IN/in/1 the/DT/the/1 last/JJ/last/1 experiment/NN/experiment/3 ?/./?/0 
+0/CD/0/0 %/NN/%/0 
+4.9/CD/4.9/0 %/NN/%/0 
+19.1/CD/19.1/0 %/NN/%/0 
+28.4/CD/28.4/0 %/NN/%/0 
+35.6/CD/35.6/0 %/NN/%/0 
+39.2/CD/39.2/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+28.4/CD/28.4/0 %/NN/%/0 
+
+Question/NN/question/1 11/CD/11/0 
+When/WRB/when/1 the/DT/the/1 no-change/JJ/no-change/0 classifier/NN/classifier/0 performs/NNS/perform/2 well/RB/well/1 ,/,/,/0 we/PRP/we/1 say/VBP/say/1 that/IN/that/1 a/DT/a/1 data/NN/data/3 stream/NN/stream/2 has/VBZ/have/1 a/DT/a/1 strong/JJ/strong/1 temporal/JJ/temporal/5 dependence/NN/dependence/4 (/(/(/0 in/IN/in/1 other/JJ/other/1 words/NNS/word/1 ,/,/,/0 significant/JJ/significant/3 autocorrelation/NN/autocorrelation/17 )/)/)/0 ./././0 
+Use/NNP/use/1 MOA/NNP/moa/18 to/TO/to/1 run/VB/run/1 the/DT/the/1 no-change/JJ/no-change/0 classifier/NN/classifier/0 (/(/(/0 moa.classifiers.functions/NoChange/NN/moa.classifiers.functions/nochange/0 )/)/)/0 on/IN/on/1 the/DT/the/1 elecNormNew.arff/NN/elecnormnew.arff/0 dataset/NN/dataset/0 and/CC/and/1 check/VB/check/1 the/DT/the/1 accuracy/NN/accurate/3 achieved/VBN/achieve/3 ./././0 Does/VBZ/do/1 this/DT/this/1 dataset/NN/dataset/0 exhibit/NN/exhibit/3 strong/JJ/strong/1 temporal/JJ/temporal/5 dependence/NN/dependence/4 ?/./?/0 
+Yes/UH/yes/1 
+Hard/JJ/hard/1 to/TO/to/1 say/VB/say/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 accuracy/NN/accurate/3 is/VBZ/be/1 85.8/CD/85.8/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Well/RB/well/1 ,/,/,/0 I/PRP/i/1 kind/NN/kind/1 of/IN/of/1 agree/NN/agree/1 ./././0 The/DT/the/1 accuracy/NN/accurate/3 is/VBZ/be/1 pretty/RB/pretty/1 good/JJ/good/1 ,/,/,/0 but/CC/but/1 is/VBZ/be/1 it/PRP/it/1 good/JJ/good/1 enough/RB/enough/1 ?/./?/0 Anyway/NNP/any/1 ,/,/,/0 go/VB/go/1 on/IN/on/1 –/NNS/–/0 take/VBP/take/1 a/DT/a/1 risk/NN/risk/2 !/./!/0 
+
+Question/NN/question/1 12/CD/12/0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 randomize/VBP/random/3 the/DT/the/1 instances/NNS/instance/2 in/IN/in/1 this/DT/this/1 dataset/NN/dataset/0 (/(/(/0 which/WDT/which/1 you/PRP/you/1 can/MD/can/1 easily/RB/easy/1 do/VB/do/1 with/IN/with/1 a/DT/a/1 Weka/NNP/weka/23 filter/NN/filter/3 )/)/)/0 ,/,/,/0 the/DT/the/1 classifier/NN/classifier/0 ’/NNP/’/0 s/NN/be/1 accuracy/NN/accurate/3 drops/NNS/drop/1 from/IN/from/1 86/CD/86/0 %/NN/%/0 to/TO/to/1 51/CD/51/0 %/NN/%/0 ./././0 
+[/NN/[/0 Would/MD/would/1 you/PRP/you/1 like/VB/like/1 a/DT/a/1 little/JJ/little/1 mathematical/JJ/mathematics/2 challenge/NN/challenge/2 ?/./?/0 You/PRP/you/1 can/MD/can/1 show/VB/show/1 theoretically/RB/theoretical/3 that/IN/that/1 for/IN/for/1 a/DT/a/1 2-class/JJ/2-class/0 dataset/NN/dataset/0 with/IN/with/1 class/NN/class/1 probabilities/NNS/probably/1 p/VBP/p/0 and/CC/and/1 1–p/CD/1–p/0 ,/,/,/0 the/DT/the/1 no-change/NN/no-change/0 classifier/NN/classifier/0 has/VBZ/have/1 a/DT/a/1 success/NN/success/2 rate/NN/rate/1 of/IN/of/1 1–2p/CD/1–2p/0 (/(/(/0 1–p/CD/1–p/0 )/)/)/0 if/IN/if/1 the/DT/the/1 instances/NNS/instance/2 are/VBP/be/1 in/IN/in/1 random/JJ/random/3 order/NN/order/1 ./././0 For/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 p/NN/p/0 =/VBD/=/0 0.425/CD/0.425/0 ,/,/,/0 and/CC/and/1 the/DT/the/1 theoretical/JJ/theoretical/3 success/NN/success/2 rate/NN/rate/1 is/VBZ/be/1 0.511/CD/0.511/0 ,/,/,/0 or/CC/or/1 51/CD/51/0 %/NN/%/0 ./././0 ]/NN/]/0 
+Does/VBZ/do/1 the/DT/the/1 covtypeNorm.arff/NN/covtypenorm.arff/0 dataset/NN/dataset/0 exhibit/NN/exhibit/3 strong/JJ/strong/1 temporal/JJ/temporal/5 dependence/NN/dependence/4 ,/,/,/0 according/VBG/according/2 to/TO/to/1 the/DT/the/1 same/JJ/same/1 criterion/NN/criteria/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 accuracy/NN/accurate/3 is/VBZ/be/1 95.1/CD/95.1/0 %/NN/%/0 ./././0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 were/VBD/be/1 to/TO/to/1 randomize/VB/random/3 the/DT/the/1 instances/NNS/instance/2 the/DT/the/1 accuracy/NN/accurate/3 would/MD/would/1 drop/VB/drop/1 from/IN/from/1 95/CD/95/0 %/NN/%/0 to/TO/to/1 38/CD/38/0 %/NN/%/0 ./././0 
+In/IN/in/1 general/JJ/general/1 ,/,/,/0 for/IN/for/1 any/DT/any/1 dataset/NN/dataset/0 ,/,/,/0 the/DT/the/1 success/NN/success/2 rate/NN/rate/1 of/IN/of/1 the/DT/the/1 no-change/JJ/no-change/0 classifier/NN/classifier/0 is/VBZ/be/1 the/DT/the/1 sum/NN/sum/3 of/IN/of/1 the/DT/the/1 squares/NNS/square/1 of/IN/of/1 the/DT/the/1 class/NN/class/1 probabilities/NNS/probably/1 ,/,/,/0 if/IN/if/1 the/DT/the/1 instances/NNS/instance/2 are/VBP/be/1 presented/VBN/present/1 in/IN/in/1 random/JJ/random/3 order/NN/order/1 ./././0 For/IN/for/1 covtypeNorm.arff/NN/covtypenorm.arff/0 ,/,/,/0 a/DT/a/1 7-class/JJ/7-class/0 dataset/NN/dataset/0 ,/,/,/0 p1^2/NN/p1^2/0 +/NNP/+/0 p2^2/NN/p2^2/0 +/NNP/+/0 p3^2/NN/p3^2/0 +/NNP/+/0 p4^2/NN/p4^2/0 +/NNP/+/0 p5^2/NN/p5^2/0 +/NNP/+/0 p6^2/NN/p6^2/0 +/NNP/+/0 p7^2/NN/p7^2/0 works/VBZ/work/1 out/RP/out/1 to/TO/to/1 0.377/CD/0.377/0 ./././0 
+
+Question/NN/question/1 12/CD/12/0 
+In/IN/in/1 fact/NN/fact/1 ,/,/,/0 if/IN/if/1 you/PRP/you/1 randomize/VBP/random/3 the/DT/the/1 instances/NNS/instance/2 in/IN/in/1 this/DT/this/1 dataset/NN/dataset/0 (/(/(/0 which/WDT/which/1 you/PRP/you/1 can/MD/can/1 easily/RB/easy/1 do/VB/do/1 with/IN/with/1 a/DT/a/1 Weka/NNP/weka/23 filter/NN/filter/3 )/)/)/0 ,/,/,/0 the/DT/the/1 classifier/NN/classifier/0 ’/NNP/’/0 s/NN/be/1 accuracy/NN/accurate/3 drops/NNS/drop/1 from/IN/from/1 86/CD/86/0 %/NN/%/0 to/TO/to/1 51/CD/51/0 %/NN/%/0 ./././0 
+[/NN/[/0 Would/MD/would/1 you/PRP/you/1 like/VB/like/1 a/DT/a/1 little/JJ/little/1 mathematical/JJ/mathematics/2 challenge/NN/challenge/2 ?/./?/0 You/PRP/you/1 can/MD/can/1 show/VB/show/1 theoretically/RB/theoretical/3 that/IN/that/1 for/IN/for/1 a/DT/a/1 2-class/JJ/2-class/0 dataset/NN/dataset/0 with/IN/with/1 class/NN/class/1 probabilities/NNS/probably/1 p/VBP/p/0 and/CC/and/1 1–p/CD/1–p/0 ,/,/,/0 the/DT/the/1 no-change/NN/no-change/0 classifier/NN/classifier/0 has/VBZ/have/1 a/DT/a/1 success/NN/success/2 rate/NN/rate/1 of/IN/of/1 1–2p/CD/1–2p/0 (/(/(/0 1–p/CD/1–p/0 )/)/)/0 if/IN/if/1 the/DT/the/1 instances/NNS/instance/2 are/VBP/be/1 in/IN/in/1 random/JJ/random/3 order/NN/order/1 ./././0 For/IN/for/1 this/DT/this/1 dataset/NN/dataset/0 p/NN/p/0 =/VBD/=/0 0.425/CD/0.425/0 ,/,/,/0 and/CC/and/1 the/DT/the/1 theoretical/JJ/theoretical/3 success/NN/success/2 rate/NN/rate/1 is/VBZ/be/1 0.511/CD/0.511/0 ,/,/,/0 or/CC/or/1 51/CD/51/0 %/NN/%/0 ./././0 ]/NN/]/0 
+Does/VBZ/do/1 the/DT/the/1 covtypeNorm.arff/NN/covtypenorm.arff/0 dataset/NN/dataset/0 exhibit/NN/exhibit/3 strong/JJ/strong/1 temporal/JJ/temporal/5 dependence/NN/dependence/4 ,/,/,/0 according/VBG/according/2 to/TO/to/1 the/DT/the/1 same/JJ/same/1 criterion/NN/criteria/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

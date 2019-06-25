@@ -1,0 +1,19 @@
+Prepare/NNP/prepare/1 for/IN/for/1 the/DT/the/1 quiz/NN/quiz/6 
+Before/IN/before/1 starting/VBG/start/1 the/DT/the/1 quiz/NN/quiz/6 we/PRP/we/1 suggest/VBP/suggest/1 you/PRP/you/1 reproduce/VBP/reproduce/3 what/WP/what/1 Ian/NNP/ian/0 did/VBD/do/1 in/IN/in/1 the/DT/the/1 video/NN/video/1 ,/,/,/0 using/VBG/use/1 the/DT/the/1 LED24/NNP/led24/0 data/NNS/data/3 in/IN/in/1 the/DT/the/1 Command/NNP/command/2 Line/NNP/line/1 Interface/NNP/interface/4 ./././0 
+Make/VB/make/1 a/DT/a/1 test/NN/test/1 file/NN/file/2 with/IN/with/1 100,000/CD/100,000/0 instances/NNS/instance/2 ./././0 Precede/NNP/precede/3 all/DT/all/1 filenames/NNS/filename/0 below/IN/below/1 with/IN/with/1 an/DT/a/1 appropriate/JJ/appropriate/3 directory/NN/directed/2 specification/NN/specific/2 ,/,/,/0 surrounded/VBN/surround/2 by/IN/by/1 quotation/NN/quote/2 marks/NNS/mark/1 if/IN/if/1 necessary/JJ/necessary/1 ./././0 
+java/NN/java/0 weka.datagenerators.classifiers.classification.LED24/NN/weka.datagenerators.classifiers.classification.led24/0 -n/VBD/-n/0 100000/CD/100000/0 
+-o/NN/-o/0 test.arff/NN/test.arff/0 
+(/(/(/0 The/DT/the/1 Command/NNP/command/2 Line/NNP/line/1 Interface/NNP/interface/4 gives/VBZ/give/1 no/DT/no/1 output/NN/output/3 ;/:/;/0 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 look/VB/look/1 for/IN/for/1 the/DT/the/1 file/NN/file/2 to/TO/to/1 see/VB/see/1 if/IN/if/1 it/PRP/it/1 has/VBZ/have/1 worked/VBN/work/1 ./././0 )/)/)/0 
+Make/VB/make/1 a/DT/a/1 training/NN/train/1 file/NN/file/2 with/IN/with/1 10,000,000/CD/10,000,000/0 instances/NNS/instance/2 :/:/:/0 
+java/NN/java/0 weka.datagenerators.classifiers.classification.LED24/NN/weka.datagenerators.classifiers.classification.led24/0 -n/VBD/-n/0 10000000/CD/10000000/0 
+-o/NN/-o/0 train.arff/NN/train.arff/0 
+Apply/NNP/apply/2 NaiveBayesUpdateable/JJ/naivebayesupdateable/0 :/:/:/0 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 -t/NN/not/1 train.arff/NN/train.arff/0 
+-T/JJ/not/1 test.arff/NN/test.arff/0 -v/NN/-v/0 
+(/(/(/0 This/DT/this/1 takes/VBZ/take/1 about/IN/about/1 30/CD/30/0 secs/NN/seconds/2 on/IN/on/1 my/PRP$/i/1 computer/NN/computer/1 ./././0 The/DT/the/1 “/JJ/“/0 -v/NNP/-v/0 ”/NNP/”/0 suppresses/VBZ/suppress/4 evaluation/NN/evaluate/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 file/NN/file/2 ,/,/,/0 which/WDT/which/1 the/DT/the/1 Command/NNP/command/2 Line/NNP/line/1 Interface/NNP/interface/4 does/VBZ/do/1 by/IN/by/1 default/NN/default/5 ./././0 )/)/)/0 
+Verify/VB/verify/4 that/DT/that/1 Weka/NNP/weka/23 runs/VBZ/run/1 out/IN/out/1 of/IN/of/1 memory/NN/memory/2 if/IN/if/1 cross-validation/NN/cross-validation/0 is/VBZ/be/1 attempted/VBN/attempt/2 :/:/:/0 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 -t/NN/not/1 train.arff/NN/train.arff/0 
+Weka/NNP/weka/23 will/MD/will/1 become/VB/become/1 unresponsive/JJ/response/3 ,/,/,/0 although/IN/although/1 you/PRP/you/1 will/MD/will/1 probably/RB/probably/1 not/RB/not/1 get/VB/get/1 an/DT/a/1 error/NN/error/3 message/NN/message/2 ./././0 (/(/(/0 Unfortunately/IN/fortunate/1 it/PRP/it/1 is/VBZ/be/1 difficult/JJ/difficult/1 to/TO/to/1 trap/VB/trap/2 and/CC/and/1 report/VB/report/1 out-of-memory/JJ/out-of-memory/0 errors/NNS/error/3 in/IN/in/1 a/DT/a/1 Java/NNP/java/0 program/NN/programme/1 ./././0 )/)/)/0 
+If/IN/if/1 you/PRP/you/1 feel/VBP/feel/1 brave/VB/brave/2 ,/,/,/0 repeat/VB/repeat/2 the/DT/the/1 exercise/NN/exercise/2 with/IN/with/1 a/DT/a/1 100,000,000-instance/JJ/100,000,000-instance/0 training/NN/train/1 file/NN/file/2 ./././0 
+
+

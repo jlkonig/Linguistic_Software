@@ -1,0 +1,69 @@
+Decision boundaries and overfitting
+Question 1
+Which of the following machine learning methods produce decision boundaries that are strictly linear?
+IBk
+J48
+Logistic regression
+OneR
+---
+Correct answer(s):
+Logistic regression
+---
+Feedback correct:
+Logistic regression is a sophisticated way of choosing a linear decision boundary for classification.
+---
+Feedback incorrect:
+For just two classes nearest-neighbor learning produces linear boundaries, but in general they are more complex.
+
+Question 2
+Which of the following machine learning methods produce decision boundaries that consist of axis-parallel segments?
+IBk
+J48
+Logistic regression
+SMO (Support vector machines)
+---
+Correct answer(s):
+J48
+---
+Feedback correct:
+Yep. The decision boundary for a test like “is attribute a < some number” is a line (or hyperplane) that’s perpendicular to the a axis and parallel to all the other axes.
+
+Question 3
+Which of the following machine learning methods produce decision boundaries that are piecewise linear (and not necessarily linear or axis-parallel)?
+IBk
+J48
+Logistic regression
+OneR
+---
+Correct answer(s):
+IBk
+---
+Feedback correct:
+Yep. The decision boundaries for IBk are collections of lines (or hyperplanes) that are the perpendicular bisectors of the lines joining every pair of training data points.
+
+Question 4
+Open the credit-g.arff dataset, run the four algorithms IBk, J48, Logistic, and SMO, and record the accuracy using 10-fold cross-validation. What order do the algorithms come in?
+---
+Correct answer(s):
+
+Question 5
+As you know, performance estimates obtained on the training set are overly optimistic because of overfitting. Just how badly an algorithm overfits can be judged in terms of the apparent (but illusory) performance improvement from cross-validation to training-set evaluation. Given what you know about how they operate, order these four algorithms according to the expected amount of overfitting, from greatest to least. Then confirm your intuition with a Weka experiment using the credit-g.arff dataset.
+IBk overfits more than J48, which overfits more than SMO, which is comparable to Logistic
+IBk overfits more than Logistic, which overfits more than SMO, which overfits more than J48
+Logistic overfits more than IBk, which overfits more than J48, which overfits more than SMO
+J48 is comparable to Logistic, which overfits more than SMO, which overfits more than IBk
+---
+Correct answer(s):
+
+Question 5
+As you know, performance estimates obtained on the training set are overly optimistic because of overfitting. Just how badly an algorithm overfits can be judged in terms of the apparent (but illusory) performance improvement from cross-validation to training-set evaluation. Given what you know about how they operate, order these four algorithms according to the expected amount of overfitting, from greatest to least. Then confirm your intuition with a Weka experiment using the credit-g.arff dataset.
+IBk overfits more than J48, which overfits more than SMO, which is comparable to Logistic
+IBk overfits more than Logistic, which overfits more than SMO, which overfits more than J48
+Logistic overfits more than IBk, which overfits more than J48, which overfits more than SMO
+J48 is comparable to Logistic, which overfits more than SMO, which overfits more than IBk
+---
+Correct answer(s):
+IBk overfits more than J48, which overfits more than SMO, which is comparable to Logistic
+---
+Feedback correct:
+IBk overfits dramatically: it’s 100% accurate on the training set (barring duplicate training points with different classes)! J48 can overfit because of the complex decision boundaries it can produce; the effect is ameliorated, but rarely completely eliminated, by its pruning algorithm. With this dataset, J48’s apparent accuracy improves from 70.5% to 85.5%. Logistic regression is a sophisticated way of producing a good linear decision boundary, which is necessarily simple and therefore less likely to overfit; here its apparent performance increases just a little, from 75.5% to 78.6%. SMO also produces a linear boundary, and accuracy increases from 75.1% to 78.4%.

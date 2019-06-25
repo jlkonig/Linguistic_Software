@@ -1,0 +1,7 @@
+Reflect on this week's Big Questions
+The Big Questions this week are, “What are Weka’s other interfaces for?” and “Can Weka process big data?”
+We promised that by the end you’d be able to use the Experimenter, the Knowledge Flow interface, and the Command Line interface. More importantly, you’d realize why they might be useful, even necessary.
+Well, can you use them? And have you some idea why they might be necessary?
+We also promised that you’d be able to explain why the Explorer has a fundamental limit, and have a rough idea what it might be, and how this limit can be transcended using the Command Line interface.
+In the previous course, Data mining with Weka, we challenged you to explain to your partner, siblings, parents or kids what you learned each week. Well, I still think that teaching is the best form of learning, but things may be getting a bit deep for your family members (if they’re not, great!). So in this course, I suggest that you choose a colleague. Tell them about Weka’s other interfaces. Tell them what “big data” means in the context of Weka. And explain how Weka can process really big data.
+Then tell your fellow learners how you got on.

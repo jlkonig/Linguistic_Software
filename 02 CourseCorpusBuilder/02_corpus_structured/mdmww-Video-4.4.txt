@@ -1,0 +1,3 @@
+The Attribute Selected Classifier
+Experimenting with a dataset to select attributes and applying a classifier to the result is cheating, if  performance is evaluated using cross-validation, because the entire dataset is used to determine the attribute subset. You mustn’t use the test data when setting discretization boundaries! But with cross-validation you don’t really have an opportunity to use the training data only. Enter the FilteredClassifier, which solves the problem. (Does that ring a bell? You saw it before, in Week 2.)
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

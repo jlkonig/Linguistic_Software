@@ -1,0 +1,76 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      TOPIC
+      Step
+      Datasets
+      Breast-cancer
+      4.9, 4.14
+      Cpu
+      4.4, 4.5
+      Cpu.with.vendor
+      4.5
+      Credit-g
+      4.12
+      Diabetes
+      4.6, 4.8, 4.14
+      Glass
+      4.9
+      Ionosphere
+      4.9
+      Iris
+      4.2, 4.3, 4.7, 4.11
+      Labor
+      4.9
+      Classifiers
+      DecisionStump
+      4.14
+      IBk
+      4.2, 4.3, 4.12
+      J48
+      4.2, 4.8, 4.9, 4.12
+      LinearRegression
+      4.4, 4.5, 4.6, 4.7
+      Logistic
+      4.3, 4.8, 4.9, 4.11, 4.12
+      M5P
+      4.4, 4.5
+      NaiveBayes
+      4.2, 4.8, 4.9
+      OneR
+      4.2, 4.6, 4.9, 4.14
+      SMO
+      4.3, 4.11, 4.12
+      ZeroR
+      4.6, 4.8, 4.9, 4.14
+      Metalearners
+      AdaBoostM1
+      4.13, 4.14
+      Bagging
+      4.13
+      RandomForest
+      4.3
+      Stacking, StackingC
+      4.13
+      Filters
+      AddClassification
+      4.6
+      AddID
+      4.7
+      MakeIndicator
+      4.7
+      NominalToBinary
+      4.5, 4.6
+      NumericToNominal
+      4.6
+      Packages
+      LibSVM
+      4.11
+      Plus …
+      Boundary visualizer
+      4.11
+      Contrabassoon
+      4.11
+      Output predictions
+      4.7, 4.9
+      Visualize classification boundaries
+      4.2, 4.3

@@ -1,0 +1,84 @@
+Data/NNP/data/3 stream/NN/stream/2 mining/NN/miner/3 
+How/WRB/how/1 can/MD/can/1 you/PRP/you/1 mine/VB/i/1 continuous/JJ/continue/1 data/NNS/data/3 streams/NNS/stream/2 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+2.1/CD/2.1/0 
+How/WRB/how/1 can/MD/can/1 you/PRP/you/1 mine/VB/i/1 continuous/JJ/continue/1 data/NNS/data/3 streams/NNS/stream/2 ?/./?/0 
+article/NN/article/2 
+Incremental/JJ/increment/6 classifiers/NNS/classifier/0 in/IN/in/1 Weka/NNP/weka/23 
+Weka/NNP/weka/23 contains/VBZ/contain/2 some/DT/some/1 classifiers/NNS/classifier/0 that/WDT/that/1 operate/VBP/operate/2 incrementally/RB/increment/6 rather/RB/rather/1 than/IN/than/1 in/IN/in/1 batch/NN/batch/5 mode/NN/mode/3 ,/,/,/0 like/IN/like/1 the/DT/the/1 Hoeffding/NNP/hoeffding/0 Tree/NNP/tree/1 method/NN/method/3 for/IN/for/1 decision/NN/decision/2 trees/NNS/tree/1 ./././0 Incremental/JJ/increment/6 classifiers/NNS/classifier/0 don/VBP/do/1 ’/JJ/’/0 t/NNS/not/1 have/VBP/have/1 to/TO/to/1 store/VB/store/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 in/IN/in/1 memory/NN/memory/2 ./././0 
+2.2/CD/2.2/0 
+Incremental/JJ/increment/6 classifiers/NNS/classifier/0 in/IN/in/1 Weka/NNP/weka/23 
+video/NN/video/1 (/(/(/0 05:12/CD/05:12/0 )/)/)/0 
+2.3/CD/2.3/0 
+Three/CD/three/1 incremental/JJ/increment/6 classifiers/NNS/classifier/0 
+quiz/NN/quiz/6 
+Weka/NNP/weka/23 's/POS/be/1 MOA/NNP/moa/18 package/NN/pack/1 
+Weka/NNP/weka/23 ’/NNP/’/0 s/NN/be/1 MOA/NNP/moa/18 package/NN/pack/1 gives/VBZ/give/1 access/NN/access/2 to/TO/to/1 classification/VB/classification/4 algorithms/NN/algorithm/5 from/IN/from/1 the/DT/the/1 MOA/NNP/moa/18 system/NN/system/1 ,/,/,/0 which/WDT/which/1 can/MD/can/1 deal/VB/deal/1 with/IN/with/1 huge/JJ/huge/1 datasets/NNS/datasets/0 and/CC/and/1 handle/VB/handle/1 evolving/VBG/evolve/3 data/NNS/data/3 streams/NNS/stream/2 where/WRB/where/1 the/DT/the/1 concept/NN/concept/3 drifts/NN/drift/3 over/IN/over/1 time/NN/time/1 ./././0 
+2.4/CD/2.4/0 
+Weka/NNP/weka/23 's/POS/be/1 MOA/NNP/moa/18 package/NN/pack/1 
+video/NN/video/1 (/(/(/0 03:30/CD/03:30/0 )/)/)/0 
+2.5/CD/2.5/0 
+Using/VBG/use/1 MOA/NNP/moa/18 from/IN/from/1 Weka/NNP/weka/23 
+quiz/NN/quiz/6 
+The/DT/the/1 MOA/NNP/moa/18 interface/NN/interface/4 
+The/DT/the/1 MOA/NNP/moa/18 system/NN/system/1 ,/,/,/0 a/DT/a/1 sister/NN/sister/1 of/IN/of/1 Weka/NNP/weka/23 ,/,/,/0 operates/VBZ/operate/2 fully/RB/full/1 incrementally/RB/increment/6 ,/,/,/0 on/IN/on/1 data/NNS/data/3 streams/NNS/stream/2 ./././0 Different/JJ/different/1 evaluation/NN/evaluate/3 methods/NNS/method/3 are/VBP/be/1 needed/VBN/need/1 for/IN/for/1 stream/NN/stream/2 data/NNS/data/3 ./././0 
+2.6/CD/2.6/0 
+The/DT/the/1 MOA/NNP/moa/18 interface/NN/interface/4 
+video/NN/video/1 (/(/(/0 05:33/CD/05:33/0 )/)/)/0 
+2.7/CD/2.7/0 
+Using/VBG/use/1 the/DT/the/1 MOA/NNP/moa/18 interface/NN/interface/4 
+article/NN/article/2 
+2.8/CD/2.8/0 
+Using/VBG/use/1 MOA/NNP/moa/18 
+quiz/NN/quiz/6 
+Dealing/VBG/deal/1 with/IN/with/1 change/NN/change/1 
+An/DT/a/1 adaptive/JJ/adapt/2 sliding/NN/slide/2 window/NN/window/1 algorithm/NN/algorithm/5 can/MD/can/1 detect/VB/detect/2 change/NN/change/1 and/CC/and/1 update/JJ/update/3 statistics/NNS/statistic/3 from/IN/from/1 a/DT/a/1 data/NN/data/3 stream/NN/stream/2 ./././0 The/DT/the/1 Hoeffding/NNP/hoeffding/0 adaptive/JJ/adapt/2 tree/NN/tree/1 constructs/NNS/construct/3 “/VBP/“/0 alternative/JJ/alternative/3 branches/NNS/branch/2 ”/VBP/”/0 to/TO/to/1 prepare/VB/prepare/1 for/IN/for/1 changes/NNS/change/1 ./././0 Bagging/NN/bag/1 can/MD/can/1 be/VB/be/1 adapted/VBN/adapt/2 for/IN/for/1 stream/NN/stream/2 data/NNS/data/3 ./././0 
+2.9/CD/2.9/0 
+MOA/NNP/moa/18 classifiers/NNS/classifier/0 and/CC/and/1 streams/NNS/stream/2 
+video/NN/video/1 (/(/(/0 08:14/CD/08:14/0 )/)/)/0 
+2.10/CD/2.10/0 
+Streaming/VBG/stream/2 classifiers/NNS/classifier/0 and/CC/and/1 evolving/VBG/evolve/3 streams/NNS/stream/2 
+quiz/NN/quiz/6 
+Classifying/VBG/classify/4 tweets/NNS/tweet/14 
+Twitter/NN/twitter/9 is/VBZ/be/1 BIG/NNP/big/1 data/NN/data/3 !/./!/0 One/CD/one/1 application/NN/apply/2 is/VBZ/be/1 sentiment/JJ/sentiment/4 analysis/NN/analyse/3 :/:/:/0 does/VBZ/do/1 a/DT/a/1 tweet/NN/tweet/14 convey/VBZ/convey/3 a/DT/a/1 positive/JJ/positive/2 or/CC/or/1 negative/JJ/negative/3 feelings/NNS/feel/1 ?/./?/0 The/DT/the/1 Kappa/NNP/kappa/0 statistic/NN/statistic/3 is/VBZ/be/1 often/RB/often/1 a/DT/a/1 more/RBR/more/1 robust/JJ/robust/5 and/CC/and/1 useful/JJ/use/1 measure/NN/measure/2 than/IN/than/1 percent/NN/percent/2 accuracy/NN/accurate/3 ./././0 
+2.11/CD/2.11/0 
+Classifying/VBG/classify/4 tweets/NNS/tweet/14 
+video/NN/video/1 (/(/(/0 05:45/CD/05:45/0 )/)/)/0 
+2.12/CD/2.12/0 
+Sentiment/NN/sentiment/4 analysis/NN/analyse/3 
+discussion/NN/discuss/2 
+2.13/CD/2.13/0 
+Classifying/VBG/classify/4 tweets/NNS/tweet/14 
+quiz/NN/quiz/6 
+Signal/NNP/signal/2 peptide/NN/peptide/8 prediction/NN/predict/3 
+What/WP/what/1 are/VBP/be/1 important/JJ/important/1 problems/NNS/problem/1 in/IN/in/1 bioinformatics/NNS/bioinformatics/23 ?/./?/0 Signal/NNP/signal/2 peptide/NN/peptide/8 prediction/NN/predict/3 is/VBZ/be/1 one/CD/one/1 ./././0 
+How/WRB/how/1 can/MD/can/1 features/VB/feature/2 be/VB/be/1 created/VBN/create/2 from/IN/from/1 raw/JJ/raw/3 DNA/NNP/dna/3 sequence/NN/sequence/3 data/NNS/data/3 ?/./?/0 
+And/CC/and/1 how/WRB/how/1 can/MD/can/1 we/PRP/we/1 evaluate/VB/evaluate/3 the/DT/the/1 results/NNS/result/2 ?/./?/0 
+2.14/CD/2.14/0 
+Signal/NNP/signal/2 peptide/NN/peptide/8 prediction/NN/predict/3 
+video/NN/video/1 (/(/(/0 17:20/CD/17:20/0 )/)/)/0 
+2.15/CD/2.15/0 
+Signal/NNP/signal/2 peptide/NN/peptide/8 prediction/NN/predict/3 
+quiz/NN/quiz/6 
+2.16/CD/2.16/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 ’/NNP/’/0 s/VBZ/be/1 Big/NNP/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+How/WRB/how/1 are/VBP/be/1 you/PRP/you/1 getting/VBG/get/1 on/IN/on/1 ?/./?/0 
+We/PRP/we/1 're/VBP/be/1 well/RB/well/1 into/IN/into/1 the/DT/the/1 course/NN/course/1 now/RB/now/1 ./././0 Let/VB/let/1 's/POS/be/1 just/RB/just/1 take/VB/take/1 stock/NN/stock/2 ./././0 
+2.17/CD/2.17/0 
+Mid-course/JJ/mid-course/0 assessment/NN/assess/3 
+test/NN/test/1 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 test/NN/test/1 step/NN/step/1 ,/,/,/0 it/PRP/it/1 helps/VBZ/help/1 you/PRP/you/1 verify/VB/verify/4 your/PRP$/you/1 understanding/NN/understand/1 ./././0 If/IN/if/1 you/PRP/you/1 want/VBP/want/1 to/TO/to/1 earn/VB/earn/2 a/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 on/IN/on/1 this/DT/this/1 course/NN/course/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 complete/VB/complete/1 this/DT/this/1 test/NN/test/1 and/CC/and/1 any/DT/any/1 others/NNS/other/1 ,/,/,/0 scoring/VBG/score/2 an/DT/a/1 average/NN/average/2 of/IN/of/1 70/CD/70/0 %/NN/%/0 or/CC/or/1 above/NN/above/1 ./././0 
+To/TO/to/1 take/VB/take/1 tests/NNS/test/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 upgrade/VB/upgrade/4 this/DT/this/1 course/NN/course/1 ./././0 It/PRP/it/1 costs/VBZ/cost/1 $/$/$/0 94/CD/94/0 ,/,/,/0 which/WDT/which/1 also/RB/also/1 gets/VBZ/get/1 you/PRP/you/1 :/:/:/0 
+Unlimited/JJ/limit/2 access/NN/access/2 to/TO/to/1 the/DT/the/1 course/NN/course/1 for/IN/for/1 as/RB/as/1 long/RB/long/1 as/IN/as/1 it/PRP/it/1 exists/VBZ/exist/2 on/IN/on/1 FutureLearn/NNP/futurelearn/0 ,/,/,/0 so/IN/so/1 you/PRP/you/1 can/MD/can/1 learn/VB/learn/1 at/IN/at/1 your/PRP$/you/1 own/JJ/own/1 pace/NN/pace/3 
+A/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 when/WRB/when/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 eligible/JJ/eligible/4 ,/,/,/0 to/TO/to/1 prove/VB/prove/2 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 
+Upgrade/NN/upgrade/4 
+Find/VB/find/1 out/RP/out/1 more/JJR/more/1 
+2.18/CD/2.18/0 
+How/WRB/how/1 are/VBP/be/1 you/PRP/you/1 getting/VBG/get/1 on/IN/on/1 ?/./?/0 
+discussion/NN/discuss/2 
+2.19/CD/2.19/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

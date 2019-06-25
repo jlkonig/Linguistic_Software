@@ -1,0 +1,172 @@
+Comparing classifiers 
+Question 1
+For one (and only one) of the datasets, some schemes significantly outperform J48 (at the 5% level). Which dataset?
+iris
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+---
+Correct answer(s):
+credit-g
+---
+Feedback correct:
+NaiveBayes, Logistic, and SMO significantly outperform J48 on the german_credit dataset – and no method outperforms it significantly on any other dataset. (Look for the “v”s, not the asterisks.)
+
+Question 2
+One of the classifiers is not significantly different from J48 on any dataset. Which classifier?
+NaiveBayes
+IBk
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+IBk
+
+Question 3
+One of the classifiers is significantly better than J48 on exactly one dataset, and significantly worse than J48 on exactly one other dataset. Which classifier?
+NaiveBayes
+IBk
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+Logistic
+---
+Feedback correct:
+Logistic outperforms J48 significantly on the german_credit dataset, and underperforms it significantly on the breast-cancer dataset.
+
+Question 4
+Change the analysis parameters to compare the various classifiers with OneR instead of with J48. (You can do this on the “Analyse” panel without re-running the experiment.)
+There’s one dataset on which all classifiers significantly outperform OneR. Which dataset?
+iris
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+---
+Correct answer(s):
+credit-g
+---
+Feedback correct:
+Even ZeroR outperforms OneR significantly on this dataset!
+
+Question 5
+Which classifier significantly outperforms OneR on the largest number of datasets?
+NaiveBayes
+IBk
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+AdaBoostM1
+---
+Feedback correct:
+AdaBoostM1 outperforms OneR significantly on 5 datasets. However, on the remaining dataset (Glass), AdaBoostM1 significantly underperforms OneR!
+
+Question 6
+Change the analysis parameters to compare the various classifiers with SMO instead of with OneR.
+Which classifier significantly outperforms SMO on the largest number of datasets?
+NaiveBayes
+J48
+IBk
+Logistic
+AdaBoostM1
+---
+Correct answer(s):
+J48
+---
+Feedback correct:
+J48 significantly outperforms SMO on two datasets, breast-cancer and Glass.
+
+Question 7
+Which other classifier significantly outperforms SMO on at least one dataset (as well as J48)?
+NaiveBayes
+IBk
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+IBk
+---
+Feedback correct:
+IBk significantly outperforms SMO on the Glass dataset.
+
+Question 8
+Ignoring whether or not the differences are statistically significant, which classifier performs best of all on each of the following datasets (Q. 8, 9, 10, 11, 12, 13):
+Best performing classifier for iris:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+Logistic
+
+Question 9
+Best performing classifier for breast-cancer:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+J48
+
+Question 10
+Best performing classifier for credit-g:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+Logistic
+
+Question 11
+Best performing classifier for diabetes:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+Logistic
+
+Question 12
+Best performing classifier for glass:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+IBk
+
+Question 13
+Best performing classifier for ionosphere:
+J48
+IBk
+NaiveBayes
+Logistic
+SMO
+AdaBoostM1
+---
+Correct answer(s):
+AdaBoostM1

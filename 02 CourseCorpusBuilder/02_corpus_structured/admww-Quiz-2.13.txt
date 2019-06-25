@@ -1,0 +1,188 @@
+Classifying tweets
+Question 1
+How many instances are there, and how many have the minority class?
+Select all the answers you think are correct.
+8552 instances
+10426 instances
+49955 instances
+8552 minority class instances
+10426 minority class instances
+49955 minority class instances
+---
+Correct answer(s):
+49955 instances
+8552 minority class instances
+
+Question 2
+Is the dataset unbalanced?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+One class has 83% of the instances; the other has 17%.
+
+Question 3
+Run a 10-fold cross-validation with Weka’s NaiveBayesMultinomialText classifier.
+In this dataset, the second attribute is a string – the text of the tweet – but this classifier deals with string attributes automatically: it incorporates the StringToWordVector filter that we used in the earlier Weka courses.
+What’s the accuracy of NaiveBayesMultinomialText, and what’s its Kappa statistic?
+Select all the answers you think are correct.
+Accuracy: 80.9%
+Accuracy: 82.9%
+Accuracy: 83.1%
+Kappa statistic: 0%
+Kappa statistic: 4.9%
+Kappa statistic: 39.2%
+---
+Correct answer(s):
+Accuracy: 80.9%
+Kappa statistic: 39.2%
+
+Question 4
+SGDText is an iterative method that uses stochastic gradient descent to learn either an SVM (default configuration) or a logistic regression model.
+Like NaiveBayesMultinomialText, it deals with string attributes automatically.
+Configure it for 1 epoch (the default is 500) so that it operates incrementally – it sees instances just once. It’s rather slow, even with just 1 epoch, so use percentage split evaluation rather than cross-validation. What’s its accuracy on the Twitter dataset, and what’s its Kappa statistic?
+Select all the answers you think are correct.
+Accuracy: 80.9%
+Accuracy: 82.9%
+Accuracy: 83.1%
+Kappa statistic: 0%
+Kappa statistic: 4.9%
+Kappa statistic: 39.2%
+---
+Correct answer(s):
+Accuracy: 83.1%
+Kappa statistic: 4.9%
+
+Question 5
+Of these two classifiers, NaiveBayesMultinomialText and SGDText, is the one with the larger Kappa statistic also the one with greater accuracy?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+Any Kappa value greater than zero indicates that some learning has taken place, but the value of 5% achieved here is very much worse than the 40% achieved by Naive Bayes – despite the slightly greater accuracy (83% vs 81%).
+
+Question 6
+Now configure SGDText to use logistic regression by changing the loss function to Log loss.
+Does the accuracy increase?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+It decreases slightly, from 83.1% to 82.9%.
+
+Question 7
+Does the Kappa statistic increase?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+It increases from 4.9% to 5.9%. The Log loss setting gives a slightly lower accuracy, but a slightly higher Kappa.
+
+Question 8
+Now create an ARFF dataset that you can use from MOA.
+In Weka, filter the Twitter dataset with StringToWordVector, setting both IDFTransform and TFTransform to True. Try it.
+Oops! – there’s a problem. Check it out. You can solve it by setting StringToWordVector’s attributeNamePrefix to – anything, really.
+In MOA, run a prequential evaluation on this dataset using the majority class classifier (functions.MajorityClass) and the BasicClassificationPerformanceEvaluator.
+Remember from the last Quiz how to use ARFF files in MOA? – set everything else up in the Configure interface and then insert
+-s (ArffFileStream -f filename.arff -c 2)
+into the command string. The –c 2 is necessary to signify that the class is the second attribute.
+Or you could just copy the following line into MOA’s Command text box, changing the filename appropriately:
+EvaluatePrequential -l functions.MajorityClass 
+    -s (ArffFileStream -f tweets.arff -c 2) 
+    -e BasicClassificationPerformanceEvaluator -i 1000000 -f 1000
+What’s the final accuracy and Kappa statistic?
+Select all the answers you think are correct.
+Accuracy: 19.1%
+Accuracy: 80.9%
+Accuracy: 82.9%
+Kappa statistic: 0%
+Kappa statistic: 4.9%
+Kappa statistic: 19.1%
+---
+Correct answer(s):
+Accuracy: 82.9%
+Kappa statistic: 0%
+
+Question 9
+The majority class classifier classifies everything as pos, yielding a superficially impressive accuracy of 82.9% …
+… which is simply the proportion of pos instances in the dataset, 41403/49955. Not really very good! And this is reflected in a Kappa value of 0, which means that the classifier has learned nothing interesting.
+Repeat with the NaiveBayesMultinomial classifier.
+What’s the final Kappa statistic?
+0%
+4.9%
+19.1%
+28.4%
+35.6%
+39.2%
+---
+Correct answer(s):
+35.6%
+---
+Feedback correct:
+(More precisely, 35.63%)
+
+Question 10
+This Kappa value indicates that Bayes does learn something non-trivial.
+The Kappa-temporal statistic is similar to Kappa, but instead of comparing with a random classifier it compares with the “no-change” classifier, which simply predicts the class label of the last training instance seen.
+What’s the value of the Kappa-temporal statistic in the last experiment?
+0%
+4.9%
+19.1%
+28.4%
+35.6%
+39.2%
+---
+Correct answer(s):
+28.4%
+
+Question 11
+When the no-change classifier performs well, we say that a data stream has a strong temporal dependence (in other words, significant autocorrelation).
+Use MOA to run the no-change classifier (moa.classifiers.functions/NoChange) on the elecNormNew.arff dataset and check the accuracy achieved. Does this dataset exhibit strong temporal dependence?
+Yes
+Hard to say
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The accuracy is 85.8
+---
+Feedback incorrect:
+Well, I kind of agree. The accuracy is pretty good, but is it good enough?  Anyway, go on – take a risk!
+
+Question 12
+In fact, if you randomize the instances in this dataset (which you can easily do with a Weka filter), the classifier’s accuracy drops from 86% to 51%.
+[Would you like a little mathematical challenge? You can show theoretically that for a 2-class dataset with class probabilities p and 1–p, the no-change classifier has a success rate of 1–2p (1–p) if the instances are in random order. For this dataset p = 0.425, and the theoretical success rate is 0.511, or 51%.]
+Does the covtypeNorm.arff dataset exhibit strong temporal dependence, according to the same criterion?
+Yes
+No
+---
+Correct answer(s):
+Yes
+---
+Feedback correct:
+The accuracy is 95.1%.
+In fact, if you were to randomize the instances the accuracy would drop from 95% to 38%.
+In general, for any dataset, the success rate of the no-change classifier is the sum of the squares of the class probabilities, if the instances are presented in random order. For covtypeNorm.arff, a 7-class dataset, p1^2 + p2^2 + p3^2 + p4^2 + p5^2 + p6^2 + p7^2 works out to 0.377.
+
+Question 12
+In fact, if you randomize the instances in this dataset (which you can easily do with a Weka filter), the classifier’s accuracy drops from 86% to 51%.
+[Would you like a little mathematical challenge? You can show theoretically that for a 2-class dataset with class probabilities p and 1–p, the no-change classifier has a success rate of 1–2p (1–p) if the instances are in random order. For this dataset p = 0.425, and the theoretical success rate is 0.511, or 51%.]
+Does the covtypeNorm.arff dataset exhibit strong temporal dependence, according to the same criterion?
+Yes
+No
+---
+Correct answer(s):

@@ -1,0 +1,100 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Forest/NNP/forest/1 cover/NN/cover/1 type/NN/type/1 (/(/(/0 covtypeNorm/NN/covtypenorm/0 )/)/)/0 
+2.3/CD/2.3/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.12/CD/2.12/0 
+labelled_tweets/NNS/labelled_tweets/0 
+2.12/CD/2.12/0 
+NSW/NNP/nsw/0 Electricity/NNP/electric/2 Market/NNP/market/1 (/(/(/0 elecNormNew/NN/elecnormnew/0 )/)/)/0 
+2.5/CD/2.5/0 ,/,/,/0 2.12/CD/2.12/0 
+Signal/NNP/signal/2 peptide/NN/peptide/8 cleavage/NN/cleave/6 data/NNS/data/3 (/(/(/0 sigdata/NN/sigdata/0 )/)/)/0 
+2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+Classifiers/NNS/classifier/0 
+HoeffdingAdaptiveTree/NN/hoeffdingadaptivetree/0 
+2.8/CD/2.8/0 ,/,/,/0 2.9/CD/2.9/0 
+HoeffdingOptionTree/NN/hoeffdingoptiontree/0 
+2.5/CD/2.5/0 
+HoeffdingTree/NNP/hoeffdingtree/0 (/(/(/0 Weka/NNP/weka/23 )/)/)/0 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 ,/,/,/0 2.5/CD/2.5/0 
+HoeffdingTree/NNP/hoeffdingtree/0 (/(/(/0 MOA/NNP/moa/18 )/)/)/0 
+2.5/CD/2.5/0 ,/,/,/0 2.6/CD/2.6/0 ,/,/,/0 2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 
+IBk/NN/ibk/0 
+2.3/CD/2.3/0 
+Incremental/NN/increment/6 
+2.2/CD/2.2/0 ,/,/,/0 2.3/CD/2.3/0 
+J48/NN/j48/0 
+2.3/CD/2.3/0 ,/,/,/0 2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+MajorityClass/NN/majorityclass/0 
+2.9/CD/2.9/0 ,/,/,/0 2.12/CD/2.12/0 
+NaiveBayes/NNS/naivebayes/0 
+2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 
+NaiveBayesUpdateable/JJ/naivebayesupdateable/0 
+2.3/CD/2.3/0 
+NaiveBayesMultinomial/JJ/naivebayesmultinomial/0 
+2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 
+SGD/NNP/sgd/0 (/(/(/0 Stochastic/JJ/stochastic/13 gradient/NN/gradient/7 descent/NN/descent/5 )/)/)/0 
+2.10/CD/2.10/0 
+SGDText/NN/sgdtext/0 
+2.12/CD/2.12/0 
+Updateable/JJ/updateable/0 classifiers/NNS/classifier/0 
+2.2/CD/2.2/0 
+Metalearners/NNS/metalearners/0 
+LeveragingBag/NN/leveragingbag/0 
+2.8/CD/2.8/0 ,/,/,/0 2.9/CD/2.9/0 
+OzaBag/NN/ozabag/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 ,/,/,/0 2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 
+OzaBagAdwin/NN/ozabagadwin/0 
+2.8/CD/2.8/0 ,/,/,/0 2.9/CD/2.9/0 
+Filters/NNS/filter/3 
+Resample/NN/resample/0 
+2.5/CD/2.5/0 
+StringToWordVector/NN/stringtowordvector/0 
+2.12/CD/2.12/0 
+Packages/NNS/pack/1 
+massiveOnlineAnalysis/NN/massiveonlineanalysis/0 (/(/(/0 MOA/NNP/moa/18 )/)/)/0 
+2.4/CD/2.4/0 ,/,/,/0 2.5/CD/2.5/0 
+Generators/NNS/generator/5 
+HyperplaneGenerator/NN/hyperplanegenerator/0 
+2.5/CD/2.5/0 ,/,/,/0 2.6/CD/2.6/0 
+LED24/NNP/led24/0 (/(/(/0 Weka/NNP/weka/23 )/)/)/0 
+2.3/CD/2.3/0 
+LEDGenerator/NNP/ledgenerator/0 (/(/(/0 MOA/NNP/moa/18 )/)/)/0 
+2.4/CD/2.4/0 
+RandomRBFGenerator/NN/randomrbfgenerator/0 
+2.8/CD/2.8/0 ,/,/,/0 2.9/CD/2.9/0 
+RandomRBFGeneratorDrift/NN/randomrbfgeneratordrift/0 
+2.9/CD/2.9/0 
+WaveformGenerator/NN/waveformgenerator/0 
+2.7/CD/2.7/0 
+Evaluation/NN/evaluate/3 
+Kappa/NNP/kappa/0 statistic/NN/statistic/3 
+2.7/CD/2.7/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 
+Kappa-temporal/JJ/kappa-temporal/0 statistic/NN/statistic/3 
+2.12/CD/2.12/0 
+Periodic/NNS/period/2 holdout/NN/holdout/0 
+2.6/CD/2.6/0 ,/,/,/0 2.7/CD/2.7/0 
+Prequential/JJ/prequential/0 
+2.6/CD/2.6/0 ,/,/,/0 2.7/CD/2.7/0 ,/,/,/0 2.9/CD/2.9/0 ,/,/,/0 2.10/CD/2.10/0 ,/,/,/0 2.12/CD/2.12/0 
+Plus/CC/plus/1 …/VB/…/0 
+Adaptive/JJ/adapt/2 sliding/NN/slide/2 window/NN/window/1 (/(/(/0 ADWIN/NNP/adwin/0 )/)/)/0 
+2.8/CD/2.8/0 
+Bioinformatics/NNS/bioinformatics/23 
+2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+Bootstrap/NNP/bootstrap/13 sampling/VBG/sample/3 
+2.8/CD/2.8/0 
+Data/NNP/data/3 stream/NN/stream/2 mining/NN/miner/3 
+2.1–2.12/CD/2.1–2.12/0 
+MOA/NNP/moa/18 system/NN/system/1 
+2.6–2.12/CD/2.6–2.12/0 
+Sequence/NN/sequence/3 analysis/NN/analyse/3 
+2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+Sentiment/NN/sentiment/4 analysis/NN/analyse/3 
+2.10/CD/2.10/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 
+Signal/NNP/signal/2 peptide/NN/peptide/8 prediction/NN/predict/3 
+2.13/CD/2.13/0 ,/,/,/0 2.14/CD/2.14/0 
+Twitter/NN/twitter/9 
+2.10/CD/2.10/0 ,/,/,/0 2.11/CD/2.11/0 ,/,/,/0 2.12/CD/2.12/0 
+
+

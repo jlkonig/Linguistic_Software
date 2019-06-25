@@ -1,0 +1,3 @@
+Time series: linear regression with lags 
+The simplest kind of forecasting is linear regression. Although this sounds mundane and not very useful – we rarely expect time series simply to be linearly increasing or decreasing – adding lagged copies of variables increases its power enormously by allowing cyclic models. Weka’s internal date format needs to be converted into something more sensible in order to be able to interpret the linear time-based models. Also, using a lagged variable means that early instances have missing values, which need to be removed.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

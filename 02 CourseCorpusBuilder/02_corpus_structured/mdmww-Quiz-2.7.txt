@@ -1,0 +1,203 @@
+Pre-discretization vs. built-in discretization 
+Question 1
+For which datasets does J48’s built-in discretization give better results than the FilteredClassifer?
+Select all the answers you think are correct.
+diabetes
+glass
+ionosphere
+iris
+schizo
+---
+Correct answer(s):
+diabetes
+iris
+schizo
+---
+Feedback incorrect:
+J48’s built-in discretization gives better results on the diabetes, iris, and schizo datasets.
+
+Question 2
+For which dataset does J48’s built-in discretization give significantly better results (at the 5% level)?
+diabetes
+glass
+ionosphere
+iris
+schizo
+---
+Correct answer(s):
+schizo
+
+Question 3
+For which dataset (if any) does J48’s built-in discretization give significantly worse results?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 4
+Repeat with the classifiers JRip and PART (use default settings throughout), comparing them on the above datasets with and without Weka’s supervised Discretize filter with the makeBinary option set. This time, look at just the results that are statistically significant (at the 5% level).
+For which dataset (if any) does JRip’s built-in discretization gives significantly better results than the Filtered Classifer?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+schizo
+
+Question 5
+For which datasets (if any) does JRip’s built-in discretization gives significantly worse results than the Filtered Classifer?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 6
+For which dataset (if any) does PART’s built-in discretization gives significantly better results than the Filtered Classifer?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 7
+For which dataset (if any) does PART’s built-in discretization gives significantly worse results than the Filtered Classifer?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 8
+The classifiers SMO and SimpleLogistic implement linear decision boundaries in instance space.
+How would you expect pre-discretization (with makeBinary enabled) to affect their performance?
+Make it worse than without discretization.
+Make it better than without discretization.
+---
+Correct answer(s):
+Make it better than without discretization.
+---
+Feedback correct:
+Discretization (with makeBinary enabled) would probably improve performance, because it allows a more complex model, one that is no longer linear in the decision space.
+
+Question 9
+Confirm your intuition (using default settings throughout) by testing the above datasets.
+For which datasets does pre-discretization significantly improve SMO’s performance?
+Select all the answers you think are correct.
+diabetes
+glass
+ionosphere
+iris
+schizo
+---
+Correct answer(s):
+glass
+schizo
+
+Question 10
+For which dataset (if any) does pre-discretization make SMO’s performance significantly worse?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 11
+For which datasets does pre-discretization significantly improve SimpleLogistic’s performance?
+Select all the answers you think are correct.
+diabetes
+glass
+ionosphere
+iris
+schizo
+---
+Correct answer(s):
+ionosphere
+schizo
+
+Question 12
+For which dataset (if any) does pre-discretization make SimpleLogistic’s performance significantly worse?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 13
+IBk can implement arbitrary boundaries in instance space.
+How would you expect pre-discretization to affect IBk’s performance?
+Pre-discretization would improve its performance
+Pre-discretization would make its performance worse
+Pre-discretization would not change its performance significantly
+---
+Correct answer(s):
+Pre-discretization would not change its performance significantly
+---
+Feedback incorrect:
+Although it may do so at times, this is probably coincidental.
+
+Question 14
+Confirm your intuition (using default settings throughout) by testing the above datasets.
+For which dataset (if any) does pre-discretization significantly improve IBk’s performance?
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 15
+For which dataset (if any) does pre-discretization make IBk’s performance significantly worse?
+Select all the answers you think are correct.
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):
+(none)
+
+Question 15
+For which dataset (if any) does pre-discretization make IBk’s performance significantly worse?
+Select all the answers you think are correct.
+diabetes
+glass
+ionosphere
+iris
+schizo
+(none)
+---
+Correct answer(s):

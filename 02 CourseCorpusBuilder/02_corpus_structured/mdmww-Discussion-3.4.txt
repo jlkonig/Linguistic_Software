@@ -1,0 +1,8 @@
+What could possibly go wrong?
+Ha!
+Hopefully nothing. If you’ve successfully installed the simpleEducationalLearningSchemes package, feel free to ignore this discussion.
+But you never know with computers – particularly since Weka’s package manager reaches out to access packages over the internet. For example, if you are operating inside your institution’s firewall Weka may be prevented from accessing the Web because you haven’t supplied a password.
+How did it go? It should be easy, but you never know … Please share your experiences, and any tips, with fellow learners. If you have problems, post them. (Don’t forget to include details such as the computer, maybe system version too.) If you’ve figured out the solution, post that. And if you can help someone else, please do so! You’re a community.
+OK, I’ll kick it off:
+Problem. I installed the userClassifier package and everything seemed to go fine. But when I restart the Explorer and look at the classifiers in the Classify panel, the UserClassifier isn’t there!
+Solution. Hmmm. Are you sure you’re looking in the right place? Under trees? Where J48 is? Yes?? … well, maybe it didn’t install. When you clicked the Package manager’s install button, and you were asked to close any Weka application windows, did you close the Explorer, and re-open it once installation was complete? Yes? And, before closing, did you first wait for the package to finish installing (look at the progress bar)? It might take a little time. Computers are very picky about all these things: you have to get it exactly right.

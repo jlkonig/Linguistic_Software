@@ -1,0 +1,159 @@
+Experience/NN/experience/1 the/DT/the/1 woes/NNS/woe/6 of/IN/of/1 big/JJ/big/1 data/NNS/data/3 
+Question/NN/question/1 1/CD/1/0 
+Use/VB/use/1 the/DT/the/1 Simple/NNP/simple/1 CLI/NNP/cli/0 to/TO/to/1 train/VB/train/1 NaiveBayesUpdateable/JJ/naivebayesupdateable/0 on/IN/on/1 the/DT/the/1 full/JJ/full/1 covtype/NN/covtype/0 dataset/NN/dataset/0 and/CC/and/1 test/NN/test/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 same/JJ/same/1 set/NN/set/1 –/NNP/–/0 i.e/NN/i.e/0 ./././0 evaluate/VB/evaluate/3 it/PRP/it/1 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/NN/set/1 ./././0 
+[/JJ/[/0 Hint/NN/hint/3 :/:/:/0 speed/NN/speed/2 things/NNS/thing/1 up/RP/up/1 by/IN/by/1 using/VBG/use/1 the/DT/the/1 “/NNP/“/0 -v/NNP/-v/0 ”/NNP/”/0 switch/NN/switch/2 ]/NN/]/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 accuracy/NN/accurate/3 ?/./?/0 
+65.428/CD/65.428/0 %/NN/%/0 
+65.435/CD/65.435/0 %/NN/%/0 
+65.436/CD/65.436/0 %/NN/%/0 
+65.536/CD/65.536/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+65.436/CD/65.436/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.arff/NN/covtype.arff/0 -v/NN/-v/0 
+(/(/(/0 Weka/NNP/weka/23 gives/VBZ/give/1 the/DT/the/1 result/NN/result/2 as/IN/as/1 65.4358/CD/65.4358/0 %/NN/%/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.arff/NN/covtype.arff/0 -v/NN/-v/0 
+Did/NNP/do/1 you/PRP/you/1 specify/VB/specify/3 evaluation/NN/evaluate/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.arff/NN/covtype.arff/0 -v/NN/-v/0 
+Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 round/VB/round/1 the/DT/the/1 answer/NN/answer/1 correctly/RB/correct/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.arff/NN/covtype.arff/0 -v/NN/-v/0 
+
+Question/NN/question/1 2/CD/2/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 cross-validation/NN/cross-validation/0 accuracy/NN/accurate/3 ?/./?/0 
+65.427/CD/65.427/0 %/NN/%/0 
+65.428/CD/65.428/0 %/NN/%/0 
+65.436/CD/65.436/0 %/NN/%/0 
+65.528/CD/65.528/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+65.428/CD/65.428/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/NN/not/1 covtype.arff/NN/covtype.arff/0 
+(/(/(/0 Weka/NNP/weka/23 gives/VBZ/give/1 the/DT/the/1 result/NN/result/2 as/IN/as/1 65.4281/CD/65.4281/0 %/NN/%/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/NN/not/1 covtype.arff/NN/covtype.arff/0 
+Be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 round/VB/round/1 the/DT/the/1 answer/NN/answer/1 correctly/RB/correct/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/NN/not/1 covtype.arff/NN/covtype.arff/0 
+Note/NN/note/1 that/IN/that/1 cross-validation/NN/cross-validation/0 is/VBZ/be/1 the/DT/the/1 default/NN/default/5 option/NN/option/2 for/IN/for/1 evaluation/NN/evaluate/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/NN/not/1 covtype.arff/NN/covtype.arff/0 
+
+Question/NN/question/1 3/CD/3/0 
+The/DT/the/1 above/JJ/above/1 figures/NNS/figure/1 for/IN/for/1 training-set/JJ/training-set/0 evaluation/NN/evaluate/3 and/CC/and/1 cross-validation/NN/cross-validation/0 are/VBP/be/1 almost/RB/almost/1 identical/JJ/identical/4 ,/,/,/0 yet/RB/yet/1 in/IN/in/1 your/PRP$/you/1 experience/NN/experience/1 cross-validation/NN/cross-validation/0 usually/RB/usual/1 gives/VBZ/give/1 an/DT/a/1 appreciably/RB/appreciable/8 worse/JJR/worse/1 result/NN/result/2 than/IN/than/1 training-set/JJ/training-set/0 evaluation/NN/evaluate/3 ./././0 Has/VBZ/have/1 this/DT/this/1 happened/VBN/happen/1 by/IN/by/1 chance/NN/chance/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 effect/NN/effect/2 of/IN/of/1 overfitting/VBG/overfitting/0 to/TO/to/1 the/DT/the/1 training/NN/train/1 data/NNS/data/3 reduces/NNS/reduce/2 as/IN/as/1 the/DT/the/1 dataset/NN/dataset/0 grows/NNS/grow/1 ,/,/,/0 particularly/RB/particular/1 if/IN/if/1 there/EX/there/1 are/VBP/be/1 few/JJ/few/1 classes/NNS/class/1 and/CC/and/1 they/PRP/they/1 are/VBP/be/1 approximately/RB/approximate/3 equally/RB/equal/2 represented/VBN/represent/2 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 ./././0 
+Moreover/RB/moreover/3 ,/,/,/0 NaiveBayes/NNP/naivebayes/0 is/VBZ/be/1 a/DT/a/1 simple/JJ/simple/1 classifier/NN/classifier/0 that/WDT/that/1 collects/VBZ/collect/1 statistics/NNS/statistic/3 independently/RB/independent/3 for/IN/for/1 each/DT/each/1 attribute/NN/attribute/3 and/CC/and/1 does/VBZ/do/1 not/RB/not/1 overfit/VB/overfit/0 as/RB/as/1 much/JJ/much/1 as/IN/as/1 ,/,/,/0 for/IN/for/1 example/NN/example/2 ,/,/,/0 a/DT/a/1 decision/NN/decision/2 tree/NN/tree/1 learner/NN/learn/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Um/NNP/um/0 …/NN/…/0 this/DT/this/1 is/VBZ/be/1 a/DT/a/1 rhetorical/JJ/rhetoric/4 question/NN/question/1 !/./!/0 
+
+Question/NN/question/1 4/CD/4/0 
+But/CC/but/1 wait/JJ/wait/1 …/NN/…/0 we/PRP/we/1 haven/VBP/have/1 ’/JJ/’/0 t/NN/not/1 really/RB/really/1 exercised/VBN/exercise/2 Weka/NNP/weka/23 ’/NNP/’/0 s/VBD/be/1 incremental/JJ/increment/6 operation/NN/operate/2 at/IN/at/1 all/DT/all/1 !/./!/0 The/DT/the/1 fact/NN/fact/1 that/IN/that/1 the/DT/the/1 experiment/NN/experiment/3 involved/VBN/involve/1 cross-validation/NN/cross-validation/0 means/VBZ/mean/1 that/IN/that/1 it/PRP/it/1 must/MD/must/1 have/VB/have/1 been/VBN/be/1 processed/VBN/process/2 non-incrementally/RB/non-incrementally/0 ./././0 
+Here/RB/here/1 ’/NNP/’/0 s/VBP/be/1 an/DT/a/1 even/RB/even/1 more/RBR/more/1 advanced/JJ/advance/2 exercise/NN/exercise/2 :/:/:/0 
+Make/NNP/make/1 two/CD/two/1 datasets/NNS/datasets/0 with/IN/with/1 1,162,024/CD/1,162,024/0 and/CC/and/1 1,743,036/CD/1,743,036/0 instances/NNS/instance/2 by/IN/by/1 editing/VBG/edit/2 the/DT/the/1 ARFF/NNP/arff/0 file/NN/file/2 to/TO/to/1 include/VB/include/2 two/CD/two/1 and/CC/and/1 three/CD/three/1 copies/NNS/copy/2 of/IN/of/1 the/DT/the/1 data/NNS/data/3 respectively/RB/respective/3 ./././0 I/PRP/i/1 did/VBD/do/1 this/DT/this/1 with/IN/with/1 the/DT/the/1 commands/NNS/command/2 
+copy/NN/copy/2 covtype.arff/NN/covtype.arff/0 +/NNP/+/0 covtype.data/NN/covtype.data/0 covtype2.arff/NN/covtype2.arff/0 
+copy/NN/copy/2 covtype2.arff/NN/covtype2.arff/0 +/NNP/+/0 covtype.data/NN/covtype.data/0 covtype3.arff/NN/covtype3.arff/0 
+Run/NNP/run/1 NaiveBayesUpdateable/NNP/naivebayesupdateable/0 on/IN/on/1 these/DT/this/1 two/CD/two/1 datasets/NNS/datasets/0 ,/,/,/0 again/RB/again/1 using/VBG/use/1 cross-validation/NN/cross-validation/0 ./././0 Does/VBZ/do/1 it/PRP/it/1 work/VB/work/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Using/VBG/use/1 cross-validation/NN/cross-validation/0 forces/NNS/force/1 Weka/NNP/weka/23 to/TO/to/1 work/VB/work/1 non-incrementally/RB/non-incrementally/0 ,/,/,/0 and/CC/and/1 both/DT/both/1 these/DT/this/1 files/NNS/file/2 are/VBP/be/1 too/RB/too/1 big/JJ/big/1 for/IN/for/1 that/DT/that/1 ./././0 Weka/NNP/weka/23 runs/VBZ/run/1 out/IN/out/1 of/IN/of/1 heap/JJ/heap/2 space/NN/space/1 …/NN/…/0 
+…/NN/…/0 unless/IN/unless/1 you/PRP/you/1 have/VBP/have/1 explicitly/RB/explicit/3 increased/VBN/increase/2 the/DT/the/1 Java/NNP/java/0 heap/JJ/heap/2 space/NN/space/1 on/IN/on/1 your/PRP$/you/1 system/NN/system/1 ,/,/,/0 or/CC/or/1 you/PRP/you/1 have/VBP/have/1 more/JJR/more/1 than/IN/than/1 8Gb/CD/8gb/0 of/IN/of/1 RAM/NNP/ram/4 –/NNP/–/0 because/IN/because/1 the/DT/the/1 Java/NNP/java/0 Virtual/NNP/virtual/3 Machine/NNP/machine/1 generally/RB/general/1 sets/VBZ/set/1 the/DT/the/1 default/NN/default/5 maximum/JJ/maximum/2 heap/JJ/heap/2 size/NN/size/1 to/TO/to/1 a/DT/a/1 quarter/NN/quarter/1 of/IN/of/1 the/DT/the/1 available/JJ/available/2 RAM/NNP/ram/4 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+…/NN/…/0 another/DT/another/1 rhetorical/JJ/rhetoric/4 question/NN/question/1 !/./!/0 
+
+Question/NN/question/1 5/CD/5/0 
+Re-run/NNP/re-run/0 NaiveBayesUpdateable/NNP/naivebayesupdateable/0 ,/,/,/0 this/DT/this/1 time/NN/time/1 using/VBG/use/1 covtype.small.arff/NN/covtype.small.arff/0 as/IN/as/1 a/DT/a/1 test/NN/test/1 dataset/NN/dataset/0 instead/RB/instead/1 of/IN/of/1 cross-validation/NN/cross-validation/0 ./././0 
+[/JJ/[/0 Hint/NN/hint/3 :/:/:/0 restart/NN/start/1 Weka/NNP/weka/23 to/TO/to/1 clear/JJ/clear/1 memory/NN/memory/2 before/IN/before/1 running/VBG/run/1 this/DT/this/1 ]/NN/]/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 classification/NN/classification/4 accuracy/NN/accurate/3 when/WRB/when/1 trained/VBN/train/1 on/IN/on/1 the/DT/the/1 original/JJ/original/2 581,012-instance/JJ/581,012-instance/0 data/NNS/data/3 file/NN/file/2 ?/./?/0 
+58.52/CD/58.52/0 %/NN/%/0 
+58.56/CD/58.56/0 %/NN/%/0 
+58.60/CD/58.60/0 %/NN/%/0 
+58.61/CD/58.61/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+58.56/CD/58.56/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.small.arff/NN/covtype.small.arff/0 -v/NN/-v/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Use/VB/use/1 the/DT/the/1 command/NN/command/2 
+java/NN/java/0 weka.classifiers.bayes.NaiveBayesUpdateable/JJ/weka.classifiers.bayes.naivebayesupdateable/0 
+-t/JJ/not/1 covtype.arff/NN/covtype.arff/0 -T/NNP/not/1 covtype.small.arff/NN/covtype.small.arff/0 -v/NN/-v/0 
+
+Question/NN/question/1 6/CD/6/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 accuracy/NN/accurate/3 when/WRB/when/1 tested/VBN/test/1 on/IN/on/1 covtype.small.arff/NN/covtype.small.arff/0 but/CC/but/1 trained/VBD/train/1 on/IN/on/1 the/DT/the/1 double-size/JJ/double-size/0 (/(/(/0 1,162,024-instance/JJ/1,162,024-instance/0 )/)/)/0 dataset/NN/dataset/0 ?/./?/0 
+58.52/CD/58.52/0 %/NN/%/0 
+58.56/CD/58.56/0 %/NN/%/0 
+58.60/CD/58.60/0 %/NN/%/0 
+58.61/CD/58.61/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+58.60/CD/58.60/0 %/NN/%/0 
+
+Question/NN/question/1 7/CD/7/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 accuracy/NN/accurate/3 when/WRB/when/1 tested/VBN/test/1 on/IN/on/1 covtype.small.arff/NN/covtype.small.arff/0 but/CC/but/1 trained/VBD/train/1 on/IN/on/1 the/DT/the/1 triple-size/JJ/triple-size/0 (/(/(/0 1,743,036-instance/JJ/1,743,036-instance/0 )/)/)/0 dataset/NN/dataset/0 ?/./?/0 
+58.52/CD/58.52/0 %/NN/%/0 
+58.56/CD/58.56/0 %/NN/%/0 
+58.60/CD/58.60/0 %/NN/%/0 
+58.61/CD/58.61/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 accuracy/NN/accurate/3 when/WRB/when/1 tested/VBN/test/1 on/IN/on/1 covtype.small.arff/NN/covtype.small.arff/0 but/CC/but/1 trained/VBD/train/1 on/IN/on/1 the/DT/the/1 triple-size/JJ/triple-size/0 (/(/(/0 1,743,036-instance/JJ/1,743,036-instance/0 )/)/)/0 dataset/NN/dataset/0 ?/./?/0 
+58.52/CD/58.52/0 %/NN/%/0 
+58.56/CD/58.56/0 %/NN/%/0 
+58.60/CD/58.60/0 %/NN/%/0 
+58.61/CD/58.61/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+58.61/CD/58.61/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Note/NN/note/1 :/:/:/0 this/DT/this/1 dataset/NN/dataset/0 is/VBZ/be/1 too/RB/too/1 large/JJ/large/1 to/TO/to/1 be/VB/be/1 loaded/VBN/load/1 into/IN/into/1 the/DT/the/1 Explorer/NNP/explore/3 ,/,/,/0 but/CC/but/1 can/MD/can/1 easily/RB/easy/1 be/VB/be/1 processed/VBN/process/2 in/IN/in/1 the/DT/the/1 Simple/NNP/simple/1 CLI/NNP/cli/0 if/IN/if/1 everything/NN/every/1 works/VBZ/work/1 incrementally/RB/increment/6 ./././0 
+
+

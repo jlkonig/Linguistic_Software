@@ -1,0 +1,8 @@
+Try some market basket analysis
+Try this (instead of a quiz).
+Market basket analysis aims to discover interesting purchasing patterns in large datasets of transactional records. Typically these are the contents of individual shoppers’ baskets in a supermarket, recorded at the checkout. Interesting patterns could be exploited in the store, such as special offers and product layout.
+As Ian mentioned in the video, the “supermarket” dataset (supermarket.arff) is a real world transaction data set from a small NZ supermarket. Each instance represents a customer transaction – products purchased and the departments involved. The data contains 4,500 instances and 220 attributes. Each attribute is binary and either has a value (t for true) or no value (“?” for missing).
+The attributes are aggregated to the department level, so, for example, “bread and cake” covers several different products, and a value of t indicates that the customer’s shopping cart contained at least one product from that department. (Unfortunately, not all departments are named.)
+There is a nominal class attribute called total that indicates whether the transaction was less than $100 (low) or greater than $100 (high). However, we are not aiming to create a predictive model for total. Instead, we are interested in what items were purchased together. The aim is to find useful patterns in the data that may or may not be related to the predicted attribute.
+Load the file supermarket.arff into the Explorer and use Apriori to mine this supermarket checkout data for associations. See if you can discover anything interesting.
+(The point of this exercise is to show you how difficult it is to find any interesting patterns in this kind of data!)

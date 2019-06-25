@@ -1,0 +1,169 @@
+Time series forecasting with SMO 
+Question 1
+Open the airline.arff dataset. The Date attribute is expressed in msec since Jan 1, 1970.
+Which of the values below is closest to its minimum value, as shown in the Preprocess panel?
+35150317071
+–286718400000
+–474793200000
+–662731200000
+---
+Correct answer(s):
+–662731200000
+---
+Feedback correct:
+Note: the value is negative for this dataset, because it precedes 1970. Also, the answer depends on the time zone you are in, because your operating system takes the time zone into account when translating dates and times. A 12-hour difference between your time and New Zealand’s would add 126060*1000 = 43200000 to the answer.
+---
+Feedback incorrect:
+You may find
+1.1 What will you learn?
+useful.
+
+Question 2
+Which of the values below is closest to its maximum value?
+35150317071
+–286718400000
+–474793200000
+–662731200000
+---
+Correct answer(s):
+–286718400000
+---
+Feedback correct:
+Note: the value is negative for this dataset, because it precedes 1970. Also, the answer depends on the time zone you are in, because your operating system takes the time zone into account when translating dates and times. A 12-hour difference between your time and New Zealand’s would add 126060*1000 = 43200000 to the answer.
+
+Question 3
+Use the AddExpression filter to re-map the date in the airline dataset into months since Jan 1, 1949.
+Call the new date NewDate, and remove the old Date attribute.
+Use SMOreg (in the “functions” category) to predict passenger_numbers. What is the RMS error?
+16.7
+33.9
+40.5
+48.5
+---
+Correct answer(s):
+48.5
+---
+Feedback correct:
+The appropriate expression parameter for the AddExpression filter, used in the lesson video, is (a2/(1000*60*60*24*365.25) + 21)*12.
+---
+Feedback incorrect:
+You get this if you predict NewDate instead of passenger_numbers. Change the Classify panel to predict passenger_numbers.
+
+Question 4
+If you look in the Classifier output at the model produced, you will see that SMOreg has normalized the NewDate parameter. To make a comparison with the linear regression model produced in the lesson video, you need to disable this normalization operation. Do so.
+What is the model produced?
+0.36*passenger_numbers – 26.98
+0.65*NewDate + 0.00
+2.66*NewDate + 90.44
+2.41*NewDate + 99.00
+---
+Correct answer(s):
+2.41*NewDate + 99.00
+---
+Feedback incorrect:
+Are you predicting NewDate instead of passenger_numbers?
+---
+Feedback incorrect:
+You need to look at the filterType parameter of SMOreg, and change it to No normalization/standardization.
+---
+Feedback incorrect:
+This model is the one produced by LinearRegression; you can compare it with SMOreg.
+
+Question 5
+Now add a lagged variable.
+In the Preprocess panel, copy the passenger_numbers attribute and apply the TimeSeriesTranslate filter with a parameter of –12 months to the new attribute. Classify with SMOreg. (You should be predicting the future from the past, not the other way round, so think carefully which version of the passenger_numbers attribute should be the class.)
+What is the RMS error?
+0%
+14.6%
+23.7%
+36.3%
+38.8%
+---
+Correct answer(s):
+38.8%
+---
+Feedback correct:
+Many things can go wrong here.
+Use the Copy filter to copy the attribute. Here you need to specify which attribute to copy.
+In the TimeSeriesTranslate filter, specify –12 as the instanceRange and 3 (the copied attribute) as the attributeIndices. Be sure to check that the translation has been done correctly using the Preprocess panel’s Edit button. If it hasn’t, note that TimeSeriesTranslate doesn’t apply translation to what it thinks is the “class” attribute—by default, the last attribute.
+---
+Feedback incorrect:
+Many things can go wrong here.
+Use the Copy filter to copy the attribute. Here you need to specify which attribute to copy.
+In the TimeSeriesTranslate filter, specify –12 as the instanceRange and 3 (the copied attribute) as the attributeIndices. Be sure to check that the translation has been done correctly using the Preprocess panel’s Edit button. If it hasn’t, note that TimeSeriesTranslate doesn’t apply translation to what it thinks is the “class” attribute—by default, the last attribute.
+Perfect prediction? Zero error? You’re probably predicting a class value that is already present as an attribute in the dataset!
+---
+Feedback incorrect:
+Many things can go wrong here.
+Use the Copy filter to copy the attribute. Here you need to specify which attribute to copy.
+In the TimeSeriesTranslate filter, specify –12 as the instanceRange and 3 (the copied attribute) as the attributeIndices. Be sure to check that the translation has been done correctly using the Preprocess panel’s Edit button. If it hasn’t, note that TimeSeriesTranslate doesn’t apply translation to what it thinks is the “class” attribute—by default, the last attribute.
+You’re probably predicting the time-shifted attribute from the original one – in other words, predicting the past from the future!
+---
+Feedback incorrect:
+Many things can go wrong here.
+Use the Copy filter to copy the attribute. Here you need to specify which attribute to copy.
+In the TimeSeriesTranslate filter, specify –12 as the instanceRange and 3 (the copied attribute) as the attributeIndices. Be sure to check that the translation has been done correctly using the Preprocess panel’s Edit button. If it hasn’t, note that TimeSeriesTranslate doesn’t apply translation to what it thinks is the “class” attribute—by default, the last attribute.
+
+Question 6
+The model is not a good one because the first 12 instances have missing values for the lagged parameter, and SMOreg replaces these by their average value over the dataset, which is inappropriate.
+Delete the first 12 instances using the RemoveRange instance filter.
+What is the RMS error of SMOreg now?
+12.6
+14.7
+15.9
+16.4
+---
+Correct answer(s):
+16.4
+---
+Feedback correct:
+Specify 1–12 as the instancesIndices parameter of the RemoveRange filter
+---
+Feedback incorrect:
+Specify 1–12 as the instancesIndices parameter of the RemoveRange filter
+---
+Feedback incorrect:
+Specify 1–12 as the instancesIndices parameter of the RemoveRange filter
+You’re probably predicting the copied parameter, i.e. the time-shifted version of passenger_numbers – again!
+
+Question 7
+Check the model produced to see whether the parameters have been normalized, which means that you cannot compare it with the linear regression model produced in the lesson video. If so, you should prevent this normalization operation. Do so.
+What is the model produced? (In the answers below, Lag_12 is the new attribute, i.e. the lagged version of passenger_numbers.)
+0.07 * NewDate + 1.07 * Lag_12 + 11.62
+1.07 * Lag_12 + 12.67
+0.05 * NewDate + 0.90 * Lag_12 + 0.02
+0.19 * NewDate + 0.85 * passenger_numbers + 5.29
+---
+Correct answer(s):
+0.07 * NewDate + 1.07 * Lag_12 + 11.62
+---
+Feedback correct:
+Note that suppressing normalization has changed the RMS error slightly, from 16.4 to 16.5
+---
+Feedback incorrect:
+This is the model produced by LinearRegression. It’s interesting that the coefficient of the lagged variable is the same.
+---
+Feedback incorrect:
+Make sure that SMOreg’s filterType is set to No normalization/standardization.
+---
+Feedback incorrect:
+Are you predicting the time-shifted version of passenger_numbers? – again!
+
+Question 8
+So, which is better in terms of RMS error?
+SMOreg
+LinearRegression
+---
+Correct answer(s):
+LinearRegression
+---
+Feedback correct:
+In the video, the RMS error obtained for LinearRegression was 16.0, whereas here we have found 16.4 for SMOreg (16.5 without normalization).
+This is surprising, because support vector machines are more sophisticated learning structures than linear regression. However, all this evaluation has been done on the training set – which is always misleading. In the next section we will see what happens on independent test sets.
+
+Question 8
+So, which is better in terms of RMS error?
+SMOreg
+LinearRegression
+---
+Correct answer(s):

@@ -1,0 +1,82 @@
+Data stream mining 
+How can you mine continuous data streams?
+This week's Big Question!
+2.1
+How can you mine continuous data streams?
+article
+Incremental classifiers in Weka
+Weka contains some classifiers that operate incrementally rather than in batch mode, like the Hoeffding Tree method for decision trees. Incremental classifiers don’t have to store the training data in memory.
+2.2
+Incremental classifiers in Weka
+video (05:12)
+2.3
+Three incremental classifiers
+quiz
+Weka's MOA package 
+Weka’s MOA package gives access to classification algorithms from the MOA system, which can deal with huge datasets and handle evolving data streams where the concept drifts over time.
+2.4
+Weka's MOA package 
+video (03:30)
+2.5
+Using MOA from Weka
+quiz
+The MOA interface 
+The MOA system, a sister of Weka, operates fully incrementally, on data streams. Different evaluation methods are needed for stream data.
+2.6
+The MOA interface 
+video (05:33)
+2.7
+Using the MOA interface
+article
+2.8
+Using MOA
+quiz
+Dealing with change
+An adaptive sliding window algorithm can detect change and update statistics from a data stream. The Hoeffding adaptive tree constructs “alternative branches” to prepare for changes. Bagging can be adapted for stream data.
+2.9
+MOA classifiers and streams 
+video (08:14)
+2.10
+Streaming classifiers and evolving streams
+quiz
+Classifying tweets 
+Twitter is BIG data! One application is sentiment analysis: does a tweet convey a positive or negative feelings? The Kappa statistic is often a more robust and useful measure than percent accuracy.
+2.11
+Classifying tweets 
+video (05:45)
+2.12
+Sentiment analysis
+discussion
+2.13
+Classifying tweets
+quiz
+Signal peptide prediction 
+What are important problems in bioinformatics? Signal peptide prediction is one. 
+How can features be created from raw DNA sequence data?
+And how can we evaluate the results?
+2.14
+Signal peptide prediction
+video (17:20)
+2.15
+Signal peptide prediction
+quiz
+2.16
+Reflect on this week’s Big Question
+discussion
+How are you getting on?
+We're well into the course now. Let's just take stock.
+2.17
+Mid-course assessment 
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+2.18
+How are you getting on?
+discussion
+2.19
+Index
+article

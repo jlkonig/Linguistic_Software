@@ -1,0 +1,4 @@
+Using R to preprocess data
+Tools implemented in R can preprocess data before passing it on to Weka learning algorithms. The Knowledge Flow’s RScriptExecutor component executes a user-supplied R script. Data can be loaded using an ArffLoader and passed to the RScriptExecutor, which is supplied with a script. Eibe demonstrates scripts that delete an attribute, produce a scatter plot matrix, and decompose the input into statistically independent components – after which the Naive Bayes classifier is run, and evaluated using cross-validation. R includes many other useful transformation methods.
+Detailed instructions are given in the accompanying download (these slides do not appear in the video itself).
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

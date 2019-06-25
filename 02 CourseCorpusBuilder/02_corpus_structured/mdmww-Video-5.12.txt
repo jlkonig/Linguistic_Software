@@ -1,0 +1,3 @@
+Performance optimization 
+Machine learning methods often involve several parameters, which should be optimized for best performance. Optimizing them manually is tedious, and also dangerous, because you risk overfitting the data (unless you hold out some data for final testing). Weka contains three “wrapper” metalearners that optimize parameters for best performance using internal cross-validation.  CVParameterSelection selects the best value for a parameter; GridSearch optimizes two parameters by searching a 2D grid; and the ThresholdSelector selects a probability threshold.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

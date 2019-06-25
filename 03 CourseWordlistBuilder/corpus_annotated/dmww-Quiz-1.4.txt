@@ -1,0 +1,89 @@
+Data/NNP/data/3 mining/NN/miner/3 applications/NNS/apply/2 
+Question/NN/question/1 1/CD/1/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 customer/NN/customer/2 relationship/NN/relate/1 management/NN/manage/1 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+To/TO/to/1 establish/VB/establish/2 a/DT/a/1 productive/JJ/product/2 relationship/NN/relate/1 with/IN/with/1 a/DT/a/1 customer/NN/customer/2 ,/,/,/0 businesses/NNS/business/1 collect/VBP/collect/1 data/NNS/data/3 and/CC/and/1 analyse/VB/analyse/3 it/PRP/it/1 ./././0 This/DT/this/1 can/MD/can/1 help/VB/help/1 in/IN/in/1 acquiring/VBG/acquire/3 and/CC/and/1 retaining/VBG/retain/3 customers/NNS/customer/2 ,/,/,/0 developing/VBG/develop/2 customer/NN/customer/2 loyalty/NN/loyal/3 ,/,/,/0 and/CC/and/1 implementing/VBG/implement/3 customer/NN/customer/2 focused/VBD/focus/3 strategies/NNS/strategy/3 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 financial/JJ/finance/2 data/NNS/data/3 analysis/NN/analyse/3 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Data/NNP/data/3 mining/NN/miner/3 can/MD/can/1 contribute/VB/contribute/2 to/TO/to/1 solving/VBG/solve/3 business/NN/business/1 problems/NNS/problem/1 in/IN/in/1 banking/NN/bank/1 and/CC/and/1 finance/NN/finance/2 by/IN/by/1 finding/VBG/find/1 patterns/NNS/pattern/2 ,/,/,/0 causalities/NNS/causal/5 ,/,/,/0 and/CC/and/1 correlations/NNS/correlate/3 in/IN/in/1 business/NN/business/1 information/NN/inform/1 and/CC/and/1 market/NN/market/1 prices/NNS/price/1 that/WDT/that/1 are/VBP/be/1 not/RB/not/1 immediately/RB/immediate/2 apparent/JJ/apparent/1 to/TO/to/1 managers/NNS/manage/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 supermarket/NN/supermarket/0 basket/NN/basket/2 analysis/NN/analyse/3 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+If/IN/if/1 you/PRP/you/1 buy/VBP/buy/1 certain/JJ/certain/1 items/NNS/item/2 you/PRP/you/1 are/VBP/be/1 more/RBR/more/1 likely/JJ/likely/2 to/TO/to/1 buy/VB/buy/1 other/JJ/other/1 items/NNS/item/2 ./././0 Understanding/VBG/understand/1 purchasing/VBG/purchase/2 behavior/NN/behaviour/3 helps/VBZ/help/1 the/DT/the/1 retailer/NN/retail/3 understand/VBP/understand/1 the/DT/the/1 buyer/NN/buy/1 ’/NNP/’/0 s/NN/be/1 needs/NNS/need/1 and/CC/and/1 change/VB/change/1 the/DT/the/1 store/NN/store/1 layout/NN/layout/0 accordingly/RB/according/2 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 education/NN/educate/1 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Mining/NNP/miner/3 data/NNS/data/3 generated/VBN/generate/3 by/IN/by/1 courses/NNS/course/1 such/JJ/such/1 as/IN/as/1 this/DT/this/1 one/CD/one/1 can/MD/can/1 help/VB/help/1 predict/VB/predict/3 students/NNS/student/1 ’/JJ/’/0 future/JJ/future/2 learning/VBG/learn/1 success/NN/success/2 ,/,/,/0 assess/IN/assess/3 the/DT/the/1 effect/NN/effect/2 of/IN/of/1 educational/JJ/educate/1 support/NN/support/1 ,/,/,/0 and/CC/and/1 advance/NN/advance/2 scientific/JJ/science/1 knowledge/NN/knowledge/2 about/IN/about/1 learning/VBG/learn/1 ./././0 Perhaps/RB/perhaps/1 individual/JJ/individual/2 learning/NN/learn/1 patterns/NNS/pattern/2 can/MD/can/1 be/VB/be/1 discovered/VBN/discover/1 and/CC/and/1 used/VBN/use/1 to/TO/to/1 personalize/VB/personalise/7 the/DT/the/1 presentation/NN/present/1 of/IN/of/1 material/NN/material/2 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 healthcare/NN/healthcare/0 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Data/NNP/data/3 mining/NN/miner/3 can/MD/can/1 help/VB/help/1 identify/VB/identify/2 best/JJS/best/1 practices/NNS/practise/2 that/WDT/that/1 improve/VBP/improve/2 care/NN/care/1 and/CC/and/1 reduce/VB/reduce/2 costs/NNS/cost/1 ./././0 It/PRP/it/1 can/MD/can/1 be/VB/be/1 used/VBN/use/1 to/TO/to/1 predict/VB/predict/3 the/DT/the/1 volume/NN/volume/3 of/IN/of/1 patients/NNS/patients/3 in/IN/in/1 different/JJ/different/1 categories/NNS/category/3 ,/,/,/0 which/WDT/which/1 helps/VBZ/help/1 hospitals/NNS/hospital/1 develop/VB/develop/2 processes/NNS/process/2 to/TO/to/1 ensure/VB/ensure/3 that/IN/that/1 patients/NNS/patients/3 receive/VBP/receive/2 appropriate/JJ/appropriate/3 care/NN/care/1 at/IN/at/1 the/DT/the/1 right/JJ/right/1 place/NN/place/1 and/CC/and/1 at/IN/at/1 the/DT/the/1 right/JJ/right/1 time/NN/time/1 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 criminal/JJ/criminal/2 investigation/NN/investigate/2 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+You/PRP/you/1 may/MD/may/1 find/VB/find/1 
+1.18/CD/1.18/0 Using/NNP/use/1 J48/NNP/j48/0 
+useful/JJ/use/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Crime/JJ/crime/1 analysis/NN/analyse/3 involves/VBZ/involve/1 exploring/VBG/explore/3 and/CC/and/1 detecting/VBG/detect/2 crimes/NNS/crime/1 and/CC/and/1 their/PRP$/they/1 relationships/NNS/relate/1 with/IN/with/1 criminals/NNS/criminal/2 ./././0 Crime/NNP/crime/1 datasets/NNS/datasets/0 are/VBP/be/1 large/JJ/large/1 ,/,/,/0 comprehensive/JJ/comprehensive/3 and/CC/and/1 complex/JJ/complex/3 ./././0 Textual/JJ/text/3 reports/NNS/report/1 can/MD/can/1 be/VB/be/1 analyzed/VBN/analyse/3 using/VBG/use/1 text/NN/text/3 mining/NN/miner/3 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 may/MD/may/1 find/VB/find/1 
+1.18/CD/1.18/0 Using/NNP/use/1 J48/NNP/j48/0 
+useful/JJ/use/1 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 making/VBG/make/1 babies/NNS/baby/1 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 7/CD/7/0 
+Can/MD/can/1 data/VB/data/3 mining/NN/miner/3 be/VB/be/1 applied/VBN/apply/2 to/TO/to/1 …/VB/…/0 making/VBG/make/1 babies/NNS/baby/1 ?/./?/0 
+Yes/UH/yes/1 !/./!/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 !/./!/0 Selecting/VBG/select/2 embryos/NN/embryo/5 for/IN/for/1 artificial/JJ/artificial/4 insemination/NN/inseminate/11 ,/,/,/0 amongst/VBZ/among/1 other/JJ/other/1 possibilities/NNS/possible/1 that/IN/that/1 we/PRP/we/1 ’/VBP/’/0 ll/JJ/will/1 leave/VBP/leave/1 to/TO/to/1 your/PRP$/you/1 imagination/NN/imagine/1 ./././0 
+
+

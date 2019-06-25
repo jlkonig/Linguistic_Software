@@ -1,0 +1,207 @@
+Some Python commands 
+Question 1
+In Python, “lists” store a collection of different pieces of information under a single variable name. The list items are separated by commas, and the list is enclosed by square brackets.
+In Weka’s Jython console, try this:
+x = ['a', 'b', 'c', 1, 2, 3]
+print x
+print x[2]
+… and click the little green arrow. (Numbering starts from 0; x[0] is ‘a’.)
+Now for the question: What method is used to add an item to a list?
+add
+append
+plus
+---
+Correct answer(s):
+append
+---
+Feedback correct:
+In Weka’s Jython console, try:
+x = ['a','b','c',1,2,3]
+x.append('d')
+print x
+… and click the little green arrow
+
+Question 2
+How do you delete the third item from list x?
+del x[2]
+delete x[2]
+remove(x, 2)
+---
+Correct answer(s):
+del x[2]
+---
+Feedback correct:
+x = ['a','b','c',1,2,3]
+del x[2]
+print x
+
+Question 3
+How do you remove integer value 2 from list x = [‘a’, ‘b’, ‘c’, 1, 2, 3]?
+del x[2]
+del x, 2
+x.remove(2)
+remove(x, 2)
+---
+Correct answer(s):
+x.remove(2)
+---
+Feedback correct:
+x = ['a','b','c',1,2,3]
+x.remove(2)
+print x
+
+Question 4
+A Python “tuple” is like a list but uses parentheses rather than square brackets; in addition, unlike lists, tuples cannot be changed.
+Try this:
+y = ('a', 'b', 'c', 1, 2, 3)
+print y
+Now for the question: How do you turn list x into a tuple?
+x.as_tuple()
+make_tuple(x)
+tuple(x)
+---
+Correct answer(s):
+tuple(x)
+---
+Feedback correct:
+x = ['a','b','c',1,2,3]
+y = tuple(x)
+print y
+print x
+
+Question 5
+A Python “dictionary” is a set of key : value pairs that allow you to retrieve a value given the corresponding key; the set is enclosed in curly brackets.
+Try this:
+z = {1: 'hello', 2: 'world', '3': 'answer', 'a': 'is', 'this': 42}
+print z[1], z[2]
+Then experiment by printing z[3], z[4], z[‘3’], z[‘a’], etc.
+Now for the question: How do you retrieve the value 42 from the dictionary z?
+z[‘this’]
+z.get(‘this’)
+get(z, ‘this’)
+---
+Correct answer(s):
+z[‘this’]
+---
+Feedback correct:
+z = {1: 'hello', 2: 'world', '3': 'answer', 'a': 'is', 'this': 42}
+print z['this']
+
+Question 6
+How can you create a copy of list x?  (There are two ways, so check 2 answers.)
+Select all the answers you think are correct.
+x.copy()
+x[:]
+copy(x)
+---
+Correct answer(s):
+x[:]
+copy(x)
+---
+Feedback correct:
+x = ['a','b','c',1,2,3]
+x1 = x[:]
+print x1
+copy(x) is the recommended practice for copying objects, but it requires you to first import the copy function from the standard Python library. You do this by saying “from copy import copy”.
+from copy import copy
+x = ['a','b','c',1,2,3]
+x1 = copy(x)
+print x1
+---
+Feedback incorrect:
+x = ['a','b','c',1,2,3]
+x1 = x[:]
+print x1
+---
+Feedback incorrect:
+copy(x) is the recommended practice for copying objects, but it requires you to first import the copy function from the standard Python library. You do this by saying “from copy import copy”.
+from copy import copy
+x = ['a','b','c',1,2,3]
+x1 = copy(x)
+print x1
+
+Question 7
+How can you create a copy of dictionary z?
+z.copy()
+z{:}
+z.makecopy()
+---
+Correct answer(s):
+z.copy()
+---
+Feedback correct:
+from copy import copy
+z = {1: 'hello', 2: 'world', '3': 'answer', 'a': 'is', 'this': 42}
+z1 = z.copy()
+print z1
+(You don’t need the first line if  you’ve already imported copy)
+
+Question 8
+Which of these is an if-statement that checks whether the numeric value 12 is present in a list x?
+Maybe you’ll just have to guess!
+if x contains 12:
+if x.has(12):
+if 12 in x:
+---
+Correct answer(s):
+if 12 in x:
+---
+Feedback correct:
+x = ['a','b','c',1,2,3]
+if 3 in x:
+    print("3 is there!")
+if 12 in x:
+    print("cannot happen")
+(Why doesn’t it print “cannot happen”?)
+
+Question 9
+What’s the value of the Python expression 2**4 + 2**3 + (87 % 8)?
+11
+21
+31
+---
+Correct answer(s):
+31
+---
+Feedback correct:
+x = 2**4 + 2**3 + (87 % 8)
+print x
+
+Question 10
+What options are required to configure the unsupervised Discretize filter to use 15 bins on the third attribute?
+To find out, go to Weka’s Javadoc (in your Weka download, or here), scroll down the main list to find weka.filters.unsupervised.attribute, and within that look for Discretize.
+–b 15 –a 3
+–b 15 –r 3
+–B 15 –C 3
+–B 15 –R 3
+–bin 15 –attr 3
+---
+Correct answer(s):
+–B 15 –R 3
+---
+Feedback correct:
+The order of B and R is irrelevant
+
+Question 11
+In Python, Weka options are specified as lists of strings, and if an option has a value it is given as a separate string.
+What is the option list for configuring the unsupervised AddNoise filter to add 5% noise to the third attribute?
+”[–P, 5, –C, 3]”
+[–P, 5, –C, 3]
+[“–P 5”, “–C 3”]
+[“–P”, “5”, “–C”, “3”]
+---
+Correct answer(s):
+
+Question 11
+In Python, Weka options are specified as lists of strings, and if an option has a value it is given as a separate string.
+What is the option list for configuring the unsupervised AddNoise filter to add 5% noise to the third attribute?
+”[–P, 5, –C, 3]”
+[–P, 5, –C, 3]
+[“–P 5”, “–C 3”]
+[“–P”, “5”, “–C”, “3”]
+---
+Correct answer(s):
+[“–P”, “5”, “–C”, “3”]
+---
+Feedback correct:
+The order of P and C is irrelevant

@@ -1,0 +1,93 @@
+How to cheat: A case study
+Question 1
+The sentiment.arff dataset contains 4995 tweets, classified as pos (2481 instances) and neg (2514 instances) according to whether they were followed by a positive smiley, e.g. :-), or a negative one, e.g. :-(. It has already been processed by the StringToWordVector filter; the attributes are word occurrences (1 or 0) and the last attribute (sentiment) is the class.
+It is hard to improve much on the baseline accuracy of 50%; Multinomial Naive Bayes achieves 64%. In this series of questions you will produce a manipulated dataset of exactly the same size on which ZeroR and OneR perform the same as before, but Multinomial Naive Bayes achieves a substantially higher success rate.
+Imagine a corrupt data miner, encouraged to improve upon the above-mentioned 64% under pressure from his boss. To do this he cheats by using the RemoveMisclassified filter, setting maxIterations to 1, the classifier to NaiveBayesMultinomial, and leaving the other parameters at their default values. This reduces the dataset to 3233 instances.
+What is the performance of Multinomial Naive Bayes on this reduced dataset?
+57%
+64%
+84%
+89%
+95%
+99%
+100%
+---
+Correct answer(s):
+95%
+
+Question 2
+Further lured by promises of lucrative bonuses, our (anti-)hero re-applies RemoveMisclassified with maxIterations set to 0, which reduces the dataset to 3056 instances.
+What is the performance of Multinomial Naive Bayes now?
+57%
+64%
+84%
+89%
+95%
+99%
+100%
+---
+Correct answer(s):
+99%
+
+Question 3
+Fearing that his boss will smell a rat because the new dataset is much smaller than the one he was given, our (anti-)hero uses the Resample filter with a carefully calculated sampleSizePercent to restore the dataset to the original 4995 instances (he has to think about how to set the noReplacement parameter to achieve this).
+How many pos instances are there in this dataset?
+1528
+1882
+2896
+3056
+---
+Correct answer(s):
+1882
+
+Question 4
+ZeroR and OneR yield 62% and 67% accuracy on this new dataset, very different from the 50% and 52% that they achieved on the original one, and our (anti-)hero fears that, noting the phenomenal accuracy of Multinomial Naive Bayes, his boss will run benchmark tests and notice the discrepancy.
+He hits on a plan to create a new dataset with exactly 2481 pos and 2514 neg instances, just as in the original dataset, which will therefore yield the exact same result from ZeroR. He starts with the 3056-instance dataset generated in Q.2, uses a suitable filter to remove all neg instances and then another filter to increase the instances to the desired number, and saves the dataset. He repeats the procedure, this time removing all pos instances; and then combines the two datasets using a text editor.
+Applying ZeroR to the resulting dataset yields exactly the same result as for the original one. But OneR does not. What is its performance?
+57%
+64%
+84%
+89%
+95%
+99%
+100%
+---
+Correct answer(s):
+57%
+
+Question 5
+To reduce OneR’s performance to that on the original dataset, our (anti-)hero decides to identify the attribute that OneR chooses for the new dataset, remove it, and continue until its performance (rounded to the nearest integer) is 52%.
+In fact, he has to remove 8 attributes. What are they (in order of removal)?
+good, user, url, love, happy, lol, great, awesome
+lol, good, great, url, happy, love, work, awesome
+great, work, lol, awesome, user, love, happy, url
+work, happy, user, url, love, awesome, lol, great
+lol, good, awesome, great, user, url, love, work
+---
+Correct answer(s):
+good, user, url, love, happy, lol, great, awesome
+
+Question 6
+Multinomial Naive Bayes’s performance deteriorates substantially on this latest dataset – though it’s still a great deal better than the original 64%.
+What is it?
+69%
+73%
+79%
+84%
+89%
+95%
+---
+Correct answer(s):
+84%
+
+Question 6
+Multinomial Naive Bayes’s performance deteriorates substantially on this latest dataset – though it’s still a great deal better than the original 64%.
+What is it?
+69%
+73%
+79%
+84%
+89%
+95%
+---
+Correct answer(s):

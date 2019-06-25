@@ -1,0 +1,4 @@
+The data mining process
+If your vision of data mining is to get some data, apply Weka, get a cool result, and everyone’s happy – think again! Before you even begin to apply a classifier you’re going to have to ask the right question, find suitable data, clean it, devise new features … Weka is only part of the entire data mining process – the easiest part. Other aspects, including political problems in
+getting hold of the data and deploying the result, are often more onerous in the overall data mining process.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

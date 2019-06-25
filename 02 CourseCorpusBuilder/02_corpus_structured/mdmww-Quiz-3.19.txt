@@ -1,0 +1,65 @@
+Comparing clusterers using classification-by-clustering
+Question 1
+Are there any significant differences (at the default 5% level) between SimpleKMeans and EM?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+No v’s or *’s appear in the Experimenter output when you perform the default test on the result of this experiment
+
+Question 2
+For which datasets does SimpleKMeans outperform EM?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+ionosphere
+schizo
+vote
+---
+Correct answer(s):
+breast-cancer
+diabetes
+schizo
+
+Question 3
+Of these datasets, XMeans can only process diabetes and ionosphere, because these are the only ones whose attributes are all numeric. Delete the other 4 datasets and add XMeans to the comparison, again constraining the number of clusters to 2.
+Are there any significant differences (at the default 5% level) between XMeans and the other two clusterers?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+No v’s or *’s appear in the Experimenter output when you perform the default test on the result of this experiment
+
+Question 4
+For which datasets does XMeans outperform SimpleKMeans?
+Select all the answers you think are correct.
+diabetes
+ionosphere
+---
+Correct answer(s):
+
+Question 4
+For which datasets does XMeans outperform SimpleKMeans?
+Select all the answers you think are correct.
+diabetes
+ionosphere
+---
+Correct answer(s):
+diabetes
+ionosphere
+
+Question 5
+For which datasets is XMeans the best of all?
+Select all the answers you think are correct.
+diabetes
+ionosphere
+---
+Correct answer(s):
+diabetes

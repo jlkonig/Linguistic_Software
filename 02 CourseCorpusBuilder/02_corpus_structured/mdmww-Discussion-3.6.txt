@@ -1,0 +1,13 @@
+Small rule sets for the contact-lenses data
+You saw in the preceding Quiz that for the contact-lenses dataset, reading rules off the J48 tree gives 9 rules and 30 tests, whereas PRISM generates 9 rules and 26 tests.
+In this case PRISM is slightly more successful than J48 in minimizing the size of the rule set. But, nevertheless, it sucks: there are far smaller rule sets that classify this dataset exactly. Here’s one with 8 rules and 10 tests that I found by hand:
+tear-prod-rate = reduced -> none
+astigmatism = no AND age = young -> soft
+astigmatism = no AND age = pre-presbyopic -> soft
+astigmatism = yes AND spectacle-prescrip = myope-> hard
+age = young -> hard
+astigmatism = yes -> none
+spectacle-prescrip = myope -> none
+-> soft
+Finding small rule sets is a black art. Can you find a smaller one that classifies the contact-lenses dataset exactly? Tell your colleagues …
+Spoiler alert: the Ripper rule learner that we’ll meet in the next video finds a ruleset with just 3 rules! Isn’t that amazing? The moral is: don’t use PRISM for actual data mining, it’s just an educational tool to explain the principles.

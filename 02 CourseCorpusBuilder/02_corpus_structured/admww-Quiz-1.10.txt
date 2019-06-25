@@ -1,0 +1,155 @@
+Evaluating on a test set 
+Question 1
+Open the airline.arff dataset. Go to the Forecast panel and check Perform evaluation.
+In Advanced configuration, ensure that LinearRegression (the default) is chosen as the base learner. Under Lag creation, More options, check Remove leading instances.
+What is the RMS error of LinearRegression on the training data?
+6.9
+8.4
+8.7
+10.6
+---
+Correct answer(s):
+8.7
+
+Question 2
+Go to the Evaluation panel and hold out 24 instances for evaluation.
+What is the RMS error on the test data?
+27.1
+32.9
+52.9
+58.0
+---
+Correct answer(s):
+58.0
+
+Question 3
+What is the RMS error on the training data?
+5.3
+5.5
+6.4
+8.7
+---
+Correct answer(s):
+6.4
+---
+Feedback correct:
+The training error was 8.7 before, but has changed because the training set is different – it has 24 fewer instances
+
+Question 4
+What is the most likely reason for the huge disparity between test and training set errors you have just found?
+The test data represents values at later times than the training set
+The difference is due to statistical variation
+The training set is far larger than the test set
+The model is overfitted to the training data
+---
+Correct answer(s):
+The model is overfitted to the training data
+---
+Feedback correct:
+The disparity is so huge that it seems overwhelmingly likely that the model overfits the training data
+---
+Feedback incorrect:
+This is certainly a possibility. A fundamental assumption of machine learning is that both training and test data represent the same fundamental statistical distribution, which is unlikely to be the case for time series, which are generally either increasing or decreasing. However, one of the other choices identifies what is probably a far stronger effect.
+---
+Feedback incorrect:
+The difference could conceivably be due to statistical variation, but there’s a much more likely answer
+
+Question 5
+Now change the base learner to SMOreg.
+What is the RMS error on the test data and training data?
+Select all the answers you think are correct.
+Test data: 6.1
+Test data: 8.9
+Test data: 22.8
+Test data: 27.5
+Training data: 6.1
+Training data: 8.9
+Training data: 22.8
+Training data: 27.5
+---
+Correct answer(s):
+Test data: 27.5
+Training data: 8.9
+
+Question 6
+What do you think about the figures for SMOreg compared with the corresponding ones for LinearRegression?
+Neither SMOreg nor LinearRegression overfit very much
+Overfitting occurs for LinearRegression but not for SMOreg
+Overfitting occurs for SMOreg but not for LinearRegression
+Overfitting is present for SMOreg, but to a lesser degree than for LinearRegression
+---
+Correct answer(s):
+Overfitting is present for SMOreg, but to a lesser degree than for LinearRegression
+---
+Feedback incorrect:
+The difference between test and training errors, which indicates overfitting, is substantial for both SMOreg and LinearRegression
+---
+Feedback incorrect:
+The difference between test and training errors, which indicates overfitting, is substantial for SMOreg as well as for LinearRegression
+---
+Feedback incorrect:
+The difference between test and training errors, which indicates overfitting, is substantial for LinearRegression as well as for SMOreg
+
+Question 7
+If you look at the model that SMOreg has just created you will see that it involves a linear sum with 43 terms (plus a constant). Let’s make a simpler model.
+On the lag creation panel:
+    use custom lag lengths, setting both minimum and maximum to 12
+    under More options, turn off both powers of time and products of time and lagged variables
+On the Periodic attributes panel:
+  check Customize but leave all the other boxes unchecked.
+What is the RMS error of SMOreg on the test data and training data?
+Select all the answers you think are correct.
+Test data: 15.0
+Test data: 16.9
+Test data: 17.0
+Test data: 17.9
+Training data: 12.2
+Training data: 15.0
+Training data: 15.9
+Training data: 16.9
+---
+Correct answer(s):
+Test data: 16.9
+Training data: 15.9
+---
+Feedback correct:
+Overfitting is greatly reduced
+---
+Feedback incorrect:
+Overfitting is greatly reduced
+
+Question 8
+With the current settings, what is the RMS error of LinearRegression on the test data and training data?
+Select all the answers you think are correct.
+Test data: 12.4
+Test data: 15.6
+Test data: 16.6
+Test data: 18.7
+Training data: 12.4
+Training data: 15.6
+Training data: 16.6
+Training data: 18.7
+---
+Correct answer(s):
+Test data: 18.7
+Training data: 15.6
+---
+Feedback correct:
+Comparing the performances of SMOreg and LinearRegression, SMOreg is a little better than LinearRegression on the test data; they are about the same on the training data. LinearRegression is still perhaps slightly overfitted to the training data.
+---
+Feedback incorrect:
+Comparing the performances of SMOreg and LinearRegression, SMOreg is a little better than LinearRegression on the test data; they are about the same on the training data. LinearRegression is still perhaps slightly overfitted to the training data.
+
+Question 8
+With the current settings, what is the RMS error of LinearRegression on the test data and training data?
+Select all the answers you think are correct.
+Test data: 12.4
+Test data: 15.6
+Test data: 16.6
+Test data: 18.7
+Training data: 12.4
+Training data: 15.6
+Training data: 16.6
+Training data: 18.7
+---
+Correct answer(s):

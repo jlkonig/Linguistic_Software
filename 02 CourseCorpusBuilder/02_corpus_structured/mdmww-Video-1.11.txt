@@ -1,0 +1,4 @@
+Comparing classifiers
+How can you reliably compare two classifiers? Experimental results always depend on the random number sequence – might the conclusion be different if you used a different random number seed? 
+Statisticians talk about the “null hypothesis”, which is that one classifier’s performance is the same as the other’s. We’re usually hoping that the results of an experiment reject the null hypothesis! This involves a certain level of statistical significance: we might reject the hypothesis at the 5% level of statistical significance, meaning that it’s highly unlikely (1 chance in 20)  that their performance is the same.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

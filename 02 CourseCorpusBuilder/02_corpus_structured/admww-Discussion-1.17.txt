@@ -1,0 +1,9 @@
+Challenges for machine learning applications
+At the beginning of the last video Geoff introduced six challenges for machine learning applications:
+  A law passed or legal decision made that relies on the result of an ML analysis
+  $100M saved through improved decision making provided by an ML system
+  A conflict between nations averted through high-quality translation provided by an ML system
+  A 50% reduction in cybersecurity break-ins through ML defences
+  A human life saved through a diagnosis or intervention recommended by an ML system
+  Improvement of 10% in one country’s Human Development Index (HDI).
+What do you think of these? Can you come up with other important challenges?

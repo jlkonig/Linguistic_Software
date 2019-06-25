@@ -1,0 +1,3 @@
+Pitfalls and pratfalls
+Be skeptical, and wary of overfitting. Always use fresh data for evaluation. Datasets often have missing values, which can mean different things – and different classifiers treat them in different ways. Finally, there’s no free lunch, no “best learner”. In order to generalize, any learner must embody some knowledge or assumptions beyond the data it’s given. All methods have biases. Data mining is an experimental science!
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

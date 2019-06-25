@@ -1,0 +1,19 @@
+First/RB/first/1 ,/,/,/0 install/VB/install/3 Weka/NNP/weka/23 
+Before/IN/before/1 beginning/VBG/begin/1 you/PRP/you/1 should/MD/should/1 download/VB/download/0 and/CC/and/1 install/VB/install/3 Weka/NNP/weka/23 –/NNP/–/0 if/IN/if/1 it/PRP/it/1 isn/VBZ/be/1 ’/JJ/’/0 t/NNS/not/1 already/RB/already/1 installed/VBN/install/3 ,/,/,/0 which/WDT/which/1 it/PRP/it/1 will/MD/will/1 be/VB/be/1 if/IN/if/1 you/PRP/you/1 have/VBP/have/1 done/VBN/do/1 the/DT/the/1 previous/JJ/previous/2 course/NN/course/1 Data/NNP/data/3 Mining/NNP/miner/3 with/IN/with/1 Weka/NNP/weka/23 ./././0 
+(/(/(/0 Note/NN/note/1 :/:/:/0 Depending/VBG/depend/1 on/IN/on/1 your/PRP$/you/1 computer/NN/computer/1 and/CC/and/1 system/NN/system/1 version/NN/version/2 ,/,/,/0 you/PRP/you/1 may/MD/may/1 need/VB/need/1 admin/JJ/administration/3 access/NN/access/2 to/TO/to/1 successfully/RB/success/2 install/VB/install/3 Weka/NNP/weka/23 ./././0 )/)/)/0 
+Go/VB/go/1 to/TO/to/1 http/VB/http/0 :/:/:/0 //www.cs.waikato.ac.nz/ml/weka/NN///www.cs.waikato.ac.nz/ml/weka/0 
+Click/NNP/click/4 the/DT/the/1 Download/NNP/download/0 button/NN/button/2 
+Now/RB/now/1 choose/VBP/choose/1 which/WDT/which/1 one/CD/one/1 to/TO/to/1 download/VB/download/0 :/:/:/0 
+the/DT/the/1 latest/JJS/late/1 version/NN/version/2 ,/,/,/0 currently/RB/current/2 Weka-3-8-2/NNP/weka-3-8-2/0 
+(/(/(/0 use/VB/use/1 the/DT/the/1 latest/JJS/late/1 “/NN/“/0 stable/JJ/stable/2 ”/JJ/”/0 version/NN/version/2 ;/:/;/0 Weka-3-9/NNP/weka-3-9/0 is/VBZ/be/1 a/DT/a/1 “/JJ/“/0 developer/NN/develop/2 ”/NNP/”/0 version/NN/version/2 )/)/)/0 
+the/DT/the/1 appropriate/JJ/appropriate/3 link/NN/link/3 for/IN/for/1 your/PRP$/you/1 computer/NN/computer/1 ;/:/;/0 Windows/NNP/window/1 ,/,/,/0 Mac/NNP/mac/0 ,/,/,/0 or/CC/or/1 Linux/NNP/linux/0 
+if/IN/if/1 you/PRP/you/1 don/VBP/do/1 ’/JJ/’/0 t/NN/not/1 know/VBP/know/1 what/WP/what/1 Java/NNP/java/0 is/VBZ/be/1 ,/,/,/0 you/PRP/you/1 probably/RB/probably/1 want/VBP/want/1 the/DT/the/1 file/NN/file/2 that/WDT/that/1 includes/VBZ/include/2 a/DT/a/1 Java/NNP/java/0 VM/NNP/vm/0 (/(/(/0 =/JJ/=/0 virtual/JJ/virtual/3 machine/NN/machine/1 )/)/)/0 
+Once/IN/once/1 it/PRP/it/1 ’/VBZ/’/0 s/NN/be/1 downloaded/VBD/downloaded/0 ,/,/,/0 Ian/NNP/ian/0 opens/VBZ/open/1 it/PRP/it/1 to/TO/to/1 get/VB/get/1 a/DT/a/1 standard/JJ/standard/2 setup/NN/setup/0 “/NNP/“/0 wizard/NN/wizard/5 ”/NN/”/0 ./././0 
+Just/RB/just/1 keep/VB/keep/1 clicking/VBG/click/4 “/JJ/“/0 Next/JJ/next/1 ”/NN/”/0 !/./!/0 Install/VB/install/3 it/PRP/it/1 in/IN/in/1 the/DT/the/1 default/NN/default/5 place/NN/place/1 –/NNP/–/0 and/CC/and/1 remember/VB/remember/1 the/DT/the/1 name/NN/name/1 of/IN/of/1 that/DT/that/1 place/NN/place/1 !/./!/0 
+After/IN/after/1 installation/NN/install/3 ,/,/,/0 uncheck/VB/uncheck/0 the/DT/the/1 box/NN/box/1 that/WDT/that/1 says/VBZ/say/1 “/JJ/“/0 Start/NNP/start/1 Weka/NNP/weka/23 ”/NNP/”/0 and/CC/and/1 click/JJ/click/4 “/NNP/“/0 Finish/NNP/finish/1 ”/NNP/”/0 ./././0 
+Then/RB/then/1 go/VB/go/1 to/TO/to/1 where/WRB/where/1 Weka/NNP/weka/23 was/VBD/be/1 installed/VBN/install/3 and/CC/and/1 
+create/VB/create/2 a/DT/a/1 shortcut/NN/shortcut/10 to/TO/to/1 the/DT/the/1 Weka/NNP/weka/23 program/NN/programme/1 and/CC/and/1 put/VB/put/1 it/PRP/it/1 on/IN/on/1 the/DT/the/1 desktop/NN/desktop/0 for/IN/for/1 future/JJ/future/2 use/NN/use/1 ./././0 
+make/VB/make/1 a/DT/a/1 copy/NN/copy/2 of/IN/of/1 the/DT/the/1 data/NNS/data/3 folder/NN/folder/6 (/(/(/0 within/IN/within/1 the/DT/the/1 Weka/NNP/weka/23 folder/NN/folder/6 )/)/)/0 and/CC/and/1 put/VBD/put/1 it/PRP/it/1 in/IN/in/1 a/DT/a/1 convenient/JJ/convenient/4 place/NN/place/1 for/IN/for/1 future/JJ/future/2 use/NN/use/1 
+rename/NN/name/1 it/PRP/it/1 “/VBZ/“/0 Weka/NNP/weka/23 datasets/NNS/datasets/0 ”/VBP/”/0 
+
+

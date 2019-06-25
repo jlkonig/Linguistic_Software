@@ -1,0 +1,17 @@
+Prepare for the quiz
+Before starting the quiz we suggest you reproduce what Ian did in the video, using the LED24 data in the Command Line Interface.
+Make a test file with 100,000 instances. Precede all filenames below with an appropriate directory specification, surrounded by quotation marks if necessary.
+java weka.datagenerators.classifiers.classification.LED24 -n 100000 
+        -o test.arff
+(The Command Line Interface gives no output; you need to look for the file to see if it has worked.)
+Make a training file with 10,000,000 instances:
+ java weka.datagenerators.classifiers.classification.LED24 -n 10000000 
+        -o train.arff
+Apply NaiveBayesUpdateable:
+ java weka.classifiers.bayes.NaiveBayesUpdateable -t train.arff 
+        -T test.arff -v
+(This takes about 30 secs on my computer. The “-v” suppresses evaluation on the training file, which the Command Line Interface does by default.)
+Verify that Weka runs out of memory if cross-validation is attempted:
+ java weka.classifiers.bayes.NaiveBayesUpdateable -t train.arff
+Weka will become unresponsive, although you will probably not get an error message. (Unfortunately it is difficult to trap and report out-of-memory errors in a Java program.)
+If you feel brave, repeat the exercise with a 100,000,000-instance training file.

@@ -1,0 +1,80 @@
+Examining/VBG/examine/2 the/DT/the/1 benefits/NNS/benefit/2 of/IN/of/1 cheating/VBG/cheat/2 
+Question/NN/question/1 1/CD/1/0 
+Using/VBG/use/1 OneR/NNP/oner/0 on/IN/on/1 the/DT/the/1 discretized/JJ/discretized/0 dataset/NN/dataset/0 is/VBZ/be/1 cheating/VBG/cheat/2 ./././0 What/WP/what/1 classification/NN/classification/4 accuracy/NN/accurate/3 is/VBZ/be/1 obtained/VBN/obtain/3 ?/./?/0 
+81/CD/81/0 %/NN/%/0 
+82/CD/82/0 %/NN/%/0 
+88/CD/88/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+88/CD/88/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 specifically/RB/specific/2 ,/,/,/0 87.75/CD/87.75/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 2/CD/2/0 
+Using/VBG/use/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 on/IN/on/1 the/DT/the/1 original/JJ/original/2 dataset/NN/dataset/0 is/VBZ/be/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 What/WP/what/1 classification/NN/classification/4 accuracy/NN/accurate/3 is/VBZ/be/1 obtained/VBN/obtain/3 ?/./?/0 
+85/CD/85/0 %/NN/%/0 
+86/CD/86/0 %/NN/%/0 
+88/CD/88/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+86/CD/86/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 More/RBR/more/1 specifically/RB/specific/2 ,/,/,/0 85.87/CD/85.87/0 %/NN/%/0 )/)/)/0 
+
+Question/NN/question/1 3/CD/3/0 
+Is/VBZ/be/1 the/DT/the/1 difference/NN/difference/1 significant/JJ/significant/3 at/IN/at/1 the/DT/the/1 5/CD/5/0 %/NN/%/0 level/NN/level/1 ?/./?/0 (/(/(/0 The/DT/the/1 Experimenter/NNP/experiment/3 doesn/NN/do/1 ’/NNP/’/0 t/NN/not/1 compare/VBP/compare/2 one/CD/one/1 method/NN/method/3 on/IN/on/1 one/CD/one/1 dataset/NN/dataset/0 with/IN/with/1 the/DT/the/1 other/JJ/other/1 method/NN/method/3 on/IN/on/1 the/DT/the/1 other/JJ/other/1 dataset/NN/dataset/0 ./././0 However/RB/however/1 ,/,/,/0 in/IN/in/1 this/DT/this/1 case/NN/case/1 ,/,/,/0 both/DT/both/1 classifiers/NNS/classifier/0 will/MD/will/1 necessarily/RB/necessary/1 produce/VB/produce/2 identical/JJ/identical/4 results/NNS/result/2 on/IN/on/1 one/CD/one/1 of/IN/of/1 the/DT/the/1 datasets/NNS/datasets/0 ./././0 Think/VBP/think/1 about/IN/about/1 it/PRP/it/1 ./././0 )/)/)/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 two/CD/two/1 classifiers/NNS/classifier/0 produce/VBP/produce/2 the/DT/the/1 same/JJ/same/1 results/NNS/result/2 on/IN/on/1 the/DT/the/1 discretized/VBN/discretized/0 dataset/NN/dataset/0 because/IN/because/1 further/JJ/further/1 filtering/NN/filter/3 has/VBZ/have/1 no/DT/no/1 effect/NN/effect/2 –/VBZ/–/0 nominal/JJ/nominal/5 attributes/NNS/attribute/3 are/VBP/be/1 unchanged/JJ/change/1 by/IN/by/1 discretization/NN/discretization/0 ./././0 Thus/RB/thus/2 you/PRP/you/1 should/MD/should/1 compare/VB/compare/2 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 on/IN/on/1 the/DT/the/1 two/CD/two/1 datasets/NNS/datasets/0 ./././0 Do/VB/do/1 this/DT/this/1 by/IN/by/1 selecting/VBG/select/2 the/DT/the/1 Scheme/NNP/scheme/3 as/IN/as/1 the/DT/the/1 Row/NNP/row/2 and/CC/and/1 the/DT/the/1 Dataset/NNP/dataset/0 as/IN/as/1 the/DT/the/1 Column/NNP/column/3 ,/,/,/0 and/CC/and/1 looking/VBG/look/1 at/IN/at/1 the/DT/the/1 row/NN/row/2 corresponding/VBG/correspond/3 to/TO/to/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+The/DT/the/1 two/CD/two/1 classifiers/NNS/classifier/0 produce/VBP/produce/2 the/DT/the/1 same/JJ/same/1 results/NNS/result/2 on/IN/on/1 the/DT/the/1 discretized/VBN/discretized/0 dataset/NN/dataset/0 because/IN/because/1 further/JJ/further/1 filtering/NN/filter/3 has/VBZ/have/1 no/DT/no/1 effect/NN/effect/2 –/VBZ/–/0 nominal/JJ/nominal/5 attributes/NNS/attribute/3 are/VBP/be/1 unchanged/JJ/change/1 by/IN/by/1 discretization/NN/discretization/0 ./././0 Thus/RB/thus/2 you/PRP/you/1 should/MD/should/1 compare/VB/compare/2 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 on/IN/on/1 the/DT/the/1 two/CD/two/1 datasets/NNS/datasets/0 ./././0 Do/VB/do/1 this/DT/this/1 by/IN/by/1 selecting/VBG/select/2 the/DT/the/1 Scheme/NNP/scheme/3 as/IN/as/1 the/DT/the/1 Row/NNP/row/2 and/CC/and/1 the/DT/the/1 Dataset/NNP/dataset/0 as/IN/as/1 the/DT/the/1 Column/NNP/column/3 ,/,/,/0 and/CC/and/1 looking/VBG/look/1 at/IN/at/1 the/DT/the/1 row/NN/row/2 corresponding/VBG/correspond/3 to/TO/to/1 the/DT/the/1 FilteredClassifier/NNP/filteredclassifier/0 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Would/MD/would/1 you/PRP/you/1 expect/VB/expect/1 OneR/NNP/oner/0 ’/NNP/’/0 s/VBD/be/1 performance/NN/perform/2 to/TO/to/1 improve/VB/improve/2 if/IN/if/1 you/PRP/you/1 used/VBD/use/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 of/IN/of/1 discretization/NN/discretization/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 would/MD/would/1 certainly/RB/certain/1 not/RB/not/1 improve/VB/improve/2 (/(/(/0 though/IN/though/1 it/PRP/it/1 could/MD/could/1 stay/VB/stay/1 the/DT/the/1 same/JJ/same/1 )/)/)/0 ./././0 OneR/NNP/oner/0 chooses/VBZ/choose/1 a/DT/a/1 single/JJ/single/1 attribute/NN/attribute/3 to/TO/to/1 branch/VB/branch/2 on/IN/on/1 ,/,/,/0 and/CC/and/1 an/DT/a/1 individual/JJ/individual/2 attribute/NN/attribute/3 in/IN/in/1 the/DT/the/1 binary-attribute/JJ/binary-attribute/0 version/NN/version/2 can/MD/can/1 not/RB/not/1 be/VB/be/1 more/RBR/more/1 informative/JJ/informative/6 than/IN/than/1 the/DT/the/1 original/JJ/original/2 attribute/NN/attribute/3 it/PRP/it/1 was/VBD/be/1 derived/VBN/derive/3 from/IN/from/1 (/(/(/0 in/IN/in/1 general/NN/general/1 ,/,/,/0 it/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 far/RB/far/1 less/RBR/less/1 informative/JJ/informative/6 )/)/)/0 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+Replace/NNP/replace/2 OneR/NNP/oner/0 with/IN/with/1 J48/NNP/j48/0 ./././0 How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 result/NN/result/2 of/IN/of/1 “/NN/“/0 cheating/VBG/cheat/2 ”/NNP/”/0 compare/NN/compare/2 with/IN/with/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NN/cheat/2 is/VBZ/be/1 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NNP/cheat/2 is/VBZ/be/1 somewhat/RB/somewhat/2 better/JJR/better/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+They/PRP/they/1 are/VBP/be/1 the/DT/the/1 same/JJ/same/1 ./././0 
+Cheating/NNP/cheat/2 is/VBZ/be/1 somewhat/RB/somewhat/2 worse/JJR/worse/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NN/cheat/2 is/VBZ/be/1 significantly/RB/significant/3 worse/JJR/worse/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 5/CD/5/0 
+Replace/NNP/replace/2 OneR/NNP/oner/0 with/IN/with/1 J48/NNP/j48/0 ./././0 How/WRB/how/1 does/VBZ/do/1 the/DT/the/1 result/NN/result/2 of/IN/of/1 “/NN/“/0 cheating/VBG/cheat/2 ”/NNP/”/0 compare/NN/compare/2 with/IN/with/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NN/cheat/2 is/VBZ/be/1 significantly/RB/significant/3 better/JJR/better/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NNP/cheat/2 is/VBZ/be/1 somewhat/RB/somewhat/2 better/JJR/better/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+They/PRP/they/1 are/VBP/be/1 the/DT/the/1 same/JJ/same/1 ./././0 
+Cheating/NNP/cheat/2 is/VBZ/be/1 somewhat/RB/somewhat/2 worse/JJR/worse/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+Cheating/NN/cheat/2 is/VBZ/be/1 significantly/RB/significant/3 worse/JJR/worse/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Cheating/NNP/cheat/2 is/VBZ/be/1 somewhat/RB/somewhat/2 worse/JJR/worse/1 than/IN/than/1 not/RB/not/1 cheating/VBG/cheat/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+In/IN/in/1 this/DT/this/1 case/NN/case/1 J48/NNP/j48/0 obtains/VBZ/obtain/3 89.49/CD/89.49/0 %/NN/%/0 on/IN/on/1 the/DT/the/1 discretized/VBN/discretized/0 dataset/NN/dataset/0 (/(/(/0 cheating/VBG/cheat/2 )/)/)/0 and/CC/and/1 90.12/CD/90.12/0 %/NN/%/0 when/WRB/when/1 used/VBN/use/1 in/IN/in/1 the/DT/the/1 filtered/VBN/filter/3 classifier/NN/classifier/0 on/IN/on/1 the/DT/the/1 original/JJ/original/2 dataset/NN/dataset/0 (/(/(/0 not/RB/not/1 cheating/VBG/cheat/2 )/)/)/0 ./././0 This/DT/this/1 is/VBZ/be/1 slightly/RB/slight/1 surprising/JJ/surprise/1 ./././0 In/IN/in/1 general/JJ/general/1 one/CD/one/1 would/MD/would/1 expect/VB/expect/1 “/NNP/“/0 cheating/VBG/cheat/2 ”/NN/”/0 to/TO/to/1 help/VB/help/1 a/DT/a/1 little/JJ/little/1 ,/,/,/0 but/CC/but/1 not/RB/not/1 necessarily/RB/necessary/1 in/IN/in/1 every/DT/every/1 case/NN/case/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+In/IN/in/1 some/DT/some/1 cases/NNS/case/1 it/PRP/it/1 may/MD/may/1 be/VB/be/1 ,/,/,/0 but/CC/but/1 not/RB/not/1 always/RB/always/1 ./././0 
+
+

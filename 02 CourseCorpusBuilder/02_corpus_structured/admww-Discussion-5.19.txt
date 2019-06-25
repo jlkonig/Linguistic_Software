@@ -1,0 +1,3 @@
+The data mining challenge
+Well, now you have seen a good solution to the data mining challenge, along with an explanation by an expert of how he arrived at it.
+What do you think? Can you do better?

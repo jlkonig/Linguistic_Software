@@ -1,0 +1,5 @@
+Can you distribute Weka jobs over several machines?
+Of course, the answer is “yes”!
+The question is, how? There are several ways. For example, the Experimenter contains its own mechanism for distributing an experiment over many machines. (To do it, you need to change the Experiment Configuration Mode at the top left of the Setup panel from Simple to Advanced.)
+But this week we look at a more general framework for distributing Weka jobs over several machines. You will learn about the design goals for distributed Weka, and the “map-reduce” idea for breaking computations down for parallel implementation.
+By the end of the week you’ll be able to install Distributed Weka and use it from the Knowledge Flow interface. You’ll be running it on a single desktop machine, of course, and each of the individual cores in the CPU is treated as a separate processing node.

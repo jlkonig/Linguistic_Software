@@ -1,0 +1,3 @@
+Lag creation and overlay data 
+There are many parameters and options for deriving time-dependent attributes, such as which attribute holds the timestamp and what is the periodicity of the data. Periodicity affects the lagged variables that are generated. Weka interpolates instances for missing dates, which you can suppress manually if you wish. You can predict several variables, and Weka generates lagged values of each one. You can incorporate “overlay data” – additional data that might be relevant to the prediction that is available for the future (e.g., weather forecasts).
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

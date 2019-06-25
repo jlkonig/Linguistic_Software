@@ -1,0 +1,7 @@
+One-class classification
+Though we didn’t see it in the video, LibSVM is capable of tackling a new type of problem that we have’t encountered before: one-class classification.
+In two-class classification, the problem is to distinguish instances in one class (say A) from instances in the other (B). Positive instances for B are negative instances for A, and vice versa. Or maybe not every non-A is a B, in which case we have three classes: A, B, and Neither. That’s three-class classification. And multi-class classification is an obvious further extension (A, B, C, etc.).
+But one-class classification is different. There’s only one class, and no negative instances. Though we haven’t encountered this before, it’s common in real life.
+One-class classification is weird! Two-class classification might separate the sheep from the goats, whereas one-class classification tries to separate the sheep from the … what? … non-sheep?
+But there are many real-life examples. Consider outlier detection, anomaly detection, and novelty detection. How about the classification of the operational status of a nuclear power plant as “normal” (fortunately, there are very few negative examples!).
+Can you think of other situations that call for one-class classification?

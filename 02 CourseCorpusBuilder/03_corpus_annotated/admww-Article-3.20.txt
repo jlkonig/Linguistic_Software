@@ -1,0 +1,155 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+cpu/NN/cpu/0 
+3.13/CD/3.13/0 
+diabetes/NNS/diabetes/4 
+3.9/CD/3.9/0 ,/,/,/0 3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 
+Functional/JJ/function/3 MRI/NNP/mri/0 data/NN/data/3 
+3.16/CD/3.16/0 ,/,/,/0 3.17/CD/3.17/0 
+glass/NN/glass/1 
+3.13/CD/3.13/0 
+Haxby_Subj1_Training/VBG/haxby_subj1_training/0 
+3.17/CD/3.17/0 
+ionosphere/RB/ionosphere/16 
+3.13/CD/3.13/0 
+iris/NN/iris/8 
+3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 ,/,/,/0 3.10/CD/3.10/0 ,/,/,/0 3.11/CD/3.11/0 ,/,/,/0 3.13/CD/3.13/0 ,/,/,/0 3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+NIFTI_Files/NNS/nifti_files/0 
+3.17/CD/3.17/0 
+Structural/JJ/structure/3 MRI/NNP/mri/0 data/NN/data/3 
+3.16/CD/3.16/0 
+Classifiers/NNS/classifier/0 
+J48/NN/j48/0 
+3.17/CD/3.17/0 
+LibLINEAR/NN/liblinear/0 
+3.2/CD/3.2/0 
+LibSVM/NN/libsvm/0 
+3.2/CD/3.2/0 ,/,/,/0 3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 
+Logistic/JJ/logistics/6 
+3.13/CD/3.13/0 
+M5P/NN/m5p/0 
+3.13/CD/3.13/0 
+MLRClassifier/JJR/mlrclassifier/0 
+3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 
+NaiveBayes/NNS/naivebayes/0 
+3.4/CD/3.4/0 ,/,/,/0 3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 ,/,/,/0 3.17/CD/3.17/0 
+OneR/NN/oner/0 
+3.17/CD/3.17/0 
+RandomForest/JJS/randomforest/0 
+3.13/CD/3.13/0 
+SMO/NN/smo/0 
+3.2/CD/3.2/0 ,/,/,/0 3.17/CD/3.17/0 
+SMOreg/NN/smoreg/0 
+3.2/CD/3.2/0 
+ZeroR/NN/zeror/0 
+3.17/CD/3.17/0 
+R/NN/r/0 classifiers/NNS/classifier/0 
+multinom/NN/multinom/0 
+3.13/CD/3.13/0 
+randomForest/NN/randomforest/0 
+3.13/CD/3.13/0 
+regr.earth/NN/regr.earth/0 
+3.13/CD/3.13/0 
+regr.mob/NN/regr.mob/0 
+3.13/CD/3.13/0 
+rFerns/NNS/rferns/0 
+3.12/CD/3.12/0 
+rpart/NN/rpart/0 
+3.12/CD/3.12/0 
+Metalearners/NNS/metalearners/0 
+ClassificationViaRegression/NN/classificationviaregression/0 
+3.13/CD/3.13/0 
+FilteredClassifier/NN/filteredclassifier/0 
+3.13/CD/3.13/0 ,/,/,/0 3.17/CD/3.17/0 
+GridSearch/NN/gridsearch/0 
+3.2/CD/3.2/0 
+OneClassClassifier/JJR/oneclassclassifier/0 
+3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 
+Filters/NNS/filter/3 
+Add/VB/add/1 
+3.4/CD/3.4/0 
+PartitionMembership/NN/partitionmembership/0 
+3.17/CD/3.17/0 
+RemoveUseless/NN/removeuseless/0 
+3.17/CD/3.17/0 
+ReplaceMissingWithUserConstant/NN/replacemissingwithuserconstant/0 
+3.4/CD/3.4/0 
+Standardize/VB/standard/2 
+3.13/CD/3.13/0 
+Packages/NNS/pack/1 
+gridSearch/NN/gridsearch/0 
+3.2/CD/3.2/0 
+LibLINEAR/NN/liblinear/0 
+3.1/CD/3.1/0 ,/,/,/0 3.2/CD/3.2/0 
+LibSVM/NN/libsvm/0 
+3.1/CD/3.1/0 ,/,/,/0 3.2/CD/3.2/0 
+niftiLoader/NN/niftiloader/0 
+3.17/CD/3.17/0 
+oneClassClassifier/NN/oneclassclassifier/0 
+3.4/CD/3.4/0 
+RPlugin/NN/rplugin/0 
+3.7/CD/3.7/0 
+R/NN/r/0 libraries/NNS/library/2 
+analogue/NN/analogue/8 
+3.14/CD/3.14/0 
+fastICA/NN/fastica/0 
+3.14/CD/3.14/0 
+ggplot2/NN/ggplot2/0 
+3.10/CD/3.10/0 ,/,/,/0 3.11/CD/3.11/0 
+kernlab/NN/kernlab/0 
+3.15/CD/3.15/0 
+lle/NN/lle/0 
+3.14/CD/3.14/0 
+mlbench/NN/mlbench/0 
+3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 
+MLR/NN/mlr/0 
+3.12/CD/3.12/0 ,/,/,/0 3.13/CD/3.13/0 
+Generators/NNS/generator/5 
+LED24/NNP/led24/0 (/(/(/0 Weka/NNP/weka/23 )/)/)/0 
+3.2/CD/3.2/0 
+MexicanHat/NN/mexicanhat/0 
+3.13/CD/3.13/0 
+KnowledgeFlow/NNP/knowledgeflow/0 components/NNS/component/3 
+ArffLoader/NN/arffloader/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+ClassAssigner/NN/classassigner/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+ClassifierPerformanceEvaluator/NN/classifierperformanceevaluator/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+CrossValidationFoldMaker/NN/crossvalidationfoldmaker/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+RScriptExecutor/NN/rscriptexecutor/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+ScatterPlotMatrix/NN/scatterplotmatrix/0 
+3.14/CD/3.14/0 
+TextViewer/NN/textviewer/0 
+3.14/CD/3.14/0 ,/,/,/0 3.15/CD/3.15/0 
+R/NNP/r/0 commands/NNS/command/2 
+install.packages/NNS/install.packages/0 
+3.7/CD/3.7/0 
+boxplot/NN/boxplot/0 ,/,/,/0 cor/NN/cor/0 ,/,/,/0 cov/NN/cov/0 ,/,/,/0 hist/NN/hist/18 ,/,/,/0 install_packages/NNS/install_packages/0 ,/,/,/0 IQR/NNP/iqr/0 ,/,/,/0 kurtosis/NN/kurtosis/18 ,/,/,/0 library/JJ/library/2 ,/,/,/0 quantile/JJ/quantile/22 ,/,/,/0 sapply/RB/sapply/0 ,/,/,/0 sd/NN/sd/0 ,/,/,/0 skewness/NN/skewness/0 ,/,/,/0 summary/JJ/summary/3 ,/,/,/0 table/JJ/table/1 
+3.9/CD/3.9/0 
+aes/NN/aes/0 ,/,/,/0 dev.off/NN/dev.off/0 ,/,/,/0 facet_grid/JJ/facet_grid/0 ,/,/,/0 geom_density/NN/geom_density/0 ,/,/,/0 ggplot/NN/ggplot/0 ,/,/,/0 install_packages/NNS/install_packages/0 ,/,/,/0 library/JJ/library/2 ,/,/,/0 melt/NN/melt/2 ,/,/,/0 PDF/NNP/pdf/0 ,/,/,/0 xlim/NN/xlim/0 
+3.10/CD/3.10/0 
+aes/NN/aes/0 ./././0 C/NNP/c/0 ,/,/,/0 facet_grid/JJ/facet_grid/0 ,/,/,/0 geom_bin2d/NN/geom_bin2d/0 ,/,/,/0 geom_density/NN/geom_density/0 ,/,/,/0 geom_density2d/NN/geom_density2d/0 ,/,/,/0 geom_freqpoly/NN/geom_freqpoly/0 ,/,/,/0 geom_histogram/NN/geom_histogram/0 ,/,/,/0 geom_point/NN/geom_point/0 ,/,/,/0 ggplot/NN/ggplot/0 ,/,/,/0 install_packages/NNS/install_packages/0 ,/,/,/0 library/JJ/library/2 ,/,/,/0 scale_fill_gradient/JJ/scale_fill_gradient/0 ,/,/,/0 stat_density2d/JJ/stat_density2d/0 ,/,/,/0 stat_smooth/JJ/stat_smooth/0 ,/,/,/0 xlim/NNP/xlim/0 ,/,/,/0 ylim/NN/ylim/0 
+3.11/CD/3.11/0 
+cbind/NN/cbind/0 ,/,/,/0 data_frame/NN/data_frame/0 ,/,/,/0 fastICA/NN/fastica/0 ,/,/,/0 library/JJ/library/2 ,/,/,/0 ncol/JJ/ncol/0 
+3.14/CD/3.14/0 
+chind/NN/chind/0 ,/,/,/0 cmdscale/NN/cmdscale/0 ,/,/,/0 install_packages/NNS/install_packages/0 ,/,/,/0 data.frame/NN/data.frame/0 ,/,/,/0 fastICA/NN/fastica/0 ,/,/,/0 library/JJ/library/2 ,/,/,/0 lle/JJ/lle/0 ,/,/,/0 mlbench.2dnormals/NNS/mlbench.2dnormals/0 ,/,/,/0 ncol/RB/ncol/0 ,/,/,/0 prcurve/NN/prcurve/0 
+3.15/CD/3.15/0 
+Plus/CC/plus/1 
+Attention/NNP/attention/2 deficit/NN/deficit/3 hyperactivity/NN/hyperactive/9 disorder/NN/disorder/3 (/(/(/0 ADHD/NNP/adhd/0 )/)/)/0 
+3.16/CD/3.16/0 
+Environment/NN/environment/2 variable/NN/vary/2 
+3.7/CD/3.7/0 
+One-class/NNP/one-class/0 classification/NN/classification/4 
+3.3/CD/3.3/0 ,/,/,/0 3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 
+R/NNP/r/0 (/(/(/0 statistical/JJ/statistic/3 language/NN/language/2 )/)/)/0 
+3.6–3.15/CD/3.6–3.15/0 
+Radial/JJ/radial/8 basis/NN/basis/2 function/NN/function/3 (/(/(/0 RBF/NNP/rbf/0 )/)/)/0 kernel/NN/kernel/8 
+3.2/CD/3.2/0 
+
+

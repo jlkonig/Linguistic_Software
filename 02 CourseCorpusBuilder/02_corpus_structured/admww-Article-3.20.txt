@@ -1,0 +1,153 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      cpu
+      3.13
+      diabetes
+      3.9, 3.12, 3.13
+      Functional MRI data
+      3.16, 3.17
+      glass
+      3.13
+      Haxby_Subj1_Training
+      3.17
+      ionosphere
+      3.13
+      iris
+      3.4, 3.5, 3.10, 3.11, 3.13, 3.14, 3.15
+      NIFTI_Files
+      3.17
+      Structural MRI data
+      3.16
+      Classifiers
+      J48
+      3.17
+      LibLINEAR
+      3.2
+      LibSVM
+      3.2, 3.4, 3.5
+      Logistic
+      3.13
+      M5P
+      3.13
+      MLRClassifier
+      3.12, 3.13
+      NaiveBayes
+      3.4, 3.14, 3.15, 3.17
+      OneR
+      3.17
+      RandomForest
+      3.13
+      SMO
+      3.2, 3.17
+      SMOreg
+      3.2
+      ZeroR
+      3.17
+      R classifiers
+      multinom
+      3.13
+      randomForest
+      3.13
+      regr.earth
+      3.13
+      regr.mob
+      3.13
+      rFerns
+      3.12
+      rpart
+      3.12
+      Metalearners
+      ClassificationViaRegression
+      3.13
+      FilteredClassifier
+      3.13, 3.17
+      GridSearch
+      3.2
+      OneClassClassifier
+      3.4, 3.5
+      Filters
+      Add
+      3.4
+      PartitionMembership
+      3.17
+      RemoveUseless
+      3.17
+      ReplaceMissingWithUserConstant
+      3.4
+      Standardize
+      3.13
+      Packages
+      gridSearch
+      3.2
+      LibLINEAR
+      3.1, 3.2
+      LibSVM
+      3.1, 3.2
+      niftiLoader
+      3.17
+      oneClassClassifier
+      3.4
+      RPlugin
+      3.7
+      R libraries
+      analogue
+      3.14
+      fastICA
+      3.14
+      ggplot2
+      3.10, 3.11
+      kernlab
+      3.15
+      lle
+      3.14
+      mlbench
+      3.12, 3.13
+      MLR
+      3.12, 3.13
+      Generators
+      LED24 (Weka)
+      3.2
+      MexicanHat
+      3.13
+      KnowledgeFlow components
+      ArffLoader
+      3.14, 3.15
+      ClassAssigner
+      3.14, 3.15
+      ClassifierPerformanceEvaluator
+      3.14, 3.15
+      CrossValidationFoldMaker
+      3.14, 3.15
+      RScriptExecutor
+      3.14, 3.15
+      ScatterPlotMatrix
+      3.14
+      TextViewer
+      3.14, 3.15
+      R commands
+      install.packages
+      3.7
+      boxplot, cor, cov, hist, install_packages, IQR, kurtosis, library, quantile, sapply, sd, skewness, summary, table
+      3.9
+      aes, dev.off, facet_grid, geom_density, ggplot, install_packages, library, melt, PDF, xlim
+      3.10
+      aes. C, facet_grid, geom_bin2d, geom_density, geom_density2d, geom_freqpoly, geom_histogram, geom_point, ggplot, install_packages, library, scale_fill_gradient, stat_density2d, stat_smooth, xlim, ylim
+      3.11
+      cbind, data_frame, fastICA, library, ncol
+      3.14
+      chind, cmdscale, install_packages, data.frame, fastICA, library, lle, mlbench.2dnormals, ncol, prcurve
+      3.15
+      Plus
+      Attention deficit hyperactivity disorder (ADHD)
+      3.16
+      Environment variable
+      3.7
+      One-class classification
+      3.3, 3.4, 3.5
+      R (statistical language)
+      3.6–3.15
+      Radial basis function (RBF) kernel
+      3.2

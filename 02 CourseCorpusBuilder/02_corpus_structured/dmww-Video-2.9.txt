@@ -1,0 +1,3 @@
+Repeated training and testing
+You can evaluate a classifier by splitting the dataset randomly into training and testing parts; train it on the former and test it on the latter. Of course, different splits produce slightly different results. If you simply re-run Weka, it repeats the same split – but you can force it to make different splits by altering the random number generator’s “seed”. If you evaluate the classifier several times you can average the results – and calculate the standard deviation.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

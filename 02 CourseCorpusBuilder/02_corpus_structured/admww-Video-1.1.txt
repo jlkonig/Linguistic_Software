@@ -1,0 +1,3 @@
+What will you learn?
+This video welcomes you to the course, which – unlike earlier courses in this series – is given by the entire data mining team at the University of Waikato in NZ. It summarizes what you will learn. As well as a host of new techniques, the course also includes descriptions of some fielded applications of Weka. Ian reminds you what you surely know already, that New Zealand is at the top of the world, and has a cool bird called a weka.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

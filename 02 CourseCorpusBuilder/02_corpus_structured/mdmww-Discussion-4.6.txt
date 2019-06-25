@@ -1,0 +1,6 @@
+What's all this about cheating?
+Confession time!
+I called it “cheating” mainly to get your attention.
+Here we’re talking about attribute selection, but the same phenomenon occurred back in Week 2 when we talked about supervised discretization. With supervised discretization you mustn’t use the test set to help determine discretization boundaries; with attribute selection you mustn’t use it to decide which attributes to select. If you do, I’ve called that “cheating”.
+The dictionary definition of cheating is “acting dishonestly or unfairly in order to gain an advantage, especially in a game or examination”.
+Is using the test set to help set discretization boundaries or select attributes really “cheating”? What do you think? What’s the real danger?

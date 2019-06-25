@@ -1,0 +1,154 @@
+Feelin/NNP/feelin/0 '/POS/'/0 Groovy/NNP/groovy/13 ?/./?/0 
+Question/NN/question/1 1/CD/1/0 
+The/DT/the/1 make_predictions-classifier.groovy/JJ/make_predictions-classifier.groovy/0 script/NN/script/4 discussed/VBN/discuss/2 in/IN/in/1 the/DT/the/1 previous/JJ/previous/2 video/NN/video/1 (/(/(/0 A/DT/a/1 challenge/NN/challenge/2 ,/,/,/0 and/CC/and/1 some/DT/some/1 Groovy/NNP/groovy/13 )/)/)/0 does/VBZ/do/1 the/DT/the/1 same/JJ/same/1 job/NN/job/1 as/IN/as/1 the/DT/the/1 make_predictions-classifier.py/JJ/make_predictions-classifier.py/0 script/NN/script/4 discussed/VBN/discuss/2 in/IN/in/1 the/DT/the/1 earlier/JJR/early/1 Building/NNP/build/1 models/NNS/model/2 video/NN/video/1 :/:/:/0 they/PRP/they/1 both/DT/both/1 create/VBP/create/2 a/DT/a/1 J48/NNP/j48/0 model/NN/model/2 from/IN/from/1 anneal_train.arff/NN/anneal_train.arff/0 and/CC/and/1 use/VB/use/1 it/PRP/it/1 to/TO/to/1 obtain/VB/obtain/3 predictions/NNS/predict/3 for/IN/for/1 anneal_unlbl.arff/NN/anneal_unlbl.arff/0 ./././0 
+But/CC/but/1 there/EX/there/1 are/VBP/be/1 several/JJ/several/1 differences/NNS/difference/1 ./././0 Examine/NNP/examine/2 both/DT/both/1 scripts/NNS/script/4 ;/:/;/0 run/VB/run/1 them/PRP/they/1 ;/:/;/0 and/CC/and/1 then/RB/then/1 answer/VB/answer/1 the/DT/the/1 following/JJ/follow/1 questions/NNS/question/1 ./././0 
+They/PRP/they/1 use/VBP/use/1 the/DT/the/1 same/JJ/same/1 classifier/NN/classifier/0 but/CC/but/1 with/IN/with/1 different/JJ/different/1 parameters/NNS/parameter/4 ./././0 
+True/NN/true/1 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+They/PRP/they/1 both/DT/both/1 use/VBP/use/1 the/DT/the/1 J48/NNP/j48/0 classifier/NN/classifier/0 with/IN/with/1 the/DT/the/1 parameter/NN/parameter/4 “/NNP/“/0 –C/VBZ/–c/0 0.3/CD/0.3/0 ”/NN/”/0 
+
+Question/NN/question/1 2/CD/2/0 
+Which/JJ/which/1 script/NN/script/4 prints/VBZ/print/2 the/DT/the/1 model/NN/model/2 ?/./?/0 
+Neither/CC/neither/2 
+Python/NN/python/11 
+Groovy/NN/groovy/13 
+Both/DT/both/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Groovy/NN/groovy/13 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 model/NN/model/2 is/VBZ/be/1 printed/VBN/print/2 by/IN/by/1 the/DT/the/1 line/NN/line/1 println/NN/println/0 (/(/(/0 cls/NN/cl/0 )/)/)/0 in/IN/in/1 the/DT/the/1 Groovy/NNP/groovy/13 script/NN/script/4 
+
+Question/NN/question/1 3/CD/3/0 
+Which/JJ/which/1 script/NN/script/4 prints/VBZ/print/2 the/DT/the/1 labels/NNS/label/3 of/IN/of/1 the/DT/the/1 class/NN/class/1 attribute/NN/attribute/3 ?/./?/0 
+Neither/CC/neither/2 
+Python/NN/python/11 
+Groovy/NN/groovy/13 
+Both/DT/both/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Groovy/NN/groovy/13 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 labels/NNS/label/3 of/IN/of/1 the/DT/the/1 class/NN/class/1 attribute/NN/attribute/3 are/VBP/be/1 printed/VBN/print/2 by/IN/by/1 the/DT/the/1 line/NN/line/1 println/NN/println/0 (/(/(/0 “/JJ/“/0 #/#/#/0 :/:/:/0 “/NN/“/0 +/NN/+/0 labels.join/NN/labels.join/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 )/)/)/0 in/IN/in/1 the/DT/the/1 Groovy/NNP/groovy/13 script/NN/script/4 
+
+Question/NN/question/1 4/CD/4/0 
+Which/JJ/which/1 script/NN/script/4 prints/VBZ/print/2 the/DT/the/1 prediction/NN/predict/3 probabilities/NNS/probably/1 for/IN/for/1 each/DT/each/1 instance/NN/instance/2 ?/./?/0 
+Neither/CC/neither/2 
+Python/NN/python/11 
+Groovy/NN/groovy/13 
+Both/DT/both/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Both/DT/both/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 last/JJ/last/1 code/NN/code/3 line/NN/line/1 of/IN/of/1 each/DT/each/1 script/NN/script/4 prints/VBZ/print/2 the/DT/the/1 prediction/NN/predict/3 probabilities/NNS/probably/1 
+
+Question/NN/question/1 5/CD/5/0 
+Let/VB/let/1 ’/NNP/’/0 s/VB/be/1 change/VB/change/1 the/DT/the/1 make_predictions-classifier.groovy/JJ/make_predictions-classifier.groovy/0 script/NN/script/4 to/TO/to/1 print/VB/print/2 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 tree/JJ/tree/1 size/NN/size/1 for/IN/for/1 various/JJ/various/2 values/NNS/value/2 of/IN/of/1 the/DT/the/1 M/NNP/be/1 parameter/NN/parameter/4 ,/,/,/0 which/WDT/which/1 determines/VBZ/determine/2 the/DT/the/1 minimum/JJ/minimum/3 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 allowed/VBN/allow/1 at/IN/at/1 each/DT/each/1 leaf/NN/leaf/4 ./././0 
+Delete/NNP/delete/5 the/DT/the/1 last/JJ/last/1 few/JJ/few/1 statements/NNS/state/1 in/IN/in/1 the/DT/the/1 script/NN/script/4 to/TO/to/1 stop/VB/stop/1 it/PRP/it/1 printing/VBG/print/2 class/NN/class/1 labels/NNS/label/3 and/CC/and/1 predictions/NNS/predict/3 for/IN/for/1 the/DT/the/1 test/NN/test/1 set/NN/set/1 ./././0 Change/VB/change/1 the/DT/the/1 line/NN/line/1 println/NN/println/0 (/(/(/0 cls/NN/cl/0 )/)/)/0 to/TO/to/1 println/VB/println/0 (/(/(/0 cls.measureTreeSize/VB/cls.measuretreesize/0 (/(/(/0 )/)/)/0 )/)/)/0 ,/,/,/0 which/WDT/which/1 prints/VBZ/print/2 just/RB/just/1 the/DT/the/1 tree/JJ/tree/1 size/NN/size/1 (/(/(/0 41/CD/41/0 nodes/NNS/node/5 )/)/)/0 ./././0 Change/VB/change/1 the/DT/the/1 setOptions/NNS/setoptions/0 part/NN/part/1 of/IN/of/1 make_predictions-classifier.groovy/NN/make_predictions-classifier.groovy/0 to/TO/to/1 set/VB/set/1 the/DT/the/1 M/NNP/be/1 parameter/NN/parameter/4 instead/RB/instead/1 of/IN/of/1 C/NNP/c/0 ./././0 
+Use/VB/use/1 this/DT/this/1 Groovy/NNP/groovy/13 “/NNP/“/0 for/IN/for/1 ”/NNP/”/0 loop/NN/loop/4 
+for/IN/for/1 (/(/(/0 i/NN/i/1 in/IN/in/1 1..10/CD/1..10/0 )/)/)/0 {/(/{/0 
+.../:/.../0 
+}/)/}/0 
+to/TO/to/1 increase/VB/increase/2 the/DT/the/1 value/NN/value/2 of/IN/of/1 the/DT/the/1 M/NNP/be/1 parameter/NN/parameter/4 from/IN/from/1 1/CD/1/0 to/TO/to/1 10/CD/10/0 ,/,/,/0 printing/VBG/print/2 the/DT/the/1 tree/NN/tree/1 size/NN/size/1 each/DT/each/1 time/NN/time/1 ./././0 
+You/PRP/you/1 ’/VBP/’/0 d/JJ/have/1 expect/VBP/expect/1 the/DT/the/1 size/NN/size/1 to/TO/to/1 decay/VB/decay/4 steadily/RB/steady/2 as/IN/as/1 M/NNP/be/1 increases/VBZ/increase/2 ./././0 But/CC/but/1 it/PRP/it/1 doesn/VBZ/do/1 ’/JJ/’/0 t/NN/not/1 ./././0 For/IN/for/1 what/WP/what/1 value/NN/value/2 does/VBZ/do/1 it/PRP/it/1 rise/VB/rise/1 ?/./?/0 
+2/CD/2/0 
+3/CD/3/0 
+4/CD/4/0 
+5/CD/5/0 
+6/CD/6/0 
+7/CD/7/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+6/CD/6/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+For/IN/for/1 M=6/NNP/m=6/0 it/PRP/it/1 rises/VBZ/rise/1 (/(/(/0 to/TO/to/1 42/CD/42/0 )/)/)/0 for/IN/for/1 the/DT/the/1 first/JJ/first/1 time/NN/time/1 ,/,/,/0 and/CC/and/1 decays/NNS/decay/4 again/RB/again/1 thereafter/RB/thereafter/5 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 remaining/VBG/remain/2 activities/NNS/active/2 are/VBP/be/1 for/IN/for/1 people/NNS/people/1 who/WP/who/1 intend/VBP/intend/2 to/TO/to/1 actually/RB/actual/1 use/VB/use/1 Groovy/NNP/groovy/13 for/IN/for/1 scripting/VBG/script/4 ./././0 
+Try/VB/try/1 these/DT/this/1 Groovy/NNP/groovy/13 statements/NNS/state/1 to/TO/to/1 see/VB/see/1 which/WDT/which/1 of/IN/of/1 them/PRP/they/1 outputs/VBZ/output/3 1/CD/1/0 ,/,/,/0 3/CD/3/0 ,/,/,/0 5/CD/5/0 ./././0 
+0.step/CD/0.step/0 (/(/(/0 6/CD/6/0 ,/,/,/0 2/CD/2/0 )/)/)/0 {/(/{/0 println/NN/println/0 (/(/(/0 it+1/NN/it+1/0 )/)/)/0 }/)/}/0 
+1.step/CD/1.step/0 (/(/(/0 5/CD/5/0 ,/,/,/0 2/CD/2/0 )/)/)/0 {/(/{/0 println/NN/println/0 (/(/(/0 it/PRP/it/1 )/)/)/0 }/)/}/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.step/CD/0.step/0 (/(/(/0 6/CD/6/0 ,/,/,/0 2/CD/2/0 )/)/)/0 {/(/{/0 println/NN/println/0 (/(/(/0 it+1/NN/it+1/0 )/)/)/0 }/)/}/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Now/RB/now/1 you/PRP/you/1 can/MD/can/1 figure/VB/figure/1 out/RP/out/1 what/WP/what/1 “/JJ/“/0 step/NN/step/1 ”/NN/”/0 does/VBZ/do/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+This/DT/this/1 just/RB/just/1 prints/VBZ/print/2 1/CD/1/0 and/CC/and/1 3/CD/3/0 
+
+Question/NN/question/1 7/CD/7/0 
+Try/VB/try/1 printing/VBG/print/2 the/DT/the/1 structures/NNS/structure/3 below/IN/below/1 ./././0 
+Which/JJ/which/1 one/CD/one/1 is/VBZ/be/1 not/RB/not/1 a/DT/a/1 valid/JJ/valid/3 Groovy/NNP/groovy/13 list/NN/list/1 ?/./?/0 
+[/RB/[/0 1/CD/1/0 ,/,/,/0 2/CD/2/0 ,/,/,/0 3/CD/3/0 ]/NN/]/0 
+(/(/(/0 1/CD/1/0 ,/,/,/0 2/CD/2/0 ,/,/,/0 3/CD/3/0 )/)/)/0 
+[/RB/[/0 1/CD/1/0 ,/,/,/0 “/VBD/“/0 2/CD/2/0 ”/NNP/”/0 ,/,/,/0 3/CD/3/0 ]/NN/]/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+(/(/(/0 1/CD/1/0 ,/,/,/0 2/CD/2/0 ,/,/,/0 3/CD/3/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Try/VB/try/1 printing/VBG/print/2 it/PRP/it/1 with/IN/with/1 “/NNP/“/0 println/NN/println/0 (/(/(/0 (/(/(/0 1,2,3/CD/1,2,3/0 )/)/)/0 )/)/)/0 ”/VBP/”/0 ;/:/;/0 you/PRP/you/1 ’/VBP/’/0 ll/JJ/will/1 get/VBP/get/1 an/DT/a/1 error/NN/error/3 
+
+Question/NN/question/1 8/CD/8/0 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 Groovy/NNP/groovy/13 “/NNP/“/0 map/NN/map/2 ”/NN/”/0 :/:/:/0 
+m/NN/be/1 =/NNP/=/0 [/VBZ/[/0 10/CD/10/0 :/:/:/0 ``/``/``/0 me/PRP/i/1 ''/''/''/0 ,/,/,/0 11/CD/11/0 :/:/:/0 ``/``/``/0 you/PRP/you/1 ''/''/''/0 ,/,/,/0 12/CD/12/0 :/:/:/0 ``/``/``/0 others/NNS/other/1 ''/''/''/0 ]/NN/]/0 
+Determine/NN/determine/2 by/IN/by/1 experiment/NN/experiment/3 which/WDT/which/1 of/IN/of/1 these/DT/this/1 expressions/NNS/express/1 retrieves/VBZ/retrieve/4 the/DT/the/1 value/NN/value/2 you/PRP/you/1 ./././0 
+m/NN/be/1 [/VBZ/[/0 11/CD/11/0 ]/NN/]/0 
+m/NN/be/1 [/NNP/[/0 “/VBZ/“/0 11/CD/11/0 ”/NN/”/0 ]/NN/]/0 
+m/NN/be/1 (/(/(/0 11/CD/11/0 )/)/)/0 
+m/NN/be/1 (/(/(/0 “/JJ/“/0 11/CD/11/0 ”/NN/”/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+m/NN/be/1 [/VBZ/[/0 11/CD/11/0 ]/NN/]/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Print/VB/print/2 it/PRP/it/1 out/RP/out/1 :/:/:/0 
+m/NN/be/1 =/NNP/=/0 [/VBZ/[/0 10/CD/10/0 :/:/:/0 ``/``/``/0 me/PRP/i/1 ''/''/''/0 ,/,/,/0 11/CD/11/0 :/:/:/0 ``/``/``/0 you/PRP/you/1 ''/''/''/0 ,/,/,/0 12/CD/12/0 :/:/:/0 ``/``/``/0 others/NNS/other/1 ''/''/''/0 ]/NN/]/0 
+println/NN/println/0 (/(/(/0 m/JJ/be/1 [/$/[/0 11/CD/11/0 ]/NN/]/0 )/)/)/0 
+
+Question/NN/question/1 9/CD/9/0 
+Which/NNP/which/1 of/IN/of/1 these/DT/this/1 statements/NNS/state/1 iterates/VBZ/iterate/8 over/IN/over/1 all/DT/all/1 row/NN/row/2 indices/NNS/index/3 in/IN/in/1 dataset/NN/dataset/0 data/NNS/data/3 ?/./?/0 
+1.upto/CD/1.upto/0 (/(/(/0 data.numInstances/NNS/data.numinstances/0 (/(/(/0 )/)/)/0 )/)/)/0 {/(/{/0 …/NN/…/0 }/)/}/0 
+data.numInstances/NNS/data.numinstances/0 (/(/(/0 )/)/)/0 .times/VBZ/time/1 {/(/{/0 …/NN/…/0 }/)/}/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+data.numInstances/NNS/data.numinstances/0 (/(/(/0 )/)/)/0 .times/VBZ/time/1 {/(/{/0 …/NN/…/0 }/)/}/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+“/JJ/“/0 .times/NNS/time/1 ”/VBP/”/0 is/VBZ/be/1 used/VBN/use/1 in/IN/in/1 both/DT/both/1 make_predictions-classifier.groovy/JJ/make_predictions-classifier.groovy/0 and/CC/and/1 roc_multiple.groovy/NN/roc_multiple.groovy/0 ./././0 Copy/VB/copy/2 the/DT/the/1 first/JJ/first/1 few/JJ/few/1 lines/NNS/line/1 of/IN/of/1 make_predictions-classifier.groovy/NN/make_predictions-classifier.groovy/0 (/(/(/0 up/IN/up/1 to/TO/to/1 and/CC/and/1 including/VBG/include/2 the/DT/the/1 line/NN/line/1 beginning/VBG/begin/1 data/NNS/data/3 =/NNP/=/0 )/)/)/0 ,/,/,/0 and/CC/and/1 append/VB/append/8 data.numInstances/NNS/data.numinstances/0 (/(/(/0 )/)/)/0 .times/VBZ/time/1 {/(/{/0 println/NN/println/0 (/(/(/0 it/PRP/it/1 )/)/)/0 }/)/}/0 ./././0 The/DT/the/1 loop/NN/loop/4 variable/NN/vary/2 in/IN/in/1 Groovy/NNP/groovy/13 is/VBZ/be/1 called/VBN/call/1 “/NN/“/0 it/PRP/it/1 ”/VBZ/”/0 ./././0 
+
+Question/NN/question/1 10/CD/10/0 
+How/WRB/how/1 do/VB/do/1 you/PRP/you/1 combine/VB/combine/2 all/DT/all/1 elements/NNS/element/3 in/IN/in/1 list/NN/list/1 a/DT/a/1 into/IN/into/1 a/DT/a/1 single/JJ/single/1 string/NN/string/2 ,/,/,/0 using/VBG/use/1 a/DT/a/1 comma/NN/comma/9 as/IN/as/1 separator/NN/separator/0 ?/./?/0 
+a.combine/NN/a.combine/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+a.join/NN/a.join/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+a.toString/VBG/a.tostring/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+a.join/NN/a.join/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 ’/VBZ/’/0 s/NNS/be/1 used/VBN/use/1 in/IN/in/1 make_predictions-classifier.groovy/NN/make_predictions-classifier.groovy/0 ./././0 
+Try/VB/try/1 
+println/NN/println/0 (/(/(/0 [/JJ/[/0 1,2,3/CD/1,2,3/0 ]/JJ/]/0 .join/NNP/join/1 (/(/(/0 ``/``/``/0 ,/,/,/0 ''/''/''/0 )/)/)/0 )/)/)/0 
+
+Question/NN/question/1 10/CD/10/0 
+How/WRB/how/1 do/VB/do/1 you/PRP/you/1 combine/VB/combine/2 all/DT/all/1 elements/NNS/element/3 in/IN/in/1 list/NN/list/1 a/DT/a/1 into/IN/into/1 a/DT/a/1 single/JJ/single/1 string/NN/string/2 ,/,/,/0 using/VBG/use/1 a/DT/a/1 comma/NN/comma/9 as/IN/as/1 separator/NN/separator/0 ?/./?/0 
+a.combine/NN/a.combine/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+a.join/NN/a.join/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+a.toString/VBG/a.tostring/0 (/(/(/0 “/UH/“/0 ,/,/,/0 ”/NNP/”/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

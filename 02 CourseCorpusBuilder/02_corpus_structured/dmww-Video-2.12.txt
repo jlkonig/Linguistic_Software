@@ -1,0 +1,3 @@
+Baseline accuracy
+The diabetes dataset has several attributes and a class that is either tested_negative or tested_positive (for diabetes). With Percentage split evaluation (66% training set, 34% test set), J48 yields 76% correctly classified instances. You can try other classifiers such as NaiveBayes (77%), IBk (73%), PART (74%). These results can be compared with a simple classifier called a “baseline”; the ZeroR baseline yields 65%. But in other situations the baseline does equally well – and sometimes much better than – more sophisticated classifiers. Beware!
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

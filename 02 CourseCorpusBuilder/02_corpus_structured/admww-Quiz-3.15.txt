@@ -1,0 +1,105 @@
+Using R to preprocess data 
+Question 1
+Replace ICA by other preprocessing tools as follows, and evaluate using Naive Bayes with 10-fold cross-validation. Remember to install the relevant package in each case.
+The cmdscale tool does classic multidimensional scaling. Use it to replace fastICA with two target dimensions (k = 2):
+data.frame(cmdscale(dist(rdata[1:num]), k = 2))
+How many correct classifications does Naive Bayes achieve?
+[Note: cmdscale is built into R version 3.4.3, but you will need to install it as a separate package in prior versions of R.]
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+135
+
+Question 2
+For kernel PCA, use kpca from the kernlab package, with an RBF kernel (rbfdot) and sigma = 0.01:
+data.frame(rotated(kpca(~ ., data = rdata[1:num], kernel = "rbfdot", 
+        kpar = list(sigma=0.01), features = 2)))
+(Don’t forget to install the kernlab package, and include it in the library statement of the RScriptExecutor script.)
+How many correct classifications does Naive Bayes achieve?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+132
+
+Question 3
+For principal curves, use prcurve from the analogue package:
+data.frame(prcurve(rdata[1:num])$s)
+How many correct classifications does Naive Bayes achieve?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+138
+
+Question 4
+LLE is a non-linear algorithm for mapping high-dimensional data into a lower dimensional space.
+Use lle from the lle package, with the k parameter set to 3:
+data.frame(lle(rdata[1:num], m = 2, k = 3)$Y)
+How many correct classifications does Naive Bayes achieve?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+142
+
+Question 5
+R can generate data and pass it to a WEKA learning algorithm.
+Data sources for regression and classification problems are implemented in R’s mlbench package, which you should install. Remove the ArffLoader from your knowledge flow, so that RScriptExecutor is the first component.
+The following R script generates a 2-class dataset with 1 Gaussian per class; sets the random number generator seed to 1; and converts the last attribute to nominal:
+library(mlbench)
+set.seed(1)
+d = data.frame(mlbench.2dnormals(500,2))
+d
+How many correct classifications does Naive Bayes achieve on this data (using 10-fold cross-validation)?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+463
+
+Question 6
+Use mlbench.smiley(n = 500, sd1 = 0.1, sd2 = 0.05) instead of mlbench.2dnormals(500,2).
+How many correct classifications does Naive Bayes achieve?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+
+Question 6
+Use mlbench.smiley(n = 500, sd1 = 0.1, sd2 = 0.05) instead of mlbench.2dnormals(500,2).
+How many correct classifications does Naive Bayes achieve?
+132
+135
+138
+142
+463
+498
+---
+Correct answer(s):
+498

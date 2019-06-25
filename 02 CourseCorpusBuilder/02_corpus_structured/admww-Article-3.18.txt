@@ -1,0 +1,4 @@
+Playing with fMRI data 
+Correctly used, the PartitionMembership filter doesn’t help at all. The best we have been able to do with this dataset is 65.9% accuracy, with SMO.
+There’s probably not much more you can do with Weka alone. To do better, you might have to go back to the data, and consult a specialist in MRI for brain studies. For example, we noted above that Haxby repeated the procedure 12 times for each subject. The NIFTI_Files dataset amalgamates these 12 runs: perhaps it would be better to treat each one separately? Also, Haxby had 12 subjects and we have only used the data for one of them: perhaps they should be combined – but how? Or maybe we should be looking at a different region of the brain – different voxels.
+One important message of the Data Mining with Weka courses is that running experiments with Weka is usually only a small part of any actual data mining application.

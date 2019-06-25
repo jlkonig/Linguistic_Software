@@ -1,0 +1,2 @@
+Using the time series forecasting package 
+Dealing manually with time series is a pain, as we learned in the last lesson. Weka’s time series forecasting package automatically produces lagged variables, plus many others – perhaps too many! It transforms the data by adding a large number of attributes, which, unfortunately, invites overfitting. This is indicated by a large discrepancy between error on the training set and error on independent test data. You can configure Weka to reduce the number of added attributes.

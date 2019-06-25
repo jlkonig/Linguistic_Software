@@ -1,0 +1,139 @@
+Streaming classifiers and evolving streams
+Question 1
+We begin with a non-evolving scenario.
+The RandomRBF data generator first creates a random set of centers for each class, each comprising a weight, a central point per attribute, and a standard deviation. It then generates instances by choosing a center at random (taking the weights into consideration), which determines the class, and randomly choosing attribute values and an offset from the center. Finally the overall vector is scaled to a length that is randomly sampled from a Gaussian distribution around the center.
+What are the accuracies of Naive Bayes and Hoeffding Tree on a RandomRBFGenerator stream of 1,000,000 instances with default values, using Prequential evaluation and the BasicClassificationPerformanceEvaluator?
+Select all the answers you think are correct.
+Naive Bayes: 57.6%
+Naive Bayes: 72.0%
+Naive Bayes: 91.0%
+Hoeffding Tree: 57.6%
+Hoeffding Tree: 72.0%
+Hoeffding Tree: 91.0%
+---
+Correct answer(s):
+Naive Bayes: 72.0%
+Hoeffding Tree: 91.0%
+
+Question 2
+MOA’s Hoeffding Tree algorithm can use different prediction methods at the leaves.
+The default is an adaptive Naive Bayes method, but a majority class classifier can be used instead by specifying
+–l (trees.HoeffdingTree –l MC)
+You can set this up in MOA’s Configure interface (you need to scroll down).
+What is the accuracy of the Hoeffding Tree when a majority class classifier is used at the leaves?
+53.1%
+57.6%
+72.0%
+87.8%
+91.0%
+93.8%
+---
+Correct answer(s):
+87.8%
+---
+Feedback correct:
+(More precisely, 87.84%)
+
+Question 3
+What is the accuracy of the OzaBag bagging classifier?
+53.1%
+57.6%
+72.0%
+87.8%
+91.0%
+93.8%
+---
+Correct answer(s):
+93.8%
+---
+Feedback correct:
+(More precisely, 93.83%)
+
+Question 4
+Now let’s use an evolving data stream.
+The RandomRBFGeneratorDrift generator has a speedChange parameter that controls the rate of movement of the centroids.
+What are the accuracies of Naive Bayes, Hoeffding Tree, and OzaBag on a RandomRBFGeneratorDrift stream of 1,000,000 instances with speed change of 0.001, again using Prequential evaluation with the BasicClassificationPerformanceEvaluator?
+Select all the answers you think are correct.
+Naive Bayes: 53.1%
+Naive Bayes: 57.6%
+Naive Bayes: 63.5%
+Hoeffding Tree: 53.1%
+Hoeffding Tree: 57.6%
+Hoeffding Tree: 63.5%
+OzaBag: 53.1%
+OzaBag: 57.6%
+OzaBag: 63.5%
+---
+Correct answer(s):
+Naive Bayes: 53.1%
+Hoeffding Tree: 57.6%
+OzaBag: 63.5%
+
+Question 5
+The Hoeffding Adaptive Tree adapts to changes in the data stream by constructing tentative “alternative branches” as preparation for changes, and switching to them if they become more accurate. A change detector with theoretical guarantees (ADWIN) is used to check whether to substitute alternative subtrees.
+Two alternative methods for evolving data streams, both of which use ADWIN, are OzaBagAdwin and LeveragingBag.
+What are the accuracies of these three techniques in the evolving data stream situation used in the last three questions?
+Select all the answers you think are correct.
+HoeffdingAdaptiveTree: 66.3%
+HoeffdingAdaptiveTree: 68.1%
+HoeffdingAdaptiveTree: 81.4%
+OzaBagAdwin: 66.3%
+OzaBagAdwin: 68.1%
+OzaBagAdwin: 81.4%
+LeveragingBag: 66.3%
+LeveragingBag: 68.1%
+LeveragingBag: 81.4%
+---
+Correct answer(s):
+HoeffdingAdaptiveTree: 66.3%
+OzaBagAdwin: 68.1%
+LeveragingBag: 81.4%
+---
+Feedback incorrect:
+(More precisely, 66.26%)
+
+Question 6
+As well as data streams, MOA can also process ARFF files. Select ArffFileStream as the data stream and specify the filename in the arffFile field.
+Use the covtypeNorm.arff dataset that we met earlier this week. The default location for files is the top level of the MOA installation folder – you will probably find the model files modelNB.moa and modelHT.moa that you made in the last quiz – so you should either copy the data file there or specify its full pathname.
+Determine the accuracy of Naive Bayes, Hoeffding Tree, and LeveragingBag for this dataset, using Prequential evaluation with the BasicClassificationPerformanceEvaluator and a sampleFrequency of 10,000.
+Select all the answers you think are correct.
+Naive Bayes: 60.5%
+Naive Bayes: 80.3%
+Naive Bayes: 91.7%
+Hoeffding Tree: 60.5%
+Hoeffding Tree: 80.3%
+Hoeffding Tree: 91.7%
+LeveragingBag: 60.5%
+LeveragingBag: 80.3%
+LeveragingBag: 91.7%
+---
+Correct answer(s):
+Naive Bayes: 60.5%
+Hoeffding Tree: 80.3%
+LeveragingBag: 91.7%
+
+Question 7
+Which method is the fastest, and which is the most accurate?
+Select all the answers you think are correct.
+Fastest: Naive Bayes
+Fastest: Hoeffding Tree
+Fastest: Leveraging Bagging
+Most accurate: Naive Bayes
+Most accurate: Hoeffding Tree
+Most accurate: LeveragingBag
+---
+Correct answer(s):
+Fastest: Naive Bayes
+Most accurate: LeveragingBag
+
+Question 7
+Which method is the fastest, and which is the most accurate?
+Select all the answers you think are correct.
+Fastest: Naive Bayes
+Fastest: Hoeffding Tree
+Fastest: Leveraging Bagging
+Most accurate: Naive Bayes
+Most accurate: Hoeffding Tree
+Most accurate: LeveragingBag
+---
+Correct answer(s):

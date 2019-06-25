@@ -1,0 +1,252 @@
+Playing with fMRI data 
+Question 1
+Download NIFTI_Files.zip, uncompress it, and examine it in your file browser.
+This is the data for one of Haxby’s 12 subjects, in a format developed by the Neuroimaging Informatics Technology Initiative (NIFTI). It contains one folder for each object type.
+How many object types are there?
+2
+4
+6
+8
+10
+---
+Correct answer(s):
+8
+
+Question 2
+Which of these is not an object type?
+Select all the answers you think are correct.
+bottle
+cup
+dog
+house
+scissors
+scrambledpix
+---
+Correct answer(s):
+cup
+dog
+
+Question 3
+In Haxby’s experiment, subjects were shown a single example of each object type for half a second, one after another, with a brief rest period between each; and the whole procedure was repeated 12 times.
+The data that you have is for a single subject. It contains 11 (not 12) examples of most object types – e.g., scissors. However, it contains only 10 examples of three of them. Which are they? You can tell by looking at the number of files in each object-type folder.
+Select all the answers you think are correct.
+bottle
+cat
+chair
+face
+house
+scissors
+scrambledpix
+shoe
+---
+Correct answer(s):
+chair
+face
+scrambledpix
+
+Question 4
+Load the brain images in NIFTI_files into the Weka explorer.
+First install the NIFTI loader using Weka’s package manager.
+Then, in the Preprocess panel, under Open file, navigate to your NIFTI_Files folder. Click Open. You will see the message “Cannot determine file loader automatically, please choose one.” Click OK; select NIfTIDirectoryLoader after clicking on the Choose button, and click OK (note: you do not need to enter anything into the directory field).
+Everything should work OK on Windows, but if you are using Linux or Mac and have installed the RPlugin package, your Java system may crash when loading the NIFTI file due to an issue with the stack space. To solve the problem, either temporarily disable the RPlugin package using Weka’s package manager, or increase the stack space, say to 10 Mb. You can do this by setting the environment variable _JAVA_OPTIONS that most Java virtual machines support (don’t forget the underscore at the start) to –Xss10m and then re-start Weka.
+Loading the data may take some time (1 min on my computer).
+How many instances are there in this dataset?
+8
+12
+85
+96
+224
+226
+---
+Correct answer(s):
+85
+---
+Feedback correct:
+The original experiment, in which each subject was shown 12 instances of 8 object types, would have generated 96 instances for one subject. The NIFTI_Files dataset contains 85 instances, or 90% of this data. The remaining 10% was set aside for validation.
+
+Question 5
+The class attribute gives the object type, and the remaining attributes represent fMRI activity in different voxels in the ventral-temporal region of the subject’s cortex.
+How many of these attributes are there?
+88546
+105620
+127900
+142264
+163840
+163841
+---
+Correct answer(s):
+163840
+---
+Feedback correct:
+Although this is an enormous number, it represents just a small fraction of the original recorded data, because all the voxels outside the ventral-temporal region have been removed
+---
+Feedback incorrect:
+That’s the number of attributes including the class attribute
+
+Question 6
+In fact, most of the attribute values are uninformative because they have zero values for all instances.
+Delete these using Weka’s removeUseless filter, which removes attributes that have constant values. How many voxel attributes are there now?
+8
+577
+578
+586
+---
+Correct answer(s):
+577
+
+Question 7
+Now open the dataset Haxby_Subj1_Training.arff.
+This is essentially the same as the dataset you just created, but we recommend using it instead because datasets may differ from one operating system to another due to different ways of ordering files in folders.
+The dataset has 8 classes. Assuming they are approximately equally populated, what accuracy would you expect from ZeroR?
+5%
+12.5%
+25%
+50%
+---
+Correct answer(s):
+12.5%
+---
+Feedback correct:
+With 8 classes, approximately equally populated, ZeroR should be correct about 1/8 of the time.
+
+Question 8
+Evaluated with 10-fold cross-validation, what accuracy does ZeroR actually give?
+3.4%
+11.8%
+12.9%
+28.2%
+---
+Correct answer(s):
+11.8%
+---
+Feedback incorrect:
+That’s the accuracy using Percentage split
+---
+Feedback incorrect:
+That’s the accuracy when evaluated on the training set
+
+Question 9
+What accuracy does OneR give?
+10.3%
+11.8%
+28.2%
+41.2%
+---
+Correct answer(s):
+28.2%
+---
+Feedback incorrect:
+That’s the accuracy using Percentage split
+---
+Feedback incorrect:
+That’s the accuracy when evaluated on the training set
+
+Question 10
+With 577 attributes, there is great potential for overfitting because the number of attributes vastly overwhelms the number of instances per class (10 or 11).
+Evaluated on the training set, what accuracy does Naive Bayes give?
+9.4%
+31.0%
+65.9%
+92.9%
+---
+Correct answer(s):
+65.9%
+---
+Feedback incorrect:
+That’s the accuracy when evaluated using 10-fold cross-validation
+---
+Feedback incorrect:
+That’s the accuracy using Percentage split
+
+Question 11
+Sounds too good to be true! And it is. Evaluated with 10-fold cross-validation, what accuracy does Naive Bayes give?
+9.4%
+31.0%
+65.9%
+92.9%
+---
+Correct answer(s):
+9.4%
+---
+Feedback incorrect:
+That’s the accuracy using Percentage split
+
+Question 12
+Repeat with J48. What are its training set and cross-validation accuracies?
+Select all the answers you think are correct.
+Training set accuracy: 9.4%
+Training set accuracy: 30.6%
+Training set accuracy: 65.9%
+Training set accuracy: 92.9%
+Cross-validation accuracy: 9.4%
+Cross-validation accuracy: 30.6%
+Cross-validation accuracy: 65.9%
+Cross-validation accuracy: 92.9%
+---
+Correct answer(s):
+Training set accuracy: 92.9%
+Cross-validation accuracy: 30.6%
+
+Question 13
+This performance is extremely disappointing. Naive Bayes is even worse than ZeroR! – and J48 is not much better than OneR.
+Support vector machines often excel in situations with excessive numbers of numeric attributes. What accuracy does SMO give, evaluated with 10-fold cross-validation?
+9.4%
+30.6%
+65.9%
+92.9%
+---
+Correct answer(s):
+65.9%
+
+Question 14
+It’s hard to improve on this by optimizing parameters or choosing some filtering operation. But it’s easy to deceive yourself.
+In the Preprocess panel, filter the dataset using PartitionMembership, a supervised attribute filter. (If you want to know what it does, consult the More button.)
+How many attributes are there in the filtered dataset (excluding the class)?
+8
+35
+577
+578
+---
+Correct answer(s):
+35
+
+Question 15
+What is SMO’s cross-validated accuracy on the filtered dataset?
+9.4%
+29.4%
+65.9%
+92.9%
+---
+Correct answer(s):
+92.9%
+---
+Feedback correct:
+Yay! (???)
+
+Question 16
+Sounds too good to be true! And it is.
+PartitionMembership is a supervised filter and therefore has access to the class information, which risks tainting the new attributes with information derived from the class. The correct way to evaluate any supervised filter is to use the FilteredClassifier instead of pre-filtering the dataset in the Preprocess panel.
+Restore the original dataset by undoing the filtering you just performed, and configure the FilteredClassifier to use the PartitionMembership filter and the SMO classifier.
+What is the cross-validated accuracy now?
+9.4%
+29.4%
+65.9%
+92.9%
+---
+Correct answer(s):
+
+Question 16
+Sounds too good to be true! And it is.
+PartitionMembership is a supervised filter and therefore has access to the class information, which risks tainting the new attributes with information derived from the class. The correct way to evaluate any supervised filter is to use the FilteredClassifier instead of pre-filtering the dataset in the Preprocess panel.
+Restore the original dataset by undoing the filtering you just performed, and configure the FilteredClassifier to use the PartitionMembership filter and the SMO classifier.
+What is the cross-validated accuracy now?
+9.4%
+29.4%
+65.9%
+92.9%
+---
+Correct answer(s):
+29.4%
+---
+Feedback correct:
+Bummer!

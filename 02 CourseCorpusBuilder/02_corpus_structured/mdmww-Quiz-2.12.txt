@@ -1,0 +1,95 @@
+Activity: Comparing AUCs 
+Question 1
+What is the weighted-average ROC Area for J48?
+0.51
+0.69
+0.90
+0.91
+---
+Correct answer(s):
+0.69
+
+Question 2
+What is the weighted-average ROC Area for Naive Bayes?
+0.90
+0.95
+0.96
+0.98
+---
+Correct answer(s):
+0.96
+
+Question 3
+What is the weighted-average ROC Area for NaiveBayes with nominal attributes? (Hint: use the NumericToNominal filter as well as the StringToWordVector filter, and combine them with the MultiFilter.)
+0.89
+0.92
+0.93
+0.96
+---
+Correct answer(s):
+0.89
+
+Question 4
+Judging by the ROC Area, which of these three methods perform best?
+J48
+NaiveBayes with nominal attributes
+NaiveBayes with numeric attributes
+---
+Correct answer(s):
+NaiveBayes with numeric attributes
+---
+Feedback correct:
+This method produces a weighted-average ROC area of 0.962, significantly better than J48, and better than NaiveBayes using nominal attributes (which is perhaps a little surprising).
+
+Question 5
+Examine the ROC curve for J48, which you obtain by right-clicking its line in the Result list and selecting “Visualize threshold curve” for 0.
+Which part of the graph corresponds to more than 75% accuracy for the second class?
+The leftmost 25% of the horizontal axis.
+The rightmost 25% of the horizontal axis.
+The upper 25% of the vertical axis.
+---
+Correct answer(s):
+The leftmost 25% of the horizontal axis.
+---
+Feedback correct:
+The horizontal (X) axis plots the False Positive (FP) rate, which is
+1 – accuracy of the second class, 
+so the region from 0 to 0.25 corresponds to more than 75% accuracy for the second class.
+---
+Feedback incorrect:
+The horizontal (X) axis plots the False Positive (FP) rate, which is
+1 – accuracy of the second class
+---
+Feedback incorrect:
+The error rate for the second class is plotted on the horizontal axis.
+
+Question 6
+Which of these statements regarding this ROC curve do you agree with?
+An accuracy of 75% for the second class can be combined with with an accuracy of 75% for the first class.
+An accuracy of more than 75% for the second class can only be achieved with an accuracy of less than 5% for the first class.
+An accuracy of 75% for the second class can be combined with an accuracy of 25% for the first class.
+---
+Correct answer(s):
+An accuracy of more than 75% for the second class can only be achieved with an accuracy of less than 5% for the first class.
+
+Question 7
+Examine the corresponding ROC curve for NaiveBayes with numeric attributes (i.e., the default configuration).
+Which part of the graph corresponds to more than 80% accuracy for the first class?
+The rightmost 20% of the horizontal axis.
+The lower 20% of the vertical axis.
+The upper 20% of the vertical axis.
+---
+Correct answer(s):
+The upper 20% of the vertical axis.
+---
+Feedback correct:
+The vertical (Y) axis plots the True Positive (TP) rate, which is the same as the accuracy for the first class.
+
+Question 8
+Which of these statements regarding this ROC curve do you agree with?
+An accuracy of more than 90% for the first class can be combined with an accuracy of more than 90% on the second class.
+An accuracy of more than 75% for the first class can be combined with an accuracy of more than 95% for the second class.
+An accuracy of more than 95% for the first class can be combined with an accuracy of more than 80% for the second class.
+---
+Correct answer(s):
+An accuracy of more than 75% for the first class can be combined with an accuracy of more than 95% for the second class.

@@ -1,0 +1,4 @@
+Getting started with R
+Now is the time to download and install R, as explained in the video.
+Detailed instructions are given in the slides that accompany the video (though they do not appear in the video itself). Be sure to install the latest version of R (3.4.0 or later).
+How did it go? It should be easy, but you never know … If you have problems, post them. (Don’t forget to include details such as the computer, maybe system version too.) If you’ve figured out the solution, post that. And if you can help someone else, please do so! You’re a community.

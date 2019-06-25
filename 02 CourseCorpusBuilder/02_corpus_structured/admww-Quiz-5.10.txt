@@ -1,0 +1,199 @@
+Showing bubble plots and ROC curves 
+Question 1
+Change the classifier from functions.LinearRegression to rules.ZeroR with default options (remove the setOptions line).
+How do the bubbles compare with the ones generated previously for linear regression?
+much the same, but all smaller
+similar, but in different places
+large bubbles are much the same, but small ones are all smaller
+they don’t look like bubbles at all!
+---
+Correct answer(s):
+they don’t look like bubbles at all!
+---
+Feedback correct:
+Pretty well the whole screen is covered by the bubble color.
+
+Question 2
+Change the classifier to functions.SMOreg (a version of SMO that copes with numeric class values), again with default options.
+How do the bubbles compare with the ones for linear regression?
+much the same, but all smaller
+similar, but in different places
+large bubbles are much the same, but small ones are all smaller
+they don’t look like bubbles at all
+---
+Correct answer(s):
+large bubbles are much the same, but small ones are all smaller
+
+Question 3
+Load the display_roc-multiple.py script into the Jython console and execute it to get the ROC plot that you saw in the video (you will need to put the balance-scale.arff data file into your MOOC_DATA folder).
+There are three graphs, red, blue, and green (the green line is largely obscured by the red one), and the legend at the bottom labels them as L, B, and R respectively.
+What do these three different ROC curves correspond to?
+B and R stands for blue and red, and L for Lime green
+different class values in the data file
+different learning algorithms
+different parameters for the Naive Bayes algorithm
+different thresholds used to calculate the ROC
+---
+Correct answer(s):
+different class values in the data file
+---
+Feedback correct:
+Loading balance-scale.arff into the Explorer shows that the class values are L, B, and R (corresponding to “left”, “balanced”, and “right”).
+
+Question 4
+Change the Python script to use breast-cancer.arff and run it.
+You will see two curves rather than three.
+Now change the program to plot a curve just for the single value classIndex = 0. (When ROC curves are used for 2-class data, usually the curve for just one class is shown.)
+Ignoring changes in indentation, how many lines of code do you have to add, delete, and change (there are 3 correct answers, so for a fully correct answer you must click 3 boxes)?
+Select all the answers you think are correct.
+add 0, delete 0, change 1
+add 0, delete 1, change 2
+add 0, delete 2, change 1
+add 1, delete 1, change 0
+add 1, delete 4, change 2
+---
+Correct answer(s):
+add 0, delete 0, change 1
+add 0, delete 1, change 2
+add 1, delete 1, change 0
+---
+Feedback correct:
+You could change the for classIndex … line to for classIndex in [0]:
+You could delete the for classIndex … line and change classIndex to 0 in two places. (You must also remove the indentation from the lines that were previously within the for-loop.)
+You could delete the for classIndex … line and add a line classIndex = 0.  (You must also remove the indentation from the lines that were previously within the for-loop.)
+---
+Feedback incorrect:
+You could change the for classIndex … line to for classIndex in [0]:
+---
+Feedback incorrect:
+You could delete the for classIndex … line and change classIndex to 0 in two places. (You must also remove the indentation from the lines that were previously within the for-loop.)
+---
+Feedback incorrect:
+You could delete the for classIndex … line and add a line classIndex = 0.  (You must also remove the indentation from the lines that were previously within the for-loop.)
+
+Question 5
+The value of True Positive Rate continually increases.
+At approximately what value of False Positive Rate does it cross the 50% mark?
+0.15
+0.19
+0.23
+0.25
+---
+Correct answer(s):
+0.23
+---
+Feedback incorrect:
+That’s the value you would get for the ROC curve with classIndex = 1
+
+Question 6
+Change your program to make it print “Naive Bayes” in the legend at the bottom.
+Now add code to also plot a similar ROC curve for the J48 classifier, suitably labeled.
+Which of these statements best describes the relationship between the two curves?
+The J48 line is always above the Naive Bayes one because J48 performs better on this data
+The J48 line is always below the Naive Bayes one because J48 performs worse on this data
+The J48 line starts above the Naive Bayes one and crosses below it at a False Positive Rate of about 0.5, rising above it again at about 0.9
+The J48 line starts below the Naive Bayes one and crosses it at a False Positive Rate of about 0.7, falling below it again at about 0.9
+---
+Correct answer(s):
+The J48 line starts below the Naive Bayes one and crosses it at a False Positive Rate of about 0.7, falling below it again at about 0.9
+
+Question 7
+Answer these questions by examining the Python scripts supplied with this lesson.
+What class is used for cross-validating a classifier?
+weka.evaluations.Evaluation
+weka.classifiers.Evaluation
+weka.core.Evaluation
+---
+Correct answer(s):
+weka.classifiers.Evaluation
+---
+Feedback correct:
+This class is imported by crossvalidate_classifier.py and display_roc-multiple.py
+
+Question 8
+How do you make a scatter plot with JFreeChart?
+ChartFactory.createScatterPlot(…)
+ChartFactory.makeScatterPlot(…)
+ChartFactory.scatterPlot(…)
+new ScatterPlot()
+---
+Correct answer(s):
+ChartFactory.createScatterPlot(…)
+---
+Feedback correct:
+This is used in crossvalidate_classifier-error-bubbles.py
+
+Question 9
+How do you calculate the error in a numeric prediction to be used as size for a bubble plot?
+abs( pred.actual() – pred.predicted() )
+pred.error()
+pred.predicted() * pred.weight()
+---
+Correct answer(s):
+abs( pred.actual() – pred.predicted() )
+---
+Feedback correct:
+This is used in crossvalidate_classifier-error-bubbles.py
+---
+Feedback incorrect:
+Note that pred.error() can be negative!
+
+Question 10
+What class is used to calculate the data for receiver operating characteristic (ROC) curves?
+weka.classifiers.evaluation.CostCurve
+weka.classifiers.evaluation.MarginCurve
+weka.classifiers.evaluation.ThresholdCurve
+---
+Correct answer(s):
+weka.classifiers.evaluation.ThresholdCurve
+---
+Feedback correct:
+This is used in display_roc-multiple.py
+
+Question 11
+What is plotted for an ROC curve?
+false negatives against true negatives
+false negative rate against true negative rate
+false positives against true positives
+false positive rate against true positive rate
+---
+Correct answer(s):
+false positive rate against true positive rate
+---
+Feedback correct:
+You can see this in display_roc-multiple.py
+
+Question 12
+How do you calculate the area under a ROC curve?
+ThresholdCurve.getAUCArea
+ThresholdCurve.getPRCArea
+ThresholdCurve.getROCArea
+---
+Correct answer(s):
+ThresholdCurve.getROCArea
+---
+Feedback correct:
+This is used in display_roc-multiple.py. ROC curves are explained in the course More Data Mining with Weka.
+---
+Feedback incorrect:
+This method is used for calculating the area under the precision-recall curve, not the ROC curve
+
+Question 13
+In what format is the graph of a BayesNet network output?
+dot
+json
+XMLBIF
+---
+Correct answer(s):
+
+Question 13
+In what format is the graph of a BayesNet network output?
+dot
+json
+XMLBIF
+---
+Correct answer(s):
+XMLBIF
+---
+Feedback correct:
+readBIF() is used in display_graph.py

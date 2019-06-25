@@ -1,0 +1,3 @@
+Exploring the Experimenter
+Learn how to use Weka’s Experimenter interface.  It makes it easy to run different algorithms on different datasets and compare the results – whether one classifier is better than another on a particular dataset and whether the difference is statistically significant or not. The results of these tests can be output as an ARFF file – so you can do data mining on the results of data mining experiments!
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

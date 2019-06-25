@@ -1,0 +1,90 @@
+Naive/JJ/naive/5 Bayes/NNP/bayes/0 with/IN/with/1 dependent/JJ/depend/1 attributes/NNS/attribute/3 
+Question/NN/question/1 1/CD/1/0 
+What/WP/what/1 is/VBZ/be/1 NaiveBayes/NNP/naivebayes/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 on/IN/on/1 this/DT/this/1 dataset/NN/dataset/0 ?/./?/0 
+79/CD/79/0 %/NN/%/0 
+84/CD/84/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+91/CD/91/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+90/CD/90/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 Weka/NNP/weka/23 gives/VBZ/give/1 the/DT/the/1 result/NN/result/2 as/IN/as/1 90.1149/CD/90.1149/0 %/NN/%/0 ./././0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Are/NNP/be/1 you/PRP/you/1 using/VBG/use/1 the/DT/the/1 default/NN/default/5 options/NNS/option/2 and/CC/and/1 10-fold/JJ/10-fold/0 cross/NN/cross/1 validation/NN/validate/4 as/IN/as/1 the/DT/the/1 evaluation/NN/evaluate/3 method/NN/method/3 ?/./?/0 
+
+Question/NN/question/1 2/CD/2/0 
+Return/NN/return/1 to/TO/to/1 the/DT/the/1 Preprocess/NNP/preprocess/0 tab/NN/tab/6 and/CC/and/1 copy/VB/copy/2 the/DT/the/1 12th/CD/12th/0 attribute/NN/attribute/3 ,/,/,/0 education-spending/JJ/education-spending/0 ,/,/,/0 ten/JJ/ten/1 times/NNS/time/1 ,/,/,/0 using/VBG/use/1 the/DT/the/1 Copy/NNP/copy/2 filter/NN/filter/3 ./././0 
+(/(/(/0 You/PRP/you/1 will/MD/will/1 run/VB/run/1 into/IN/into/1 a/DT/a/1 problem/NN/problem/1 that/WDT/that/1 is/VBZ/be/1 easily/RB/easy/1 solved/VBN/solve/3 with/IN/with/1 a/DT/a/1 little/JJ/little/1 ingenuity/NN/ingenuity/8 ./././0 And/CC/and/1 don/JJ/do/1 ’/NNP/’/0 t/NN/not/1 forget/NN/forget/1 that/IN/that/1 the/DT/the/1 word/NN/word/1 last/JJ/last/1 can/MD/can/1 be/VB/be/1 used/VBN/use/1 as/IN/as/1 an/DT/a/1 attribute/NN/attribute/3 index/NN/index/3 ./././0 )/)/)/0 
+What/WP/what/1 is/VBZ/be/1 NaiveBayes/NNP/naivebayes/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 on/IN/on/1 this/DT/this/1 new/JJ/new/1 dataset/NN/dataset/0 ,/,/,/0 again/RB/again/1 evaluated/JJ/evaluate/3 using/VBG/use/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 ?/./?/0 
+86/CD/86/0 %/NN/%/0 
+87/CD/87/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+91/CD/91/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+87/CD/87/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 Weka/NNP/weka/23 gives/VBZ/give/1 the/DT/the/1 result/NN/result/2 as/IN/as/1 86.6667/CD/86.6667/0 %/NN/%/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+There/EX/there/1 should/MD/should/1 be/VB/be/1 27/CD/27/0 attributes/NNS/attribute/3 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 
+
+Question/NN/question/1 3/CD/3/0 
+Return/NN/return/1 to/TO/to/1 the/DT/the/1 Preprocess/NNP/preprocess/0 tab/NN/tab/6 and/CC/and/1 copy/VBP/copy/2 the/DT/the/1 same/JJ/same/1 attribute/NN/attribute/3 a/DT/a/1 further/RB/further/1 ten/JJ/ten/1 times/NNS/time/1 ./././0 What/WP/what/1 is/VBZ/be/1 the/DT/the/1 accuracy/NN/accurate/3 now/RB/now/1 ?/./?/0 
+86/CD/86/0 %/NN/%/0 
+87/CD/87/0 %/NN/%/0 
+90/CD/90/0 %/NN/%/0 
+91/CD/91/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+86/CD/86/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+(/(/(/0 Weka/NNP/weka/23 gives/VBZ/give/1 the/DT/the/1 result/NN/result/2 as/IN/as/1 86.4368/CD/86.4368/0 %/NN/%/0 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+There/EX/there/1 should/MD/should/1 be/VB/be/1 37/CD/37/0 attributes/NNS/attribute/3 in/IN/in/1 the/DT/the/1 dataset/NN/dataset/0 
+
+Question/NN/question/1 4/CD/4/0 
+You/PRP/you/1 ’/VBP/’/0 re/VB/be/1 probably/RB/probably/1 thinking/VBG/think/1 that/IN/that/1 if/IN/if/1 you/PRP/you/1 were/VBD/be/1 to/TO/to/1 continue/VB/continue/1 to/TO/to/1 make/VB/make/1 copies/NNS/copy/2 of/IN/of/1 the/DT/the/1 education-spending/JJ/education-spending/0 attribute/NN/attribute/3 and/CC/and/1 evaluate/VB/evaluate/3 by/IN/by/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 ,/,/,/0 the/DT/the/1 accuracy/NN/accurate/3 would/MD/would/1 gradually/RB/gradual/3 decrease/VB/decrease/3 until/IN/until/1 it/PRP/it/1 finally/RB/final/1 leveled/VBD/level/1 off/RP/off/1 ./././0 And/CC/and/1 you/PRP/you/1 ’/VBP/’/0 d/RB/have/1 be/VB/be/1 right/JJ/right/1 !/./!/0 What/WP/what/1 percentage/NN/percent/2 accuracy/NN/accurate/3 does/VBZ/do/1 it/PRP/it/1 level/VB/level/1 off/RP/off/1 at/IN/at/1 ?/./?/0 
+84/CD/84/0 %/NN/%/0 
+85/CD/85/0 %/NN/%/0 
+86/CD/86/0 %/NN/%/0 
+87/CD/87/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+84/CD/84/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Do/VBP/do/1 not/RB/not/1 make/VB/make/1 more/JJR/more/1 copies/NNS/copy/2 of/IN/of/1 this/DT/this/1 attribute/NN/attribute/3 ./././0 Use/VB/use/1 what/WP/what/1 you/PRP/you/1 know/VBP/know/1 about/IN/about/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 to/TO/to/1 figure/VB/figure/1 out/RP/out/1 a/DT/a/1 better/JJR/better/1 ,/,/,/0 quicker/NN/quick/1 ,/,/,/0 and/CC/and/1 more/RBR/more/1 reliable/JJ/rely/2 way/NN/way/1 ./././0 
+(/(/(/0 To/TO/to/1 be/VB/be/1 precise/JJ/precise/3 ,/,/,/0 84.1379/CD/84.1379/0 %/NN/%/0 ./././0 )/)/)/0 
+Continuing/VBG/continue/1 to/TO/to/1 make/VB/make/1 copies/NNS/copy/2 of/IN/of/1 an/DT/a/1 attribute/NN/attribute/3 gives/VBZ/give/1 it/PRP/it/1 an/DT/a/1 increasingly/RB/increase/2 stronger/JJR/strong/1 contribution/NN/contribute/2 to/TO/to/1 the/DT/the/1 decision/NN/decision/2 ,/,/,/0 until/IN/until/1 –/NNP/–/0 in/IN/in/1 the/DT/the/1 extreme/JJ/extreme/2 –/VBP/–/0 the/DT/the/1 other/JJ/other/1 attributes/NNS/attribute/3 have/VBP/have/1 no/DT/no/1 influence/NN/influence/2 at/IN/at/1 all/DT/all/1 ./././0 You/PRP/you/1 can/MD/can/1 determine/VB/determine/2 this/DT/this/1 value/NN/value/2 by/IN/by/1 removing/VBG/remove/2 all/DT/all/1 attributes/NNS/attribute/3 except/IN/except/1 education-spending/JJ/education-spending/0 (/(/(/0 but/CC/but/1 leave/VBP/leave/1 the/DT/the/1 class/NN/class/1 ,/,/,/0 of/IN/of/1 course/NN/course/1 )/)/)/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Do/VBP/do/1 not/RB/not/1 make/VB/make/1 more/JJR/more/1 copies/NNS/copy/2 of/IN/of/1 this/DT/this/1 attribute/NN/attribute/3 ./././0 Use/VB/use/1 what/WP/what/1 you/PRP/you/1 know/VBP/know/1 about/IN/about/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 to/TO/to/1 figure/VB/figure/1 out/RP/out/1 a/DT/a/1 better/JJR/better/1 ,/,/,/0 quicker/NN/quick/1 ,/,/,/0 and/CC/and/1 more/RBR/more/1 reliable/JJ/rely/2 way/NN/way/1 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+If/IN/if/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 continually/RB/continue/1 deteriorates/VBZ/deteriorate/4 as/IN/as/1 you/PRP/you/1 add/VBP/add/1 copies/NNS/copy/2 of/IN/of/1 a/DT/a/1 particular/JJ/particular/1 attribute/NN/attribute/3 (/(/(/0 as/IN/as/1 it/PRP/it/1 does/VBZ/do/1 here/RB/here/1 for/IN/for/1 education-spending/NN/education-spending/0 )/)/)/0 ,/,/,/0 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 it/PRP/it/1 would/MD/would/1 improve/VB/improve/2 if/IN/if/1 that/DT/that/1 attribute/NN/attribute/3 was/VBD/be/1 completely/RB/complete/1 removed/VBN/remove/2 from/IN/from/1 the/DT/the/1 dataset/NN/dataset/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+Maybe/RB/maybe/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 5/CD/5/0 
+If/IN/if/1 Naive/JJ/naive/5 Bayes/NNP/bayes/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 continually/RB/continue/1 deteriorates/VBZ/deteriorate/4 as/IN/as/1 you/PRP/you/1 add/VBP/add/1 copies/NNS/copy/2 of/IN/of/1 a/DT/a/1 particular/JJ/particular/1 attribute/NN/attribute/3 (/(/(/0 as/IN/as/1 it/PRP/it/1 does/VBZ/do/1 here/RB/here/1 for/IN/for/1 education-spending/NN/education-spending/0 )/)/)/0 ,/,/,/0 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 it/PRP/it/1 would/MD/would/1 improve/VB/improve/2 if/IN/if/1 that/DT/that/1 attribute/NN/attribute/3 was/VBD/be/1 completely/RB/complete/1 removed/VBN/remove/2 from/IN/from/1 the/DT/the/1 dataset/NN/dataset/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+Maybe/RB/maybe/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Maybe/RB/maybe/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 might/MD/might/1 ./././0 (/(/(/0 In/IN/in/1 the/DT/the/1 present/JJ/present/1 case/NN/case/1 ,/,/,/0 accuracy/NN/accurate/3 drops/VBZ/drop/1 a/DT/a/1 little/JJ/little/1 when/WRB/when/1 education-spending/NN/education-spending/0 is/VBZ/be/1 removed/VBN/remove/2 ,/,/,/0 so/IN/so/1 it/PRP/it/1 seems/VBZ/seem/1 that/IN/that/1 this/DT/this/1 attribute/NN/attribute/3 is/VBZ/be/1 slightly/RB/slight/1 relevant/JJ/relevant/3 to/TO/to/1 the/DT/the/1 class/NN/class/1 ./././0 )/)/)/0 
+
+

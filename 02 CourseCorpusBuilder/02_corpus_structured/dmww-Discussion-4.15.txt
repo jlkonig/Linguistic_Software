@@ -1,0 +1,5 @@
+Reflect on this week's Big Question
+The Big Question this week is, “What about real-life classification methods?”
+We promised that by the end of the week you would be able to use modern machine learning methods, describe – at a high level – how they work, apply them to a dataset of your choice, and interpret the output that they produce. We are not aiming to convey the gory details, but rather the principles behind how they work.
+So: can you?
+This might be a bit of a challenge: choose one of this week’s methods and explain how it works to your partner, siblings, parents or kids. But try it! Teaching is the best form of learning. (I know.) Tell your fellow learners how you get on.

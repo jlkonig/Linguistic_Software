@@ -1,0 +1,98 @@
+Scripting Weka 
+How can you script Weka?
+This week's Big Question!
+5.1
+How can you script Weka?
+article
+Invoking Python from Weka 
+Scripting allows automation, and reproducible experiments. There's a Weka package that opens an editor in which you can write and execute Python; we show a script for loading and filtering data. 
+5.2
+Invoking Python from Weka
+video (09:12)
+5.3
+Do it yourself!
+article
+5.4
+Some Python commands 
+quiz
+Building models 
+We write a Python script to build a J48 classifier for the "anneal" dataset, and add code to evaluate it using 10-fold cross-validation. We also build a J48 model and make predictions for an unlabeled test set.
+5.5
+Building models
+video (09:21)
+5.6
+Datasets and scripts
+article
+5.7
+Using Python scripts 
+quiz
+Visualization 
+Using the open source library JfreeChart. We create four visualizations with Weka: classifier errors (with error sizes); multiple ROC curves; a J48 decision tree; and a BayesNet network graph.
+5.8
+Visualization
+video (12:01)
+5.9
+Datasets and scripts
+article
+5.10
+Showing bubble plots and ROC curves 
+quiz
+Invoking Weka from Python 
+Now we bring Weka to the Python universe. Setting Python up on Linux is easy. But on Windows and OS X it’s not for the faint-hearted! We use the python-weka-wrapper library to replicate scripts from previous lessons.
+5.11
+Invoking Weka from Python
+video (09:36)
+5.12
+Do it yourself!
+article
+5.13
+Share your experience ...
+discussion
+5.14
+Investigating the python-weka-wrapper library 
+quiz
+A data mining challenge, and some Groovy 
+Put your knowledge to use by applying it to real-world data! Groovy is an alternative scripting language to Python; we use it to replicate some Python scripts.
+5.15
+A challenge, and some Groovy 
+video (11:57)
+5.16
+Datasets and scripts
+article
+5.17
+The data mining challenge
+quiz
+5.18
+The data mining challenge: An expert speaks
+article
+5.19
+The data mining challenge
+discussion
+5.20
+Feelin' Groovy?
+quiz
+Course summary 
+What have we done? You've learned a powerful technology: please use it ethically. One way to continue learning is through data mining competitions.
+5.21
+Course summary 
+video (07:03)
+5.22
+Reflect on this week’s Big Question
+discussion
+Farewell
+Once again, it's time to say goodbye.
+5.23
+Post-course assessment 
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+5.24
+Farewell
+article
+5.25
+Index
+article

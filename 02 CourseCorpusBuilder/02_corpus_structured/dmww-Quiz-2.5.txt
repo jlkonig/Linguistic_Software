@@ -1,0 +1,8 @@
+Build your own classifier
+What is the best accuracy that you can achieve with the UserClassifier?
+< 90%
+90% – 96%
+96.2%
+> 96.2%
+---
+Correct answer(s):

@@ -1,0 +1,5 @@
+How much training data do I need? And how do I optimize all those parameters? 
+Two questions loom large when embarking on a data mining project. First, how much training data is enough? And second, given that data mining algorithms generally have parameters, how do you find suitable values for them, having chosen the algorithm itself?
+Good questions.
+And Weka can help. By the end of the week you will be able to examine how performance improves as the volume of training data increases. You’d expect it to improve rapidly at first, subject to random fluctuations, and then continue to improve – but at a steadily decreasing rate – thereafter. That should help you determine how much data is enough to achieve your goals. As for the second question, you should avoid optimizing parameters manually: you’re bound to overfit! Instead, by the end of the week you will be able to use “wrapper” metalearners that Weka provides to optimize parameters for best performance.
+And a final question, in this closing miscellany of things you need to know: what other things can be specified in the ARFF file format in which datasets are represented?

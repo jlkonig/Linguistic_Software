@@ -1,0 +1,66 @@
+Distributed processing 
+Can you distribute Weka jobs over several machines?
+This week's Big Question!
+4.1
+Can you distribute Weka jobs over several machines?
+article
+What is Distributed Weka?
+Distributed Weka is a plugin that runs Weka on a cluster of machines. It uses the “map-reduce” framework, and operates with both Spark (used here) and Hadoop.
+4.2
+What is distributed Weka?
+video (06:04)
+4.3
+The "map-reduce" framework
+discussion
+4.4
+Learning about Spark and Hadoop 
+quiz
+Distributing Knowledge flows
+The main way to interact with Distributed Weka is through the Knowledge Flow environment. Processing components are chained together so that one will not execute until the previous one has completed. 
+4.5
+Installing with Apache Spark
+video (12:14)
+4.6
+ARFF headers for Spark processing 
+quiz
+Using Naive Bayes and JRip 
+We show an example knowledge flow to train and save two classifiers. Naive Bayes yields a single Naive Bayes model. JRip yields multiple JRip models that are combined using a Vote ensemble learner.
+4.7
+Using Naive Bayes and JRip
+video (12:05)
+4.8
+Training classifiers with Spark 
+quiz
+Map tasks and Reduce tasks
+Map tasks produce models and a Reduce task aggregates them. For Naïve Bayes this involves adding together the statistics. Other model types (trees, rules) use a voted ensemble. Cross-validation uses a Reduce task for each fold.
+4.9
+Map tasks and Reduce tasks
+video (11:36)
+4.10
+Cross-validating classifiers with Spark 
+quiz
+4.11
+Random Forest performance
+article
+Miscellaneous Distributed Weka capabilities 
+We show how to compute a correlation matrix in Distributed Weka and use it as input to Principal Component Analysis. We also show a parallel implementation of k-means clustering.
+4.12
+Miscellaneous Distributed Weka capabilities
+video (08:38)
+4.13
+Playing with template flows
+quiz
+Image classification
+With appropriate features, machine learning can be used to classify images. Image features are statistics that describe an image, and can be extracted using a Weka package.
+4.14
+Image classification
+video (07:32)
+4.15
+Processing images with different feature sets 
+quiz
+4.16
+Reflect on this week’s Big Question
+discussion
+4.17
+Index
+article

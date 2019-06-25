@@ -1,0 +1,119 @@
+Association/NNP/associate/2 rules/NNS/rule/1 
+Question/NN/question/1 1/CD/1/0 
+Examine/VB/examine/2 the/DT/the/1 rules/NNS/rule/1 that/WDT/that/1 are/VBP/be/1 generated/VBN/generate/3 ./././0 None/NN/none/1 of/IN/of/1 them/PRP/they/1 involve/VBP/involve/1 Class=republican/JJ/class=republican/0 ./././0 Why/WRB/why/1 is/VBZ/be/1 this/DT/this/1 ?/./?/0 
+There/EX/there/1 are/VBP/be/1 no/DT/no/1 instances/NNS/instance/2 classed/VBD/class/1 as/IN/as/1 republican/JJ/republic/3 
+The/DT/the/1 minimum/JJ/minimum/3 support/NN/support/1 value/NN/value/2 is/VBZ/be/1 too/RB/too/1 high/JJ/high/1 
+There/EX/there/1 are/VBP/be/1 no/DT/no/1 associations/NNS/associate/2 between/IN/between/1 the/DT/the/1 attributes/NNS/attribute/3 and/CC/and/1 Class=republican/NNP/class=republican/0 
+The/DT/the/1 support/NN/support/1 for/IN/for/1 the/DT/the/1 top/JJ/top/1 10/CD/10/0 rules/NNS/rule/1 exceeds/VBZ/exceed/3 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 with/IN/with/1 Class=republican/JJ/class=republican/0 
+The/DT/the/1 class/NN/class/1 value/NN/value/2 can/MD/can/1 not/RB/not/1 be/VB/be/1 used/VBN/use/1 in/IN/in/1 a/DT/a/1 rule/NN/rule/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+The/DT/the/1 support/NN/support/1 for/IN/for/1 the/DT/the/1 top/JJ/top/1 10/CD/10/0 rules/NNS/rule/1 exceeds/VBZ/exceed/3 the/DT/the/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 with/IN/with/1 Class=republican/JJ/class=republican/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+The/DT/the/1 support/NN/support/1 for/IN/for/1 the/DT/the/1 top/JJ/top/1 10/CD/10/0 rules/NNS/rule/1 (/(/(/0 in/IN/in/1 order/NN/order/1 )/)/)/0 is/VBZ/be/1 219/CD/219/0 ,/,/,/0 198/CD/198/0 ,/,/,/0 211/CD/211/0 ,/,/,/0 202/CD/202/0 ,/,/,/0 247/CD/247/0 ,/,/,/0 200/CD/200/0 ,/,/,/0 208/CD/208/0 ,/,/,/0 203/CD/203/0 ,/,/,/0 204/CD/204/0 ,/,/,/0 and/CC/and/1 218/CD/218/0 ./././0 However/RB/however/1 ,/,/,/0 only/RB/only/1 168/CD/168/0 instances/NNS/instance/2 are/VBP/be/1 classed/VBN/class/1 as/IN/as/1 republican/JJ/republic/3 ./././0 Thus/RB/thus/2 Class=republican/NNP/class=republican/0 could/MD/could/1 never/RB/never/1 appear/VB/appear/1 in/IN/in/1 rules/NNS/rule/1 with/IN/with/1 such/JJ/such/1 great/JJ/great/1 support/NN/support/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+168/CD/168/0 instances/NNS/instance/2 are/VBP/be/1 classed/VBN/class/1 as/IN/as/1 republican/JJ/republic/3 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+If/IN/if/1 you/PRP/you/1 generate/VBP/generate/3 ,/,/,/0 say/VBP/say/1 ,/,/,/0 100/CD/100/0 rules/NNS/rule/1 with/IN/with/1 the/DT/the/1 same/JJ/same/1 support/NN/support/1 value/NN/value/2 you/PRP/you/1 will/MD/will/1 find/VB/find/1 that/IN/that/1 rules/NNS/rule/1 77/CD/77/0 ,/,/,/0 97/CD/97/0 and/CC/and/1 100/CD/100/0 involve/NNS/involve/1 Class=republican/NNP/class=republican/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+There/EX/there/1 are/VBP/be/1 very/RB/very/1 many/JJ/many/1 such/JJ/such/1 associations/NNS/associate/2 ./././0 It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 just/RB/just/1 that/IN/that/1 none/NN/none/1 of/IN/of/1 them/PRP/they/1 fall/VBP/fall/1 in/IN/in/1 the/DT/the/1 top/JJ/top/1 10/CD/10/0 ./././0 For/IN/for/1 example/NN/example/2 ,/,/,/0 if/IN/if/1 you/PRP/you/1 generate/VBP/generate/3 100/CD/100/0 rules/NNS/rule/1 with/IN/with/1 the/DT/the/1 same/JJ/same/1 support/NN/support/1 value/NN/value/2 you/PRP/you/1 will/MD/will/1 find/VB/find/1 that/IN/that/1 rules/NNS/rule/1 77/CD/77/0 ,/,/,/0 97/CD/97/0 and/CC/and/1 100/CD/100/0 involve/NNS/involve/1 Class=republican/NNP/class=republican/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+In/IN/in/1 association/NN/associate/2 rule/NN/rule/1 mining/NN/miner/3 there/RB/there/1 does/VBZ/do/1 not/RB/not/1 have/VB/have/1 to/TO/to/1 be/VB/be/1 a/DT/a/1 class/NN/class/1 attribute/NN/attribute/3 ./././0 But/CC/but/1 if/IN/if/1 there/EX/there/1 is/VBZ/be/1 one/CD/one/1 ,/,/,/0 it/PRP/it/1 is/VBZ/be/1 treated/VBN/treat/1 just/RB/just/1 like/IN/like/1 any/DT/any/1 other/JJ/other/1 attribute/NN/attribute/3 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 single/JJ/single/1 attribute/NN/attribute/3 most/RBS/most/1 strongly/RB/strong/1 associated/VBN/associate/2 with/IN/with/1 democrats/NNS/democrat/3 ?/./?/0 
+el-salvador-aid/NN/el-salvador-aid/0 
+physician-fee-freeze/NN/physician-fee-freeze/0 
+adoption-of-the-budget-resolution/NN/adoption-of-the-budget-resolution/0 
+aid-to-nicaraguan-contras/NNS/aid-to-nicaraguan-contras/0 
+education-spending/NN/education-spending/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+physician-fee-freeze/NN/physician-fee-freeze/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 mentioned/VBN/mention/1 in/IN/in/1 the/DT/the/1 top/JJ/top/1 5/CD/5/0 rules/NNS/rule/1 ,/,/,/0 and/CC/and/1 in/IN/in/1 7/CD/7/0 of/IN/of/1 the/DT/the/1 top/JJ/top/1 10/CD/10/0 rules/NNS/rule/1 
+
+Question/NN/question/1 3/CD/3/0 
+Use/NNP/use/1 OneR/NNP/oner/0 to/TO/to/1 confirm/VB/confirm/3 that/DT/that/1 physician-fee-freeze/NN/physician-fee-freeze/0 is/VBZ/be/1 the/DT/the/1 attribute/NN/attribute/3 most/RBS/most/1 strongly/RB/strong/1 associated/VBN/associate/2 with/IN/with/1 democrats/NNS/democrat/3 ./././0 What/WP/what/1 percentage/NN/percent/2 accuracy/NN/accurate/3 do/VBP/do/1 you/PRP/you/1 get/VB/get/1 (/(/(/0 evaluated/VBN/evaluate/3 using/VBG/use/1 cross-validation/NN/cross-validation/0 )/)/)/0 ?/./?/0 
+61/CD/61/0 %/NN/%/0 
+95/CD/95/0 %/NN/%/0 
+96/CD/96/0 %/NN/%/0 
+97/CD/97/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+96/CD/96/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 OneR/NNP/oner/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 for/IN/for/1 predicting/VBG/predict/3 the/DT/the/1 Class/NN/class/1 (/(/(/0 democrat/JJ/democrat/3 vs./FW/versus/3 republican/JJ/republic/3 )/)/)/0 from/IN/from/1 physician-fee-freeze/NN/physician-fee-freeze/0 
+
+Question/NN/question/1 4/CD/4/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 single/JJ/single/1 attribute/NN/attribute/3 most/RBS/most/1 strongly/RB/strong/1 associated/VBN/associate/2 with/IN/with/1 voting/NN/vote/2 for/IN/for/1 aid/NN/aid/2 to/TO/to/1 the/DT/the/1 Nicaraguan/JJ/nicaraguan/0 Contras/NNP/contra/10 ?/./?/0 
+el-salvador-aid/NN/el-salvador-aid/0 
+physician-fee-freeze/NN/physician-fee-freeze/0 
+Class/NN/class/1 
+adoption-of-the-budget-resolution/NN/adoption-of-the-budget-resolution/0 
+education-spending/NN/education-spending/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+el-salvador-aid/NN/el-salvador-aid/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+el-salvador-aid/NN/el-salvador-aid/0 is/VBZ/be/1 involved/VBN/involve/1 in/IN/in/1 both/DT/both/1 rules/NNS/rule/1 that/WDT/that/1 predict/VBP/predict/3 aid-to-nicaraguan-contras/NNS/aid-to-nicaraguan-contras/0 ,/,/,/0 rules/NNS/rule/1 6/CD/6/0 and/CC/and/1 7/CD/7/0 
+
+Question/NN/question/1 5/CD/5/0 
+Use/NNP/use/1 OneR/NNP/oner/0 to/TO/to/1 confirm/VB/confirm/3 that/DT/that/1 el-salvador-aid/NN/el-salvador-aid/0 is/VBZ/be/1 the/DT/the/1 attribute/NN/attribute/3 most/RBS/most/1 strongly/RB/strong/1 associated/VBN/associate/2 with/IN/with/1 aid-to-nicaraguan-contras/NNS/aid-to-nicaraguan-contras/0 ./././0 What/WP/what/1 percentage/NN/percent/2 accuracy/NN/accurate/3 do/VBP/do/1 you/PRP/you/1 get/VB/get/1 (/(/(/0 evaluated/VBN/evaluate/3 using/VBG/use/1 cross-validation/NN/cross-validation/0 )/)/)/0 ?/./?/0 
+57/CD/57/0 %/NN/%/0 
+58/CD/58/0 %/NN/%/0 
+91/CD/91/0 %/NN/%/0 
+92/CD/92/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+91/CD/91/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 OneR/NNP/oner/0 ’/NNP/’/0 s/VBD/be/1 accuracy/NN/accurate/3 for/IN/for/1 predicting/VBG/predict/3 aid-to-nicaraguan-contras/JJ/aid-to-nicaraguan-contras/0 from/IN/from/1 el-salvador-aid/JJ/el-salvador-aid/0 
+
+Question/NN/question/1 6/CD/6/0 
+The/DT/the/1 third/JJ/three/1 rule/NN/rule/1 generated/VBD/generate/3 has/VBZ/have/1 confidence/NN/confidence/3 1/CD/1/0 ./././0 But/CC/but/1 in/IN/in/1 reality/NN/real/1 this/DT/this/1 is/VBZ/be/1 a/DT/a/1 rounded/JJ/round/1 figure/NN/figure/1 ./././0 Use/VB/use/1 a/DT/a/1 calculator/NN/calculate/2 to/TO/to/1 determine/VB/determine/2 the/DT/the/1 confidence/NN/confidence/3 of/IN/of/1 that/DT/that/1 rule/NN/rule/1 to/TO/to/1 5/CD/5/0 decimal/JJ/decimal/9 places/NNS/place/1 ./././0 What/WP/what/1 is/VBZ/be/1 it/PRP/it/1 ?/./?/0 
+0.91526/CD/0.91526/0 
+0.99525/CD/0.99525/0 
+0.99526/CD/0.99526/0 
+0.99527/CD/0.99527/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.99526/CD/0.99526/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+This/DT/this/1 is/VBZ/be/1 obtained/VBN/obtain/3 by/IN/by/1 dividing/VBG/divide/2 the/DT/the/1 support/NN/support/1 count/NN/count/1 for/IN/for/1 {/(/{/0 physician-fee-freeze/NN/physician-fee-freeze/0 ,/,/,/0 aid-to-nicaraguan-contras/JJ/aid-to-nicaraguan-contras/0 ,/,/,/0 Class=democrat/NNP/class=democrat/0 }/)/}/0 (/(/(/0 which/WDT/which/1 is/VBZ/be/1 210/CD/210/0 )/)/)/0 by/IN/by/1 the/DT/the/1 support/NN/support/1 count/NN/count/1 for/IN/for/1 {/(/{/0 physician-fee-freeze/NN/physician-fee-freeze/0 ,/,/,/0 aid-to-nicaraguan-contras/JJ/aid-to-nicaraguan-contras/0 }/)/}/0 (/(/(/0 which/WDT/which/1 is/VBZ/be/1 211/CD/211/0 )/)/)/0 
+
+Question/NN/question/1 7/CD/7/0 
+Look/NN/look/1 at/IN/at/1 the/DT/the/1 third/JJ/three/1 rule/NN/rule/1 generated/VBD/generate/3 ,/,/,/0 call/VB/call/1 it/PRP/it/1 Rule/NNP/rule/1 A/NNP/a/1 ./././0 Now/RB/now/1 increase/VBZ/increase/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 rules/NNS/rule/1 generated/VBN/generate/3 to/TO/to/1 100/CD/100/0 and/CC/and/1 run/VB/run/1 Apriori/NNP/apriori/0 again/RB/again/1 ./././0 What/WP/what/1 number/NN/number/1 is/VBZ/be/1 Rule/NNP/rule/1 A/NNP/a/1 now/RB/now/1 ?/./?/0 
+3/CD/3/0 
+4/CD/4/0 
+8/CD/8/0 
+10/CD/10/0 
+11/CD/11/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+8/CD/8/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+In/IN/in/1 the/DT/the/1 next/JJ/next/1 Activity/NN/active/2 we/PRP/we/1 will/MD/will/1 learn/VB/learn/1 why/WRB/why/1 this/DT/this/1 rule/NN/rule/1 changes/VBZ/change/1 its/PRP$/it/1 position/NN/position/1 ./././0 In/IN/in/1 brief/NN/brief/2 ,/,/,/0 the/DT/the/1 reason/NN/reason/1 is/VBZ/be/1 that/IN/that/1 when/WRB/when/1 seeking/VBG/seek/2 10/CD/10/0 rules/NNS/rule/1 ,/,/,/0 the/DT/the/1 minimum/JJ/minimum/3 support/NN/support/1 that/WDT/that/1 Apriori/NNP/apriori/0 considers/VBZ/consider/1 is/VBZ/be/1 196/CD/196/0 instances/NNS/instance/2 ,/,/,/0 but/CC/but/1 when/WRB/when/1 seeking/VBG/seek/2 100/CD/100/0 rules/NNS/rule/1 this/DT/this/1 is/VBZ/be/1 reduced/VBN/reduce/2 to/TO/to/1 174/CD/174/0 (/(/(/0 as/IN/as/1 shown/VBN/show/1 at/IN/at/1 the/DT/the/1 beginning/NN/begin/1 of/IN/of/1 the/DT/the/1 Apriori/NNP/apriori/0 output/NN/output/3 )/)/)/0 ./././0 This/DT/this/1 introduces/VBZ/introduce/2 rules/NNS/rule/1 with/IN/with/1 higher/JJR/high/1 confidence/NN/confidence/3 than/IN/than/1 Rule/NNP/rule/1 A/NNP/a/1 but/CC/but/1 smaller/JJR/small/1 support/NN/support/1 ./././0 
+
+Question/NN/question/1 7/CD/7/0 
+Look/NN/look/1 at/IN/at/1 the/DT/the/1 third/JJ/three/1 rule/NN/rule/1 generated/VBD/generate/3 ,/,/,/0 call/VB/call/1 it/PRP/it/1 Rule/NNP/rule/1 A/NNP/a/1 ./././0 Now/RB/now/1 increase/VBZ/increase/2 the/DT/the/1 number/NN/number/1 of/IN/of/1 rules/NNS/rule/1 generated/VBN/generate/3 to/TO/to/1 100/CD/100/0 and/CC/and/1 run/VB/run/1 Apriori/NNP/apriori/0 again/RB/again/1 ./././0 What/WP/what/1 number/NN/number/1 is/VBZ/be/1 Rule/NNP/rule/1 A/NNP/a/1 now/RB/now/1 ?/./?/0 
+3/CD/3/0 
+4/CD/4/0 
+8/CD/8/0 
+10/CD/10/0 
+11/CD/11/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

@@ -1,0 +1,78 @@
+ARFF headers for Spark processing 
+Question 1
+Why does Distributed Weka operate on CSV data without a header row?
+Because it is the most common format for big datasets.
+Because it is simpler to parse than ARFF.
+Because Spark and Hadoop may split datasets into blocks.
+---
+Correct answer(s):
+Because Spark and Hadoop may split datasets into blocks.
+---
+Feedback correct:
+Both Spark and Hadoop maintain record integrity when the data is distributed across nodes in a cluster.
+
+Question 2
+Create a CSV version of the iris data. You can do this in the KnowledgeFlow interface.
+First, make a Knowledge Flow that contains an ArffLoader connected by a dataSet connection to a CSVSaver. Configure the ArffLoader to open the iris data. Configure the CSVSaver by choosing a suitable directory to save to; also set noHeaderRow to True. Run the flow and verify that iris.csv has been created.
+From the KnowledgeFlow’s templates menu, load the “Spark: create an ARFF header” flow.
+Double-click the ArffHeaderSparkJob and enter the pathname for the iris CSV file into the inputFile property of the Spark Configuration tab. For example, if you saved iris.csv to your desktop, set inputFile to ${user.home}/Desktop/iris.csv. Because the iris data has only a few attributes, we will forego the “names” file and enter the names of the attributes directly. In the ArffHeaderSparkJob tab, set the attributeNames property to sepallength, sepalwidth, petallength, petalwidth, class; and clear the attributeNamesFile property. Set the outputHeaderFileName to iris.arff.
+Execute the flow and look at the resulting ARFF header in the TextViewer.
+What is the mean value of sepallength?
+0.83
+3.05
+5.84
+150
+876
+---
+Correct answer(s):
+5.84
+---
+Feedback incorrect:
+That’s the standard deviation, not the mean
+---
+Feedback incorrect:
+That’s the mean of sepalwidth, not sepallength
+---
+Feedback incorrect:
+That’s the count, not the mean
+---
+Feedback incorrect:
+That’s the sum, not the mean
+
+Question 3
+What is the standard deviation of sepallength?
+0.43
+0.83
+5.84
+150
+876
+---
+Correct answer(s):
+0.83
+---
+Feedback incorrect:
+That’s the standard deviation of sepalwidth, not sepallength
+---
+Feedback incorrect:
+That’s the mean, not the standard deviation
+---
+Feedback incorrect:
+That’s the count, not the standard deviation
+---
+Feedback incorrect:
+That’s the sum, not the standard deviation
+
+Question 4
+Do these values correspond to what is displayed when the data is loaded into the Explorer’s Preprocess panel?
+Yes
+No
+---
+Correct answer(s):
+Yes
+
+Question 4
+Do these values correspond to what is displayed when the data is loaded into the Explorer’s Preprocess panel?
+Yes
+No
+---
+Correct answer(s):

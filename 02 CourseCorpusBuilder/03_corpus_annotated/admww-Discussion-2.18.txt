@@ -1,0 +1,7 @@
+How/WRB/how/1 are/VBP/be/1 you/PRP/you/1 getting/VBG/get/1 on/IN/on/1 ?/./?/0 
+By/IN/by/1 now/RB/now/1 the/DT/the/1 course/NN/course/1 is/VBZ/be/1 well/RB/well/1 underway/JJ/underway/6 :/:/:/0 two/CD/two/1 weeks/NNS/week/1 down/RB/down/1 and/CC/and/1 three/CD/three/1 to/TO/to/1 go/VB/go/1 ./././0 
+What/WP/what/1 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 of/IN/of/1 it/PRP/it/1 so/RB/so/1 far/RB/far/1 ?/./?/0 
+Do/VBP/do/1 you/PRP/you/1 want/VB/want/1 to/TO/to/1 discuss/VB/discuss/2 any/DT/any/1 issues/NNS/issue/1 that/WDT/that/1 have/VBP/have/1 arisen/VBN/arise/3 ?/./?/0 
+This/DT/this/1 is/VBZ/be/1 the/DT/the/1 place/NN/place/1 to/TO/to/1 do/VB/do/1 it/PRP/it/1 !/./!/0 
+
+

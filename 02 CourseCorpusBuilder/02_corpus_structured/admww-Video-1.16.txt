@@ -1,0 +1,3 @@
+Analyzing infrared data from soil samples 
+Some feel that data miners focus too much on new methods and tiny improvements in accuracy, instead of on applications that will make a real difference in practice. Geoff Holmes discusses six major challenges that have been proposed for data mining applications: one is to save $100M through improved decision making. Inferring properties of soil samples from infrared data can save significant sums of money, because it can enable expensive wet chemistry to be replaced by an automatic process. However, achieving sufficient accuracy is a real challenge.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

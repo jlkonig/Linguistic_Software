@@ -1,0 +1,10 @@
+Do it yourself!
+First install two packages using the Package Manager:
+  the tigerjython package
+  the jfreechartOffscreenRenderer package
+Note: tigerjython is not yet compatible with Java 9. When you installed Weka, if you downloaded a self-extracting archive that included Java, it will have been Java 8; no problems. However, if you normally run Weka under Java 9 you will have to temporarily use Java 8.
+Then create an environment variable called MOOC_DATA that points to your Weka data files folder:
+  On Windows, Peter right-clicked on This PC and selected Properties to get the Control Panel, then Advanced system settings, then Environment Variables. Click New… and type in the variable name and value.
+  On the Mac, you can install envPane in your Preferences, which makes it easy to set environment variables.
+Here’s Peter’s script for loading and filtering data:
+  load_and_filter_data.py

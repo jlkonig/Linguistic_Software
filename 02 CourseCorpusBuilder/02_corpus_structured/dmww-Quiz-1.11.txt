@@ -1,0 +1,83 @@
+Looking at a dataset
+Question 1
+How many instances are there in the contact-lenses dataset?
+5
+8
+24
+32
+---
+Correct answer(s):
+24
+---
+Feedback correct:
+The Preprocess panel tells you how many data rows, or “instances,” are in the currently loaded data set.
+---
+Feedback incorrect:
+The Preprocess panel tells you how many data rows, or “instances,” are in the currently loaded data set.
+
+Question 2
+How many attributes are there in the contact-lenses dataset?
+4
+5
+12
+24
+---
+Correct answer(s):
+5
+---
+Feedback correct:
+The Preprocess panel shows you how many columns, or “attributes,” are in the current data set.
+In this case the attributes are age, spectacle-prescrip, astigmatism, tear-prod-rate, and contact-lenses.
+---
+Feedback incorrect:
+Almost right. It’s not quite clear whether the class (in this case contact-lenses) should be counted as an attribute or not. But for the purposes of this question we do count it as an attribute.
+---
+Feedback incorrect:
+The Preprocess panel shows you how many columns, or “attributes,” are in the current data set.
+In this case the attributes are age, spectacle-prescrip, astigmatism, tear-prod-rate, and contact-lenses.
+
+Question 3
+How many possible values are there for the age attribute?
+2
+3
+5
+8
+---
+Correct answer(s):
+3
+---
+Feedback correct:
+The “Selected attribute” box shows a summary of the currently selected attribute.
+For categorical attributes, it lists all available values – in this case, young, pre-presbyopic, and presbyopic.
+---
+Feedback incorrect:
+The “Selected attribute” box shows a summary of the currently selected attribute.
+For categorical attributes, it lists all available values – in this case, young, pre-presbyopic, and presbyopic.
+
+Question 4
+Which of these attributes has reduced as a possible value?
+age
+spectacle-prescrip
+astigmatism
+tear-prod-rate
+contact-lenses
+---
+Correct answer(s):
+
+Question 4
+Which of these attributes has reduced as a possible value?
+age
+spectacle-prescrip
+astigmatism
+tear-prod-rate
+contact-lenses
+---
+Correct answer(s):
+tear-prod-rate
+---
+Feedback correct:
+By selecting different attributes in the “Attributes” box you can quickly investigate their possible values.
+The tear-prod-rate attribute has values reduced and normal.
+---
+Feedback incorrect:
+By selecting different attributes in the “Attributes” box you can quickly investigate their possible values.

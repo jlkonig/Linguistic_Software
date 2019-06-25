@@ -1,0 +1,164 @@
+Investigating/VBG/investigate/2 the/DT/the/1 Voted/NNP/vote/2 Perceptron/NNP/perceptron/0 
+Question/NN/question/1 1/CD/1/0 
+Load/NNP/load/1 iris.arff/NN/iris.arff/0 into/IN/into/1 the/DT/the/1 Weka/NNP/weka/23 Explorer/NNP/explore/3 ./././0 How/WRB/how/1 does/VBZ/do/1 VotedPerceptron/NNP/votedperceptron/0 perform/VB/perform/2 on/IN/on/1 this/DT/this/1 dataset/NN/dataset/0 ?/./?/0 
+Worse/JJR/worse/1 than/IN/than/1 75/CD/75/0 %/NN/%/0 accuracy/NN/accurate/3 
+Better/JJR/better/1 than/IN/than/1 75/CD/75/0 %/NN/%/0 accuracy/NN/accurate/3 
+It/PRP/it/1 doesn/VBZ/do/1 ’/JJ/’/0 t/NNS/not/1 run/VB/run/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+It/PRP/it/1 doesn/VBZ/do/1 ’/JJ/’/0 t/NNS/not/1 run/VB/run/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+VotedPerceptron/NNP/votedperceptron/0 can/MD/can/1 ’/VB/’/0 t/JJ/not/1 handle/NN/handle/1 this/DT/this/1 data/NN/data/3 
+
+Question/NN/question/1 2/CD/2/0 
+What/WP/what/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 reason/NN/reason/1 for/IN/for/1 the/DT/the/1 answer/NN/answer/1 to/TO/to/1 the/DT/the/1 previous/JJ/previous/2 question/NN/question/1 ?/./?/0 
+There/EX/there/1 are/VBP/be/1 few/JJ/few/1 class/NN/class/1 values/NNS/value/2 
+There/EX/there/1 are/VBP/be/1 more/JJR/more/1 than/IN/than/1 2/CD/2/0 class/NN/class/1 values/NNS/value/2 
+There/EX/there/1 are/VBP/be/1 missing/VBG/miss/1 values/NNS/value/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+There/EX/there/1 are/VBP/be/1 more/JJR/more/1 than/IN/than/1 2/CD/2/0 class/NN/class/1 values/NNS/value/2 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+VotedPerceptron/NNP/votedperceptron/0 can/MD/can/1 ’/VB/’/0 t/JJ/not/1 handle/NN/handle/1 problems/NNS/problem/1 with/IN/with/1 more/JJR/more/1 than/IN/than/1 2/CD/2/0 class/NN/class/1 values/NNS/value/2 ./././0 
+Weka/NNP/weka/23 doesn/NN/do/1 ’/NNP/’/0 t/NN/not/1 show/VBP/show/1 the/DT/the/1 reason/NN/reason/1 because/IN/because/1 it/PRP/it/1 simply/RB/simple/1 refuses/VBZ/refuse/2 to/TO/to/1 run/VB/run/1 VotedPerceptron/NNP/votedperceptron/0 on/IN/on/1 this/DT/this/1 data/NN/data/3 ,/,/,/0 but/CC/but/1 you/PRP/you/1 can/MD/can/1 trick/VB/trick/2 it/PRP/it/1 into/IN/into/1 trying/VBG/try/1 to/TO/to/1 run/VB/run/1 it/PRP/it/1 by/IN/by/1 using/VBG/use/1 a/DT/a/1 meta-classifier/NN/meta-classifier/0 (/(/(/0 e.g/NN/e.g/0 ./././0 AttributeSelectedClassifier/NNP/attributeselectedclassifier/0 )/)/)/0 and/CC/and/1 specifying/VBG/specify/3 VotedPerceptron/NNP/votedperceptron/0 ./././0 Then/RB/then/1 Weka/NNP/weka/23 will/MD/will/1 tell/VB/tell/1 you/PRP/you/1 that/IN/that/1 this/DT/this/1 classifier/NN/classifier/0 can/MD/can/1 ’/VB/’/0 t/JJ/not/1 handle/VB/handle/1 a/DT/a/1 multi-valued/JJ/multi-valued/0 nominal/JJ/nominal/5 class/NN/class/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Delete/NNP/delete/5 all/DT/all/1 Iris-setosa/NNP/iris-setosa/0 instances/NNS/instance/2 and/CC/and/1 try/VB/try/1 again/RB/again/1 ./././0 
+You/PRP/you/1 can/MD/can/1 delete/VB/delete/5 the/DT/the/1 instances/NNS/instance/2 either/CC/either/1 by/IN/by/1 using/VBG/use/1 the/DT/the/1 RemoveWithValues/NNP/removewithvalues/0 attribute/VBP/attribute/3 filter/NN/filter/3 or/CC/or/1 by/IN/by/1 multiply/JJ/multiply/4 selecting/VBG/select/2 these/DT/this/1 instances/NNS/instance/2 in/IN/in/1 the/DT/the/1 Edit/NNP/edit/2 window/NN/window/1 and/CC/and/1 right-clicking/NN/right-clicking/0 to/TO/to/1 delete/VB/delete/5 ./././0 In/IN/in/1 either/DT/either/1 case/NN/case/1 you/PRP/you/1 will/MD/will/1 have/VB/have/1 to/TO/to/1 save/VB/save/1 the/DT/the/1 file/NN/file/2 and/CC/and/1 change/VB/change/1 the/DT/the/1 header/NN/header/8 by/IN/by/1 editing/VBG/edit/2 it/PRP/it/1 ./././0 Alternatively/RB/alternative/3 ,/,/,/0 if/IN/if/1 you/PRP/you/1 are/VBP/be/1 lazy/JJ/lazy/1 (/(/(/0 like/IN/like/1 me/PRP/i/1 )/)/)/0 ,/,/,/0 you/PRP/you/1 can/MD/can/1 avoid/VB/avoid/2 editing/VBG/edit/2 the/DT/the/1 header/NN/header/8 by/IN/by/1 saving/VBG/save/1 as/IN/as/1 CSV/NNP/csv/0 and/CC/and/1 reloading/VBG/load/1 ./././0 (/(/(/0 Why/WRB/why/1 does/VBZ/do/1 this/DT/this/1 work/NN/work/1 ?/./?/0 )/)/)/0 
+What/WP/what/1 accuracy/NN/accurate/3 does/VBZ/do/1 VotedPerceptron/NNP/votedperceptron/0 achieve/VB/achieve/3 on/IN/on/1 this/DT/this/1 2-class/JJ/2-class/0 Iris/NNP/iris/8 data/NNS/data/3 ?/./?/0 
+75/CD/75/0 %/NN/%/0 
+89/CD/89/0 %/NN/%/0 
+98/CD/98/0 %/NN/%/0 
+100/CD/100/0 %/NN/%/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+89/CD/89/0 %/NN/%/0 
+
+Question/NN/question/1 4/CD/4/0 
+How/WRB/how/1 does/VBZ/do/1 this/DT/this/1 compare/NN/compare/2 with/IN/with/1 SMO/NNP/smo/0 ,/,/,/0 J48/NNP/j48/0 and/CC/and/1 Naive/NNP/naive/5 Bayes/NNP/bayes/0 ?/./?/0 
+VotedPerceptron/NNP/votedperceptron/0 performs/VBZ/perform/2 better/JJR/better/1 than/IN/than/1 some/DT/some/1 
+VotedPerceptron/NNP/votedperceptron/0 performs/VBZ/perform/2 better/JJR/better/1 than/IN/than/1 all/DT/all/1 three/CD/three/1 
+VotedPerceptron/NNP/votedperceptron/0 performs/VBZ/perform/2 worse/JJR/worse/1 than/IN/than/1 all/DT/all/1 three/CD/three/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+VotedPerceptron/NNP/votedperceptron/0 performs/VBZ/perform/2 worse/JJR/worse/1 than/IN/than/1 all/DT/all/1 three/CD/three/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Bummer/NN/bummer/15 !/./!/0 
+
+Question/NN/question/1 5/CD/5/0 
+Let/VB/let/1 ’/NNP/’/0 s/VB/be/1 check/NN/check/1 whether/IN/whether/1 VotedPerceptron/NNP/votedperceptron/0 is/VBZ/be/1 affected/VBN/affect/2 by/IN/by/1 the/DT/the/1 order/NN/order/1 of/IN/of/1 presentation/NN/present/1 of/IN/of/1 instances/NNS/instance/2 ./././0 
+Randomize/VB/random/3 the/DT/the/1 order/NN/order/1 (/(/(/0 hint/NN/hint/3 :/:/:/0 check/NN/check/1 for/IN/for/1 a/DT/a/1 suitable/JJ/suit/1 filter/NN/filter/3 )/)/)/0 and/CC/and/1 try/VB/try/1 again/RB/again/1 ./././0 
+Does/VBZ/do/1 this/DT/this/1 make/VB/make/1 it/PRP/it/1 generally/RB/general/1 better/RBR/better/1 or/CC/or/1 generally/RB/general/1 worse/JJR/worse/1 ?/./?/0 
+Generally/RB/general/1 better/JJR/better/1 
+Generally/RB/general/1 worse/JJR/worse/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Generally/RB/general/1 worse/JJR/worse/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+I/PRP/i/1 got/VBD/get/1 77/CD/77/0 %/NN/%/0 ,/,/,/0 79/CD/79/0 %/NN/%/0 ,/,/,/0 89/CD/89/0 %/NN/%/0 and/CC/and/1 72/CD/72/0 %/NN/%/0 after/IN/after/1 successive/JJ/succession/3 applications/NNS/apply/2 of/IN/of/1 the/DT/the/1 Randomize/NNP/random/3 instance/NN/instance/2 filter/NN/filter/3 with/IN/with/1 the/DT/the/1 default/NN/default/5 parameter/NN/parameter/4 ,/,/,/0 compared/VBN/compare/2 to/TO/to/1 89/CD/89/0 %/NN/%/0 before/IN/before/1 randomization/NN/random/3 ./././0 
+
+Question/NN/question/1 6/CD/6/0 
+Use/VB/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 to/TO/to/1 compare/VB/compare/2 VotedPerceptron/NNP/votedperceptron/0 with/IN/with/1 SMO/NNP/smo/0 on/IN/on/1 breast-cancer.arff/NN/breast-cancer.arff/0 ,/,/,/0 credit-g.arff/NN/credit-g.arff/0 ,/,/,/0 diabetes.arff/NN/diabetes.arff/0 ,/,/,/0 and/CC/and/1 ionosphere.arff/NN/ionosphere.arff/0 (/(/(/0 all/DT/all/1 2-class/JJ/2-class/0 datasets/NNS/datasets/0 )/)/)/0 ./././0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 VotedPerceptron/NNP/votedperceptron/0 significantly/RB/significant/3 outperform/VBZ/outperform/10 SMO/NNP/smo/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Bummer/NN/bummer/15 !/./!/0 
+
+Question/NN/question/1 7/CD/7/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 SMO/NNP/smo/0 significantly/RB/significant/3 outperform/VBZ/outperform/10 VotedPerceptron/NNP/votedperceptron/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+
+Question/NN/question/1 8/CD/8/0 
+Disregarding/VBG/regard/2 significance/NN/significance/3 ,/,/,/0 for/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 VotedPerceptron/NNP/votedperceptron/0 outperform/VB/outperform/10 SMO/NNP/smo/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+
+Question/NN/question/1 9/CD/9/0 
+Disregarding/VBG/regard/2 significance/NN/significance/3 ,/,/,/0 for/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 SMO/NNP/smo/0 outperform/VB/outperform/10 VotedPerceptron/NNP/votedperceptron/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+none/NN/none/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+
+Question/NN/question/1 10/CD/10/0 
+Change/VB/change/1 the/DT/the/1 “/NNP/“/0 Comparison/NNP/compare/2 field/NN/field/1 ”/NN/”/0 to/TO/to/1 UserCPU_Time_training/NNP/usercpu_time_training/0 ./././0 
+Is/VBZ/be/1 VotedPerceptron/NNP/votedperceptron/0 significantly/RB/significant/3 faster/RBR/fast/1 than/IN/than/1 SMO/NNP/smo/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+On/IN/on/1 my/PRP$/i/1 machine/NN/machine/1 it/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 significantly/RB/significant/3 faster/RBR/fast/1 on/IN/on/1 all/DT/all/1 4/CD/4/0 datasets/NNS/datasets/0 ,/,/,/0 although/IN/although/1 on/IN/on/1 other/JJ/other/1 machines/NNS/machine/1 the/DT/the/1 speed/NN/speed/2 difference/NN/difference/1 on/IN/on/1 the/DT/the/1 diabetes/NNS/diabetes/4 dataset/VBP/dataset/0 may/MD/may/1 not/RB/not/1 be/VB/be/1 significant/JJ/significant/3 
+
+Question/NN/question/1 11/CD/11/0 
+Let/VB/let/1 ’/NNP/’/0 s/VB/be/1 finish/JJ/finish/1 by/IN/by/1 turning/VBG/turn/1 to/TO/to/1 our/PRP$/we/1 old/JJ/old/1 workhorse/NN/workhorse/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 on/IN/on/1 the/DT/the/1 same/JJ/same/1 4/CD/4/0 datasets/NNS/datasets/0 (/(/(/0 breast-cancer.arff/JJ/breast-cancer.arff/0 ,/,/,/0 credit-g.arff/JJ/credit-g.arff/0 ,/,/,/0 diabetes.arff/NN/diabetes.arff/0 ,/,/,/0 and/CC/and/1 ionosphere.arff/NN/ionosphere.arff/0 )/)/)/0 ,/,/,/0 again/RB/again/1 using/VBG/use/1 the/DT/the/1 Experimenter/NNP/experiment/3 to/TO/to/1 do/VB/do/1 the/DT/the/1 comparison/NN/compare/2 ./././0 
+Does/NNP/do/1 VotedPerceptron/NNP/votedperceptron/0 outperform/VB/outperform/10 J48/NNP/j48/0 ?/./?/0 
+Sometimes/RB/some/1 
+Always/NNS/always/1 
+Never/RB/never/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Never/RB/never/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Bummer/NN/bummer/15 !/./!/0 
+
+Question/NN/question/1 12/CD/12/0 
+Is/VBZ/be/1 VotedPerceptron/NNP/votedperceptron/0 always/RB/always/1 faster/RBR/fast/1 to/TO/to/1 train/VB/train/1 than/IN/than/1 J48/NNP/j48/0 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+On/IN/on/1 my/PRP$/i/1 computer/NN/computer/1 ,/,/,/0 VotedPerceptron/NNP/votedperceptron/0 is/VBZ/be/1 significantly/RB/significant/3 faster/RBR/fast/1 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 UserCPU_Time_training/VBG/usercpu_time_training/0 on/IN/on/1 breast-cancer/NN/breast-cancer/0 ,/,/,/0 diabetes/NNS/diabetes/4 and/CC/and/1 ionosphere/RB/ionosphere/16 ;/:/;/0 significantly/RB/significant/3 slower/JJR/slow/1 on/IN/on/1 credit-g/NN/credit-g/0 ./././0 However/RB/however/1 ,/,/,/0 other/JJ/other/1 computers/NNS/computer/1 report/VBP/report/1 no/DT/no/1 significant/JJ/significant/3 differences/NNS/difference/1 ./././0 
+
+Question/NN/question/1 12/CD/12/0 
+Is/VBZ/be/1 VotedPerceptron/NNP/votedperceptron/0 always/RB/always/1 faster/RBR/fast/1 to/TO/to/1 train/VB/train/1 than/IN/than/1 J48/NNP/j48/0 ?/./?/0 
+About/IN/about/1 the/DT/the/1 same/JJ/same/1 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

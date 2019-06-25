@@ -1,0 +1,63 @@
+More classifiers
+What about real-life classification methods?
+This week's Big Question!
+4.1
+What about real-life classification methods?
+article
+Classification boundaries 
+Different classifiers are biased towards different kinds of decision, which you can explore by visualizing the classification boundaries. We look at classification boundaries for OneR, IBk, NaiveBayes, and J48.
+4.2
+Classification boundaries
+video (10:04)
+4.3
+Exploring classification boundaries
+quiz
+Linear regression
+"Regression" problems are where the class is numeric, and "linear regression" is a standard mathematical technique for predicting numeric classes. In addition, there are non-linear methods that build trees of linear models.
+4.4
+Linear regression
+video (07:56)
+4.5
+Regression with nominal attributes
+quiz
+Classification by regression
+Linear regression can be used for classification as well. For two-valued nominal classes, just convert them to 0 and 1. For more class labels, either "multi-response linear regression" or "pairwise linear regression" can be used.
+4.6
+Classification by regression
+video (09:59)
+4.7
+Multi-response linear regression
+quiz
+Logistic regression
+Sometimes it’s best to predict class probabilities instead of predicting the classes themselves. Linear regression can be made to work with probabilities, resulting in logistic regression, a popular classification technique.
+4.8
+Logistic regression
+video (08:59)
+4.9
+Try out some classifiers
+quiz
+4.10
+Yikes! The math! It’s too much!
+discussion
+Support vector machines
+Support vector machines separate the classes using the "maximum margin hyperplane." This is defined by a few instances, called "support vectors," from each class. The boundary depends on a few points, which reduces overfitting.
+4.11
+Support vector machines
+video (07:20)
+4.12
+Decision boundaries and overfitting
+quiz
+Ensemble learning
+Many of us dislike committees, but nevertheless they often make good, unbiased, decisions. Several machine learning methods use "committees" of different classifier algorithms: Bagging, Random forests, Boosting, and Stacking.
+4.13
+Ensemble learning
+video (08:31)
+4.14
+Boosting
+quiz
+4.15
+Reflect on this week's Big Question
+discussion
+4.16
+Index
+article

@@ -1,0 +1,3 @@
+Summary
+There’s no magic in data mining – no universal “best” method. It’s an experimental science. This video reviews what this course has covered, and points out many things that it hasn’t covered. Finally, data mining is a powerful technology – please use it wisely.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

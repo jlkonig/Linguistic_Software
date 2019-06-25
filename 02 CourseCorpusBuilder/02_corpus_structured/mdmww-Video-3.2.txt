@@ -1,0 +1,3 @@
+Decision trees and rules 
+Any decision tree has an equivalent set of rules … and any rule set has an equivalent decision tree. So they’re the same? It’s not so simple. If you read rules off a tree, you usually end up with far more rules than necessary, particularly if – as is usual – the rules end up being checked one at a time, in order. And conversely, there are small rule sets for which the equivalent tree is outrageously complex. Whereas trees are created top-down using a “divide and conquer” approach, rules are more naturally created bottom-up, using a covering process.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

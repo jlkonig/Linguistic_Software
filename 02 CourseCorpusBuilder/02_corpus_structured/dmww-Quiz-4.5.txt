@@ -1,0 +1,129 @@
+Regression with nominal attributes
+Question 1
+How many different values does that nominal attribute have?
+4
+8
+30
+32
+209
+---
+Correct answer(s):
+30
+---
+Feedback correct:
+The nominal attribute is vendor. These were all computer sales companies, back in the old days.
+
+Question 2
+Run the LinearRegression classifier (with default options) on the cpu.with.vendor dataset, using 10-fold cross-validation. Several different measures are printed. Linear regression optimizes the root mean squared error; small is good. Instead we will look at the correlation coefficient. Large correlation is good, and the value cannot be greater than 1. What is the correlation coefficient in this case?
+0.92
+0.93
+0.95
+0.96
+---
+Correct answer(s):
+0.93
+---
+Feedback correct:
+Weka gives the result as 0.9257
+---
+Feedback incorrect:
+Are you using 10-fold cross validation as the evaluation method? This is the result you get when you evaluate using Percentage split.
+---
+Feedback incorrect:
+Are you using 10-fold cross validation as the evaluation method? This is the result you get when you evaluate on the training set.
+
+Question 3
+Now find the M5P tree-based algorithm and run it (with default options), again using 10-fold cross-validation. What is the correlation coefficient now?
+0.93
+0.97
+0.98
+0.99
+---
+Correct answer(s):
+0.98
+---
+Feedback correct:
+Weka gives the result as 0.9766. M5P performs quite a lot better than LinearRegression.
+---
+Feedback incorrect:
+Are you using M5P as the classifier? This is the result you get with LinearRegression.
+---
+Feedback incorrect:
+Are you using 10-fold cross validation as the evaluation method? This is the result you get when evaluating on the training set.
+
+Question 4
+M5P produces a tree with linear models at the leaves. How many linear models are there in this case?
+1
+2
+4
+10
+209
+---
+Correct answer(s):
+2
+---
+Feedback correct:
+You can see them in the classifier output, and also in the tree visualizer accessible from the right-click menu. The models are called LM 1 and LM 2.
+
+Question 5
+The single nominal attribute in this dataset is called vendor. Both LinearRegression and M5P convert it into several binary attributes, with values 0 and 1, that are used in the weighted summation produced by the regression method.
+How many of these binary attributes are used?
+Select all the answers you think are correct.
+1 for LinearRegression
+2 for LinearRegression
+3 for LinearRegression
+11 for LinearRegression
+1 for M5P
+2 for M5P
+3 for M5P
+11 for M5P
+---
+Correct answer(s):
+11 for LinearRegression
+3 for M5P
+---
+Feedback correct:
+The model produced by LinearRegression contains 11 attributes of the form vendor = …
+Both linear models produced by M5P contain 3 attributes of the form vendor = …
+---
+Feedback incorrect:
+The model produced by LinearRegression contains 11 attributes of the form vendor = …
+---
+Feedback incorrect:
+Both linear models produced by M5P contain 3 attributes of the form vendor = …
+
+Question 6
+Weka has a supervised attribute filter that converts a nominal attribute into the same set of binary attributes used by LinearRegression and M5P. What is it called?
+AddClassification
+AttributeSelection
+ClassOrder
+Discretize
+NominalToBinary
+PLSFilter
+---
+Correct answer(s):
+NominalToBinary
+---
+Feedback correct:
+Try it! Note: be sure to select the supervised version of this filter, not the unsupervised one.
+
+Question 7
+There is also an unsupervised attribute filter with the same name, NominalToBinary. This also converts a nominal attribute into a set of binary attributes, but in a different way. What does it do?
+Produces a smaller number of binary attributes
+Produces a larger number of binary attributes
+Creates one binary attribute for each value of the nominal attribute
+Uses larger value sets for each binary attribute
+Uses different value sets for each binary attribute
+---
+Correct answer(s):
+
+Question 7
+There is also an unsupervised attribute filter with the same name, NominalToBinary. This also converts a nominal attribute into a set of binary attributes, but in a different way. What does it do?
+Produces a smaller number of binary attributes
+Produces a larger number of binary attributes
+Creates one binary attribute for each value of the nominal attribute
+Uses larger value sets for each binary attribute
+Uses different value sets for each binary attribute
+---
+Correct answer(s):
+Creates one binary attribute for each value of the nominal attribute

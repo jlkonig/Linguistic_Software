@@ -1,0 +1,3 @@
+Classification boundaries
+Different classifiers are biased towards different kinds of decision. You can see this by examining classification boundaries for various machine learning methods trained on a 2D dataset with numeric attributes. Here we use Weka’s Boundary Visualizer to plot boundaries for some example classifiers: OneR, IBk, Naive Bayes, and J48. Characteristic patterns appear.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

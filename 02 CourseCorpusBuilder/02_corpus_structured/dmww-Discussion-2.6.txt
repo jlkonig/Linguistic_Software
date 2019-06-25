@@ -1,0 +1,5 @@
+How well did you do?
+Why not post the accuracy score that you obtained for the quiz question?
+I think you can get 90% without too much difficulty. J48 achieves 96.1728%. Can you do better?
+But please don’t waste your time obsessing over getting a high score. The point is not to win applause but merely to understand what it feels like to have to build a classification tree.
+And, in fact, the real point is to recognize that you are not seeking a “perfect” tree for the dataset you are looking at (which you could no doubt produce with sufficient time and patience), but one that performs well on a different dataset, the test dataset.

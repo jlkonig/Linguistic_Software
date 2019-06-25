@@ -1,0 +1,120 @@
+Boosting
+Question 1
+For classification, what measure does DecisionStump use?
+Information gain
+Entropy
+Gini impurity
+---
+Correct answer(s):
+Entropy
+---
+Feedback correct:
+The More button in DecisionStump’s configuration panel states that for classification, the algorithm is based on entropy.
+---
+Feedback incorrect:
+J48 is an example of a classifier that uses Information gain, but DecisionStump doesn’t.
+---
+Feedback incorrect:
+The Gini impurity measure is used by some machine learning algorithms, but not by DecisionStump.
+
+Question 2
+Now perform 10-fold cross-validation on the diabetes dataset with DecisionStump. How many leaves does the tree that is generated for the full dataset have?
+1
+2
+3
+4
+---
+Correct answer(s):
+3
+---
+Feedback correct:
+DecisionStump makes a binary split on one of the attributes. As well as two leaves for the split criterion, it makes a third for when the value of that attribute is missing. (Missing values will be discussed next week).
+
+Question 3
+In the previous experiment, which attribute was used to split the data on?
+preg
+plas
+pres
+skin
+insu
+mass
+pedi
+age
+---
+Correct answer(s):
+plas
+---
+Feedback correct:
+The attribute name used for splitting is shown at the start of the rules.
+
+Question 4
+Does DecisionStump perform better than ZeroR on this dataset?
+yes
+no
+---
+Correct answer(s):
+---
+Feedback correct:
+Though considered a “weak learner” because it can only produce a tree with one level, DecisionStump (at 72%) outperforms the ZeroR baseline (65%).
+
+Question 5
+Now select AdaBoostM1, a boosting algorithm that by default utilizes DecisionStump as its base learner, and familiarize yourself with its options.
+Apply AdaBoostM1 to the same dataset using various values for the numIterations option, and make a rough paper-and-pencil plot of the accuracies obtained (with 10-fold cross-validation). What does the graph look like?
+(a)
+(b)
+(c)
+(d)
+---
+Correct answer(s):
+(a)
+---
+Feedback correct:
+With boosting, the accuracy generally improves as the number of iterations increases, and then flattens out. For this dataset it improves only sightly, and only at the beginning of the graph.
+
+Question 6
+Which of the shapes would you expect if you boosted the ZeroR algorithm instead of DecisionStump?
+(a)
+(b)
+(c)
+(d)
+---
+Correct answer(s):
+(d)
+---
+Feedback correct:
+ZeroR will produce the same classifier for practically any subset of the data (provided only that statistical sampling leaves the majority class intact). Combining these identical classifiers would give the same result as ZeroR by itself. However, if you try this with Weka it will simply refuse to boost the ZeroR algorithm.
+
+Question 7
+Apply AdaBoostM1 to the breast-cancer.arff dataset for the default number of iterations (10), boosting OneR instead of DecisionStump. Ten models are produced, each testing a single attribute. Which attributes are used in at least one model?
+Select all the answers you think are correct.
+age
+menopause
+tumor-size
+inv_nodes
+node-caps
+deg-malig
+breast
+breast-quad
+irradiat
+---
+Correct answer(s):
+
+Question 7
+Apply AdaBoostM1 to the breast-cancer.arff dataset for the default number of iterations (10), boosting OneR instead of DecisionStump. Ten models are produced, each testing a single attribute. Which attributes are used in at least one model?
+Select all the answers you think are correct.
+age
+menopause
+tumor-size
+inv_nodes
+node-caps
+deg-malig
+breast
+breast-quad
+irradiat
+---
+Correct answer(s):
+age
+menopause
+tumor-size
+inv_nodes
+deg-malig

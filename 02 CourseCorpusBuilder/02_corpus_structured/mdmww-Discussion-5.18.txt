@@ -1,0 +1,8 @@
+Corruption and cheating
+I do not advocate cheating.
+Quite the reverse! – as I hope I have made clear by urging ethics and integrity in the previous video. But cheating has been mentioned several times in this course because you need to be aware, and guard against it.
+The preceding quiz demonstrated how easy it is for dataminers to cheat, and conceal the traces of what they’ve done. The problem was to classify tweets as positive and negative, and an appropriate dataset was supplied. It’s hard to improve much on the baseline accuracy of 50%. Multinomial Naive Bayes achieves 64%, and ZeroR and OneR get 50% and 52% respectively (using cross-validation  throughout). The scenario envisaged a corrupt data miner, encouraged to improve upon 64% under pressure from his boss and seduced by lucrative bonuses.
+If you completed the Quiz, you ended up with a manipulated dataset of exactly the same size on which ZeroR and OneR perform the same as before, but Multinomial Naive Bayes scores a substantially higher success rate of 84%.
+Will this fool his boss? Probably. The dataset size and ZeroR and OneR baseline checks provide strong evidence that the dataset is unchanged. (However, if the boss were to sort it he might notice many duplicates, because of how the Resample filter was used. If our anti-hero had anticipated this, could you advise him how this flaw might be overcome?)
+Last week also contained a discussion on cheating.
+What I invite you to do now is contribute your thoughts on the kind of cheating discussed last week and what we saw in the preceding Quiz. Similarities and differences? Which is likely to be more dangerous?

@@ -1,0 +1,3 @@
+Multilayer perceptrons
+Multilayer perceptrons are networks of perceptrons, networks of linear classifiers. In fact, they can implement arbitrary decision boundaries using “hidden layers”. Weka has a graphical interface that lets you create your own network structure with as many perceptrons and connections as you like. A quick test showed that a multilayer perceptron with one hidden layer gave better results than other methods on two out of six data sets – not too bad. But it was 10–2000 times slower than other methods, which is a bit of a disadvantage.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

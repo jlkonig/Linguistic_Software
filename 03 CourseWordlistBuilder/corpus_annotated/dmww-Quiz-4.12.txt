@@ -1,0 +1,71 @@
+Decision/NN/decision/2 boundaries/NNS/boundary/3 and/CC/and/1 overfitting/VBG/overfitting/0 
+Question/NN/question/1 1/CD/1/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 following/JJ/follow/1 machine/NN/machine/1 learning/VBG/learn/1 methods/NNS/method/3 produce/VBP/produce/2 decision/NN/decision/2 boundaries/NNS/boundary/3 that/WDT/that/1 are/VBP/be/1 strictly/RB/strict/3 linear/JJ/linear/4 ?/./?/0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+Logistic/JJ/logistics/6 regression/NN/regress/4 
+OneR/NN/oner/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Logistic/JJ/logistics/6 regression/NN/regress/4 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Logistic/JJ/logistics/6 regression/NN/regress/4 is/VBZ/be/1 a/DT/a/1 sophisticated/JJ/sophisticated/3 way/NN/way/1 of/IN/of/1 choosing/VBG/choose/1 a/DT/a/1 linear/JJ/linear/4 decision/NN/decision/2 boundary/NN/boundary/3 for/IN/for/1 classification/NN/classification/4 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+For/IN/for/1 just/RB/just/1 two/CD/two/1 classes/NNS/class/1 nearest-neighbor/JJ/nearest-neighbor/0 learning/JJ/learn/1 produces/NNS/produce/2 linear/JJ/linear/4 boundaries/NNS/boundary/3 ,/,/,/0 but/CC/but/1 in/IN/in/1 general/JJ/general/1 they/PRP/they/1 are/VBP/be/1 more/RBR/more/1 complex/JJ/complex/3 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 following/JJ/follow/1 machine/NN/machine/1 learning/VBG/learn/1 methods/NNS/method/3 produce/VBP/produce/2 decision/NN/decision/2 boundaries/NNS/boundary/3 that/IN/that/1 consist/NN/consist/3 of/IN/of/1 axis-parallel/JJ/axis-parallel/0 segments/NNS/segment/3 ?/./?/0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+Logistic/JJ/logistics/6 regression/NN/regress/4 
+SMO/NNP/smo/0 (/(/(/0 Support/NNP/support/1 vector/NNP/vector/6 machines/NNS/machine/1 )/)/)/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+J48/NN/j48/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yep/NN/yes/1 ./././0 The/DT/the/1 decision/NN/decision/2 boundary/NN/boundary/3 for/IN/for/1 a/DT/a/1 test/NN/test/1 like/IN/like/1 “/NN/“/0 is/VBZ/be/1 attribute/IN/attribute/3 a/DT/a/1 </JJ/</0 some/DT/some/1 number/NN/number/1 ”/NNP/”/0 is/VBZ/be/1 a/DT/a/1 line/NN/line/1 (/(/(/0 or/CC/or/1 hyperplane/NN/hyperplane/0 )/)/)/0 that/WDT/that/1 ’/VBP/’/0 s/JJ/be/1 perpendicular/NN/perpendicular/9 to/TO/to/1 the/DT/the/1 a/DT/a/1 axis/NN/axis/5 and/CC/and/1 parallel/NN/parallel/3 to/TO/to/1 all/PDT/all/1 the/DT/the/1 other/JJ/other/1 axes/NNS/axe/4 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Which/WDT/which/1 of/IN/of/1 the/DT/the/1 following/JJ/follow/1 machine/NN/machine/1 learning/VBG/learn/1 methods/NNS/method/3 produce/VBP/produce/2 decision/NN/decision/2 boundaries/NNS/boundary/3 that/WDT/that/1 are/VBP/be/1 piecewise/JJ/piecewise/0 linear/JJ/linear/4 (/(/(/0 and/CC/and/1 not/RB/not/1 necessarily/RB/necessary/1 linear/VB/linear/4 or/CC/or/1 axis-parallel/VB/axis-parallel/0 )/)/)/0 ?/./?/0 
+IBk/NN/ibk/0 
+J48/NN/j48/0 
+Logistic/JJ/logistics/6 regression/NN/regress/4 
+OneR/NN/oner/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+IBk/NN/ibk/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yep/NN/yes/1 ./././0 The/DT/the/1 decision/NN/decision/2 boundaries/NNS/boundary/3 for/IN/for/1 IBk/NNP/ibk/0 are/VBP/be/1 collections/NNS/collect/1 of/IN/of/1 lines/NNS/line/1 (/(/(/0 or/CC/or/1 hyperplanes/NNS/hyperplanes/0 )/)/)/0 that/WDT/that/1 are/VBP/be/1 the/DT/the/1 perpendicular/JJ/perpendicular/9 bisectors/NNS/bisectors/0 of/IN/of/1 the/DT/the/1 lines/NNS/line/1 joining/VBG/join/1 every/DT/every/1 pair/NN/pair/1 of/IN/of/1 training/VBG/train/1 data/NNS/data/3 points/NNS/point/1 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Open/VB/open/1 the/DT/the/1 credit-g.arff/JJ/credit-g.arff/0 dataset/NN/dataset/0 ,/,/,/0 run/VB/run/1 the/DT/the/1 four/CD/four/1 algorithms/NN/algorithm/5 IBk/NNP/ibk/0 ,/,/,/0 J48/NNP/j48/0 ,/,/,/0 Logistic/NNP/logistics/6 ,/,/,/0 and/CC/and/1 SMO/NNP/smo/0 ,/,/,/0 and/CC/and/1 record/VB/record/1 the/DT/the/1 accuracy/NN/accurate/3 using/VBG/use/1 10-fold/JJ/10-fold/0 cross-validation/NN/cross-validation/0 ./././0 What/WP/what/1 order/NN/order/1 do/VBP/do/1 the/DT/the/1 algorithms/NN/algorithm/5 come/NN/come/1 in/IN/in/1 ?/./?/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 5/CD/5/0 
+As/IN/as/1 you/PRP/you/1 know/VBP/know/1 ,/,/,/0 performance/NN/perform/2 estimates/NNS/estimate/3 obtained/VBN/obtain/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 are/VBP/be/1 overly/RB/over/1 optimistic/JJ/optimist/4 because/IN/because/1 of/IN/of/1 overfitting/VBG/overfitting/0 ./././0 Just/NNP/just/1 how/WRB/how/1 badly/RB/bad/1 an/DT/a/1 algorithm/JJ/algorithm/5 overfits/NNS/overfits/0 can/MD/can/1 be/VB/be/1 judged/VBN/judge/1 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 the/DT/the/1 apparent/JJ/apparent/1 (/(/(/0 but/CC/but/1 illusory/NN/illusory/9 )/)/)/0 performance/NN/perform/2 improvement/NN/improve/2 from/IN/from/1 cross-validation/NN/cross-validation/0 to/TO/to/1 training-set/JJ/training-set/0 evaluation/NN/evaluate/3 ./././0 Given/VB/give/1 what/WP/what/1 you/PRP/you/1 know/VBP/know/1 about/IN/about/1 how/WRB/how/1 they/PRP/they/1 operate/VBP/operate/2 ,/,/,/0 order/NN/order/1 these/DT/this/1 four/CD/four/1 algorithms/NN/algorithm/5 according/VBG/according/2 to/TO/to/1 the/DT/the/1 expected/JJ/expect/1 amount/NN/amount/1 of/IN/of/1 overfitting/VBG/overfitting/0 ,/,/,/0 from/IN/from/1 greatest/JJS/great/1 to/TO/to/1 least/VB/least/1 ./././0 Then/RB/then/1 confirm/VB/confirm/3 your/PRP$/you/1 intuition/NN/intuition/6 with/IN/with/1 a/DT/a/1 Weka/NNP/weka/23 experiment/NN/experiment/3 using/VBG/use/1 the/DT/the/1 credit-g.arff/JJ/credit-g.arff/0 dataset/NN/dataset/0 ./././0 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 comparable/JJ/compare/2 to/TO/to/1 Logistic/VB/logistics/6 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 Logistic/NNP/logistics/6 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 
+Logistic/JJ/logistics/6 overfits/NNS/overfits/0 more/JJR/more/1 than/IN/than/1 IBk/NNP/ibk/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NN/smo/0 
+J48/NNP/j48/0 is/VBZ/be/1 comparable/JJ/compare/2 to/TO/to/1 Logistic/NNP/logistics/6 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 IBk/NNP/ibk/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 5/CD/5/0 
+As/IN/as/1 you/PRP/you/1 know/VBP/know/1 ,/,/,/0 performance/NN/perform/2 estimates/NNS/estimate/3 obtained/VBN/obtain/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/VBN/set/1 are/VBP/be/1 overly/RB/over/1 optimistic/JJ/optimist/4 because/IN/because/1 of/IN/of/1 overfitting/VBG/overfitting/0 ./././0 Just/NNP/just/1 how/WRB/how/1 badly/RB/bad/1 an/DT/a/1 algorithm/JJ/algorithm/5 overfits/NNS/overfits/0 can/MD/can/1 be/VB/be/1 judged/VBN/judge/1 in/IN/in/1 terms/NNS/term/1 of/IN/of/1 the/DT/the/1 apparent/JJ/apparent/1 (/(/(/0 but/CC/but/1 illusory/NN/illusory/9 )/)/)/0 performance/NN/perform/2 improvement/NN/improve/2 from/IN/from/1 cross-validation/NN/cross-validation/0 to/TO/to/1 training-set/JJ/training-set/0 evaluation/NN/evaluate/3 ./././0 Given/VB/give/1 what/WP/what/1 you/PRP/you/1 know/VBP/know/1 about/IN/about/1 how/WRB/how/1 they/PRP/they/1 operate/VBP/operate/2 ,/,/,/0 order/NN/order/1 these/DT/this/1 four/CD/four/1 algorithms/NN/algorithm/5 according/VBG/according/2 to/TO/to/1 the/DT/the/1 expected/JJ/expect/1 amount/NN/amount/1 of/IN/of/1 overfitting/VBG/overfitting/0 ,/,/,/0 from/IN/from/1 greatest/JJS/great/1 to/TO/to/1 least/VB/least/1 ./././0 Then/RB/then/1 confirm/VB/confirm/3 your/PRP$/you/1 intuition/NN/intuition/6 with/IN/with/1 a/DT/a/1 Weka/NNP/weka/23 experiment/NN/experiment/3 using/VBG/use/1 the/DT/the/1 credit-g.arff/JJ/credit-g.arff/0 dataset/NN/dataset/0 ./././0 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 comparable/JJ/compare/2 to/TO/to/1 Logistic/VB/logistics/6 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 Logistic/NNP/logistics/6 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 
+Logistic/JJ/logistics/6 overfits/NNS/overfits/0 more/JJR/more/1 than/IN/than/1 IBk/NNP/ibk/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NN/smo/0 
+J48/NNP/j48/0 is/VBZ/be/1 comparable/JJ/compare/2 to/TO/to/1 Logistic/NNP/logistics/6 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 IBk/NNP/ibk/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 J48/NNP/j48/0 ,/,/,/0 which/WDT/which/1 overfits/VBZ/overfits/0 more/JJR/more/1 than/IN/than/1 SMO/NNP/smo/0 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 comparable/JJ/compare/2 to/TO/to/1 Logistic/VB/logistics/6 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+IBk/NNP/ibk/0 overfits/VBZ/overfits/0 dramatically/RB/drama/2 :/:/:/0 it/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 100/CD/100/0 %/NN/%/0 accurate/NN/accurate/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/NN/set/1 (/(/(/0 barring/VBG/bar/1 duplicate/NN/duplicate/5 training/NN/train/1 points/NNS/point/1 with/IN/with/1 different/JJ/different/1 classes/NNS/class/1 )/)/)/0 !/./!/0 J48/NNP/j48/0 can/MD/can/1 overfit/VB/overfit/0 because/IN/because/1 of/IN/of/1 the/DT/the/1 complex/JJ/complex/3 decision/NN/decision/2 boundaries/NNS/boundary/3 it/PRP/it/1 can/MD/can/1 produce/VB/produce/2 ;/:/;/0 the/DT/the/1 effect/NN/effect/2 is/VBZ/be/1 ameliorated/VBN/ameliorate/9 ,/,/,/0 but/CC/but/1 rarely/RB/rare/2 completely/RB/complete/1 eliminated/VBN/eliminate/3 ,/,/,/0 by/IN/by/1 its/PRP$/it/1 pruning/NN/prune/6 algorithm/NN/algorithm/5 ./././0 With/IN/with/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 J48/NNP/j48/0 ’/NNP/’/0 s/VBD/be/1 apparent/JJ/apparent/1 accuracy/NN/accurate/3 improves/VBZ/improve/2 from/IN/from/1 70.5/CD/70.5/0 %/NN/%/0 to/TO/to/1 85.5/CD/85.5/0 %/NN/%/0 ./././0 Logistic/JJ/logistics/6 regression/NN/regress/4 is/VBZ/be/1 a/DT/a/1 sophisticated/JJ/sophisticated/3 way/NN/way/1 of/IN/of/1 producing/VBG/produce/2 a/DT/a/1 good/JJ/good/1 linear/JJ/linear/4 decision/NN/decision/2 boundary/NN/boundary/3 ,/,/,/0 which/WDT/which/1 is/VBZ/be/1 necessarily/RB/necessary/1 simple/JJ/simple/1 and/CC/and/1 therefore/RB/therefore/2 less/RBR/less/1 likely/JJ/likely/2 to/TO/to/1 overfit/VB/overfit/0 ;/:/;/0 here/RB/here/1 its/PRP$/it/1 apparent/JJ/apparent/1 performance/NN/perform/2 increases/NNS/increase/2 just/RB/just/1 a/DT/a/1 little/JJ/little/1 ,/,/,/0 from/IN/from/1 75.5/CD/75.5/0 %/NN/%/0 to/TO/to/1 78.6/CD/78.6/0 %/NN/%/0 ./././0 SMO/NNP/smo/0 also/RB/also/1 produces/VBZ/produce/2 a/DT/a/1 linear/JJ/linear/4 boundary/NN/boundary/3 ,/,/,/0 and/CC/and/1 accuracy/NN/accurate/3 increases/NNS/increase/2 from/IN/from/1 75.1/CD/75.1/0 %/NN/%/0 to/TO/to/1 78.4/CD/78.4/0 %/NN/%/0 ./././0 
+
+

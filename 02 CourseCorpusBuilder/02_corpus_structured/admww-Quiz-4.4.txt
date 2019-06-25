@@ -1,0 +1,51 @@
+Learning about Spark and Hadoop 
+Question 1
+Where did Spark and Hadoop originate?
+Select all the answers you think are correct.
+Spark: Cambridge, UK
+Spark: Google
+Spark: MIT
+Spark: University of California, Berkeley
+Spark: Yahoo
+Hadoop: Cambridge, UK
+Hadoop: Google
+Hadoop: MIT
+Hadoop: University of California, Berkeley
+Hadoop: Yahoo
+---
+Correct answer(s):
+Spark: University of California, Berkeley
+Hadoop: Yahoo
+
+Question 2
+The development of Hadoop was inspired by …
+Yahoo MPPF and Datashard
+The lack of open source distributed processing frameworks
+Google MapReduce and Bigtable
+---
+Correct answer(s):
+The lack of open source distributed processing frameworks
+
+Question 3
+What is one major advantage of the Spark framework over Hadoop?
+(Hint: search the internet for comparisons between Spark and Hadoop.)
+Spark was designed specifically for machine learning, whereas Hadoop was not.
+Spark has a far higher coefficient of coolness than Hadoop.
+Spark has the advantage of being able to run on embedded low power devices.
+Spark keeps data in memory whereas Hadoop does not.
+---
+Correct answer(s):
+Spark keeps data in memory whereas Hadoop does not.
+---
+Feedback correct:
+Spark’s Resilient Distributed Dataset (RDD) concept keeps data in memory and allows for faster computation, especially for iterative tasks.
+
+Question 3
+What is one major advantage of the Spark framework over Hadoop?
+(Hint: search the internet for comparisons between Spark and Hadoop.)
+Spark was designed specifically for machine learning, whereas Hadoop was not.
+Spark has a far higher coefficient of coolness than Hadoop.
+Spark has the advantage of being able to run on embedded low power devices.
+Spark keeps data in memory whereas Hadoop does not.
+---
+Correct answer(s):

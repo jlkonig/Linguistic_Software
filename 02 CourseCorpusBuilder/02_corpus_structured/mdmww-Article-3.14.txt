@@ -1,0 +1,46 @@
+Here's what I did
+The top 10 rules involve total = high and predict bread-and-cake, supported by 723 transactions.
+  They all have a consequent of “bread and cake”
+  They all indicate a high total transaction amount
+  “biscuits” and “frozen foods” appear in many of them.
+You have to be careful about interpreting association rules. They are merely associations, not necessarily causal relations. If we are interested in total, for example, should we try to convince people who already buy biscuits, frozen foods and fruit to buy bread and cake as well? – because according to the above rule this combination tends to be associated with a high total transaction amount. This is flawed reasoning: the product combination does not cause a high total. Those 723 transactions probably include a vast assortment of other items, in addition to those mentioned in the rule.
+However, an interesting exercise might be to model the path through the store required to collect associated items and see whether changes to that path (shorter, longer, displayed offers, etc) have an effect on transaction amount or basket size.
+I continued as follows.
+  Remove the total attribute. The top 10 rules still all predict bread-and-cake, so remove bread-and-cake
+  No rules found, so reduce lowerBoundMinSupport to 0.05
+  The top 10 rules now all predict vegetables
+    The most interesting rule is
+     beef=t fruit=t potatoes=t 287 ==> vegetables=t 273 conf: 0.95
+  Remove vegetables. Now everything predicts frozen foods, so remove it
+  Only one rule resulted, so I reduced lowerBoundMinSupport further, to 0.025
+  Now the top 10 rules predict biscuits, so remove it
+    Now the top 10 rules predict baking needs, with one exception:
+     laundry needs=t wrapping=t dental needs=t prepared meals=t 132 ==> tissues-paper prd=t 125 conf:(0.95)
+  Remove baking needs. Now the top 10 rules predict tissues-paper prd, so remove it
+  The top rules now predict sauces-gravy-pkle, margarine, fruit
+Here are the resulting rules:
+1. canned vegetables=t puddings-deserts=t party snack foods=t cheese=t
+      fruit=t 126 ==> sauces-gravy-pkle=t 116 conf:(0.92)
+2. canned vegetables=t puddings-deserts=t party snack foods=t cheese=t 
+      margarine=t 134 ==> sauces-gravy-pkle=t 123 conf:(0.92)
+3. juice-sat-cord-ms=t canned vegetables=t breakfast food=t 
+      sauces-gravy-pkle=t jams-spreads=t cheese=t 131 ==> margarine=t 120 
+      conf:(0.92)
+4. juice-sat-cord-ms=t canned fruit=t canned vegetables=t milk-cream=t 
+      department137=t 141 ==> fruit=t 129 conf:(0.91)
+5. canned fruit=t canned vegetables=t sauces-gravy-pkle=t jams-spreads=t 
+      cheese=t 129 ==> margarine=t 118 conf:(0.91)
+6. canned vegetables=t confectionary=t party snack foods=t wrapping=t 
+      cheese=t 128 ==> sauces-gravy-pkle=t 117 conf:(0.91)
+7. juice-sat-cord-ms=t canned vegetables=t sauces-gravy-pkle=t 
+      jams-spreads=t party snack foods=t cheese=t 148 ==> margarine=t 135 
+      conf:(0.91)
+8. juice-sat-cord-ms=t canned vegetables=t puddings-deserts=t 
+      party snack foods=t cheese=t 133 ==> sauces-gravy-pkle=t 121 
+      conf:(0.91)
+9. canned vegetables=t breakfast food=t sauces-gravy-pkle=t jams-spreads=t 
+      party snack foods=t cheese=t 133 ==> margarine=t 121 conf:(0.91)
+10. juice-sat-cord-ms=t canned fruit=t canned vegetables=t jams-spreads=t 
+      cheese=t 128 ==> margarine=t 116 conf:(0.91)
+At this point I became bored and gave up. I’m not very interested in supermarkets. And here in New Zealand I would be very unlikely to buy canned vegetables, so none of these rules would apply to me.
+The following Discussion step invites you to share what you did with this data, along with your thoughts on market basket analysis in general.

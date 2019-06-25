@@ -1,0 +1,3 @@
+Building a classifier
+A classifier identifies an instance’s class, based on a training set of data. Weka makes it very easy to build classifiers. There are many different kinds, and here we use a scheme called “J48” (regrettably a rather obscure name, whose derivation is explained at the end of the video) that produces decision trees. You can visualize the trees in Weka to see what attributes they use and what tests they makes on them. Like all classifiers, J48 has a configuration panel in which you can set parameters that affect how it operates.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

@@ -1,0 +1,6 @@
+How/WRB/how/1 do/VB/do/1 you/PRP/you/1 access/NN/access/2 R/NNP/r/0 from/IN/from/1 Weka/NNP/weka/23 ?/./?/0 
+How/WRB/how/1 do/VB/do/1 you/PRP/you/1 access/NN/access/2 R/NNP/r/0 from/IN/from/1 Weka/NNP/weka/23 ?/./?/0 
+Well/RB/well/1 ,/,/,/0 what/WP/what/1 is/VBZ/be/1 R/NNP/r/0 anyway/RB/any/1 ?/./?/0 And/CC/and/1 why/WRB/why/1 is/VBZ/be/1 it/PRP/it/1 important/JJ/important/1 ?/./?/0 And/CC/and/1 what/WP/what/1 can/MD/can/1 you/PRP/you/1 do/VB/do/1 with/IN/with/1 it/PRP/it/1 ?/./?/0 
+Questions/NNS/question/1 abound/VBP/abound/6 ./././0 Now/RB/now/1 for/IN/for/1 the/DT/the/1 answers/NNS/answer/1 ./././0 
+
+

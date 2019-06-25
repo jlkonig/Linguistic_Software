@@ -1,0 +1,3 @@
+Visualizing your data
+For successful data mining you must “know your data”; examine it in detail in every possible way. Weka’s Visualize panel lets you look at a dataset and select different attributes – preferably numeric ones – for the x- and y-axes. Instances are shown as points, with different colors for different classes. You can sweep out a rectangle and focus the dataset on the points inside it. You can also apply a classifier and vlsualize the errors it makes by plotting the “class” against the “predicted class”.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

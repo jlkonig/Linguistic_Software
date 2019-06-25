@@ -1,0 +1,3 @@
+Evaluating 2-class classification 
+In the last lesson we encountered a two-class dataset where the accuracy on one class was high and the accuracy on the other was low. Because the first class contained an overwhelming majority of the instances, the overall accuracy looked high. But life’s not so simple. In practice, there’s a tradeoff between the two error types – a different classifier may produce higher accuracy on one class at the expense of lower accuracy on the other. We need a more subtle way of evaluating classifiers that make this tradeoff explicit. Enter the ROC curve …
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

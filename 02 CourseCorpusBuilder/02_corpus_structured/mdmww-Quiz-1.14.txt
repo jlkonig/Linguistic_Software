@@ -1,0 +1,76 @@
+Looking inside cross-validation 
+Question 1
+Among the 10 models there are two basically different structures. How many leaves do they have?
+Select all the answers you think are correct.
+4 leaves
+5 leaves
+7 leaves
+9 leaves
+---
+Correct answer(s):
+4 leaves
+5 leaves
+
+Question 2
+How many of the 10 models have five leaves?
+3
+5
+7
+9
+---
+Correct answer(s):
+7
+---
+Feedback correct:
+The models for folds 2, 3, 4, 6, 7, 9 and 10 are the ones with five leaves. (The fold number appears in brackets in the Result list.)
+
+Question 3
+The number that appears in brackets after each leaf (or the first number, if there are two) is the number of instances that reach that leaf. The total number of instances that reach a leaf is the same for each of the ten trees. What is that number of instances?
+122
+130
+135
+150
+---
+Correct answer(s):
+135
+---
+Feedback correct:
+135 is 90% of 150, the number of instances used to train each fold of the cross-validation.
+---
+Feedback incorrect:
+135 is 90% of 150, the number of instances used to train each fold of the cross-validation.
+
+Question 4
+When two numbers appear in brackets after a leaf, the second number shows how many incorrectly classified instances reach that leaf. One of the 7 models with five leaves makes fewer total misclassifications than the other 6 models. How many does it make?
+1
+2
+3
+4
+---
+Correct answer(s):
+2
+---
+Feedback correct:
+The model for fold 7 makes a total of 2 misclassifications, whereas the models for folds 2, 3, 4, 6, 9 and 10 each make a total of 3 misclassifications.
+
+Question 5
+The 3 models with four leaves (for folds 1, 5 and 8) all differ slightly from each other. How?
+They branch on different attributes.
+They branch on the same attributes but the cutoff values differ.
+They have a smaller number of class values.
+A different total number of instances reach the leaves.
+---
+Correct answer(s):
+They branch on the same attributes but the cutoff values differ.
+---
+Feedback correct:
+These models have the same structure but different cutoff values.
+
+Question 5
+The 3 models with four leaves (for folds 1, 5 and 8) all differ slightly from each other. How?
+They branch on different attributes.
+They branch on the same attributes but the cutoff values differ.
+They have a smaller number of class values.
+A different total number of instances reach the leaves.
+---
+Correct answer(s):

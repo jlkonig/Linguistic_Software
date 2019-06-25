@@ -1,0 +1,73 @@
+Using J48
+Question 1
+Use the confusion matrix to determine how many headlamps instances were misclassified as build wind float?
+1
+2
+3
+6
+7
+---
+Correct answer(s):
+3
+---
+Feedback correct:
+The build-wind-float results are in column “a” of the confusion matrix, and headlamps is in row “g”.
+Row “g” lists 3 misclassifications for column “a”.
+You may find
+1.17 Building a classifier
+useful.
+---
+Feedback incorrect:
+The build-wind-float results are in column “a” of the confusion matrix, and headlamps is in row “g”.
+
+Question 2
+Open the labor.arff dataset (which was downloaded when you installed Weka), go to the Classify panel, and run the J48 classifier (with default parameters).  What is the percentage of correctly classified instances?
+73.6842%
+73.7%
+74%
+---
+Correct answer(s):
+74%
+---
+Feedback correct:
+Weka gives the result as 73.6842 percent. However, the apparent accuracy is misleading, and it would be more realistic to round to a smaller number of significant digits, say 73.7 or – even better – 74.
+When entering answers in future we ask you to round (round, not truncate) any percentages to the nearest integer. So here, the answer would be 74%.
+
+Question 3
+Now turn pruning off in the J48 configuration panel by setting unpruned to True and run it again. What is the percentage of correctly classified instances now?
+21%
+45
+74%
+79%
+78.9474%
+---
+Correct answer(s):
+
+Question 3
+Now turn pruning off in the J48 configuration panel by setting unpruned to True and run it again. What is the percentage of correctly classified instances now?
+21%
+45
+74%
+79%
+78.9474%
+---
+Correct answer(s):
+79%
+---
+Feedback correct:
+The actual percentage is 78.9474%, but (as advised in the previous question) we will round that to 79%.
+---
+Feedback incorrect:
+That’s the percentage of incorrectly classified instances.
+---
+Feedback incorrect:
+That’s the number of correctly classified instances, not the percentage.
+---
+Feedback incorrect:
+That’s the answer for the previous question, with unpruned set to False
+You may find
+1.17 Building a classifier
+useful.
+---
+Feedback incorrect:
+It’s true that the actual percentage is 78.9474%, but (as advised in the previous question) you should round that to 79%.

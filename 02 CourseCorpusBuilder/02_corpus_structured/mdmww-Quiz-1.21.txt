@@ -1,0 +1,157 @@
+Experience the woes of big data
+Question 1
+Use the Simple CLI to train NaiveBayesUpdateable on the full covtype dataset and test it on the same set – i.e. evaluate it on the training set.
+[Hint: speed things up by using the “-v” switch]
+What is the percentage accuracy?
+65.428%
+65.435%
+65.436%
+65.536%
+---
+Correct answer(s):
+65.436%
+---
+Feedback correct:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.arff -v
+(Weka gives the result as 65.4358%)
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.arff -v
+Did you specify evaluation on the training set?
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.arff -v
+Be sure to round the answer correctly.
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.arff -v
+
+Question 2
+What is the cross-validation accuracy?
+65.427%
+65.428%
+65.436%
+65.528%
+---
+Correct answer(s):
+65.428%
+---
+Feedback correct:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.arff
+(Weka gives the result as 65.4281%)
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.arff
+Be sure to round the answer correctly.
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.arff
+Note that cross-validation is the default option for evaluation.
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable
+        -t covtype.arff
+
+Question 3
+The above figures for training-set evaluation and cross-validation are almost identical, yet in your experience cross-validation usually gives an appreciably worse result than training-set evaluation. Has this happened by chance?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+The effect of overfitting to the training data reduces as the dataset grows, particularly if there are few classes and they are approximately equally represented in the dataset.
+Moreover, NaiveBayes is a simple classifier that collects statistics independently for each attribute and does not overfit as much as, for example, a decision tree learner.
+---
+Feedback incorrect:
+Um … this is a rhetorical question!
+
+Question 4
+But wait … we haven’t really exercised Weka’s incremental operation at all! The fact that the experiment involved cross-validation means that it must have been processed non-incrementally.
+Here’s an even more advanced exercise:
+Make two datasets with 1,162,024 and 1,743,036 instances by editing the ARFF file to include two and three copies of the data respectively. I did this with the commands
+copy covtype.arff + covtype.data covtype2.arff
+copy covtype2.arff + covtype.data covtype3.arff
+Run NaiveBayesUpdateable on these two datasets, again using cross-validation. Does it work?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+Using cross-validation forces Weka to work non-incrementally, and both these files are too big for that. Weka runs out of heap space  …
+… unless you have explicitly increased the Java heap space on your system, or you have more than 8Gb of RAM – because the Java Virtual Machine generally sets the default maximum heap size to a quarter of the available RAM.
+---
+Feedback incorrect:
+… another rhetorical question!
+
+Question 5
+Re-run NaiveBayesUpdateable, this time using covtype.small.arff as a test dataset instead of cross-validation.
+[Hint: restart Weka to clear memory before running this]
+What is the classification accuracy when trained on the original 581,012-instance data file?
+58.52%
+58.56%
+58.60%
+58.61%
+---
+Correct answer(s):
+58.56%
+---
+Feedback correct:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.small.arff -v
+---
+Feedback incorrect:
+Use the command
+java weka.classifiers.bayes.NaiveBayesUpdateable 
+    -t covtype.arff -T covtype.small.arff -v
+
+Question 6
+What is the accuracy when tested on covtype.small.arff but trained on the double-size (1,162,024-instance) dataset?
+58.52%
+58.56%
+58.60%
+58.61%
+---
+Correct answer(s):
+58.60%
+
+Question 7
+What is the accuracy when tested on covtype.small.arff but trained on the triple-size (1,743,036-instance) dataset?
+58.52%
+58.56%
+58.60%
+58.61%
+---
+Correct answer(s):
+
+Question 7
+What is the accuracy when tested on covtype.small.arff but trained on the triple-size (1,743,036-instance) dataset?
+58.52%
+58.56%
+58.60%
+58.61%
+---
+Correct answer(s):
+58.61%
+---
+Feedback correct:
+Note: this dataset is too large to be loaded into the Explorer, but can easily be processed in the Simple CLI if everything works incrementally.

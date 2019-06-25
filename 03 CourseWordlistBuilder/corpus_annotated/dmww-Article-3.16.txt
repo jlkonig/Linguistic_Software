@@ -1,0 +1,50 @@
+Index/NN/index/3 
+(/(/(/0 A/DT/a/1 full/JJ/full/1 index/NN/index/3 to/TO/to/1 the/DT/the/1 course/NN/course/1 appears/VBZ/appear/1 at/IN/at/1 the/DT/the/1 end/NN/end/1 of/IN/of/1 Week/JJ/week/1 1/CD/1/0 ./././0 )/)/)/0 
+Topic/NN/topic/2 
+Step/NN/step/1 
+Datasets/NNS/datasets/0 
+Breast-cancer/NN/breast-cancer/0 
+3.11/CD/3.11/0 ,/,/,/0 3.12/CD/3.12/0 ,/,/,/0 3.14/CD/3.14/0 
+Diabetes/NNS/diabetes/4 
+3.4/CD/3.4/0 
+Glass/NN/glass/1 
+3.5/CD/3.5/0 ,/,/,/0 3.13/CD/3.13/0 ,/,/,/0 3.14/CD/3.14/0 
+Iris/NN/iris/8 
+3.3/CD/3.3/0 
+Weather/NN/weather/1 
+3.2/CD/3.2/0 ,/,/,/0 3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 ,/,/,/0 3.6/CD/3.6/0 ,/,/,/0 3.9/CD/3.9/0 ,/,/,/0 3.11/CD/3.11/0 
+Classifiers/NNS/classifier/0 
+IBk/NN/ibk/0 
+3.13/CD/3.13/0 ,/,/,/0 3.14/CD/3.14/0 
+J48/NN/j48/0 
+3.9/CD/3.9/0 ,/,/,/0 3.10/CD/3.10/0 ,/,/,/0 3.11/CD/3.11/0 ,/,/,/0 3.12/CD/3.12/0 
+NaiveBayes/NNS/naivebayes/0 
+3.6/CD/3.6/0 ,/,/,/0 3.7/CD/3.7/0 
+OneR/NN/oner/0 
+3.2/CD/3.2/0 ,/,/,/0 3.3/CD/3.3/0 ,/,/,/0 3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 
+Filters/NNS/filter/3 
+AddNoise/NN/addnoise/0 
+3.14/CD/3.14/0 
+Copy/NN/copy/2 
+3.7/CD/3.7/0 
+Plus/CC/plus/1 …/VB/…/0 
+Baseline/NNP/baseline/0 accuracy/NN/accurate/3 
+3.3/CD/3.3/0 
+Bayes/NNP/bayes/0 theorem/NN/theorem/8 
+3.6/CD/3.6/0 
+Classify/NNP/classify/4 panel/NN/panel/3 “/VBZ/“/0 More/JJR/more/1 options/NNS/option/2 ”/VBP/”/0 
+3.10/CD/3.10/0 
+Decision/NN/decision/2 trees/NNS/tree/1 
+3.9/CD/3.9/0 ,/,/,/0 3.10/CD/3.10/0 ,/,/,/0 3.11/CD/3.11/0 
+Information/NN/inform/1 gain/NN/gain/2 
+3.9/CD/3.9/0 
+Output/NNP/output/3 model/NN/model/2 
+3.10/CD/3.10/0 
+Output/NNP/output/3 predictions/NNS/predict/3 
+3.10/CD/3.10/0 
+Overfitting/VBG/overfitting/0 
+3.4/CD/3.4/0 ,/,/,/0 3.5/CD/3.5/0 
+Visualize/NNP/visual/3 predictions/NNS/predict/3 
+3.10/CD/3.10/0 
+
+

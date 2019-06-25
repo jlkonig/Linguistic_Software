@@ -1,0 +1,60 @@
+Putting/VBG/put/1 it/PRP/it/1 all/DT/all/1 together/RB/together/1 
+What/WP/what/1 else/RB/else/1 is/VBZ/be/1 there/RB/there/1 to/TO/to/1 know/VB/know/1 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+5.1/CD/5.1/0 
+What/WP/what/1 else/RB/else/1 is/VBZ/be/1 there/RB/there/1 to/TO/to/1 know/VB/know/1 ?/./?/0 
+article/NN/article/2 
+The/DT/the/1 data/NN/data/3 mining/NN/miner/3 process/NN/process/2 
+Producing/VBG/produce/2 classifiers/NNS/classifier/0 is/VBZ/be/1 just/RB/just/1 a/DT/a/1 small/JJ/small/1 part/NN/part/1 of/IN/of/1 the/DT/the/1 overall/JJ/overall/3 data/NNS/data/3 mining/NN/miner/3 process/NN/process/2 –/NNP/–/0 perhaps/RB/perhaps/1 the/DT/the/1 easiest/JJS/easy/1 part/NN/part/1 !/./!/0 Other/JJ/other/1 parts/NNS/part/1 involve/VBP/involve/1 formulating/VBG/formula/3 the/DT/the/1 question/NN/question/1 ,/,/,/0 gathering/VBG/gather/2 data/NNS/data/3 ,/,/,/0 cleaning/VBG/clean/1 it/PRP/it/1 ,/,/,/0 defining/VBG/define/3 new/JJ/new/1 features/NNS/feature/2 ,/,/,/0 and/CC/and/1 deploying/VBG/deploy/4 the/DT/the/1 result/NN/result/2 ./././0 
+5.2/CD/5.2/0 
+The/DT/the/1 data/NN/data/3 mining/NN/miner/3 process/NN/process/2 
+video/NN/video/1 (/(/(/0 06:22/CD/06:22/0 )/)/)/0 
+5.3/CD/5.3/0 
+Outliers/NNS/outlying/9 
+quiz/NN/quiz/6 
+Pitfalls/NNS/pitfall/7 and/CC/and/1 pratfalls/NNS/pratfall/0 
+Be/NNP/be/1 skeptical/JJ/sceptic/4 ,/,/,/0 and/CC/and/1 particularly/RB/particular/1 wary/JJ/wary/5 of/IN/of/1 overfitting/VBG/overfitting/0 ./././0 Missing/VBG/miss/1 values/NNS/value/2 can/MD/can/1 signify/VB/signify/5 various/JJ/various/2 things/NNS/thing/1 ;/:/;/0 classifiers/NNS/classifier/0 treat/VBP/treat/1 them/PRP/they/1 differently/RB/different/1 ./././0 There/EX/there/1 ’/JJ/’/0 s/NN/be/1 no/DT/no/1 single/JJ/single/1 ``/``/``/0 best/JJS/best/1 learner/NN/learn/1 ''/''/''/0 ;/:/;/0 all/DT/all/1 methods/NNS/method/3 have/VBP/have/1 biases/NNS/bias/3 ./././0 Data/NNP/data/3 mining/NN/miner/3 is/VBZ/be/1 an/DT/a/1 experimental/JJ/experiment/3 science/NN/science/1 !/./!/0 
+5.4/CD/5.4/0 
+Pitfalls/NNS/pitfall/7 and/CC/and/1 pratfalls/NNS/pratfall/0 
+video/NN/video/1 (/(/(/0 09:13/CD/09:13/0 )/)/)/0 
+5.5/CD/5.5/0 
+Missing/VBG/miss/1 values/NNS/value/2 
+quiz/NN/quiz/6 
+Data/NNP/data/3 mining/NN/miner/3 and/CC/and/1 ethics/NNS/ethics/4 
+It/PRP/it/1 ’/VBZ/’/0 s/JJ/be/1 far/RB/far/1 harder/JJR/hard/1 to/TO/to/1 anonymize/VB/anonymize/0 data/NNS/data/3 than/IN/than/1 you/PRP/you/1 think/VBP/think/1 !/./!/0 The/DT/the/1 purpose/NN/purpose/2 of/IN/of/1 data/NNS/data/3 mining/NN/miner/3 is/VBZ/be/1 to/TO/to/1 discriminate/VB/discriminate/3 ,/,/,/0 but/CC/but/1 some/DT/some/1 kinds/NNS/kind/1 of/IN/of/1 discrimination/NN/discriminate/3 are/VBP/be/1 unethical/JJ/ethical/4 ,/,/,/0 and/CC/and/1 illegal/JJ/legal/2 ./././0 Data/NNP/data/3 mining/NN/miner/3 discovers/NNS/discover/1 correlations/NNS/correlate/3 ,/,/,/0 but/CC/but/1 these/DT/this/1 do/VBP/do/1 not/RB/not/1 imply/VB/imply/3 causation/NN/cause/1 ./././0 
+5.6/CD/5.6/0 
+Data/NNP/data/3 mining/NN/miner/3 and/CC/and/1 ethics/NNS/ethics/4 
+video/NN/video/1 (/(/(/0 06:40/CD/06:40/0 )/)/)/0 
+5.7/CD/5.7/0 
+Correlation/NN/correlate/3 ,/,/,/0 causation/NN/cause/1 ,/,/,/0 and/CC/and/1 reidentification/NN/reidentification/0 
+quiz/NN/quiz/6 
+There/EX/there/1 's/VBZ/be/1 no/DT/no/1 magic/NN/magic/2 in/IN/in/1 data/NNS/data/3 mining/NN/miner/3 
+There/EX/there/1 ’/NNP/’/0 s/VBD/be/1 no/DT/no/1 magic/NN/magic/2 in/IN/in/1 data/NNS/data/3 mining/NN/miner/3 !/./!/0 –/NN/–/0 in/IN/in/1 fact/NN/fact/1 ,/,/,/0 perhaps/RB/perhaps/1 Weka/NNP/weka/23 makes/VBZ/make/1 things/NNS/thing/1 too/RB/too/1 easy/JJ/easy/1 ./././0 You/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 lots/NNS/lot/1 ,/,/,/0 but/CC/but/1 don/VBZ/do/1 ’/JJ/’/0 t/NN/not/1 be/VB/be/1 smug/VBN/smug/7 :/:/:/0 this/DT/this/1 course/NN/course/1 has/VBZ/have/1 missed/VBN/miss/1 out/RP/out/1 plenty/NN/plenty/1 ./././0 And/CC/and/1 you/PRP/you/1 've/VBP/have/1 learned/VBN/learn/1 a/DT/a/1 powerful/JJ/power/1 technology/NN/technology/2 :/:/:/0 please/NN/please/1 use/VB/use/1 it/PRP/it/1 wisely/RB/wise/2 ./././0 
+5.8/CD/5.8/0 
+Summary/JJ/summary/3 
+video/NN/video/1 (/(/(/0 06:04/CD/06:04/0 )/)/)/0 
+5.9/CD/5.9/0 
+What/WP/what/1 classifiers/NNS/classifier/0 do/VBP/do/1 
+quiz/NN/quiz/6 
+5.10/CD/5.10/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+Farewell/NN/farewell/5 
+It/PRP/it/1 's/VBZ/be/1 time/NN/time/1 to/TO/to/1 say/VB/say/1 goodbye/NN/goodbye/1 ./././0 
+5.11/CD/5.11/0 
+Post-course/JJ/post-course/0 assessment/NN/assess/3 
+test/NN/test/1 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 test/NN/test/1 step/NN/step/1 ,/,/,/0 it/PRP/it/1 helps/VBZ/help/1 you/PRP/you/1 verify/VB/verify/4 your/PRP$/you/1 understanding/NN/understand/1 ./././0 If/IN/if/1 you/PRP/you/1 want/VBP/want/1 to/TO/to/1 earn/VB/earn/2 a/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 on/IN/on/1 this/DT/this/1 course/NN/course/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 complete/VB/complete/1 this/DT/this/1 test/NN/test/1 and/CC/and/1 any/DT/any/1 others/NNS/other/1 ,/,/,/0 scoring/VBG/score/2 an/DT/a/1 average/NN/average/2 of/IN/of/1 70/CD/70/0 %/NN/%/0 or/CC/or/1 above/NN/above/1 ./././0 
+To/TO/to/1 take/VB/take/1 tests/NNS/test/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 upgrade/VB/upgrade/4 this/DT/this/1 course/NN/course/1 ./././0 It/PRP/it/1 costs/VBZ/cost/1 $/$/$/0 94/CD/94/0 ,/,/,/0 which/WDT/which/1 also/RB/also/1 gets/VBZ/get/1 you/PRP/you/1 :/:/:/0 
+Unlimited/JJ/limit/2 access/NN/access/2 to/TO/to/1 the/DT/the/1 course/NN/course/1 for/IN/for/1 as/RB/as/1 long/RB/long/1 as/IN/as/1 it/PRP/it/1 exists/VBZ/exist/2 on/IN/on/1 FutureLearn/NNP/futurelearn/0 ,/,/,/0 so/IN/so/1 you/PRP/you/1 can/MD/can/1 learn/VB/learn/1 at/IN/at/1 your/PRP$/you/1 own/JJ/own/1 pace/NN/pace/3 
+A/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 when/WRB/when/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 eligible/JJ/eligible/4 ,/,/,/0 to/TO/to/1 prove/VB/prove/2 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 
+Upgrade/NN/upgrade/4 
+Find/VB/find/1 out/RP/out/1 more/JJR/more/1 
+5.12/CD/5.12/0 
+Farewell/NN/farewell/5 
+article/NN/article/2 
+5.13/CD/5.13/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

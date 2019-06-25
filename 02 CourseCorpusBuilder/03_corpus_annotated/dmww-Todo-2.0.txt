@@ -1,0 +1,88 @@
+Evaluation/NN/evaluate/3 
+How/WRB/how/1 do/VBP/do/1 I/PRP/i/1 evaluate/VB/evaluate/3 a/DT/a/1 classifier/JJR/classifier/0 ’/JJ/’/0 s/NN/be/1 performance/NN/perform/2 ?/./?/0 
+This/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 !/./!/0 
+2.1/CD/2.1/0 
+How/WRB/how/1 do/VBP/do/1 I/PRP/i/1 evaluate/VB/evaluate/3 a/DT/a/1 classifier/NN/classifier/0 's/POS/be/1 performance/NN/perform/2 ?/./?/0 
+article/NN/article/2 
+Be/VB/be/1 a/DT/a/1 classifier/NN/classifier/0 !/./!/0 
+WEKA/NNP/weka/23 incorporates/VBZ/incorporate/3 many/JJ/many/1 different/JJ/different/1 classification/NN/classification/4 algorithms/NN/algorithm/5 ./././0 One/CD/one/1 ,/,/,/0 called/VBD/call/1 the/DT/the/1 “/NNP/“/0 UserClassifier/NNP/userclassifier/0 ,/,/,/0 ”/NNP/”/0 enables/VBZ/enable/3 you/PRP/you/1 to/TO/to/1 build/VB/build/1 your/PRP$/you/1 own/JJ/own/1 decision/NN/decision/2 tree/NN/tree/1 for/IN/for/1 classification/NN/classification/4 ./././0 How/WRB/how/1 well/RB/well/1 can/MD/can/1 you/PRP/you/1 do/VB/do/1 ?/./?/0 It/PRP/it/1 ’/VBZ/’/0 s/PRP/be/1 a/DT/a/1 challenge/NN/challenge/2 !/./!/0 
+2.2/CD/2.2/0 
+Extending/VBG/extend/2 Weka/NNP/weka/23 with/IN/with/1 ``/``/``/0 packages/NNS/pack/1 ''/''/''/0 
+article/NN/article/2 
+2.3/CD/2.3/0 
+What/WP/what/1 could/MD/could/1 possibly/RB/possible/1 go/VB/go/1 wrong/JJ/wrong/1 ?/./?/0 
+discussion/NN/discuss/2 
+2.4/CD/2.4/0 
+Be/VB/be/1 a/DT/a/1 classifier/NN/classifier/0 !/./!/0 
+video/NN/video/1 (/(/(/0 08:52/CD/08:52/0 )/)/)/0 
+2.5/CD/2.5/0 
+Build/VB/build/1 your/PRP$/you/1 own/JJ/own/1 classifier/NN/classifier/0 
+quiz/NN/quiz/6 
+2.6/CD/2.6/0 
+How/WRB/how/1 well/RB/well/1 did/VBD/do/1 you/PRP/you/1 do/VB/do/1 ?/./?/0 
+discussion/NN/discuss/2 
+Training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+Evaluating/VBG/evaluate/3 what/WP/what/1 has/VBZ/have/1 been/VBN/be/1 learned/VBN/learn/1 is/VBZ/be/1 an/DT/a/1 essential/JJ/essential/3 part/NN/part/1 of/IN/of/1 data/NN/data/3 mining/NN/miner/3 ./././0 You/PRP/you/1 should/MD/should/1 never/RB/never/1 evaluate/VB/evaluate/3 on/IN/on/1 the/DT/the/1 training/NN/train/1 set/NN/set/1 !/./!/0 –/VBZ/–/0 the/DT/the/1 results/NNS/result/2 will/MD/will/1 be/VB/be/1 overly/RB/over/1 optimistic/JJ/optimist/4 ./././0 If/IN/if/1 you/PRP/you/1 have/VBP/have/1 a/DT/a/1 single/JJ/single/1 dataset/NN/dataset/0 ,/,/,/0 hold/VBP/hold/1 some/DT/some/1 data/NNS/data/3 back/RB/back/1 for/IN/for/1 testing/VBG/test/1 ./././0 
+2.7/CD/2.7/0 
+Training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+video/NN/video/1 (/(/(/0 04:56/CD/04:56/0 )/)/)/0 
+2.8/CD/2.8/0 
+Partitioning/VBG/partition/6 datasets/NNS/datasets/0 for/IN/for/1 training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+quiz/NN/quiz/6 
+Repeated/VBN/repeat/2 training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+Ideally/RB/ideal/3 ,/,/,/0 training/NN/train/1 and/CC/and/1 test/NN/test/1 sets/NNS/set/1 are/VBP/be/1 sampled/VBN/sample/3 independently/RB/independent/3 from/IN/from/1 a/DT/a/1 large/JJ/large/1 population/NN/population/2 ./././0 Different/JJ/different/1 samples/NNS/sample/3 give/VBP/give/1 slightly/RB/slight/1 different/JJ/different/1 performance/NN/perform/2 estimates/NNS/estimate/3 ./././0 More/RBR/more/1 reliable/JJ/rely/2 results/NNS/result/2 are/VBP/be/1 obtained/VBN/obtain/3 by/IN/by/1 averaging/VBG/average/2 over/IN/over/1 several/JJ/several/1 experimental/JJ/experiment/3 runs/NNS/run/1 ./././0 
+2.9/CD/2.9/0 
+Repeated/VBN/repeat/2 training/NN/train/1 and/CC/and/1 testing/VBG/test/1 
+video/NN/video/1 (/(/(/0 05:54/CD/05:54/0 )/)/)/0 
+2.10/CD/2.10/0 
+Growing/VBG/grow/1 random/JJ/random/3 numbers/NNS/number/1 from/IN/from/1 seeds/NNS/seed/2 
+article/NN/article/2 
+2.11/CD/2.11/0 
+Realistic/JJ/real/1 performance/NN/perform/2 estimates/NNS/estimate/3 
+quiz/NN/quiz/6 
+Baseline/NNP/baseline/0 accuracy/NN/accurate/3 
+How/WRB/how/1 do/VB/do/1 you/PRP/you/1 know/VB/know/1 how/WRB/how/1 well/RB/well/1 your/PRP$/you/1 machine/NN/machine/1 learning/NN/learn/1 method/NN/method/3 is/VBZ/be/1 doing/VBG/do/1 ?/./?/0 You/PRP/you/1 should/MD/should/1 always/RB/always/1 compare/VB/compare/2 it/PRP/it/1 with/IN/with/1 the/DT/the/1 “/NNP/“/0 baseline/NN/baseline/0 accuracy/NN/accurate/3 ”/NNP/”/0 obtained/VBN/obtain/3 by/IN/by/1 simple/JJ/simple/1 methods/NNS/method/3 ./././0 ZeroR/NNP/zeror/0 is/VBZ/be/1 an/DT/a/1 extremely/RB/extreme/2 simple/JJ/simple/1 method/NN/method/3 that/WDT/that/1 serves/VBZ/serve/1 as/IN/as/1 a/DT/a/1 useful/JJ/use/1 baseline/NN/baseline/0 ./././0 
+2.12/CD/2.12/0 
+Baseline/NNP/baseline/0 accuracy/NN/accurate/3 
+video/NN/video/1 (/(/(/0 07:21/CD/07:21/0 )/)/)/0 
+2.13/CD/2.13/0 
+Comparing/VBG/compare/2 with/IN/with/1 the/DT/the/1 baseline/NN/baseline/0 
+quiz/NN/quiz/6 
+Cross-validation/NN/cross-validation/0 
+Cross-validation/NN/cross-validation/0 ,/,/,/0 a/DT/a/1 standard/JJ/standard/2 evaluation/NN/evaluate/3 technique/NN/technique/3 ,/,/,/0 is/VBZ/be/1 a/DT/a/1 systematic/JJ/system/1 way/NN/way/1 of/IN/of/1 running/VBG/run/1 repeated/VBN/repeat/2 percentage/NN/percent/2 splits/NNS/split/2 ./././0 In/IN/in/1 “/NNP/“/0 stratified/VBD/stratify/7 ”/JJ/”/0 cross-validation/NN/cross-validation/0 ,/,/,/0 training/NN/train/1 and/CC/and/1 test/NN/test/1 sets/NNS/set/1 have/VBP/have/1 the/DT/the/1 same/JJ/same/1 class/NN/class/1 distribution/NN/distribute/3 as/IN/as/1 the/DT/the/1 full/JJ/full/1 dataset/NN/dataset/0 ./././0 
+2.14/CD/2.14/0 
+Cross-validation/NN/cross-validation/0 
+video/NN/video/1 (/(/(/0 05:50/CD/05:50/0 )/)/)/0 
+2.15/CD/2.15/0 
+Repeated/VBN/repeat/2 cross-validation/NN/cross-validation/0 
+quiz/NN/quiz/6 
+Cross-validation/NN/cross-validation/0 results/NNS/result/2 
+Cross-validation/NN/cross-validation/0 is/VBZ/be/1 better/JJR/better/1 than/IN/than/1 randomly/RB/random/3 repeating/VBG/repeat/2 percentage/NN/percent/2 split/NN/split/2 evaluations/NNS/evaluate/3 ./././0 It/PRP/it/1 gives/VBZ/give/1 a/DT/a/1 more/RBR/more/1 reliable/JJ/rely/2 performance/NN/perform/2 estimate/NN/estimate/3 –/NN/–/0 that/WDT/that/1 is/VBZ/be/1 ,/,/,/0 one/PRP/one/1 with/IN/with/1 lower/JJR/lower/2 variance/NN/vary/2 ./././0 Ten-fold/JJ/ten-fold/0 cross-validation/NN/cross-validation/0 is/VBZ/be/1 a/DT/a/1 standard/JJ/standard/2 evaluation/NN/evaluate/3 method/NN/method/3 ./././0 
+2.16/CD/2.16/0 
+Cross-validation/NN/cross-validation/0 results/NNS/result/2 
+video/NN/video/1 (/(/(/0 06:30/CD/06:30/0 )/)/)/0 
+2.17/CD/2.17/0 
+More/RBR/more/1 cross-validation/NN/cross-validation/0 
+quiz/NN/quiz/6 
+2.18/CD/2.18/0 
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 's/POS/be/1 Big/JJ/big/1 Question/NN/question/1 
+discussion/NN/discuss/2 
+How/WRB/how/1 are/VBP/be/1 you/PRP/you/1 getting/VBG/get/1 on/IN/on/1 ?/./?/0 
+We/PRP/we/1 're/VBP/be/1 well/RB/well/1 into/IN/into/1 the/DT/the/1 course/NN/course/1 now/RB/now/1 ./././0 Let/VB/let/1 's/POS/be/1 just/RB/just/1 take/VB/take/1 stock/NN/stock/2 ./././0 
+2.19/CD/2.19/0 
+Mid-course/JJ/mid-course/0 assessment/NN/assess/3 
+test/NN/test/1 
+This/DT/this/1 is/VBZ/be/1 a/DT/a/1 test/NN/test/1 step/NN/step/1 ,/,/,/0 it/PRP/it/1 helps/VBZ/help/1 you/PRP/you/1 verify/VB/verify/4 your/PRP$/you/1 understanding/NN/understand/1 ./././0 If/IN/if/1 you/PRP/you/1 want/VBP/want/1 to/TO/to/1 earn/VB/earn/2 a/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 on/IN/on/1 this/DT/this/1 course/NN/course/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 complete/VB/complete/1 this/DT/this/1 test/NN/test/1 and/CC/and/1 any/DT/any/1 others/NNS/other/1 ,/,/,/0 scoring/VBG/score/2 an/DT/a/1 average/NN/average/2 of/IN/of/1 70/CD/70/0 %/NN/%/0 or/CC/or/1 above/NN/above/1 ./././0 
+To/TO/to/1 take/VB/take/1 tests/NNS/test/1 you/PRP/you/1 need/VBP/need/1 to/TO/to/1 upgrade/VB/upgrade/4 this/DT/this/1 course/NN/course/1 ./././0 It/PRP/it/1 costs/VBZ/cost/1 $/$/$/0 94/CD/94/0 ,/,/,/0 which/WDT/which/1 also/RB/also/1 gets/VBZ/get/1 you/PRP/you/1 :/:/:/0 
+Unlimited/JJ/limit/2 access/NN/access/2 to/TO/to/1 the/DT/the/1 course/NN/course/1 for/IN/for/1 as/RB/as/1 long/RB/long/1 as/IN/as/1 it/PRP/it/1 exists/VBZ/exist/2 on/IN/on/1 FutureLearn/NNP/futurelearn/0 ,/,/,/0 so/IN/so/1 you/PRP/you/1 can/MD/can/1 learn/VB/learn/1 at/IN/at/1 your/PRP$/you/1 own/JJ/own/1 pace/NN/pace/3 
+A/DT/a/1 Certificate/NNP/certificate/4 of/IN/of/1 Achievement/NNP/achieve/3 when/WRB/when/1 you/PRP/you/1 ’/VBP/’/0 re/JJ/be/1 eligible/JJ/eligible/4 ,/,/,/0 to/TO/to/1 prove/VB/prove/2 what/WP/what/1 you/PRP/you/1 ’/VBP/’/0 ve/NNS/have/1 learned/VBD/learn/1 
+Upgrade/NN/upgrade/4 
+Find/VB/find/1 out/RP/out/1 more/JJR/more/1 
+2.20/CD/2.20/0 
+How/WRB/how/1 are/VBP/be/1 you/PRP/you/1 getting/VBG/get/1 on/IN/on/1 ?/./?/0 
+discussion/NN/discuss/2 
+2.21/CD/2.21/0 
+Index/NN/index/3 
+article/NN/article/2 
+
+

@@ -1,0 +1,129 @@
+Investigating multilayer perceptrons
+Question 1
+What happens if you select Cross-validation as the Test option, instead of Use training set?
+The neural network won’t run
+You have to dismiss it 11 times
+---
+Correct answer(s):
+You have to dismiss it 11 times
+---
+Feedback correct:
+Once for each cross-validation fold, and once when it is trained on the entire dataset. It’s a nuisance.
+
+Question 2
+The default neural network configuration, which you have just seen, has one hidden layer whose size is the average of the input and output layers – that’s what specifying “a” as the hiddenLayers parameter does.
+Experiment with the interface to learn how to create a network with two hidden layers of this same size. What do you need to specify as the hiddenLayers parameter?
+2
+a,2
+a,a
+---
+Correct answer(s):
+a,a
+
+Question 3
+Experiment with the interface to learn how to create a network with no hidden layers.
+What do you need to specify for hiddenLayers?
+0
+a,0
+Nothing. Leave it blank
+---
+Correct answer(s):
+0
+---
+Feedback incorrect:
+If you leave the parameter blank, Weka will put in the last value that was used
+
+Question 4
+Now for the actual experiment.
+In the Experimenter, use the datasets breast-cancer.arff, credit-g.arff, diabetes.arff, glass.arff, ionosphere.arff and iris.arff and three versions of MultilayerPerceptron: with no hidden layers, one hidden layer, and two hidden layers. Use the default number of nodes in each hidden layer, namely the average size of the input and output layers, by specifying “a”.
+You will need to be patient: this took almost 1.5 hours on my computer. However, you will learn just as much if you restrict the datasets to iris alone (which took 20 secs), or to iris and ionosphere (which took 10 mins), provided you examine the answers and general conclusions given in the article that follows this quiz.
+For which datasets does one or two hidden layers significantly outperform no hidden layer?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):
+ionosphere
+---
+Feedback correct:
+For the ionosphere dataset both one and two hidden layers are significantly better than none
+
+Question 5
+For which datasets does two hidden layers significantly outperform one hidden layer?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):
+none
+---
+Feedback correct:
+Disappointing, eh?
+
+Question 6
+Ignoring significance, for which datasets are zero hidden layers best?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):
+breast-cancer
+credit-g
+diabetes
+
+Question 7
+Ignoring significance, for which datasets are one hidden layer best?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):
+glass
+iris
+
+Question 8
+Ignoring significance, for which datasets are two hidden layers best?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):
+ionosphere
+
+Question 8
+Ignoring significance, for which datasets are two hidden layers best?
+Select all the answers you think are correct.
+breast-cancer
+credit-g
+diabetes
+glass
+ionosphere
+iris
+none
+---
+Correct answer(s):

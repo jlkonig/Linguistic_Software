@@ -1,0 +1,77 @@
+Overfitting
+Question 1
+Open the weather.numeric.arff dataset and inspect the data using the Edit button of Weka’s Preprocess panel. What is the maximum accuracy of rules based on temperature and humidity respectively, in terms of the number of training instances predicted correctly?
+Select all the answers you think are correct.
+temperature : 12 correct instances
+temperature : 13 correct instances
+temperature : 14 correct instances
+humidity: 10 correct instances
+humidity : 12 correct instances
+humidity : 14 correct instances
+---
+Correct answer(s):
+temperature : 13 correct instances
+humidity : 12 correct instances
+---
+Feedback correct:
+If the dataset contains instances with the same attribute value but different classes, a rule based on that attribute will get one of them incorrect. This happens when temperature = 72 and 75, and when humidity = 70 and 90. However, the value of play is the same (yes) when temperature = 75, so that will not cause an error. But in the other 3 cases the two classes are different.
+---
+Feedback incorrect:
+If the dataset contains instances with the same attribute value but different classes, a rule based on that attribute will get one of them incorrect. This happens when temperature = 72 and 75, and when humidity = 70 and 90. However, the value of play is the same (yes) when temperature = 75, so that will not cause an error. But in the other 3 cases the two classes are different.
+
+Question 2
+The following questions investigate the effect of OneR’s minBucketSize parameter on performance and rule complexity by drawing graphs where –B (minBucketSize) ranges from 1 to 10.
+Open the glass.arff dataset, go to the Classify tab, and select OneR. Make a rough paper-and-pencil plot of accuracy on the training data (on the vertical axis) against minBucketSize (on the horizontal axis) and compare it with the graphs below.
+Which of these shapes do you get?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+(c)
+---
+Feedback correct:
+As minBucketSize increases, accuracy on the training set steadily decreases.
+
+Question 3
+Make a rough pencil-and-paper plot of cross-validation accuracy against minBucketSize. Which of these do you get?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+(b)
+---
+Feedback correct:
+For this dataset, cross-validation accuracy is relatively independent of minBucketSize.
+
+Question 4
+Now consider the complexity of the rule that OneR generates, measured by its size – the number of tests it involves. Will the rule’s complexity depend on whether the training set or cross-validation is used for evaluation?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+The rule that Weka shows is generated from the training set, and is not affected by the evaluation method.
+
+Question 5
+Using paper and pencil, plot the size of the rule generated against minBucketSize. Which of these plots do you get?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+
+Question 5
+Using paper and pencil, plot the size of the rule generated against minBucketSize. Which of these plots do you get?
+(a)
+(b)
+(c)
+---
+Correct answer(s):
+(a)
+---
+Feedback correct:
+When minBucketSize = 1 the rule is largest, and decreases in size as minBucketSize increases. In fact, the pattern for training set accuracy closely follows the pattern for rule size: a large rule gives by far the best training set accuracy. However, this is not true for cross-validation accuracy.

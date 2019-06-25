@@ -1,0 +1,7 @@
+Is it better to generate rules or trees?
+We haven’t talked much about rules.
+We’ve spent a lot of time generating decision trees from datasets – the data mining method you’ve encountered most frequently so far is J48, which generates trees. In fact, the only rules we’ve met are the trivial ones created by the ZeroR and OneR baseline methods.
+Are rules the same as trees? In one sense they are: given a tree it’s easy to read off a set of rules that makes the same decisions. However, things are not quite so obvious as they appear on the surface. Rule sets are different from trees.
+For one thing, they tend to be easier for people to comprehend. This is because each rule has the appearance of being a standalone nugget of knowledge, whereas interpreting bits of a tree depends on what has gone on above. But appearances are deceptive!
+Another difference is that rule sets are often far more compact than trees (although the reverse can be true as well). And new methods are required to generate compact rule sets.
+At the end of this week you will be able to explain important differences between rules and trees as knowledge representation methods. You’ll know how to read off an equivalent set of rules from a decision tree, and explain why this rule set may well be excessively redundant. And you’ll be able to use two state-of-the-art rule-generating methods in Weka, and explain – at a high level – how they work.

@@ -1,0 +1,5 @@
+Random Forest performance
+The performance of Random Forest does tend to improve with more trees, but only up to a point.
+We found in the preceding Quiz that performance increases from 100 to 200 trees, but stays the same for 300 and deteriorates for 400 and 500 trees. (However, the difference is probably not statistically significant in this small example.)
+The amount of data in each partition tends to be the limiting factor, and, as we have seen, this can be improved by reducing the number of partitions. However, in a practical “big data” problem this is unlikely to be an issue.
+For big data, set the number of partitions to match the available hardware – the number of nodes/cores in the cluster, along with the amount of memory available to each. Configure Weka so that each partition contains as much data as possible, consistent with it fitting into the available memory.

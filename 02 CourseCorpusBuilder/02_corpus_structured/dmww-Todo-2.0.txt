@@ -1,0 +1,86 @@
+Evaluation
+How do I evaluate a classifier’s performance?
+This week's Big Question!
+2.1
+How do I evaluate a classifier's performance?
+article
+Be a classifier!
+WEKA incorporates many different classification algorithms. One, called the “UserClassifier,” enables you to build your own decision tree for classification. How well can you do? It’s a challenge!
+2.2
+Extending Weka with "packages"
+article
+2.3
+What could possibly go wrong?
+discussion
+2.4
+Be a classifier!
+video (08:52)
+2.5
+Build your own classifier
+quiz
+2.6
+How well did you do?
+discussion
+Training and testing
+Evaluating what has been learned is an essential part of data mining. You should never evaluate on the training set! – the results will be overly optimistic. If you have a single dataset, hold some data back for testing.
+2.7
+Training and testing
+video (04:56)
+2.8
+Partitioning datasets for training and testing
+quiz
+Repeated training and testing
+Ideally, training and test sets are sampled independently from a large population. Different samples give slightly different performance estimates. More reliable results are obtained by averaging over several experimental runs.
+2.9
+Repeated training and testing
+video (05:54)
+2.10
+Growing random numbers from seeds
+article
+2.11
+Realistic performance estimates
+quiz
+Baseline accuracy
+How do you know how well your machine learning method is doing? You should always compare it with the “baseline accuracy” obtained by simple methods. ZeroR is an extremely simple method that serves as a useful baseline. 
+2.12
+Baseline accuracy
+video (07:21)
+2.13
+Comparing with the baseline
+quiz
+Cross-validation
+Cross-validation, a standard evaluation technique, is a systematic way of running repeated percentage splits. In “stratified” cross-validation, training and test sets have the same class distribution as the full dataset.
+2.14
+Cross-validation
+video (05:50)
+2.15
+Repeated cross-validation
+quiz
+Cross-validation results
+Cross-validation is better than randomly repeating percentage split evaluations. It gives a more reliable performance estimate – that is, one with lower variance. Ten-fold cross-validation is a standard evaluation method.
+2.16
+Cross-validation results
+video (06:30)
+2.17
+ More cross-validation
+quiz
+2.18
+Reflect on this week's Big Question
+discussion
+How are you getting on?
+We're well into the course now. Let's just take stock.
+2.19
+Mid-course assessment
+test
+This is a test step, it helps you verify your understanding. If you want to earn a Certificate of Achievement on this course you need to complete this test and any others, scoring an average of 70% or above.
+To take tests you need to upgrade this course.  It costs $94, which also gets you:
+Unlimited access to the course for as long as it exists on FutureLearn, so you can learn at your own pace
+A Certificate of Achievement when you’re eligible, to prove what you’ve learned
+Upgrade
+Find out more
+2.20
+How are you getting on?
+discussion
+2.21
+Index
+article

@@ -1,0 +1,117 @@
+Association rules
+Question 1
+Examine the rules that are generated. None of them involve Class=republican. Why is this?
+There are no instances classed as republican
+The minimum support value is too high
+There are no associations between the attributes and Class=republican
+The support for the top 10 rules exceeds the number of instances with Class=republican
+The class value cannot be used in a rule
+---
+Correct answer(s):
+The support for the top 10 rules exceeds the number of instances with Class=republican
+---
+Feedback correct:
+The support for the top 10 rules (in order) is 219, 198, 211, 202, 247, 200, 208, 203, 204, and 218. However, only 168 instances are classed as republican. Thus Class=republican could never appear in rules with such great support.
+---
+Feedback incorrect:
+168 instances are classed as republican
+---
+Feedback incorrect:
+If you generate, say, 100 rules with the same support value you will find that rules 77, 97 and 100 involve Class=republican.
+---
+Feedback incorrect:
+There are very many such associations. It’s just that none of them fall in the top 10. For example, if you generate 100 rules with the same support value you will find that rules 77, 97 and 100 involve Class=republican.
+---
+Feedback incorrect:
+In association rule mining there does not have to be a class attribute. But if there is one, it is treated just like any other attribute.
+
+Question 2
+What is the single attribute most strongly associated with democrats?
+el-salvador-aid
+physician-fee-freeze
+adoption-of-the-budget-resolution
+aid-to-nicaraguan-contras
+education-spending
+---
+Correct answer(s):
+physician-fee-freeze
+---
+Feedback correct:
+It’s mentioned in the top 5 rules, and in 7 of the top 10 rules
+
+Question 3
+Use OneR to confirm that physician-fee-freeze is the attribute most strongly associated with democrats. What percentage accuracy do you get (evaluated using cross-validation)?
+61%
+95%
+96%
+97%
+---
+Correct answer(s):
+96%
+---
+Feedback correct:
+This is OneR’s accuracy for predicting the Class (democrat vs. republican) from physician-fee-freeze
+
+Question 4
+What is the single attribute most strongly associated with voting for aid to the Nicaraguan Contras?
+el-salvador-aid
+physician-fee-freeze
+Class
+adoption-of-the-budget-resolution
+education-spending
+---
+Correct answer(s):
+el-salvador-aid
+---
+Feedback correct:
+el-salvador-aid is involved in both rules that predict aid-to-nicaraguan-contras, rules 6 and 7
+
+Question 5
+Use OneR to confirm that el-salvador-aid is the attribute most strongly associated with aid-to-nicaraguan-contras. What percentage accuracy do you get (evaluated using cross-validation)?
+57%
+58%
+91%
+92%
+---
+Correct answer(s):
+91%
+---
+Feedback correct:
+This is OneR’s accuracy for predicting aid-to-nicaraguan-contras from el-salvador-aid
+
+Question 6
+The third rule generated has confidence 1. But in reality this is a rounded figure. Use a calculator to determine the confidence of that rule to 5 decimal places. What is it?
+0.91526
+0.99525
+0.99526
+0.99527
+---
+Correct answer(s):
+0.99526
+---
+Feedback correct:
+This is obtained by dividing the support count for {physician-fee-freeze, aid-to-nicaraguan-contras, Class=democrat} (which is 210) by the support count for {physician-fee-freeze, aid-to-nicaraguan-contras} (which is 211)
+
+Question 7
+Look at the third rule generated, call it Rule A. Now increase the number of rules generated to 100 and run Apriori again. What number is Rule A now?
+3
+4
+8
+10
+11
+---
+Correct answer(s):
+8
+---
+Feedback correct:
+In the next Activity we will learn why this rule changes its position. In brief, the reason is that when seeking 10 rules, the minimum support that Apriori considers is 196 instances, but when seeking 100 rules this is reduced to 174 (as shown at the beginning of the Apriori output). This introduces rules with higher confidence than Rule A but smaller support.
+
+Question 7
+Look at the third rule generated, call it Rule A. Now increase the number of rules generated to 100 and run Apriori again. What number is Rule A now?
+3
+4
+8
+10
+11
+---
+Correct answer(s):

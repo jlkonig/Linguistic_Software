@@ -1,0 +1,67 @@
+Finding/VBG/find/1 misclassified/VBD/misclassified/0 instances/NNS/instance/2 
+Question/NN/question/1 1/CD/1/0 
+Choose/VB/choose/1 the/DT/the/1 J48/NNP/j48/0 tree/NN/tree/1 classifier/NN/classifier/0 ,/,/,/0 and/CC/and/1 run/VB/run/1 it/PRP/it/1 (/(/(/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 How/WRB/how/1 many/JJ/many/1 instances/NNS/instance/2 are/VBP/be/1 misclassified/VBN/misclassified/0 ?/./?/0 
+1/CD/1/0 
+2/CD/2/0 
+4/CD/4/0 
+6/CD/6/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+6/CD/6/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Six/CD/six/1 out/IN/out/1 of/IN/of/1 the/DT/the/1 150/CD/150/0 instances/NNS/instance/2 are/VBP/be/1 misclassified/VBN/misclassified/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 that/WDT/that/1 are/VBP/be/1 misclassified/VBN/misclassified/0 ./././0 You/PRP/you/1 were/VBD/be/1 asked/VBN/ask/1 for/IN/for/1 the/DT/the/1 actual/JJ/actual/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Visualize/VB/visual/3 the/DT/the/1 classifier/NN/classifier/0 errors/NNS/error/3 by/IN/by/1 right-clicking/NN/right-clicking/0 on/IN/on/1 the/DT/the/1 Result/NNP/result/2 list/NN/list/1 ,/,/,/0 and/CC/and/1 use/VB/use/1 the/DT/the/1 visualization/NN/visual/3 to/TO/to/1 determine/VB/determine/2 the/DT/the/1 instance/NN/instance/2 numbers/NNS/number/1 of/IN/of/1 the/DT/the/1 misclassified/JJ/misclassified/0 instances/NNS/instance/2 ./././0 Which/WDT/which/1 are/VBP/be/1 they/PRP/they/1 ?/./?/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 109/CD/109/0 ,/,/,/0 119/CD/119/0 
+4/CD/4/0 ,/,/,/0 8/CD/8/0 ,/,/,/0 91/CD/91/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 109/CD/109/0 ,/,/,/0 119/CD/119/0 
+15/CD/15/0 ,/,/,/0 72/CD/72/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 108/CD/108/0 ,/,/,/0 120/CD/120/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 109/CD/109/0 ,/,/,/0 119/CD/119/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Misclassified/VBN/misclassified/0 instances/NNS/instance/2 are/VBP/be/1 shown/VBN/show/1 as/IN/as/1 square/JJ/square/1 boxes/NNS/box/1 on/IN/on/1 the/DT/the/1 visualization/NN/visual/3 plot/NN/plot/3 ,/,/,/0 and/CC/and/1 clicking/VBG/click/4 the/DT/the/1 box/NN/box/1 shows/VBZ/show/1 their/PRP$/they/1 instance/NN/instance/2 number/NN/number/1 ./././0 If/IN/if/1 multiple/JJ/multiple/3 instances/NNS/instance/2 are/VBP/be/1 shown/VBN/show/1 ,/,/,/0 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 choose/VB/choose/1 only/RB/only/1 those/DT/that/1 whose/WP$/who/1 predictedClass/NN/predictedclass/0 differs/NNS/differ/3 from/IN/from/1 their/PRP$/they/1 class/NN/class/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+Misclassified/VBN/misclassified/0 instances/NNS/instance/2 are/VBP/be/1 shown/VBN/show/1 as/IN/as/1 square/JJ/square/1 boxes/NNS/box/1 on/IN/on/1 the/DT/the/1 visualization/NN/visual/3 plot/NN/plot/3 ,/,/,/0 and/CC/and/1 clicking/VBG/click/4 the/DT/the/1 box/NN/box/1 shows/VBZ/show/1 their/PRP$/they/1 instance/NN/instance/2 number/NN/number/1 ./././0 If/IN/if/1 multiple/JJ/multiple/3 instances/NNS/instance/2 are/VBP/be/1 shown/VBN/show/1 ,/,/,/0 be/VB/be/1 sure/JJ/sure/1 to/TO/to/1 choose/VB/choose/1 only/RB/only/1 those/DT/that/1 whose/WP$/who/1 predictedClass/NN/predictedclass/0 differs/NNS/differ/3 from/IN/from/1 their/PRP$/they/1 class/NN/class/1 ./././0 
+
+Question/NN/question/1 3/CD/3/0 
+Now/RB/now/1 switch/VB/switch/2 the/DT/the/1 classifier/NN/classifier/0 to/TO/to/1 SimpleLogistic/NNP/simplelogistic/0 ,/,/,/0 which/WDT/which/1 you/PRP/you/1 will/MD/will/1 find/VB/find/1 in/IN/in/1 the/DT/the/1 functions/NNS/function/3 category/NN/category/3 ,/,/,/0 and/CC/and/1 run/VB/run/1 it/PRP/it/1 (/(/(/0 with/IN/with/1 default/NN/default/5 parameters/NNS/parameter/4 )/)/)/0 ./././0 How/WRB/how/1 many/JJ/many/1 instances/NNS/instance/2 are/VBP/be/1 misclassified/VBN/misclassified/0 now/RB/now/1 ?/./?/0 
+3/CD/3/0 
+6/CD/6/0 
+9/CD/9/0 
+12/CD/12/0 
+15/CD/15/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+9/CD/9/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+On/IN/on/1 this/DT/this/1 dataset/NN/dataset/0 ,/,/,/0 SimpleLogistic/JJ/simplelogistic/0 gives/VBZ/give/1 more/JJR/more/1 errors/NNS/error/3 than/IN/than/1 J48/NNP/j48/0 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 percentage/NN/percent/2 of/IN/of/1 instances/NNS/instance/2 that/WDT/that/1 are/VBP/be/1 misclassified/VBN/misclassified/0 ./././0 You/PRP/you/1 were/VBD/be/1 asked/VBN/ask/1 for/IN/for/1 the/DT/the/1 actual/JJ/actual/1 number/NN/number/1 of/IN/of/1 instances/NNS/instance/2 ./././0 
+
+Question/NN/question/1 4/CD/4/0 
+Which/JJ/which/1 instances/NNS/instance/2 of/IN/of/1 type/JJ/type/1 Iris-versicolor/NNP/iris-versicolor/0 are/VBP/be/1 misclassified/VBN/misclassified/0 as/IN/as/1 Iris-virginica/NNP/iris-virginica/0 ?/./?/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 109/CD/109/0 ,/,/,/0 119/CD/119/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 119/CD/119/0 ,/,/,/0 132/CD/132/0 ,/,/,/0 135/CD/135/0 ,/,/,/0 147/CD/147/0 ,/,/,/0 148/CD/148/0 
+80/CD/80/0 ,/,/,/0 92/CD/92/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 119/CD/119/0 ,/,/,/0 132/CD/132/0 ,/,/,/0 135/CD/135/0 ,/,/,/0 147/CD/147/0 ,/,/,/0 148/CD/148/0 
+
+Question/NN/question/1 4/CD/4/0 
+Which/JJ/which/1 instances/NNS/instance/2 of/IN/of/1 type/JJ/type/1 Iris-versicolor/NNP/iris-versicolor/0 are/VBP/be/1 misclassified/VBN/misclassified/0 as/IN/as/1 Iris-virginica/NNP/iris-virginica/0 ?/./?/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 92/CD/92/0 ,/,/,/0 98/CD/98/0 ,/,/,/0 109/CD/109/0 ,/,/,/0 119/CD/119/0 
+15/CD/15/0 ,/,/,/0 73/CD/73/0 ,/,/,/0 119/CD/119/0 ,/,/,/0 132/CD/132/0 ,/,/,/0 135/CD/135/0 ,/,/,/0 147/CD/147/0 ,/,/,/0 148/CD/148/0 
+80/CD/80/0 ,/,/,/0 92/CD/92/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

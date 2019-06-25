@@ -1,0 +1,80 @@
+Correlation/NN/correlate/3 ,/,/,/0 causation/NN/cause/1 ,/,/,/0 and/CC/and/1 reidentification/NN/reidentification/0 
+Question/NN/question/1 1/CD/1/0 
+Might/NNP/might/1 this/DT/this/1 be/VB/be/1 true/JJ/true/1 :/:/:/0 A/DT/a/1 causes/NNS/cause/1 B/NNP/b/0 ?/./?/0 
+True/NN/true/1 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+True/NN/true/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 ./././0 It/PRP/it/1 might/MD/might/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 can/MD/can/1 not/RB/not/1 rule/VB/rule/1 out/IN/out/1 the/DT/the/1 explanation/NN/explain/1 that/IN/that/1 A/NNP/a/1 causes/VBZ/cause/1 B/NNP/b/0 
+
+Question/NN/question/1 2/CD/2/0 
+Might/NNP/might/1 this/DT/this/1 be/VB/be/1 true/JJ/true/1 :/:/:/0 B/NN/b/0 causes/VBZ/cause/1 A/DT/a/1 ?/./?/0 
+True/NN/true/1 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+True/NN/true/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 ./././0 It/PRP/it/1 might/MD/might/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 can/MD/can/1 not/RB/not/1 rule/VB/rule/1 out/IN/out/1 the/DT/the/1 explanation/NN/explain/1 that/IN/that/1 B/NNP/b/0 causes/VBZ/cause/1 A/DT/a/1 
+
+Question/NN/question/1 3/CD/3/0 
+Might/NNP/might/1 this/DT/this/1 be/VB/be/1 true/JJ/true/1 :/:/:/0 Some/DT/some/1 third/JJ/three/1 factor/NN/factor/3 C/NNP/c/0 is/VBZ/be/1 the/DT/the/1 cause/NN/cause/1 of/IN/of/1 both/CC/both/1 A/NNP/a/1 and/CC/and/1 B/NNP/b/0 ?/./?/0 
+True/NN/true/1 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+True/NN/true/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 ./././0 It/PRP/it/1 might/MD/might/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 can/MD/can/1 not/RB/not/1 rule/VB/rule/1 out/IN/out/1 the/DT/the/1 explanation/NN/explain/1 that/IN/that/1 some/DT/some/1 third/JJ/three/1 factor/NN/factor/3 is/VBZ/be/1 the/DT/the/1 cause/NN/cause/1 of/IN/of/1 both/CC/both/1 A/NNP/a/1 and/CC/and/1 B/NNP/b/0 
+
+Question/NN/question/1 4/CD/4/0 
+Might/NNP/might/1 this/DT/this/1 be/VB/be/1 true/JJ/true/1 :/:/:/0 The/DT/the/1 correlation/NN/correlate/3 between/IN/between/1 A/NNP/a/1 and/CC/and/1 B/NNP/b/0 is/VBZ/be/1 entirely/RB/entire/2 coincidental/JJ/coincide/3 ?/./?/0 
+True/NN/true/1 
+False/JJ/false/3 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+True/NN/true/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Yes/UH/yes/1 ./././0 It/PRP/it/1 might/MD/might/1 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+You/PRP/you/1 can/MD/can/1 not/RB/not/1 rule/VB/rule/1 out/IN/out/1 the/DT/the/1 explanation/NN/explain/1 that/IN/that/1 the/DT/the/1 correlation/NN/correlate/3 between/IN/between/1 A/NNP/a/1 and/CC/and/1 B/NNP/b/0 is/VBZ/be/1 entirely/RB/entire/2 coincidental/JJ/coincide/3 
+
+Question/NN/question/1 5/CD/5/0 
+In/IN/in/1 2006/CD/2006/0 ,/,/,/0 a/DT/a/1 text/NN/text/3 file/NN/file/2 was/VBD/be/1 released/VBN/release/2 on/IN/on/1 the/DT/the/1 web/NN/web/1 containing/VBG/contain/2 20,000,000/CD/20,000,000/0 search/NN/search/2 engine/NN/engine/1 queries/NNS/query/5 made/VBN/make/1 by/IN/by/1 650,000/CD/650,000/0 users/NNS/use/1 over/IN/over/1 a/DT/a/1 3-month/JJ/3-month/0 period/NN/period/2 ,/,/,/0 intended/VBN/intend/2 for/IN/for/1 research/NN/research/2 purposes/NNS/purpose/2 ./././0 The/DT/the/1 file/NN/file/2 had/VBD/have/1 been/VBN/be/1 anonymized/VBN/anonymized/0 by/IN/by/1 replacing/VBG/replace/2 user/JJ/use/1 names/NNS/name/1 with/IN/with/1 random/NN/random/3 numbers/NNS/number/1 ,/,/,/0 one/CD/one/1 per/IN/per/2 user/NN/use/1 ./././0 However/RB/however/1 ,/,/,/0 some/DT/some/1 of/IN/of/1 the/DT/the/1 queries/NNS/query/5 contained/VBD/contain/2 clues/NNS/clue/2 to/TO/to/1 the/DT/the/1 user/NN/use/1 ’/NNP/’/0 s/NN/be/1 identity/NN/identify/2 ./././0 The/DT/the/1 New/NNP/new/1 York/NNP/york/0 Times/NNP/time/1 was/VBD/be/1 able/JJ/able/1 to/TO/to/1 locate/VB/locate/2 an/DT/a/1 individual/NN/individual/2 from/IN/from/1 these/DT/this/1 supposedly/RB/suppose/1 anonymized/VBN/anonymized/0 search/NN/search/2 records/NNS/record/1 by/IN/by/1 cross/NN/cross/1 referencing/VBG/refer/2 them/PRP/they/1 with/IN/with/1 phonebook/NN/phonebook/0 listings/NNS/list/1 ./././0 Look/VB/look/1 up/RP/up/1 this/DT/this/1 classic/JJ/classic/2 example/NN/example/2 of/IN/of/1 reidentification/NN/reidentification/0 and/CC/and/1 read/VB/read/1 about/IN/about/1 it/PRP/it/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 name/NN/name/1 of/IN/of/1 the/DT/the/1 person/NN/person/1 who/WP/who/1 was/VBD/be/1 identified/VBN/identify/2 ?/./?/0 
+Dr./NNP/doctor/1 Abur/NNP/abur/0 Chowdhury/NNP/chowdhury/0 
+Thelma/NNP/thelma/0 Arnold/NNP/arnold/0 
+User/NNP/use/1 927/CD/927/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Thelma/NNP/thelma/0 Arnold/NNP/arnold/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+You/PRP/you/1 can/MD/can/1 read/VB/read/1 about/IN/about/1 this/DT/this/1 fiasco/NN/fiasco/8 in/IN/in/1 many/JJ/many/1 places/NNS/place/1 ,/,/,/0 for/IN/for/1 example/NN/example/2 ,/,/,/0 the/DT/the/1 Wikipedia/NNP/wikipedia/0 article/NN/article/2 entitled/VBD/entitle/3 “/JJ/“/0 AOL/NNP/aol/0 search/NN/search/2 data/NNS/data/3 leak/NN/leak/3 ”/NN/”/0 ,/,/,/0 and/CC/and/1 the/DT/the/1 New/NNP/new/1 York/NNP/york/0 Times/NNP/time/1 here/RB/here/1 ./././0 
+
+Question/NN/question/1 5/CD/5/0 
+In/IN/in/1 2006/CD/2006/0 ,/,/,/0 a/DT/a/1 text/NN/text/3 file/NN/file/2 was/VBD/be/1 released/VBN/release/2 on/IN/on/1 the/DT/the/1 web/NN/web/1 containing/VBG/contain/2 20,000,000/CD/20,000,000/0 search/NN/search/2 engine/NN/engine/1 queries/NNS/query/5 made/VBN/make/1 by/IN/by/1 650,000/CD/650,000/0 users/NNS/use/1 over/IN/over/1 a/DT/a/1 3-month/JJ/3-month/0 period/NN/period/2 ,/,/,/0 intended/VBN/intend/2 for/IN/for/1 research/NN/research/2 purposes/NNS/purpose/2 ./././0 The/DT/the/1 file/NN/file/2 had/VBD/have/1 been/VBN/be/1 anonymized/VBN/anonymized/0 by/IN/by/1 replacing/VBG/replace/2 user/JJ/use/1 names/NNS/name/1 with/IN/with/1 random/NN/random/3 numbers/NNS/number/1 ,/,/,/0 one/CD/one/1 per/IN/per/2 user/NN/use/1 ./././0 However/RB/however/1 ,/,/,/0 some/DT/some/1 of/IN/of/1 the/DT/the/1 queries/NNS/query/5 contained/VBD/contain/2 clues/NNS/clue/2 to/TO/to/1 the/DT/the/1 user/NN/use/1 ’/NNP/’/0 s/NN/be/1 identity/NN/identify/2 ./././0 The/DT/the/1 New/NNP/new/1 York/NNP/york/0 Times/NNP/time/1 was/VBD/be/1 able/JJ/able/1 to/TO/to/1 locate/VB/locate/2 an/DT/a/1 individual/NN/individual/2 from/IN/from/1 these/DT/this/1 supposedly/RB/suppose/1 anonymized/VBN/anonymized/0 search/NN/search/2 records/NNS/record/1 by/IN/by/1 cross/NN/cross/1 referencing/VBG/refer/2 them/PRP/they/1 with/IN/with/1 phonebook/NN/phonebook/0 listings/NNS/list/1 ./././0 Look/VB/look/1 up/RP/up/1 this/DT/this/1 classic/JJ/classic/2 example/NN/example/2 of/IN/of/1 reidentification/NN/reidentification/0 and/CC/and/1 read/VB/read/1 about/IN/about/1 it/PRP/it/1 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 name/NN/name/1 of/IN/of/1 the/DT/the/1 person/NN/person/1 who/WP/who/1 was/VBD/be/1 identified/VBN/identify/2 ?/./?/0 
+Dr./NNP/doctor/1 Abur/NNP/abur/0 Chowdhury/NNP/chowdhury/0 
+Thelma/NNP/thelma/0 Arnold/NNP/arnold/0 
+User/NNP/use/1 927/CD/927/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

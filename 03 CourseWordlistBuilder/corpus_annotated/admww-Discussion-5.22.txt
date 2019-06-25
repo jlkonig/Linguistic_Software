@@ -1,0 +1,5 @@
+Reflect/NN/reflect/3 on/IN/on/1 this/DT/this/1 week/NN/week/1 ’/NNP/’/0 s/VBZ/be/1 Big/NNP/big/1 Question/NN/question/1 
+This/DT/this/1 week/NN/week/1 ’/NNP/’/0 s/VBZ/be/1 Big/NNP/big/1 Question/NN/question/1 is/VBZ/be/1 ,/,/,/0 “/VB/“/0 How/WRB/how/1 can/MD/can/1 you/PRP/you/1 script/VB/script/4 Weka/NNP/weka/23 ”/NNP/”/0 ?/./?/0 
+So/RB/so/1 ,/,/,/0 can/MD/can/1 you/PRP/you/1 ?/./?/0 What/WP/what/1 do/VBP/do/1 you/PRP/you/1 think/VB/think/1 of/IN/of/1 the/DT/the/1 Python/NNP/python/11 and/CC/and/1 Groovy/NNP/groovy/13 scripting/VBG/script/4 languages/NNS/language/2 ?/./?/0 Let/VB/let/1 your/PRP$/you/1 fellow/JJ/fellow/1 learners/NNS/learn/1 know/VBP/know/1 how/WRB/how/1 you/PRP/you/1 got/VBD/get/1 on/IN/on/1 !/./!/0 
+
+

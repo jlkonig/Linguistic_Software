@@ -1,0 +1,3 @@
+Cross-validation
+Cross-validation, a standard evaluation technique, is a systematic way of running repeated percentage splits. Divide a dataset into 10 pieces (“folds”), then hold out each piece in turn for testing and train on the remaining 9 together. This gives 10 evaluation results, which are averaged. In “stratified” cross-validation, when doing the initial division we ensure that each fold contains approximately the correct proportion of the class values. Having done 10-fold cross-validation and computed the evaluation results, Weka invokes the learning algorithm a final (11th) time on the entire dataset to obtain the model that it prints out.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

@@ -1,0 +1,116 @@
+Three incremental classifiers
+Question 1
+Create a stream of data using the LED24 generator that is accessible from the Generate button in WEKA’s Preprocess panel.
+Configure the generator to create 10,000 instances. Run a 10-fold cross-validation on this data using the J48 and HoeffdingTree classifiers.
+What are the percentages of correctly classified instances for J48 and HoeffdingTree?
+Select all the answers you think are correct.
+66.0% for both
+71.3% for Hoeffding Tree
+72.7% for J48
+73.8% for J48
+73.8% for Hoeffding Tree
+73.9% for Hoeffding Tree
+---
+Correct answer(s):
+72.7% for J48
+73.8% for Hoeffding Tree
+
+Question 2
+Generate a stream of 1,000,000 instances from the same source.
+To save time, perform a percentage split evaluation (default parameter) instead of cross-validation.
+Repeat the experiment with J48 and Hoeffding Tree. Which is faster, and which is more accurate?
+Select all the answers you think are correct.
+J48 is faster
+Hoeffding Tree is faster
+J48 is more accurate
+Hoeffding Tree is more accurate
+---
+Correct answer(s):
+Hoeffding Tree is faster
+Hoeffding Tree is more accurate
+
+Question 3
+Repeat the experiment (1,000,000 instances, percentage split evaluation) with NaiveBayesUpdateable and IBk.
+Which is faster?
+NaiveBayesUpdateable
+IBk
+---
+Correct answer(s):
+NaiveBayesUpdateable
+---
+Feedback correct:
+They both build the model quickly, but IBk takes a long time to evaluate test instances – so long that I’m sure you didn’t wait for it to terminate!
+
+Question 4
+IBk builds the model quickly because it just stores all instances in memory, but is slow at predicting because for each prediction it calculates the distance to all the instances.
+One way to accelerate this is to retain in memory only a “window” of instances, rather than the full dataset. The windowSize parameter sets the maximum number of instances allowed in the training pool – adding further instances simply removes older ones. The default value of 0 signifies no limit to the number of training instances stored.
+Repeat the first experiment (10,000 instances, 10-fold cross-validation) using IBk with window sizes 100, 1000, and 10,000. Which gives best performance in terms of accuracy?
+100
+1000
+10,000
+---
+Correct answer(s):
+10,000
+---
+Feedback correct:
+This yields an accuracy of 57.2%
+
+Question 5
+Which is fastest?
+100
+1000
+10,000
+---
+Correct answer(s):
+100
+---
+Feedback correct:
+Duh! I guess that’s kinda obvious …
+
+Question 6
+With IBk you can specify different nearest neighbor search algorithms.
+Repeat the last experiment (window size of 10,000) with KDTree as the search algorithm. Does this increase accuracy?
+Yes
+No
+---
+Correct answer(s):
+No
+---
+Feedback correct:
+The accuracy stays exactly the same, at 57.2%
+
+Question 7
+The covtypeNorm dataset gives the forest cover type for 30 x 30 meter cells obtained from the US Forest Service Resource Information System.
+It contains 581,012 instances and 54 attributes, and has been used in several papers on data stream classification.
+Load covtypeNorm.arff into the Weka Explorer and run a percentage split (default value) evaluation with Hoeffding Tree. What is the percentage of correctly classified instances?
+73.8%
+74.3%
+74.4%
+74.5%
+91.8%
+93.6%
+---
+Correct answer(s):
+74.4%
+---
+Feedback correct:
+(More precisely, 74.3693.) This is not a very good result. HoeffdingTree is very conservative and need lots of data before it yields reasonable accuracy.
+---
+Feedback incorrect:
+That’s the result using 10-fold crossvalidation (bet it took a long time!)
+---
+Feedback incorrect:
+That’s the result using J48. My computer took 10 mins to build the model (vs 1 min for HoeffdingTree), and the tree is huge (30,000 nodes vs 450 for HoeffdingTree).
+
+Question 7
+The covtypeNorm dataset gives the forest cover type for 30 x 30 meter cells obtained from the US Forest Service Resource Information System.
+It contains 581,012 instances and 54 attributes, and has been used in several papers on data stream classification.
+Load covtypeNorm.arff into the Weka Explorer and run a percentage split (default value) evaluation with Hoeffding Tree. What is the percentage of correctly classified instances?
+73.8%
+74.3%
+74.4%
+74.5%
+91.8%
+93.6%
+---
+Correct answer(s):

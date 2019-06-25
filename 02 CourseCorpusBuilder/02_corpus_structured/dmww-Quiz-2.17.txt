@@ -1,0 +1,95 @@
+ More cross-validation
+Question 1
+What is the mean value of the accuracy with random seeds of 11, 12, 13, 14, and 15?
+79.8%
+95.4%
+95.6%
+95.7%
+---
+Correct answer(s):
+---
+Feedback correct:
+The random seeds generated the following accuracies: 96.1, 96.3, 94.5, 95.7, 96.1. This results in a mean of 95.7%.
+
+Question 2
+What is the standard deviation of the accuracy?
+0.60%
+0.65%
+0.73%
+0.74%
+---
+Correct answer(s):
+---
+Feedback correct:
+The random seeds generate the following raw accuracies: 96.0667, 96.2667, 94.4667, 95.6667, 96.1333. This results in a standard deviation of 0.7354%.
+(Note: you should divide by 4, not 5, otherwise you will get the smaller estimate of 0.66%. Technically, you are calculating the standard deviation of a “sample” rather than a “population”. If you are using Excel, use STDEV.S, not STDEV.P.)
+---
+Feedback incorrect:
+You should divide by 4, not 5, otherwise you get this smaller estimate.
+Technically, you are calculating the standard deviation of a “sample” rather than a “population”. If you are using Excel, use STDEV.S, not STDEV.P.
+---
+Feedback incorrect:
+The random seeds generate the following (rounded) accuracies: 96.1, 96.3, 94.5, 95.7, 96.1. This results in a standard deviation of 0.728%.
+However, you should really average the raw accuracies, not the rounded ones. That leads you to a slightly different answer …
+(Note: you should divide by 4, not 5, otherwise you will get the smaller estimate of 0.65%. Technically, you are calculating the standard deviation of a “sample” rather than a “population”. If you are using Excel, use STDEV.S, not STDEV.P.)
+
+Question 3
+When you performed the above experiment, how many times did Weka run the J48 algorithm?
+5
+6
+50
+55
+60
+---
+Correct answer(s):
+---
+Feedback correct:
+Each 10-fold cross-validation involves running J48 eleven times, once for each fold and once at the end, on the entire dataset. And Weka did this five times.
+
+Question 4
+With the same dataset, select Percentage split as the test option with 90% as the parameter. Evaluate J48 with the same seed values as before:
+11, 12, 13, 14, 15
+What is the mean of the accuracy?
+80.5%
+96.2%
+96.5%
+96.6%
+---
+Correct answer(s):
+---
+Feedback correct:
+The random seeds generated the following accuracies: 98.7, 95.3, 98.0, 96.0, 94.7. This results in a mean of 96.5%.
+
+Question 5
+What is the standard deviation of the accuracy?
+1.25%
+1.55%
+1.73%
+1.81%
+---
+Correct answer(s):
+---
+Feedback correct:
+The random seeds generated the following accuracies: 98.7, 95.3, 98.0, 96.0, 94.7. This results in a standard deviation of 1.73%.
+(Note: you should divide by 4, not 5, otherwise you will get the smaller estimate of 0.65%. Technically, you are calculating the standard deviation of a “sample” rather than a “population”. If you are using Excel, use STDEV.S, not STDEV.P.)
+---
+Feedback incorrect:
+You should divide by 4, not 5, otherwise you get this smaller estimate.
+Technically, you are calculating the standard deviation of a “sample” rather than a “population”. If you are using Excel, use STDEV.S, not STDEV.P.
+
+Question 6
+When you performed the above experiment, how many times did Weka run the J48 algorithm?
+5
+6
+10
+50
+55
+60
+---
+Correct answer(s):
+---
+Feedback correct:
+For each of the five runs Weka executes J48 twice, one on the 90% training set and again on the whole dataset (just as in cross-validation).
+---
+Feedback incorrect:
+Not quite correct. For each run Weka executes J48 twice, one on the 90% training set and again on the whole dataset (just as in cross-validation).

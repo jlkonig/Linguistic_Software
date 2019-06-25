@@ -1,0 +1,126 @@
+Processing images with different feature sets 
+Question 1
+From the the unsupervised/instance/imagefilter menu choose the GaborFilter, and apply it to vehicle_images.arff.
+Note: you will have to set the filter’s imageDirectory property so that Weka can find the images. In my case, I set it to /Users/ihw/wekafiles/packages/imageFilters/data/vehicle_images.
+How many features are extracted?
+59
+60
+61
+62
+---
+Correct answer(s):
+60
+---
+Feedback correct:
+There are 62 attributes, but filename and class are not features extracted by the filter
+---
+Feedback incorrect:
+This is the total number of attributes, but some of them are not features extracted by the filter
+
+Question 2
+Remove the filename attribute and run 10-fold cross-validation experiments on the filtered dataset using J48, Naive Bayes and SMO.
+Which classifier has the greatest accuracy?
+J48
+Naive Bayes
+SMO
+---
+Correct answer(s):
+Naive Bayes
+---
+Feedback correct:
+Naive Bayes gets an accuracy of 60%, which is greater than J48 (41.7%) and SMO (58.3%)
+---
+Feedback incorrect:
+J48 gets an accuracy of 41.7%
+---
+Feedback incorrect:
+SMO gets an accuracy of 58.3%
+
+Question 3
+Undo the changes to the dataset and repeat steps 1 and 2 using the ColorLayout filter.
+Which classifier has the greatest accuracy now? (It’s a tie: there are 2 correct answers, so check 2 boxes.)
+Select all the answers you think are correct.
+J48
+Naive Bayes
+SMO
+---
+Correct answer(s):
+Naive Bayes
+SMO
+---
+Feedback correct:
+Naive Bayes gets an accuracy of 72%
+SMO gets an accuracy of 72%
+---
+Feedback incorrect:
+J48 gets an accuracy of 58%
+---
+Feedback incorrect:
+Naive Bayes gets an accuracy of 72%
+---
+Feedback incorrect:
+SMO gets an accuracy of 72%
+
+Question 4
+Undo the changes again, and this time apply the EdgeHistogram and ColorLayout filters in sequence, so that the dataset contains both sets of features.
+Rerun your experiments. Which classifier has the greatest accuracy now?
+J48
+Naive Bayes
+SMO
+---
+Correct answer(s):
+SMO
+---
+Feedback correct:
+SMO gets an accuracy of 92%
+---
+Feedback incorrect:
+J48 gets an accuracy of 62%
+---
+Feedback incorrect:
+Naive Bayes gets an accuracy of 87%
+
+Question 5
+In the preceding question, which class has the fewest misclassifications when SMO is used?
+PLANE
+TRAIN
+CAR
+---
+Correct answer(s):
+TRAIN
+---
+Feedback correct:
+The TRAIN class has 1 misclassification; both the others have 2
+---
+Feedback incorrect:
+The PLANE class has 2 misclassifications
+---
+Feedback incorrect:
+The CAR class has 2 misclassifications
+
+Question 6
+With the EdgeHistogram/ColorLayout dataset still open, go to “Select Attributes” and use the InfoGainAttributeEval and Ranker combination to rank the attributes.
+One type of feature is clearly more useful. Which?
+color features
+edge features
+---
+Correct answer(s):
+edge features
+---
+Feedback correct:
+Edge Histogram features clearly dominate the top of the ranked list of attributes
+
+Question 7
+Look at the images in the dataset. Why are edge features clearly more useful than color features?
+color characterizes the appearance of the cars/planes/trains but there are few distinctive shapes or edges within each class
+edges characterize distinct shapes of the cars/planes/trains but there are few distinctive colors within each class
+---
+Correct answer(s):
+
+Question 7
+Look at the images in the dataset. Why are edge features clearly more useful than color features?
+color characterizes the appearance of the cars/planes/trains but there are few distinctive shapes or edges within each class
+edges characterize distinct shapes of the cars/planes/trains but there are few distinctive colors within each class
+---
+Correct answer(s):
+edges characterize distinct shapes of the cars/planes/trains but there are few distinctive colors within each class

@@ -1,0 +1,67 @@
+Comparing/VBG/compare/2 clusterers/NNS/clusterers/0 using/VBG/use/1 classification-by-clustering/NN/classification-by-clustering/0 
+Question/NN/question/1 1/CD/1/0 
+Are/NNP/be/1 there/EX/there/1 any/DT/any/1 significant/JJ/significant/3 differences/NNS/difference/1 (/(/(/0 at/IN/at/1 the/DT/the/1 default/NN/default/5 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 between/IN/between/1 SimpleKMeans/NNPS/simplekmeans/0 and/CC/and/1 EM/NNP/they/1 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+No/DT/no/1 v/NN/v/0 ’/VBZ/’/0 s/NN/be/1 or/CC/or/1 */VB/*/0 ’/JJ/’/0 s/NN/be/1 appear/VBP/appear/1 in/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 output/NN/output/3 when/WRB/when/1 you/PRP/you/1 perform/VBP/perform/2 the/DT/the/1 default/NN/default/5 test/NN/test/1 on/IN/on/1 the/DT/the/1 result/NN/result/2 of/IN/of/1 this/DT/this/1 experiment/NN/experiment/3 
+
+Question/NN/question/1 2/CD/2/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 SimpleKMeans/NNPS/simplekmeans/0 outperform/VB/outperform/10 EM/NNP/they/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+breast-cancer/NN/breast-cancer/0 
+credit-g/NN/credit-g/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+schizo/NN/schizo/23 
+vote/NN/vote/2 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+breast-cancer/NN/breast-cancer/0 
+diabetes/NNS/diabetes/4 
+schizo/NN/schizo/23 
+
+Question/NN/question/1 3/CD/3/0 
+Of/IN/of/1 these/DT/this/1 datasets/NNS/datasets/0 ,/,/,/0 XMeans/NNS/xmeans/0 can/MD/can/1 only/RB/only/1 process/VB/process/2 diabetes/NNS/diabetes/4 and/CC/and/1 ionosphere/RB/ionosphere/16 ,/,/,/0 because/IN/because/1 these/DT/this/1 are/VBP/be/1 the/DT/the/1 only/JJ/only/1 ones/NNS/one/1 whose/WP$/who/1 attributes/NNS/attribute/3 are/VBP/be/1 all/DT/all/1 numeric/JJ/numeric/5 ./././0 Delete/VB/delete/5 the/DT/the/1 other/JJ/other/1 4/CD/4/0 datasets/NNS/datasets/0 and/CC/and/1 add/VB/add/1 XMeans/NNS/xmeans/0 to/TO/to/1 the/DT/the/1 comparison/NN/compare/2 ,/,/,/0 again/RB/again/1 constraining/VBG/constrain/3 the/DT/the/1 number/NN/number/1 of/IN/of/1 clusters/NNS/cluster/3 to/TO/to/1 2/CD/2/0 ./././0 
+Are/NNP/be/1 there/EX/there/1 any/DT/any/1 significant/JJ/significant/3 differences/NNS/difference/1 (/(/(/0 at/IN/at/1 the/DT/the/1 default/NN/default/5 5/CD/5/0 %/NN/%/0 level/NN/level/1 )/)/)/0 between/IN/between/1 XMeans/NNS/xmeans/0 and/CC/and/1 the/DT/the/1 other/JJ/other/1 two/CD/two/1 clusterers/NNS/clusterers/0 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+No/DT/no/1 v/NN/v/0 ’/VBZ/’/0 s/NN/be/1 or/CC/or/1 */VB/*/0 ’/JJ/’/0 s/NN/be/1 appear/VBP/appear/1 in/IN/in/1 the/DT/the/1 Experimenter/NNP/experiment/3 output/NN/output/3 when/WRB/when/1 you/PRP/you/1 perform/VBP/perform/2 the/DT/the/1 default/NN/default/5 test/NN/test/1 on/IN/on/1 the/DT/the/1 result/NN/result/2 of/IN/of/1 this/DT/this/1 experiment/NN/experiment/3 
+
+Question/NN/question/1 4/CD/4/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 XMeans/NNS/xmeans/0 outperform/VB/outperform/10 SimpleKMeans/NNPS/simplekmeans/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+Question/NN/question/1 4/CD/4/0 
+For/IN/for/1 which/WDT/which/1 datasets/VBZ/datasets/0 does/VBZ/do/1 XMeans/NNS/xmeans/0 outperform/VB/outperform/10 SimpleKMeans/NNPS/simplekmeans/0 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+
+Question/NN/question/1 5/CD/5/0 
+For/IN/for/1 which/WDT/which/1 datasets/NNS/datasets/0 is/VBZ/be/1 XMeans/NNPS/xmeans/0 the/DT/the/1 best/JJS/best/1 of/IN/of/1 all/DT/all/1 ?/./?/0 
+Select/NNP/select/2 all/PDT/all/1 the/DT/the/1 answers/NNS/answer/1 you/PRP/you/1 think/VBP/think/1 are/VBP/be/1 correct/JJ/correct/2 ./././0 
+diabetes/NNS/diabetes/4 
+ionosphere/RB/ionosphere/16 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+diabetes/NNS/diabetes/4 
+
+

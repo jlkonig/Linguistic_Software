@@ -1,0 +1,3 @@
+Classifying tweets 
+Twitter is a vast, continuous, prolific, real time data stream. Sentiment analysis is the task of classifying tweets as positive or negative according to the feelings they express. Emoticons constitute “ground truth” that can serve as training data. Data sets are unbalanced, with far more positives than negatives (which, when you think about it, is a nice comment about the world in general). This presents an evaluation problem that can be addressed using the “Kappa” statistic, which measures the difference between a particular classifier and a random one that uses only the class distribution statistic.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

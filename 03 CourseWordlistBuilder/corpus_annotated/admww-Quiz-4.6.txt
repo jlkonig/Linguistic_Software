@@ -1,0 +1,80 @@
+ARFF/NNP/arff/0 headers/NNS/header/8 for/IN/for/1 Spark/NNP/spark/4 processing/NN/process/2 
+Question/NN/question/1 1/CD/1/0 
+Why/WRB/why/1 does/VBZ/do/1 Distributed/VBN/distribute/3 Weka/NNP/weka/23 operate/NN/operate/2 on/IN/on/1 CSV/NNP/csv/0 data/NNS/data/3 without/IN/without/1 a/DT/a/1 header/NN/header/8 row/NN/row/2 ?/./?/0 
+Because/IN/because/1 it/PRP/it/1 is/VBZ/be/1 the/DT/the/1 most/RBS/most/1 common/JJ/common/2 format/NN/format/3 for/IN/for/1 big/JJ/big/1 datasets/NNS/datasets/0 ./././0 
+Because/IN/because/1 it/PRP/it/1 is/VBZ/be/1 simpler/VBN/simple/1 to/TO/to/1 parse/VB/parse/9 than/IN/than/1 ARFF/NNP/arff/0 ./././0 
+Because/IN/because/1 Spark/NNP/spark/4 and/CC/and/1 Hadoop/NNP/hadoop/0 may/MD/may/1 split/VB/split/2 datasets/NNS/datasets/0 into/IN/into/1 blocks/NNS/block/2 ./././0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Because/IN/because/1 Spark/NNP/spark/4 and/CC/and/1 Hadoop/NNP/hadoop/0 may/MD/may/1 split/VB/split/2 datasets/NNS/datasets/0 into/IN/into/1 blocks/NNS/block/2 ./././0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 correct/NN/correct/2 :/:/:/0 
+Both/DT/both/1 Spark/NNP/spark/4 and/CC/and/1 Hadoop/NNP/hadoop/0 maintain/VBP/maintain/2 record/NN/record/1 integrity/NN/integrity/4 when/WRB/when/1 the/DT/the/1 data/NN/data/3 is/VBZ/be/1 distributed/VBN/distribute/3 across/IN/across/1 nodes/NNS/node/5 in/IN/in/1 a/DT/a/1 cluster/NN/cluster/3 ./././0 
+
+Question/NN/question/1 2/CD/2/0 
+Create/VB/create/2 a/DT/a/1 CSV/NNP/csv/0 version/NN/version/2 of/IN/of/1 the/DT/the/1 iris/NN/iris/8 data/NNS/data/3 ./././0 You/PRP/you/1 can/MD/can/1 do/VB/do/1 this/DT/this/1 in/IN/in/1 the/DT/the/1 KnowledgeFlow/NNP/knowledgeflow/0 interface/NN/interface/4 ./././0 
+First/RB/first/1 ,/,/,/0 make/VB/make/1 a/DT/a/1 Knowledge/NNP/knowledge/2 Flow/NNP/flow/2 that/WDT/that/1 contains/VBZ/contain/2 an/DT/a/1 ArffLoader/NNP/arffloader/0 connected/VBN/connect/2 by/IN/by/1 a/DT/a/1 dataSet/JJ/dataset/0 connection/NN/connect/2 to/TO/to/1 a/DT/a/1 CSVSaver/NNP/csvsaver/0 ./././0 Configure/VB/configure/4 the/DT/the/1 ArffLoader/NNP/arffloader/0 to/TO/to/1 open/VB/open/1 the/DT/the/1 iris/NN/iris/8 data/NNS/data/3 ./././0 Configure/VB/configure/4 the/DT/the/1 CSVSaver/NNP/csvsaver/0 by/IN/by/1 choosing/VBG/choose/1 a/DT/a/1 suitable/JJ/suit/1 directory/NN/directed/2 to/TO/to/1 save/VB/save/1 to/TO/to/1 ;/:/;/0 also/RB/also/1 set/VBP/set/1 noHeaderRow/NNS/noheaderrow/0 to/TO/to/1 True/NNP/true/1 ./././0 Run/VB/run/1 the/DT/the/1 flow/NN/flow/2 and/CC/and/1 verify/VB/verify/4 that/DT/that/1 iris.csv/NN/iris.csv/0 has/VBZ/have/1 been/VBN/be/1 created/VBN/create/2 ./././0 
+From/IN/from/1 the/DT/the/1 KnowledgeFlow/NNP/knowledgeflow/0 ’/NNP/’/0 s/NN/be/1 templates/NNS/template/7 menu/VBP/menu/3 ,/,/,/0 load/VBP/load/1 the/DT/the/1 “/JJ/“/0 Spark/NNP/spark/4 :/:/:/0 create/NN/create/2 an/DT/a/1 ARFF/NNP/arff/0 header/NN/header/8 ”/NNP/”/0 flow/NN/flow/2 ./././0 
+Double-click/NNP/double-click/0 the/DT/the/1 ArffHeaderSparkJob/NNP/arffheadersparkjob/0 and/CC/and/1 enter/VBP/enter/1 the/DT/the/1 pathname/NN/pathname/0 for/IN/for/1 the/DT/the/1 iris/JJ/iris/8 CSV/NNP/csv/0 file/NN/file/2 into/IN/into/1 the/DT/the/1 inputFile/JJ/inputfile/0 property/NN/property/2 of/IN/of/1 the/DT/the/1 Spark/NNP/spark/4 Configuration/NNP/configure/4 tab/NN/tab/6 ./././0 For/IN/for/1 example/NN/example/2 ,/,/,/0 if/IN/if/1 you/PRP/you/1 saved/VBD/save/1 iris.csv/NNS/iris.csv/0 to/TO/to/1 your/PRP$/you/1 desktop/NN/desktop/0 ,/,/,/0 set/VBN/set/1 inputFile/NN/inputfile/0 to/TO/to/1 $/$/$/0 {/(/{/0 user.home/JJ/user.home/0 }/)/}/0 /Desktop/iris.csv/NN//desktop/iris.csv/0 ./././0 Because/IN/because/1 the/DT/the/1 iris/NN/iris/8 data/NN/data/3 has/VBZ/have/1 only/RB/only/1 a/DT/a/1 few/JJ/few/1 attributes/NNS/attribute/3 ,/,/,/0 we/PRP/we/1 will/MD/will/1 forego/VB/forgo/6 the/DT/the/1 “/NNP/“/0 names/NNS/name/1 ”/VBP/”/0 file/NN/file/2 and/CC/and/1 enter/VBP/enter/1 the/DT/the/1 names/NNS/name/1 of/IN/of/1 the/DT/the/1 attributes/NNS/attribute/3 directly/RB/direct/2 ./././0 In/IN/in/1 the/DT/the/1 ArffHeaderSparkJob/NNP/arffheadersparkjob/0 tab/NN/tab/6 ,/,/,/0 set/VBD/set/1 the/DT/the/1 attributeNames/NNS/attributenames/0 property/NN/property/2 to/TO/to/1 sepallength/VB/sepallength/0 ,/,/,/0 sepalwidth/VB/sepalwidth/0 ,/,/,/0 petallength/NN/petallength/0 ,/,/,/0 petalwidth/NN/petalwidth/0 ,/,/,/0 class/NN/class/1 ;/:/;/0 and/CC/and/1 clear/VB/clear/1 the/DT/the/1 attributeNamesFile/JJ/attributenamesfile/0 property/NN/property/2 ./././0 Set/VB/set/1 the/DT/the/1 outputHeaderFileName/NN/outputheaderfilename/0 to/TO/to/1 iris.arff/VB/iris.arff/0 ./././0 
+Execute/VB/execute/3 the/DT/the/1 flow/NN/flow/2 and/CC/and/1 look/NN/look/1 at/IN/at/1 the/DT/the/1 resulting/VBG/result/2 ARFF/NNP/arff/0 header/NN/header/8 in/IN/in/1 the/DT/the/1 TextViewer/NNP/textviewer/0 ./././0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 mean/JJ/mean/1 value/NN/value/2 of/IN/of/1 sepallength/NN/sepallength/0 ?/./?/0 
+0.83/CD/0.83/0 
+3.05/CD/3.05/0 
+5.84/CD/5.84/0 
+150/CD/150/0 
+876/CD/876/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+5.84/CD/5.84/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 ,/,/,/0 not/RB/not/1 the/DT/the/1 mean/NN/mean/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 mean/NN/mean/1 of/IN/of/1 sepalwidth/NN/sepalwidth/0 ,/,/,/0 not/RB/not/1 sepallength/VB/sepallength/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 count/NN/count/1 ,/,/,/0 not/RB/not/1 the/DT/the/1 mean/NN/mean/1 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 sum/NN/sum/3 ,/,/,/0 not/RB/not/1 the/DT/the/1 mean/NN/mean/1 
+
+Question/NN/question/1 3/CD/3/0 
+What/WP/what/1 is/VBZ/be/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 of/IN/of/1 sepallength/NN/sepallength/0 ?/./?/0 
+0.43/CD/0.43/0 
+0.83/CD/0.83/0 
+5.84/CD/5.84/0 
+150/CD/150/0 
+876/CD/876/0 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+0.83/CD/0.83/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 of/IN/of/1 sepalwidth/NN/sepalwidth/0 ,/,/,/0 not/RB/not/1 sepallength/VB/sepallength/0 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 mean/NN/mean/1 ,/,/,/0 not/RB/not/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBP/be/1 the/DT/the/1 count/NN/count/1 ,/,/,/0 not/RB/not/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 
+--/:/--/0 -/:/-/0 
+Feedback/NN/feedback/0 incorrect/NN/correct/2 :/:/:/0 
+That/DT/that/1 ’/VBZ/’/0 s/VBZ/be/1 the/DT/the/1 sum/NN/sum/3 ,/,/,/0 not/RB/not/1 the/DT/the/1 standard/JJ/standard/2 deviation/NN/deviate/5 
+
+Question/NN/question/1 4/CD/4/0 
+Do/VB/do/1 these/DT/this/1 values/NNS/value/2 correspond/VBP/correspond/3 to/TO/to/1 what/WP/what/1 is/VBZ/be/1 displayed/VBN/display/3 when/WRB/when/1 the/DT/the/1 data/NN/data/3 is/VBZ/be/1 loaded/VBN/load/1 into/IN/into/1 the/DT/the/1 Explorer/NNP/explore/3 ’/NNP/’/0 s/VBD/be/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+Yes/UH/yes/1 
+
+Question/NN/question/1 4/CD/4/0 
+Do/VB/do/1 these/DT/this/1 values/NNS/value/2 correspond/VBP/correspond/3 to/TO/to/1 what/WP/what/1 is/VBZ/be/1 displayed/VBN/display/3 when/WRB/when/1 the/DT/the/1 data/NN/data/3 is/VBZ/be/1 loaded/VBN/load/1 into/IN/into/1 the/DT/the/1 Explorer/NNP/explore/3 ’/NNP/’/0 s/VBD/be/1 Preprocess/NNP/preprocess/0 panel/NN/panel/3 ?/./?/0 
+Yes/UH/yes/1 
+No/DT/no/1 
+--/:/--/0 -/:/-/0 
+Correct/NNP/correct/2 answer/NN/answer/1 (/(/(/0 s/JJ/be/1 )/)/)/0 :/:/:/0 
+
+

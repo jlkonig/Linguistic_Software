@@ -1,0 +1,15 @@
+More data mining applications
+Now we’ve got you thinking about possible data mining applications, we invite you to share your thoughts on other data mining/machine learning applications with fellow learners.
+Learning is as high as the mountains and as wide as the seas. (Chinese proverb)
+Just to get you started, what about …
+  Telecommunication industry
+  Manufacturing engineering
+  Fraud detection
+  Intrusion detection
+  Lie detection
+  Customer segmentation
+  Financial banking
+  Corporate surveillance
+  Research analysis
+  Bioinformatics
+  Scientific applications

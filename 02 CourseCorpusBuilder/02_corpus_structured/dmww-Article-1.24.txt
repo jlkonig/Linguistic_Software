@@ -1,0 +1,47 @@
+Index
+At the end of each week is an index of topics covered that week.
+A full index to the course appears under DOWNLOADS, below.
+      Topic
+      Step
+      Datasets
+      Anneal
+      1.20
+      Contact lens
+      1.11
+      Glass
+      1.15, 1.18, 1.19, 1.20
+      Iris
+      1.14, 1.16, 1.21, 1.22
+      Weather
+      1.10, 1.13
+      Classifiers
+      J48
+      1.17, 1.18, 1.20, 1.22
+      SimpleLogistic
+      1.22
+      Filters
+      AddClassification
+      1.21
+      Normalize
+      1.20
+      Remove
+      1.19
+      RemoveUseless
+      1.20
+      RemoveWithValues
+      1.19
+      Standardize
+      1.20
+      Plus …
+      Classify panel
+      1.17, 1.18
+      Preprocess panel
+      1.10, 1.11, 1.13, 1.14, 1.15, 1.16, 1.19
+      Reading CSV files
+      1.16
+      Visualize panel
+      1.21
+      Visualize predictions
+      1.22
+      Weka installation
+      1.7, 1.8, 1.9

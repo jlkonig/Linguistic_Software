@@ -1,0 +1,3 @@
+Using Naive Bayes and JRip
+There are many options when configuring a Distributed Weka job. The ArffHeaderSparkJob’s configuration panel has two tabs, Spark configuration, whose options relate to how the cluster is configured, including how many partitions to make from the data and the desired level of parallelism; and ArffHeaderSparkJob, which determines how Weka parses the CSV file containing the input data, including the names of attributes and the name of the header file that is created. Another Distributed Weka template is “Spark: train and save two classifiers”, which trains Naive Bayes and JRip classifiers from the same dataset.
+© University of Waikato, New Zealand. CC Creative Commons Attribution 4.0 International License.

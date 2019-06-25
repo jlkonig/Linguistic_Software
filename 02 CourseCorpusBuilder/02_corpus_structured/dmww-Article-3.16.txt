@@ -1,0 +1,48 @@
+Index
+(A full index to the course appears at the end of Week 1.)
+      Topic
+      Step
+      Datasets
+      Breast-cancer
+      3.11, 3.12, 3.14
+      Diabetes
+      3.4
+      Glass
+      3.5, 3.13, 3.14
+      Iris
+      3.3
+      Weather
+      3.2, 3.4, 3.5, 3.6, 3.9, 3.11
+      Classifiers
+      IBk
+      3.13, 3.14
+      J48
+      3.9, 3.10, 3.11, 3.12
+      NaiveBayes
+      3.6, 3.7
+      OneR
+      3.2, 3.3, 3.4, 3.5
+      Filters
+      AddNoise
+      3.14
+      Copy
+      3.7
+      Plus …
+      Baseline accuracy
+      3.3
+      Bayes theorem
+      3.6
+      Classify panel “More options”
+      3.10
+      Decision trees
+      3.9, 3.10, 3.11
+      Information gain
+      3.9
+      Output model
+      3.10
+      Output predictions
+      3.10
+      Overfitting
+      3.4, 3.5
+      Visualize predictions
+      3.10
